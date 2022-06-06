@@ -77,7 +77,7 @@
         <moduleRef key="tei"/>
         
         
-      <moduleRef key="linking" include="seg"/></schemaSpec>
+      <moduleRef key="linking" include="seg"/><elementSpec ident="gap" mode="change"><attList><attDef ident="reason" mode="change"><valList type="closed" mode="change"><valItem mode="add" ident="accidental"/></valList></attDef></attList></elementSpec></schemaSpec>
     </body>
   </text>
 </TEI>
