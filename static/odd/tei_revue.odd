@@ -77,7 +77,7 @@
         <moduleRef key="tei"/>
         
         
-      <moduleRef key="linking" include="seg"/><elementSpec ident="gap" mode="change"><attList><attDef ident="reason" mode="change"><valList type="closed" mode="change"><valItem mode="add" ident="accidental"/></valList></attDef></attList></elementSpec></schemaSpec>
+      <moduleRef key="linking" include="seg"/><elementSpec ident="gap" mode="change"><attList><attDef ident="reason" mode="change"><valList type="closed" mode="change"><valItem mode="add" ident="accidental"/></valList></attDef></attList></elementSpec><classRef key="att.global.facs"/></schemaSpec>
     </body>
   </text>
 </TEI>
