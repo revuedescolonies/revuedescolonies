@@ -1,11 +1,8 @@
-import { Link } from "gatsby"
 import React from "react"
 import Container from "@mui/material/Container"
 
-import Info from "./info"
 import Nav from "./nav"
 
-import titleImg from "../images/se-title.png"
 import banner from "../images/se-banner.jpg"
 import theme from "../theme"
 
@@ -20,19 +17,14 @@ interface Props {
   location: string
   siteTitle: string
   menuLinks: Links[]
-  doi: string
-  issue: {
-    short: string
-    path: string
-  }
 }
 
 // Styled components
 
 const Banner = styled.div(() => ({
   backgroundImage: `url(${banner})`,
-  backgroundPositionY: "-588px",
-  filter: "brightness(1.5) opacity(80%)",
+  backgroundPositionX: "-125px",
+  filter: "opacity(80%)",
   paddingBottom: "1.45rem",
 }))
 
@@ -41,43 +33,13 @@ const Wrapper = styled.header(() => ({
   marginBottom: "1.45rem",
 }))
 
-const Logo = styled.div(() => ({
-  padding: "1.45rem 0 0 0",
-  marginLeft: "-24px",
-  "& a": {
-    textDecoration: "none",
-  },
-  "& img": {
-    maxWidth: "300px",
-    padding: "10px 20px 15px 20px",
-  },
-}))
-
-const LogoBkgr = styled.span(() => ({
-  height: "109px",
-  position: "absolute",
-  backgroundColor: "#fff",
-  width: "200px",
-  top: "18px",
-  zIndex: -1,
-  filter: "opacity(.5)",
-}))
-
 // Main Component
 
-const Header = ({ location, menuLinks, doi, issue }: Props) => (
+const Header = ({ location, menuLinks }: Props) => (
     <Wrapper>
       <Banner>
-        <Container maxWidth="md">
-          <Logo>
-            <Link to="/">
-              <LogoBkgr />
-              <img src={titleImg} alt="Scholarly Editing Logo" width={200} />
-            </Link>
-          </Logo>
-        </Container>
+        <div style={{height:'150px'}}>{" "}</div>
       </Banner>
-      <Info doi={doi} issue={issue}/>
       <Nav location={location} menuLinks={menuLinks} />
     </Wrapper>
 )

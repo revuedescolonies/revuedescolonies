@@ -37,11 +37,6 @@ const Layout = ({ location, children }: Props) => {
       site {
         siteMetadata {
           title
-          doi
-          issue {
-            short
-            path
-          }
           repository
           menuLinks {
             name
@@ -52,7 +47,7 @@ const Layout = ({ location, children }: Props) => {
     }
   `)
   
-  const {repository, title, menuLinks, doi, issue} = data.site.siteMetadata
+  const {repository, title, menuLinks} = data.site.siteMetadata
 
   let footer = <Footer repository={repository}/>
   if (location === "example") {
@@ -64,11 +59,9 @@ const Layout = ({ location, children }: Props) => {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Header
-          issue={issue}
           location={location || ''}
           siteTitle={title}
           menuLinks={menuLinks}
-          doi={doi}
         />
         <Main>{children}</Main>
         {footer}

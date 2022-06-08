@@ -3,9 +3,11 @@ import Grid from "@mui/material/Grid"
 import Container from "@mui/material/Container"
 import { Box } from "@mui/material"
 
+import umd from "../images/umd-logo.png"
+
 const styles = {
   footer: {
-    backgroundColor: "#efefef",
+    backgroundColor: "#f6f4f2",
     padding: "1rem 0",
     borderTop: "1px solid #dadada",
     fontSize: "1rem"
@@ -43,14 +45,14 @@ const Footer = ({repository} : Props) => (
             International License
           </a>
           . 
-          <br /> The open source code for this micro-edition is available at <a href={repository}>{repository}</a>.
-          <br /> © {new Date().getFullYear()} Scholarly Editing.
-          <br /> ISSN 2167-1257 | DOI <a href="https://doi.org/10.55520/6ZH06EW2">10.55520/6ZH06EW2</a>
+          <br /> The open source code for this edition is available at <a href={repository}>{repository}</a>.
+          <br /> © {new Date().getFullYear()} University of Maryland.
         </Grid>
         <Grid item={true} xs={3} sx={styles.logo}>
           <a href="http://www.documentaryediting.org">
             <img
-              src="https://scholarlyediting.reclaim.hosting/se-archive/template_images/adelogo.png"
+              width={150}
+              src={`${umd}`}
               alt="Logo of the Association for Documentary Editing"
             />
           </a>

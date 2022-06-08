@@ -1,38 +1,40 @@
+const path = require(`path`)
+
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
-  await makeIntroduction(createPage, reporter, graphql)
+  await makePages(createPage, graphql)
 }
 
-async function makeIntroduction(createPage, reporter, graphql) {
-  const component = require.resolve(`./src/templates/introduction.tsx`)
+async function makePages(createPage, graphql) {
+  const pageTemplate = path.resolve(`src/templates/pages.tsx`)
 
   const result = await graphql(`
     query {
-      allMarkdownRemark {
-        edges {
-          node {
-            html
+      allFile(
+        filter: {sourceInstanceName: {eq: "pages"}}
+      ) {
+        nodes {
+          childMarkdownRemark {
             frontmatter {
-              path
-              title
-            }
+                path
+              }
           }
+          mtime
         }
       }
-    }
+    }    
   `)
   if (result.errors) {
     reporter.panicOnBuild(`Error while running GraphQL query.`)
     return
   }
-  result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+  result.data.allFile.nodes.forEach((node) => {
     createPage({
-      path: node.frontmatter.path,
-      component,
+      path: node.childMarkdownRemark.frontmatter.path,
+      component: pageTemplate,
       context: {
-        html: node.html,
-        title: node.frontmatter.title
-      }
-    })   
+        modifiedTime: node.mtime
+      },
+    })
   })
 }

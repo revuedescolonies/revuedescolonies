@@ -26,9 +26,6 @@ const SEO = ({ description, lang, meta, title }: Props) => {
       query {
         site {
           siteMetadata {
-            issue {
-              full
-            }
             title
             description
             authors {
@@ -42,7 +39,7 @@ const SEO = ({ description, lang, meta, title }: Props) => {
   )
 
   const metaDescription = description || site.siteMetadata.description
-  const fullTitle = `${title} | ${site.siteMetadata.title} | ${site.siteMetadata.issue.full} | Scholarly Editing` 
+  const fullTitle = `${title} | ${site.siteMetadata.title}` 
 
   return (
     <Helmet
@@ -85,9 +82,8 @@ const SEO = ({ description, lang, meta, title }: Props) => {
         },
       ].concat(meta || [])}
     >
-      <link
-        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap"
-        rel="stylesheet"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin=""/>
+      <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet"/>
       <Box component="body" sx={styles.Body} />
     </Helmet>
   )

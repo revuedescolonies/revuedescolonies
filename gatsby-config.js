@@ -1,36 +1,42 @@
 const basePath = process.env.BASEPATH
-const title = "Micro-Edition Template"
-const htmlTitle = "Micro-Edition <em>Template</em>"
+const title = "Revue des Colonies"
+const htmlTitle = title
 
 module.exports = {
   pathPrefix: basePath,
   siteMetadata: {
-    issue: {
-      full: "Example Volume",
-      short: "Vol XX",
-      path: "path"
-    },
-    doi: '10.55520/FAKE',
-    group_order: 1, // Oder of this micro-edition in the volume's micro-edition section.
     title,
     htmlTitle,
-    description: `A Scholarly Editing micro-edition. ${title}. Edited by AUTHORS.`,
+    description: `Digital Edition of Revue des Colonies`,
     authors: [
       {
-        "first": "First",
-        "middle": "M. N.",
-        "last": "Last",
+        "first": "Maria",
+        "middle": "",
+        "last": "Beliaeva Solomon",
         "affiliations": [
-          "Institution"
+          "University of Maryland"
+        ],
+        orcid:"0000-0000-0000-0000"
+      },
+      {
+        "first": "Raffaele",
+        "middle": "",
+        "last": "Viglianti",
+        "affiliations": [
+          "University of Maryland"
         ],
         orcid:"0000-0000-0000-0000"
       }
     ],
-    repository: "https://gitlab.com/scholarly-editing/se-microedition-template",
+    repository: "https://github.com/mashabelsol/revuedescolonies",
     menuLinks: [
       {
-        name: 'introduction',
+        name: 'home',
         link: '/'
+      },
+      {
+        name: 'about',
+        link: '/about'
       },
       {
         name: 'edition',
@@ -60,8 +66,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `introduction`,
-        path: `src/introduction`,
+        name: `pages`,
+        path: `${__dirname}/src/contents`,
       },
     },
     `gatsby-transformer-remark`,

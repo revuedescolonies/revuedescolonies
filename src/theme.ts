@@ -17,13 +17,13 @@ declare module '@mui/material/Button' {
   }
 }
 
-const mainColor = "#dc3522"
+const mainColor = "#002654"
 
 // A custom theme for CETEIcean
 // It is not intended to be comprehensive; add further rules as needed.
 const theme = createTheme({
   typography: {
-    fontFamily: "EB Garamond, Serif",
+    fontFamily: "'PT Serif', serif",
     body1: {
       fontSize: "1.25rem",
       paddingBottom: "1.25rem",
@@ -103,7 +103,7 @@ const theme = createTheme({
       main: mainColor,
     },
     secondary: {
-      main: "#fbebda",
+      main: "#E3DCD4",
     },
     background: {
       default: "#fff",
