@@ -23,7 +23,7 @@
             <lb/>RECUEIL MENSUEL
             <lb/>DE LA POLITIQUE, DE L'ADMINISTRATION, DE LA JUSTICE, DE<lb/>
                 L'INSTRUCTION ET DES MOEURS COLONIALES,
-            <lb/> PAR UNE SOCIÉTÉ D'HOMMES DE COULEUR
+            <lb/> PAR UNE <orgName ref="SHC">SOCIÉTÉ D'HOMMES DE COULEUR</orgName>
             <lb/> DIRIGÉE PAR C.-A. BISSETTE.<lb/>
             <lb/>N°1<lb/>Juillet.<lb/>
             <lb/> PARIS,<lb/> AU BUREAU DE LA REVUE DES COLONIES, <lb/> 46, RUE NEUVE-SAINT-EUSTACHE <lb/> 1834.<lb/>
@@ -99,38 +99,86 @@
    <div> 
     <head>DÉCLARATION DE PRINCIPES.</head>
     <p>
-    La <title>Revue des Colonies</title> croit devoir, avant tout, indiquer d'après quels principes elle jugera les hommes et les choses. 
-    Selon elle, 89, dans l'immortelle <title>Déclaration des Droits</title> que vota <orgName>l'Assemblée Nationale</orgName>, posa les 
-    bases à venir de toutes les institutions vraiment démocratiques; c'est pourquoi nous inscrivons cette Déclaration en tête de ce recueil: 
-    ce sont là les tables de notre loi.
+    La <title>Revue des Colonies</title> croit devoir, avant tout, indiquer d'après quels principes elle jugera les hommes et 
+    les choses. Selon elle, 89, dans l'immortelle <title>Déclaration des Droits</title> que vota <orgName>l'Assemblée Nationale</orgName>,
+    posa les bases à venir de toutes les institutions vraiment démocratiques; c'est pourquoi nous inscrivons cette Déclaration en tête 
+    de ce recueil: ce sont là les tables de notre loi.
     </p>
         <epigraph><cit>
-    <quote>Les Droits de l'Homme étaient méconnus, insultés depuis des siècles; ils ont été rétablis pour l'humanité entière dans cette Déclaration, 
-    qui sera à jamais le cri de ralliement contre les oppresseurs, et la loi des légis lateurs eux-mêmes. </quote><bibl>(Adresse de<orgName> l'Assemblée 
-    Nationale</orgName> aux Français, 11 février 1790.)</bibl> 
+    <quote>Les Droits de l'Homme étaient méconnus, insultés depuis des siècles; ils ont été rétablis pour l'humanité entière dans 
+    cette Déclaration, qui sera à jamais le cri de ralliement contre les oppresseurs, et la loi des légis lateurs eux-mêmes. 
+    </quote><bibl>(Adresse de<orgName> l'Assemblée Nationale</orgName> aux Français, 11 février 1790.)</bibl> 
         </cit></epigraph>
    </div>
-   <div><head>Extrait</head>
+   <div>
+   
+    <head>Extrait</head>
     <head>DES PROCES-VERBAUX DE <orgName>L'ASSEMBLÉE NATIONALE</orgName> DES 20, 21, 22, 23, 24, 26 AOUT ET 1er OCTOBRE 1789 </head>
     <head>DÉCLARATION DES DROITS DE L'HOMME EN SOCIÉTÉ.</head>
     <quote>
     <p>
-    Les représentans du peuple français, constitués en <orgName>Assemblée Nationale</orgName>, considérant que l'ignorance, l'oubli ou 
-    le mépris des droits de l'homme sont les seules causes des malheurs publics et de la corruption des gouvernemens, ont résolu d'exposer 
-    dans une déclaration solennelle les droits naturels, inaliénables et sacrés de l'homme, afin que cette déclaration, constamment présente 
-    à tous les membres du corps social, leur rappelle sans cesse leurs droits et leurs devoirs, afin que les actes du pouvoir législatif et 
-    ceux du pouvoir exécutif, pouvant être à chaque instant comparés avec le but de toute institution politique, en soient plus respectés; 
-    afin que les réclamations des citoyens, fondées désormais sur des principes simples et incontestables, tournent toujours au maintien de la 
-    constitution et au bonheur de tous.
+    Les représentans du peuple français, constitués en <orgName>Assemblée Nationale</orgName>, considérant que l'ignorance, 
+    l'oubli ou le mépris des droits de l'homme sont les seules causes des malheurs publics et de la corruption des gouvernemens, 
+    ont résolu d'exposer dans une déclaration solennelle les droits naturels, inaliénables et sacrés de l'homme, afin que cette déclaration,
+    constamment présente à tous les membres du corps social, leur rappelle sans cesse leurs droits et leurs devoirs, afin que les actes du 
+    pouvoir législatif et ceux du pouvoir exécutif, pouvant être à chaque instant comparés avec le but de toute institution politique, 
+    en soient plus respectés; afin que les réclamations des citoyens, fondées désormais sur des principes simples et incontestables, 
+    tournent toujours au maintien de la constitution et au bonheur de tous.
     </p>
-    <pb n="6" />
+    <pb n="6"/>
     <p>
-    En conséquence, <orgName>l'Assemblée Nationale</orgName> reconnaît et déclare, en présence et sous les auspices de l'Etre-Suprême, les droits suivans de 
-    l'homme et du citoyen.
+    En conséquence, <orgName>l'Assemblée Nationale</orgName> reconnaît et déclare, en présence et sous les auspices de l'Etre-Suprême, les 
+    droits suivans de l'homme et du citoyen.
     </p>
     <p>
     Article 1er. - Les hommes naissent et demeurent libres et égaux en droits. Les distinctions sociales ne peuvent être fondées que sur
     l'utilité commune.</p>
+    <p>2.- Le but de toute association politique est la conservation des droits naturels et imprescriptibles de l'homme. Ces droits sont 
+    la liberté, la propriété, la sûreté et la résistance à l'oppression.</p>
+    <p>3.- Le principe de toute souveraineté réside essentiellement dans la nation. Nul corps, nul individu ne peut exercer d'autorité qui 
+    n'en émane expressément.</p>
+    <p>4.- La liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui; ainsi l'exercice des droits naturels de chaque homme n'a de 
+    bornes que celle qui assurent aux autres membres de la société la jouissance de ces mêmes droits. Ces bornes ne peuvent être déterminées 
+    que par la loi.</p>
+    <p><gap reason="accidental" unit="number" extent="1" /><supplied>5.-</supplied> La loi n'a le droit de défendre que les actions nuisibles 
+    à la société. Tout ce qui n'est pas défendu par la loi ne peut être empêché, et nul ne peut être contraint à faire ce qu'elle n'ordonne pas.</p>
+    <p><choice><sic>5.-</sic><corr>6.-</corr></choice> La loi est l'expression de la volonté générale. Tous les citoyens ont droit de concourir 
+    personnellement ou par leurs representans à sa formation. Elle doit être la même pour tous, soit qu'elle protége, soit qu'elle punisse. 
+    Tous les citoyens étant égaux à ses yeux sont également admissibles à toutes dignités, places, emplois publics, selon leur capacité et 
+    sans autre distinction que celle de leurs vertus et de leurs talens.</p>
+    <p>7.- Nul homme ne peut être accusé, arrêté ni détenu que dans les cas déterminés par la loi et selon les formes qu'elle a prescrites. 
+    Ceux qui sollicitent, expédient, exécutent ou font exécuter des ordres arbitraires doivent être punis; mais tout citoyen appelé ou saisi, 
+    en vertu de la loi, doit obéir à l'instant; il se rend coupable par la résistance.</p>
+    <p>8.- La loi ne doit établir que des peines strictement et évidemment nécessaires, et nul ne peut être puni qu'en vertu d'une loi établie 
+    et promulguée antérieurement au délit et légalement appliquée.</p>
+    <p>9.- Tout homme étant présumé innocent jusqu'à ce qu'il ait <pb n="7"/>été déclaré coupable, s'il est jugé indispensable de l'arrêter, 
+    toute rigueur qui ne serait pas nécessaire pour s'assurer de sa personne doit être sévèrement réprimée par la loi.</p>
+    <p>10.- Nul ne doit être inquiété pour ses opinions, même religieuses, pourvu que leur manifestation ne trouble pas l'ordre public établi par 
+    la loi. </p>
+    <p>11.- La libre communication des pensées et des opinions est un des droits les plus précieux de l'homme : tout citoyen peut donc parler, 
+    écrire, imprimer librement, sauf à répondre de l'abus de cette liberté, dans les cas déterminés par la loi.</p>
+    <p>12.- La garantie des droits de l'homme et du citoyen nécessite une force publique : cette force est donc instituée pour l'avantage de 
+    tous, et non pour l'utilité particulière de ceux auxquels elle est cofiée.</p>
+    <p>13.- Pour l'entretien de la force publique, et pour les dépenses d'administration, une contribution commune est indispensable. Elle doit 
+    être également répartie entre tous les citoyens, en raison de leurs facultés. </p>
+    <p>14.- Tous les citoyens ont le droit de constater par eux-mêmes ou par leurs représentans la nécessité de la contribution publique, de la 
+    consentir librement, d'en suivre l'emploi et d'en déterminer la quotité, l'assiette, le recouvrement et la durée.</p>
+    <p>15.- La société a le droit de demander compte à tout agent public de son administration.</p>
+    <p>16.- Toute Société dans laquelle la garantie des droits n'est pas assurée, ni la séparation des pouvoirs déterminée, n'a point de constitution.</p>
+    <p>17. Les propriétés étant un droit inviolable et sacré, nul ne peut en être privé, si ce n'est lorsque la nécessité publique, légalement 
+    constatée, l'exige évidemment, et sous la condition d'une juste et préalable indemnité. </p>
+    Extrait du procès-verbal de l'assemblée nationale, du jeudi
+    <p>1 octobre 1789. 
+    Collationné conforme à l'original. <lb/>
+    Signé MOUNIER, président; le vicomte DE MIRABEAU, DEMEUNIER, BUREAU DE Pusy, l'évêque DE NANCY, FAYDEL, l'abbé d’EYMAR, secrétaires</p>.
+
+
+
+
+
+
+
+
     </quote>
     </div>
    </body>

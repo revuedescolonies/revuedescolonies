@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-06-08T20:37:58Z. .
+Schema generated from ODD source 2022-06-21T16:01:32Z. .
 TEI Edition: Version 4.4.0. Last updated on
         19th April 2022, revision ff9cc28b0
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0/
@@ -821,6 +821,7 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
       <ref name="tei_att.global.rendition.attributes"/>
       <ref name="tei_att.global.linking.attributes"/>
       <ref name="tei_att.global.facs.attributes"/>
+      <ref name="tei_att.global.change.attributes"/>
       <ref name="tei_att.global.responsibility.attributes"/>
       <ref name="tei_att.global.source.attributes"/>
       <ref name="tei_att.global.attribute.xmlid"/>
@@ -1900,6 +1901,7 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
          <ref name="tei_add"/>
          <ref name="tei_del"/>
          <ref name="tei_unclear"/>
+         <ref name="tei_supplied"/>
       </choice>
    </define>
    <define name="tei_model.pPart.transcriptional_alternation">
@@ -1911,6 +1913,7 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
          <ref name="tei_add"/>
          <ref name="tei_del"/>
          <ref name="tei_unclear"/>
+         <ref name="tei_supplied"/>
       </choice>
    </define>
    <define name="tei_model.pPart.transcriptional_sequence">
@@ -1921,6 +1924,7 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
       <ref name="tei_add"/>
       <ref name="tei_del"/>
       <ref name="tei_unclear"/>
+      <ref name="tei_supplied"/>
    </define>
    <define name="tei_model.pPart.transcriptional_sequenceOptional">
       <optional>
@@ -1943,6 +1947,9 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
       </optional>
       <optional>
          <ref name="tei_unclear"/>
+      </optional>
+      <optional>
+         <ref name="tei_supplied"/>
       </optional>
    </define>
    <define name="tei_model.pPart.transcriptional_sequenceOptionalRepeatable">
@@ -1967,6 +1974,9 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
       <zeroOrMore>
          <ref name="tei_unclear"/>
       </zeroOrMore>
+      <zeroOrMore>
+         <ref name="tei_supplied"/>
+      </zeroOrMore>
    </define>
    <define name="tei_model.pPart.transcriptional_sequenceRepeatable">
       <oneOrMore>
@@ -1989,6 +1999,9 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
       </oneOrMore>
       <oneOrMore>
          <ref name="tei_unclear"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_supplied"/>
       </oneOrMore>
    </define>
    <define name="tei_model.pPart.edit">
@@ -2841,6 +2854,7 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
          <ref name="tei_abbr"/>
          <ref name="tei_expan"/>
          <ref name="tei_seg"/>
+         <ref name="tei_supplied"/>
       </choice>
    </define>
    <define name="tei_model.imprintPart">
@@ -3683,7 +3697,9 @@ Sample values include: 1] rubbing (rubbing); 2] mildew (mildew); 3] smoke (smoke
             <optional>
                <ref name="tei_model.descLike"/>
             </optional>
-      
+            <optional>
+               <ref name="tei_supplied"/>
+            </optional>
          </group>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.dimensions.attributes"/>
@@ -5428,8 +5444,25 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.datable.attributes"/>
          <ref name="tei_att.editLike.attributes"/>
-         <ref name="tei_att.personal.attributes"/>
+         <ref name="tei_att.personal.attribute.full"/>
+         <ref name="tei_att.personal.attribute.sort"/>
+         <ref name="tei_att.naming.attribute.role"/>
+         <ref name="tei_att.naming.attribute.nymRef"/>
+         <ref name="tei_att.canonical.attribute.key"/>
          <ref name="tei_att.typed.attributes"/>
+         <optional>
+            <attribute name="ref">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference) provides an explicit means of locating a full definition or identity for the entity being named by means of one or more URIs.</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <choice>
+                        <value>SHC</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                     </choice>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>
@@ -8108,6 +8141,45 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
          <ref name="tei_att.typed.attributes"/>
          <ref name="tei_att.written.attributes"/>
          <ref name="tei_att.notated.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_att.global.change.attributes">
+      <ref name="tei_att.global.change.attribute.change"/>
+   </define>
+   <define name="tei_att.global.change.attribute.change">
+      <optional>
+         <attribute name="change">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to one or more <code xmlns="http://www.w3.org/1999/xhtml">&lt;change&gt;</code> elements documenting a state or revision campaign to which the element bearing this attribute and its children have been assigned by the encoder.</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI">
+                     <param name="pattern">\S+</param>
+                  </data>
+               </oneOrMore>
+            </list>
+         </attribute>
+      </optional>
+   </define>
+   <define name="tei_supplied">
+      <element name="supplied">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(supplied) signifies text supplied by the transcriber or editor for any reason; for example because the original cannot be read due to physical damage, or because of an obvious omission by the author or scribe. [11.3.3.1. Damage, Illegibility, and Supplied Text]</a:documentation>
+         <ref name="tei_macro.paraContent"/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.editLike.attributes"/>
+         <ref name="tei_att.dimensions.attributes"/>
+         <optional>
+            <attribute name="reason">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">one or more words indicating why the text has had to be supplied, e.g. overbinding, faded-ink, lost-folio, omitted-in-original.</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <data type="token">
+                        <param name="pattern">[^\p{C}\p{Z}]+</param>
+                     </data>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>

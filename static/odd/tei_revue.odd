@@ -77,7 +77,7 @@
         <moduleRef key="tei"/>
         
         
-      <moduleRef key="linking" include="seg"/><elementSpec ident="gap" mode="change"><attList><attDef ident="reason" mode="change"><valList type="closed" mode="change"><valItem mode="add" ident="accidental"/></valList></attDef></attList></elementSpec><classRef key="att.global.facs"/></schemaSpec>
+      <moduleRef key="linking" include="seg"/><elementSpec ident="gap" mode="change"><attList><attDef ident="reason" mode="change"><valList type="closed" mode="change"><valItem mode="add" ident="accidental"/></valList></attDef></attList></elementSpec><classRef key="att.global.facs"/><elementSpec ident="orgName" mode="change"><attList><attDef ident="ref" mode="change"><valList type="closed" mode="change"><valItem mode="add" ident="SHC"><desc versionDate="2022-06-20" xml:lang="en"/></valItem></valList></attDef></attList></elementSpec><moduleRef key="transcr" include="supplied"/></schemaSpec>
     </body>
   </text>
 </TEI>
