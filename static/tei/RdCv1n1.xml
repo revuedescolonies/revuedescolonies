@@ -23,7 +23,7 @@
             <lb/>RECUEIL MENSUEL
             <lb/>DE LA POLITIQUE, DE L'ADMINISTRATION, DE LA JUSTICE, DE<lb/>
                 L'INSTRUCTION ET DES MOEURS COLONIALES,
-            <lb/> PAR UNE <orgName ref="SHC">SOCIÉTÉ D'HOMMES DE COULEUR</orgName>
+            <lb/> PAR UNE <orgName ref="#SHC">SOCIÉTÉ D'HOMMES DE COULEUR</orgName>
             <lb/> DIRIGÉE PAR C.-A. BISSETTE.<lb/>
             <lb/>N°1<lb/>Juillet.<lb/>
             <lb/> PARIS,<lb/> AU BUREAU DE LA REVUE DES COLONIES, <lb/> 46, RUE NEUVE-SAINT-EUSTACHE <lb/> 1834.<lb/>
@@ -42,7 +42,7 @@
       Pour stimuler cette volonté molle de faire le bien, à laquelle se bornent nos gouvernans, il est 
       nécessaire de grouper en faisceau les réclamations justes qui s'élèvent de toutes parts. Ces 
       réclamations, ces griefs, pour avoir du succès, doivent recevoir la plus grande publicité : 
-      c'est l'objet de notre <bibl type="journal"><title ref="#RdC">Revue</title></bibl>
+      c'est l'objet de notre <bibl type="periodical"><title ref="#RdC">Revue</title></bibl>
       </p>
       <p> 
       La tribune ne peut plus suffire <emph>aujourd'hui</emph>; les pétitions sont ajournées par la négligence 
@@ -54,7 +54,7 @@
       quelles qu'elles soient, qui entravent la fusion désirable des populations diverses des colonies.
       </p>
       <p>
-      A cet effet, un journal spécial est créé sous le titre de <bibl type="journal"><title ref="#RdC">
+      A cet effet, un journal spécial est créé sous le titre de <bibl type="periodical"><title ref="#RdC">
       Revue des Colonies</title></bibl>, et <persName ref="#CB">M. Bissette</persName> en a la direction.
       </p>
       <pb/>
