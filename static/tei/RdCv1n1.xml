@@ -60,13 +60,13 @@
       <pb/>
       <p>
       Ce journal n'est pas seulement consacré à tout ce qui concerne les colonies, considérées comme source de nouvelles 
-      et de faits. curieux propres à amuser les loisirs du lecteur, mais il se voue en entier aux intérêts politiques, 
+      et de faits curieux propres à amuser les loisirs du lecteur, mais il se voue en entier aux intérêts politiques, 
       intellectuels, moraux et industriels des colons de l'une et l'autre couleur.
       </p>
       <p> 
       Rien de ce qui concerne les colonies françaises particulièrement ne sera omis dans cette publication mensuelle. 
       Le gouvernement, l'administration, la justice y seront examinés sous le double rapport de leurs actes et de leur 
-      personnel; car de celui-ci dépend trop souvent l'esprit et la tendance qui oppriment les populations on préparent 
+      personnel; car de celui-ci dépend trop souvent l'esprit et la tendance qui oppriment les populations ou préparent 
       leur bien-être.
       </p>
       <p>
@@ -79,7 +79,7 @@
       </p>
       <p>
       L'arbitraire, la partialité y seront traduits sans aucune acception de personnes devant le tribunal de l'opinion 
-      publique. Le faible y trouvera appui et protection, l'oppresseur, châtiment, le fonction naire, bláme mérité de 
+      publique. Le faible y trouvera appui et protection, l'oppresseur, châtiment, le fonctionnaire, bláme mérité de 
       ses actes illégaux, mais respect pour sa personne.
       </p>
       <p>
@@ -189,7 +189,7 @@
     </div>
     <div>
     <head>COUP D'OEIL SUR LE RÉGIME COLONIAL ET SES EFFETS.</head>
-    <p>Tous les journaux ont retenti des déplorables événemens de la Grand'Anse, <placeName ref="#MQ">Martinique</placeName>. Les uns, inspirés 
+    <p>Tous les journaux ont retenti des déplorables <rs type="affaire" ref="#GA">événemens de la Grand'Anse</rs>, <placeName ref="#MQ">Martinique</placeName>. Les uns, inspirés 
     par le pouvoir, aux yeux duquel tout ce qui est émancipation devient un objet de terreur, ont présenté cette affaire sous un aspect défavorable
     à des hommes qui se sont bornés à résister à l'oppression. D'autres, plus bienveillans, plus impartiaux surtout, se sont bien gardés de porter 
     un jugement anticipé sur une affaire de cette nature: ils savaient que la passion exagère le mal comme le bien, et qu'il ne faut point
@@ -217,13 +217,13 @@
     donc aux colonies ce qui s'y trouve encore aujourd'hui, une absurde aristocratie cramponnée à ses priviléges et prête à commettre 
     tous les excès pour les conserver, et d'un autre côté une population pleine de sève, d'énergie, commençant à comprendre ses 
     droits et sa dignité. </p>
-   <p> Telle était donc la position des colonies lorsque la révolution de juillet, si riche d'avenir, fit croire un moment au réveil 
+   <p> Telle était donc la position des colonies lorsque <rs type="event" ref="#RJ">la révolution de juillet</rs>, si riche d'avenir, fit croire un moment au réveil 
    de la France. Le nouveau gouvernement, entraîné, malgré lui sans doute, par la force des circonstances, n'osant pas soulever 
    le voile qui cachait ses arrières-pensées, se courbant enfin devant l'opinion publique qui venait d'avoir quelque retentissement, 
    effaça le mot <emph>réglemens</emph> de l'article de <bibl type="legal"><title ref="#C33">la charte concernant les colonies</title></bibl>. 
    Il déclara qu'elles seraient régies par des <emph>lois</emph> particulières. Cette reconnaissance tacite des abus de toutes sortes, dont 
    le régime des ordonnances est la source impure, fit concevoir d'heureuses espérances aux hommes qui peuvent encore ajouter quelque 
-   foi à des promesses de ministres. C'est qu'ils ne croyaient pas qu'un gouvernement né de la démocratie pât si promptement oublier 
+   foi à des promesses de ministres. C'est qu'ils ne croyaient pas qu'un gouvernement né de la démocratie pût si promptement oublier 
    son origine; ils ne réfléchissaient pas que la conservation des titres de noblesse, d'une soi-disant chambre haute, et surtout 
    d'une liste civile exagérée étaient des jalons posés par le pouvoir naissant pour se constituer sur des bases analogues à celui 
    que le bras populaire venait d'écraser. La conservation de la noblesse titrée dans la mère-patrie, l'adjonction qu'on lui faisait 
@@ -235,7 +235,7 @@
    des blancs et des hommes de couleur, n'est-elle pas une ceuvre de perfide déception? A <placeName ref="#BrB">l'ile de Bourbon</placeName> 
    et de <placeName ref="#Cay">Cayenne</placeName>, où les blancs sont en grande majorité, le cens électoral et l'éligibilité sont fixés 
    à un taux moins élevé, car il n'y a point à craindre de concurrence; mais dans les colonies de la <placeName ref="#GP">Guadeloupe
-   </placeName> et de la Martinique, où la population de couleur, très nombreuse, possède une fortune <pb n="11"/>moyenne, on prend 
+   </placeName> et de la <placeName ref="#MQ">Martinique</placeName>, où la population de couleur, très nombreuse, possède une fortune <pb n="11"/>moyenne, on prend 
    la précaution d'élever le cens de manière qu'elle ne puisse y atteindre. Est-il rien de plus perfide, je dirai même de plus 
    odieusement ironique que de concéder ainsi le droit en interdisant les moyens. N'eût-il pas été plus vrai de déclarer franchement 
    que les blancs seuls seraient électeurs?</p>
@@ -272,7 +272,7 @@
    <p>Quel était donc le moyen dont pouvaient se servir les privilégiés pour reconquérir l'intégrité de leurs priviléges? 
    Les demander au gouvernement était chose impossible, on leur eût répondu d'attendre tout du temps; que l'on n'avait 
    fait que céder à une pénible nécessité; que d'ailleurs les libertés accordées aux mulâtres étaient purement illusoires, 
-   se bornant en réalité à quelques légères concessions de sociabilité. Et encore ces concessions même fléchis sent-elles 
+   se bornant en réalité à quelques légères concessions de sociabilité. Et encore ces concessions même fléchissent-elles 
    souvent devant le bon plaisir de l'aristocratie. 
    </p>
    <p>Ces réponses, qui satisferaient des hommes moins impatiens, moins orgueilleux surtout, eussent blessé profondément 
