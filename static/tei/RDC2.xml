@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>A title</title>
+        </titleStmt>
+        <publicationStmt>
+           <p/>
+        </publicationStmt>
+        <sourceDesc>
+           <p/>
+        </sourceDesc>
+     </fileDesc>
+ </teiHeader>
+ <text>
+   <body>
+   <pb/>
+   <head>NÉCESSITÉ DE L'INSTRUCTION AUX COLONIES.</head>
+     <div>
+      <pb n="1" facs="p1"/>
+      <p> Les hommes de couleur ont dû aux progrès de l'opinion publique des améliorations dans leur condition. Ils ont enfin obtenu depuis <date>1850</date> ces droits politiques qui leur ont été si longtemps refusés par des hommes intéressés encore à maintenir leur avilissement. Les distinctions humiliantes qui irritaient si justement leur amour propre blessé, et les privaient de l'exercice d'un droit naturel, ont enfin disparu. Ils font aujourd'hui, sans restriction, partie de la grande famille française. Ils sont citoyens français, ou aptes à le devenir. Qu'ils s'énorgueillissent à bon droit de cette qualification, qui les fait asseoir au milieu du peuple souverain avec leur part de sa souveraineté; mais qu'ils sachent aussi que ce bienfait de la civilisation est venu leur imposer de nouveaux devoirs, dont l'accomplissement est indispensable pour se maintenir au rang élevé qu'ils ont obtenu du triomphe de la liberté.</p>
+<p>C'est à la science que la civilisation a dû sa marche triomphale à travers les préjugés entassés par les siècles: ou plutôt, la civilisation n'a été elle-même que la conquête de la science. C'est là le plus noble résultat dont puisse s'énorgueillir l'esprit humain, et la liberté, fille de la civilisation, n'a pu avoir d'autre origine que sa mère. Science, civilisation, liberté, sont donc des corrélatifs inséparables, qui se supposent, s'appellent l'un l'autre et qui ne peuvent pas avoir d'existence séparée.<pb n="20"/></p>
+<p>Ce serait donc avoir une bien fausse idée de la liberté que de croire qu'elle pût s'établir avec des chances de stabilité dans un pays qu'habitent des hommes ennemis de l'instruction, ou du moins
+<choice>
+<orig>indifférens</orig>
+<corr>indifférents</corr>
+</choice>
+pour elle. C'est un air méphitique pour la liberté que celui que l'on respire dans le séjour de l'ignorance, des préjugés et des honteuses passions. La liberté ne veut pour adorateur que des hommes à idées généreuses, aux 
+<choice>
+<orig>sentimens</orig>
+<corr> sentiments </corr>
+</choice>
+élevés, qui par l'étude puissent apprécier ses bienfaits, lui offrir un culte pur, digne d'elle, et la défendre contre les attaques de ses ennemis.</p>
+<p>Les hommes de couleur doivent donc renoncer à conserver l'indépendance dont ils sont fiers aujourd'hui, et à l'espoir d'acquérir quelque influence dans les affaires de leur pays, s'ils ne répandent pas l'instruction parmi eux, et si un vil et désastreux égoïsme les empêche de faire les sacrifices nécessaires à l'éducation, en <placeName>France</placeName>, de leurs 
+<choice>
+<orig>enfans</orig>
+<corr>enfants</corr>
+</choice>
+. Aujourd'hui plus que jamais ils doivent sentir ce besoin : le conseil colonial de la <placeName>Martinique</placeName> ne vient-il pas, dans sa première session, de supprimer les écoles mutuelles, créées par <persName ref="AA">M. d'Argout</persName>pendant son ministère à la marine.</p>
+<p>Dans l'état actuel des choses aux colonies, l'émancipation politique des hommes de couleur, et leur admission dans la grande famille française, doivent être sans doute un sujet de joie pour chacun d'eux, mais quelle source d'humiliation n'y trouvent pas le plus grand nombre lorsque dans l'exercice de leurs nouveaux droits ils sont placés en contact d'hommes versés dans les affaires et possédant des connaissances spéciales et variées.</p>
+<p>L'éducation des femmes est encore plus arriérée que celle des hommes. Un mutisme déplorable, quand elles se trouvent en société, dépare leurs charmes et öte à leurs attraits ce qu'ils auraient de plus piquant.</p>
+<p>N'allez pas les mettre à côté d'une de ces Parisiennes dont la conversation est si animée, si agréable, si séduisante. Cependant la nature n'a pas été plus avare pour les 
+<choice>
+<orig>enfans</orig>
+<corr>enfants</corr>
+</choice>
+des colonies que pour ceux de la <placeName>France</placeName> : qu'on donne aux jeunes personnes des colonies la même éducation, et bientôt les richesses d'une imagination ardente seront mises au jour. On les verra briller et plaire, comme nos spirituelles Françaises, par la variété de leur conversation et l'inexprimable charme de leurs réparties.</p>
+<p>Nous adjurons les hommes de couleur de ne pas accuser notre<pb n="21"/>critique d'un excès de sévérité. C'est une voix amie qui leur parle. Qu'ils suivent les conseils d'hommes qui combattent sans cesse pour le triomphe de leur cause, et qui craignent de voir leur émancipation incomplète ou même sans résultat utile. Si les hommes de couleur ne savent pas sortir de l'état de torpeur où ils languissent, qu'ils tremblent dans leur apathique ignorance. Les anneaux de leurs <!--vérifier avec Masha et Theavy mot chaine/chaîne-->
+<choice>
+<orig>chaines</orig>
+<corr>chaînes</corr>
+</choice>
+sont épars et brisés, il est vrai, mais une main ambitieuse et hardie peut les réunir de nouveau. Un gouverneur de la trempe des <persName ref="LF">Freycinet</persName>et des <persName ref="FD">Donzelot</persName>, peut leur faire perdre tout leur avantage. Un procureur-général de la capacité des <persName ref="RL">RICHARD Lucy</persName>, peut annihiler les concessions les mieux établies. Qu'ils consultent les 
+<choice>
+<orig>événemens</orig>
+<corr>événements</corr>
+</choice>
+; ils sont loin de leur offrir une pleine sécurité.</p>
+<p>Leur liberté ne sera stable, inattaquable, et leur qualité de citoyen français définitivement acquise que lorsque leurs 
+<choice>
+<orig>enfans</orig>
+<corr>enfants</corr>
+</choice>
+viendront en grand nombre dans nos colleges, et entreront dans les diverses branches de l'administration. Nous n'aurons confiance dans leur avenir que lorsque nous les verrons fournir à nos écoles Polytechnique, de Saint-Cyr, de Médecine, de Droit, de Commerce et de Marine bon nombre d'élèves. C'est alors, alors seulement qu'ils pourront acquérir l'influence et la considération locale dont ils sont si jaloux, et opérer cette fusion dont ils sont encore si éloignés.</p>
+<p>Comme c'est ici une question vitale et sur laquelle nous ne saurions trop appeler l'attention de nos amis des colonies, nous ferons une série d'articles sur le même sujet, et nous proposerons le plan à suivre pour réaliser notre projet d'instruction, et pour neutraliser en même temps les efforts de l'aristocratie coloniale, qui tend à priver les masses d'instruction afin de les mieux exploiter.</p>
+<p>QUESTION ELECTORALE.</p>
+<p>Une question neuve, en matière électorale, vient de se présenter dans les colonies, celle de savoir si une femme non mariée peut déléguer ses contributions à son fils naturel légalement reconnu.
+Le directeur général de l'intérieur à la <placeName>Martinique</placeName>, faisant fonc-<pb n="22"/>tions de préfet, a refusé de reconnaître cette délégation par le motif suivant:
+<q>“Confier à la femme non mariée le droit de déléguer serait donner une extension arbitraire à une disposition déjà de sa nature essentiellement exceptionnelle.
+Avons décidé et décidons ce qui suit: Le <roleName>sieur <persName>Sugnin (Philippe-Simon-Eudoxie)</persName></roleName> ne peut en l'état  être inscrit sur la liste électorale du 4 collége.
+Au <placeName>Fort-Royal (Martinique)</placeName>, <date>19 avril 1833</date>.
+Signé <persName><roleName>vicomte ROSILY</roleName></persName>.”</q></p>
+<p>Le citoyen que cet arrêté concerne a négligé d'en demander la réformation à la cour royale dans les dix jours de sa notification, conformément à la loi. </p>
+<p>Comme la question peut se présenter fréquemment dans les colonies, où il existe un nombre considérable de femmes non mariées ayant des
+<choice>
+<orig>enfans</orig>
+<corr>enfants</corr>
+</choice>
+naturels reconnus, nous ferons contre cet 
+<choice>
+<orig>arrété</orig>
+<corr>arrêté</corr>
+</choice>
+les observations que l'esprit de la loi nous suggère.</p>
+<p>L'argument sur lequel est fondé la décision que nous attaquons est celui qu'on nous opposait sous la restauration, quand nous soutenions, sous l'empire de la loi du <date>5 février 1817</date>, que la faculté de déléguer appartenait à la femme divorcée et à la femme séparée de corps, et en faveur des petits-gendres comme des gendres.</p>
+<p>Que répondait le conseil-d'état, dominé qu'il était par le système du gouvernement d'alors, qui était de restreindre plutôt que d'étendre l'exercice des droits politiques?</p>
+<p>Il répondait, sur une requête par nous présentée au nom de <persName>M. Aroux</persName>, maintenant député (<date>11 février 1824</date>), que ce serait donner une extension arbitraire à une disposition exceptionnelle que d'étendre au petit-gendre une faculté que la loi avait limitée au gendre. La loi de <date>1851</date> a fait justice de cette chicane.</p>
+<p>La loi de <date>1817</date> ne parlait pas de la mère adoptive; cependant, par un arrêt du <date>9 septembre 1850</date>, la cour royale de Nancy a jugé qu'elle avait le droit de déléguer.</p>
+<p>Depuis, et bien que le divorce ne soit pas rétabli, la chambre des députés n'a fait aucune difficulté d'admettre, en <date>1851</date>, sur notre proposition, la femme divorcée, comme la femme séparée de corps, à la faculté de la délégation.</p>
+<p><pb n="23"/>La femme non mariée, qui ne peut exercer par elle-même les droits politiques attachés à la possession de la propriété, n'est-elle pas absolument dans la même position sociale que la femme divor cée et la femme séparée de corps?</p>
+<p>En France, où les mœurs sont bien plus sévères qu'aux colonies, on pourrait considérer la décision de M. le vicomte de Rosily comme un hommage rendu aux bonnes mœurs.</p>
+<p>Mais il n'a pas voulu mettre ce motif dans son arrêté; c'eût été une censure d'une habitude invétérée dans les colonies et que des magistrats, tels que <persName>M. Dessalles</persName>, dans les annales de la <placeName>Martinique</placeName>, ont soutenu être justifiée par l'ardeur du climat.</p>
+<p>Nous pensons qu'indépendamment de cette considération, il y en a une autre plus puissante. Le nombre des électeurs est infiniment restreint dans les colonies, surtout dans la classe de couleur. Loin qu'il existe un motif politique de restreindre l'exercice des droits créés par la loi de <date>1833</date>, en faveur des citoyens de cette classe qui présenteraient les garanties désirables de propriété, le voeu <!--vérifier sur la revue papier qu'il n'y a pas de typo "von"--> le plus énergique a été exprimé pour leur extension par les commissaires du roi et par les défenseurs de la loi, tant au sein de la commission dont nous faisions partie, qu'au sein de la chambre et au dehors.</p>
+<p>La décision dont il s'agit est donc contraire à l'esprit de la loi, à l'esprit de toute législation électorale, qui dans le doute ne veut pas qu'on restreigne le droit, mais qu'on l'étende.</p>
+<p><placeName>Paris</placeName>, <date>2 juillet 1834</date>.</p>
+<p><persName>ISAMBERT</persName>.</p>
+<p><emph>Favores ampliandae.</emph> Rien n'est plus favorable que le droit électoral. Le principe de la délégation est l'espèce d'identité que la nature et la loi établissent entre la mère et ses 
+<choice>
+<orig>enfans</orig>
+<corr>enfants</corr>
+</choice>
+, <emph>una et eadem persona</emph>. Si le texte de la loi spécifie la veuve et la femme séparée, ce qui suppose le mariage, c'est qu'elle se réfère au cas le plus commun, mais la loi est en cela indicative et non restrictive.</p>
+<p><pb n="24"/><title type="sub">POURVOI D'UN PATRONE<!--typo? Patron ?-->.</title></p>
+<p>Il s'est présenté devant la cour de cassation une question grave en matière d'esclavage.</p>
+<p>Deux jeunes gens étaient condamnés par la cour d'assises de la <placeName>
+<choice>
+<orig>Guiane</orig>
+<corr>Guyane</corr>
+</choice>
+française</placeName>, conjointement avec un homme de couleur libre qui ne s'est pas pourvu en cassation. Ses deux co-accusés étaient considérés comme esclaves dans toute la procédure; mais l'un d'eux, <persName>Cyprien Jacquard</persName>, articulait qu'il était en état de manumission, parce qu'il avait été légué par son maître à sa mère émancipée, afin de lui procurer avec d'autres 
+<choice>
+<orig>enfans</orig>
+<corr>enfants</corr>
+</choice>
+des moyens d'existence.</p>
+<p>Lorsque cette affaire se présenta pour la première fois, la cour de cassation fut frappée de ce qu'il y aurait d'odieux à considérer comme esclave de sa mère un enfant que celle-ci pourrait vendre ; il pourrait arriver qu'une mère fût léguée par un maître à son propre fils, et que celui-ci fût aussi dans le cas de l'aliéner. Un tel renversement des lois de la nature serait-il consacré par la législation coloniale !</p>
+<p>La cour, par un arrêt du <date>10 janvier 1834</date>, ordonna que les faits seraient vérifiés avant qu'il fut statué sur le pourvoi.</p>
+<p>Des informations prises en exécution de cet arrêt, il résulte que la mère de <persName>Jacquard</persName>, en obtenant la liberté de son maître, avait reçu en legs les 
+<choice>
+<orig>enfans</orig>
+<corr>enfants</corr>
+</choice>
+qu'elle avait eus de lui, ainsi que sa mère à elle. Postérieurement à la condamnation de <persName>Jacquard</persName>, cette femme a fait chez l'officier de l'état civil les déclarations prescrites par l'ordonnance du <date>12 juillet 1832</date>, pour obtenir l'acte d'affranchissement de son fils.</p>
+<p>Dans cet état de choses, le procureur-général de la colonie soutenait que <persName>Jacquard</persName>, demandeur en cassation, étant encore esclave au moment de crime à lai imputé <!--typo ?--> et de sa condamnation, n'était pas recevable à se pourvoir en cassation, parce que l'ordonnance coloniale du <date>20 juillet 1828</date>, article 9, à laquelle n'aurait pas dérogé le code d'instruction criminelle promulgué depuis, interdit ce pourvoi aux esclaves.</p>
+<p>A l'audience du <date>26 juin</date>, <persName><roleName>M. le conseiller</roleName> Dehaussy</persName> a fait le rapport de cette affaire, et, sans examiner les moyens du pourvoi, il<pb n="25"/>a traité de la fin de non-recevoir, c'est-à-dire de l'état d'esclavage dans lequel se trouvaient les demandeurs.</p>
+<p>Ce magistrat n'a pas dissimulé combien cet état de choses était affligeant et combien il était à désirer que l'esclavage fut déclaré incompatible avec des relations de parenté aussi intimes. Il a annoncé que, par sa dépêche, le procureur-général donnait l'assurance qu'un projet de loi relatif à cette incompatibilité serait proposé dans la session du conseil colonial. Mais il n'avait pas trouvé de texte de loi en vertu de laquelle la cour de cassation påt relever le jeune <persName>Jacquard </persName>de l'état d'esclavage où il se trouvait.</p>
+<p><persName>M. Parant</persName>, avocat-général, a conclu dans ce sens, en invoquant contre le demandeur l'aveu qu'il avait fait dans son interrogatoire et les démarches faites par sa propre mère pour lui procurer son émancipation.</p>
+<p>L'aveu consigné dans son interrogatoire se réduit à ceci :</p>
+<p>"Je m'appelle <persName>Cyprien dit Jacquard</persName>; je suis âgé de seize ans, de caste de couleur; je suis charpentier de profession; j'apparatiens à ma mère, chez laquelle je demeure à <placeName>Cayenne</placeName>, où je suis né.”</p>
+<p>La cour, par un arrêt du <date>26 juin</date>, est partie de ce point de fait et a déclaré qu'il n'y avait pas lieu d'examiner le mérite du pourvoi.</p>
+<p>Cette cour nous semblait avoir mieux compris sa haute mission lors de la discussion de l'affaire du 
+<choice>
+<sic>patroné</sic>
+<corr>patronné</corr>
+</choice>
+<persName>Louisy</persName>.</p>
+<p>Elle avait considéré que la liberté est le droit; que l'esclavage doit être renfermé dans les strictes limites que la loi lui a assuré, et qu'on ne devait pas traiter en esclave celui qui de fait a cessé de l'être. En conséquence et malgré les ordonnances coloniales, qui obligeaient les 
+<choice>
+<sic>patronés</sic>
+<corr>patronnés</corr>
+</choice>
+, à peine d'être déclarés et vendus comme esclaves au profit du domaine colonial, à produire leurs titres de liberté, la cour, ne s'attachant qu'à la loi et au fait de liberté, a déclaré <persName>Louisy</persName> recevable en son pourvoi.</p>
+<p>Cet arrêt a été accueilli comme un monument de la haute sagesse et de la sage 
+<choice>
+<orig>philantropie</orig>
+<corr>philanthropie</corr>
+</choice>
+de la cour, et a été cité avec éloge à ses audiences de rentrée.</p>
+<p>N'était-ce pas le cas de rendre un arrêt semblable ? Ni dans la législation romaine ni dans le <bibl type="law"><title ref="#CN">code noir</title></bibl> (édit de <date>1689</date>), on ne trouve cette immoralité consacrée, qu'un père ou<pb n="26"/>qu'une mère peut devenir, n'importe comment, la propriété de son enfant : car avec cette doctrine, on serait obligé de souffrir qu'ils les vendissent au marché et touchassent le prix des auteurs de leurs jours. Les Romains abolirent aussi la loi ancienne qui donnait au père le droit de vie et de mort sur tous les membres de sa famille.</p>
+<p>Le code noir prévoit plusieurs cas où la liberté résulte de plein droit d'un état inconciliable avec l'esclavage; c'est, entre autres, celui où un maître a institué un esclave pour son exécuteur testa mentaire ou pour tuteur de ses 
+<choice>
+<orig>enfans</orig>
+<corr>enfants</corr>
+</choice>
+.</p>
+<p>Comment concilier l'état de fils avec celui d'esclave de sa mère? Un fils, par le droit naturel et par le code civil publié aux colonies, est tenu de devoirs tous 
+<choice>
+<orig>différens</orig>
+<corr>différents</corr>
+</choice>
+de ceux d'un esclave envers sa mère.</p>
+<p>La mère est tenue aussi, envers son enfant, à des devoirs particuliers. Si cet enfant tombe dans l'impuissance de pourvoir à sa subsistance, ne doit-elle pas le nourrir ?</p>
+<p>Et comment une telle loi ne serait-elle pas au-dessus de la loi inique de l'esclavage ?</p>
+<p>Il est 
+<choice>
+<orig>facheux</orig>
+<corr>fâcheux</corr>
+</choice>
+que la cour de cassation ait laissé cette grave question sans la résoudre et ne se soit attachée qu'au fait apparent. En jugeant ainsi, n'aurait-elle pas violé l'article 7 de l'ordonnance de <date>1832</date>, qui assure aux libres de fait le bénéfice du recours en cassation?</p>
+<p>Le jeune <persName>Cyprien Jacquard</persName>, en déclarant qu'il appartenait à sa mère, ne prouvait-il pas, par cela seul, qu'il n'avait pas de maître, et qu'il n'y avait entre lui et sa mère que le lien naturel et civil?</p>
+<p><title type="sub">TRAITS DE CRUAUTÉ.</title></p>
+<p>Ce serait une longue histoire que de raconter les actes de révoltante barbarie auxquels certains possesseurs d'hommes de nos colonies se livrent envers les malheureux esclaves. Chaque jour, déchirés par le fouet du commandeur, privés de leur grossière nourriture, ils expirent lentement dans un supplice de tous les 
+<choice>
+<orig>instans</orig>
+<corr>instants</corr>
+</choice>
+; l'avarice seule et jamais l'humanité retient quelquefois ces<pb n="27"/>maîtres cruels, qui craignent par la mort d'un esclave de perdre un prix vénal. Mais lorsque l'esclave, infirme ou vieux, ne peut plus rendre les mêmes services, lorsque son gain présumé sur l'habitation ne dépasse pas les frais qu'il occasionne, oh alors! nulle considération ne peut plus retenir; et ainsi qu'on brise un vieux meuble hors de service, de même on fait périr sans pitié l'homme que jeune encore on arracha à sa famille.</p>
+<p>Quelquefois un caprice, une sorte de recrudescence de barbarie saisit un maître, et quelque préjudice que dût lui apporter une atroce satisfaction, il fait immoler un homme, son semblable, son égal enfin. Ces actes de froide cruauté sont tellement éloignés de nos mœurs, que nous, qui sommes nés aux colonies, nous ne pouvons les comprendre; souvent même un honorable scepticisme nous tient en garde contre les récits de nos correspondants. Plait à Dieu que tous fussent mensongers! nous serions les premiers à les proclamer, et nos cœurs ne seraient pas oppressés par de douloureuses impressions.</p>
+<p>Voici deux nouveaux faits à consigner dans cette longue énumération de crimes qui forme l'histoire coloniale. Nous y voyons non seulement un colon commettre un meurtre affreux, mais un autre qui l'ordonne à ses esclaves, démoralisant ainsi ces malheureux, qui ne pouvaient sous peine de vie ne pas exécuter l'ordre qu'ils recevaient.</p>
+<p>À <placeName>la Martinique</placeName>, un propriétaire de la <placeName>commune de La Rivière</placeName>, <persName>Pilote</persName>, croyant probablement qu'il avait à se plaindre de son esclave <persName>Gabriel</persName>, fit venir près de lui, le <date>16 avril</date>, six nègres de son atelier, et leur ordonna de lui apporter la tête de <persName>Gabriel</persName>. Les nègres promirent obéissance.
+<persName>Gabriel</persName>, officieusement informé des intentions de son maître, fut le trouver et lui proposa 3,535 francs pour son rachat. Le maître répondit qu'il y songerait. Quoique cette réponse ne fût rien moins que satisfaisante, le malheureux <persName>Gabriel</persName> s'occupa de réaliser ses fonds, et se rendit au <placeName>bourg du Marin</placeName> pour y vendre sa farine. Comme il s'en retournait, les six nègres embusqués se jetèrent sur lui, le conduisirent sur la sucrerie; puis, l'ayant attaché à un calebassier, ils lui donnèrent la mort. Un des exécuteurs se rendit alors auprès du propriétaire, qui, ayant entendu le récit de l'assassinat, se contenta de répondre froidement : <emph>“C'est bon.”</emph></p>
+<p>Cependant ce propriétaiere s'étant rendu au lieu où gisait le cadavre mutilé de <persName>Gabriel</persName>, ne put soutenir <choice>
+<orig>long-temps</orig>
+<corr>longtemps</corr>
+</choice>
+cet affreux spectacle: il se retira, et secondé par son gérant de sucrerie, il fit courir le bruit que <persName>Gabriel </persName>avait été tué par un mulet. Il en fit prévenir le commissaire commandant de la commune; mais la rumeur publique l'avait devancé, et le commandant vint avec le juge de paix et deux médecins faire l'autopsie du cadavre. On reconnut alors le genre de mort, et entre autres plaies, un coup de feu à la mâchoire inférieure. Procès-verbal ayant été dressé, a été déposé au <placeName>Fort-Royal</placeName>.</p>
+<p>Dans la même colonie, commune de <placeName>Macouba</placeName>, un riche propriétaire est accusé par la vindicte publique de faire mourir ses esclaves. Le procureur du roi se rend sur la propriété et y trouve une malheureuse femme étendue sans vie. Le maitre l'avait cruellement fustigée, et elle avait expiré sous les coups de fouet. Afin de s'assurer si le cadavre était encore animé, ce maître cruel poussa la barbarie jusqu'à percer d'un fer chaud le ventre de sa victime. La justice informe sur cette affaire; mais le colon prévenu du crime est en fuite. Le nouveau gouverneur, <persName ref="EH">M. Halgan</persName>, s'est empressé de faire parvenir au ministère de la marine les détails de cet acte de monstruosité coloniale.</p>
+<p>Il faut espérer que, dans l'intérêt de la justice et de l'humanité, de pareils forfaits ne resteront pas impunis. Il y va de l'honneur du gouvernement et du salut de la colonie; car là où cesse le règne de la justice naît le droit de la force et de la violence.</p>
+<p><placeName>France</placeName></p>
+<p><placeName>PARIS</placeName></p>
+<p>CONVOCATION DES CHAMBRES</p>
+<p>L'ordonnance suivante est publiée par <title type="journal">le Moniteur</title> du <date>1 juillet</date>, avec la date du <date>30 juin</date> et le contre-seing de <persName>M. Thiers</persName>:</p>
+<p> “Art. 1. La disposition de notre ordonnance du <date>25 mai dernier</date>, qui convoque la chambre des pairs et la chambre des députés pour le <date>20 août 1834</date>, est rapportée<!--reportée?-->.</p>
+<p>Art. 2. La chambre des pairs et la chambre des députés sont convoquées pour le <date>31 juillet</date> prochain.”</p>
+<p><title type="journal">le Moniteur</title>publie à la suite, mais dans la partie non officielle, la communication suivante, qui explique la portée de cette mesure:</p>
+<p><q>“La réunion des chambres devait avoir lieu le <date>20 août</date> prochain. Elle est rapprochée et fixée, par ordonnance de ce jour, au <date>31 juillet</date>. Le<persName ref="LP"><roleName>roi</roleName></persName>, qui se rend au mois d'août dans les provinces méridionales qu'il n'a point encore visitées, n'a pas voulu être absent au moment de la réunion des chambres. Au surplus, cette réunion n'a pas son importance ordinaire: c'est pour l'exécution de l'article 42 de la charte que les chambres sont convoquées. Mais le gouvernement ne peut ni ne doit faire commencer leurs travaux à cette époque: aucun projet de loi, aucun budget ne pourrait être prêts. D'ailleurs nos habitudes parlementaires fixent le temps des travaux des chambres entre les mois de décembre et de mai, pendant la saison d'hiver. Les commencer au milieu de l'été serait une facheuse dérogation à des habitudes établies. Trois cents députés de l'ancienne chambre, faisant partie de la nouvelle, ont déjà passé à <placeName>Paris</placeName> cinq mois de cette année et pourraient difficilement y revenir au mois de juillet. Il est donc convenable de remettre les travaux à l'époque accoutumée. En conséquence, après avoir réuni les chambres au <date>31 juillet</date> et les avoir mises en séance, le<persName ref="LP"><roleName>roi</roleName></persName>, usant du droit de prorogation, les prorogera à la fin de l'année pour commencer à cette époque les 
+<choice>
+<orig>importans</orig>
+<corr>importants</corr>
+</choice>
+travaux de la nouvelle législature.”</q></p>
+<p>En prorogeant les chambres avant qu'elles ne soient constituées, ce serait un nouvel attentat à ajouter à tous ceux dont nous sommes journellement témoins. Les chambres ne peuvent pas étre prorogées avant que les nouveaux pouvoirs des députés ne soient vérifiés. Si cette violation de la charte avait lieu, nous reviendrions sur ce sujet.</p>
+
+</div>
+     </body>
+ </text>
+</TEI>
