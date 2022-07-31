@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+     <fileDesc>
+        <titleStmt>
+           <title>REVUE DES COLONIES.</title>
+        </titleStmt>
+        <publicationStmt>
+           <p/>
+        </publicationStmt>
+        <sourceDesc>
+           <p/>
+        </sourceDesc>
+     </fileDesc>
+ </teiHeader>
+ <text>
+   <body>
+   <pb/>
+   <head>DE L'ABOLITION DE L'ESCLAVAGE.</head>
+     <div>
+      <p>A l'heure où nous écrivons ces lignes, l'émancipation des esclaves est proclamée dans toutes
+les colonies de l'empire britannique. L'admirable <emph>bill</emph> dont la mise en pratique a été fixée au <date>1er
+août 1834</date> va changer la face des colonies. De toutes parts s'émeuvent et se réjouissent ces
+populations affranchies du jong et admises enfin au partage de la liberté commune. Le <emph>bill</emph> a tout
+prévu, tout réglé, autant qu'il lui était possible, dans l'intérêt des maîtres, que la loi indemnise, et
+dans l'intérêt des esclaves, auxquels elle assure l'existence et un honorable travail. Près de 500
+millions de francs seront employés à cette œuvre toute de philantropie et de justice, de conciliation à la fois et de liberté! Ce bel exemple donné par le parle ment britannique, il est deux
+grandes nations qui ne sont pas près encore de l'imiter. Les législatures de la <placeName><country>France</country></placeName> et des
+<placeName><country>États-Unis</country></placeName> n'ont abordé ces questions jusqu'ici que d'une manière méticuleuse; rien de grand,
+aucuns principes larges n'y ont encore triomphé; et cependant aux colonies, la question presse
+: l'homme souffre et ne s'accommode du joug qu'à son corps défendant, on peut le dire à la
+lettre. Le jour n'est pas loin où, d'une façon ou d'une autre, il faudra arriver à une solution. Les
+colons ont beau vouloir se le dissimuler, ils marchent sur un volcan !</p>
+<p>Croit-on que le voisinage des colonies anglaises, où l'acte d'émancipation exercera une si
+grande influence, ne soit pas de nature à faire réfléchir ces hommes auxquels il ne manque que
+la volonté pour être libres? Croit-on que la résignation de l'esclave, dont le droit est d'être libre,
+et il le sait ou va le savoir (que les maîtres y songent), s'accommode bien 
+<choice>
+<orig>long-temps</orig>
+<corr>longtemps</corr>
+</choice>
+encore de
+vos attermoiemens et de vos prétendues lois qui ne portent aucun des caractères de la loi
+véritable? Non, l'abolition de l'esclavage est aujourd'hui la condition même de l'existence des
+colonies. En présence de cette impérieuse nécessité, un seul parti est à prendre, celui de
+s'occuper sur-le-champ des moyens par lesquels cette abolition pourra le plus doucement
+s'accomplir. On n'y échappera<pb n="4"/>pas. Que les intéressés demandent donc eux-mêmes une loi qui dénoue le noeud gordien, sans attendre comme des insensés que quelque <persName ref="ALG">Alexandre</persName>, à la face noire et aux cheveux crépus, le tranche violemment par l'épée. Il en est temps encore :'qu'ils n'attendent pas que les pavés et les coups de fourche leur fassent sentir que ce qu'on voulait, qui était de toute équité, on pouvait l’obtenir facilement de vive force, bien qu'on en eût par bonhommie demandé la concession à l'amiable.</p>
+<p></p>
+     </div>
+     </body>
+ </text>
+</TEI>
