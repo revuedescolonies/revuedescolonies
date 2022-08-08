@@ -53,11 +53,18 @@ const theme = createTheme({
         "h1, h2, h3, h4, h5, h6": {
           color: "#333",
         },
-        "tei-choice tei-abbr + tei-expan:before, tei-choice tei-expan + tei-abbr:before, tei-choice tei-sic + tei-corr:before, tei-choice tei-corr + tei-sic:before, tei-choice tei-orig + tei-reg:before, tei-choice tei-reg + tei-orig:before": {
-          content: `" ("`
+        // "tei-choice tei-abbr + tei-expan:before, tei-choice tei-expan + tei-abbr:before, tei-choice tei-sic + tei-corr:before, tei-choice tei-corr + tei-sic:before, tei-choice tei-orig + tei-reg:before, tei-choice tei-reg + tei-orig:before": {
+        //   content: `" ("`
+        // },
+        // "tei-choice tei-abbr + tei-expan:after, tei-choice tei-expan + tei-abbr:after, tei-choice tei-sic + tei-corr:after, tei-choice tei-corr + tei-sic:after, tei-choice tei-orig + tei-reg:after, tei-choice tei-reg + tei-orig:after": {
+        //   content: `")"`
+        // },
+        "tei-choice tei-sic": { // TODO: show as popup
+          display: "none",
         },
-        "tei-choice tei-abbr + tei-expan:after, tei-choice tei-expan + tei-abbr:after, tei-choice tei-sic + tei-corr:after, tei-choice tei-corr + tei-sic:after, tei-choice tei-orig + tei-reg:after, tei-choice tei-reg + tei-orig:after": {
-          content: `")"`
+        "tei-choice tei-corr": {
+          borderBottom: "2px solid Red",
+          cursor: "pointer"
         },
         "tei-ab": {
           display: "block",
@@ -69,6 +76,7 @@ const theme = createTheme({
         },
         "tei-head": {
           display: "block",
+          textAlign: "center"
         },
         "tei-body > tei-head": {
           fontSize: "180%",
@@ -81,7 +89,8 @@ const theme = createTheme({
           display: "block",
           marginTop: "1.25em",
           marginBottom: "1.25em",
-          textAlign: "justify"
+          textAlign: "justify",
+          textIndent: "1rem"
         },
         "tei-q:before": {
           content: `"“"`
@@ -89,6 +98,28 @@ const theme = createTheme({
         "tei-q:after": {
           content: `"”"`
         },
+        "tei-div > tei-div": { // Make sure to only get div/div and no other div
+          display: "block",
+          marginTop: "1rem",
+          paddingTop: "1rem",
+          borderTop: "1px solid grey"
+        },
+        "tei-closer": {
+          display: "block",
+          textAlign: "right"
+        },
+        "tei-persName[ref]": { // Generate list of refs that should be rendered as annotations
+          borderBottom: "4px solid darkred",
+          cursor: "pointer"
+        },
+        "tei-placeName[ref='#MQ']": { // Generate list of refs that should be rendered as annotations
+          borderBottom: "4px solid blue",
+          cursor: "pointer"
+        },
+        "tei-rs[type=affaire]": { // Generate list of refs that should be rendered as annotations
+          borderBottom: "4px solid purple",
+          cursor: "pointer"
+        }
       }
     },
   },
