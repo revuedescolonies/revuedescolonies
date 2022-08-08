@@ -17,22 +17,24 @@
       </fileDesc>
   </teiHeader>
   <text>
+  <front>
+  <titlePage>
+  <titlePart type="main">REVUE<lb/>DES<lb/>COLONIES,</titlePart>
+  <titlePart type="sub">RECUEIL MENSUEL DE LA POLITIQUE, DE L'ADMINISTRATION, DE LA JUSTICE, DE L'INSTRUCTION ET DES MOEURS COLONIALES,</titlePart>
+  <byline>PAR UNE <orgName ref="#SHC">SOCIÉTÉ D'HOMMES DE COULEUR</orgName>
+   <lb/> DIRIGÉE PAR <persName ref="#CB">C.-A. BISSETTE</persName>.<lb/></byline>
+  <docEdition><lb/>N°1<lb/>Juillet.<lb/>
+  <lb/> PARIS,<lb/> AU BUREAU DE LA REVUE DES COLONIES,</docEdition>
+  <docImprint><lb/>46, RUE NEUVE-SAINT-EUSTACHE <lb/> 1834.</docImprint> 
+  </titlePage>
+  </front>
    <body>
-         <div>
-           <head>REVUE<lb/>DES<lb/>COLONIES,
-            <lb/>RECUEIL MENSUEL
-            <lb/>DE LA POLITIQUE, DE L'ADMINISTRATION, DE LA JUSTICE, DE<lb/>
-                L'INSTRUCTION ET DES MOEURS COLONIALES,
-            <lb/> PAR UNE <orgName ref="#SHC">SOCIÉTÉ D'HOMMES DE COULEUR</orgName>
-            <lb/> DIRIGÉE PAR C.-A. BISSETTE.<lb/>
-            <lb/>N°1<lb/>Juillet.<lb/>
-            <lb/> PARIS,<lb/> AU BUREAU DE LA REVUE DES COLONIES, <lb/> 46, RUE NEUVE-SAINT-EUSTACHE <lb/> 1834.<lb/>
-            </head>
-         <head>REVUE<lb/>DES <lb/>COLONIES</head>
-         </div>
-         <pb/>
-      <div>
-      <head>Prospectus.</head>
+   <div>
+   <head>REVUE<lb/>DES <lb/>COLONIES</head>
+   </div>
+   <pb/>
+   <div>
+   <head>Prospectus.</head>
       <p>
       Les colonies en général ne connaissent encore que la théorie des grands principes de philantropie;
       de la liberté en action, point. 
@@ -111,11 +113,12 @@
         </cit></epigraph>
    </div>
    <div>
-   
-    <head>Extrait</head>
-    <head>DES PROCES-VERBAUX DE <orgName>L'ASSEMBLÉE NATIONALE</orgName> DES 20, 21, 22, 23, 24, 26 AOUT ET 1er OCTOBRE 1789 </head>
+   <floatingText>
+   <body>
+   <div>
+   <head>Extrait</head>
+   <head>DES PROCES-VERBAUX DE <orgName>L'ASSEMBLÉE NATIONALE</orgName> DES 20, 21, 22, 23, 24, 26 AOUT ET 1er OCTOBRE 1789 </head>
     <head>DÉCLARATION DES DROITS DE L'HOMME EN SOCIÉTÉ.</head>
-    <quote>
     <p>
     Les représentans du peuple français, constitués en Assemblée Nationale, considérant que l'ignorance, 
     l'oubli ou le mépris des droits de l'homme sont les seules causes des malheurs publics et de la corruption des gouvernemens, 
@@ -166,12 +169,15 @@
     <p>15.- La société a le droit de demander compte à tout agent public de son administration.</p>
     <p>16.- Toute Société dans laquelle la garantie des droits n'est pas assurée, ni la séparation des pouvoirs déterminée, n'a point de constitution.</p>
     <p>17.- Les propriétés étant un droit inviolable et sacré, nul ne peut en être privé, si ce n'est lorsque la nécessité publique, légalement 
-    constatée, l'exige évidemment, et sous la condition d'une juste et préalable indemnité. </p>
-    Extrait du procès-verbal de l'assemblée nationale, du jeudi
-    <p>1 octobre 1789. 
-    Collationné conforme à l'original. <lb/>
-    Signé MOUNIER, président; le vicomte DE MIRABEAU, DEMEUNIER, BUREAU DE Pusy, l'évêque DE NANCY, FAYDEL, l'abbé d’EYMAR, secrétaires</p>.
-    </quote>
+    constatée, l'exige évidemment, et sous la condition d'une juste et préalable indemnité.</p>
+    <closer> Extrait du procès-verbal de l'assemblée nationale, du jeudi 1 octobre 1789. 
+    <lb/>Collationné conforme à l'original.
+    <signed>Signé MOUNIER, président; le vicomte DE MIRABEAU, DEMEUNIER, BUREAU DE Pusy, l'évêque DE NANCY, FAYDEL, l'abbé d'EYMAR, secrétaires.
+    </signed>
+    </closer>
+    </div>
+    </body>
+    </floatingText>
     <pb n="8"/><p>Tous les principes de 89 sont dans cette déclaration; et, quoi qu'on fasse, il y a dans ces principes, que la révolution française, 
     par ses armées républicaines et impériales, a semés sur la terre d'<placeName ref="#EUR">Europe</placeName>, et par ses livres partout dans l'univers, 
     une virtualité qu'on ne parviendra pas à étouffer.
@@ -185,11 +191,13 @@
     l'oubli ou le mépris des droits de l'homme sont les seules causes des malheurs publics et de la corruption des gouvernemens</emph>, en concluront 
     victorieusement que tout le mal de la situation présente, aux colonies comme partout, vient positivement de cette ignorance, de cet oubli ou de 
     ce mépris, nous ne savons précisément lequel dire, tant de la part des gouvernans, au reste, que de celle des gouvernés.</p>
-    <p><emph>Le directeur</emph>, <persName ref="#CB">BISSETTE</persName>.</p>
+    <closer> <emph>Le directeur</emph>,
+    <signed><persName ref="#CB">BISSETTE</persName>.</signed>
+    </closer>
     </div>
     <div>
     <head>COUP D'OEIL SUR LE RÉGIME COLONIAL ET SES EFFETS.</head>
-    <p>Tous les journaux ont retenti des déplorables <rs type="affaire" ref="#GA">événemens de la Grand'Anse</rs>, <placeName ref="#MQ">Martinique</placeName>. Les uns, inspirés 
+    <p>Tous les journaux ont retenti des déplorables <choice><sic>événemens</sic><corr>événements</corr></choice> de la <rs type="affaire" ref="#GA">Grand'Anse</rs>, <placeName ref="#MQ">Martinique</placeName>. Les uns, inspirés 
     par le pouvoir, aux yeux duquel tout ce qui est émancipation devient un objet de terreur, ont présenté cette affaire sous un aspect défavorable
     à des hommes qui se sont bornés à résister à l'oppression. D'autres, plus bienveillans, plus impartiaux surtout, se sont bien gardés de porter 
     un jugement anticipé sur une affaire de cette nature: ils savaient que la passion exagère le mal comme le bien, et qu'il ne faut point
