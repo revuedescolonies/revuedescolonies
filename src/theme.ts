@@ -76,7 +76,8 @@ const theme = createTheme({
         },
         "tei-head": {
           display: "block",
-          textAlign: "center"
+          textAlign: "center",
+          fontStyle: "italic"
         },
         "tei-body > tei-head": {
           fontSize: "180%",
@@ -98,10 +99,12 @@ const theme = createTheme({
         "tei-q:after": {
           content: `"”"`
         },
-        "tei-div > tei-div": { // Make sure to only get div/div and no other div
+        "tei-div": { // Make sure to only get div/div and no other div
           display: "block",
           marginTop: "1rem",
-          paddingTop: "1rem",
+          paddingTop: "1rem"
+        },
+        "tei-div > tei-div": {
           borderTop: "1px solid grey"
         },
         "tei-closer": {
@@ -119,6 +122,11 @@ const theme = createTheme({
         "tei-rs[type=affaire]": { // Generate list of refs that should be rendered as annotations
           borderBottom: "4px solid purple",
           cursor: "pointer"
+        },
+        "tei-titlePage": {
+          display: "block",
+          textAlign: "center",
+          fontStyle: "italic"
         }
       }
     },
