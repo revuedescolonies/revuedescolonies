@@ -102,7 +102,7 @@
     <p>
     La <title>Revue des Colonies</title> croit devoir, avant tout, indiquer d'après quels principes elle jugera les hommes et 
     les choses. Selon elle, 89, dans l'immortelle <bibl type="legal"><title ref="#DDH">Déclaration des Droits</title></bibl> que vota 
-    <orgName>l'Assemblée Nationale</orgName>, posa les bases à venir de toutes les institutions vraiment démocratiques; c'est pourquoi 
+    <orgName ref="#AN">l'Assemblée Nationale</orgName>, posa les bases à venir de toutes les institutions vraiment démocratiques; c'est pourquoi 
     nous inscrivons cette <title>Déclaration</title> en tête de ce recueil: ce sont là les tables de notre loi.
     </p>
         <epigraph><cit>
@@ -184,9 +184,9 @@
     <p> Certes, s'il est une connaissance bonne à rappeler à l'homme, c'est celle de ses droits, que les aristocraties peuvent bien parvenir à faire 
     tomber en désuétude çà et là, mais auxquels l'avenir appartient.</p>
     <p>Nous demandons qu'on compare l'état présent de notre législation avec cette page de justice et de liberté, qu'on examine si les lois qu'on 
-    nous fait sont conformes aux principes de cette décla ration, laquelle doit être à jamais, selon la belle expression de l'Assemblée Nationale, 
+    nous fait sont conformes aux principes de cette décla ration, laquelle doit être à jamais, selon la belle expression de <orgName>l'Assemblée Nationale</orgName>, 
     <emph>la loi des législateurs eux-mêmes</emph>. Et si cet examen montre évidemment que le gouvernement, quel qu'il soit, n'est pas fondé sur cette base, 
-    seule équitable, la mise en pratique des droits de tous, ceux qui, comme nous et avec l'Assemblée Nationale, seront convaincus que <emph>l'ignorance, 
+    seule équitable, la mise en pratique des droits de tous, ceux qui, comme nous et avec <orgName>l'Assemblée Nationale</orgName>, seront convaincus que <emph>l'ignorance, 
     l'oubli ou le mépris des droits de l'homme sont les seules causes des malheurs publics et de la corruption des gouvernemens</emph>, en concluront 
     victorieusement que tout le mal de la situation présente, aux colonies comme partout, vient positivement de cette ignorance, de cet oubli ou de 
     ce mépris, nous ne savons précisément lequel dire, tant de la part des gouvernans, au reste, que de celle des gouvernés.</p>
