@@ -77,7 +77,6 @@ const theme = createTheme({
         "tei-head": {
           display: "block",
           textAlign: "center",
-          fontStyle: "italic"
         },
         "tei-body > tei-head": {
           fontSize: "180%",
@@ -125,7 +124,9 @@ const theme = createTheme({
         },
         "tei-titlePage": {
           display: "block",
-          textAlign: "center",
+          textAlign: "center"
+        },
+        "tei-title": {
           fontStyle: "italic"
         }
       }
