@@ -547,7 +547,7 @@ du peuple anglais regarderont le 15 août comme un glorieux souvenir de la libé
 <div>(SUPPLEMENT)</div>
 <head>COLONIES FRANÇAISES.</head>
 
-<p><placeName ref="#MQ">MARTINIQUE.</placeName></p>
+<head><placeName ref="#MQ">MARTINIQUE.</placeName></head>
 <p>On nous écrit de la commune de <placeName>la Trinité</placeName>:</p>
 <p><q>“<persName>Le sieur Bardel</persName>, capitaine d'une compagnie de miliciens, à <placeName>la Martinique</placeName>, rencontre dans la rue <persName>M. Igout</persName>, colon, ancien négociant à <placeName>la Trinité</placeName>, lui cherche noise, l'insulte et le menace de coups de bâton. Le motif, c'est que <persName>M. Bardel</persName> se trouvait sans doute dans un moment de mauvaise humeur. <persName>M. Igout</persName>, à qui son âge et ses infirmités ne permettent point de châtier cette insolente provocation, se dérobe par la fuite aux coups qui vont pleuvoir sur lui. Mais <persName>le sieur Frotté</persName>, homme de couleur, fils naturel de ce négociant, et qui est présent à cette scène, ne peut contenir son indignation, et prend parti pour son père. Ne serait-il pas digne de blâme s'il était resté spectateur lâchement impassible des outrages adressés aux cheveux blancs de l'auteur de ses jours? <persName>Cartel</persName> du <persName>sieur Bardel</persName> au <persName>sieur Frotté</persName>. Celui-ci charge <persName>M. Eudoxie Sugnin</persName>, son ami, de régler, conjointement avec les témoins de son adversaire, le mode et les conditions du combat. Bref, 
 <choice>
@@ -570,27 +570,35 @@ du peuple anglais regarderont le 15 août comme un glorieux souvenir de la libé
 <p>Ces faits ne sont-ils pas une preuve de la nécessité de réorganiser promptement les milices coloniales? Dans notre prochain numéro, nous examinerons les questions de droit qu'ils font naturellement naître.</p>
 <p><emph>-<placeName>Saint-Pierre</placeName>, <date>2 juin</date></emph>. On a commencé aujourd'hui les débats dans <rs type="event">l'affaire de la Grand'Anse</rs>. La tranquillité la plus parfaite règne dans la ville. Depuis ce matin, un déploiement considérable de forces militaires stationne aux avenues de l'hôtel du gouvernement où se tiennent les assises.
 <persName>M. Auguste Eugénie</persName>, accusé contumax dans <rs type="event">l'affaire de la Grand'Anse</rs>, s'était mis à l'abri des recherches de la justice en passant à l'étranger; il vient de se montrer dans la ville de <placeName>Saint-Pierre</placeName>. Ses amis ont eu beaucoup de peine à le décider à quitter la colonie: ils lui ont démontré qu'il n'était pas prudent de se faire<pb n="34"/>juger au moment où les passions sont si irritées; qu'il valait mieux attendre le jugement par contumace, quitte à se présenter plus tard pour être jugé contradictoirement. <persName>Auguste Eugénie</persName> s'est décidé enfin à quitter de nouveau la colonie pour passer à l'étranger.</p>
+<head><placeName>GUADELOUPE.</placeName></head>
+<p>On nous écrit de <placeName>la Pointe-à-Pitre</placeName>:</p>
+<p><q>“L'arbitraire est toujours à l'ordre du jour dans notre colonie; les autorités locales agissent comme en pays conquis, permettant à l'un de séjourner et expatriant l'autre, selon que le bon plaisir leur dicte leurs arrêts. Il suffit du plus léger soupçon pour qu'un citoyen soit traqué, enlevé, déporté.</p>
+<p>Quelques discussions ayant eu lieu entre un jeune blanc, nommé <persName>Romager-<emph>l'Incorrigible</emph></persName>, et <persName>Santz</persName>, jeune homme de couleur, le maire de la ville et le directeur de l'intérieur ont intimé à <persName>Mme Santz</persName> l'ordre de faire partir son fils sur-le-champ de la colonie, si elle ne voulait pas qu'il fût arrêté et embarqué par ordre du gouvernement. Le jeune <persName>Santz</persName> est parti pour <placeName>Haïti</placeName>. Peut-on se jouer plus impudemment de la liberté des citoyens!”</q></p>
+<p><emph>-<placeName>Basse-Terre</placeName>, 27 mai.-</emph> De la manière dont marchent les choses, on peut dire, sans craindre de se tromper, que des 
+<choice>
+<orig>événemens</orig>
+<corr>événements</corr>
+</choice>
+comme ceux de la Grand-Anse (<placeName ref="#MQ">Martinique</placeName>) se renouvelleront encore plus tard, et avant 
+<choice>
+<orig>long-temps</orig>
+<corr>longtemps</corr>
+</choice>
+, ou ici ou à <placeName>la Martinique</placeName>, car l'aristocratie veut des victimes et ne les veut que parmi nous et chez nous. Le gouvernement local ne cherche pas du tout à réconcilier les classes divisées aujourd'hui plus que jamais.</p>
 
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
+<head>BOURBON.</head>
+<p>Tandis qu'à <placeName>la Martinique</placeName> et à <placeName>la Guadeloupe</placeName> l'aristocratie coloniale supprime les fonds alloués au budget pour l'instruction publique, qu'elle vote la suppression des écoles mutuelles créées par le gouvernement, sous le ministère de <persName ref="#AA">M. d'Argout</persName>, au département de la marine, et qu'elle demande le statu quo sur la condition des esclaves, à <placeName ref="#BrB">Bourbon</placeName> un colon de la classe que nous qualifions d'aristocrate publie un écrit intitulé: <title>Prospectus d'une société d'encouragement et d'émulation pour l'amélioration du sort des esclaves, l'instruction publique, l'agriculture et les arts industriels.</title><pb n="35"/></p>
+<p><persName>M. Henri Maingard</persName>, auteur de cet écrit, propose qu'il soit établi dans chaque quartier de <placeName>l'île Bourbon</placeName> une société d'encouragement, composée des électeurs de l'arrondissement. Son but serait de répandre l'éducation primaire, de propager les meilleures méthodes d'agriculture, en un mot de recevoir et de communiquer toutes les notions utiles à toutes les classes de la communauté. Il est facile à quiconque a observé l'heureux effet des associations de juger d'avance tout le bien que ferait celle-ci.</p>
+<p>Voici quelques passages qui démontrent d'une manière irrésistible la nécessité des sociétés d'encouragement:</p>
+<p><q>"Où est l'esprit public dans notre île? Nous sommes inconnus les uns aux autres; nous vivons dans l'isolement, les 
+<choice>
+<orig>talens</orig>
+<corr>talents</corr>
+</choice>
+sont enfouis, les vertus ignorées !</p>
+<p>Que résulte-t-il de cette absence de tout ce qui donne du prix et du charme à la vie sociale ? C'est que tout étranger qui a fait fortune dans le pays s'empresse de le quitter, c'est que l'amour de la patrie ne résiste même pas toujours au dégoût d'une existence monotone et dépouillée de tout ce qui attache l'homme au sol.</p>
+<p>Et pourquoi ce triste état ? -C'est, en un mot, que nous sommes privés des institutions qui sont la source du bien-être social. Cependant qu'on nous dise quel pays est plus propre que le nôtre à recevoir des institutions d'utilité publique ? Notre sol fertile et ses produits recherchés par le commerce peuvent facilement faire régner l'aisance parmi nous. Nous avons prouvé que nous n'avions aucun préjugé enraciné. Notre population intelligente et éclairée par les reflets que la civilisation européenne nous envoie de 4,000 lieues, va au-devant de toute amélioration. Enfin elle sent ses maux, elle les indique, et demande que le remède lui soit appliqué."</q></p>
+<p>
 
 
 
