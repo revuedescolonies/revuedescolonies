@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-10-19T18:38:32Z. .
+Schema generated from ODD source 2022-10-19T19:04:35Z. .
 TEI Edition: Version 4.4.0. Last updated on
         19th April 2022, revision ff9cc28b0
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0/
@@ -3811,12 +3811,16 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
          <ref name="tei_att.typed.attribute.subtype"/>
          <optional>
             <attribute name="type">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.
+Suggested values include: 1] affaire; 2] event</a:documentation>
                <choice>
                   <value>affaire</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>event</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <data type="token">
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  </data>
                </choice>
             </attribute>
          </optional>
@@ -4676,7 +4680,8 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          </optional>
          <optional>
             <attribute name="ref">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference) provides an explicit means of locating a full definition or identity for the entity being named by means of one or more URIs.</a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference) provides an explicit means of locating a full definition or identity for the entity being named by means of one or more URIs.
+Suggested values include: 1] #C33; 2] #DDH; 3] #RdC; 4] #LM; 5] #LT</a:documentation>
                <list>
                   <oneOrMore>
                      <choice>
@@ -4690,6 +4695,9 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#LT</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <data type="anyURI">
+                           <param name="pattern">\S+</param>
+                        </data>
                      </choice>
                   </oneOrMore>
                </list>
@@ -4823,7 +4831,8 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          <ref name="tei_att.docStatus.attributes"/>
          <optional>
             <attribute name="type">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.
+Suggested values include: 1] monogr; 2] periodical; 3] legal</a:documentation>
                <choice>
                   <value>monogr</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -4831,6 +4840,9 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>legal</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <data type="token">
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  </data>
                </choice>
             </attribute>
          </optional>
@@ -5513,7 +5525,8 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
          <ref name="tei_att.typed.attributes"/>
          <optional>
             <attribute name="ref">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference) provides an explicit means of locating a full definition or identity for the entity being named by means of one or more URIs.</a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference) provides an explicit means of locating a full definition or identity for the entity being named by means of one or more URIs.
+Suggested values include: 1] #SHC; 2] #GN; 3] #AN; 4] #AC; 5] #UN</a:documentation>
                <list>
                   <oneOrMore>
                      <choice>
@@ -5527,6 +5540,9 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#UN</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <data type="anyURI">
+                           <param name="pattern">\S+</param>
+                        </data>
                      </choice>
                   </oneOrMore>
                </list>
@@ -5550,7 +5566,8 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
          <ref name="tei_att.typed.attributes"/>
          <optional>
             <attribute name="ref">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference) provides an explicit means of locating a full definition or identity for the entity being named by means of one or more URIs.</a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference) provides an explicit means of locating a full definition or identity for the entity being named by means of one or more URIs.
+Suggested values include: 1] #CB; 2] #GVD; 3] #LP; 4] #EH; 5] #AA; 6] #ALG; 7] #EP; 8] #SB; 9] #JP; 10] #JPB; 11] #CO; 12] #CH; 13] #GL; 14] #RO; 15] #LE; 16] #GA; 17] #AC; 18] #JFB</a:documentation>
                <list>
                   <oneOrMore>
                      <choice>
@@ -5590,6 +5607,9 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#JFB</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <data type="anyURI">
+                           <param name="pattern">\S+</param>
+                        </data>
                      </choice>
                   </oneOrMore>
                </list>
@@ -5672,7 +5692,8 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
          <ref name="tei_att.typed.attributes"/>
          <optional>
             <attribute name="ref">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference) provides an explicit means of locating a full definition or identity for the entity being named by means of one or more URIs.</a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference) provides an explicit means of locating a full definition or identity for the entity being named by means of one or more URIs.
+Suggested values include: 1] #FR; 2] #Par; 3] #EUR; 4] #GP; 5] #MQ; 6] #BrB; 7] #Cay; 8] #Alg; 9] #DOM; 10] #STL; 11] #CUB; 12] #EU; 13] #Che; 14] #GEO; 15] #Sav; 16] #Dar; 17] #StM; 18] #SaY; 19] #Bor; 20] #JA; 21] #Ha; 22] #AM; 23] #Cha</a:documentation>
                <list>
                   <oneOrMore>
                      <choice>
@@ -5722,6 +5743,9 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#Cha</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <data type="anyURI">
+                           <param name="pattern">\S+</param>
+                        </data>
                      </choice>
                   </oneOrMore>
                </list>
