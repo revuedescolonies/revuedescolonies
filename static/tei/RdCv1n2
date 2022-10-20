@@ -1,24 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
- <teiHeader>
-     <fileDesc>
-        <titleStmt>
-           <title>REVUE DES COLONIES.</title>
-        </titleStmt>
-        <publicationStmt>
-           <p/>
-        </publicationStmt>
-        <sourceDesc>
-           <p/>
-        </sourceDesc>
-     </fileDesc>
- </teiHeader>
- <text>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Revue des Colonies N°2 (selection)</title>
+            <editor>Charlotte Joublot Ferré</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information  about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+  <front>
+  <titlePage>
+  <titlePart type="main">REVUE<lb/>DES<lb/>COLONIES,</titlePart>
+  <titlePart type="sub"><lb/>RECUEIL MENSUEL<lb/> DE LA POLITIQUE, DE L'ADMINISTRATION, DE LA JUSTICE, DE L'INSTRUCTION ET DES MOEURS COLONIALES,</titlePart>
+  <byline><lb/>PAR UNE <orgName ref="#SHC">SOCIÉTÉ D'HOMMES DE COULEUR</orgName>
+   <lb/> DIRIGÉE PAR <persName ref="#CB">C.-A. BISSETTE</persName>.<lb/></byline>
+  <docEdition><lb/>N°1<lb/>Juillet.<lb/>
+  <lb/> PARIS,<lb/> AU BUREAU DE LA REVUE DES COLONIES,</docEdition>
+  <docImprint><lb/>46, RUE NEUVE-SAINT-EUSTACHE <lb/> 1834.</docImprint> 
+  </titlePage>
+  </front>
    <body>
-
-   <div type="article">
+   <div>
+   <head>REVUE<lb/>DES <lb/>COLONIES</head>
+   <pb/>
+  
+   <div>
    <head>DE L'ABOLITION DE L'ESCLAVAGE.</head>
       
       <p>     
@@ -86,8 +101,9 @@ des propriétaires put être convenablement satisfait par cette mesure, mais nou
 <corr>différents</corr>
 </choice>
 de ceux qui les oppriment.</p>
+</div>
 
-<div type="article">
+<div>
 <head>NÉCESSITÉ DE L'INSTRUCTION AUX COLONIES.</head>
 <p>L'ignorance a été dans tous les temps et dans tous les pays le plus puissant auxiliaire de la tyrannie. Tous les 
 <choice>
@@ -155,7 +171,7 @@ devant un état de choses si monstrueux! Pas un seul homme de loi pour nous aide
 .</p>
 </div>
 
-<div type="article">
+<div>
 <head>DEVOIR NATIONAL DE FAIRE RESPECTER PAR LES PUISSANCES ÉTRANGÈRES LA QUALITÉ DE CITOYEN FRANÇAIS DONT JOUISSENT LES HOMMES DE COULEUR LIBRES.</head>
 <p>La <rs type="event">révolution de juillet</rs>, qui aurait dû être plus féconde, qui le sera plus tard, on n'en saurait douter, n'a pourtant pas été si 
 <choice>
@@ -210,7 +226,7 @@ en vigueur dans l'île de <placeName>Cuba</placeName>, n'ont pu y être débarqu
 de <orgName>l'Union</orgName> peuvent librement venir en <placeName><country>France</country></placeName>, y circuler, y faire leurs affaires; tous y jouissent de cette hospitalité que se doivent les unes aux autres toutes les nations civilisées. Il n'y a pas de réciprocité plus juste et moins contestée. Nous ne demandons point pour les hommes de couleur le droit d'aller porter des semences de trouble et de rébellion parmi les hommes de couleur des états méridionaux de la république : on peut surveiller leur conduite et la faire punir si elle était trouvée coupable ; la <placeName><country>France </country></placeName>ne réclamerait pas contre un châtiment légalement infligé. Mais elle doit réclamer, et avec toute l'énergie d'un droit manifeste et d'une injure reçue, contre toute interdition préventive, tout emprisonnement arbitraire, tout acte enfin qui peut porter atteinte au caractère de citoyens français dont jouissent les hommes de couleur libres, nés dans toute l'étendue de notre territoire.</p><pb n="12"/>
 </div>
 
-<div type="article">
+<div>
 <head>DES DÉLÉGUÉS DE L'ARISTOCRATIE COLONIALE ET DES MANDATAIRES DES HOMMES
 DE COULEUR.</head>
 
@@ -296,7 +312,7 @@ les tribunaux. Ce nous serait une belle occasion de dire tout haut des paroles q
 dominateurs aura droit à cet honorable titre.</p>
 </div>
 
-<div type="article">
+<div>
 <head><rs type="event">AFFAIRE DE LA GRAND'ANSE.</rs></head>
 
 <p><bibl type="periodical"><title ref="#LT">Le Temps</title></bibl> ayant publié une lettre où les<rs type="event">
@@ -343,7 +359,7 @@ de la Grand'Anse</rs> jusqu'à ce qu'ils soient entièrement connus en <placeNam
 </quote>
 </div>
 
-<div type="article">
+<div>
 <head>SOCIÉTÉ POUR L'ABOLITION DE L'ESCLAVAGE.</head>
 <p>En 1789, au moment de la convocation des états-généraux, il se forma dans <placeName ref="#Par">Paris</placeName> une société qui depuis a servi de modèle aux Anglais; elle avait pour but de convaincre les esprits non seulement de l'inhumanité de l'esclavage, par les privations de toute nature imposées aux malheureux qui y sont soumis et par les peines atroces auxquelles ils sont exposés de la part d'une justice toute prévotale, mais encore de démontrer la corruption des 
 <choice>
@@ -403,7 +419,7 @@ qui sont employés pour le maintien de l'esclavage.</p>
 <p>Nous espérons que le petit-gendre de <persName>M. Necker</persName>, quoiqu'il n'ait rien fait pour cette cause pendant la durée de son ministère, s'empressera de s'adjoindre à ces honorables députés, et que l'adversaire éloquent de la traite, dans la chambre des pairs, ne reculera pas devant l'abolition de l'esclavage.Nous ferons connaître, dans notre prochain numéro, l'organisation de la Société et les noms de ses membres.</p>
 </div>
 
-<div type="article">
+<div>
 <head>DU CONSEIL COLONIAL DE LA GUADELOUPE.</head>
 <p>La loi du <date>24 avril 1833</date> commence à recevoir son exécution dans nos colonies, et déjà nous avons sous les yeux les procès-verbaux des séances du conseil colonial de <placeName ref="#GP">la Guadeloupe</placeName>. En les lisant<pb n="19"/>attentivement, nous avons une preuve certaine de l'accomplissement de nos prévisions sur les résultats de la nouvelle loi. En effet, après l'avoir étudiée, il ne pouvait plus rester de doute dans notre esprit sur ses perfides combinaisons: nous les signalâmes, nous n'hésitâmes pas un instant à en faire bonne justice.</p>
 <p>Une assemblée délibérante composée d'
@@ -593,7 +609,7 @@ Quoi qu'il en soit de la décision du tribunal, <persName>M. Cicéron</persName>
 
 <p><persName>M. de Saint-Simon</persName>, pair de France, est nommé gouverneur des établissemens français dans l'Inde.</p>
 <p>– <persName><roleName>M. le général Drouet d'Erlon</roleName></persName> est nommé gouverneur d'<placeName ref="#Alg">Alger</placeName>.</p>
-<p>– <persName>M. Eugène Saint-Quantin</persName>, conseiller-auditeur à la cour royale de <placeName ref="GF">la Guiane française</placeName>, a été nommé au même emploi à <placeName ref="#GP">la Guadeloupe</placeName>, en remplacement de <persName>M. Juston</persName>, dont la démission a été acceptée.</p>
+<p>– <persName>M. Eugène Saint-Quantin</persName>, conseiller-auditeur à la cour royale de <placeName ref="#GF">la Guiane française</placeName>, a été nommé au même emploi à <placeName ref="#GP">la Guadeloupe</placeName>, en remplacement de <persName>M. Juston</persName>, dont la démission a été acceptée.</p>
 <p> <persName>M. Dalican</persName>, juge-auditeur au tribunal de première instance de<pb n="29"/><placeName>la Pointe-à-Pitre</placeName> (<placeName>Guadeloupe</placeName>), a été nommé conseiller-auditeur à la cour royale de <placeName>la Guiane</placeName>, en remplacement de <persName>M. Saint Quantin</persName>.</p>
 <p><persName>M. Baradat</persName>, avocat, a été nommé juge-auditeur au tribunal de première instance de <placeName>la Pointe-à-Pitre</placeName>, en remplacement de <persName>M.Dalican</persName>.</p>
 <p><persName>M. Tilliard</persName>, conseiller à la cour royale de <placeName>Pondichéry</placeName>, a été nommé procureur du roi près le tribunal de première instance de <placeName>Chandernagor</placeName>, en remplacement de <persName>M. Limeray-Beauchamps</persName>.</p>
@@ -680,6 +696,7 @@ du peuple anglais regarderont le 15 août comme un glorieux souvenir de la libé
 <p>Ces faits ne sont-ils pas une preuve de la nécessité de réorganiser promptement les milices coloniales? Dans notre prochain numéro, nous examinerons les questions de droit qu'ils font naturellement naître.</p>
 <p><emph>-<placeName>Saint-Pierre</placeName>, <date>2 juin</date></emph>. On a commencé aujourd'hui les débats dans <rs type="event">l'affaire de la Grand'Anse</rs>. La tranquillité la plus parfaite règne dans la ville. Depuis ce matin, un déploiement considérable de forces militaires stationne aux avenues de l'hôtel du gouvernement où se tiennent les assises.
 <persName>M. Auguste Eugénie</persName>, accusé contumax dans <rs type="event">l'affaire de la Grand'Anse</rs>, s'était mis à l'abri des recherches de la justice en passant à l'étranger; il vient de se montrer dans la ville de <placeName>Saint-Pierre</placeName>. Ses amis ont eu beaucoup de peine à le décider à quitter la colonie: ils lui ont démontré qu'il n'était pas prudent de se faire<pb n="34"/>juger au moment où les passions sont si irritées; qu'il valait mieux attendre le jugement par contumace, quitte à se présenter plus tard pour être jugé contradictoirement. <persName>Auguste Eugénie</persName> s'est décidé enfin à quitter de nouveau la colonie pour passer à l'étranger.</p>
+</div>
 
 <div type="article">
 <head><placeName>GUADELOUPE.</placeName></head>
@@ -761,9 +778,7 @@ ne secondent pas franchement <placeName ref="#FR">la France</placeName> et <plac
 <head>COLONIES ÉTRANGÈRES </head>
 </div>
 
-<div type="article">
-<head><placeName>MAURICE.</placeName></head>
-
+<div>
 <p>On lit dans <bibl type="periodical"><emph>le Cernéen</emph></bibl>, journal qui s'imprime au <placeName>Port-Louis</placeName> (<placeName>île Maurice</placeName>):</p>
 <q><p>"Il est question d'introduire 10,000 Indiens en cette colonie. Cette mesure est proposée par un grand économiste, homme riche en projets, qui s'associe à un prince indien bailleur de fonds. Elle sera, on l'assure, approuvée par le gouvernement, et qui plus est, par la chambre de commerce du <placeName>Port-Louis</placeName>. On dit aussi que, de même qu'autrefois les Espagnols s'unissaient pour chasser les Maures de leur pays, aujourd'hui les Maures se donnent la main pour amener les Indiens dans le nôtre. Ces Indiens doivent être accompagnés et commandés par des Cipayes, choisis parmi les troupes de la compagnie des Indes. Ces chefs seront autorisés à porter leurs uniformes et autres décorations, sous condition que rien ne réveille le souvenir effrayant des volontaires.</p>
 <p>Les planteurs qui emploieront ces Indiens seront tenus de leur fournir trois repas par jour; ils leur donneront de plus sept roupies par mois de gages; prix qui paraîtrait trop élevé, si l'on ne considérait que les 
@@ -971,10 +986,11 @@ d'accusateur public. Amoureux de sa place avant tout, il s'adressa au nouveau mi
 <corr>Siège</corr>
 </choice>
 </placeName>. Dieu l'ait en sa sainte garde!</p>
-
-<p>IMPRIMERIE D'HERHAN, 580, RUE SAINT-DENIS.</p>  <!--bas de page-->
+<p>IMPRIMERIE D'HERHAN, 580, RUE SAINT-DENIS. <!--BAS DE PAGE--> </p>
 </div>
 
-</body>
-</text>
+</div>
+
+   </body>
+  </text>
 </TEI>
