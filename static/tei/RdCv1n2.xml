@@ -17,9 +17,16 @@
  </teiHeader>
  <text>
    <body>
-   <div>
+
+   <div type="article">
    <head>DE L'ABOLITION DE L'ESCLAVAGE.</head>
-      <p>A l'heure où nous écrivons ces lignes, l'émancipation des esclaves est proclamée dans toutes
+      
+      <p>     
+<choice>
+<sic>A</sic>
+<corr>À</corr>
+</choice>
+l'heure où nous écrivons ces lignes, l'émancipation des esclaves est proclamée dans toutes
 les colonies de l'empire britannique. L'admirable <emph>bill</emph> dont la mise en pratique a été fixée au <date>1er
 août 1834</date> va changer la face des colonies. De toutes parts s'émeuvent et se réjouissent ces
 populations affranchies du jong et admises enfin au partage de la liberté commune. Le <emph>bill</emph> a tout
@@ -30,7 +37,7 @@ millions de francs seront employés à cette œuvre toute de
 <orig>philantropie</orig>
 <corr>philanthropie</corr>
 </choice>
-et de justice, de conciliation à la fois et de liberté! Ce bel exemple donné par le parlement britannique, il est deux
+et de justice, de conciliation à la fois et de liberté ! Ce bel exemple donné par le <orgName ref="#PB">parlement britannique</orgName>, il est deux
 grandes nations qui ne sont pas près encore de l'imiter. Les législatures de la <placeName><country>France</country></placeName> et des
 <placeName><country>États-Unis</country></placeName> n'ont abordé ces questions jusqu'ici que d'une manière méticuleuse; rien de grand,
 aucuns principes larges n'y ont encore triomphé; et cependant aux colonies, la question presse
@@ -39,14 +46,14 @@ lettre. Le jour n'est pas loin où, d'une façon ou d'une autre, il faudra arriv
 colons ont beau vouloir se le dissimuler, ils marchent sur un volcan !</p>
 <p>Croit-on que le voisinage des colonies anglaises, où l'acte d'émancipation exercera une si
 grande influence, ne soit pas de nature à faire réfléchir ces hommes auxquels il ne manque que
-la volonté pour être libres? Croit-on que la résignation de l'esclave, dont le droit est d'être libre,
+la volonté pour être libres ? Croit-on que la résignation de l'esclave, dont le droit est d'être libre,
 et il le sait ou va le savoir (que les maîtres y songent), s'accommode bien 
 <choice>
 <orig>long-temps</orig>
 <corr>longtemps</corr>
 </choice>
 encore de vos attermoiemens et de vos prétendues lois qui ne portent aucun des caractères de la loi
-véritable? Non, l'abolition de l'esclavage est aujourd'hui la condition même de l'existence des
+véritable ? Non, l'abolition de l'esclavage est aujourd'hui la condition même de l'existence des
 colonies. En présence de cette impérieuse nécessité, un seul parti est à prendre, celui de
 s'occuper sur-le-champ des moyens par lesquels cette abolition pourra le plus doucement
 s'accomplir. On n'y échappera<pb n="4"/>pas. Que les intéressés demandent donc eux-mêmes une loi qui dénoue le noeud gordien, sans attendre comme des insensés que quelque <persName ref="#ALG">Alexandre</persName>, à la face noire et aux cheveux crépus, le tranche violemment par l'épée. Il en est temps encore :'qu'ils n'attendent pas que les pavés et les coups de fourche leur fassent sentir que ce qu'on voulait, qui était de toute équité, on pouvait l’obtenir facilement de vive force, bien qu'on en eût par bonhommie demandé la concession à l'amiable.</p>
@@ -61,7 +68,7 @@ populaires qui les accompagnent.</p>
 <orig>long-temps</orig>
 <corr>longtemps</corr>
 </choice>
-, à leur droit naturel. Pour nous, si nous étions possesseurs d'esclaves, nous aviserions, sans perdre une heure, aux moyens d'organiser le travail et de proclamer l'affranchissement dans nos habitations; ou, si notre générosité n'allait pas jusque là, nous presserions incessamment la métropole de nous faire une loi qui nous tirât tous de l'incertitude et de l'appréhension où nous vivons, esclaves et maîtres. Ce parti n'est-il pas non seulement le plus juste, mais encore le plus raisonnable, celui qu'indiquent la sagesse et, osons le dire, la nécessité? L'esclave, quel que soit l'abrutissement dans lequel il est tenu, comprend plus ou moins sa situation; il a ouï dire que les 
+, à leur droit naturel. Pour nous, si nous étions possesseurs d'esclaves, nous aviserions, sans perdre une heure, aux moyens d'organiser le travail et de proclamer l'affranchissement dans nos habitations; ou, si notre générosité n'allait pas jusque là, nous presserions incessamment la métropole de nous faire une loi qui nous tirât tous de l'incertitude et de l'appréhension où nous vivons, esclaves et maîtres. Ce parti n'est-il pas non seulement le plus juste, mais encore le plus raisonnable, celui qu'indiquent la sagesse et, osons le dire, la nécessité ? L'esclave, quel que soit l'abrutissement dans lequel il est tenu, comprend plus ou moins sa situation; il a ouï dire que les 
 <choice>
 <orig>philantropes</orig>
 <corr>philanthropes</corr>
@@ -70,7 +77,7 @@ français s'occupaient de lui et réclamaient son émancipation; il sait qu'il n
 <p>Voyez si vous pourrez échapper un de ces jours aux conséquences de ce grand exemple. Déjà, de la <placeName ref="#MQ"><country>Martinique</country></placeName>, placée entre la <placeName ref="#DOM"><country>Dominique</country></placeName> et <placeName ref="#STL"><country>Sainte-Lucie</country></placeName>, un grand nombre d'esclaves s'échappent durant la nuit et se rendent dans ces deux colonies anglaises pour y jouir des bienfaits du nouveau <emph>bill</emph>.</p><pb n="5"/>
 <p>Nous ne finirons pas sans faire des voeux pour que le gouvernement français prenne en sérieuse considération cette situation pénible, et presse les chambres de chercher une solution à tous les embarras des colonies. Nous voudrions sans doute que l'
 <choice>
-<sic>intérét</sic>
+<orig>intérét</orig>
 <corr>intérêt</corr>
 </choice>
 des propriétaires put être convenablement satisfait par cette mesure, mais nous voulons avant tout qu'on songe qu'il y a aux colonies des hommes qui ne sont privés de leur liberté que par le plus abominable abus, et que ce n'est pas là une de ces questions de peu d'importance qu'il est permis de remettre au lendemain. Il s'agit ici du sang et de la chair d'hommes que la couleur seule de leur peau fait 
@@ -79,28 +86,43 @@ des propriétaires put être convenablement satisfait par cette mesure, mais nou
 <corr>différents</corr>
 </choice>
 de ceux qui les oppriment.</p>
-</div>
-<div>
+
+<div type="article">
 <head>NÉCESSITÉ DE L'INSTRUCTION AUX COLONIES.</head>
-<p>L'ignorance a été dans tous les temps et dans tous les pays le plus puissant auxiliaire de la tyrannie. Tous les gouvernemens qui ont admis l'esclavage dans leur droit public ont eu soin de proscrire l'instruction comme une ennemie dangereuse. Mais dans les colonies, cette proscription, brutalement exécutée, a eu des suites bien fatales pour les progrès de la civilisation. L'aristocratie coloniale, dans son astucieuse et barbare prévoyance, a combattu de toutes ses forces le développement de l'instruction; à peine y a-t-elle toléré quelques écoles primaires, dans ces derniers temps, en faveur des hommes de couleur libres; mais ces écoles, où les élèves apprennent seulement les premiers 
+<p>L'ignorance a été dans tous les temps et dans tous les pays le plus puissant auxiliaire de la tyrannie. Tous les 
+<choice>
+<orig>gouvernemens</orig>
+<corr>gouvernements</corr>
+</choice>
+qui ont admis l'esclavage dans leur droit public ont eu soin de proscrire l'instruction comme une ennemie dangereuse. Mais dans les colonies, cette proscription, brutalement exécutée, a eu des suites bien fatales pour les progrès de la civilisation. L'aristocratie coloniale, dans son astucieuse et barbare prévoyance, a combattu de toutes ses forces le développement de l'instruction; à peine y a-t-elle toléré quelques écoles primaires, dans ces derniers temps, en faveur des hommes de couleur libres; mais ces écoles, où les élèves apprennent seulement les premiers 
 <choice>
 <orig>élémens</orig>
 <corr>éléments</corr>
 </choice>
-, n'ont pas même obtenu les faveurs, les encouragemens des autorités locales toutes disposées à complaire aux privilégiés. Les hommes de couleur ne doivent pas oublier qu'en <date>1803</date>, un procureur-général à la <placeName ref="#MQ">Martinique</placeName> fit fermer toutes les écoles à leurs <choice>
+, n'ont pas même obtenu les faveurs, les 
+<choice>
+<orig>encouragemens</orig>
+<corr>encouragements</corr>
+</choice>
+des autorités locales toutes disposées à complaire aux privilégiés. Les hommes de couleur ne doivent pas oublier qu'en <date>1803</date>, un procureur-général à la <placeName ref="#MQ">Martinique</placeName> fit fermer toutes les écoles à leurs <choice>
 <orig>enfans</orig>
 <corr>enfants</corr>
 </choice>
-; et plus récemment encore, en <date>1829</date>, l'administration de la <placeName ref="#GP"></placeName>Guadeloupe déporta sans jugement <persName ref="#EP">M. Eugène Pol</persName>, jeune instituteur européen d'un mérite reconnu et qui se consacrait à l'éducation des jeunes gens de couleur. <persName>M. Ballin</persName>, envoyé aux colonies par <persName ref="#AA"><roleName>M. le ministre </roleName>d'Argout</persName>, avec la mission d'inspecteur de l'instruction, fut en butte à tant de persécutions et assailli de tant de dégoûts qu'il a été obligé d'abandonner la <placeName ref="#MQ">Martinique</placeName> et la <placeName ref="#GP">Guadeloupe</placeName> et de revenir <pb n="6"/> en France, où il est mort des chagrins et des ennuis dont on l'avait abreuvé.</p>
-<p>Et cependant la charte nouvelle a proclamé et consacré pour les hommes de couleur des droits nouveaux! Ne nous décourageons pas toutefois; et si la charte nouvelle ne peut rien contre le mauvais vouloir de l'aristocratie blanche, si nous ne pouvons jouir que difficilement chez nous des bienfaits de l'instruction, armons-nous de patience et de courage. Cette instruction dont on nous ferme l'accès dans nos foyers, sachons, s'il le faut, la chercher ailleurs. Que ceux d'entre nous qui le peuvent fassent donner à leurs 
+; et plus récemment encore, en <date>1829</date>, l'administration de la <placeName ref="#GP"></placeName>Guadeloupe déporta sans jugement <persName ref="#EP">M. Eugène Pol</persName>, jeune instituteur européen d'un mérite reconnu et qui se consacrait à l'éducation des jeunes gens de couleur. <persName>M. Ballin</persName>, envoyé aux colonies par <persName ref="#AA"><roleName>M. le ministre </roleName>d'Argout</persName>, avec la mission d'inspecteur de l'instruction, fut en butte à tant de persécutions et assailli de tant de dégoûts qu'il a été obligé d'abandonner la <placeName ref="#MQ">Martinique</placeName> et la <placeName ref="#GP">Guadeloupe</placeName> et de revenir <pb n="6"/> en <placeName ref="#FR">France</placeName>, où il est mort des chagrins et des ennuis dont on l'avait abreuvé.</p>
+<p>Et cependant la charte nouvelle a proclamé et consacré pour les hommes de couleur des droits nouveaux ! Ne nous décourageons pas toutefois; et si la charte nouvelle ne peut rien contre le mauvais vouloir de l'aristocratie blanche, si nous ne pouvons jouir que difficilement chez nous des bienfaits de l'instruction, armons-nous de patience et de courage. Cette instruction dont on nous ferme l'accès dans nos foyers, sachons, s'il le faut, la chercher ailleurs. Que ceux d'entre nous qui le peuvent fassent donner à leurs 
 <choice>
 <orig>enfans</orig>
 <corr>enfants</corr>
 </choice>
-une riche éducation, et qu'ils se souviennent que cette éducation, c'est en France, au sein de la capitale qu'il faut venir la puiser. Là seulement ils trouveront l'immense bienfait des manières d'un monde élégant et poli, des connaissances spéciales à la vocation qu'ils voudront embrasser; là ils pourront se créer des relations utiles pour leur avenir et se mettre en rapport avec les illustrations de tous les pays. Ainsi élevés, ils deviendront les colonnes de notre liberté et s'assureront des titres à la reconnaissance de la race noire et de couleur dont ils sauront conquérir et défendre les droits.</p>
+une riche éducation, et qu'ils se souviennent que cette éducation, c'est en <placeName>France</placeName>, au sein de la capitale qu'il faut venir la puiser. Là seulement ils trouveront l'immense bienfait des manières d'un monde élégant et poli, des connaissances spéciales à la vocation qu'ils voudront embrasser; là ils pourront se créer des relations utiles pour leur avenir et se mettre en rapport avec les illustrations de tous les pays. Ainsi élevés, ils deviendront les colonnes de notre liberté et s'assureront des titres à la reconnaissance de la race noire et de couleur dont ils sauront conquérir et défendre les droits.</p>
 <p>C'est du sein de <placeName ref="#Par">Paris</placeName> que les <persName ref="#SB">Bolivar</persName>, les <persName ref="#JP">Pétion</persName>, les <persName ref="#JPB">Boyer</persName> et leurs plus illustres compagnons de gloire ont pendant plusieurs années puisé de nobles et généreuses idées, pour le triomphe desquelles ils ont combattu avec tant de bravoure et de succès. C'est à leurs connaissances, à leur éducation qu'ils durent ce saint enthousiasme qui les conduisit à la victoire et qui a conquis pour leurs compatriotes la liberté dont ils jouissent.</p>
-<p>Nous, enfans de la France, nous n'avons pas à désirer qu'un <persName>Bolivar</persName> vienne nous délivrer d'un joug étranger. La <placeName ref="#FR"><country>France</country></placeName> nous est trop chère, ses bienfaits trop précieux et sa protection trop nécessaire pour nous laisser aller à des idées hostiles envers elle. Nous ne voyons dans la domination de ceux qui nous gouvernent et qui interprètent faussement le vœu de la <placeName>France</placeName> qu'une œuvre isolée, et non pas l'expression fidèle des intentions de la mère-patrie.</p>
-<p>Quel homme de couleur pourrait oublier que c'est une chambre française qui la première proclama les <title>Droits de l'homme</title> et les grands principes d'égalité! Et d'ailleurs, <placeName>la France</placeName> n'est-elle pas <pb n="7"/>notre véritable patrie, celle dont nous sommes si fiers? Ce qui fait l'objet de nos vœux les plus 
+<p>Nous, 
+<choice>
+<orig>enfans</orig>
+<corr>enfants</corr>
+</choice>
+de la <placeName>France</placeName>, nous n'avons pas à désirer qu'un <persName>Bolivar</persName> vienne nous délivrer d'un joug étranger. La <placeName><country>France</country></placeName> nous est trop chère, ses bienfaits trop précieux et sa protection trop nécessaire pour nous laisser aller à des idées hostiles envers elle. Nous ne voyons dans la domination de ceux qui nous gouvernent et qui interprètent faussement le vœu de la <placeName>France</placeName> qu'une œuvre isolée, et non pas l'expression fidèle des intentions de la mère-patrie.</p>
+<p>Quel homme de couleur pourrait oublier que c'est une chambre française qui la première proclama les <bibl type="legal"><title ref="#DDH">Droits de l'homme</title></bibl> et les grands principes d'égalité! Et d'ailleurs, <placeName>la France</placeName> n'est-elle pas <pb n="7"/>notre véritable patrie, celle dont nous sommes si fiers ? Ce qui fait l'objet de nos vœux les plus 
 <choice>
 <orig>ardens</orig>
 <corr>ardents</corr>
@@ -111,20 +133,20 @@ une riche éducation, et qu'ils se souviennent que cette éducation, c'est en Fr
 <corr>talents</corr>
 </choice>
 et de leurs connaissances.</p>
-<p>Pouvons-nous voir sans gémir notre caste tout entière privée de vrais défenseurs devant les tribunaux, ne pas compter même un seul officier ministériel sorti de son sein, être toujours à la merci de ses adversaires comme gens taillables et corvéables au bon plaisir de leurs seigneurs et maîtres? Quoi! nous pourrions rester 
+<p>Pouvons-nous voir sans gémir notre caste tout entière privée de vrais défenseurs devant les tribunaux, ne pas compter même un seul officier ministériel sorti de son sein, être toujours à la merci de ses adversaires comme gens taillables et corvéables au bon plaisir de leurs seigneurs et maîtres ? Quoi! nous pourrions rester 
 <choice>
 <orig>indifférens</orig>
 <corr>indifférents</corr>
 </choice>
-devant un état de choses si monstrueux! Pas un seul homme de loi pour nous aider de ses conseils, pas un pharmacien pour nous distribuer des remèdes, pas un médecin pour nous donner ses soins dans nos maladies, pas un seul officier de couleur, aux colonies, sorti des rangs de l'armée et capable de former nos milices ou gardes nationales aux manoeuvres et au service des différentes armes! Il est vrai que, par un calcul machiavélique, le petit nombre de ceux qui, parmi nous, ont obtenu des grades dans l'armée ont été constamment écartés on retenus en <placeName><country>France</country></placeName>; jamais il n'ont pu obtenir d'emploi aux colonies, parce que le département de la marine en a décidé ainsi, tandis que tous les jeunes créoles privilégiés y sont envoyés avec des avantages, des faveurs et des grades.</p>
-<p>Frères et amis, que cette pensée est douloureuse! que ce tableau est déchirant! Faisons cesser un état de choses si funeste pour nos vrais intérêts et si favorable aux attaques et aux médisances de nos ennemis.</p>
+devant un état de choses si monstrueux! Pas un seul homme de loi pour nous aider de ses conseils, pas un pharmacien pour nous distribuer des remèdes, pas un médecin pour nous donner ses soins dans nos maladies, pas un seul officier de couleur, aux colonies, sorti des rangs de l'armée et capable de former nos milices ou gardes nationales aux manoeuvres et au service des différentes armes ! Il est vrai que, par un calcul machiavélique, le petit nombre de ceux qui, parmi nous, ont obtenu des grades dans l'armée ont été constamment écartés on retenus en <placeName><country>France</country></placeName> ; jamais il n'ont pu obtenir d'emploi aux colonies, parce que le département de la marine en a décidé ainsi, tandis que tous les jeunes créoles privilégiés y sont envoyés avec des avantages, des faveurs et des grades.</p>
+<p>Frères et amis, que cette pensée est douloureuse! que ce tableau est déchirant ! Faisons cesser un état de choses si funeste pour nos vrais intérêts et si favorable aux attaques et aux médisances de nos ennemis.</p>
 <p>Avec l'instruction arriveront pour nous la puissance, la gloire et les richesses. Nos 
 <choice>
 <orig>commerçans</orig>
 <corr>commerçants</corr>
 </choice>
 , à l'imitation des grandes maisons d'<placeName ref="#EUR">Europe</placeName>, chercheront hardiment la fortune dans tous les climats. Nos marins partageront les travaux, les périls et les palmes de leurs frères de <placeName><country>France</country></placeName>; nos jeunes guerriers iront conquérir des grades élevés sur les champs de bataille, et nos avocats feront entendre au milieu de leurs compatriotes une voix éloquente et énergique en faveur de l'innocent et de l'opprimé.</p>
-<p>Nous ne serons plus alors des ilotes et des parias honteux de se montrer et ne sachant où trouver appui et protection. Investis de la confiance publique, nous aurons pour nous, libres et instruits,<pb n="8"/>la considération, et des gages de sécurité pour la défense de nos droits, de nos biens et de nos libertés.</p>
+<p>Nous ne serons plus alors des <emph>ilotes</emph> et des <emph>parias</emph> honteux de se montrer et ne sachant où trouver appui et protection. Investis de la confiance publique, nous aurons pour nous, libres et instruits,<pb n="8"/>la considération, et des gages de sécurité pour la défense de nos droits, de nos biens et de nos libertés.</p>
 <p>Ces pensées ne sont pas les conceptions d'une imagination délirante et malade; c'est un plan conçu, médité depuis longues années par un patriotisme élevé, c'est le résultat de longues et sérieuses réflexions. L'expérience la plus journalière est là pour justifier nos idées et leur donner la sanction la moins récusable, celle de la force des choses et de la marche naturelle et logique des 
 <choice>
 <orig>événemens</orig>
@@ -132,9 +154,15 @@ devant un état de choses si monstrueux! Pas un seul homme de loi pour nous aide
 </choice>
 .</p>
 </div>
-<div>
+
+<div type="article">
 <head>DEVOIR NATIONAL DE FAIRE RESPECTER PAR LES PUISSANCES ÉTRANGÈRES LA QUALITÉ DE CITOYEN FRANÇAIS DONT JOUISSENT LES HOMMES DE COULEUR LIBRES.</head>
-<p>La <rs type="event">révolution de juillet</rs>, qui aurait dû être plus féconde, qui le sera plus tard, on n'en saurait douter, n'a pourtant pas été si complétement stérile pour nos colonies. Parmi les bienfaits dont il faut lui savoir gré, il convient de compter la loi du <date>24 avril 1833</date>, qui a reconnu aux hommes de couleur les droits de citoyens français, et qui les a placés, sans distinction, au sein de la grande famille. C'est un premier pas qui en appelle d'autres; c'est un commencement de réparation qu'il faut compléter franchement et sans restriction. La disposition législative qui donne aux hommes de couleur la jouissance des droits politiques ajoute: sous les conditions prescrites par les lois. Mais pour que les droits aient des effets réels et ne soient pas un leurre, il faut que les conditions légales réglées pour leur exercice ne soient pas combinées de manière à les rendre à peu près illusoires; or, c'est ce qui arrive par les droits électoraux, auxquels un très petit nombre d'hommes de couleur peuvent participer, grace à la fixation du cens d'électorat et d'éligibilité. La loi d'élection pour les colonies est donc à réformer; mais ce n'est pas de cela qu'il s'agit ici.</p>
+<p>La <rs type="event">révolution de juillet</rs>, qui aurait dû être plus féconde, qui le sera plus tard, on n'en saurait douter, n'a pourtant pas été si 
+<choice>
+<orig>complétement</orig>
+<corr>complètement</corr>
+</choice>
+stérile pour nos colonies. Parmi les bienfaits dont il faut lui savoir gré, il convient de compter la loi du <date>24 avril 1833</date>, qui a reconnu aux hommes de couleur les droits de citoyens français, et qui les a placés, sans distinction, au sein de la grande famille. C'est un premier pas qui en appelle d'autres ; c'est un commencement de réparation qu'il faut compléter franchement et sans restriction. La disposition législative qui donne aux hommes de couleur la jouissance des droits politiques ajoute: sous les conditions prescrites par les lois. Mais pour que les droits aient des effets réels et ne soient pas un leurre, il faut que les conditions légales réglées pour leur exercice ne soient pas combinées de manière à les rendre à peu près illusoires ; or, c'est ce qui arrive par les droits électoraux, auxquels un très petit nombre d'hommes de couleur peuvent participer, grace à la fixation du cens d'électorat et d'éligibilité. La loi d'élection pour les colonies est donc à réformer ; mais ce n'est pas de cela qu'il s'agit ici.</p>
 <p>Notre but aujourd'hui n'est pas de réclamer l'extension plus ou moins grande d'une faculté politique pour les hommes de couleur, c'est leur droit même de citoyen français qu'il s'agit de maintenir et de préserver d'une grave atteinte, atteinte dont le dommage ne <pb n="9"/> porterait pas seulement sur eux, mais sur la nation tout entière, qui doit prendre pour elle-même l'insulte faite par une nation étrangère à chacun de ses membres.</p>
 <p>Le
 <choice>
@@ -146,29 +174,29 @@ de la couleur avait survécu à tous les autres
 <sic>priviléges</sic>
 <corr>privilèges</corr>
 </choice>
-tombés sous la justice de l'assemblée constituante et de la <rs type="event">révolution de <date>89</date></rs>; ce dernier 
+tombés sous la justice de l'<orgName ref="#AC">assemblée constituante</orgName> et de la <rs type="event">révolution de <date>89</date></rs>; ce dernier 
 <choice>
 <sic>privilége</sic>
 <corr>privilège</corr>
 </choice>
-est enfin tombé à son tour devant la <rs type="event">révolution de 1830</rs>. La <placeName><country>France</country></placeName> a voulu que tout homme libre né dans son sein ou dans ses colonies fût citoyen, quelle que fût sa couleur. Ce titre, que la nation reconnaît, elle doit le faire reconnaître par toutes les autres nations; il n'est loisible à aucune de distinguer parmi nous quand nous ne distinguons pas nous-mêmes, de faire des catégories quand nous n'en voulons pas faire, et de dénier le titre de Français à qui la <placeName><country>France</country></placeName> le donne. Voilà pourtant ce qui arrive à <placeName><country>Cuba</country></placeName>, possession espagnole, et dans les provinces méridionales des <placeName><country>États-Unis</country></placeName>. Un Français, s'il est homme de couleur, est exclus de ces deux pays; et s'il y pénètre, on le met en prison comme un malfaiteur.</p>
-<p>Voici ce que le ministre de la marine écrivait au préfet maritime à <placeName>Cherbourg</placeName>, le <date>29 avril 1830</date>: <q>“Suivant une communication parvenue au gouvernement du roi, l'assemblée législative de l'<placeName>état de Géorgie</placeName> a rendu dernièrement une loi qui interdit à toute personne de couleur (mulâtres ou nègres, libres ou esclaves) l'entrée de cet état, et qui défend en conséquence aux capitaines des navires, tant nationaux qu'étrangers, de se présenter dans les ports de <placeName>Savannah</placeName>, <placeName>Darien</placeName> et <placeName>Sainte-Marie</placeName>, s'ils ont à leur bord des gens de couleur, sous peine d'être soumis à une quarantaine rigoureuse de quarante jours et d'acquitter les frais de détention qu'auront à subir les gens de couleur pendant la durée du séjour du bâtiment dans le port; le capitaine devra en outre s'engager sous caution solvable à reprendre lesdits hommes de couleur et à les faire sortir du pays; et, en cas de refus de les reprendre, ainsi que de payer les frais de leur détention, il sera passible d'une amende de 500 dollars d'être soumis à une quarantaine rigoureuse de quarante jours et d'acquitter les frais de la détention qu'auront à subir les gens de (2,666 francs) et d'un emprisonnement qui ne pourra excéder trois mois.”</q></p>
+est enfin tombé à son tour devant la <rs type="event">révolution de 1830</rs>. La <placeName ref="#FR"><country>France</country></placeName> a voulu que tout homme libre né dans son sein ou dans ses colonies fût citoyen, quelle que fût sa couleur. Ce titre, que la nation reconnaît, elle doit le faire reconnaître par toutes les autres nations; il n'est loisible à aucune de distinguer parmi nous quand nous ne distinguons pas nous-mêmes, de faire des catégories quand nous n'en voulons pas faire, et de dénier le titre de Français à qui la <placeName><country>France</country></placeName> le donne. Voilà pourtant ce qui arrive à <placeName ref="#CUB"><country>Cuba</country></placeName>, possession espagnole, et dans les provinces méridionales des <placeName ref="#EU"><country>États-Unis</country></placeName>. Un Français, s'il est homme de couleur, est exclus de ces deux pays; et s'il y pénètre, on le met en prison comme un malfaiteur.</p>
+<p>Voici ce que le ministre de la marine écrivait au préfet maritime à <placeName ref="#Che">Cherbourg</placeName>, le <date>29 avril 1830</date>: <q>“Suivant une communication parvenue au gouvernement du roi, l'assemblée législative de l'<placeName ref="#GEO">état de Géorgie</placeName> a rendu dernièrement une loi qui interdit à toute personne de couleur (mulâtres ou nègres, libres ou esclaves) l'entrée de cet état, et qui défend en conséquence aux capitaines des navires, tant nationaux qu'étrangers, de se présenter dans les ports de <placeName ref="#Sav">Savannah</placeName>, <placeName ref="#Dar">Darien</placeName> et <placeName ref="#StM">Sainte-Marie</placeName>, s'ils ont à leur bord des gens de couleur, sous peine d'être soumis à une quarantaine rigoureuse de quarante jours et d'acquitter les frais de détention qu'auront à subir les gens de couleur pendant la durée du séjour du bâtiment dans le port; le capitaine devra en outre s'engager sous caution solvable à reprendre lesdits hommes de couleur et à les faire sortir du pays; et, en cas de refus de les reprendre, ainsi que de payer les frais de leur détention, il sera passible d'une amende de 500 dollars d'être soumis à une quarantaine rigoureuse de quarante jours et d'acquitter les frais de la détention qu'auront à subir les gens de (2,666 francs) et d'un emprisonnement qui ne pourra excéder trois mois.”</q></p>
 <p>Le ministre chargeait le préfet de donner aux commissaires des classes l'ordre de transmettre copie de sa circulaire aux chambres de commerce, et d'en rappeler le contenu aux capitaines des na-<pb n="10"/>vires destinés pour les ports de l'<placeName>état de la Géorgie</placeName> afin qu'ils eussent à se conformer à cette loi.</p>
-<p>Plus tard, <date>le 11 décembre 1832</date>, notre ministre des affaires étrangères écrivait au ministre de la marine: <q>“Le consul du roi à <placeName>San-Yago</placeName> de <placeName>Cuba</placeName> m'annonce qu'au mois d'août dernier, le capitaine <persName>Consteau</persName>, commandant le brick la Cora-et-Julie, de <placeName>Bordeaux</placeName>, a amené à <placeName>San-Yago</placeName> trois hommes de couleur, qui, d'après les 
+<p>Plus tard, <date>le 11 décembre 1832</date>, notre ministre des affaires étrangères écrivait au ministre de la marine: <q>“Le consul du roi à <placeName ref="#SaY">San-Yago</placeName> de <placeName>Cuba</placeName> m'annonce qu'au mois d'août dernier, le <roleName><persName ref="#CO">capitaine Consteau</persName></roleName>, commandant le brick <emph>la Cora-et-Julie</emph>, de <placeName ref="#Bor">Bordeaux</placeName>, a amené à <placeName>San-Yago</placeName> trois hommes de couleur, qui, d'après les 
 <choice>
 <orig>réglemens</orig>
-<corr>réglements</corr>
+<corr>règlements</corr>
 </choice>
-en vigueur dans l'île de <placeName><country>Cuba</country></placeName>, n'ont pu y être débarqués. Le consul est parvenu toutefois à obtenir que le capitaine ne fût point inquiété pour cette contravention et que  les trois hommes de couleur pussent trouver les moyens de se rendre à la <placeName>Jamaïque</placeName>.”</q></p>
+en vigueur dans l'île de <placeName>Cuba</placeName>, n'ont pu y être débarqués. Le consul est parvenu toutefois à obtenir que le capitaine ne fût point inquiété pour cette contravention et que  les trois hommes de couleur pussent trouver les moyens de se rendre à la <placeName ref="#JA">Jamaïque</placeName>.”</q></p>
 <p>Sur cet avertissement, le ministre de la marine s'empressa de donner toute la publicité possible à ce fait, et les capitaines de navires français en destination pour <placeName><country>Cuba</country></placeName> furent prévenus qu'ils ne pouvaient, dans aucun cas, y introduire des hommes de couleur.</p>
-<p>Ce langage de nos ministres, cette conduite du gouvernement français pouvaient se concevoir sous la restauration, et même depuis la <rs type="event">révolution</rs>, avant la loi du <date>24 avril 1833</date>; on ne les concevrait plus aujourd'hui. Il n'y a plus d'hommes de couleur, pour nous, parmi les hommes libres, il n'y a plus que des Français; et pourtant les hommes de couleur libres sont encore frappés d'exclusion. Le capitaine <persName>Chrétin</persName>, commandant le navire <emph>le Jeune-Ernest</emph>, de retour au <placeName>Havre</placeName>, d'un voyage d'<placeName><country>Amérique</country></placeName>, dans le mois de décembre dernier, a déclaré qu'à son arrivée à <placeName>Charleston</placeName>, la police s'empara d'un homme de couleur libre qu'il avait embarqué à <placeName>Bordeaux</placeName> comme matelot. Malgré les réclamations que le capitaine <persName>Chrétin</persName> adressa aux autorités, le matelot fut retenu en prison, aux frais du capitaine, jusqu'au départ du bâtiment.</p>
-<p>On comprend le motif de cette proscription des hommes de couleur dans les états du sud de l'Union: ces états, qui conservent l'esclavage, craignent pour ces populations, qu'ils tiennent enchaînées, le contact et jusqu'à la présence des hommes libres de couleur; mais ces précautions d'une politique ombrageuse peuvent elles aller jusqu'à dépouiller momentanément un citoyen français de son titre de citoyen, de son droit de locomotion, jusqu'à le traiter en proscrit et à le priver de sa liberté, sans autre cause que le caprice d'une législation inhospitalière ?</p><pb n="11"/>
+<p>Ce langage de nos ministres, cette conduite du gouvernement français pouvaient se concevoir sous la restauration, et même depuis la <rs type="event">révolution</rs>, avant la loi du <date>24 avril 1833</date>; on ne les concevrait plus aujourd'hui. Il n'y a plus d'hommes de couleur, pour nous, parmi les hommes libres, il n'y a plus que des Français; et pourtant les hommes de couleur libres sont encore frappés d'exclusion. Le <roleName>capitaine <persName>Chrétin</persName></roleName>, commandant le navire <emph>le Jeune-Ernest</emph>, de retour au <placeName ref="#Ha">Havre</placeName>, d'un voyage d'<placeName ref="#AM">Amérique</placeName>, dans le mois de décembre dernier, a déclaré qu'à son arrivée à <placeName ref="#Cha">Charleston</placeName>, la police s'empara d'un homme de couleur libre qu'il avait embarqué à <placeName>Bordeaux</placeName> comme matelot. Malgré les réclamations que le capitaine <persName>Chrétin</persName> adressa aux autorités, le matelot fut retenu en prison, aux frais du capitaine, jusqu'au départ du bâtiment.</p>
+<p>On comprend le motif de cette proscription des hommes de couleur dans les états du sud de <orgName ref="#UN">l'Union</orgName> : ces états, qui conservent l'esclavage, craignent pour ces populations, qu'ils tiennent enchaînées, le contact et jusqu'à la présence des hommes libres de couleur ; mais ces précautions d'une politique ombrageuse peuvent elles aller jusqu'à dépouiller momentanément un citoyen français de son titre de citoyen, de son droit de locomotion, jusqu'à le traiter en proscrit et à le priver de sa liberté, sans autre cause que le caprice d'une législation inhospitalière ?</p><pb n="11"/>
 <p>La loi de <date>1833</date> a formellement déclaré 
 <choice>
 <sic>aborgées</sic>
 <corr>abroger</corr>
 </choice>
-<q>“toutes restrictions ou exclusions qui avaient été prononcées, quant à l'exercice des droits civils et des droits politiques, à l'égard des hommes de couleur libres et des affranchis.”</q> En présence d'une telle loi, ces autres restrictions, bien plus oppressives encore, qui vont jusqu'à dénationaliser un homme, jusqu'à le traiter en esclave, peuvent-elles se supporter? Le gouvernement français peut-il, sans abdiquer sa propre dignité, laisser subsister un tel état de choses? Son propre honneur, aussi bien que l'intérêt des hommes de couleur, lui fait un devoir impérieux de réclamer contre une interdiction qui ne saurait frapper des citoyens français et qui les atteindrait plus loin qu'on ne pense. Se figure-t-on qu'un membre de <orgName>l'Institut de France</orgName>, un général de notre armée, par exemple, ne pussent mettre le pied sur le territoire méridional de l'Union sans être jetés dans un cachot? C'est cependant ce qui aurait pu arriver au célèbre peintre <persName>Lethiers</persName>; c'est ce qui pouvait arriver encore à un maréchal-de-camp, le général <persName>Roche</persName>, qui a commandé naguère un de nos 
+<q>“toutes restrictions ou exclusions qui avaient été prononcées, quant à l'exercice des droits civils et des droits politiques, à l'égard des hommes de couleur libres et des affranchis.”</q> En présence d'une telle loi, ces autres restrictions, bien plus oppressives encore, qui vont jusqu'à dénationaliser un homme, jusqu'à le traiter en esclave, peuvent-elles se supporter ? Le gouvernement français peut-il, sans abdiquer sa propre dignité, laisser subsister un tel état de choses ? Son propre honneur, aussi bien que l'intérêt des hommes de couleur, lui fait un devoir impérieux de réclamer contre une interdiction qui ne saurait frapper des citoyens français et qui les atteindrait plus loin qu'on ne pense. Se figure-t-on qu'un membre de <orgName>l'Institut de France</orgName>, un général de notre armée, par exemple, ne pussent mettre le pied sur le territoire méridional de <orgName>l'Union</orgName> sans être jetés dans un cachot ? C'est cependant ce qui aurait pu arriver au célèbre <roleName>peintre</roleName><persName ref="#GL">Lethiers</persName>; c'est ce qui pouvait arriver encore à un maréchal-de-camp, le <roleName>général</roleName><persName ref="#RO">Roche</persName>, qui a commandé naguère un de nos 
 <choice>
 <orig>départemens</orig>
 <corr>départements</corr>
@@ -179,9 +207,10 @@ en vigueur dans l'île de <placeName><country>Cuba</country></placeName>, n'ont 
 <orig>habitans</orig>
 <corr>habitants</corr>
 </choice>
-de l'Union peuvent librement venir en <placeName><country>France</country></placeName>, y circuler, y faire leurs affaires; tous y jouissent de cette hospitalité que se doivent les unes aux autres toutes les nations civilisées. Il n'y a pas de réciprocité plus juste et moins contestée. Nous ne demandons point pour les hommes de couleur le droit d'aller porter des semences de trouble et de rébellion parmi les hommes de couleur des états méridionaux de la république : on peut surveiller leur conduite et la faire punir si elle était trouvée coupable; la <placeName><country>France </country></placeName>ne réclamerait pas contre un châtiment légalement infligé. Mais elle doit réclamer, et avec toute l'énergie d'un droit manifeste et d'une injure reçue, contre toute interdition préventive, tout emprisonnement arbitraire, tout acte enfin qui peut porter atteinte au caractère de citoyens français dont jouissent les hommes de couleur libres, nés dans toute l'étendue de notre territoire.</p><pb n="12"/>
+de <orgName>l'Union</orgName> peuvent librement venir en <placeName><country>France</country></placeName>, y circuler, y faire leurs affaires; tous y jouissent de cette hospitalité que se doivent les unes aux autres toutes les nations civilisées. Il n'y a pas de réciprocité plus juste et moins contestée. Nous ne demandons point pour les hommes de couleur le droit d'aller porter des semences de trouble et de rébellion parmi les hommes de couleur des états méridionaux de la république : on peut surveiller leur conduite et la faire punir si elle était trouvée coupable ; la <placeName><country>France </country></placeName>ne réclamerait pas contre un châtiment légalement infligé. Mais elle doit réclamer, et avec toute l'énergie d'un droit manifeste et d'une injure reçue, contre toute interdition préventive, tout emprisonnement arbitraire, tout acte enfin qui peut porter atteinte au caractère de citoyens français dont jouissent les hommes de couleur libres, nés dans toute l'étendue de notre territoire.</p><pb n="12"/>
 </div>
-<div>
+
+<div type="article">
 <head>DES DÉLÉGUÉS DE L'ARISTOCRATIE COLONIALE ET DES MANDATAIRES DES HOMMES
 DE COULEUR.</head>
 
@@ -193,18 +222,36 @@ celui de 600 francs ne permet l'accès du conseil colonial qu'aux grands propri�
 d'habitations et d'esclaves, qu'à ce que nous appelons l'aristocratie coloniale, et nullement à la
 masse des travailleurs, noirs, mulâtres ou même blancs, qui forment la majorité de la
 population. Les délégués nommés par ce conseil ne représentent donc que les intérêts des
-grands propriétaires; leurs vues doivent être exclusives, aristocratiques, entièrement opposées
+grands propriétaires ; leurs vues doivent être exclusives, aristocratiques, entièrement opposées
 à l'amélioration du sort des classes qu'ils craignent ou haïssent. Nommés ainsi, choisis par des
-commettans vraiment intéressés à ce qu'il ne soit rien fait en faveur des classes de couleur, ils
-ne sont en <placeName>France</placeName> que pour y soutenir et y défendre les priviléges des blancs.</p>
+<choice>
+<orig>commettans</orig>
+<corr>commettants</corr>
+</choice>
+vraiment intéressés à ce qu'il ne soit rien fait en faveur des classes de couleur, ils
+ne sont en <placeName ref="#FR">France</placeName> que pour y soutenir et y défendre les 
+<choice>
+<orig>priviléges</orig>
+<corr>privilèges</corr>
+</choice>
+des blancs.</p>
 <p>Cette loi n'a donc apporté dans les colonies que l'organisation d'un nouveau monopole.
 Comment des hommes nommés par une majorité où l'élément de couleur ne saurait entrer que
-dans une minime proportion prétendraient-ils représenter les hommes de couleur? C'est une
-dérision. Cette loi n'a donc remédié à rien : elle est impuissante, comme loi de privilége et de
-monopole, à produire des résultats favorables à l'émancipation générale. On peut en
+dans une minime proportion prétendraient-ils représenter les hommes de couleur ? C'est une
+dérision. Cette loi n'a donc remédié à rien : elle est impuissante, comme loi de 
+<choice>
+<orig>privilége</orig>
+<corr>privilège</corr>
+</choice>
+et de monopole, à produire des résultats favorables à l'émancipation générale. On peut en
 conséquence conclure que ceux qui se qualifient de délégués des colonies ne sont en réalité
 que les mandataires des privilégiés, les avocats des propriétaires de terres et d'esclaves;
-jamais, en quoi que ce soit, les représentans de nos intérêts, à nous, hommes de la petite
+jamais, en quoi que ce soit, les 
+<choice>
+<orig>représentans</orig>
+<corr>représentants</corr>
+</choice> 
+de nos intérêts, à nous, hommes de la petite
 propriété, et, si l'on peut ainsi dire, de la petite liberté, qui demandons pour nous et pour autrui à
 n'être pas exclus du droit commun, qui faisons plus, qui voulons l'abolition non seule'ment de
 l'esclavage parmi tous les hommes quelle que soit leur<pb n="13"/>couleur, mais encore, nous en référant à notre déclaration de principes, leur participation directe à l'élection des 
@@ -212,43 +259,73 @@ l'esclavage parmi tous les hommes quelle que soit leur<pb n="13"/>couleur, mais 
 <orig>représentans</orig>
 <corr>représentants</corr>
 </choice>
-de la société. La liberté et l'égalité, ces deux dogmes mal compris en haut et en bas de l'échelle sociale et contre lesquels on a laissé s'établir des préjugés grossiers, sont notre devise aussi. Nous ne reconnaitrons par conséquent jamais le caractère de délégués des colonies qu'aux hommes, blancs ou noirs, qui auront été élus et par les hommes libres de toutes conleurs et par les noirs affranchis et civilisés. Jusque-là la question sera pour nous de fait, et non de droit. Il n'importe qu'on nous dise que ce droit, nous ne saurions l'exercer; non, parce que nous sommes opprimés et que nous nous laissons faire;
+de la société. La liberté et l'égalité, ces deux dogmes mal compris en haut et en bas de l'échelle sociale et contre lesquels on a laissé s'établir des préjugés grossiers, sont notre devise aussi. Nous ne reconnaitrons par conséquent jamais le caractère de délégués des colonies qu'aux hommes, blancs ou noirs, qui auront été élus et par les hommes libres de toutes couleurs et par les noirs affranchis et civilisés. Jusque-là la question sera pour nous de fait, et non de droit. Il n'importe qu'on nous dise que ce droit, nous ne saurions l'exercer; non, parce que nous sommes opprimés et que nous nous laissons faire ;
 mais si nous ne sommes pas appelés encore à le mettre en pratique, ce droit ne nous parait
-pas moins im prescriptible et sacré. Voilà pourquoi nous qualifions ces prétendus représentans
-des colonies de <emph>délégués de l'aristocratie coloniale</emph>; voilà pourquoi nous refusons de voir en eux ce caractère de représentants qu'ils revendiquent.</p>
+pas moins im prescriptible et sacré. Voilà pourquoi nous qualifions ces prétendus 
+<choice>
+<orig>représentans</orig>
+<corr>représentants</corr>
+</choice>
+des colonies de <emph>délégués de l'
+<choice>
+<sic>aristocrotie</sic>
+<corr>aristocratie</corr>
+</choice>
+coloniale</emph>; voilà pourquoi nous refusons de voir en eux ce caractère de 
+<choice>
+<orig>représentans</orig>
+<corr>représentants</corr>
+</choice>
+qu'ils revendiquent.</p>
 <p>Mais, dira-t-on, ceux qui se qualifient de mandataires des hommes de couleur sont-ils plus que
 les autres les 
 <choice>
 <orig>représentans</orig>
 <corr>représentants</corr>
 </choice>
-des colonies? Légalement, non, nous ne balançons point à le dire; moralement, oui, quelles que puissent être les dénégations des intéressés, nous le croyons. Ils ont reçu mandat de tous ceux qui ont même intérêt, même besoin de liberté, de tous ceux dont ils sentent et comprennent la situation; ils ont reçu mandat de leur conscience et de leur volonté, comme tous les hommes qui ont travaillé pour l'humanité. Dans l'origine, ils l'avaient reçu, ce mandat, par lettres de leurs nombreux amis; depuis il a été confirmé par procuration de l'immense majorité des hommes de couleur, c'est-à-dire d'hommes ayant un intérêt commun. Ce titre de mandataires leur avait été reconnu par les divers ministres qui se sont
+des colonies ? Légalement, non, nous ne balançons point à le dire; moralement, oui, quelles que puissent être les dénégations des intéressés, nous le croyons. Ils ont reçu mandat de tous ceux qui ont même intérêt, même besoin de liberté, de tous ceux dont ils sentent et comprennent la situation; ils ont reçu mandat de leur conscience et de leur volonté, comme tous les hommes qui ont travaillé pour l'humanité. Dans l'origine, ils l'avaient reçu, ce mandat, par lettres de leurs nombreux amis ; depuis il a été confirmé par procuration de l'immense majorité des hommes de couleur, c'est-à-dire d'hommes ayant un intérêt commun. Ce titre de mandataires leur avait été reconnu par les divers ministres qui se sont
 succédés au département de la marine et des colonies depuis juillet.</p>
-<p>Et maintenant, de la sorte expliqué, qui pourrait contester ce titre à tout homme de couleur qui voudra prendre la parole pour ses frères? Que nous importe aujourd'hui que le ministre de la marine ait en quelque sorte dénoncé au garde-des-sceaux celui des anciens déportés de la
-<placeName ref="#MQ">Martinique</placeName>, qui a cru devoir l'ajouter encore à son nom! Nous qui avons renoncé volontairement à cette<pb n="14"/>qualification comme inutile et comme pouvant nous gêner dans le libre développement de nos doctrines, qui l'avons rejetée comme inutile, non comme illicite, nous la reprendrions avec empressement si nous pensions qu'elle fût de nature à déterminer des pour suites pardevant les tribunaux. Ce nous serait une belle occasion de dire tout haut des paroles qui ne pourraient tourner qu'à la confusion des privilégiés.</p>
+<p>Et maintenant, de la sorte expliqué, qui pourrait contester ce titre à tout homme de couleur qui voudra prendre la parole pour ses frères ? Que nous importe aujourd'hui que le ministre de la marine ait en quelque sorte dénoncé au garde-des-sceaux celui des anciens déportés de la
+<placeName ref="#MQ">Martinique</placeName>, qui a cru devoir l'ajouter encore à son nom ! Nous qui avons renoncé volontairement à cette<pb n="14"/>qualification comme inutile et comme pouvant nous gêner dans le libre développement de nos doctrines, qui l'avons rejetée comme inutile, non comme illicite, nous la reprendrions avec empressement si nous pensions qu'elle fût de nature à déterminer des pour suites 
+<choice>
+<orig>pardevant</orig>
+<corr>par-devant</corr>
+</choice> 
+les tribunaux. Ce nous serait une belle occasion de dire tout haut des paroles qui ne pourraient tourner qu'à la confusion des privilégiés.</p>
 <p>Il est donc bien entendu que les délégués nommés en vertu de la loi d'<date>avril 1833</date> ne sont à nos yeux que les procureurs fondés de l'aristocratie coloniale près le ministre de la marine et des colonies. Quant au titre de mandataire des hommes de couleur, quiconque plaidera éloquemment pour leurs droits, quiconque saura formuler avec force et vérité leur besoins moraux, intellectuels et physiques, et poursuivre le redressement de leurs griefs contre leurs
 dominateurs aura droit à cet honorable titre.</p>
 </div>
-<div>
-<head>AFFAIRE DE LA GRAND'ANSE.</head>
-<p><title>Le Temps</title> ayant publié une lettre où les<rs type="event">
+
+<div type="article">
+<head><rs type="event">AFFAIRE DE LA GRAND'ANSE.</rs></head>
+
+<p><bibl type="periodical"><title ref="#LT">Le Temps</title></bibl> ayant publié une lettre où les<rs type="event">
 <choice>
 <orig>événemens</orig>
 <corr>événements</corr>
 </choice>
-de la Grand'Anse</rs> étaient étrangement dénaturés. <persName>M. Gatine</persName>, avocat à la cour de cassation, a relevé les assertions erronées du correspondant de ce journal. Nous ne pouvons nous expliquer le refus d'insertion dans cette feuille de la lettre de <persName>M. Gatine</persName> qu'en acceptant pour vrai ce qui nous a été affirmé par des personnes que nous avons tout lieu de croire bien informées, à savoir, que <title>le Temps</title>, par des raisons de diverses natures, est plutôt dévouéaux intérêts de l'aristocratie coloniale qu'aux droits de l'humanité, indignement outragés dans la personne des hommes de couleur. Nous publions avec plaisir et empressement la remarquable réfutation de <persName>M. Gatine</persName>.</p>
+de la Grand'Anse</rs> étaient étrangement dénaturés. <persName ref="#GA">M. Gatine</persName>, avocat à la cour de cassation, a relevé les assertions erronées du correspondant de ce journal. Nous ne pouvons nous expliquer le refus d'insertion dans cette feuille de la lettre de <persName>M. Gatine</persName> qu'en acceptant pour vrai ce qui nous a été affirmé par des personnes que nous avons tout lieu de croire bien informées, à savoir, que <title>le Temps</title>, par des raisons de diverses natures, est plutôt
+<choice>
+<sic>dévouéaux</sic>
+<corr>dévoué aux</corr>
+</choice> 
+intérêts de l'aristocratie coloniale qu'aux droits de l'humanité, indignement outragés dans la personne des hommes de couleur. Nous publions avec plaisir et empressement la remarquable réfutation de <persName>M. Gatine</persName>.</p>
 <quote><p>20 juillet 1834.</p>
 <p><emph>A M. le rédacteur du journal <title>le Temps</title>.</emph></p>
 <p>Monsieur,</p>
-<p>Vous avez inséré dans votre numéro du 19 une lettre d'un colon de la Martinique relative au grand procès qui se juge dans cette<pb n="15"/> colonie; cette lettre est de nature à provoquer des réflexions que votre impartialité vous engagera peut-être à publier aussi.</p>
+<p>Vous avez inséré dans votre numéro du 19 une lettre d'un colon de la <placeName ref="#MQ">Martinique</placeName> relative au grand procès qui se juge dans cette<pb n="15"/> colonie; cette lettre est de nature à provoquer des réflexions que votre impartialité vous engagera peut-être à publier aussi.</p>
 <p>Comme son auteur, je suis de ceux qui pensent qu'on aurait dû faire trève à la polémique sur les déplorables <rs type="event">
-<choice><orig>événemens</orig><corr>événements</corr></choice>de la Grand'Anse</rs> jusqu'à ce qu'ils soient entièrement connus en <placeName ref="#FR">France</placeName> et jusqu'à ce que la justice ait prononcé sur le sort de tant d'accusés prévenus de crime capital; mais je suis loin de croire que, par les publications déjà faites, on ait voulu <emph>donner le change à l'opinion</emph> en renvoyant au parti accusateur son accusation de complot, en déclarant hautement que la conjuration supposée des hommes de couleur, au mois de décembre dernier, <emph>pour massacrer tous les blancs et s'emparer de leurs biens</emph>, n'est qu'une invention machiavélique de quelques incorrigibles de l'autre hémisphère, car il a aussi les siens.</p>
-<p>Permis à eux de suspendre leurs ex voto aux voûtes du temple et d'annoncer <emph>que c'est par un bonheur inespéré que <placeName ref="#MQ">la Martinique</placeName> a échappé aux projets les plus subversifs, et qu'eux, oppresseurs prétendus, s'ils n'ont pas subi le triste rôle de victimes, ils ne le doivent qu'à la lâcheté de leurs ennemis</emph>. Mais qui pourra croire à ce complot de sang et de massacres, quand on saura que ces bandes armées, qui auraient parcouru pendant trois jours et le poignard à la main plusieurs quartiers de la colonie, n'ont pas commis un seul meurtre dont on puisse seulement les accuser! Ne verra-t-on pas plutôt malgré soi une œuvre de parti dans une accusation vide de preuves, et qui comprend pêle-mêle dans ses larges préventions des hommes restés entièrement étrangers aux 
 <choice>
 <orig>événemens</orig>
 <corr>événements</corr>
 </choice>
-, comme <persName>Léonce</persName>, de Saint-Pierre, qu'on n'a pu inculper qu'<emph>avec sa correspondance de</emph><date>1824</date>! Qui pourra croire à ce complot, dont on est déjà si fort embarrassé, et pour lequel votre correspondant, monsieur le rédacteur, sollicite lui-même à l'avance <emph>une large clémence</emph>!..... Enfin qui pourra voir sans une profonde douleur ces inconcevables chants de victoire, ce reproche de lâcheté emprunté à l'acte d'accusation qui le répète jusqu'à trois fois avec tant de complaisance? Il semblerait, à lire toutes ces bravades, toutes ces objurgations si étrangement jetées aux hommes de couleur, qu'il s'agit d'un événement militaire où il y eût de la gloire à gagner pour l'un ou l'autre parti. Et l'accusation est d'avoir excité <emph>la guerre civile</emph> ! Reproche bien placé que celui d'a<pb n="16"/>voir manqué de courage à déchirer le sein de la patrie ! J'avais toujours pensé que les bons citoyens doivent, après ces déplorables conflits, pleurer en silence sur la victoire des uns aussi bien que sur la défaite des autres. Noble reproche aussi que celui que l'on crie bien haut à des captifs, à des hommes qui ont volontairement déposé les armes sur une promesse d'amnistie, à des prisonniers qu'on a 
+de la Grand'Anse</rs> jusqu'à ce qu'ils soient entièrement connus en <placeName ref="#FR"><country>France</country></placeName> et jusqu'à ce que la justice ait prononcé sur le sort de tant d'accusés prévenus de crime capital; mais je suis loin de croire que, par les publications déjà faites, on ait voulu <emph>donner le change à l'opinion</emph> en renvoyant au parti accusateur son accusation de complot, en déclarant hautement que la conjuration supposée des hommes de couleur, au mois de décembre dernier, <emph>pour massacrer tous les blancs et s'emparer de leurs biens</emph>, n'est qu'une invention machiavélique de quelques incorrigibles de l'autre hémisphère, car il a aussi les siens.</p>
+<p>Permis à eux de suspendre leurs <emph>ex voto</emph> aux voûtes du temple et d'annoncer <emph>que c'est par un bonheur inespéré que <placeName>la Martinique</placeName> a échappé aux projets les plus subversifs, et qu'eux, oppresseurs prétendus, s'ils n'ont pas subi le triste rôle de victimes, ils ne le doivent qu'à la lâcheté de leurs ennemis</emph>. Mais qui pourra croire à ce complot de sang et de massacres, quand on saura que ces bandes armées, qui auraient parcouru pendant trois jours et le poignard à la main plusieurs quartiers de la colonie, n'ont pas commis un seul meurtre dont on puisse seulement les accuser ! Ne verra-t-on pas plutôt malgré soi une œuvre de parti dans une accusation vide de preuves, et qui comprend pêle-mêle dans ses larges préventions des hommes restés entièrement étrangers aux 
+<choice>
+<orig>événemens</orig>
+<corr>événements</corr>
+</choice>
+, comme <persName ref="#LE">Léonce</persName>, de <placeName>Saint-Pierre</placeName>, qu'on n'a pu inculper qu'<emph>avec sa correspondance de</emph><date>1824</date> ! Qui pourra croire à ce complot, dont on est déjà si fort embarrassé, et pour lequel votre correspondant, monsieur le rédacteur, sollicite lui-même à l'avance <emph>une large clémence</emph> !..... Enfin qui pourra voir sans une profonde douleur ces inconcevables chants de victoire, ce reproche de lâcheté emprunté à l'acte d'accusation qui le répète jusqu'à trois fois avec tant de complaisance ? Il semblerait, à lire toutes ces bravades, toutes ces objurgations si étrangement jetées aux hommes de couleur, qu'il s'agit d'un événement militaire où il y eût de la gloire à gagner pour l'un ou l'autre parti. Et l'accusation est d'avoir excité <emph>la guerre civile</emph> ! Reproche bien placé que celui d'a<pb n="16"/>voir manqué de courage à déchirer le sein de la patrie ! J'avais toujours pensé que les bons citoyens doivent, après ces déplorables conflits, pleurer en silence sur la victoire des uns aussi bien que sur la défaite des autres. Noble reproche aussi que celui que l'on crie bien haut à des captifs, à des hommes qui ont volontairement déposé les armes sur une promesse d'amnistie, à des prisonniers qu'on a 
 <choice>
 <sic>garottés</sic>
 <corr>garrottés</corr>
@@ -258,23 +335,29 @@ de la Grand'Anse</rs> étaient étrangement dénaturés. <persName>M. Gatine</pe
 <orig>Imprudens</orig>
 <corr>Imprudents</corr>
 </choice>
-, n'avez-vous pas réfléchi avec quelle amertume vos reproches de lâcheté pourraient ici se rétorquer contre vous ! Le courage fut-il à ordonner des feux de peloton sur trois de vos prisonniers cherchant à fuir et dont l'un est tombé percé de balles (fait reconnu par l'acte d'accusation lui-même, page 108)? Le courage fut-il à fusiller tout une famille à travers les planches de sa case (fait avoué par <title>le Moniteur</title> du <date>17 mars</date> dernier)?</p>
-<p>Laissons ces tristes récriminations. Que valent-elles en présence des grands intérêts d'humanité et de civilisation émus par  <rs type="event">l'affaire de la Grand' Anse</rs> ? L'événement est passé; le sang des hommes de couleur, d'eux seuls, a coulé dans un conflit que l'histoire mettra peut-être à côté des conjurations où périrent, en <placeName>France</placeName>, <persName>Caron</persName>, <persName>Bories<persName> et d'autres victimes trop nombreuses. Mais un procès de complot et d'excitation à la guerre civile nous reste, un <emph>procès monstre</emph>, c'est ainsi qu'il faudrait l'appeler, comprenant vingt-cinq chefs d'accusation et <emph>cent dix-sept</emph> accusés sous prévention de crime capital, tous privés de leur liberté depuis six mois et ruinés, quel que soit le résultat de l'accusation. Tout semblable procès est une calamité sociale, un grand malheur public devant lequel, nous le répétons, doivent se taire les récriminations de partis ou de castes. Nous exprimons seulement un voeu, c'est que l'accusation n'obtienne pas les cent dix-sept têtes qu'elle demande. Elle même sans doute ne désire pas les avoir; qu'en ferait-elle ? En <date>février 1831</date>, on pendit à <placeName ref="#MQ">la Martinique</placeName>, en un seul jour, <emph>vingt-six esclaves</emph>, prévenus aussi de complot. Mais <emph>cent dix-sept têtes </emph>!..... le courage et la force manqueraient aux bourreaux.</p>
+, n'avez-vous pas réfléchi avec quelle amertume vos reproches de lâcheté pourraient ici se rétorquer contre vous ! Le courage fut-il à ordonner des feux de peloton sur trois de vos prisonniers cherchant à fuir et dont l'un est tombé percé de balles (fait reconnu par l'acte d'accusation lui-même, page 108) ? Le courage fut-il à fusiller tout une famille à travers les planches de sa case (fait avoué par <bibl type="periodical"><title ref="#MU"> le Moniteur</title></bibl> du <date>17 mars</date> dernier)?</p>
+<p>Laissons ces tristes récriminations. Que valent-elles en présence des grands intérêts d'humanité et de civilisation émus par  <rs type="event">l'affaire de la Grand'Anse</rs> ? L'événement est passé; le sang des hommes de couleur, d'eux seuls, a coulé dans un conflit que l'histoire mettra peut-être à côté des conjurations où périrent, en <placeName>France</placeName>, <persName ref="#AC">Caron</persName>, <persName ref="#JFB">Bories</persName> et d'autres victimes trop nombreuses. Mais un procès de complot et d'excitation à la guerre civile nous reste, un <emph>procès monstre</emph>, c'est ainsi qu'il faudrait l'appeler, comprenant vingt-cinq chefs d'accusation et <emph>cent dix-sept</emph> accusés sous prévention de crime capital, tous privés de leur liberté depuis six mois et ruinés, quel que soit le résultat de l'accusation. Tout semblable procès est une calamité sociale, un grand malheur public devant lequel, nous le répétons, doivent se taire les récriminations de partis ou de castes. Nous exprimons seulement un voeu, c'est que l'accusation n'obtienne pas les cent dix-sept têtes qu'elle demande. Elle même sans doute ne désire pas les avoir ; qu'en ferait-elle ? En <date>février 1831</date>, on pendit à la <placeName ref="#MQ">Martinique</placeName>, en un seul jour, <emph>vingt-six esclaves</emph>, prévenus aussi de complot. Mais <emph>cent dix-sept têtes</emph> !..... le courage et la force manqueraient aux bourreaux.</p>
 <p>J'ai l'honneur d'être, etc.</p>
-<p><signature><persName>AD. GATINE</persName>, votre abonné,</p>
-<p>avocat à la Cour de Cassation.</signature></p><pb n="17"/>
+<p><persName>AD. GATINE</persName>, votre abonné,</p>
+<p>avocat à la Cour de Cassation.<!--encodage de la signature ?--> </p><pb n="17"/>
+</quote>
 </div>
-<div>
+
+<div type="article">
 <head>SOCIÉTÉ POUR L'ABOLITION DE L'ESCLAVAGE.</head>
-<p>En 1789, au moment de la convocation des états-généraux, il se forma dans <placeName ref="#Par">Paris<placeName> une société qui depuis a servi de modèle aux Anglais; elle avait pour but de convaincre les esprits non seulement de l'inhumanité de l'esclavage, par les privations de toute nature imposées aux malheureux qui y sont soumis et par les peines atroces auxquelles ils sont exposés de la part d'une justice toute prévotale, mais encore de démontrer la corruption des 
+<p>En 1789, au moment de la convocation des états-généraux, il se forma dans <placeName ref="#Par">Paris</placeName> une société qui depuis a servi de modèle aux Anglais; elle avait pour but de convaincre les esprits non seulement de l'inhumanité de l'esclavage, par les privations de toute nature imposées aux malheureux qui y sont soumis et par les peines atroces auxquelles ils sont exposés de la part d'une justice toute prévotale, mais encore de démontrer la corruption des 
 <choice>
 <orig>sentimens</orig>
 <corr>sentiments</corr>
 </choice>
 moraux qu'il produit chez les maîtres; elle devait s'occuper surtout de la possibilité de remplacer l'esclavage, dans nos colonies, par la domesticité, en modifiant le système des cultures.</p>
 <p>L'illustre <persName>Lafayette</persName>, et <persName>l'abbé Grégoire</persName>, député aux états-généraux par le bailliage de <placeName>Nancy</placeName>, étaient à la tête de cette association philantropique, qui trouva beaucoup de partisans dans cette assemblée.</p>
-<p>A l'ouverture des états-généraux, l'opinion avait déjà fait tant
-de progrès que le <persName><roleName>ministre</roleName> Necker</persName>, dans son discours du <date>5 mai 1789</date><, disait aux députés de la nation, après avoir parlé de l'abolition de la corvée de la taille:</p>
+<p>
+<choice>
+<sic>A</sic>
+<corr>À</corr>
+</choice>
+l'ouverture des états-généraux, l'opinion avait déjà fait tant de progrès que le <roleName>ministre</roleName> <persName>Necker</persName>, dans son discours du <date>5 mai 1789</date>, disait aux députés de la nation, après avoir parlé de l'abolition de la corvée de la taille:</p>
 <p><q>“Un jour viendra peut-être où vous étendrez plus loin votre intérêt; un jour viendra peut-être où, associant à vos délibérations les députés des colonies, vous jetterez un regard de compassion sur ce malheureux peuple, dont on a fait tranquillement un objet de trafic; sur ces hommes <emph>semblables à nous</emph> par la  pensée et surtout par la triste faculté de souffrir ; sur ces hommes cependant que, sans pitié pour leurs douloureuses plaintes, nous accumulons, nous entassons au fond d'un vaisseau pour aller ensuite à pleine voiles les présenter aux chaînes qui les attendent..... Déjà l'humanité est défendue au nom même de l'intérêt personnel et des calculs politiques, et cette superbe cause ne tardera pas à paraître devant le tribunal de toutes les nations. Ah ! combien de sortes de satisfactions, combien d'espèces de gloire sont réservées à cette suite d'états-généraux qui vont prendre naissance au milieu d'un siècle éclairé ! Malheur, malheur et honte à la nation française si elle méconnaissait le<pb n="18"/> prix d'une telle position, si elle ne cherchait pas à s'en montrer digne et si une telle ambition était trop forte pour elle.”</q></p>
 <p>Lorsque les députés de <placeName>Saint-Domingue</placeName>se présentèrent au sein de l'assemblée, on leur contesta la légitimité de leur titre, par le motif qu'ils étaient les 
 <choice>
@@ -287,7 +370,7 @@ d'une terre esclave, et parce que même les hommes libres (les gens de couleur) 
 <orig>événemens</orig>
 <corr>événements</corr>
 </choice>
-et les catastrophes qui furent la suite de la division entre les hommes libres des diverses classes à <placeName>Saint-Domingue<placeName> et dans les autres colonies précipitèrent cette émancipation et l'empêchèrent d'arriver à maturité.</p>
+et les catastrophes qui furent la suite de la division entre les hommes libres des diverses classes à <placeName>Saint-Domingue</placeName> et dans les autres colonies précipitèrent cette émancipation et l'empêchèrent d'arriver à maturité.</p>
 <p><persName ref="#NB">Napoléon</persName>, après avoir trompé <persName>Toussaint-l'Ouverture</persName> et les autres chefs des noirs par les promesses de la politique la plus fallacieuse, rétablit l'esclavage dans les colonies, ainsi que la traite des noirs.</p>
 <p>En <placeName>Angleterre</placeName>, le célèbre <persName>Wilberforce</persName>, par ses motions au parlement et ses écrits 
 <choice>
@@ -300,10 +383,15 @@ et les catastrophes qui furent la suite de la division entre les hommes libres d
 <corr>philanthropes</corr>
 </choice>
 français, et, tandis que le despotisme, par ses progrès rapides en <placeName ref="#FR">France</placeName>, ajournait toute question de liberté, ils obtinrent du parlement britannique l'abolition de la traite, depuis sanctionnée au congrès de <placeName>Vienne</placeName>.</p>
-<p><persname>Napoléon</persName>, dans les cent jours, décréta lui-même cette abolition pour la <placeName>France</placeName>; la restauration ajourna cette mesure de quelques années; aujourd'hui elle est législation consommée. Mais qu'est-ce que l'abolition de la traite en comparaison de l'abolition de l'esclavage ?
+<p><persName>Napoléon</persName>, dans les cent jours, décréta lui-même cette abolition pour la <placeName>France</placeName>; la restauration ajourna cette mesure de quelques années; aujourd'hui elle est législation consommée. Mais qu'est-ce que l'abolition de la traite en comparaison de l'abolition de l'esclavage ?
 <persName>Wilberforce</persName>, avant de fermer les yeux, a eu le bonheur de voir achever son ouvrage. Malgré l'élévation de la dette anglaise, cette nation n'a pas reculé devant un sacrifice de près de 500 millions pour donner cette satisfaction à l'humanité.</p>
 <p>Comment <placeName>la France</placeName>, qui toujours a en l'initiative des mesures de ce genre, pourrait-elle rester en arrière? et quel est le contribuable qui regarderait à quelque sacrifice pour abolir cette œuvre de barbarie?</p>
-<p>L'esclavage a été introduit furtivement dans nos colonies par la cupidité d'une compagnie de marchands concessionnaires des îles. Cette innovation était contraire à un célèbre monument national du quatorzième siècle relatif à l'abolition du servage en France : <q>“Chacun doit naitre franc, et notre royaume est appelé le royaume des Francs <!--endquote missing in the original text-->, a dit un roi de France, Louis-le-Hutin.</q></p>
+<p>L'esclavage a été introduit furtivement dans nos colonies par la cupidité d'une compagnie de marchands concessionnaires des îles. Cette innovation était contraire à un célèbre monument national du quatorzième siècle relatif à l'abolition du servage en France : <q>“Chacun doit naitre franc, et notre royaume est appelé le royaume des Francs
+<choice>
+<orig> </orig>
+<corr>"</corr>
+</choice>
+, a dit un roi de France, Louis-le-Hutin.</q></p>
 <p>Les préjugés coloniaux ont encore dans la métropole tant de défenseurs, qu'il a paru nécessaire aux amis de l'humanité et de la cause de la civilisation de se réunir pour aviser aux moyens les plus prompts et les plus pacifiques, à l'effet d'obtenir cette abolition.</p>
 <p>Nous avons la certitude qu'ils seront secondés par les hommes de couleur libres. Ceux qui savent par expérience que tant qu'il existera des esclaves, c'est en vain qu'ils revendiqueront pour eux-mêmes la plénitude des droits politiques. On les retiendra dans un état d'ilotisme, ou d'incapacité civique, précisément par la puissance des 
 <choice>
@@ -311,10 +399,12 @@ français, et, tandis que le despotisme, par ses progrès rapides en <placeName 
 <corr>arguments</corr>
 </choice>
 qui sont employés pour le maintien de l'esclavage.</p>
-<p>Nous apprenons qu'une <orgName><emph>Société pour l'abolition de l'esclavage</emph></orgName> se forme en ce moment à <placeName re="#Par">Paris</placeName>, sous la direction de <persName>MM. Victor de Tracy</persName, <persName>Lainé de Villevêque</persName>, <persName>Eusèbe Salverte</persName>, <persName>Alexandre Delaborde</persName>, <persName>Isambert</persName>, <persName>Gaëtan de Larochefoucauld</persName> et d'autres membres de la chambre des députés.</p>
-<p>Nous espérons que le petit-gendre de <persName>M. Necker</persName>, quoiqu'il n'ait rien fait pour cette cause pendant la durée de son ministère, s'empressera de s'adjoindre à ces honorables députés, et que l'adversaire éloquent de la traite, dans la chambre des pairs, ne reculera pas devant l'abolition de l'esclavage.</p>Nous ferons connaître, dans notre prochain numéro, l'organisation de la Société et les noms de ses membres.</p>
+<p>Nous apprenons qu'une <orgName><emph>Société pour l'abolition de l'esclavage</emph></orgName> se forme en ce moment à <placeName ref="#Par">Paris</placeName>, sous la direction de <persName>MM. Victor de Tracy</persName>, <persName>Lainé de Villevêque</persName>, <persName>Eusèbe Salverte</persName>, <persName>Alexandre Delaborde</persName>, <persName>Isambert</persName>, <persName>Gaëtan de Larochefoucauld</persName> et d'autres membres de la chambre des députés.</p>
+<p>Nous espérons que le petit-gendre de <persName>M. Necker</persName>, quoiqu'il n'ait rien fait pour cette cause pendant la durée de son ministère, s'empressera de s'adjoindre à ces honorables députés, et que l'adversaire éloquent de la traite, dans la chambre des pairs, ne reculera pas devant l'abolition de l'esclavage.Nous ferons connaître, dans notre prochain numéro, l'organisation de la Société et les noms de ses membres.</p>
 </div>
-<div><head>DU CONSEIL COLONIAL DE LA GUADELOUPE.</head>
+
+<div type="article">
+<head>DU CONSEIL COLONIAL DE LA GUADELOUPE.</head>
 <p>La loi du <date>24 avril 1833</date> commence à recevoir son exécution dans nos colonies, et déjà nous avons sous les yeux les procès-verbaux des séances du conseil colonial de <placeName ref="#GP">la Guadeloupe</placeName>. En les lisant<pb n="19"/>attentivement, nous avons une preuve certaine de l'accomplissement de nos prévisions sur les résultats de la nouvelle loi. En effet, après l'avoir étudiée, il ne pouvait plus rester de doute dans notre esprit sur ses perfides combinaisons: nous les signalâmes, nous n'hésitâmes pas un instant à en faire bonne justice.</p>
 <p>Une assemblée délibérante composée d'
 <choice>
@@ -336,7 +426,7 @@ fondé sur une loi et revêtu d'un vernis de légalité; c'était enfin établir
 <corr>règlement</corr>
 </choice>
 ; d'autres aussitôt levées qu'ouvertes, faute de sujet à l'ordre du jour. Enfin, dans la séance du <date>14 janvier</date>, le procureur-général ayant déposé sur le bureau divers projets législatifs concernant des matières civiles et criminelles, acte lui est donné de la communication des pièces, dont le renvoi dans les bureaux est ordonné.</p>
-<p>Dans la séance du <date>23 janvier</date>, <persName>M. Mauguin</persName>, membre de la chambre des députés de <placeName ref="#FR">France<placeName>, et <persName>M. de Jabrun</persName>, conseiller colonial, sont nommés délégués de <placeName ref="#GP">la Guadeloupe. Dans celle du 25, l'assemblée adopte un décret pour substituer <emph>des commissaires-priseurs</emph> aux encanteurs.</p>
+<p>Dans la séance du <date>23 janvier</date>, <persName>M. Mauguin</persName>, membre de la chambre des députés de <placeName ref="#FR">France</placeName>, et <persName>M. de Jabrun</persName>, conseiller colonial, sont nommés délégués de <placeName ref="#GP">la Guadeloupe</placeName>. Dans celle du 25, l'assemblée adopte un décret pour substituer <emph>des commissaires-priseurs</emph> aux encanteurs.</p>
 <p>Tels sont en résumé les grands travaux qui ont occupé la première session du conseil 
 <choice>
 <sic>générale</sic>
@@ -359,8 +449,10 @@ et développe les idées, questions sur lesquelles, par une sorte de condescenda
 </choice>
 n'ont eu garde de s'en occuper, craignant avant tout ce qui peut opérer une fusion. Il en est de certaines assemblées comme de certains hommes dégradés qui sont privés de sympathie pour tout ce qui est grand et généreux.</p>
 </div>
-<div>
+
+<div type="article">
 <head>DES DISCOURS D'INSTALLATION DU CONSEIL COLONIAL DE LA MARTINIQUE.</head>
+
 <p>Les discours d'ouverture des assemblées délibérantes sont assez généralement l'expression de l'esprit dont elles sont animées; c'est en ce sens seulement qu'ils méritent de fixer l'attention publique, lorsqu'ils ne se bornent pas à paraphraser platement les paroles du pouvoir. Il est même fort difficile que, dans cette dernière circonstance, quelque phrase échappée à l'irréflexion ne vienne trahir les véritables sympathies de la majorité des assemblées.</p><pb n="21"/>
 <p>Mais ce qui est plus rare, ce dont il existe même peu d'exemples, c'est de voir une assemblée délibérante donner un démenti formel aux assertions de l'organe du gouvernement lorsqu'il s'agit de faits <choice>
 <orig>patens</orig>
@@ -373,7 +465,7 @@ qui se passent sous les yeux de tous. Cet exemple cependant nous est offert à l
 <corr>événements</corr>
 </choice>
 de la Grand’Anse</rs> lui avaient fourni un texte à déclamations qui devaient faire effet: <q><emph>“Si quelques misérables,</emph>s'écriait-il,<emph>ont osé mettre à exécution les projets infâmes des ennemis de la colonie en portant le feu et le pillage dans la commune de la Grand' Anse, vous avez vu, messieurs, avec quelle ardeur les troupes de la garnison ont accouru au foyer de l'insurrection et la prompte répression qui a été le résultat de leurs efforts.”</emph></q> Ce jugement ne devait-il pas disposer à l'indulgence ?</p>
-<p>Mais voici bien autre chose. <persName>M. Dupotet</persName> avoue que <q>“la pensée du gouvernement est de conserver en améliorant.”</q> Une pareille hérésie coloniale ne pouvait passer sans être censurée; aussi lisons nous ces paroles dans la réponse du conseil colonial : <q>“Sans doute on peut conserver en améliorant; mais souvent les mesures prises pour arriver à ce but, loin de l'atteindre, entraînent des résultats désastreux.”</q>
+<p>Mais voici bien autre chose. <persName>M. Dupotet</persName> avoue que <q>“la pensée du gouvernement est de conserver en améliorant.”</q> Une pareille hérésie coloniale ne pouvait passer sans être censurée; aussi lisons nous ces paroles dans la réponse du conseil colonial : <q>“Sans doute on peut conserver en améliorant; mais souvent les mesures prises pour arriver à ce but, loin de l'atteindre, entraînent des résultats désastreux.”</q></p>
 <p>Le compliment n'était pas flatteur pour le pouvoir dont le gou verneur est l'organe; il était même impossible de lui donner plus<pb n="22"/>
 <choice>
 <orig>complétement</orig>
@@ -382,8 +474,10 @@ de la Grand’Anse</rs> lui avaient fourni un texte à déclamations qui devaien
 un certificat d'incapacité. Ce n'est pas nous cependant qui blâmerons l'indépendance de langage des colons : ils se trompent sans doute, ils sont aveuglés par l'esprit de parti, mais du moins ils ont assez de franchise pour formuler nettement ce qu'ils veulent. Cela nous met à l'aise en leur présence, car nous aussi, nons marchons le visage découvert.</p>
 <p>Tels sont les principaux passages de ces deux discours qui renferment une grande quantité de phrases oiseuses et bannales qui ne produisent plus la moindre impression à une époque où la déclamation tombe devant la vérité.</p>
 </div>
-<div>
+
+<div type="article">
 <head>SUR L'ADRESSE DES HOMMES DE COULEUR AU GOUVERNEUR DE LA MARTINIQUE.</head>
+
 <p>Les hommes de couleur de <placeName ref="#MQ">la Martinique</placeName>, à l'occasion des <rs type="event">
 <choice>
 <orig>événemens</orig>
@@ -394,7 +488,7 @@ de la Grand'Anse</rs> et de la réponse du conseil colonial au discours d'ouvert
 <orig>événemens</orig>
 <corr>événements</corr>
 </choice>
-. Nous devons le dire avec franchise à nos frères, ils ont fait là une fausse démarche; et <persName><roleName>le contre-amiral Halgan</roleName></persName>, qui a refusé de recevoir leur adresse, ne pouvait guère en effet en agir autrement. Sans désapprouver la pensée ni le fond de cette adresse, nous dirons du reste que le ton général nous en a semblé trop servile. <persName><roleName>M. le contre-amiral Halgan</persName></roleName> était fort loin d'être une <emph>des lumières</emph> du conseil d'état, dans lequel il n'a jamais sérieusement siégé. Tout le monde sait en <placeName ref="#FR"><country>France</country></placeName> que ce titre de conseiller d'état n'oblige la plupart du temps à aucun travail réel, et qu'il n'est que la récompense du dévouement d'un fonctionnaire au système ministériel.</p>
+. Nous devons le dire avec franchise à nos frères, ils ont fait là une fausse démarche; et <persName><roleName>le contre-amiral  </roleName>Halgan</persName>, qui a refusé de recevoir leur adresse, ne pouvait guère en effet en agir autrement. Sans désapprouver la pensée ni le fond de cette adresse, nous dirons du reste que le ton général nous en a semblé trop servile. <persName><roleName>M. le contre-amiral</roleName>Halgan</persName> était fort loin d'être une <emph>des lumières</emph> du conseil d'état, dans lequel il n'a jamais sérieusement siégé. Tout le monde sait en <placeName ref="#FR"><country>France</country></placeName> que ce titre de conseiller d'état n'oblige la plupart du temps à aucun travail réel, et qu'il n'est que la récompense du dévouement d'un fonctionnaire au système ministériel.</p>
 <p>Quoi qu'il en soit, d'ailleurs, nous ne pouvons voir qu'avec peine nos frères de la Martinique prendre ce ton humble outre-mesure, qui sied si mal, selon nous, aux hommes libres.
 Que vouliez-vous? qu'on vous rendit justice? Eh bien! il fallait la réclamer haut et ferme de l'opinion publique, comme on l'a fait pour vous dans les journaux de Paris, et non en style courtisanesque comme vous l'avez fait dans votre adresse. Que n'attendiez-<pb n="23"/>vous, avant de jeter à la tête de votre gouverneur tous ces 
 <choice>
@@ -409,8 +503,10 @@ outrés sur la droiture et la justice de son caractère, qu'il se fit connaître
 </choice>
 du pays, un langage décent, respectueux,mais sans s'humilier et sans fléchir, surtout lorsqu'on est fort de sa raison et de son bon droit; qu'ils se persuadent enfin que les gouverneurs savent bien à quoi s'en tenir sur ces adresses de congratulation, et que pas un d'eux, sans excepter <persName><roleName>l'ancien gouverneur M. Dupotet</roleName></persName> lui-même, ne peut s'y méprendre aujourd'hui.</p>
 </div>
-<div>
+
+<div type="article">
 <head>LE 1er AOUT 1834.</head>
+
 <p>Saluons d'avance ce grand jour, de peur que pour plusieurs il ne passe inaperçu, tandis qu'il doit remplir les coeurs d'allégresse et de reconnaissance.</p>
 <p>Qu'est-ce donc que le <date>1er août 1834</date>, pour qu'il nous faille y prendre garde et pour que nous devions nous y livrer à la joie et aux actions de 
 <choice>
@@ -424,13 +520,13 @@ du pays, un langage décent, respectueux,mais sans s'humilier et sans fléchir, 
 <sic>tout</sic>
 <corr>toute</corr>
 </choice>
-une race d'hommes.
+une race d'hommes.</p>
 <p>Ce jour-là ceux qui, la veille, s'étaient endormis esclaves se réveilleront hommes libres. Il y aura, à dater de ce jour, des liens de famille pour ceux qui étaient sans famille, du repos pour ceux qui semblaient n'être nés que pour le travail, un avenir pour ceux qui étaient sans avenir, un Dieu pour ceux qui étaient sans Dieu. La mère qui allaitera son fils ne pleurera plus en songeant au fouet du colon, parce qu'elle saura que le fouet du colon ne déchirera pas le corps de son fils. En donnant le sein à sa fille,<pb n="24"/>elle ne pleurera pas non plus, parce qu'elle saura que les lois protégent l'honneur de sa fille.</p>
-Le <date>1er août 1834</date> est le jour qui consacre le plus beau triomphe qu'un peuple ait jamais remporté sur lui-même, le plus noble sacrifice que l'égoïsme ait jamais fait à la justice et à l'humanité.</p>
+<p>Le <date>1er août 1834</date> est le jour qui consacre le plus beau triomphe qu'un peuple ait jamais remporté sur lui-même, le plus noble sacrifice que l'égoïsme ait jamais fait à la justice et à l'humanité.</p>
 <p>Ce n'est pas seulement parce que <placeName>l'Angleterre</placeName> a horreur de l'esclavage, mais c'est parce qu'elle a puisé dans ses trésors, pour indemniser les maîtres des esclaves, que les esclaves de ses colonies seront libres dans quelques jours.</p>
 <p>Réjouissons-nous de la liberté des esclaves et de la générosité du peuple qui les rachète pour les rendre libres.</p>
 <p>La Société anglaise pour l'abolition de l'esclavage a compris quel est le genre de joie qui convient en un pareil jour; elle vient de publier un appel dont le but est d'exciter ses compatriotes à une sainte joie :</p>
-<p><q>“La vraie manière de célébrer le jour où les fers des esclaves tomberont est, dit-elle, d'offrir à Dieu en commun de sincères actions de 
+<q><p>“La vraie manière de célébrer le jour où les fers des esclaves tomberont est, dit-elle, d'offrir à Dieu en commun de sincères actions de 
 <choice>
 <orig>graces</orig>
 <corr>grâces</corr>
@@ -451,7 +547,7 @@ par la méchanceté des hommes, a été enfin délivrée par le bras de Dieu.</p
 <orig>applaudissemens</orig>
 <corr>applaudissements</corr>
 </choice>
-et avec l'approbation de tous.”</q></p>
+et avec l'approbation de tous.”</p></q>
 <p>Tel est le langage que les hommes généreux qui ont travaillé avec le plus de persévérance et de zèle à l'abolition de l'esclavage dans les colonies anglaises adressent à leurs compatriotes. Ils ne veulent des louanges que pour Dieu! </p>
 <p>Jusqu'à quel point pouvons-nous nous associer à leurs transports d'allégresse ? Peut-il y avoir de la joie quand la conscience accuse ?</p>
 <p>Pourquoi les fers des esclaves tombent-il dans les colonies anglaises avant même qu'on ait songé à rendre leurs chaînes plus légères dans les colonies françaises? C'est que, pendant un demi siècle, des milliers et puis des millions de voix se sont élevées en <placeName>Angleterre</placeName> pour demander à Dieu et aux hommes l'abolition de l'esclavage, tandis qu'en <placeName ref="#FR">France</placeName> il n'y a eu, pour réclamer l'affranchissement des nègres, que quelques voix isolées, qui ne se sont fait entendre qu'à de longs intervalles et qui se sont bientôt lassées. C'est que la compassion n'a pas pénétré dans les cœurs, et qu'un étroit égoïsme n'a fait songer qu'aux maux dont on souffrait soi-même, tandis qu'il eût fallu pleurer avec tous ceux qui pleurent. C'est que la foi, le mobile puissant qui a soulevé cette montagne et qui l'a jetée dans la mer, parait à nos concitoyens un instrument inutile dont ils ne veulent faire nul usage, et c'est pour cela aussi que leurs efforts produisent si peu.</p>
@@ -463,13 +559,16 @@ et avec l'approbation de tous.”</q></p>
 , prenons la résolution de faire tout ce qui dépend de nous pour que le jour vienne bientôt où nous pourrons dire, comme nos voisins, qu'il n'y a plus d'esclaves dans les contrées sur lesquelles s'étend notre empire!</p>
 <p>(<title type="journal">Le Semeur</title> du <date>25 juillet</date>)</p><pb n="26"/>
 </div>
-<div>
+
+<div type="article">
 <head>France.</head>
 <head>PARIS.</head>
 <head>AFFAIRE DE <persName>M. BOITEL</persName> CONTRE <persName>M. CICERON</persName>.</head>
+
 <p>TRIBUNAL DE POLICE CORRECTIONNELLE. - 6 CHAMBRE,</p>
 <p>PRESIDENCE DE <persName>M. BOSQUILLON DE FONTENAY</persName>.</p>
 <p>Audience du <date>26 juillet.</date></p>
+
 <p><persName>M Cicéron</persName>, avocat-avoué à <placeName ref="#MQ">la Martinique</placeName>, a publié une brochure portant la date de <date>1832</date> et intitulée: <emph>Pétition au roi, à la nation et aux chambres, sur l'inconstitutionnalité de la forme actuelle de la représentation coloniale</emph>. Dans cette brochure, <persName>M. Boitel</persName>, qui a rempli les fonctions d'administrateur civil dans cette colonie, ayant remarqué des faits de diffamation articulés contre sa personne, avait cité <persName>M Cicéron</persName> à la 6e chambre.</p>
 <p>Déjà <persName>M. Bethmon</persName> s'était présenté à deux précédentes audiences pour M. Cicéron, et avait, sur sa demande, obtenu la remise de cette cause.</p>
 <p>Ajuourd'hui <persName>M. Moulin</persName>, à défaut de <persName>M. Bethmon</persName> qui en était empêché, a fait lecture de conclusions dans lesquelles il expose que la brochure a été publiée au mois de <date>novembre 1832</date>; que ce n'est qu'en <date>janvier 1834</date>que la citation a été donnée; qu'ainsi le délai de six mois fixé par la loi du <date>26 mai 1819</date> pour la prescription est plus qu'accompli, et que les faits étant prescrits pour ce qui concerne l'action publique, l'action civile ne peut être introduite que devant les tribunaux civils. Ces conclusions tendent à ce que le tribunal de police correctionnelle se déclare incompétent.</p>
@@ -480,25 +579,27 @@ et avec l'approbation de tous.”</q></p>
 <p><persName>M. BOITEL</persName>, ayant cru remarquer dans l'exposé des motifs developpés par M. l'avocat du roi une appréciation morale interprétative de la situation respective des parties, s'élève contre cet incident: il fait connaître au tribunal que la date de l'assignation adressée à <persName>M Cicéron</persName> est celle de la réparation offerte par <persName>M. Desgaut</persName>, fondé de pouvoir de celui-ci, et que la rencontre qui s'en est suivie est une présomption justificative du retard qui a été mis à saisir les tribunaux de ce délit.</p>
 <p><persName>M. FERDINAND BARROT</persName> pense que ses paroles ont été mal interprétées par <persName>M. Boitel</persName>; il déclare que, comme magistrat et comme<pb n="28"/> homme, il n'a point eu l'intention d'employer la moindre acrimonie; qu'il n'avait au contraire d'autre désir que celui d'éteindre, s'il était possible, la haine qui semblait animer les parties.</p>
 <p>Le tribunal, après en avoir longuement délibéré en la chambre du conseil, a rendu le jugement suivant:</p>
-<p><q>“Attendu, en droit, que l'action civile en réparation de dommage causé par un délit ne peut être portée devant le tribunal correctionnel qu'accessoirement à l'action publique;</p>
+<q><p>“Attendu, en droit, que l'action civile en réparation de dommage causé par un délit ne peut être portée devant le tribunal correctionnel qu'accessoirement à l'action publique;</p>
 <p>Qu'il suit de là que lorsque l'action publique est éteinte par la prescription, ce n'est plus devant la juridiction correctionnelle que l'action civile doit être portée;</p>
 <p>Attendu qu'aux termes de l'article 20 de la loi du <date>26 mai 1819</date> l'action publique contre les crimes et délits de diffamation se prescrit par six mois;</p>
 <p>Qu'ainsi l'action publique se trouvait alors prescrite;</p>
-<p>Par ces motifs, le tribunal déclare <emph>éteinte par la prescription</emph> l’action publique résultant de la brochure dont il s'agit; en conséquence renvoie l'action civile devant les juges qui en doivent connaître, et condamne <persName>le sieur Boitel</persName> aux dépens.”</q></p>
+<p>Par ces motifs, le tribunal déclare <emph>éteinte par la prescription</emph> l’action publique résultant de la brochure dont il s'agit; en conséquence renvoie l'action civile devant les juges qui en doivent connaître, et condamne <persName>le sieur Boitel</persName> aux dépens.”</p></q>
 <p> En sortant de l'audience, <persName>M. Boitel</persName> s'est transporté avec son avocat chez un avoué pour faire citer <persName>M. Cicéron</persName> devant la chambre civile du tribunal de première instance de <placeName>la Seine</placeName>.
 Quoi qu'il en soit de la décision du tribunal, <persName>M. Cicéron</persName> ayant reculé devant les débats publics sur le fond de l'affaire, la question morale de ce procés est gagnée pour <persName>M. Boitel.</persName></p>
 </div>
-<div>
+
+<div type="article">
 <head>NOUVELLES DIVERSES.</head>
+
 <p><persName>M. de Saint-Simon</persName>, pair de France, est nommé gouverneur des établissemens français dans l'Inde.</p>
 <p>– <persName><roleName>M. le général Drouet d'Erlon</roleName></persName> est nommé gouverneur d'<placeName ref="#Alg">Alger</placeName>.</p>
-<p>– <persName>M. Eugène Saint-Quantin</persName>, conseiller-auditeur à la cour royale de <placeName ref="GF">la Guiane française</placeName>, a été nommé au même emploi à <placeName ref="#GP">la Guadeloupe</placeName>, en remplacement de <persName>M. Juston<persNameW>, dont la démission a été acceptée.
-<p> <persName>M. Dalican</persName>, juge-auditeur au tribunal de première instance de<pb n="29"/><placeName>la Pointe-à-Pitre</placeName> (<placeName>Guadeloupe</placeName>), a été nommé conseiller-auditeur à la cour royale de <placeName>la Guiane, en remplacement de <persName>M. Saint Quantin</persName>.</p>
+<p>– <persName>M. Eugène Saint-Quantin</persName>, conseiller-auditeur à la cour royale de <placeName ref="GF">la Guiane française</placeName>, a été nommé au même emploi à <placeName ref="#GP">la Guadeloupe</placeName>, en remplacement de <persName>M. Juston</persName>, dont la démission a été acceptée.</p>
+<p> <persName>M. Dalican</persName>, juge-auditeur au tribunal de première instance de<pb n="29"/><placeName>la Pointe-à-Pitre</placeName> (<placeName>Guadeloupe</placeName>), a été nommé conseiller-auditeur à la cour royale de <placeName>la Guiane</placeName>, en remplacement de <persName>M. Saint Quantin</persName>.</p>
 <p><persName>M. Baradat</persName>, avocat, a été nommé juge-auditeur au tribunal de première instance de <placeName>la Pointe-à-Pitre</placeName>, en remplacement de <persName>M.Dalican</persName>.</p>
 <p><persName>M. Tilliard</persName>, conseiller à la cour royale de <placeName>Pondichéry</placeName>, a été nommé procureur du roi près le tribunal de première instance de <placeName>Chandernagor</placeName>, en remplacement de <persName>M. Limeray-Beauchamps</persName>.</p>
 <p><persName>M. Victor-Charles Moreau</persName>, juge royal au tribunal de première instance de <placeName>Pondichéry</placeName>, a été nommé conseiller à la cour royale de <placeName>Pondichery</placeName>, en remplacement de <persName>M. Filliard</persName>.</p>
 <p><persName>M. Limeray-Beauchamps</persName>, procureur du roi près le tribunal de <placeName>Chandernagor</placeName>, a été nommé juge royal au tribunal de première instance de <placeName>Pondichéry</placeName>, en remplacement de <persName>M. Nozat</persName>.</p>
-<p>- <persName><roleName>M. l'abbé Roux</roleName><persName> a été nommé préfet apostolique de <placeName ref="#BrB">l'île Bourbon</placeName>, en remplacement de <persName><roleName>M. l'abbé Pastre</roleName></persName>, qui a renoncé à cet emploi.</p>
+<p>- <persName><roleName>M. l'abbé Roux</roleName></persName> a été nommé préfet apostolique de <placeName ref="#BrB">l'île Bourbon</placeName>, en remplacement de <persName><roleName>M. l'abbé Pastre</roleName></persName>, qui a renoncé à cet emploi.</p>
 <p>– <persName>M. le maréchal Gérard</persName> est nommé ministre de la guerre et président du conseil, en remplacement de <persName>M. le maréchal Soult</persName>, dont la démission est acceptée.</p>
 <p>- <persName>M. Mollien</persName>, consul-général à <placeName ref="#HT">Haïti</placeName>, a été appelé au consulat de l'île de <placeName>Cuba</placeName>. <persName>M. David</persName>, consul de <placeName ref="#FR">France</placeName> à <placeName ref="#CUB">Sant-lago de Cuba</placeName>, est appelé au consulat de <placeName>la Havane</placeName>, en remplacement de <persName>M. Guillemin</persName>, décédé.</p>
 <p>- Nous apprenons qu'à cette session, plusieurs députés doivent interpeller les ministres de la marine et des affaires étrangères sur une question très importante: il s'agit des décrets qui frappent d'interdiction l'entrée des Etats de l'Union et de l'île de <placeName>Cuba</placeName> aux hommes de couleur, citoyens français. Une telle discussion sera curieuse en présence de ceux des délégués de l'aristocratie coloniale qui sont membres de la chambre des députés. Nous croyons pouvoir assurer à l'avance que, dans cette discussion, l'un de ces messieurs restera fidèle aux principes de justice et d'équité qu'il a toujours soutenus. L'autre, le représentant de l'aristocratie de <placeName ref="#MQ">la Martinique</placeName>, restera fidèle aussi à ses principes, et en cela il sera parfaitement d'accord avec les hommes rétrogrades qui lui ont donné mandat de les représenter.</p><pb n="30"/>
@@ -515,16 +616,16 @@ ou de commutation.</p>
 <corr>documents</corr>
 </choice>
 authentiques et positifs que nous nous empresserons de livrer à l'impression. Il importe de bien savoir où en sont la civilisation, la liberté et les lumières dans cette république d'hommes de couleur. Tout ce qui est relatif à ce pays est pour nous du plus grand intérêt; c'est à ce titre que nous citons la lettre suivante:</p>
-<p><q>A.M. le rédacteur du Courrier français.</p>
+<q><p>A.M. le rédacteur du Courrier français.</p>
 <p><placeName>Paris</placeName>, <date>22 juillet 1831</date>.</p>
 <p>“Monsieur,</p>
-<p>Arrivé d'<placeName>Haïti</placeName> seulement depuis trois jours, j'ai eu l'occasion, en parcourant la série du mois de juin du <title type="journal">Courrier français</title>, de voir inséré dans votre numéro du 22 un article extrait du <title type="journal">Journal du Havre<title> du 19, dans lequel on fait dire à un <persName>M. Grimard</persName>, commandant <title type="journal">le Courrier du Brésil</title>,  que quelques jours avant son départ du cap haitien, on faisait courir le bruit du renvoi de <persName>M. Inginae</persName>, secrétaire-général, qui aurait encouru la disgrace du président pour avoir, <emph>disait-on</emph>, fermé les yeux sur un fait de contrebande qui venait de se commettre au profit d'une maison anglaise.
-Sans doute nul motif ne pouvait être plus mal imaginé pour essayer de jeter ainsi au vent la nouvelle de la prétendue 
+<p>Arrivé d'<placeName>Haïti</placeName> seulement depuis trois jours, j'ai eu l'occasion, en parcourant la série du mois de juin du <title type="periodical">Courrier français</title>, de voir inséré dans votre numéro du 22 un article extrait du <title type="periodical">Journal du Havre</title> du 19, dans lequel on fait dire à un <persName>M. Grimard</persName>, commandant <title type="periodical">le Courrier du Brésil</title>,  que quelques jours avant son départ du cap haitien, on faisait courir le bruit du renvoi de <persName>M. Inginae</persName>, secrétaire-général, qui aurait encouru la disgrace du président pour avoir, <emph>disait-on</emph>, fermé les yeux sur un fait de contrebande qui venait de se commettre au profit d'une maison anglaise.</p>
+<p>Sans doute nul motif ne pouvait être plus mal imaginé pour essayer de jeter ainsi au vent la nouvelle de la prétendue 
 <choice>
 <orig>disgrace</orig>
 <corr>disgrâce</corr>
 </choice>
-dont <persName><roleName>le général Inginac</roleName></persName> aurait été l'objet. Mais l'esprit humain est si inventif ! C'est de nos jours une jouissance si attrayante de causer plus ou moins d'impression qu'il n'y aurait rien d'étonnant que<pb n="31"/> quelques nouveaux capitaines de 
+dont <persName><roleName>le général</roleName> Inginac</persName> aurait été l'objet. Mais l'esprit humain est si inventif ! C'est de nos jours une jouissance si attrayante de causer plus ou moins d'impression qu'il n'y aurait rien d'étonnant que<pb n="31"/> quelques nouveaux capitaines de 
 <choice>
 <orig>bâtimens</orig>
 <corr>bâtiments</corr>
@@ -534,10 +635,11 @@ arrivant d'<placeName>Haïti</placeName> annonçassent de nouvelles
 <orig>disgraces</orig>
 <corr>disgrâces</corr>
 </choice>
-du <persName><roleName>général Inginac</persName></roleName> en leur assignant le premier motif venu. Ce qu'il y a de vrai, c'est que quand il quittera le poste qui lui est confié, et qu'il a rempli dignement, ce ne sera jamais pour aucun acte contraire aux intérêts et à la gloire d'<placeName>Haïti</placeName>.</p>
-<p>Je ne répondrai pas au reproche qui est adressé à mon père de s'être montré l'adversaire le plus opposé à la conclusion des traités à intervenir entre <placeName>la France</placeName> et <placeName>Haïti</placeName>, parce que, comme homme public, il ne doit compte de ses actes qu'à son pays; mais je ne puis m'empêcher de faire remarquer que ce serait bien étrangement s'écarter de la raison que de ne pas se pénétrer que <persName><roleName>le général</roleName> Inginae<persName> doit trop apprécier les avantages que feraient naître pour <placeName>Haïti</placeName> des liaisons pacifiques et définitives établies entre la République et <placeName>la France</placeName> pour ne pas appeler de tous ses voeux la conclusion des négociations qui durent depuis neuf ans, et dont la solution intéresse si éminemment la prospérité de la nation haïtienne.</p>
+du <persName><roleName>général</roleName> Inginac</persName> en leur assignant le premier motif venu. Ce qu'il y a de vrai, c'est que quand il quittera le poste qui lui est confié, et qu'il a rempli dignement, ce ne sera jamais pour aucun acte contraire aux intérêts et à la gloire d'<placeName>Haïti</placeName>.</p>
+<p>Je ne répondrai pas au reproche qui est adressé à mon père de s'être montré l'adversaire le plus opposé à la conclusion des traités à intervenir entre <placeName>la France</placeName> et <placeName>Haïti</placeName>, parce que, comme homme public, il ne doit compte de ses actes qu'à son pays; mais je ne puis m'empêcher de faire remarquer que ce serait bien étrangement s'écarter de la raison que de ne pas se pénétrer que <persName><roleName>le général</roleName> Inginae</persName> doit trop apprécier les avantages que feraient naître pour <placeName>Haïti</placeName> des liaisons pacifiques et définitives établies entre la République et <placeName>la France</placeName> pour ne pas appeler de tous ses voeux la conclusion des négociations qui durent depuis neuf ans, et dont la solution intéresse si éminemment la prospérité de la nation haïtienne.</p>
 <p>Je me plais à croire, monsieur, que vous voudrez bien donner place à ma lettre dans votre estimable journal.</p>
-<p>Agréez, etc.                 <signature>D. INGINAC.”</signature></q></p>
+<p>Agréez, etc.</p>
+<p><!--comment encoder signature ?--> D. INGINAC.”</p></q>
 <p>ANGLETERRE. - <persName>Lord Melbourne</persName> est nommé premier ministre, en remplacement de <persName>lord Grey</persName>, démissionnaire.</p>
 <p>- On lit dans le Standard:</p>
 <p><q>“Aujourd'hui 1er août étant le jour fixé pour la cessation de l'esclavage dans <placeName>les Indes occidentales</placeName>, il sera donné à la taverne des Francs-Maçons un grand banquet auquel présidera <persName>lord Mulgrave</persName>. Un grand nombre de jeunes gens ont attendu à ce jour pour se marier.”</q></p>
@@ -549,23 +651,26 @@ du <persName><roleName>général Inginac</persName></roleName> en leur assignant
 </choice>
 du peuple anglais regarderont le 15 août comme un glorieux souvenir de la libéralité anglaise.”</q></p><pb n="32"/>
 </div>
-<div>(SUPPLEMENT)</div>
+
 <div>
 <head>COLONIES FRANÇAISES.</head>
+</div>
+
+<div type="article">
 <head><placeName ref="#MQ">MARTINIQUE.</placeName></head>
 <p>On nous écrit de la commune de <placeName>la Trinité</placeName>:</p>
-<p><q>“<persName>Le sieur Bardel</persName>, capitaine d'une compagnie de miliciens, à <placeName>la Martinique</placeName>, rencontre dans la rue <persName>M. Igout</persName>, colon, ancien négociant à <placeName>la Trinité</placeName>, lui cherche noise, l'insulte et le menace de coups de bâton. Le motif, c'est que <persName>M. Bardel</persName> se trouvait sans doute dans un moment de mauvaise humeur. <persName>M. Igout</persName>, à qui son âge et ses infirmités ne permettent point de châtier cette insolente provocation, se dérobe par la fuite aux coups qui vont pleuvoir sur lui. Mais <persName>le sieur Frotté</persName>, homme de couleur, fils naturel de ce négociant, et qui est présent à cette scène, ne peut contenir son indignation, et prend parti pour son père. Ne serait-il pas digne de blâme s'il était resté spectateur lâchement impassible des outrages adressés aux cheveux blancs de l'auteur de ses jours? <persName>Cartel</persName> du <persName>sieur Bardel</persName> au <persName>sieur Frotté</persName>. Celui-ci charge <persName>M. Eudoxie Sugnin</persName>, son ami, de régler, conjointement avec les témoins de son adversaire, le mode et les conditions du combat. Bref, 
+<q><p>“<persName>Le sieur Bardel</persName>, capitaine d'une compagnie de miliciens, à <placeName>la Martinique</placeName>, rencontre dans la rue <persName>M. Igout</persName>, colon, ancien négociant à <placeName>la Trinité</placeName>, lui cherche noise, l'insulte et le menace de coups de bâton. Le motif, c'est que <persName>M. Bardel</persName> se trouvait sans doute dans un moment de mauvaise humeur. <persName>M. Igout</persName>, à qui son âge et ses infirmités ne permettent point de châtier cette insolente provocation, se dérobe par la fuite aux coups qui vont pleuvoir sur lui. Mais <persName>le sieur Frotté</persName>, homme de couleur, fils naturel de ce négociant, et qui est présent à cette scène, ne peut contenir son indignation, et prend parti pour son père. Ne serait-il pas digne de blâme s'il était resté spectateur lâchement impassible des outrages adressés aux cheveux blancs de l'auteur de ses jours? <persName>Cartel</persName> du <persName>sieur Bardel</persName> au <persName>sieur Frotté</persName>. Celui-ci charge <persName>M. Eudoxie Sugnin</persName>, son ami, de régler, conjointement avec les témoins de son adversaire, le mode et les conditions du combat. Bref, 
 <choice>
 <sic>graces</sic>
 <corr>grâce</corr>
 </choice>
 à l'intervention à la fois ferme et conciliatrice de <persName>M. Sugnin</persName>, l'affaire est arrangée à l'amiable, sans qu'il en coûte aucun sacrifice à l'honneur du <persName>sieur Frotté</persName>. Or, en ne faisant pas bon marché de la dignité de son ami, <persName>M. Sugnin</persName> a encouru la rancune de <persName>M. Bardel</persName>, et celui-ci n'attendait qu'une occasion de la satisfaire : elle ne tarda pas à se présenter.</p>
-<p>Une revue de garde nationale a lieu, <p>M. Sugnin</p> se dispense d'y assister. Vite un ordre de <persName><roleName>M. le capitaine</roleName> Bardel</persName> qui lui enjoint d'aller passer 48 heures à la salle de police; cet ordre est approuvé par une lettre de </roleName>M. le commissaire-commandant</roleName>, <persName>le sieur Caffie</persName>, qui avait également un sujet d'animosité personnelle contre M. Sugnin. (Nous regrettons que le défaut d'espace ne nous permette pas de reproduire cette pièce vraiment curieuse.) Notez que le tiers au moins de la compagnie commandée par <persName>le sieur Bardel</persName> manquait à la revue, et que <persName>M. Sugnin</persName> est seul puni. Le récit qui précède explique cette préférence de sévérité. Ajoutons que<pb n="33"/> <persName>M. Sugnin</persName> est un patriote ardent et dévoué. Aussi, à la peine arbitraire que lui a infligée le caprice de <<persName>M. Bardel</<persName>, a-t-on ajouté un surcroît de rigueur non moins arbitraire et encore plus odieux: M. Sugnin ayant réclamé contre cette détention arbitraire, plainte fut portée contre lui aux autorités supérieures de la colonie; et sur un ordre de M. le gouverneur, il fut conduit par la gendarmerie de <placeName>la Trinité</placeName> à <placeName>la citadelle du Fort-Royal</placeName>, dite <emph>Redoute-Bouillé</emph>, où il fut mis au cachot pendant six jours. Durant sa détention, <persName>M. Sugnin</persName>, cruellement tourmenté par la faim, a été privé de toute nourriture, parce qu'il avait été ordonné qu'il ne communiquerait pas même avec ses 
+<p>Une revue de garde nationale a lieu, M. Sugnin se dispense d'y assister. Vite un ordre de <persName><roleName>M. le capitaine</roleName> Bardel</persName> qui lui enjoint d'aller passer 48 heures à la salle de police; cet ordre est approuvé par une lettre de <roleName>M. le commissaire-commandant</roleName>, <persName>le sieur Caffie</persName>, qui avait également un sujet d'animosité personnelle contre M. Sugnin. (Nous regrettons que le défaut d'espace ne nous permette pas de reproduire cette pièce vraiment curieuse.) Notez que le tiers au moins de la compagnie commandée par <persName>le sieur Bardel</persName> manquait à la revue, et que <persName>M. Sugnin</persName> est seul puni. Le récit qui précède explique cette préférence de sévérité. Ajoutons que<pb n="33"/> <persName>M. Sugnin</persName> est un patriote ardent et dévoué. Aussi, à la peine arbitraire que lui a infligée le caprice de <persName>M. Bardel</persName>, a-t-on ajouté un surcroît de rigueur non moins arbitraire et encore plus odieux: M. Sugnin ayant réclamé contre cette détention arbitraire, plainte fut portée contre lui aux autorités supérieures de la colonie; et sur un ordre de M. le gouverneur, il fut conduit par la gendarmerie de <placeName>la Trinité</placeName> à <placeName>la citadelle du Fort-Royal</placeName>, dite <emph>Redoute-Bouillé</emph>, où il fut mis au cachot pendant six jours. Durant sa détention, <persName>M. Sugnin</persName>, cruellement tourmenté par la faim, a été privé de toute nourriture, parce qu'il avait été ordonné qu'il ne communiquerait pas même avec ses 
 <choice>
 <orig>parens</orig>
 <corr>parents</corr>
 </choice>
-. Il ne dut qu'à la pitié des militaires de la garnison qui montaient la garde à la citadelle, les quelques vivres qu'il reçut."</q></p>
+. Il ne dut qu'à la pitié des militaires de la garnison qui montaient la garde à la citadelle, les quelques vivres qu'il reçut."</p></q>
 <p>N'est-ce pas là l'arbitraire se donnant ses coudées franches? Un manquement à une revue transformé en délit punissable de 48 heures de détention; puis, par ordre supérieur, de six jours de cachot! Un capitaine qui prend sur lui de prononcer cette première peine, et d'y ajouter le tourment de la faim ! Un commandant qui approuve cela, un gouverneur qui le tolère, quel ignoble dévergondage ! En vérité, quand on raconte où qu'on lit de pareilles choses, on croit rêver; et les bras en tomberaient d'étonnement si l'on ne se rappelait que de pareils faits et beaucoup d'autres dont nous faisons 
 <choice>
 <orig>grace</orig>
@@ -575,11 +680,13 @@ du peuple anglais regarderont le 15 août comme un glorieux souvenir de la libé
 <p>Ces faits ne sont-ils pas une preuve de la nécessité de réorganiser promptement les milices coloniales? Dans notre prochain numéro, nous examinerons les questions de droit qu'ils font naturellement naître.</p>
 <p><emph>-<placeName>Saint-Pierre</placeName>, <date>2 juin</date></emph>. On a commencé aujourd'hui les débats dans <rs type="event">l'affaire de la Grand'Anse</rs>. La tranquillité la plus parfaite règne dans la ville. Depuis ce matin, un déploiement considérable de forces militaires stationne aux avenues de l'hôtel du gouvernement où se tiennent les assises.
 <persName>M. Auguste Eugénie</persName>, accusé contumax dans <rs type="event">l'affaire de la Grand'Anse</rs>, s'était mis à l'abri des recherches de la justice en passant à l'étranger; il vient de se montrer dans la ville de <placeName>Saint-Pierre</placeName>. Ses amis ont eu beaucoup de peine à le décider à quitter la colonie: ils lui ont démontré qu'il n'était pas prudent de se faire<pb n="34"/>juger au moment où les passions sont si irritées; qu'il valait mieux attendre le jugement par contumace, quitte à se présenter plus tard pour être jugé contradictoirement. <persName>Auguste Eugénie</persName> s'est décidé enfin à quitter de nouveau la colonie pour passer à l'étranger.</p>
-</div>
-<div><head><placeName>GUADELOUPE.</placeName></head>
+
+<div type="article">
+<head><placeName>GUADELOUPE.</placeName></head>
+
 <p>On nous écrit de <placeName>la Pointe-à-Pitre</placeName>:</p>
-<p><q>“L'arbitraire est toujours à l'ordre du jour dans notre colonie; les autorités locales agissent comme en pays conquis, permettant à l'un de séjourner et expatriant l'autre, selon que le bon plaisir leur dicte leurs arrêts. Il suffit du plus léger soupçon pour qu'un citoyen soit traqué, enlevé, déporté.</p>
-<p>Quelques discussions ayant eu lieu entre un jeune blanc, nommé <persName>Romager-<emph>l'Incorrigible</emph></persName>, et <persName>Santz</persName>, jeune homme de couleur, le maire de la ville et le directeur de l'intérieur ont intimé à <persName>Mme Santz</persName> l'ordre de faire partir son fils sur-le-champ de la colonie, si elle ne voulait pas qu'il fût arrêté et embarqué par ordre du gouvernement. Le jeune <persName>Santz</persName> est parti pour <placeName>Haïti</placeName>. Peut-on se jouer plus impudemment de la liberté des citoyens!”</q></p>
+<q><p>“L'arbitraire est toujours à l'ordre du jour dans notre colonie; les autorités locales agissent comme en pays conquis, permettant à l'un de séjourner et expatriant l'autre, selon que le bon plaisir leur dicte leurs arrêts. Il suffit du plus léger soupçon pour qu'un citoyen soit traqué, enlevé, déporté.</p>
+<p>Quelques discussions ayant eu lieu entre un jeune blanc, nommé <persName>Romager-<emph>l'Incorrigible</emph></persName>, et <persName>Santz</persName>, jeune homme de couleur, le maire de la ville et le directeur de l'intérieur ont intimé à <persName>Mme Santz</persName> l'ordre de faire partir son fils sur-le-champ de la colonie, si elle ne voulait pas qu'il fût arrêté et embarqué par ordre du gouvernement. Le jeune <persName>Santz</persName> est parti pour <placeName>Haïti</placeName>. Peut-on se jouer plus impudemment de la liberté des citoyens!”</p></q>
 <p><emph>-<placeName>Basse-Terre</placeName>, 27 mai.-</emph> De la manière dont marchent les choses, on peut dire, sans craindre de se tromper, que des 
 <choice>
 <orig>événemens</orig>
@@ -592,27 +699,32 @@ comme ceux de la Grand-Anse (<placeName ref="#MQ">Martinique</placeName>) se ren
 </choice>
 , ou ici ou à <placeName>la Martinique</placeName>, car l'aristocratie veut des victimes et ne les veut que parmi nous et chez nous. Le gouvernement local ne cherche pas du tout à réconcilier les classes divisées aujourd'hui plus que jamais.</p>
 </div>
-<div>
+
+<div type="article">
 <head><placeName>BOURBON.</placeName></head>
+
 <p>Tandis qu'à <placeName>la Martinique</placeName> et à <placeName>la Guadeloupe</placeName> l'aristocratie coloniale supprime les fonds alloués au budget pour l'instruction publique, qu'elle vote la suppression des écoles mutuelles créées par le gouvernement, sous le ministère de <persName ref="#AA">M. d'Argout</persName>, au département de la marine, et qu'elle demande le statu quo sur la condition des esclaves, à <placeName ref="#BrB">Bourbon</placeName> un colon de la classe que nous qualifions d'aristocrate publie un écrit intitulé: <title>Prospectus d'une société d'encouragement et d'émulation pour l'amélioration du sort des esclaves, l'instruction publique, l'agriculture et les arts industriels.</title><pb n="35"/></p>
 <p><persName>M. Henri Maingard</persName>, auteur de cet écrit, propose qu'il soit établi dans chaque quartier de <placeName>l'île Bourbon</placeName> une société d'encouragement, composée des électeurs de l'arrondissement. Son but serait de répandre l'éducation primaire, de propager les meilleures méthodes d'agriculture, en un mot de recevoir et de communiquer toutes les notions utiles à toutes les classes de la communauté. Il est facile à quiconque a observé l'heureux effet des associations de juger d'avance tout le bien que ferait celle-ci.</p>
 <p>Voici quelques passages qui démontrent d'une manière irrésistible la nécessité des sociétés d'encouragement:</p>
-<p><q>"Où est l'esprit public dans notre île? Nous sommes inconnus les uns aux autres; nous vivons dans l'isolement, les 
+<q><p>"Où est l'esprit public dans notre île? Nous sommes inconnus les uns aux autres; nous vivons dans l'isolement, les 
 <choice>
 <orig>talens</orig>
 <corr>talents</corr>
 </choice>
 sont enfouis, les vertus ignorées !</p>
 <p>Que résulte-t-il de cette absence de tout ce qui donne du prix et du charme à la vie sociale ? C'est que tout étranger qui a fait fortune dans le pays s'empresse de le quitter, c'est que l'amour de la patrie ne résiste même pas toujours au dégoût d'une existence monotone et dépouillée de tout ce qui attache l'homme au sol.</p>
-<p>Et pourquoi ce triste état ? -C'est, en un mot, que nous sommes privés des institutions qui sont la source du bien-être social. Cependant qu'on nous dise quel pays est plus propre que le nôtre à recevoir des institutions d'utilité publique ? Notre sol fertile et ses produits recherchés par le commerce peuvent facilement faire régner l'aisance parmi nous. Nous avons prouvé que nous n'avions aucun préjugé enraciné. Notre population intelligente et éclairée par les reflets que la civilisation européenne nous envoie de 4,000 lieues, va au-devant de toute amélioration. Enfin elle sent ses maux, elle les indique, et demande que le remède lui soit appliqué."</q></p>
+<p>Et pourquoi ce triste état ? -C'est, en un mot, que nous sommes privés des institutions qui sont la source du bien-être social. Cependant qu'on nous dise quel pays est plus propre que le nôtre à recevoir des institutions d'utilité publique ? Notre sol fertile et ses produits recherchés par le commerce peuvent facilement faire régner l'aisance parmi nous. Nous avons prouvé que nous n'avions aucun préjugé enraciné. Notre population intelligente et éclairée par les reflets que la civilisation européenne nous envoie de 4,000 lieues, va au-devant de toute amélioration. Enfin elle sent ses maux, elle les indique, et demande que le remède lui soit appliqué."</p></q>
 </div>
-<div>
+
+<div type="article">
 <head><placeName>GUIANE.</placeName></head>
+
 <p><persName>M. Persegol</persName>, <roleName>président de la cour royale de <placeName>la Guiane</placeName></roleName>, vient de recevoir le prix de la noble indépendance qu'il a montrée dans son rapport au ministre de la marine sur l'affaire de <persName>MM. Vidal de Lingendes</persName> et <persName>Pontevès</persName>. Ayant essuyé des reproches immérités, cet honorable magistrat a donné sa démission de membre du conseil colonial et de président de la cour.<pb n="36"/></p>
 <p><persName>M. V. Vidal de Lingendes</persName>, <roleName>procureur-général</roleName>, l'a remplacé au conseil colonial.</p>
 </div>
-<div>
-<head><placeName>SÉNÉGAL.</placeName>
+
+<div type="article">
+<head><placeName>SÉNÉGAL.</placeName></head>
 <p>La traite continue à s'exercer sur toute la côte de <placeName>Guinée</placeName>, malgré les croiseurs anglais et français. Les Portugais et les Espagnols se livrent plus que tous autres à ce trafic odieux. Deux négriers de ces nations ont été capturés dernièrement, mais il sera fort difficile d'empêcher la cupidité d'éluder les lois si les autres 
 <choice>
 <orig>gouvernemens</orig>
@@ -620,10 +732,12 @@ sont enfouis, les vertus ignorées !</p>
 </choice>
 ne secondent pas franchement <placeName ref="#FR">la France</placeName> et <placeName >l'Angleterre</placeName>.</p>
 </div>
-<div>
+
+<div type="article">
 <head><placeName ref="#Alg">ALGER.</placeName></head>
+
 <p>On écrit de cette colonie:</p>
-<p><q>"La partie de la tribu de <persName>Beni-Moussa</persName>, qui habite la montagne, réclame de ses voisins le meurtrier d'<persName>Aliben-Louié</persName>, mort à la suite d'une blessure grave, et qui ne sera certainement pas livré; aussi de part et d'autre se prépare-t-on au combat. D'un autre côté, une fermentation, aujourd'hui sourde et qui pourrait bien éclater après la récolte, se manifeste parmi les tribus de notre voisinage, et on a pu en voir quelques avant-coureurs au dernier marché de <placeName>
+<q><p>"La partie de la tribu de <persName>Beni-Moussa</persName>, qui habite la montagne, réclame de ses voisins le meurtrier d'<persName>Aliben-Louié</persName>, mort à la suite d'une blessure grave, et qui ne sera certainement pas livré; aussi de part et d'autre se prépare-t-on au combat. D'un autre côté, une fermentation, aujourd'hui sourde et qui pourrait bien éclater après la récolte, se manifeste parmi les tribus de notre voisinage, et on a pu en voir quelques avant-coureurs au dernier marché de <placeName>
 <choice>
 <sic>Bouffarick</sic>
 <corr>Boufarick</corr>
@@ -640,8 +754,227 @@ ne secondent pas franchement <placeName ref="#FR">la France</placeName> et <plac
 <corr>À</corr>
 </choice>
 <placeName>Alger</placeName>, nos malades dépassent à peine<pb n="37"/>1,200, et malgré la chaleur, l'effectif reste ainsi au-dessous de toutes les prévisions.</p>
-<p>Les travaux du camp de <placeName>Douera</placeName>, ceux du Môle<!--placeName?-->, les constructions de la rue de Marine sont en grande activité.</p>
+<p>Les travaux du camp de <placeName>Douera</placeName>, ceux du Môle<!--placeName?-->, les constructions de la rue de Marine sont en grande activité.</p></q>
 </div>
-  </body>
-  </text>
+
+<div>
+<head>COLONIES ÉTRANGÈRES </head>
+</div>
+
+<div type="article">
+<head><placeName>MAURICE.</placeName></head>
+
+<p>On lit dans <bibl type="periodical"><emph>le Cernéen</emph></bibl>, journal qui s'imprime au <placeName>Port-Louis</placeName> (<placeName>île Maurice</placeName>):</p>
+<q><p>"Il est question d'introduire 10,000 Indiens en cette colonie. Cette mesure est proposée par un grand économiste, homme riche en projets, qui s'associe à un prince indien bailleur de fonds. Elle sera, on l'assure, approuvée par le gouvernement, et qui plus est, par la chambre de commerce du <placeName>Port-Louis</placeName>. On dit aussi que, de même qu'autrefois les Espagnols s'unissaient pour chasser les Maures de leur pays, aujourd'hui les Maures se donnent la main pour amener les Indiens dans le nôtre. Ces Indiens doivent être accompagnés et commandés par des Cipayes, choisis parmi les troupes de la compagnie des Indes. Ces chefs seront autorisés à porter leurs uniformes et autres décorations, sous condition que rien ne réveille le souvenir effrayant des volontaires.</p>
+<p>Les planteurs qui emploieront ces Indiens seront tenus de leur fournir trois repas par jour; ils leur donneront de plus sept roupies par mois de gages; prix qui paraîtrait trop élevé, si l'on ne considérait que les 
+<choice>
+<orig>habitans</orig>
+<corr>habitants</corr>
+</choice>
+de Maurice devant avoir incessamment à soutenir la concurrence de ceux de l'Inde dans la produc tion des sucres, il doit leur être indifférent de donner sept roupies sans vivres.</p>
+<p>Le grand point pour cette colonie, comme pour toutes les au tres, relativement à l'exécution du bill d'émancipation, est que la grande culture puisse se maintenir, que l'affranchissement ne soit<pb n="38"/>pas pour les noirs le signal du désordre et de la paresse, en un mot que le travail libre remplace, au moyen d'un raisonnable salaire, le travail forcé. C'est vers ce but que doivent tendre, dans les limites de l'acte du parlement, toutes les combinaisons législatives locales, et c'est du plus ou moins de réussite que dépendront le sort plus ou moins florissant de la colonie et le maintien du prix de toutes les valeurs 
+<choice>
+<orig>mobiliaires</orig>
+<corr>mobilières</corr>
+</choice>
+et
+<choice>
+<orig>immobiliaires</orig>
+<corr>immobilières</corr>
+</choice>
+du pays.</p>
+<p>C'est frappés de cette pensée, et dans cette appréhension que les noirs devenus libres ne prennent que difficilement des habitudes laborieuses, et n'offrent à l'exploitation des grandes plantations qu'une ressource très précaire, que quelques personnes ont pensé à faire venir de l'Inde des travailleurs, et à renouveler une expérience déjà infructueusement tentée, il est vrai, mais qui n'a peut être si mal tourné que parce qu'elle n'a pas été convenablement et judicieusement faite. Le principal obstacle qui s'est rencontré, et qui en effet ne laisse pas que de paraître très difficile à surmonter, c'est d'obtenir des individus, une fois transportés sur notre sol, l'exécution des 
+<choice>
+<orig>engagemens</orig>
+<corr>engagements</corr>
+</choice>
+de travail qu'ils ont contractés dans feur pays. L'expérience a prouvé que nos lois ou étaient sur ce point insuffisantes, ou ne contenaient même aucune disposition qui pât s'appliquer à l'espèce. Y a-t-il possibilité d'établir une loi qui atteindrait parfaitement ce but et l'autorité locale voudra-t-elle se prêter et concourir à son adoption ? Telle est, il nous semble, la question préalable qui doit être agitée et résolue avant qu'aucun spéculateur prudent puisse se hasarder à rien entreprendre de ce genre.</p>
+<p>Pour ce qui est d'une telle loi, qui assurât aux 
+<choice>
+<orig>contractans</orig>
+<corr>contractants</corr>
+</choice>
+de part et d'autre l'exécution fidèle de leurs
+<choice>
+<orig>engagemens</orig>
+<corr>engagements</corr>
+</choice>
+, il faudrait. avoir étudié ce sujet plus que nous ne l'avons fait, et surtout mieux connaître les habitudes, les moeurs et même les préjugés des castes indiennes avec lesquelles il serait convenable de traiter, pour bien se rendre compte de la possibité de l'établir et de la rendre efficace. Mais au besoin il se trouverait ici assez de personnes capables de fournir les notions exactes et les 
+<choice>
+<orig>renseignemens</orig>
+<corr>renseignements</corr>
+</choice>
+<choice>
+<orig>suffisans</orig>
+<corr>suffisants</corr>
+</choice>
+sur ce point, et il ne s'agirait que de les consulter. Quant à l'assentiment et au concours du gouvernement, et une fois le premier point favorablement résolu, si nous le supposons tel qu'il doit être et qu'il est sans doute, porté à faire tout ce qui peut contribuer à la pros<pb n="39"/>périté du pays, nous ne voyons pas quelles seraient les objections qui pourraient l'arrêter. Nous ferons observer toutefois que ce n'est pas seulement ici l'acquiescement et le consentement de l'autorité qui seraient nécessaires, mais qu'il faudrait encore de sa part assistance matérielle et concours d'action. Sans cette autre certitude, nons le répétons, il y a peu d'apparence qu'aucune personne voulût risquer ses fonds dans un essai de cette nature, qui, précédemment, en partie pour cette raison-là même, a déjà si mal réussi.</p>
+<p>Nous irons plus loin, et nous dirons que, lors même que ces points seraient concédés, il conviendrait encore de procéder dans cette expérience avec toute la circonspection possible. Ainsi, peut être vaudrait-il mieux qu'elle fût faite par une société de souscripteurs et à frais communs que par un seul particulier. Il ne serait pas difficile de trouver une habitation ayant encore des usines en état de servir sans grandes réparations, mais abandonnée faute de bras. On pourrait y placer le nombre d'Indiens proportionné à ce lui qu'exigerait son exploitation; et en ne négligeant aucun des moyens qu'indiqueraient une sage économie et une bonne entente d'administration, le résultat obtenu, au bout d'un certain temps, pourrait servir de terme de comparaison et de preuve du bon ou du mauvais succès de l'expérience. Ce qui nous suggère cette idée, c'est que nous voyons que dans tous les pays, c'est par de tels moyens d'association que l'on exécute les entreprises les plus difficiles et les plus hasardeuses, qui seraient trop au-dessus des forces d'un seul particulier, ou bien dans lesquelles il ne voudrait pas risquer des sommes qui pourraient compromettre toute sa fortune si elles venaient à échouer. Ainsi dans l'Inde, c'est par le moyen des souscriptions par actions que l'on s'occupe d'établir une communication régulière entre <placeName>Bengale</placeName> et <placeName ref="#EUR">l'Europe</placeName> par <placeName>l'isthme de Suez</placeName>, à l'aide des 
+<choice>
+<orig>bâtimens</orig>
+<corr>bâtiments</corr>
+</choice>
+à vapeur. Au <placeName>Cap</placeName>, on entreprend de la même manière l'exploration de l'intérieur de <placeName>l'Afrique</placeName>; à <placeName>Sainte-Hélène</placeName>, on a fondé une compagnie par actions, dont le but est la pêche de la baleine, qui abonde dans les parages voisins. Partout enfin c'est par de semblables moyens que l'industrie se développe, et bien que nous n'ayons ici que le mérite de l'imitation, ne serait-ce pas une grande faute de notre part que de le négliger ?</p><pb n="40"/>
+<p>Le gouvernement local possédait, en <date>1829</date>, 1294 esclaves et 2010 apprentis. Depuis on en a libéré un certain nombre. Désireux de savoir au juste combien il en reste, nous avons cherché à nous procurer quelques 
+<choice>
+<orig>renseignemens</orig>
+<corr>renseignements</corr>
+</choice>
+à ce sujet. Mais nous avons appris, avec étonnement, que des instructions récentes prescrivent de garder le secret le plus rigoureux sur toutes les matières administratives généralement quelconques. Ainsi les détails statistiques, toujours fournis avec empressement par les 
+<choice>
+<orig>gouvernemens</orig>
+<corr>gouvernements</corr>
+</choice>
+de l'Europe (même russe ou prussien) aux écrivains et aux publicistes, sont à <placeName>Maurice</placeName> des choses plus occultes que les mystères d'<persName>Isis</persName>. Le vulgaire n'en doit rien connaître : la plèbe n'est bonne qu'à payer et se taire. Nous ne pouvons toutefois nous empêcher d'exprimer notre surprise de ce que, au moment où le parlement vient de proclamer l'émancipation universelle, le gouvernement conserve encore des esclaves. On nous dira qu'ils sont nécessaires aux 
+<choice>
+<orig>différens</orig>
+<corr>différents</corr>
+</choice>
+services d'administrations: comme ouvriers sous l'ingénieur civil, comme courriers de police. Eh bien! soit; nous sommes faciles à contenter, pourvu qu'on nous donne quelque raison. Que le gouvernement garde donc encore quelque temps ses esclaves, jusqu'à ce qu'il puisse les remplacer par des employés libres.</p>
+<p>Mais les apprentis ! Ils ne lui servent de rien. Chaque collecteur des douanes les a successivement distribués à ses amis, ou aux protégés du pouvoir, les uns pour 14 ans, les autres pour 7 ans. Certainement il en est fort peu dont le temps ne soit pas expiré. Qui empêche donc qu'ils ne jouissent de la liberté qui leur est garantie par la loi ? Oh ! c'est que la plupart sont placés chez des employés du gouvernement, qui trouvent très commode d'avoir de bons domestiques à 2 piastres par mois. Mais cela est illégal et injuste envers ces pauvres gens. Ennemis de tous les genres d'oppression, nous ne craignons pas d'élever la voix en leur faveur. Tous savent un métier quelconque et sont aptes à gagner leur vie : leurs maîtres, en les recevant, se sont engagés à leur enseigner. Une fois libres, ils ne seraient point à charge à la société, et vivraient paisiblement de leur industrie. D'ailleurs s'ils méfont<!--terme vieilli-->, les lois répressives sont là pour eux comme pour les autres affranchis. Qu'on les livre donc immédiatement, au risque de faire prendre à messieurs tels ou tels, des domestiques à gros gages."</p></q><pb n="41"/>
+</div>
+
+<div type="article">
+<head><placeName>GRENADE.</placeName></head>
+
+<p> On nous écrit de <placeName>Saint-Georges</placeName> :</p>
+<q><p>"Chacun fait ses préparatifs ici pour le grand changement qui doit s'opérer le 1 août. Même ceux qui jusqu'à présent s'étaient montrés les plus chauds soutiens de l'esclavage, voyant leur cupidité satisfaite par la part qu'ils recevront des vingt millions sterling d'indemnité accordés par l'Angleterre, paraissent charmés de ne plus porter le titre avilissant de propriétaires d'esclaves."</p></q>
+</div>
+
+<div type="article">
+<head><placeName>TORTOLL.</placeName></head>
+
+<p>Dans cette possession anglaise, on n'a pas attendu le terme fixé par le bill pour proclamer par la liberté des nègres. Les 
+<choice>
+<orig>habitans</orig>
+<corr>habitants</corr>
+</choice>
+, comprenant tout ce que cette loi renferme de haute moralité, se sont empressés de la mettre à exécution.</p>
+</div>
+
+<div type="article">
+<head><placeName>DÉMÉRARI</placeName></head>
+
+<p>Dans les colonies anglaises, la saine raison triomphe chaque jour de plus en plus de l'odieux et ridicule préjugé de la peau. A <placeName>Démérari</placeName>, établissement voisin de <placeName>la Guiane française</placeName>, le bill d'abolition de l'esclavage n'a fait que rapprocher les différentes classes de la population: toute distinction de couleur a entièrement disparu. D'après le récit d'un voyageur, arrivé récemment de cette colonie, les hommes de couleur y exercent, concurremment avec les créoles, les professions libérales qui jusqu'alors avaient été si injustement interdites aux premiers; ils sont admis comme officiers dans les milices, et il est à croire que le gouvernement anglais, qui s'associe sans trop de résistance aux progrès de la civilisation, les admettra un jour ou l'autre aux emplois publics. Cette mesure équitable compléterait l'entière fusion des deux classes.</p>
+<p>
+<choice>
+<sic>A</sic>
+<corr>À</corr>
+</choice>
+un bal donné par le gouverneur de <placeName>Démérari</placeName>, le même voyageur a vu des dames de couleur en assez grand nombre et qui se faisaient remarquer par leur esprit et leur bonne éducation. En général, dans les possessions anglaises, la classe de couleur a compris que le moyen le plus efficace pour établir une égale parfaite et<pb n="42"/>réelle parmi la population, aux colonies, était de se livrer à l'étude des sciences et des lettres, et de se mettre par là en état de rivaliser de capacité avec la classe blanche. C'est un exemple que nous ne pouvons trop recommander à l'attention de nos frères des colonies françaises.</p>
+</div>
+
+<div type="article">
+<head><placeName>CUBA</placeName></head>
+
+<p>Des actes de piraterie ont été commis dans les environs de <placeName>Honduras</placeName> et <placeName>Nicaragua</placeName> (<placeName>Nouvelle-Espagne</placeName>). Deux navires suspects et de construction espagnole ont été vus dernièrement se dirigeant du côté de <placeName>Carthagène</placeName>, de conserve avec un navire que l'on croit français, et qu'ils auront sans doute capturé.</p>
+<p>Le gouvernement de <placeName>la Jamaïque</placeName> a envoyé quelques sloops de guerre à leur poursuite.</p>
+<p>La traite se fait ouvertement à <placeName>la Havane</placeName>, malgré les dangers auxquels elle devrait exposer ceux qui la font. Dans le mois d'avril dernier, un négrier ayant été affalé à la côte Ouest de <placeName>Saint-Domingue</placeName>, quelques-uns des esclaves brisèrent leurs fers, saisirent des armes, et, après une affreuse mêlée où l'équipage fut battu, s'emparèrent du navire, qui bientôt fit naufrage. Les noirs qui ne furent pas noyés ont été accueillis à <placeName>Saint-Domingue</placeName>. Cinq ou six matelots se sont sauvés à <placeName>Cuba</placeName>.</p>
+</div>
+
+<div type="article">
+<head><placeName>CANADA</placeName></head>
+
+<p>On lit dans <bibl type="periodical">le Journal de la Marine</bibl> les observations suivantes sur les moeurs politiques du <placeName>Canada</placeName>:</p>
+<q><p>Les femmes ont, au <placeName>Canada</placeName>, le 
+<choice>
+<orig>privilége</orig>
+<corr>privilège</corr>
+</choice>
+d'aller donner leurs votes aux élections aussi bien que les hommes. Lors des dernières élections, où <persName><roleName>le colonel</roleName> Baley</persName> fut nommé à la législature, comme il y avait rivalité entre <persName>MM. Litte</persName> et <persName>Wilkinson</persName>, il n'y eut pas moins de trente-cinq dames qui se rendirent aux <foreign>hustings</foreign> pour déposer leurs votes en sa faveur. Ces dames étaient des veuves ou des demoiselles. On remarqua qu'il n'y eut qu'une femme mariée, probablement entraînée par les autres, qui vota. Cependant il arrive souvent que la femme vote d'un côté et le mari de l'autre, dans les mêmes ou dans différentes élections, suivant les droits que leur donnent leurs propriétés. Au mois de <date>mai 1832</date>, il y eut une contestation à l'élection de <placeName>Montréal</placeName>, qui dura environ un<pb n="43"/>mois, et pendant laquelle il y eut deux cent vingt-cinq femmes qui votèrent. L'un des candidats était un Irlandais; il y eut quatre vingt-quinze dames qui donnèrent leurs votes pour lui. L'autre gentleman était <persName>M. Stanlez-Bagg</persName>, citoyen des <placeName>États-Unis</placeName>, naturalisé au <placeName>Canada</placeName>; cent quatre femmes votèrent en sa faveur. Les autres vingt-six femmes qui s'étaient présentées ne firent pas usage de leurs droits politiques. Plusieurs dames prirent, dans cette circonstance, le parti contraire à celui qu'avaient embrassé leurs maris; ces derniers ne s'en formalisèrent pas.</p></q>
+</div>
+
+<div type="article">
+<head>CONVOI DU JEUNE PAVILLON.</head>
+
+<p>Le 25 juillet, nous avons assisté aux funérailles de <persName>Sainte-Cour Pavillon</persName>, de <placeName ref="#GP">la Guadeloupe</placeName>, élève du <!--org?-->collège d'Henri IV, et qui donnait les plus belles espérances. Un grand nombre d'hommes de couleur assistaient à cette cérémonie. On y remarquait une députation de jeunes Européens condisciples de <persName>Pavillon</persName>. Un jeune camarade de <persName>Pavillon</persName>, <persName>M. Dorville-Jouannet</persName>, homme de couleur, étudiant en droit, a prononcé les paroles suivantes sur la tombe de son ami:</p>
+<q><p>"Ainsi donc, c'en est fait, cher <persName>Pavillon</persName>; sur ton front de seize ans l'impitoyable Mort a placé sa main glacée. A peine a-t-elle laissé un intervalle entre ton berceau et la tombe. Venu en <placeName ref="#FR">France</placeName> pour chercher cette instruction qui doit opérer l'émancipation des hommes de couleur, c'est après un séjour de dix ans, lorsque tu finissais ta rhétorique, lorsque tu allais te lancer dans une des carrières dont l'utilité est reconnue chez nous, que la cruelle Mort est venue t'arrêter.</p>
+<p>Que tu es à plaindre, infortuné compatriote, si, comme nous en sommes convaincus, ton coeur a battu pour tes frères! si tu as quelquefois rougi d'indignation en songeant au joug affreux qui pèse sur ta malheureuse classe ! Il eût été si doux pour toi de contribuer à la régénération de ton pays, à le rendre digne du dix neuvième siècle, et à lui faire répudier les stupides et barbares préjugés du passé! Alors tu aurais pu mourir; mais aujourd'hui c'est trop tôt !</p><pb n="44"/>
+<p>Quelles paroles de consolation ferons-nous entendre à ton père ? Que dirons-nous pareillement aux tiens, à cette tante, qui eût pu te faire oublier ta mère, si une mère se pouvait oublier ? Ah! descends un moment du séjour des
+<choice>
+<orig>ames</orig>
+<corr>âmes</corr>
+</choice>
+, et dicte-nous des paroles qui puissent modérer leur douleur, car cette tâche serait au-dessus de nos forces.</p>
+<p>Adieu! dors en paix, cher Pavillon, et qu'à défaut de la terre natale, la terre de France te soit légère!</p>
+<p>Adieu! adieu pour toujours!</p></q>
+</div>
+
+<div type="article">
+<head>BIOGRAPHIE.</head>
+<head>M. CABASSE.</head>
+
+<p><persName>M. Prosper Cabasse</persName>, ex-procureur-général près la cour royale de <placeName ref="#GP">la Guadeloupe</placeName>, n'intéresse les colonies que par le rôle qu'il y joua sous la restauration, notamment dans le fameux procès des hommes de couleur de <placeName ref="#MQ">la Martinique.</placeName></p>
+<p><persName>M. Prosper Cabasse</persName> est un exemple vivant de ce que peut la faiblesse unie à l'ambition. Sans avoir précisément une 
+<choice>
+<orig>ame</orig>
+<corr>âme</corr>
+</choice>
+vile et méchante, avec un tempérament facile et doux, cet homme cependant, pressé d'arriver, embrassa avec chaleur la cause des Bourbons restaurés et se fit le très humble serviteur de la réaction contre-révolutionnaire ordonnée par eux.</p>
+<p>Petit avocat, vivant à <placeName>Aix</placeName> dans l'obscurité, il voulait percer; il afficha si haut son amour pour cette famille d'ennemis publics qu'avaient imposée à la <placeName ref="#FR">France</placeName> les baionnettes étrangères, il parla si souvent et si fort de son royalisme, qu'enfin le petit avocat devint magistrat. <persName>M. Cabasse</persName> présidait la cour d'assises de <placeName>Toulon</placeName> où fut condamné à mort, par des jurés <emph>choisis</emph>, <persName><roleName>le capitaine Vallée</roleName></persName>, ce brave qui mourut avec tout le courage et tout le sang-froid d'un martyr de la liberté.
+<persName>M. Cabasse</persName> dut à cette circonstance d'être remarqué par ses supérieurs et noté comme un homme zélé à qui il revenait de l'avancement. Il lui dut aussi, selon la notoriété publique, d'être dé<pb n="45"/>coré du ruban rouge qui brille à sa boutonnière. <persName>M. Cabasse</persName> prétend qu'il y a erreur et que ce n'est pas pour ce fait qu'il a été décoré. C'est possible; mais, comme il ne nie pas l'avoir été après le jugement de <persName>Vallée</persName>, il y a de grandes présomptions pour la notoriété publique. On raconte à ce sujet qu'à quelque temps de là, un de ses amis, l'ayant rencontré orné du ruban rouge, le prit par la boutonnière, et d'un ton goguenard le salua du mot latin <foreign><emph>vale</emph></foreign>.
+Ce fut en <date>1826</date> que ce magistrat fut mis en rapport direct avec les colonies. Nommé procureur-général à <placeName>la Guadeloupe</placeName> par <persName><roleName>le ministre</roleName>Chabrol</persName>, <persName>M. Cabasse</persName>, après avoir fait sa cour aux 
+<choice>
+<orig>puissans</orig>
+<corr>puissants</corr>
+</choice>
+de <placeName>Paris</placeName>, se rendit à <placeName>Brest</placeName>, où une frégate de la marine royale l'attendait. <persName>MM. Bissette</persName>, <persName>Fabien</persName> et <persName>Volny</persName>, les grands fauteurs de propagande, y étaient détenus. <persName>M. Cabasse</persName> allait être leur accusateur. Ils s'adressèrent à lui pour éclairer sa religion, et, comme ils avaient demandé au nouveau procureur-général un mot de réponse, celui-ci, prenant déjà les airs de grand seigneur, qui allaient si bien à sa nouvelle position, leur envoya cavalièrement son domestique leur dire qu'il avait reçu leurlettre.</p>
+<p>Après avoir touché et pris langue à <placeName>la Martinique</placeName> avec les membres les plus 
+<choice>
+<orig>influens</orig>
+<corr>influents</corr>
+</choice>
+de l'aristocratie coloniale, le nouveau procureur-général arriva en <date>janvier 1827</date> au 
+<choice>
+<orig>siége</orig>
+<corr>siège</corr>
+</choice>
+de sa juridiction.</p>
+<p>Le <date>27 mars 1827</date>, l'affaire de <persName>MM. Bissette</persName>, <persName>Fabien</persName> et <persName>Volny</persName> vint en cour royale à <placeName>la Guadeloupe</placeName>. <persName>M. Cabasse</persName>, en un long réquisitoire écrit de ce style fleuri, traînant, et tout hérissé de réminiscences classiques, familier aux avocats médiocres, et qui est le fléau des auditeurs et le juste châtiment des mauvais juges, soutint l'accusation. Dire qu'il y mit de l'acharnement et de la passion, ce serait injuste: il fit pis: froidement, sans émotion, il parla trois heures: après avoir flatté les préjugés de l'aristocratie coloniale et s'être évertué à créer des coupables là où il n'y avait que des hommes qui avaient usé de leurs droits contre des dominateurs 
+<choice>
+<orig>insolens</orig>
+<corr>insolents</corr>
+</choice>
+; après avoir rappelé des ordonnances royales vieilles de deux siècles, et cité ces horribles paroles de celle de <persName>Moulins</persName> : <q><emph>"Quiconque aura affiché ou semé des libelles séditieux ou diffamatoires sera pendu et étranglé jusqu'à ce que mort s'ensuive"</emph></q>; ces non moins horribles paroles de l'ordonnance de <date>janvier 1629</date>:</p><pb n="46"/>
+<p><q><emph>"Ceux qui écrivent, impriment on font imprimer, exposent en vente, publient et distribuent des livres, libelles ou écrits diffamatoires et convicieux seront pendus et étranglés jusqu'à ce que mort s'ensuive"</emph></q>; il conclut bénignement, contrairement à la loi et comme effrayé lui-même des odieuses conséquences de son réquisitoire, contre <persName>M. Bissette</persName>, à dix années de bannissement. Ou coupable on innocent, il n'y avait pas d'autre alternative: coupable, il fallait demander la hideuse application du texte de l'ordonnance invoquée: <emph>la mort</emph>; innocent, il fallait acquitter. Le juste milieu cherché par <persName>M. Cabasse</persName>, hors des dispositions formelles de la loi, ne fut inventé que pour amener une condamnation; il eût été trop révoltant de condamner à mort pour avoir répandu ce que ces messieurs appelaient un libelle; ils n'eussent osé. Le mezzo-termine de <persName>M. Cabasse</persName> leur permettait de satisfaire les mauvaises passions de leurs collègues de <placeName>la Martinique</placeName>, mais le difficile était de motiver un arrêt contraire à la loi. Aussi les juges furent-ils cinq heures à rendre leur arrêt.</p>
+<p><persName>M. Bissette</persName> ne fut pas plus tôt condamné que, par un de ces retours qui sont dans le caractère des hommes qui veulent ménager, comme on dit, et la chèvre et le chou, <persName>M. Cabasse</persName> vint visiter, à dix heures du soir, le banni dans sa prison, et s'efforça de lui faire sentir toute la douceur de la condamnation, lui disant de ne pas lui en vouloir, qu'il n'avait pu mieux faire; qu'il n'était pas trop dur de vivre en <placeName>France</placeName>, et qu'il le priait d'avoir égard à ses bonnes intentions. <persName>M. Bissette</persName> sut très peu de gré, comme on pense, au procureur-général, de cette visite, inspirée évidemment par la crainte de l'opinion métropolitaine.</p>
+<p>La conduite du procureur-général dans toute cette affaire fut pleine de mauvaise foi et de faiblesse ; il alla jusqu'à décacheter les lettres écrites aux prévenus par leur avocat de <placeName>Paris</placeName>, lettres qui lui étaient recommandées à lui-même. Serviteur des classes <emph>élevées</emph>, comme il les appelait dans son réquisitoire, c'est-à-dire des blancs, il ne l'était pas moins de certains fonctionnaires qui eussent dû être à ses ordres. Le commissaire de police, <persName>Hercule-Petit-Lolo</persName>, homme inepte,<!--coquille-->.
+<choice>
+<orig>ame</orig>
+<corr>âme</corr>
+</choice>
+damnée de l'aristocratie de la peau, transgressait et déchirait même ses ordres quand ils contrariaient un tant soit peu les passions des dominateurs, et le procureur-général le laissait faire et s'humiliait devant la volonté de cet agent subal<pb n="47"/>terne. Ainsi les 
+<choice>
+<orig>parens</orig>
+<corr>parents</corr>
+</choice>
+et amis des détenus, malgré la permission signée du procureur-général, se sont vu plus d'une fois refuser l'entrée de la prison, parce qu'il plaisait à ce commissaire de police de ne pas la leur faire ouvrir. Les justes plaintes que faisaient les prisonniers au procureur-général sur les mauvais 
+<choice>
+<orig>traitemens</orig>
+<corr>traitements</corr>
+</choice>
+qu'ils recevaient restaient toujours sans réponse. C'est ainsi que cet homme s'est constamment conduit dans l'exercice de son ministère, joignant la paresse à l'esprit d'injustice et de servilité. Pour ne citer qu'un fait: <persName>M. Bisette</persName> ayant demandé sa liberté sous caution pour voir sa famille et régler ses affaires avant de partir, <persName>le gouverneur Desrotours</persName> et même les juges colons qui l'avaient condamné y consentaient: <persName>M. Cabasse</persName> seul s'y opposa.</p>
+<p>
+<choice>
+<sic>A</sic>
+<corr>À</corr>
+</choice>
+son retour en <placeName ref="#FR">France</placeName> en <date>1829</date>, il fut nommé procureur-général à Limoges. Vint la révolution de juillet. <persName>M. Cabasse</persName> se sentit ébranlé sur son 
+<choice>
+<orig>siége</orig>
+<corr>siège</corr>
+</choice>
+d'accusateur public. Amoureux de sa place avant tout, il s'adressa au nouveau ministre pour y être maintenu, et, à l'appui de sa demande, il eut l'inconcevable idée de produire son fameux réquisitoire comme témoignage de sa modération. Mais les amis des déportés de <placeName>la Martinique</placeName>, qui entouraient le vertueux <persName>Dupont</persName> de <placeName>l'Eure</placeName>, prouvèrent qu'ils avaient de la mémoire: <persName>M. Cabasse</persName> fut destitué.</p>
+<p>Depuis il a vainement cherché à être replacé et même à retourner aux colonies. Nous ne pensons pas qu'il se trouve jamais un ministre de la marine qui manque de pudeur au point de l'y renvoyer. <persName>M. Cabasse</persName>, repoussé des emplois publics, s'est fait l'agent d'affaires du pape et des légitimistes; il agiote avec avantage, assure t-on, pour <placeName>le Saint-
+<choice>
+<orig>Siége</orig>
+<corr>Siège</corr>
+</choice>
+</placeName>. Dieu l'ait en sa sainte garde!</p>
+
+<p>IMPRIMERIE D'HERHAN, 580, RUE SAINT-DENIS.</p>  <!--bas de page-->
+</div>
+
+</body>
+</text>
 </TEI>
