@@ -83,7 +83,14 @@
     <sic>[favorisés</sic>
     <corr>favorisés</corr>
     </choice>
-     dans le partage des franchises politiques. Par une étrange anomalie, il y a des colonies qui jouis sent des garanties du système représentatif, tandis que les autres sont placées sous le régime des ordonnances ministérielles. Parmi les premières figurent la <placeName ref="#JA">Jamaïque</placeName>, Antigues, Bermude, Bahama, la Barbade, la Dominique, la Grenade, Saint-Vincent, Saint-Cris tophe, Montsarat, Nieves, Tabago et Tortole; au nombre des secondes, Démérari, Berbice, la Trinidad, Honduras, le cap de Bonne-Espéance et l'ile Maurice. Celles-là sont connues sous l'ap pellation commune de colonies franches (chartered colonies); celles ci sous la dénomination générale de colonies de la couronne (crown colonies). On voudra bien se souvenir de cette distinction impor tante, qui influera beaucoup sur la répartition des avantages de l'affranchissement et, par suite, sur l'avenir des populations colo niales de toutes les couleurs.</p>
+     dans le partage des franchises politiques. Par une étrange anomalie, il y a des colonies qui jouis sent des garanties du système représentatif, tandis que les autres sont placées sous le régime des ordonnances ministérielles. Parmi les premières figurent la <placeName ref="#JA">Jamaïque</placeName>, <placeName ref="#ANT">Antigues</placeName>, <placeName ref="#BE">Bermude</placeName>, <placeName ref="BA">Bahama</placeName>, la <placeName ref="#BAR">Barbade</placeName>, la <placeName ref="#DOM">Dominique</placeName>, la <placeName ref="#GR">Grenade</placeName>, <placeName ref="#StV">Saint-Vincent</placeName>, <placeName ref="#StC">Saint-Cristophe</placeName>, <placeName ref="#MO">Montsarat</placeName>, <placeName ref="#NI">Nieves</placeName>, <placeName ref="#TA">Tabago</placeName> et <placeName ref="#TO">Tortole</placeName>; au nombre des secondes, <placeName ref="#DE">Démérari</placeName>, <placeName ref="#BER">Berbice</placeName>, la <placeName ref="#TR">Trinidad</placeName>, <placeName ref="#HO">Honduras</placeName>, le <placeName ref="#CBE">cap de Bonne-Espéance</placeName> et l'<placeName ref="#IM">ile Maurice</placeName>. Celles-là sont connues sous l'appellation commune de <emph>colonies franches (<foreign>chartered colonies</foreign>)</emph>; celles ci sous la dénomination générale de <emph>colonies de la couronne (<foreign>crown colonies</foreign>)</emph>. On voudra bien se souvenir de cette distinction importante, qui influera beaucoup sur la répartition des avantages de l'affranchissement et, 
+     <choice>
+     <sic>par suite</sic>
+     <corr>par la suite</corr>
+     </choice>
+     , sur l'avenir des populations coloniales de toutes les couleurs.</p>
+
+     <p></p>
      </div>
     <div>
      <head>Titre de l'article suivant</head>
