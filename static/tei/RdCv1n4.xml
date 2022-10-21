@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Revue des Colonies N°4 (selection)</title>
+            <editor>Apolline Lagarde</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <titlePart type="main">REVUE<lb/>DES<lb/>COLONIES,</titlePart>
+            <titlePart type="sub"><lb/>RECUEIL MENSUEL<lb/> DE LA POLITIQUE, DE L'ADMINISTRATION, DE
+               LA JUSTICE, DE L'INSTRUCTION ET DES MOEURS COLONIALES,</titlePart>
+            <byline><lb/>PAR UNE <orgName ref="#SHC">SOCIÉTÉ D'HOMMES DE COULEUR</orgName>
+               <lb/> DIRIGÉE PAR <persName ref="#CB">C.-A. BISSETTE</persName>.<lb/></byline>
+            <docEdition><lb/>N°4<lb/>Octobre.<lb/>
+               <lb/> PARIS,<lb/> AU BUREAU DE LA REVUE DES COLONIES,</docEdition>
+            <docImprint><lb/>46, RUE NEUVE-SAINT-EUSTACHE <lb/> 1834.</docImprint>
+         </titlePage>
+      </front>
+      <body>
+         <div>
+            <head>REVUE<lb/>DES <lb/>COLONIES</head>
+            <pb/>
+
+<div>
+     <head>DU <foreign>BILL</foreign> D'ÉMANCIPATION ET DES PREMNIERS RÉSULTATS DE SA MISE EN PRATIQUE</head>
+     
+   <p>Nous avons promis de signaler à l'attention de nos lecteurs tous les 
+   <choice>
+   <orig>changemens</orig>
+   <corr>changements</corr>
+   </choice>
+   qui seraient opérés dans la législation qui régit les colonies étrangères: <q>"Ces changemens
+   <choice>
+   <orig>changemens</orig>
+   <corr>changements</corr>
+   </choice>
+   , disions-nous, auront pour nous un intérêt d'autant plus vif qu'ils doivent réagir d'une manière puissante sur nos propres possessions coloniales."</q> Comment les esclaves noirs qui, dans celles-ci, souffrent sous le double poids d'une dégradation corporelle et morale, pourront-ils, en effet, rester 
+   <choice>
+   <orig>indifférens</orig>
+   <corr>indifférents</corr>
+   </choice>
+   au vaste mouvement politique et social qui s'accomplit sous leurs yeux ? Et quand, avec un juste sentiment d'orgueil et une indicible joie, ils auront vu admettre leurs frères au titre et aux droits de citoyens, croit-on qu'ils supporteront plus patiemment l'état d'ilotisme auquel ils sont condamnés par
+   <choice>
+   <sic>noslois</sic>
+   <corr>nos lois</corr>
+   </choice>
+   ? On parle des droits et des intérêts acquis des colons ; il en est pour nous de plus sacrés, les droits et les intérêts acquis de l'humanité. D'ailleurs ce n'est point aux 
+   <choice>
+   <sic>dépens</sic>
+   <corr>dépents</corr>
+   </choice> 
+   du maître, on le sait bien, que nous voulons doter l'esclave du bienfait de la liberté. L'exemple d'une magnanime réparation, donné par l'<placeName ref="#ANG">Angleterre</placeName>, ne sera point perdu : les Français, qui ont des sympathies pour tous les opprimés, ne voudront point être surpassés en générosité. Depuis 
+   <choice>
+   <orig>long-tems</orig>
+   <corr>long-temps</corr>
+   </choice> 
+   le sang et les sueurs du nègre ont servi aussi à multiplier leurs jouissances comme hommes, ou leurs richesses comme industriels. Eux aussi ils ont contracté à son égard une dette de deux siècles de services.C'est bien le moins qu'en retour ils fassent le sacrifice de quelques centaines de millions pour le tirer des mains qui continuent de l'exploiter sans pitié ni mesure.</p>
+
+   <p>De notre côté de la <placeName ref="#MAN">Manche</placeName>, il n'est pas un lieu public, pas un salon ministériel pas un cercle domestique où l'on n'ait discouru, sans le connaître, du fameux <foreign>bill</foreign> promulgué par le parlement anglais pour l'émancipation des noirs. Tout le monde sait qu'en vertu de cette loi, une somme de cinq cents millions doit être consacrée <pb n="3"/>au rachat de huit cent mille nègres ; argent mieux employé, sans contredit, que les immenses trésors enfouis par la restauration, au-delà des <placeName ref="#PY">Pyrénées</placeName>, pour réduire à l'esclavage tout un peuple de blancs. Mais bien peu de personnes ont une exacte connaissance des dispositions du <foreign>bill</foreign> relatives aux formes et aux conditions de l'affranchissement. La presse quotidienne, qui ne les a guère mieux comprises, s'est abstenue fort prudemment de s'étendre sur cette matière : obligée toutefois d'en dire quelque chose, elle s'est réfugiée dans ces généralités banales qui, sans rien aborder, s'appliquent si merveilleusement à toutes les questions.</p>
+
+   <p>L'acte d'émancipation, qui porte la date du <date>15 août 1855</date> (1), contient soixante-six articles dans les vastes 
+   <choice>
+   <orig>développemens</orig>
+   <corr>développements</corr>
+   </choice>
+    qu'embrasse sa prévoyance. Les bornes trop circonscrites de notre <bibl type="periodical"><title ref="Rdc">Revue</title></bibl> ne nous permettent point de donner la traduction de cette mémorable loi. Cependant nous croyons qu'on nous saura gré d'en faire connaître les principales dispositions. Les détails où nous allons entrer auront d'ailleurs l'avantage de faciliter l'intel ligence des faits importans qui s'accomplissent en ce moment dans les <placeName ref="#AN">Antilles</placeName>.</p>
+
+    <p>Le parlement n'a point désigné nominativement le pays où doit s'étendre la grande mesure de l'émancipation, parce qu'ils sont indiqués assez clairement par l'objet même de la loi. L'ancienne législation, dans la plupart des possessions britanniques, s'est rendue complice des iniquités de l'esclavage, en lui prêtant un honteux appui; mais si elle a soutenu les blancs sans distinction comme propriétaires de la race étrangère attachée à la glèbe, elle ne les a point également 
+    <choice>
+    <sic>[favorisés</sic>
+    <corr>favorisés</corr>
+    </choice>
+     dans le partage des franchises politiques. Par une étrange anomalie, il y a des colonies qui jouis sent des garanties du système représentatif, tandis que les autres sont placées sous le régime des ordonnances ministérielles. Parmi les premières figurent la Jamaïque, Antigues, Bermude, Bahama, la Barbade, la Dominique, la Grenade, Saint-Vincent, Saint-Cris tophe, Montsarat, Nieves, Tabago et Tortole; au nombre des secondes, Démérari, Berbice, la Trinidad, Honduras, le cap de Bonne-Espéance et l'ile Maurice. Celles-là sont connues sous l'ap pellation commune de colonies franches (chartered colonies); celles ci sous la dénomination générale de colonies de la couronne (crown colonies). On voudra bien se souvenir de cette distinction impor tante, qui influera beaucoup sur la répartition des avantages de l'affranchissement et, par suite, sur l'avenir des populations colo niales de toutes les couleurs.</p>
+     </div>
+    <div>
+     <head>Titre de l'article suivant</head>
+   <p>etc</p>
+   <p>etc</p>
+    </div>
+   </div>
+</body>
+  </text>
+</TEI>
