@@ -6,7 +6,7 @@
       <fileDesc>
          <titleStmt>
             <title>Revue des Colonies N°4 (selection)</title>
-            <editor>Apolline Lagarde</editor>
+            <editor>Apolline Camille Floriane Lagarde</editor>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -71,7 +71,11 @@
 
    <p>De notre côté de la <placeName ref="#MAN">Manche</placeName>, il n'est pas un lieu public, pas un salon ministériel pas un cercle domestique où l'on n'ait discouru, sans le connaître, du fameux <foreign>bill</foreign> promulgué par le parlement anglais pour l'émancipation des noirs. Tout le monde sait qu'en vertu de cette loi, une somme de cinq cents millions doit être consacrée <pb n="3"/>au rachat de huit cent mille nègres ; argent mieux employé, sans contredit, que les immenses trésors enfouis par la restauration, au-delà des <placeName ref="#PY">Pyrénées</placeName>, pour réduire à l'esclavage tout un peuple de blancs. Mais bien peu de personnes ont une exacte connaissance des dispositions du <foreign>bill</foreign> relatives aux formes et aux conditions de l'affranchissement. La presse quotidienne, qui ne les a guère mieux comprises, s'est abstenue fort prudemment de s'étendre sur cette matière : obligée toutefois d'en dire quelque chose, elle s'est réfugiée dans ces généralités banales qui, sans rien aborder, s'appliquent si merveilleusement à toutes les questions.</p>
 
-   <p>L'acte d'émancipation, qui porte la date du <date>15 août 1855</date> (1), contient soixante-six articles dans les vastes 
+   <p>L'acte d'émancipation, qui porte la date du <date>15 août 1855</date></p>
+   <p> <note>(1) an act for the abolition of slavery, throughout the British colonies, for promonting the industry of the manumitted slaves, and for compensating the persons hitherto entitled to the services of such slaves. Londres, août <date>1835</date> Imprimé par ordre du parlement.</note></p>
+   <pb n="5"/>
+   <p>
+   , contient soixante-six articles dans les vastes 
    <choice>
    <orig>développemens</orig>
    <corr>développements</corr>
@@ -83,14 +87,94 @@
     <sic>[favorisés</sic>
     <corr>favorisés</corr>
     </choice>
-     dans le partage des franchises politiques. Par une étrange anomalie, il y a des colonies qui jouis sent des garanties du système représentatif, tandis que les autres sont placées sous le régime des ordonnances ministérielles. Parmi les premières figurent la <placeName ref="#JA">Jamaïque</placeName>, <placeName ref="#ANT">Antigues</placeName>, <placeName ref="#BE">Bermude</placeName>, <placeName ref="BA">Bahama</placeName>, la <placeName ref="#BAR">Barbade</placeName>, la <placeName ref="#DOM">Dominique</placeName>, la <placeName ref="#GR">Grenade</placeName>, <placeName ref="#StV">Saint-Vincent</placeName>, <placeName ref="#StC">Saint-Cristophe</placeName>, <placeName ref="#MO">Montsarat</placeName>, <placeName ref="#NI">Nieves</placeName>, <placeName ref="#TA">Tabago</placeName> et <placeName ref="#TO">Tortole</placeName>; au nombre des secondes, <placeName ref="#DE">Démérari</placeName>, <placeName ref="#BER">Berbice</placeName>, la <placeName ref="#TR">Trinidad</placeName>, <placeName ref="#HO">Honduras</placeName>, le <placeName ref="#CBE">cap de Bonne-Espéance</placeName> et l'<placeName ref="#IM">ile Maurice</placeName>. Celles-là sont connues sous l'appellation commune de <emph>colonies franches (<foreign>chartered colonies</foreign>)</emph>; celles ci sous la dénomination générale de <emph>colonies de la couronne (<foreign>crown colonies</foreign>)</emph>. On voudra bien se souvenir de cette distinction importante, qui influera beaucoup sur la répartition des avantages de l'affranchissement et, 
+     dans le partage des franchises politiques. Par une étrange anomalie, il y a des colonies qui jouis sent des garanties du système représentatif, tandis que les autres sont placées sous le régime des ordonnances ministérielles. Parmi les premières figurent la <placeName ref="#JA">Jamaïque</placeName>, <placeName ref="#ANT">Antigues</placeName>, <placeName ref="#BE">Bermude</placeName>, <placeName ref="BA">Bahama</placeName>, la <placeName ref="#BAR">Barbade</placeName>, la <placeName ref="#DOM">Dominique</placeName>, la <placeName ref="#GR">Grenade</placeName>, <placeName ref="#StV">Saint-Vincent</placeName>, <placeName ref="#StC">Saint-Cristophe</placeName>, <placeName ref="#MO">Montsarat</placeName>, <placeName ref="#NI">Nieves</placeName>, <placeName ref="#TA">Tabago</placeName> et <placeName ref="#TO">Tortole</placeName>; au nombre des secondes, <placeName ref="#DE">Démérari</placeName>, <placeName ref="#BER">Berbice</placeName>, la <placeName ref="#TR">Trinidad</placeName>, <placeName ref="#HO">Honduras</placeName>, le <placeName ref="#CBE">cap de <pb n="4"/>
+     <choice>
+     <orig>Bonne-Espéance</orig>
+     <corr>Bonne-Espérance</corr>
+     </choice>
+     </placeName> et l'<placeName ref="#IM">ile Maurice</placeName>. Celles-là sont connues sous l'appellation commune de <emph>colonies franches (<foreign>chartered colonies</foreign>)</emph>; celles ci sous la dénomination générale de <emph>colonies de la couronne (<foreign>crown colonies</foreign>)</emph>. On voudra bien se souvenir de cette distinction importante, qui influera beaucoup sur la répartition des avantages de l'affranchissement et, 
      <choice>
      <sic>par suite</sic>
      <corr>par la suite</corr>
      </choice>
      , sur l'avenir des populations coloniales de toutes les couleurs.</p>
 
-     <p></p>
+     <p>Il est dit dans l'article 1er du <foreign>bill</foreign> qu'à partir du premier jour d'<date>août 1854</date>, les esclaves existant alors dans les colonies britanniques seront de droit, et conformément à la législation nouvelle, affranchis de toute espèce de servitude. Les esclaves employés dans la marine marchande qui, à la même date, navigueront sur les mers, n'en jouiront pas moins du bénéfice de la loi. (Article 1er). Tous les enfans nés postérieurement au jour de l'émancipation seront libres comme leurs 
+     <choice>
+     <orig>parens</orig>
+     <corr>parents</corr>
+     </choice>
+     . On placera en tutelle chez des colons, pour y rester jusqu'à l'âge de vingt et un ans, à titre d'apprentis travailleurs, ceux que leurs 
+     <choice>
+     <orig>parens</orig>
+     <corr>parents</corr>
+     </choice>
+     ne pourront point élever. Il en sera de même pour les 
+     <choice>
+     <orig>enfans</orig>
+     <corr>enfants</corr>
+     </choice>
+     sans soutien ni ressource qui, le <date>1er août</date>, seraient encore au-dessous de l'âge de six ans. Dans l'un et l'autre cas, ces 
+     <choice>
+     <orig>enfans</orig>
+     <corr>enfants</corr>
+     </choice>
+      devront être confiés, de préférence, aux colons chez qui travaillaient leurs mères avant la promulgation de la loi. (Article 12 et 13.)</p>
+
+      <p>Si nous avons dit que les esclaves, à commencer du <date>1er août 1854</date>, seraient seulement libres <emph>de droit</emph>, c'est qu'il est malheureusement certain que leur affranchissement <emph>de fait</emph> est ajourné à une époque plus reculée. Avant de pouvoir disposer complétement de leur personne et de leurs actions, les affranchis seront obligés de passer plusieurs années dans un état de probation que la loi qualifie <emph>d'apprentissage (<foreign>apprentisceship</foreign>)</emph>. On les divisera en trois classes. comme il suit : dans la première seront compris ceux qui, sur des propriétés appartenant à leurs maîtres, sont employés à la culture du sol on à la manipulation de ses produits ; dans la seconde, ceux qui sont occupés à des travaux de la même nature sur des biens n'appartenant pas à leurs maitres ; dans la troisième, ceux que le genre de leurs occupations ne permettra point de ranger dans l'une on l'autre de ces catégories. Le terme de l'apprentissage, pour les affranchis de la première classe, expirera le <date>1er août 1838</date>, et, pour les affranchis des deux autres classes, le 1er août 1840. Ainsi <pb n="5"/>la durée de l'état de probation variera de quatre à six ans. (Articles 4,5 et 6.)</p>
+
+      <p>Les affranchis, en leur nouvelle qualité d'ouvriers-apprentis, devront continuer de travailler pour leurs anciens maîtres. (Articles 1 et 2.) Les 
+      <choice>
+      <orig>exploitans</orig>
+      <corr>exploitants</corr>
+      </choice>
+       ne pourront pas les envoyer hors de la colonie ; mais avec l'autorisation préalable de deux 
+       <choice>
+       <sic>magistats</sic>
+       <corr>magistrats</corr>
+       </choice>
+       , ils pourront les transporter d'une plantation à une autre, si cette mutation n'entraine point la séparation des 
+       <choice>
+       <orig>différens</orig>
+       <corr>différents</corr>
+       </choice>
+        membres de la famille. (Article 9.) Il leur sera aussi permis, en ne s'écartant point de cette première condition, de disposer du travail <emph>(services)</emph> des affranchis, par marché, vente, contrat, transfert ou testament. Les ouvriers logés chez leurs maîtres auront droit à tous les objets nécessaires à leur entretien, et, dans l'état de maladie, aux secours de l'art. (Article 11.) On ne pourra en exiger par semaine que quarante-cinq heures de travail, le reste de leur temps disponible devant être employé à leur profit. Ceux d'entre eux qui en auront les moyens auront la faculté d'acheter leur entière libé ration, en payant à leurs maîtres, à titre d'indemnité, une somme equivalente à la valeur du travail pendant la durée de l'apprentis sage. L'exploitant, dans aucun cas, ne pourra refuser de se préter à cette transaction, ni retenir, contre son gré, l'affranchi qui en aura rempli les conditions. (Article 8.) D'un antre côté, il est dé fendu au premier de congédier l'ouvrier-apprenti arrivé à l'âge de cinquante ans ou plus et atteint de quelque infirmité qui le rend inhabile au travail, sans pourvoir à son entretien, jusqu'à l'expi ration de l'apprentissage. (Article 7.)</p>
+
+        <p>Tout récemment encore, les colons des possessions anglaises, comme le font aujourd'hui ceux de nos iles, s'opposaient avec une singulière obstination aux projets formés pour l'émancipation des noirs. Ils avaient usé de leurs injustes priviléges avec une dureté si constante et si dédaigneuse, qu'ils ne croyaient pas à la possi bilité de l'oubli et du pardon chez la race opprimée. Ils lui sup posaient, au fond du coeur, un désir insatiable de vengeance, de meurtre et de pillage, que les précautions actives d'une autorité sans bornes pouvaient seules comprimer. Parvenu à ravaler l'
+        <choice>
+        <orig>ame</orig>
+        <corr>âme</corr>
+        </choice> et l'intelligence de l'esclave au niveau de la bassesse de son état (du moins ils le pensaient), ils argumentaient de son infériorité morale et intellectuelle pour en perpétuer les causes. Logique <pb n="6"/>ordinaire des classes privilégiées, alors qu'il s'agit d'admettre les ilotes de tous les pays et de toutes les couleurs à l'égalité politique et sociale.</p>
+
+        <p>Le parlement anglais, sans les partager, a largement sacrifié aux craintes et aux préjugés des colons. Dans le choix des moyens d'exécution, il a préféré les 
+        <choice>
+        <orig>atermoimens</orig>
+        <corr>atermoiments</corr>
+        </choice>
+         à des mesures décisives qui auraient alarmé les esprits et rencontré une vive résistance. Voilà pourquoi il s'est imposé l'adoption du mode transitoire de l'apprentissage, espèce d'état bâtard qui tient le milieu entre l'esclavage et l'affranchissement, et qui participe de l'un et de l'autre. Mais la chambre des communes, comptant beaucoup sur l'influence du temps et de la discussion, pour ramener l'aristocratie coloniale à des idées plus saines et plus justes, lui a laissé la latitude d'amender, dans l'intérêt de la classe affranchie, toutes les clauses du <foreign>bill</foreign> qui ont rapport aux formes et aux conditions de l'émancipation. Les chambres représentatives des colonies <emph>(local legislatures)</emph> pourront substituer aux moyens prescrits, tels autres moyens conformes aux vœux et aux besoins du pays, et les 
+         <choice>
+         <orig>amendemens</orig>
+         <corr>amendements</corr>
+         </choice>
+          communiqués au gouvernement du roi et sanctionnés par lui, auront force de loi (article 23). Ces dispositions libérales, comme on voit, décèlent la pensée du législateur et ouvrent une large porte à <emph>l'affranchissement immédiat</emph>, si malheureusement ajourné par les lenteurs de l'apprentissage.</p>
+
+          <p>La <orgName ref="SAE"><emph>Société de l'anti-esclavage</emph></orgName> fondée en Angleterre par les amis de l'humanité, qui a pris récemment le titre de <orgName ref="SEU"><emph>Société de l'Emancipation universelle</emph></orgName> (1), nous a fait l'honneur de nous envoyer le premier numéro de son journal trimestriel l'<bibl type="periodical"><title ref="#Ab"><emph>Abolitioniste</emph></title></bibl>, comme une marque de la vive sympathie que lui inspirent nos tra vaux (2). Entre autres articles, cette publication renferme une <pb n="6"/>relation circonstanciée des premiers résultats produits dans les colonies britanniques par la mise en pratique du <foreign>bill</foreign>. Rien de plus intéressant que ces faits, qui fourniront de belles pages à l'histoire du dix-neuvième siècle, si fécond en grands 
+          <choice>
+          <orig>événemens</orig>
+          <corr>événements</corr>
+          </choice>
+          . Nous allons en donner l'analyse, et rapporter quelques-unes des réflexions qu'ils ont suggérées au journal anglais.</p>
+
+          <p>La première impression que produisit à la Jamaïque la connaissance du <foreign>bill</foreign> pour l'abolition de l'esclavage, fut favorable à la classe des noirs. C'était vraiment un plaisir d'entendre les colons qui s'étaient montrés le plus 
+          <choice>
+          <orig>récalcitrans</orig>
+          <corr>récalcitrants</corr>
+          </choice>
+           aux conseils de l'humanité et de la prudence et le plus jaloux de conserver une propriété et une autorité odieuses, se prononcer, d'un commun accord et sans réserves, contre l'adoption de l'état intermédiaire de l'apprentissage. Ils avaient alors la conviction, comme les hommes les plus avancés du pays, que les ressorts nombreux et compliqués de l'affranchissement conditionnel entraîneraient trop de difficultés et de dépenses. Des considérations de justice et d'ordre contribuaient aussi, sans doute, à les éclairer sur leurs véritables intérêts. Bref, tout portait à croire que les heureuses dispositions où ils étaient seraient partagées par l'<orgName ref="AG">assemblée générale</orgName>, et que cette chambre, par une interprétation généreuse de la loi, placerait la Jamaïque en tête du grand mouvement de la régénération coloniale.</p>
+
+           <p></p>
+
+
      </div>
     <div>
      <head>Titre de l'article suivant</head>
