@@ -649,123 +649,62 @@
 
             <div>
                <head>SOCIÉTÉ POUR L'ABOLITION DE L'ESCLAVAGE.</head>
-               <p>En 1789, au moment de la convocation des états-généraux, il se forma dans
-                     <placeName ref="#Par">Paris</placeName> une société qui depuis a servi de
-                  modèle aux Anglais; elle avait pour but de convaincre les esprits non seulement de
-                  l'inhumanité de l'esclavage, par les privations de toute nature imposées aux
-                  malheureux qui y sont soumis et par les peines atroces auxquelles ils sont exposés
-                  de la part d'une justice toute prévotale, mais encore de démontrer la corruption
-                  des <choice>
-                     <orig>sentimens</orig>
-                     <corr>sentiments</corr>
-                  </choice> moraux qu'il produit chez les maîtres; elle devait s'occuper surtout de
-                  la possibilité de remplacer l'esclavage, dans nos colonies, par la domesticité, en
-                  modifiant le système des cultures.</p>
-               <p>L'illustre <persName>Lafayette</persName>, et <persName>l'abbé
-                  Grégoire</persName>, député aux états-généraux par le bailliage de
-                     <placeName>Nancy</placeName>, étaient à la tête de cette association
-                  philantropique, qui trouva beaucoup de partisans dans cette assemblée.</p>
+
+               <p>En 1789, au moment de la convocation des états-généraux, il se forma dans <placeName ref="#Par">Paris</placeName> une société qui depuis a servi de modèle aux Anglais ; elle avait pour but de convaincre les esprits non seulement de l'inhumanité de l'esclavage, par les privations de toute nature imposées aux malheureux qui y sont soumis et par les peines atroces auxquelles ils sont exposés de la part d'une justice toute prévotale, mais encore de démontrer la corruption des 
+               <choice>
+                <orig>sentimens</orig>
+               <corr>sentiments</corr>
+               </choice>
+               moraux qu'il produit chez les maîtres ; elle devait s'occuper surtout de la possibilité de remplacer l'esclavage, dans nos colonies, par la domesticité, en modifiant le système des cultures.</p>
+               <p>L'illustre <persName ref="#ML">Lafayette</persName>, et <persName ref="#HG">l'abbé Grégoire</persName>, député aux états-généraux par le bailliage de <placeName ref="#Nan">Nancy</placeName>, étaient à la tête de cette association philantropique, qui trouva beaucoup de partisans dans cette assemblée.</p>
                <p>
-                  <choice>
-                     <sic>A</sic>
-                     <corr>À</corr>
-                  </choice> l'ouverture des états-généraux, l'opinion avait déjà fait tant de
-                  progrès que le <roleName>ministre</roleName>
-                  <persName>Necker</persName>, dans son discours du <date>5 mai 1789</date>, disait
-                  aux députés de la nation, après avoir parlé de l'abolition de la corvée de la
-                  taille:</p>
-               <p><q>“Un jour viendra peut-être où vous étendrez plus loin votre intérêt; un jour
-                     viendra peut-être où, associant à vos délibérations les députés des colonies,
-                     vous jetterez un regard de compassion sur ce malheureux peuple, dont on a fait
-                     tranquillement un objet de trafic; sur ces hommes <emph>semblables à
-                        nous</emph> par la pensée et surtout par la triste faculté de souffrir ; sur
-                     ces hommes cependant que, sans pitié pour leurs douloureuses plaintes, nous
-                     accumulons, nous entassons au fond d'un vaisseau pour aller ensuite à pleine
-                     voiles les présenter aux chaînes qui les attendent..... Déjà l'humanité est
-                     défendue au nom même de l'intérêt personnel et des calculs politiques, et cette
-                     superbe cause ne tardera pas à paraître devant le tribunal de toutes les
-                     nations. Ah ! combien de sortes de satisfactions, combien d'espèces de gloire
-                     sont réservées à cette suite d'états-généraux qui vont prendre naissance au
-                     milieu d'un siècle éclairé ! Malheur, malheur et honte à la nation française si
-                     elle méconnaissait le<pb n="18"/> prix d'une telle position, si elle ne
-                     cherchait pas à s'en montrer digne et si une telle ambition était trop forte
-                     pour elle.”</q></p>
-               <p>Lorsque les députés de <placeName>Saint-Domingue</placeName>se présentèrent au
-                  sein de l'assemblée, on leur contesta la légitimité de leur titre, par le motif
-                  qu'ils étaient les <choice>
-                     <orig>représentans</orig>
-                     <corr>représentants</corr>
-                  </choice> d'une terre esclave, et parce que même les hommes libres (les gens de
-                  couleur) avaient été exclus des assemblées électives.</p>
-               <p>L'assemblée nationale ne tarda pas à décréter que tous les hommes libres
-                  propriétaires seraient électeurs, malgré la différence de couleur. Elle annonça
-                  l'intention de s'occuper de l'émancipation des esclaves. La rapidité des <choice>
-                     <orig>événemens</orig>
-                     <corr>événements</corr>
-                  </choice> et les catastrophes qui furent la suite de la division entre les hommes
-                  libres des diverses classes à <placeName>Saint-Domingue</placeName> et dans les
-                  autres colonies précipitèrent cette émancipation et l'empêchèrent d'arriver à
-                  maturité.</p>
-               <p><persName ref="#NB">Napoléon</persName>, après avoir trompé
-                     <persName>Toussaint-l'Ouverture</persName> et les autres chefs des noirs par
-                  les promesses de la politique la plus fallacieuse, rétablit l'esclavage dans les
-                  colonies, ainsi que la traite des noirs.</p>
-               <p>En <placeName>Angleterre</placeName>, le célèbre <persName>Wilberforce</persName>,
-                  par ses motions au parlement et ses écrits <choice>
-                     <orig>éloquens</orig>
-                     <corr>éloquents</corr>
-                  </choice> , le <roleName>missionnaire <persName>Clarkson</persName></roleName>,
-                  par ses savantes et courageuses explorations, reprirent l'oeuvre des <choice>
-                     <orig>philantropes</orig>
-                     <corr>philanthropes</corr>
-                  </choice> français, et, tandis que le despotisme, par ses progrès rapides en
-                     <placeName ref="#FR">France</placeName>, ajournait toute question de liberté,
-                  ils obtinrent du parlement britannique l'abolition de la traite, depuis
-                  sanctionnée au congrès de <placeName>Vienne</placeName>.</p>
-               <p><persName>Napoléon</persName>, dans les cent jours, décréta lui-même cette
-                  abolition pour la <placeName>France</placeName>; la restauration ajourna cette
-                  mesure de quelques années; aujourd'hui elle est législation consommée. Mais
-                  qu'est-ce que l'abolition de la traite en comparaison de l'abolition de
-                  l'esclavage ? <persName>Wilberforce</persName>, avant de fermer les yeux, a eu le
-                  bonheur de voir achever son ouvrage. Malgré l'élévation de la dette anglaise,
-                  cette nation n'a pas reculé devant un sacrifice de près de 500 millions pour
-                  donner cette satisfaction à l'humanité.</p>
-               <p>Comment <placeName>la France</placeName>, qui toujours a en l'initiative des
-                  mesures de ce genre, pourrait-elle rester en arrière? et quel est le contribuable
-                  qui regarderait à quelque sacrifice pour abolir cette œuvre de barbarie?</p>
-               <p>L'esclavage a été introduit furtivement dans nos colonies par la cupidité d'une
-                  compagnie de marchands concessionnaires des îles. Cette innovation était contraire
-                  à un célèbre monument national du quatorzième siècle relatif à l'abolition du
-                  servage en France : <q>“Chacun doit naitre franc, et notre royaume est appelé le
-                     royaume des Francs <choice>
-                        <orig> </orig>
-                        <corr>"</corr>
-                     </choice> , a dit un roi de France, Louis-le-Hutin.</q></p>
-               <p>Les préjugés coloniaux ont encore dans la métropole tant de défenseurs, qu'il a
-                  paru nécessaire aux amis de l'humanité et de la cause de la civilisation de se
-                  réunir pour aviser aux moyens les plus prompts et les plus pacifiques, à l'effet
-                  d'obtenir cette abolition.</p>
-               <p>Nous avons la certitude qu'ils seront secondés par les hommes de couleur libres.
-                  Ceux qui savent par expérience que tant qu'il existera des esclaves, c'est en vain
-                  qu'ils revendiqueront pour eux-mêmes la plénitude des droits politiques. On les
-                  retiendra dans un état d'ilotisme, ou d'incapacité civique, précisément par la
-                  puissance des <choice>
+               <choice>
+               <sic>A</sic>
+               <corr>À</corr>
+               </choice> 
+               l'ouverture des états-généraux, l'opinion avait déjà fait tant de progrès que le <roleName>ministre</roleName> <persName ref="#JN">Necker</persName>, dans son discours du <date>5 mai 1789</date>, disait aux députés de la nation, après avoir parlé de l'abolition de la corvée de la taille:</p>
+               <p><q>“Un jour viendra peut-être où vous étendrez plus loin votre intérêt; un jour viendra peut-être où, associant à vos délibérations les députés des colonies, vous jetterez un regard de compassion sur ce malheureux peuple, dont on a fait tranquillement un objet de trafic; sur ces hommes <emph>semblables à nous</emph> par la pensée et surtout par la triste faculté de souffrir ; sur ces hommes cependant que, sans pitié pour leurs douloureuses plaintes, nous accumulons, nous entassons au fond d'un vaisseau pour aller ensuite à pleine voiles les présenter aux chaînes qui les attendent..... Déjà l'humanité est défendue au nom même de l'intérêt personnel et des calculs politiques, et cette superbe cause ne tardera pas à paraître devant le tribunal de toutes les nations. Ah ! combien de sortes de satisfactions, combien d'espèces de gloire sont réservées à cette suite d'états-généraux qui vont prendre naissance au milieu d'un siècle éclairé ! Malheur, malheur et honte à la nation française si elle méconnaissait le<pb n="18"/> prix d'une telle position, si elle ne cherchait pas à s'en montrer digne et si une telle ambition était trop forte pour elle.”</q></p>
+               <p>Lorsque les députés de <placeName ref="#HT">Saint-Domingue</placeName>se présentèrent au sein de l'assemblée, on leur contesta la légitimité de leur titre, par le motif qu'ils étaient les
+               <choice>
+               <orig>représentans</orig>
+               <corr>représentants</corr>
+               </choice>
+               d'une terre esclave, et parce que même les hommes libres (les gens de couleur) avaient été exclus des assemblées électives.</p>
+               <p>L'assemblée nationale ne tarda pas à décréter que tous les hommes libres propriétaires seraient électeurs, malgré la différence de couleur. Elle annonça l'intention de s'occuper de l'émancipation des esclaves. La rapidité des 
+               <choice> 
+               <orig>événemens</orig>
+               <corr>événements</corr>
+               </choice>
+               et les catastrophes qui furent la suite de la division entre les hommes libres des diverses classes à <placeName>Saint-Domingue</placeName> et dans les autres colonies précipitèrent cette émancipation et l'empêchèrent d'arriver à maturité.</p>
+               <p><persName ref="#NB">Napoléon</persName>, après avoir trompé <persName ref="#TO">Toussaint-l'Ouverture</persName> et les autres chefs des noirs par les promesses de la politique la plus fallacieuse, rétablit l'esclavage dans les colonies, ainsi que la traite des noirs.</p>
+               <p>En <placeName ref="#ANG">Angleterre</placeName>, le célèbre <persName ref="#WW">Wilberforce</persName>, par ses motions au parlement et ses écrits 
+               <choice> 
+               <orig>éloquens</orig>
+               <corr>éloquents</corr>
+               </choice> 
+               , le <roleName>missionnaire <persName ref="#TC">Clarkson</persName></roleName>, par ses savantes et courageuses explorations, reprirent l'oeuvre des 
+               <choice>
+               <orig>philantropes</orig>
+               <corr>philanthropes</corr>
+               </choice> 
+               français, et, tandis que le despotisme, par ses progrès rapides en <placeName ref="#FR">France</placeName>, ajournait toute question de liberté, ils obtinrent du parlement britannique l'abolition de la traite, depuis sanctionnée au congrès de <placeName ref="#Vi">Vienne</placeName>.</p>
+               <p><persName>Napoléon</persName>, dans les cent jours, décréta lui-même cette abolition pour la <placeName>France</placeName>; la restauration ajourna cette mesure de quelques années; aujourd'hui elle est législation consommée. Mais qu'est-ce que l'abolition de la traite en comparaison de l'abolition de l'esclavage ? <persName>Wilberforce</persName>, avant de fermer les yeux, a eu le bonheur de voir achever son ouvrage. Malgré l'élévation de la dette anglaise, cette nation n'a pas reculé devant un sacrifice de près de 500 millions pour donner cette satisfaction à l'humanité.</p>
+               <p>Comment la <placeName>France</placeName>, qui toujours a en l'initiative des mesures de ce genre, pourrait-elle rester en arrière? et quel est le contribuable qui regarderait à quelque sacrifice pour abolir cette œuvre de barbarie?</p>
+               <p>L'esclavage a été introduit furtivement dans nos colonies par la cupidité d'une compagnie de marchands concessionnaires des îles. Cette innovation était contraire à un célèbre monument national du quatorzième siècle relatif à l'abolition du servage en France : <q>“Chacun doit naître franc, et notre royaume est appelé le royaume des Francs 
+               <choice>
+               <orig> </orig>
+               <corr>"</corr>
+               </choice> 
+               , a dit un <roleName>roi de France</roleName>, <persName ref="#LX">Louis-le-Hutin</persName>.</q></p>
+               <p>Les préjugés coloniaux ont encore dans la métropole tant de défenseurs, qu'il a paru nécessaire aux amis de l'humanité et de la cause de la civilisation de se réunir pour aviser aux moyens les plus prompts et les plus pacifiques, à l'effet d'obtenir cette abolition.</p>
+               <p>Nous avons la certitude qu'ils seront secondés par les hommes de couleur libres. Ceux qui savent par expérience que tant qu'il existera des esclaves, c'est en vain qu'ils revendiqueront pour eux-mêmes la plénitude des droits politiques. On les retiendra dans un état d'ilotisme, ou d'incapacité civique, précisément par la puissance des 
+               <choice>
                      <orig>argumens</orig>
                      <corr>arguments</corr>
-                  </choice> qui sont employés pour le maintien de l'esclavage.</p>
-               <p>Nous apprenons qu'une <orgName><emph>Société pour l'abolition de
-                        l'esclavage</emph></orgName> se forme en ce moment à <placeName ref="#Par"
-                     >Paris</placeName>, sous la direction de <persName>MM. Victor de
-                     Tracy</persName>, <persName>Lainé de Villevêque</persName>, <persName>Eusèbe
-                     Salverte</persName>, <persName>Alexandre Delaborde</persName>,
-                     <persName>Isambert</persName>, <persName>Gaëtan de Larochefoucauld</persName>
-                  et d'autres membres de la chambre des députés.</p>
-               <p>Nous espérons que le petit-gendre de <persName>M. Necker</persName>, quoiqu'il
-                  n'ait rien fait pour cette cause pendant la durée de son ministère, s'empressera
-                  de s'adjoindre à ces honorables députés, et que l'adversaire éloquent de la
-                  traite, dans la chambre des pairs, ne reculera pas devant l'abolition de
-                  l'esclavage.Nous ferons connaître, dans notre prochain numéro, l'organisation de
-                  la Société et les noms de ses membres.</p>
+                  </choice> 
+                  qui sont employés pour le maintien de l'esclavage.</p>
+               <p>Nous apprenons qu'une <orgName ref="#SAE"><emph>Société pour l'abolition de l'esclavage</emph></orgName> se forme en ce moment à <placeName ref="#Par">Paris</placeName>, sous la direction de <persName ref="#VT">MM. Victor de Tracy</persName>, <persName ref="#LdV">Lainé de Villevêque</persName>, <persName ref="#ES">Eusèbe Salverte</persName>, <persName ref="#AD">Alexandre Delaborde</persName>, <persName ref="#FI">Isambert</persName>, <persName ref="#GdL">Gaëtan de Larochefoucauld</persName> et d'autres membres de la chambre des députés.</p>
+               <p>Nous espérons que le petit-gendre de <persName>M. Necker</persName>, quoiqu'il n'ait rien fait pour cette cause pendant la durée de son ministère, s'empressera de s'adjoindre à ces honorables députés, et que l'adversaire éloquent de la traite, dans la chambre des pairs, ne reculera pas devant l'abolition de l'esclavage.Nous ferons connaître, dans notre prochain numéro, l'organisation de la Société et les noms de ses membres.</p>
             </div>
 
             <div>

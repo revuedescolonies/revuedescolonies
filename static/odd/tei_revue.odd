@@ -105,7 +105,7 @@
                 <valItem mode="add" ident="#AC"/>
                 <valItem mode="add" ident="#UN"/>
                 <valItem mode="add" ident="#PB"/>
-              </valList>
+              <valItem mode="add" ident="#SAE"/></valList>
             </attDef>
           </attList>
         </elementSpec>
@@ -144,7 +144,7 @@
                 <valItem mode="add" ident="#AC"/>
                 <valItem mode="add" ident="#JFB"/>
                 <valItem mode="add" ident="#NB"/>
-              </valList>
+              <valItem mode="add" ident="#ML"/><valItem mode="add" ident="#HG"/><valItem mode="add" ident="#JN"/><valItem mode="add" ident="#TO"/><valItem mode="add" ident="#TC"/><valItem mode="add" ident="#LX"/><valItem mode="add" ident="#VT"/><valItem mode="add" ident="#LdV"/><valItem mode="add" ident="#ES"/><valItem mode="add" ident="#AD"/><valItem mode="add" ident="#FI"/><valItem mode="add" ident="#GdL"/></valList>
             </attDef>
           </attList>
         </elementSpec>
@@ -175,7 +175,7 @@
                 <valItem mode="add" ident="#Ha"/>
                 <valItem mode="add" ident="#AM"/>
                 <valItem mode="add" ident="#Cha"/>
-              <valItem mode="add" ident="#GF"/><valItem mode="add" ident="#HT"/></valList>
+              <valItem mode="add" ident="#GF"/><valItem mode="add" ident="#HT"/><valItem mode="add" ident="#Nan"/><valItem mode="add" ident="#ANG"/><valItem mode="add" ident="#Vi"/></valList>
             </attDef>
           </attList>
         </elementSpec>
