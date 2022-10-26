@@ -175,7 +175,7 @@
                 <valItem mode="add" ident="#Ha"/>
                 <valItem mode="add" ident="#AM"/>
                 <valItem mode="add" ident="#Cha"/>
-              <valItem mode="add" ident="#GF"/><valItem mode="add" ident="#HT"/><valItem mode="add" ident="#Nan"/><valItem mode="add" ident="#ANG"/><valItem mode="add" ident="#Vi"/></valList>
+              <valItem mode="add" ident="#GF"/><valItem mode="add" ident="#HT"/><valItem mode="add" ident="#Nan"/><valItem mode="add" ident="#ANG"/><valItem mode="add" ident="#Vi"/><valItem mode="add" ident="#AN"/><valItem mode="add" ident="#GdA"/><valItem mode="add" ident="#GdM"/><valItem mode="add" ident="#IDV"/><valItem mode="add" ident="#ISV"/><valItem mode="add" ident="#ME"/></valList>
             </attDef>
           </attList>
         </elementSpec>
