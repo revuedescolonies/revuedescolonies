@@ -80,7 +80,7 @@
    <orig>développemens</orig>
    <corr>développements</corr>
    </choice>
-    qu'embrasse sa prévoyance. Les bornes trop circonscrites de notre <bibl type="periodical"><title ref="Rdc">Revue</title></bibl> ne nous permettent point de donner la traduction de cette mémorable loi. Cependant nous croyons qu'on nous saura gré d'en faire connaître les principales dispositions. Les détails où nous allons entrer auront d'ailleurs l'avantage de faciliter l'intel ligence des faits importans qui s'accomplissent en ce moment dans les <placeName ref="#AN">Antilles</placeName>.</p>
+    qu'embrasse sa prévoyance. Les bornes trop circonscrites de notre <bibl type="periodical"><title ref="#Rdc">Revue</title></bibl> ne nous permettent point de donner la traduction de cette mémorable loi. Cependant nous croyons qu'on nous saura gré d'en faire connaître les principales dispositions. Les détails où nous allons entrer auront d'ailleurs l'avantage de faciliter l'intel ligence des faits importans qui s'accomplissent en ce moment dans les <placeName ref="#AN">Antilles</placeName>.</p>
 
     <p>Le parlement n'a point désigné nominativement le pays où doit s'étendre la grande mesure de l'émancipation, parce qu'ils sont indiqués assez clairement par l'objet même de la loi. L'ancienne législation, dans la plupart des possessions britanniques, s'est rendue complice des iniquités de l'esclavage, en lui prêtant un honteux appui ; mais si elle a soutenu les blancs sans distinction comme propriétaires de la race étrangère attachée à la glèbe, elle ne les a point également 
     <choice>
@@ -140,7 +140,12 @@
        </choice>
         membres de la famille. (Article 9.) Il leur sera aussi permis, en ne s'écartant point de cette première condition, de disposer du travail <emph>(services)</emph> des affranchis, par marché, vente, contrat, transfert ou testament. Les ouvriers logés chez leurs maîtres auront droit à tous les objets nécessaires à leur entretien, et, dans l'état de maladie, aux secours de l'art. (Article 11.) On ne pourra en exiger par semaine que quarante-cinq heures de travail, le reste de leur temps disponible devant être employé à leur profit. Ceux d'entre eux qui en auront les moyens auront la faculté d'acheter leur entière libé ration, en payant à leurs maîtres, à titre d'indemnité, une somme equivalente à la valeur du travail pendant la durée de l'apprentis sage. L'exploitant, dans aucun cas, ne pourra refuser de se préter à cette transaction, ni retenir, contre son gré, l'affranchi qui en aura rempli les conditions. (Article 8.) D'un antre côté, il est dé fendu au premier de congédier l'ouvrier-apprenti arrivé à l'âge de cinquante ans ou plus et atteint de quelque infirmité qui le rend inhabile au travail, sans pourvoir à son entretien, jusqu'à l'expiration de l'apprentissage. (Article 7.)</p>
 
-        <p>Tout récemment encore, les colons des possessions anglaises, comme le font aujourd'hui ceux de nos iles, s'opposaient avec une singulière obstination aux projets formés pour l'émancipation des noirs. Ils avaient usé de leurs injustes priviléges avec une dureté si constante et si dédaigneuse, qu'ils ne croyaient pas à la possi bilité de l'oubli et du pardon chez la race opprimée. Ils lui sup posaient, au fond du coeur, un désir insatiable de vengeance, de meurtre et de pillage, que les précautions actives d'une autorité sans bornes pouvaient seules comprimer. Parvenu à ravaler l'
+        <p>Tout récemment encore, les colons des possessions anglaises, comme le font aujourd'hui ceux de nos iles, s'opposaient avec une singulière obstination aux projets formés pour l'émancipation des noirs. Ils avaient usé de leurs injustes 
+        <choice>
+        <orig>priviléges</orig>
+        <corr>privilèges</corr>
+        </choice>
+         avec une dureté si constante et si dédaigneuse, qu'ils ne croyaient pas à la possi bilité de l'oubli et du pardon chez la race opprimée. Ils lui sup posaient, au fond du coeur, un désir insatiable de vengeance, de meurtre et de pillage, que les précautions actives d'une autorité sans bornes pouvaient seules comprimer. Parvenu à ravaler l'
         <choice>
         <orig>ame</orig>
         <corr>âme</corr>
@@ -364,7 +369,7 @@ A. G.
               <corr>île</corr>
               </choice>
                Maurice</placeName> ? Faudrait-il que le représentant de la France fut ignominieusement repoussé du port, non, cette fois, parce qu'il serait <persName ref="#J">M. Jérémie</persName>, mais parce qu'il aurait la peau bise?
-               AD. GATINE.
+               <persName ref="#GA">AD. GATINE</persName>.
 Avocat à la Cour de cassation.</p></div>
 
    </div>
@@ -444,7 +449,150 @@ COLONIALES.</head>
          <p>Cette matière mérite toute la sollicitude des chambres. Si le gouvernement néglige de répondre à ce besoin d'améliorations, nous en appellerons au droit d'initiative des députés.</p>
    </div>
    
-   <div></div>
+   <div><head>ÉTATS-UNIS.</head>
+   <head>TROUBLES À PHILADELPHIE ET À CHARLESTOWN.</head>
+   <p>La ville de <placeName>Philadelphie</placeName> et celle de <placeName>Charlestown</placeName>, dans le Massachussets, viennent d'être le théâtre de scènes tumultueuses d'une nature grave. A Philadelphie, la populace, ameutée contre de malheureux noirs, renouvelle tous les excès dont on a été dernièrement témoin à New-York, et saccage et détruit les maisons, les églises, les propriétés de ces nouveaux parias. A Charlestown, sous le prétexte, tout-à-fait dénué de fondement, que le rent, qu'une religieuse avait disparu d'un couvent catholique, le peuple s'est porté vers la paisible demeure de femmes dont tous les 
+   <choice>
+   <orig>instans</orig>
+   <corr>instants</corr>
+   </choice>
+    sont consacrés à l'éducation des jeunes personnes presque toutes protestantes, et l'outrage, l'insulte, le pillage, ont été bientôt suivis d'un vaste incendie, qui, dans peu de 
+    <choice>
+    <orig>momens</orig>
+    <corr>moments</corr>
+    </choice>
+    , a détruit de fond en comble tous les 
+    <choice>
+    <orig>bâtimens</orig>
+    <corr>bâtiments</corr>
+    </choice>
+     du <placeName ref="#Ur">couvent des Ursulines</placeName>.</p>
+     <p>Voici quelques détails sur les troubles de Philadelphie : <q>"Quelques jeunes gens qui allaient s'amuser au jeu de bague où les noirs avaient 
+     <choice>
+     <orig>coutume</orig>
+     <corr>coutûme</corr>
+     </choice>
+      de se rendre, ayant été repoussés et battus par ces derniers, le <date>12 août</date>, dans la soirée, un rassemblement composé d'environ 500 
+      <choice>
+      <orig>enfans</orig>
+      <corr>enfants</corr>
+      </choice>
+       et jeunes gens, dont plusieurs étaient armés de bâtons, passa dans <placeName>South Street</placeName>, à l'endroit où était situé le jeu de bague. En quelques minutes, le bâtiment fut attaqué et démoli de fond en comble, une bataille réglée commença ensuite sur les lieux entre les jeunes gens et les noirs. La victoire resta indécise ; les blancs descendirent alors South-Street et allèrent attaquer une maison occupée par une famille de noirs, qui, heureusement, eut le temps de s'échapper. Après<pb n="21"/>cet attentat, l'attroupement se répandit dans les <placeName>rues Bedford et Mary</placeName> qui sont habitées par des gens de couleur, et semblait chercher l'occasion de commettre de nouvelles violences".</q></p>
+       <p><q>"Vers neuf heures, la police voulut essayer de disperser la foule et de saisir les chefs de l'attroupement. Ce mouvement fut le signal de la plus vive résistance et d'un combat opiniâtre. Au milieu des cris : <emph>À bas la police!</emph> un corps de constables s'ouvrit un chemin au travers de la foule et s'empara de dix-huit des plus actifs dans le combat. Plusieurs employés de la police furent très maltraités ; <persName ref="#EG">M.Hegren</persName>, son chef, est dangereusement blessé. Les individus arrêtés, ne pouvant trouver de caution, ont été envoyés en prison pour y attendre qu'on instruise leur 
+       <choice>
+       <orig>procés</orig>
+       <corr>procès</corr>
+       </choice>."</q></p>
+       <p><q>"Le 15, dans la soirée, la police s'était retirée, laissant très tranquille le quartier où elle s'attendait à du désordre, quand la foule se rassembla et renouvela les scènes de la veille. Les maisons où habitaient des familles de couleur paraissaient être le but de leurs attaques ; les noirs qui se montraient isolés étaient impitoyablement battus."</q></p>
+       <p><q>Dans cette seconde bagarre, une église presbytérienne, appartenant à une congrégation de noirs, a été très endommagée ; les vitres, les bancs, la chaire, tout a été brisé ; une maison voisine a été également saccagée. On ne sait pas encore si quelqu'un a été tué. La police a été doublée, et s'occupe très activement de chercher les auteurs de ces criminelles violences.</q></p>
+       <p>Avant tout, ce qui est dans nos vœux, c'est la mise en pratique des droits de l'homme, c'est l'établissement universel d'un ordre social où l'humanité soit respectée dans tous ses membres, quelle que soit leur couleur, dans quelque rang qu'ils soient nés. S'il est des formes gouvernementales qui soient incompatibles avec cet état de choses, nous les réprouvons par cela seul, sans accorder d'ailleurs aux mots plus de valeur qu'ils n'en méritent. République ou royaume, il n'importe ; partout où des masses d'hommes noires ou blanches souffriront, partout où l'éducation et les 
+       <choice>
+       <orig>priviléges</orig>
+       <corr>privilèges</corr>
+       </choice>
+        seront le partage de quelques-uns, à l'exclusion du grand nombre, nous serons contre l'ordre établi, de quelque nom qu'il se décore. Sans doute, nous ne croyons pas que les grossières violences exercées par une portion du peuple américain contre les noirs et leurs amis tiennent à la nature de la constitution politique des <placeName>Etats-Unis</placeName>, mais toujours est-il que ce sont là des faits fâcheux pour l'honneur de la civilisation transatlantique, et qu'il importe de flétrir dans l'intérêt de l'humanité, sans se laisser préoccuper aucunement de l'excellence des lois fondamentales de ce pays.</p></div><pb n="22"/>
+
+        <div>
+        <head>ANGLETERRE.</head>
+        <head>LONDRES.</head>
+        <p>Le passage suivant, extrait d'un discours prononcé par le <persName ref="#MU">comte Mulgrave</persName>, en réponse à une adresse que lui a présenté dernièrement la <orgName ref="#SEU"><emph>Société de l'émancipation universelle</emph></orgName>, contient une juste appréciation de l'esprit et des 
+        <choice>
+        <orig>sentimens</orig>
+        <corr>sentiments</corr>
+        </choice>
+         dont les planteurs de la <placeName ref="#JA">Jamaïque</placeName> sont animés en ce moment. On se rappelle que lord Mulgrave a été gouverneur de cette colonie, où il a laissé la réputation d'un habile administrateur et d'un ami de l'humanité.</p>
+         <p>" Il est une vérité dont il importe surtout de bien nous pénétrer, messieurs ; c'est que votre tâche, quelque avancée qu'elle soit, n'est pas encore entièrement accomplie. Avant que la grande révolution sociale qui s'opère dans nos colonies ait produit tous ses résultats, vous aurez encore beaucoup à faire. N'oubliez point que je vous parle comme un simple particulier qu'aucune fonction publique ne gêne dans l'expression de sa pensée. Il faut que vous continuez d'éclairer la conduite de tous les hommes dont la coopération est nécessaire à l'accomplissement de la loi. Certes, je serais fâché de laisser échapper un seul mot qui pût vous indisposer contre la classe des colons ; au contraire, je suis heureux de pouvoir vous l'apprendre, chez eux aussi l'esprit général s'est considérablement amélioré. Parmi ceux qui résident dans la colonie, j'en ai trouvé beaucoup qui se sont empressés de me prêter une utile assistance ; mais le système que nous combattons est si foncièrement mauvais, qu'il poussera toujours les hommes à abuser cruellement et sans raison de leurs 
+         <choice>
+         <orig>priviléges</orig>
+         <corr>privilèges</corr>
+         </choice>
+         . J'ai vu avec un extrême regret qu'on n'était point encore définitivement aux 
+         <choice>
+         <orig>maitres</orig>
+         <corr>maîtres</corr>
+         </choice>
+          le pouvoir arbitraire d'infliger des peines disciplinaires à leurs esclaves. Jusqu'à la veille de mon départ pour l'<placeName ref="#ANG">Angleterre</placeName>, des faits d'un caractère grave m'ont prouvé que les 
+          <choice>
+          <orig>châtimens</orig>
+          <corr>châtiments</corr>
+          </choice>
+           ne sont pas toujours mérités. J'accueillais la plainte, j'étais convaincu que la peine n'était point motivée, qu'elle avait été excessive ; mais alors j'
+           <choice>
+           <sic>etais</sic>
+           <corr>étais</corr>
+           </choice>
+            obligé de faire au pauvre noir la question de rigueur : <emph>Vous a-t-on donné plus de trente-neuf coups de fouet, le nombre autorisé par la loi?</emph> Et comme il n'en pouvait guère avoir la certitude, j'étais réduit à lui<pb n="23"/>conseiller, dans son propre intérêt, de prendre le mal en patience et de ne point donner de suite à l'affaire. " (<bibl type="periodical"><title ref="#Ab"><emph>The Abolitioniste</emph></title></bibl>.)</p>
+            <p>- Le navire <emph>la Lyra</emph>, venant de la Jamaïque, a apporté des journaux de cette île jusqu'au <date>20 août</date>. A cette époque, la colonie était généralement tranquille, bien qu'il y ait eu quelques légers troubles et des craintes exagérées. <emph>La Lyra</emph> a quitté les <placeName ref= "#AN">Antilles</placeName> le <date>29 août</date>, et jusqu'alors toutes nos îles avaient joui d'une profonde tranquillité ; presque partout les nègres nouvellement affranchisse sont soumis sans répugnance aux nouveaux 
+            <choice>
+            <orig>réglemens</orig>
+            <corr>règlements</corr>
+            </choice>
+            , conséquence de l'<bibl type="periodical"><title ref="#AE">acte d'émancipation</title></bibl>.
+            (<bibl type="periodical"><title><emph>Standard</emph></title></bibl>.)</p></div>
+
+            <div>
+            <head>FRANCE.</head>
+            <head>PARIS.</head>
+            <head><orgName ref="#CDC">COUR DE CASSATION</orgName>.</head>
+            <head>Audience du <date>12 septembre</date>. Présidence de <persName ref="#BA">M. Bastard</persName>.</head>
+
+            <head>POURVOI DE <persName ref="#Cé">CÉSAIRE</persName> (DE LA GRAND'ANSE).</head>
+            <p>Les journaux quotidiens ont rendu compte de cette affaire. La <bibl type="periodical"><title ref="#RdC">Revue des Colonies</title></bibl> en doit à ses lecteurs un récit plus étendu. Elle enregistre avec soin tous les faits par lesquels on peut apprécier en <placeName ref="#FR">France</placeName> l'état social des colonies. Le procès de Césaire a sous ce point de vue une haute signification.</p>
+            <p>Un différend s'élève sur la voie publique, entre deux 
+            <choice>
+            <orig>passans</orig>
+            <corr>passants</corr>
+            </choice>
+            , pour cause futile. Les acteurs sont le sieur <persName>Salomon</persName>, homme de couleur, faisant caracoler un cheval qu'il monte, et un blanc, le sieur <persName>Bayardelle</persName>, qui fait au cavalier des remontrances à ce sujet. On s'explique ; rien de si simple, mais un tiers intervient, c'est le sieur <persName>Lasserre</persName>, colon de la Grand'Anse. Il s'écrie, <emph>qu'il n'aurait pas tant de patience</emph>. Il profère des injures, des menaces ; il s'arme d'un sabre et provoque Salomon. Celui-ci et ses amis usent de prudence et de modération ; ils se retirent pour éviter le désordre.</p><pb n="24"/>
+
+            <p>Mais le lendemain ils exigent réparation. Le sieur <persName>Fréjus</persName>, l'un d'eux, est chargé de la demander ; <emph>son insolence</emph> sera cruellement punie. Ici, nous laissons parler ce malheureux, mort aujourd'hui des mauvais 
+            <choice>
+            <orig>traitemens</orig>
+            <corr>traitements</corr>
+            </choice>
+             dont il a porté plainte en ces termes: <q>“Il (le sieur Lasserre) me prit au collet d'une main, et de l'autre me donna deux coups de poing dans la figure en criant : <q>“Donne-moi mon bâton.”</q> <emph>Sa femme le lui apporta</emph>, et il m'en asséna une grèle de coups, malgré mes supplications, telles que celles-ci : <q>“Monsieur, de 
+             <choice>
+             <orig>grace</orig>
+             <corr>grâce</corr>
+             </choice>
+             , écoutez-moi.”</q> Il n'en tint compte, et me frappant toujours, <emph>il demandait son fusil</emph>, appelait son atelier. Je criai au secours, mais il me renversa, et étant sur moi, <emph>il prit une pierre dont il me frappa entre les deux yeux</emph>. Sa femme lui dit: <q>“<emph>Ne le tuez pas!.....</emph>”</q> “</q>.</p>
+             <p>Après ces violences, qui se passaient les <date>4 et 5 août 1833</date>, le <persName>sieur Lasserre</persName> se présente à l'autorité, et demande une sauve-garde, sous prétexte que sa vie était en danger. Deux dragons de milice lui furent donnés pour l'accompagner. Chemin faisant, dans la nuit du <date>5 au 6</date>, vers 9 heures du soir, un coup de feu abattit le cheval d'un des dragons. Quelques heures après, un second coup de feu fut entendu au même endroit, et le lendemain, le cheval fut reconnu avoir deux blessures, l'une au cou et perpendiculaire, comme si elle eût été faite par son cavalier lui-même ; l'autre au genou. Le dragon démonté s'était caché, dit l'instruction, dans un champ de cannes voisin ; l'autre et le sieur Lasserre s'étaient enfuis.</p>
+             <p>Ces faits donnèrent lieu à une triple instruction contre <persName>Salomon</persName>, contre Lasserre, qui avouait son crime, et contre les auteurs inconnus de l'événement nocturne qualifié attentat à la vie de Lasserre. Néanmoins, ce dernier fait seul a été la matière de l'accusation portée aux assises. Cette accusation fut formulée : <emph>complot contre la vie du sieur Lasserre ; tentative d'assassinat sur sa personne avec préméditation et guet-à-pens</emph>. L'accusé, ce fut Césaire, contre lequel l'instruction parut élever des présomptions suffisantes.</p>
+             <p>Aux assises de <placeName ref="#StP">Saint-Pierre</placeName>, en <date>décembre 1833</date>, Césaire fut déclaré non coupable, <emph>comme auteur</emph>, du crime à lui imputé ; mais une question de complicité ayant été posée comme résultant des débats, malgré l'opposition de son défenseur, il fut déclaré <emph>complice</emph> des auteurs inconnus, et en conséquence condamné à la peine capitale.</p><pb n="25"/>
+
+             <p>Une pareille affaire devait être soumise à la <orgName ref="#CS">cour suprême</orgName>. Le pourvoi de Césaire fut formé.</p>
+             <p>Un premier rapport fut fait à l'audience du <date>4 avril</date> dernier, sur les moyens de cassation présentés par <persName ref="#GA">M Gatine</persName>, qui demandait l'annulation immédiate de l'arrêt de condamnation. Mais la cour crut devoir ordonner préalablement, par arrêt interlocutoire, l'apport à son greffe des pièces relatives à plusieurs des moyens invoqués, sans s'arrêter aux conclusions de <persName ref="#PA">M. l'avocat-général Parant</persName>, qui demanda le rejet immédiat du pourvoi, Après cinq mois d'attente, durant lesquels nous avons appris que la captivité du malheureux Césaire a redoublé de rigueur, le parquet de la <placeName ref="#MQ">Martinique</placeName> a enfin expédié les pièces demandées, et l'affaire a pu être de nouveau soumise à la cour, le <date>13 septembre</date> dernier.</p>
+             <p><persName ref="#DR">M. de Ricard</persName>, conseiller, lut un rapport remarquable par sa lucidité, par la consciencieuse analyse des faits et des moyens, par un esprit de critique éclairée. Il donna lecture des deux mémoires fournis par M Gatine à l'appui du pourvoi, et présenta des observations sur chacun des moyens proposés. Il souleva lui-même un moyen grave résultant de la fausse application de la peine et dont le défenseur s'est emparé.</p>
+             <p>M. Gatine 
+             <choice>
+             <sic>a</sic>
+             <corr>à</corr>
+             </choice>
+              la parole.</p>
+              <q><p>Messieurs, dit-il, jamais je ne parus à votre barre plus confiante dans votre suprême justice. La condamnation de Césaire est depuis 
+              <choice>
+              <orig>long-temps</orig>
+              <corr>longtemps</corr>
+              </choice> 
+              jugée par vous ; il n'est pas en France un juge ou un juré qui l'eût condamné. Mais devant les cours d'assises de nos colonies, devant le jury bâtard <emph>des assesseurs</emph>, les accusés ont moins de ces précieuses garanties qui assurent à l'innocent son inviolabilité. Par contre, de nombreux moyens de cassation existent ordinairement dans les procédures coloniales. Il en faut remercier la providence, qui place ainsi le remède à côté du mal. Cette cause en offre l'exemple.</p>
+              <p> Cependant nous n'avons plus aujourd'hui tous nos moyens. Avant l'arrêt interlocutoire de la cour, plusieurs avaient été proposés qui se rattachaient à la position de cette question de complicité sur laquelle seulement Césaire a été déclaré coupable. Cet incident du procès, devenu ainsi tout le procès, avait la plus haute gravité, la plus solennelle importance dans l'affaire. Quelle conscience de juge pourrait en effet considérer sans terreur par quels<pb n="26"/>rapports éloignés et presque insaisissables le condamné fut rattaché au crime !</p>
+              <p>D'abord, y avait-il un crime ? un homicide ? doute absolu ; c'est un cheval qui fut tué, et par son cavalier peut-être, non pas un homme.</p>
+              <p>Mais la balle n'était-elle pas destinée à l'un des trois cavaliers, à tel d'entr'eux, à Lasserre? peut-être.</p>
+              <p>Quel est l'auteur <emph>de ce meurtre intentionnel</emph> ? Quelle main a si mal dirigé cette balle égarée? nous ne savons</p>
+              <p>Est-ce l'accusé Césaire ? Non ; verdict de la cour.</p>
+              <p> Est-il au moins complice ? Peut-être, <emph>car il se trouvait ou sur le lieu du crime, ou à côté</emph>. En conséquence, nous allons poser la question de complicité, qui n'est pas dans l'accusation, mais qui résulte des débats, <emph>puisque Césaire était sur le lieu ou à côté</emph>.</p>
+              <p>Est-il coupable comme complice <emph>par aide et assistance?</emph> - Oui.</p></q>
+              <p>Voilà messieurs par quelles déductions, par quelle filière de culpabilités décroissantes il a fallu passer pour trouver un coupable. Jusqu'ici nous ignorions sur quels motifs la question de complicité avait été posée, et nous nous faisions un moyen de ce qu'il n'apparaissait aucun motif ; mais l'arrêt d'incident que nous envoie le parquet de la Martinique nous l'apprend enfin. On y lit textuellement cet incroyable considérant: “<q><p>attendu qu'il résulte, <emph>tant de l'aveu de Césaire</emph> que de la déposition de plusieurs témoins entendus aux débats, <emph>que Césaire se trouvait soit à peu de distance de l'endroit où le crime a été commis, soit sur les lieux mêmes</emph>.</p>
+              <p>Voilà, messieurs, tout le fondement d'une condamnation à mort! effrayante et désolante pensée!</p>
+              <p>Cependant les juges de Césaire ont <emph>légalement</emph> tenu sa tête entre leurs mains. Ils ont <emph>par arrêt régulier</emph> ordonné la position de cette question de complicité sur laquelle seulement ils l'ont déclaré coupable. Aujourd'hui, par la production de cet arrêt, les moyens relatifs à cet incident nous échappent. Le condamné ne peut que se les réserver <emph>sous le bénéfice d'une inscription de faux</emph>. La cour comprend parfaitement notre pensée. Cette inscription de faux n'est pour nous qu'une subsidiaire, un dernier refuge au cas où, par impossible, les moyens qui nous restent seraient rejetés. Une immense responsabilité pèse d'ailleurs sur l'avocat, dans ce procès<pb n="27"/>où il s'agit de la tête ; et lorsque nous étions nantis d'une procuration <emph>ad hoc</emph>, nous avons dû faire usage des pouvoirs transmis par le condamné, pour lui assurer, le cas échéant, les moyens sur lesquels reposait d'abord principalement le succès de son recours en cassation. Mais puisse la cour, en accueillant ceux qui restent, éloigner de Césaire toute pensée de défiance contre les juges qui l'ont condamné dans les circonstances que la cour sait.</p></q></p>
+              <p>M. Gatine annonce qu'il s'attachera particulièrement à développer deux moyens. Quant aux autres, il sera suffisamment pourvu à la défense du condamné par les moyens et par le travail si plein de sollicitude de <persName>M. le conseiller-rapporteur</persName>.</p>
+              <p><q>“Messieurs, reprend l'avocat, nous n'avons pas dans ce procès la preuve de l'accomplissement de l'une des formalités les plus importantes en matière criminelle, la publicité des débats. Ils ont duré trois jours, du <date>19 au 21 décembre</date> ; le procès-verbal des séances ne porte aucune énonciation d'où l'on puisse induire que l'audience du <date>20</date> ait été <emph>tenue publiquement</emph>. En vain dirait-on que la mention de publicité existe pour la première et la dernière audience. Elle doit exister <emph>pour toutes</emph>, expresse et textuelle. Lorsqu'un accusé défend sa tête, il n'est pas de formalités <emph>minutieuses</emph>, même aux colonies, où la tête d'un homme peut tomber si facilement, comme tout ce procès le prouve.”</q> Ici M. Gatine rappelle que l'ordonnance coloniale du <date>24 septembre 1828</date> exige la publicité des débats en matière criminelle, comme la charte elle-même l'exige en France. Il cite plusieurs arrêts par lesquels la <orgName ref="#CDC">cour de cassation</orgName> a jugé que cette publicité doit être constatée pour chaque audience, lorsque plusieurs jours ont été consacrés aux débats. <q>"Si les Français d'outre-mer, ajoute-t-il, n'ont pas nos cours d'assises, notre jury, ils peuvent du moins s'appliquer les arrêts de cette cour suprême qui font respecter les grands principes de droit public admis en toute terre française. Je n'ai pas besoin de m'arrêter sur ce point."</q>" (Adhésion de la cour.)</p>
+              <p>L'avocat discute ensuite un second moyen tiré de ce que la peine a été faussement appliquée au fait tel qu'il résultait du verdict de la cour et des assesseurs. Il s'attache aux questions posées et aux déclarations par lesquelles ces questions ont été répondues soit affirmativement, soit négativement. Il oppose avec habileté les unes aux autres, et il en fait ressortir cette conséquence, que Cé-<pb n="28"/>
+
+</p>
+            
+            
+            </div>
 </body>
   </text>
 </TEI>
