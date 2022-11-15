@@ -103,7 +103,7 @@
                 <valItem mode="add" ident="#GN"/>
                 <valItem mode="add" ident="#AN"/>
                 <valItem mode="add" ident="#AC"/>
-                <valItem mode="add" ident="#UN"/>
+                
                 <valItem mode="add" ident="#PB"/>
               <valItem mode="add" ident="#SAE"/></valList>
             </attDef>
@@ -144,7 +144,7 @@
                 <valItem mode="add" ident="#AC"/>
                 <valItem mode="add" ident="#JFB"/>
                 <valItem mode="add" ident="#NB"/>
-              <valItem mode="add" ident="#ML"/><valItem mode="add" ident="#HG"/><valItem mode="add" ident="#JN"/><valItem mode="add" ident="#TO"/><valItem mode="add" ident="#TC"/><valItem mode="add" ident="#LX"/><valItem mode="add" ident="#VT"/><valItem mode="add" ident="#LdV"/><valItem mode="add" ident="#ES"/><valItem mode="add" ident="#AD"/><valItem mode="add" ident="#FI"/><valItem mode="add" ident="#GdL"/><valItem mode="add" ident="#D"/><valItem mode="add" ident="#Cé"/><valItem mode="add" ident="#Ca"/><valItem mode="add" ident="#Li"/><valItem mode="add" ident="#Au"/><valItem mode="add" ident="#Ci"/><valItem mode="add" ident="#JHD"/><valItem mode="add" ident="#EL"/><valItem mode="add" ident="#SA"/><valItem mode="add" ident="#CA"/><valItem mode="add" ident="#AB"/></valList>
+              <valItem mode="add" ident="#ML"/><valItem mode="add" ident="#HG"/><valItem mode="add" ident="#JN"/><valItem mode="add" ident="#TO"/><valItem mode="add" ident="#TC"/><valItem mode="add" ident="#LX"/><valItem mode="add" ident="#VT"/><valItem mode="add" ident="#LdV"/><valItem mode="add" ident="#ES"/><valItem mode="add" ident="#AD"/><valItem mode="add" ident="#FI"/><valItem mode="add" ident="#GdL"/><valItem mode="add" ident="#D"/><valItem mode="add" ident="#Cé"/><valItem mode="add" ident="#Ca"/><valItem mode="add" ident="#Li"/><valItem mode="add" ident="#Au"/><valItem mode="add" ident="#Ci"/><valItem mode="add" ident="#JHD"/><valItem mode="add" ident="#EL"/><valItem mode="add" ident="#SA"/><valItem mode="add" ident="#CA"/><valItem mode="add" ident="#AB"/><valItem mode="add" ident="#ADp"/><valItem mode="add" ident="#Equ"/></valList>
             </attDef>
           </attList>
         </elementSpec>
@@ -163,7 +163,7 @@
                 <valItem mode="add" ident="#DOM"/>
                 <valItem mode="add" ident="#STL"/>
                 <valItem mode="add" ident="#CUB"/>
-                <valItem mode="add" ident="#EU"/>
+                
                 <valItem mode="add" ident="#Che"/>
                 <valItem mode="add" ident="#GEO"/>
                 <valItem mode="add" ident="#Sav"/>
@@ -175,7 +175,7 @@
                 <valItem mode="add" ident="#Ha"/>
                 <valItem mode="add" ident="#AM"/>
                 <valItem mode="add" ident="#Cha"/>
-              <valItem mode="add" ident="#GF"/><valItem mode="add" ident="#HT"/><valItem mode="add" ident="#Nan"/><valItem mode="add" ident="#ANG"/><valItem mode="add" ident="#Vi"/><valItem mode="add" ident="#AN"/><valItem mode="add" ident="#GdA"/><valItem mode="add" ident="#GdM"/><valItem mode="add" ident="#IDV"/><valItem mode="add" ident="#ISV"/><valItem mode="add" ident="#ME"/><valItem mode="add" ident="#PlB"/><valItem mode="add" ident="#CGR"/></valList>
+              <valItem mode="add" ident="#GF"/><valItem mode="add" ident="#HT"/><valItem mode="add" ident="#Nan"/><valItem mode="add" ident="#ANG"/><valItem mode="add" ident="#Vi"/><valItem mode="add" ident="#AN"/><valItem mode="add" ident="#GdA"/><valItem mode="add" ident="#GdM"/><valItem mode="add" ident="#IDV"/><valItem mode="add" ident="#ISV"/><valItem mode="add" ident="#ME"/><valItem mode="add" ident="#PlB"/><valItem mode="add" ident="#CGR"/><valItem mode="add" ident="#USA"/><valItem mode="add" ident="#Esk"/><valItem mode="add" ident="#BEN"/></valList>
             </attDef>
           </attList>
         </elementSpec>
@@ -185,7 +185,7 @@
               <valList type="semi" mode="change">
                 <valItem mode="add" ident="#LT"/>
                 <valItem mode="add" ident="#MU"/>
-              <valItem mode="add" ident="#DDH"/></valList>
+              <valItem mode="add" ident="#DDH"/><valItem mode="add" ident="#C30"/><valItem mode="add" ident="#RdC"/><valItem mode="add" ident="#CN"/><valItem mode="add" ident="#Ab"/><valItem mode="add" ident="#RC"/></valList>
             </attDef>
           </attList>
         </elementSpec>

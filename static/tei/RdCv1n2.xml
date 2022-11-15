@@ -316,7 +316,7 @@
                   catégories quand nous n'en voulons pas faire, et de dénier le titre de Français à
                   qui la <placeName><country>France</country></placeName> le donne. Voilà pourtant
                   ce qui arrive à <placeName ref="#CUB"><country>Cuba</country></placeName>,
-                  possession espagnole, et dans les provinces méridionales des <placeName ref="#EU"
+                  possession espagnole, et dans les provinces méridionales des <placeName ref="#USA"
                         ><country>États-Unis</country></placeName>. Un Français, s'il est homme de
                   couleur, est exclus de ces deux pays; et s'il y pénètre, on le met en prison comme
                   un malfaiteur.</p>
@@ -378,7 +378,7 @@
                   le matelot fut retenu en prison, aux frais du capitaine, jusqu'au départ du
                   bâtiment.</p>
                <p>On comprend le motif de cette proscription des hommes de couleur dans les états du
-                  sud de <orgName ref="#UN">l'Union</orgName> : ces états, qui conservent
+                  sud de <placeName ref="#USA">l'Union</placeName> : ces états, qui conservent
                   l'esclavage, craignent pour ces populations, qu'ils tiennent enchaînées, le
                   contact et jusqu'à la présence des hommes libres de couleur ; mais ces précautions
                   d'une politique ombrageuse peuvent elles aller jusqu'à dépouiller momentanément un
@@ -1600,7 +1600,7 @@
                      seul particulier, ou bien dans lesquelles il ne voudrait pas risquer des sommes
                      qui pourraient compromettre toute sa fortune si elles venaient à échouer. Ainsi
                      dans l'Inde, c'est par le moyen des souscriptions par actions que l'on s'occupe
-                     d'établir une communication régulière entre <placeName>Bengale</placeName> et
+                     d'établir une communication régulière entre <placeName ref="#Bng">Bengale</placeName> et
                         <placeName ref="#EUR">l'Europe</placeName> par <placeName>l'isthme de
                         Suez</placeName>, à l'aide des <choice>
                         <orig>bâtimens</orig>
@@ -1649,7 +1649,7 @@
                      à gagner leur vie : leurs maîtres, en les recevant, se sont engagés à leur
                      enseigner. Une fois libres, ils ne seraient point à charge à la société, et
                      vivraient paisiblement de leur industrie. D'ailleurs s'ils
-                     méfont<!--terme vieilli-->, les lois répressives sont là pour eux comme pour
+                     méfont, les lois répressives sont là pour eux comme pour
                      les autres affranchis. Qu'on les livre donc immédiatement, au risque de faire
                      prendre à messieurs tels ou tels, des domestiques à gros gages."</p></q>
                <pb n="41"/>
