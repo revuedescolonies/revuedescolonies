@@ -56,7 +56,7 @@ const Layout = ({ location, appbar, children }: Props) => {
   const {repository, title, menuLinks} = data.site.siteMetadata
 
   let footer = <Footer repository={repository}/>
-  if (!(location?.includes("intro"))) {
+  if (location?.startsWith("RdC")) {
     footer = <EditionFooter repository={repository}>{footer}</EditionFooter>
   }
 

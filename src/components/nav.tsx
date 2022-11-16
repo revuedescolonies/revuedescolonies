@@ -69,7 +69,6 @@ const Nav = ({ location, menuLinks }: Props) => {
     <Container maxWidth="md" sx={styles.nav}>
       <Grid container={true} component="nav">
         {menuLinks.map(link => {
-          console.log(location, link.link)
           const active = {
             borderBottomColor: location === link.link || (isEdition && link.name == "edition")
               ? theme.palette.primary.main
