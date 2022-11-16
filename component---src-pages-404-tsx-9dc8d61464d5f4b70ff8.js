@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkse_microedition_template=self.webpackChunkse_microedition_template||[]).push([[218],{2224:function(e,t,n){n.r(t);var i=n(7453),o=n(3765),s=n(3431);t.default=function(){return(0,s.jsx)(i.Z,{location:"404"},(0,s.jsx)(o.Z,{title:"404: Not found"}),(0,s.jsx)("h1",null,"PAGE NOT FOUND"))}}}]);
+//# sourceMappingURL=component---src-pages-404-tsx-9dc8d61464d5f4b70ff8.js.map

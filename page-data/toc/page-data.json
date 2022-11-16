@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-pages-tsx",
+    "path": "/toc",
+    "result": {"data":{"site":{"siteMetadata":{"htmlTitle":"Selections from the <em>Revue des Colonies</em>"}},"markdownRemark":{"html":"<ul>\n<li><a href=\"RdCv1n1-en\">Volume 1, Number 1 (EN)</a></li>\n<li><a href=\"RdCv1n1-fr\">Volume 1, Number 1 (FR)</a></li>\n<li><a href=\"RdCv2n1-en\">Volume 2, Number 1 (EN)</a></li>\n<li><a href=\"RdCv2n1-fr\">Volume 2, Number 1 (FR)</a></li>\n<li><a href=\"RdCv5n6p13-en\">Volume 5, Number 6, Page 13 (EN)</a></li>\n<li><a href=\"RdCv5n6p13-fr\">Volume 5, Number 6, Page 13 (FR)</a></li>\n</ul>","frontmatter":{"title":"Edition","path":"/toc"}}},"pageContext":{"html":"<ul>\n<li><a href=\"RdCv1n1-en\">Volume 1, Number 1 (EN)</a></li>\n<li><a href=\"RdCv1n1-fr\">Volume 1, Number 1 (FR)</a></li>\n<li><a href=\"RdCv2n1-en\">Volume 2, Number 1 (EN)</a></li>\n<li><a href=\"RdCv2n1-fr\">Volume 2, Number 1 (FR)</a></li>\n<li><a href=\"RdCv5n6p13-en\">Volume 5, Number 6, Page 13 (EN)</a></li>\n<li><a href=\"RdCv5n6p13-fr\">Volume 5, Number 6, Page 13 (FR)</a></li>\n</ul>","lang":"fr"}},
+    "staticQueryHashes": ["3353843886","4138870136"]}

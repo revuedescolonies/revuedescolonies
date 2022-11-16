@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="RdCv2n1-fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Revue des Colonies V.2 N°1 (selection in original French)</title>
+            <editor>Maria Beliaeva Solomon</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+      <pb n="1" facs="v2n1p1"/>
+         <titlePage>
+            <titlePart type="main"><seg>REVUE</seg><lb/>DES<lb/><seg>COLONIES</seg></titlePart>
+            <titlePart type="sub">RECUEIL MENSUEL<lb/> DE LA POLITIQUE, DE L'ADMINISTRATION, DE
+               LA JUSTICE, DE L'INSTRUCTION ET DES MOEURS COLONIALES,</titlePart>
+            <byline>DIRIGÉ <lb/> <hi rend="bold">PAR</hi> <persName ref="#CB">C.-A. BISSETTE</persName>.</byline>
+            <docEdition>2e année — n.1 — Juillet.</docEdition>
+            <figure>
+               <graphic url="v2n1-vignette.jpg"/>
+               <figDesc rend="bold">Ne suis-je pas un homme et votre frère?....<ptr
+                     target="#n6D92"/></figDesc>
+            </figure>
+            <docImprint><pubPlace><settlement>PARIS</settlement>,<lb/> AU BUREAU DE LA REVUE DES COLONIES, <lb/> 28, RUE LOUIS-LE-GRAND</pubPlace>.<lb/> <date>1835</date>.</docImprint>
+         </titlePage>
+      </front>
+      <body>
+         <div>
+          <pb n="3" facs="v2n1p3"/>
+            <head>REVUE DES COLONIES</head>
+            <head>2e ANNÉE. JUILLET 1835. N° 1.</head>
+            <div>
+               <list>
+                  <item>De l'abolition de l'esclavage par la Convention nationale.</item>
+                  <item>— Projet de loi pour
+                  l'abolition de l'esclavage.</item>
+                  <item>— Enquête sur les colonies, Vote de la dernière loi sur
+                  les colonies.</item>
+                  <item>— Question électorale.</item>
+                  <item>— FRANCE. Chambre des députés. Discussion du budget de la
+                  marine et des colonies.</item>
+                  <item>— Du vote de la loi relative à la législation criminelle.</item>
+                  <item>Chambre des pairs.</item>
+                  <item>— Discussion sur la loi du crédit supplémentaire de 650,000
+                  francs accordé au ministre de la marine et des colonies.</item>
+                  <item>— Colonies étrangères.
+                  Bermudes. Barbade.</item>
+                  <item>—Nouvelles diverses.</item>
+                  <item>— Variétés.</item>
+                  <item>— Biographie.</item>
+                  <item>— Poésie.</item>
+                  <item>— Bibliographie.<ptr target="#n9D67"/></item>
+               </list>
+            </div>
+            <div xml:id="abolition">
+               <head>DE L'ABOLITION DE L'ESCLAVAGE PAR LA CONVENTION NATIONALE. — PROJET DE LOI DE LA
+                  REVUE DES COLONIES.</head>
+               <p> L'esclavage, qui tend à s'effacer complétement et sous toutes ses formes des
+                  sociétés humaines, et dont l'abolition par voie législative dans nos colonies ne
+                  saurait tarder beaucoup à s'accomplir, fut une fois déjà mis hors la loi, avec une
+                  admirable spontanéité, par la <orgName ref="#CN">Convention nationale</orgName>.
+                  La Convention nationale ne recula pas d'une heure cette juste réparation, et du
+                  moment que la question lui eut été soumise, elle la résolut sans désemparer dans
+                  le sens de la révolution et de l'esprit philosophique du dix-huitième siècle; pour
+                  mieux dire cela ne fit pas question pour elle. Dans les premières préoccupations
+                  de 89, on n'avait fait que songer un moment aux colonies. On avait été au plus
+                  pressé en appelant les hommes de couleur libres à la jouissance des droits de
+                  citoyen. Aux colonies mêmes, la question, bien que dominant comme aujourd'hui le
+                  fond des choses, fut tenue autant que possible hors de la discussion par une sorte
+                  d'appréhension et d'effroi vague de l'avenir.</p>
+               <p> Cependant la révolution française avait marché. Les idées nouvelles répandues par
+                  la presse, propagées par la parole, avaient traversé les mers<ptr target="#n5676"
+                  />; les Antilles françaises étaient elles aussi travaillées de l'esprit nouveau.
+                  En général pourtant, ce n'était guère qu'entre les blancs que s'étaient formés des
+                  partis. Aux colonies <pb n="4" facs="v2n1p4"/>comme en France il y avait des révolutionnaires,
+                  et des contre révolutionnaires, des partisans de la royauté et des partisans de la
+                  démocratie. Le drapeau tricolore était apparu aux uns comme un signe odieux, comme
+                  un signe glorieux aux autres; ceux-ci étaient les plus nombreux, ceux-là les plus
+                  riches. De là des divisions, des partis; une mésintelligence sourde entre ceux qui
+                  se cramponnaient désespérément aux <choice>
+                     <sic>priviléges</sic>
+                     <corr>privilèges</corr>
+                  </choice> du passé, et ceux que le souffle de la liberté nouvelle avait touchés en
+                  passant les mers. Le débat n'était encore qu'entre eux. De la libération des
+                  esclaves, pas un mot clair et net, comme si les droits de l'homme n'eussent pas
+                  été proclamés et que la Bastille n'eût pas été prise. De quelque nom que
+                  s'appelassent les colons, républicains ou royalistes, il n'en était point que la
+                  raison du siècle amenat à tirer des principes qu'ils réclamaient pour eux, une
+                  conclusion favorable à la liberté de l'autre race; la distinction de couleur
+                  subsistait, l'esclavage était l'arche sainte à laquelle nul ne songeait à
+                  toucher.</p>
+               <p>Cependant l'œuvre contre-révolutionnaire avançait, l'<placeName ref="#ANG"
+                     >England</placeName> alors à la tête du mouvement rétrograde nous attaquait
+                  partout dans les deux mers. Maîtresse de la <placeName ref="#MQ"
+                     >Martinique</placeName>, mal défendue par ses habitans, dont plusieurs, et des
+                  plus hauts placés, furent traîtres à la patrie (1)<ptr target="#n239B"/>,
+                  l'Angleterre avait vainement essayé de conquérir plusieurs autres points,
+                  notamment la <placeName ref="#GP">Guadeloupe</placeName> et <placeName ref="#HT"
+                     >Saint-Domingue</placeName>. Saint-Domingue toutefois était sérieusement
+                  menacée. A la première nouvelle du danger, la Convention nationale y envoya deux
+                  de ses membres pour y organiser la défense: ils n'y trouvèrent que la
+                  démoralisation.</p>
+               <p>Dans les plus périlleuses circonstances, les commissaires eurent recours à une
+                  grande mesure de salut public, toute conforme à la</p>
+               <p>
+                  <note>(1) M. le chevalier Dubuc, qui alors était à la tête du comité colonial à la
+                     Martinique, passa furtivement à l'île de la Dominique, d'où il s'embarqua pour
+                     l'Angleterre, et revint avec l'amiral anglais Gardener tenter la conquête de la
+                     Martinique. Cette expédition, qui fut repoussée avec désavantage, ne découragea
+                     pas M. Dubuc; il retourna en Angleterre, et parvint à déterminer le
+                     gouvernement Britannique à lui accorder, ainsi qu'à M. de Clairfontaine, député
+                     de la Guadeloupe, de nouvelles forces pour la conquête de la Guadeloupe et de
+                     la Martinique. Une escadre, sous les ordres de l'amiral Jervis, et une armée
+                     aux ordres du général Grey, s'emparèrent de la Martinique en 1794. La
+                     Guadeloupe tomba ainsi au pouvoir des Anglais, mais ils en furent chassés
+                     quarante jours après.</note></p>
+               <pb n="5" facs="v2n1p5"/>
+               <p>nature de leur mission et dont ils prirent sur eux toute la responsabilité: ils
+                  appelèrent à la liberté les esclaves. Les esclaves se portèrent en foule à la
+                  défense de la colonie, et dès lors les noirs furent acquis à la grande cause de la
+                  république française.</p>
+               <p> Sur ces entrefaites, se fit à Saint-Domingue une élection à la quelle prirent
+                  part toutes les classes de la population sans distinction de couleur. <persName
+                     ref="#Dfy">Dufahy</persName>, homme de courage et de cœur, qui avait montré
+                  dans l'administration de ses propriétés à Saint-Domingue une sympathie non
+                  équivoque pour la race opprimée, fut un des députés nommés en cette occasion.</p>
+               <p> A peine la Convention nationale eut-elle connaissance des actes de <persName
+                     ref="#Plv">Polverel</persName> et de <persName ref="#Stx">Sonthonax</persName>,
+                  ses commissaires, en ce qui concernait les esclaves, qu'<choice>
+                     <sic>elles</sic>
+                     <corr>elle</corr>
+                  </choice> les approuva; elle y reconnut son génie. Et sur l'heure, aux
+                  applaudissemens de l'immortelle assemblée, fut prononcé séance tenante, sur la
+                  demande de Dufahy, non-seulement l'affranchissement de la race noire tout entière,
+                  mais encore sa réintégration dans la grande famille nationale.<ptr target="#nA2CD"
+                  /></p>
+               <p> Ainsi se manifesta, au premier appel à l'égard des noirs, l'esprit de justice de
+                  la révolution française; et la réintégration des droits de l'homme entreprise par
+                  elle contre tous les obstacles, sembla un moment consommée pour toujours.</p>
+               <p> Ce fut au mois de février 1794 que la Convention nationale rendit le mémorable
+                  décret qui abolissait l'esclavage dans toute l'étendue des colonies françaises;
+                  décret qu'on devait croire à jamais irrévocable.</p>
+               <p> La République française n'eut qu'à se louer des effets de cette mesure, glorieuse
+                  entre toutes celles qu'elle prit dans l'intérêt de l'oeuvre de régénération à
+                  laquelle elle procédait d'un esprit si résolu et avec une si ferme volonté. La
+                  liberté s'établit par suite, de fait et de droit, dans celles de nos colonies dont
+                  l'Angleterre n'était pas parvenue à s'emparer.</p>
+               <p> L'affranchissement des noirs eut pour premier résultat de conserver à la France
+                  sa plus riche colonie, Saint-Domingue. Libres, les noirs de Saint-Domingue, qu'il
+                  eût été peu surprenant de trouver tout autres au sortir de l'avilissant esclavage,
+                  donnèrent d'éclatantes preuves de leur bonne volonté, et de leur aptitude à tous
+                  les genres de travaux. Sous ce régime régénérateur, la colonie s'organisa, les
+                  ateliers furent tous en activité, la culture devint<pb n="6" facs="v2n1p6"/> florissante. Cet
+                  état de choses dura, non sans progrès remarquables, jusqu'en 1802, époque où
+                     <persName ref="#NB">Napoléon</persName>, égaré par la fatalité de ses idées
+                  illibérales, tenta de rétablir l'esclavage là où la Convention nationale l'avait
+                  fait disparaitre. Il faut voir dans l'excellent ouvrage de M. Macaulay sur
+                     Haiti<ptr target="#n8414"/> les curieux détails de cette émancipation, en
+                  quelque sorte improvisée, de la race noire dans la plus considérable de nos
+                  possessions coloniales de cette époque. L'ouvrage de M. Macaulay est rempli
+                  non-seulement de faits ignorés sur la guerre de l'indépendance en <placeName ref="#HT">Haiti</placeName>, mais
+                  encore d'irrécusables témoignages contre les erreurs propagées avec la plus
+                  indigne mauvaise foi par les ennemis de la cause des noirs.</p>
+               <p> Il y prouve victorieusement que les plus grands désastres furent le résultat du
+                  retour à l'esclavage en 1802, entrepris hors de toute raison et de toute nécessité
+                  par le premier consul.</p>
+               <p> L'armée française, combattant pour une mauvaise cause, fut vaincue et périt. Les
+                  noirs demeurèrent maîtres du sol, et y jetèrent les <choice>
+                     <sic>fondemens</sic>
+                     <corr>fondements</corr>
+                  </choice> de l'état social dont ils jouissent aujourd'hui, état social fort
+                  supérieur à celui de beaucoup de nations européennes prétendues civilisées<ptr
+                     target="#n82F8"/>. Le problème du travail libre aux Antilles fut par là résolu,
+                  et aujourd'hui l'exemple des colonies anglaises émancipées a dû convaincre les
+                  plus stupides de la fausseté et de l'infamie des assertions des colons contre les
+                  noirs.</p>
+               <p> Ce qui fut décrété par la Convention nationale en 1794, pour les possessions
+                  françaises, établi par la force des choses à la suite des guerres de
+                  l'indépendance de Saint-Domingue, ce qui vient d'être organisé aux colonies
+                  anglaises, à savoir: l'affranchissement des noirs et le travail libre, nous le
+                  revendiquons aujourd'hui au meilleur des titres, au nom des principes et de la
+                  nécessité, et nous voulons l'établir par la raison et selon une loi de justice et
+                  de réparation, dans le plus bref délai<ptr target="#n411B"/>.</p>
+               <p> C'est pourquoi, voulant aider autant qu'il est en nous à l'accomplissement de
+                  l'oeuvre parlementaire et sociale que nous provoquons, nous avons cru devoir
+                  formuler et donner un projet de loi sur l'abolition de l'esclavage, telle qu'elle
+                  est dans nos voeux pour nos compatriotes, et conforme, croyons-nous, aux
+                  véritables principes qui doivent régir la matière<ptr target="#n1FC1"/>.</p>
+            </div>
+            <pb n="7" facs="v2n1p7"/>
+            <div xml:id="bill">
+               <head>PROJET DE LOI POUR L'ABOLITION DE L'ESCLAVAGE DANS LES COLONIES
+                  FRANCAISES.</head>
+               <p> Considérant que l'esclavage est contraire à toutes les lois divines et humaines;
+                  qu'il n'a pu être établi que par la violence, l'injustice et l'oubli du plus
+                  imprescriptible des droits de l'homme, celui de disposer de soi, de sa personne et
+                  de son travail selon sa volonté, autant que cette volonté ne nuit pas aux droits
+                  d'autrui, ce qu'il appartient à la loi seule de déterminer; considérant que
+                  l'esclavage est non seulement une usurpation de l'homme part l'homme, que la
+                  morale ne saurait tolérer plus long-temps, mais encore une source intarissable de
+                  malheurs, de troubles et d'embarras de toute nature pour les peuples chez lesquels
+                  il existe; que, d'ailleurs, l'expérience a suffisamment démontré que partourt où
+                  l'esclavage subsiste, le développement de la civilisation n'a pu avoir lieu que
+                  dans le sens matériel, et qu'il implique le mépris des vrais principes de la
+                  morale sociale;</p>
+               <p>Par toutes ces causes, etc.</p>
+               <p> ARTICLE PREMIER.<lb/> L'esclavage est aboli dans toutes les possessions
+                  françaises d'outre-mer.<lb/>Tous les <choice>
+                     <sic>habitans</sic>
+                     <corr>habitants</corr>
+                  </choice> des colonies françaises, sans distinction de couleur, sont déclarés
+                  libres et égaux en droits.<ptr target="#n0380"/></p>
+               <p>ART. 2.<lb/> Ils jouissent en conséquence de tous les droits de famille, civils et
+                  politiques, au même titre que les autres citoyens français, conformément à la
+                  loi.</p>
+               <p>ART. 3.<lb/> La nature et la quotité du salaire entre les cultivateurs et les
+                  propriétaires seront réglées par le gouvernement de la métropole.</p>
+               <p>ART. 4<lb/> Il sera créé, dans toutes les communes des différentes colonies
+                  françaises, des écoles gratuites pour l'instruction civile et religieuse des
+                  cultivateurs. Cette instruction sera obligatoire pour tous ceux qui n'auront point
+                  atteint l'âge de 21 ans.<ptr target="#n3F04"/></p>
+               <pb n="8" facs="v2n1p8"/>
+               <p>ART. 5.<lb/> Un code spécial dit code de culture réglera tout ce qui regarde les
+                  détails et l'exécution de la présente loi.</p>
+               <p>ART. 6.<lb/> Toutes les lois et ordonnances, tous les réglemens quelconques, qui
+                  ont rapport à l'esclavage, sont dès à présent et demeurent annules et abrogés.</p>
+               <p>Cette loi n'est qu'une loi de principes; et sous ce rapport elle nous semble
+                  établir, d'une manière nette et précise, les bases sur lesquelles devra porter le
+                  code réglementaire des colonies. Les six articles qui précèdent ne sont, en
+                  quelque sorte, que la charte sociale promulguée aux colonies par le gouvernement
+                  français. Si nous n'entrons pas dans l'examen des différentes questions que peut
+                  soulever l'établissement de ces nouveaux principes, nos lecteurs trouveront les
+                  motifs de ce silence dans l'article qui suit celui-ci, et qui a pour titre :
+                     <title>Enquête sur les colonies</title>.</p>
+               <p>Nous allons nous expliquer ici sur un seul poin t, celui de la dignité que les uns
+                  veulent accorder et que d'autres refusent aux propriétaires d'esclaves. Nous n'en
+                  avons rien dit dans la loi constitutive de l'état social des colonies, et voici
+                  pourquoi :</p>
+               <p>Entre le maître et l'esclave il ne peut pas être question d'indemnité<ptr
+                     target="#n3542"/>. Si l'on voulait absolument en établir une, ce serait le
+                  maître qui la devrait à l'esclave, pour réparation de la violence physique et
+                  morale qu'il a exercée contre lui<ptr target="#n678F"/>.</p>
+               <p>Le principe de l'indemnité ne peut être débattu qu'entre la société française et
+                  les propriétaires coloniaux. Prouvons que si la France accordait une indemnité, ce
+                  serait de sa part un pur acte de libéralité, dont, par conséquent, elle peut très
+                  bien s'abstenir.</p>
+               <p>La liberté ne se vend ni ne s'acquiert. Elle existe à tout jamais, partout et pour
+                  tous. On ne la perd pas plus sous le fouet d'un maître qu'on ne l'achète à beaux
+                  deniers comptans; et cette façon de l'acquérir porte plus d'atteinte à son
+                  principe que les violences matérielles qui la font perdre de fait, parce que
+                  celles-ci laissent le droit intact. Aussi le mot d'indemnité est-il celui que nous
+                  avons banni avec le plus de soin d'un projet de loi de principes sur l'abolition
+                  de l'esclavage<ptr target="#n49AF"/>.</p>
+               <pb n="9" facs="v2n1p9"/>
+               <p>Cette loi n'est donc point une dépossession, une expropriation, pour cause
+                  d'utilité publique; c'est au contraire la négation de l'état de propriété, auquel
+                  elle met fin. C'est le rétablissement du droit, une véritable restauration cette
+                  fois : sous ce rapport, l'indemnité serait immorale. Considérez-la sous le point
+                  de vue purement matériel; les colons demanderaient à la France une indemnité,
+                  fondée sur quoi? sur la perte réelle qu'ils éprouvent; que perdent-ils donc? le
+                  prix d'achat et le fruit du travail des esclaves? ni l'un ni l'autre; même dans
+                  l'hypothèse la plus favorable aux propriétaires d'esclaves, le prix d'achat doit
+                  être mis hors de la question pour le plus grand nombre, puisque la traite est
+                  abolie depuis <choice>
+                     <sic>long-temps</sic>
+                     <corr>longtemps</corr>
+                  </choice>, et qu'on serait mal fondé à venir se prévaloir de la violation de la
+                  loi en demandant justice. Du reste, le prix d'achat d'un esclave n'est autre chose
+                  qu'une espèce de droit d'importation payé afin de pouvoir tirer parti du travail
+                  de la <emph>denrée</emph> importée. Ce travail est le seul et unique profit des
+                  maîtres. Il ne faut pas compter l'industrie particulière de chaque esclave parce
+                  que sous ce régime elle s'exerce sur des objets de trop peu d'importance; qu'elle
+                  est trop restreinte; que l'intelligence, abrutie par la servitude, et l'ignorance
+                  qui en est la suite nécessaire, est sans force, sans aiguillon, sans <choice>
+                     <sic>élémens</sic>
+                     <corr>éléments</corr>
+                  </choice>, et que le petit pécule acquis par l'esclave lui est souvent abandonné
+                  par le maître<ptr target="#n90C0"/>. Mais disons en passant que cette industrie,
+                  outre les travaux de la campagne, sera certainement un des moyens de prospérité
+                  des colonies lorsqu'elle sera pratiquée par des mains libres et dirigée par des
+                  intelligences cultivées.</p>
+               <p> Le maître ne retire donc qu'un seul profit, soit de l'esclave qu'il achète, soit
+                  de celui qui naît sur ses domaines, le travail; et ce profit lui impose un assez
+                  grand nombre de dépenses: la nourriture, les <choice>
+                     <sic>vêtemens</sic>
+                     <corr>vêtements</corr>
+                  </choice>, les soins de toute espèce pour la conservation de ses esclaves.</p>
+               <p>Eh bien les colonies sont constituées de telle sorte que les maîtres, quels que
+                  soient leurs droits, ne pourront pas se dispenser de faire travailler la terre par
+                  leurs anciens esclaves, et que ceux-ci devenus libres, n'en seront pas moins
+                  cultivateurs. Le droit change, mais le fait ne changera point, le maître ne perd
+                  rien; ce que lui coûtait le travail de ses anciens esclaves sera remplacé par le
+                  salaire qu'il donnera à des cultivateurs. Qu'il ne vienne pas dire que l'esclave
+                  qu'on<pb n="10" facs="v2n1p10"/> soustrait à sa domination, lui a coûté 1500 et 2000 francs; car
+                  il a payé ce prix et d'autres dépenses pour profiter d'un travail qu'il obtiendra
+                  toujours de la volonté de l'ouvrier. Le salaire remplace un grand nombre de soins
+                  et de dépenses, et si, tout compté, il y a augmentation, c'est là le sort de
+                  toutes les industries modernes.</p>
+               <p>Qui ne voit maintenant qu'en indemnisant les anciens propriétaires, l'état
+                  emploierait 200 millions à réparer un mal chimérique. Nous avons voulu laisser un
+                  moment les principes de côté, mais quand il serait vrai que la dépossession du
+                  maître fût pour lui une perte matérielle d'argent, cela ne lui donnerait pas plus
+                  de droit à être indemnisé; car il n'y a <emph>pas de droit contre le
+                  droit</emph>.</p>
+               <p>On objectera à ceci ce qu'un délégué a déjà dit à la tribune: «Les noirs devenus
+                  libres ne travailleront plus, les propriétaires perdront, les noirs n'y gagneront
+                  rien, les colonies périront; tout cela sans avantage pour personne.” Erreur! les
+                  sociétés ne périssent point; elles se transforment; les noirs travailleront comme
+                  cultivateurs et pour deux raisons: pour ne pas mourir de faim eux-mêmes, et dans
+                  l'espoir d'avoir aussi un coin de terre. Ils travailleront mieux qu'auparavant, et
+                  leur culture, améliorée dans l'intérêt des propriétaires, permettra aux
+                  cultivateurs et ouvriers d'exercer avec succès l'activité de leur imagination
+                  industrielle. Observez d'ailleurs que dans tout ce qui a rapport aux colonies,
+                  nous demandons toujours un arbitre, la France. Nous ne concevons rien sans ce
+                  pouvoir modérateur; car enfin nous ne contestons pas les difficultés que peut
+                  présenter la transition de l'ancien au nouvel état produit par l'abolition de
+                  l'esclavage; mais ce n'est pas une raison pour ajourner indéfiniment la
+                     question<ptr target="#n435A"/>.</p>
+               <p>Avec l'aide du gouvernement français, les colonies peuvent se réformer et vivre
+                  sans dommage pour aucune portion de leurs habitans. Sans cette intervention, elles
+                  ne périront point sans doute, en tant que sociétés humaines, mais elles périront
+                  comme sociétés européennes. Il viendrait un jour où commencerait une lutte
+                  inévitable, terrible, et où la force déciderait du droit. Il ne faut pas croire,
+                  en fermant les yeux, faire disparaître ce qui choque les regards, et que les faits
+                  cessent d'exister par cela seul qu'on n'en parle point. La race intermédiaire des
+                  colonies est le lien nécessaire entre l'ancien et le nouvel ordre, la clé de voûte
+                  du nouvel édifice social<ptr target="#nA4C7"/>. Construire sur une base légale,
+                  réformer sans vio<pb n="11" facs="v2n1p11"/>lence, réparer sans dommage, tel est notre but. Il
+                  peut être accompli sous le patronage de la France, disons plus, il ne peut être
+                  accompli qu'avec l'aide de la France.</p>
+            </div>
+         </div>
+      </body>
+      <back>
+         <xi:include href="RdCv2n1-notes.xml"/>
+         <xi:include href="entities.xml"/>
+      </back>
+   </text>
+</TEI>

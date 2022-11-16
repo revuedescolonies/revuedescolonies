@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Affaire de la Grand'anse</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Revue des colonies</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information  about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div> 
+           <head>Affaire de la grand'anse</head>
+<p>Pendant que le parquet de <placeName>la Martinique</placeName> enfante laborieusement ce qu'il appelle <rs type="event"><emph>l'insurrection de la Grand'Anse</emph></rs>, l'attention du gouvernement métropolitain est appelée sur ces déplorables 
+<choice>
+   <orig>événemens</orig>
+   <reg>événements</reg>
+</choice>
+par la plainte des principales victimes adressée au <choice>
+   <orig>conseil d'état</orig>
+   <corr>conseil d'État</corr>
+</choice>
+. Les 
+<choice>
+   <orig>plaignans</orig>
+   <reg>plaignants</reg>
+</choice>
+sont, entre autres, les héritiers de l'infortuné <persName><emph>Lorville</emph></persName>, qui tomba percé de sept balles sous une décharge de mousqueterie commandée pour arrêter sa fuite; les héritiers de <persName><emph>Fréjus</emph></persName>, laissé pour mort sous les coups d'un <persName>Lasserre</persName> et depuis décédé par suite des violences exercées contre lui; les héritiers de <persName><emph>Maurice</emph></persName><pb n="13" />tué avec sa femme, et sa fille assassinée par une fusillade exécutée sur eux à travers leur case; <persName><emph>Joseph Albert</emph></persName>, déporté de <date>1823</date>, blessé dans cette autre fusillade exécutée sur les prisonniers de <placeName>la purgerie Bonafon</placeName>, à travers le grillage des fenêtres, etc., etc.</p>
+<p>Certes de pareilles victimes, immolées non dans un conflit, non dans une lutte armée entre l'autorité et telle ou telle partie de la population, mais assassinées dans leur prison, dans leur domicile après s'être rendues à discrétion sur la foi de fallacieuses promesses; de pareilles victimes élevant la voix vers la mère-patrie semblaient mériter quelque intérêt de la part du ministère.</p>
+<p>De quelle douloureuse indignation ne seront pas saisis nos concitoyens des colonies lorsqu'ils sauront l'accueil fait par <persName ref="#GVD"><roleName>M. le ministre</roleName> de la marine</persName>, à la requête au <persName ref="#LP"><roleName>roi</roleName></persName> en son conseil, pour avoir autorisation de poursuivre les auteurs ou fauteurs de ces saturnales d'arbitraire et de sang! <persName ref="#GVD"><roleName>Ce ministre</roleName></persName>, à qui la requête a été communiquée, selon l'usage, se borne à ces courtes et dédaigneuses observations: <q>Je ne discuterai pas, dit-il, les faits, parce que la plupart des  
+<choice>
+   <orig>plaignans</orig>
+   <reg>plaignants</reg>
+</choice>
+sont compris dans le procès qui s'instruit à <placeName>la Martinique</placeName></q>. <title><emph>Le Moniteur</emph></title> du <date>17 mars</date> a d'ailleurs donné une <emph>relation émanée du <persName ref="#EH"><roleName>gouverneur</roleName></persName></emph> (c'est-à-dire de celui que les 
+<choice>
+   <orig>plaignans</orig>
+   <reg>plaignants</reg>
+</choice>
+ accusent) qui ne peut entrer en parallèle, sous le rapport de la confiance qui lui est due, avec le récit d'individus compromis dans l'accusation. »</p>
+<p>Puis, sortant bientôt lui-même de son respect affecté pour la position des accusés, <persName ref="#GVD"> <roleName> M. le ministre </roleName></persName> termine sa lettre en les traitant de <emph>factieux</emph>, ressassant par des phrases banales et de commande ces lieux communs à l'ordre du jour : « Qu'il y aurait danger à accueillir leurs <emph>récriminations</emph> à une époque où tant et de si coupables tentatives sont dirigées contre la tranquillité publique. Tel est l'avis du département de la marine sur le recours des 
+<choice>
+   <orig>plaignans</orig>
+   <reg>plaignants</reg>
+</choice>
+ au
+ <choice>
+   <orig>conseil-d'état</orig>
+   <reg>conseil-d'État</reg>
+</choice>. 
+Nous aimons à croire que cette haute juridiction suivra des inspirations plus généreuses, plus équitables, plus amies de l'humanité.</p>
+<p>Oui, sans doute, quelques-uns des 
+<choice>
+   <orig>plaignans</orig>
+   <reg>plaignants</reg>
+</choice>
+, c'est-à-dire trois, et non la plupart, sont destinés à figurer dans le triste procès dont on donne à l'heure qu'il est le spectacle à <placeName>la Martinique </placeName>; mais les autres, mais ceux qui sont morts désarmés, prisonniers, sous les balles des soldats, ceux-là n'iront pas aux assises. Comment op<pb n="14" />pose-t-on de sang-froid à leurs femmes et à leurs 
+<choice>
+   <orig>enfans</orig>
+   <reg>enfants</reg>
+</choice> 
+qui se plaignent, ce cruel déni de justice. Quel que soit d'ailleurs le résultat du procès, quand il devrait justifier l'existence du prétendu complot, pourra-t-il justifier jamais le gouvernement local du massacre de conspirateurs dont on s'était rendu maître, qu'on avait désarmés et qu'on tenait prisonniers, gardés à vue, investis de tous côtés par la force publique? pourra-t-il absoudre les autorités locales d'avoir laissé tomber ces malheureuses victimes sous un plomb meurtrier. </p>
+<p>On connaît aujourd'hui en <placeName><country>France</country></placeName> la procédure instruire à raison des 
+<choice>
+   <orig>événemens</orig>
+   <reg>événements</reg>
+</choice>
+de <placeName>la Grand'Anse</placeName>. Nous avons sous les yeux un exemplaire imprimé de l'arrêt de renvoi devant les assises, rendu par la chambre des mises en accusation, contre 117 prévenus. Cette pièce constate ce que nous venons d'avancer, que trois seulement de ceux qui ont adressé requête au  <choice>
+   <orig>conseil d'état</orig>
+   <corr>conseil-d'État</corr>
+</choice>
+ sont renvoyés aux assises de <placeName>Saint-Pierre</placeName>. Cet arrêt constate en outre authentiquement les faits énoncés dans la requête, et que <persName ref="#GVD"><roleName>M. le ministre de la marine</roleName></persName> dédaigne de discuter, notamment <emph>la fusillade exécutée par l'ordre exprès du capitaine commandant sur <persName>Lorville</persName> et deux autres prisonniers fuyant avec lui</emph>(pages 51 et 55 de l'arrêt de mise en accusation). Quant au massacre de <persName>la famille <emph>Maurice</emph></persName>, il est avoué, bien qu'un peu dénaturé par ce même <bibl type="journal"><title ref="#LM">Moniteur</title> </bibl> du <date>17 mars</date> dont la sincérité paraît moins douteuse que celle des 
+ <choice>
+   <orig>plaignans</orig>
+   <reg>plaignants</reg>
+</choice>
+, mais duquel néanmoins <roleName>M. le ministre</roleName> a retranché certains passages du rapport officiel du <persName ref="#EH"><roleName>gouverneur</roleName></persName> par trop maladroits. Des faits aussi incontestables sont-ils indignes de la sollicitude du gouvernement? ne méritent-ils pas examen, enquête, discussion contradictoire avec <persName ref="#GVD"><roleName>M. le ministre</roleName></persName>? Il en est une foule d'autres spécifiés également dans la requête, tous ceux qui dénoncent pour la centième fois à la métropole l'oppression systématique des classes de couleur, les provocations journalières dirigées contre elles, la dénégation persévérante de tous leurs droits au mépris des lois qui les leur accordent, tous ceux enfin qui donnent aux 
+<choice>
+   <orig>événemens</orig>
+   <reg>événements</reg>
+</choice>
+de <placeName>la Grand'Anse</placeName> une véritable couleur. Mais qu'importe! tous ces faits de haute importance politique et sociale seront omis, dissimulés, déniés au besoin, et dans tous les cas excusés. Ce qu'on montrera aux colonies, à <placeName><country>la France </country></placeName>, dans les relations officielles et authentiques, comme on sait, du <title><emph>Moniteur</emph></title>, ce sera <emph>cent dix- <pb n="15"/>sept conspirateurs</emph>comparaissant sous le poids d'une accusation de 300 pages, accusés tous de complot, car il en faut bien un au gouvernement de <placeName>la Martinique</placeName>; puis prévenus chacun en particulier d'avoir <emph>pillé</emph> deux pots de tafia et deux pots de rhum chez <placeName><emph>Seguinot </emph></placeName>; ou chez <placeName><emph>Desmadrelles</emph></placeName>, du savon, de la chandelle, une étrille de cheval; ou chez <placeName><emph>Lereynerie</emph></placeName>, une bouteille de genièvre (pages 85 et 86 d'arrêt de renvoi). Et tout cela imprimé par le gouvernement de la colonie à 200 pages, intitulé pompeusement, par le plus ignorant des magistrats,<rs type="event"><emph>Insurrection de la Grand' Anse</emph></rs>.</p>
+<p>Et la conspiration permanente contre les droits et la sécurité personnelle de la population de couleur! l'insurrection permanente des blancs contre les lois de la métropole chaque jour audacieusement souffletées par ces <emph>colons du nord</emph> de la colonie, tristement fameux par la proscription en masse de <date>1823</date>, par leur déclaration au gouvernement qu'ils ne reconnaîtraient jamais pour leurs égaux des hommes de couleur! Que fait-on de ces complots chaque jour 
+<choice>
+   <orig>renaissans</orig>
+   <reg>renaissant</reg>
+</choice>
+, toujours impunis </p>
+<p>Malheureuses colonies! votre sort sera-t-il <sic>long-temps</sic> encore de montrer inutilement vos plaies à la mère-patrie sans que nos incrédules 
+<choice>
+   <orig>gouvernans</orig>
+   <reg>gouvernants</reg>
+</choice> 
+daignent au moins les sonder de leur doigt!</p>
+
+           <p><ref target="google.com">google.com</ref></p>
+         </div>
+      </body>
+  </text>
+</TEI>

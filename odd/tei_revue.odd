@@ -1,0 +1,206 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Revue des Colonies</title>
+        <author>Raff Viglianti</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>TEI Consortium</publisher>
+        <availability status="free">
+          <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under a
+            Creative Commons Attribution-ShareAlike 3.0 Unported License </licence>
+          <licence target="http://www.opensource.org/licenses/BSD-2-Clause">
+            <p>Copyright 2013 TEI Consortium.</p>
+            <p>All rights reserved.</p>
+            <p>Redistribution and use in source and binary forms, with or without modification, are
+              permitted provided that the following conditions are met:</p>
+            <list>
+              <item>Redistributions of source code must retain the above copyright notice, this list
+                of conditions and the following disclaimer.</item>
+              <item>Redistributions in binary form must reproduce the above copyright notice, this
+                list of conditions and the following disclaimer in the documentation and/or other
+                materials provided with the distribution.</item>
+            </list>
+            <p>This software is provided by the copyright holders and contributors "as is" and any
+              express or implied warranties, including, but not limited to, the implied warranties
+              of merchantability and fitness for a particular purpose are disclaimed. In no event
+              shall the copyright holder or contributors be liable for any direct, indirect,
+              incidental, special, exemplary, or consequential damages (including, but not limited
+              to, procurement of substitute goods or services; loss of use, data, or profits; or
+              business interruption) however caused and on any theory of liability, whether in
+              contract, strict liability, or tort (including negligence or otherwise) arising in any
+              way out of the use of this software, even if advised of the possibility of such
+              damage.</p>
+          </licence>
+          <p>TEI material can be licensed differently depending on the use you intend to make of it.
+            Hence it is made available under both the CC+BY and BSD-2 licences. The CC+BY licence is
+            generally appropriate for usages which treat TEI content as data or documentation. The
+            BSD-2 licence is generally appropriate for usage of TEI content in a software
+            environment. For further information or clarification, please contact the <ref target="mailto:info@tei-c.org">TEI Consortium</ref>. </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Created from scratch by James Cummings, but looking at previous tei_minimal and tei_bare
+          exemplars by SPQR and LR.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>A Minimal TEI Customization</head>
+
+      <p>This TEI ODD defines a TEI customization that is as minimal as possible and the schema
+        generated from it will validate a document that is minimally valid against the TEI scheme.
+        It includes only the ten required elements: <list rend="numbered">
+          <item><gi>teiHeader</gi> from the header module to store required metadata</item>
+          <item><gi>fileDesc</gi> from the header module to record information about this
+            file</item>
+          <item><gi>titleStmt</gi> from the header module to record information about the
+            title</item>
+          <item><gi>publicationStmt</gi> from the header module to detail how it is published</item>
+          <item><gi>sourceDesc</gi> from the header module to record where it is from</item>
+          <item><gi>p</gi> from the core module for use in the header and the body</item>
+          <item><gi>title</gi> from the core module for use in the titleStmt</item>
+          <item><gi>TEI</gi> from the textstructure module because what is a TEI file without
+            that?</item>
+          <item><gi>text</gi> from the textstructure module to hold some text</item>
+          <item><gi>body</gi> from the textstructure module as a place to put that text</item>
+        </list>
+      </p>
+      <schemaSpec ident="tei_revue" start="TEI noteGrp div" prefix="tei_" targetLang="en" docLang="en">
+
+        <!-- required minimal header elements -->
+        <moduleRef key="namesdates"/>
+        <moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt sourceDesc"/>
+
+        <!-- required core elements (p and title for use in titleStmt) -->
+        <moduleRef key="core" include="p title abbr add addrLine address analytic author bibl biblScope biblStruct binaryObject cb choice cit citedRange corr date del desc distinct editor ellipsis email emph expan foreign gap gb gloss graphic head headItem headLabel hi imprint index item l label lb lg list listBibl measure measureGrp media meeting mentioned milestone monogr name note noteGrp num orig pb postBox postCode ptr pubPlace publisher q quote rb ref reg relatedItem resp respStmt rs rt ruby said series sic soCalled sp speaker stage street teiCorpus term textLang time unclear unit"/>
+
+        <!-- required textstructure elements (TEI, text, and body) -->
+        <moduleRef key="textstructure" include="TEI text body argument back byline closer dateline div docAuthor docDate docEdition docImprint docTitle epigraph floatingText front group imprimatur opener postscript salute signed titlePage titlePart trailer"/>
+
+        <!-- required module tei instantiates lots of classes used for further expansion of this odd -->
+        <moduleRef key="tei"/>
+
+
+        <moduleRef key="linking" include="seg standOff"/>
+        <elementSpec ident="gap" mode="change">
+          <attList>
+            <attDef ident="reason" mode="change">
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="accidental"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <classRef key="att.global.facs"/>
+        <elementSpec ident="orgName" mode="change">
+          <attList>
+            <attDef ident="ref" mode="change">
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="#SHC"/>
+                <valItem mode="add" ident="#GN"/>
+                <valItem mode="add" ident="#AN"/>
+                <valItem mode="add" ident="#AC"/>
+                
+                <valItem mode="add" ident="#PB"/>
+              <valItem mode="add" ident="#SAE"/></valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <moduleRef key="transcr" include="supplied"/>
+        <elementSpec ident="bibl" mode="change">
+          <attList>
+            <attDef ident="type" mode="change">
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="monogr"/>
+                <valItem mode="add" ident="periodical"/>
+                <valItem mode="add" ident="legal"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="persName" mode="change">
+          <attList>
+            <attDef ident="ref" mode="change">
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="#CB"/>
+                <valItem mode="add" ident="#GVD"/>
+                <valItem mode="add" ident="#LP"/>
+                <valItem mode="add" ident="#EH"/>
+                <valItem mode="add" ident="#AA"/>
+                <valItem mode="add" ident="#ALG"/>
+                <valItem mode="add" ident="#EP"/>
+                <valItem mode="add" ident="#SB"/>
+                <valItem mode="add" ident="#JP"/>
+                <valItem mode="add" ident="#JPB"/>
+                <valItem mode="add" ident="#CO"/>
+                <valItem mode="add" ident="#CH"/>
+                <valItem mode="add" ident="#GL"/>
+                <valItem mode="add" ident="#RO"/>
+                <valItem mode="add" ident="#LE"/>
+                <valItem mode="add" ident="#GA"/>
+                <valItem mode="add" ident="#AC"/>
+                <valItem mode="add" ident="#JFB"/>
+                <valItem mode="add" ident="#NB"/>
+              <valItem mode="add" ident="#ML"/><valItem mode="add" ident="#HG"/><valItem mode="add" ident="#JN"/><valItem mode="add" ident="#TO"/><valItem mode="add" ident="#TC"/><valItem mode="add" ident="#LX"/><valItem mode="add" ident="#VT"/><valItem mode="add" ident="#LdV"/><valItem mode="add" ident="#ES"/><valItem mode="add" ident="#AD"/><valItem mode="add" ident="#FI"/><valItem mode="add" ident="#GdL"/><valItem mode="add" ident="#D"/><valItem mode="add" ident="#Cé"/><valItem mode="add" ident="#Ca"/><valItem mode="add" ident="#Li"/><valItem mode="add" ident="#Au"/><valItem mode="add" ident="#Ci"/><valItem mode="add" ident="#JHD"/><valItem mode="add" ident="#EL"/><valItem mode="add" ident="#SA"/><valItem mode="add" ident="#CA"/><valItem mode="add" ident="#AB"/><valItem mode="add" ident="#ADp"/><valItem mode="add" ident="#Equ"/></valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="placeName" mode="change">
+          <attList>
+            <attDef ident="ref" mode="change">
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="#FR"/>
+                <valItem mode="add" ident="#Par"/>
+                <valItem mode="add" ident="#EUR"/>
+                <valItem mode="add" ident="#GP"/>
+                <valItem mode="add" ident="#MQ"/>
+                <valItem mode="add" ident="#BrB"/>
+                <valItem mode="add" ident="#Cay"/>
+                <valItem mode="add" ident="#Alg"/>
+                <valItem mode="add" ident="#DOM"/>
+                <valItem mode="add" ident="#STL"/>
+                <valItem mode="add" ident="#CUB"/>
+                
+                <valItem mode="add" ident="#Che"/>
+                <valItem mode="add" ident="#GEO"/>
+                <valItem mode="add" ident="#Sav"/>
+                <valItem mode="add" ident="#Dar"/>
+                <valItem mode="add" ident="#StM"/>
+                <valItem mode="add" ident="#SaY"/>
+                <valItem mode="add" ident="#Bor"/>
+                <valItem mode="add" ident="#JA"/>
+                <valItem mode="add" ident="#Ha"/>
+                <valItem mode="add" ident="#AM"/>
+                <valItem mode="add" ident="#Cha"/>
+              <valItem mode="add" ident="#GF"/><valItem mode="add" ident="#HT"/><valItem mode="add" ident="#Nan"/><valItem mode="add" ident="#ANG"/><valItem mode="add" ident="#Vi"/><valItem mode="add" ident="#AN"/><valItem mode="add" ident="#GdA"/><valItem mode="add" ident="#GdM"/><valItem mode="add" ident="#IDV"/><valItem mode="add" ident="#ISV"/><valItem mode="add" ident="#ME"/><valItem mode="add" ident="#PlB"/><valItem mode="add" ident="#CGR"/><valItem mode="add" ident="#USA"/><valItem mode="add" ident="#Esk"/><valItem mode="add" ident="#BEN"/></valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="title" mode="change">
+          <attList>
+            <attDef ident="ref" mode="change">
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="#LT"/>
+                <valItem mode="add" ident="#MU"/>
+              <valItem mode="add" ident="#DDH"/><valItem mode="add" ident="#C30"/><valItem mode="add" ident="#RdC"/><valItem mode="add" ident="#CN"/><valItem mode="add" ident="#Ab"/><valItem mode="add" ident="#RC"/></valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="rs" mode="change">
+          <attList>
+            <attDef ident="type" mode="change">
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="affaire"/>
+                <valItem mode="add" ident="event"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <moduleRef key="figures" include="figure figDesc"/>
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

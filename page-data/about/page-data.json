@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-pages-tsx",
+    "path": "/about",
+    "result": {"data":{"site":{"siteMetadata":{"htmlTitle":"Selections from the <em>Revue des Colonies</em>"}},"markdownRemark":{"html":"<p>The edition ...</p>","frontmatter":{"title":"About","path":"/about"}}},"pageContext":{"html":"<p>The edition ...</p>","lang":"fr"}},
+    "staticQueryHashes": ["3353843886","4138870136"]}

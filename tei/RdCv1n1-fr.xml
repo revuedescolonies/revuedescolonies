@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="RdCv1n1-fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Revue des Colonies V.1 N°1 (selection in original French)</title>
+                <editor>Maria Beliaeva Solomon</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb n="1" facs="v1n1p1"/>
+            <titlePage>
+                <titlePart type="main"><seg>REVUE</seg><lb/>DES<lb/><seg>COLONIES,</seg></titlePart>
+                <titlePart type="sub">RECUEIL MENSUEL<ptr target="#n13FA"/><lb/> DE LA
+                    POLITIQUE, DE L'ADMINISTRATION, DE LA JUSTICE, DE L'INSTRUCTION ET DES MOEURS
+                    COLONIALES,</titlePart>
+                <byline>PAR UNE <orgName ref="#SHC">SOCIÉTÉ D'HOMMES DE COULEUR</orgName>,</byline>
+                <byline>DIRIGÉE PAR <persName ref="#CB">C.-A. BISSETTE</persName>.</byline>
+                <docEdition>N°1<lb/>Juillet.</docEdition>
+                <docImprint><pubPlace><settlement>PARIS</settlement>,<lb/> AU BUREAU DE LA REVUE DES COLONIES,
+                <lb/>46, RUE NEUVE-SAINT-EUSTACHE</pubPlace> <lb/> <date>1834</date>.</docImprint>
+            </titlePage>
+        </front>
+        <body>
+            <div>
+                <pb n="3" facs="v1n1p3"/>
+                <head><seg>REVUE</seg><lb/>DES <lb/><seg>COLONIES</seg></head>
+                <div xml:id="prospectus">
+                    <head rend="bold">Prospectus.</head>
+                    <p> Les colonies en général ne connaissent encore que la théorie des grands
+                        principes de philantropie; de la liberté en action, point. </p>
+                    <p> Les classes souffrantes et opprimées réclament et combattent sans cesse,
+                        toujours sans succès. Pour stimuler cette volonté molle de faire le bien, à
+                        laquelle se bornent nos <choice>
+                            <sic>gouvernans</sic>
+                            <corr>gouvernants</corr>
+                        </choice>, il est nécessaire de grouper en faisceau les réclamations justes
+                        qui s'élèvent de toutes parts. Ces réclamations, ces griefs, pour avoir du
+                        succès, doivent recevoir la plus grande publicité : c'est l'objet de notre
+                            <bibl type="periodical"><title ref="#RdC">Revue</title></bibl>
+                    </p>
+                    <p> La tribune ne peut plus suffire <emph>aujourd'hui</emph>; les pétitions sont
+                        ajournées par la négligence calculée des rapporteurs ou repoussées par d'<choice>
+                            <sic>insolens</sic>
+                            <corr>insolents</corr>
+                        </choice> ordres du jour. D'un autre côté, les prescriptions des ministres
+                        sont savamment éludées par les autorités coloniales, toujours bien disposées
+                        en faveur des privilégiés. A cette tactique jusqu'à ce jour triomphante, des
+                        partisans de l'aristocratie et du <choice>
+                            <sic>privilége</sic>
+                            <corr>privilège</corr>
+                        </choice>, il faut enfin opposer la puissance de l'opinion publique éclairée
+                        par une discussion toujours sage, toujours vraie, mais énergique et jamais
+                        timide, des causes, quelles qu'elles soient, qui entravent la fusion
+                        désirable des populations diverses des colonies<ptr target="#n4F2A"/>. </p>
+                    <p> A cet effet, un journal spécial est créé sous le titre de <bibl
+                            type="periodical"><title ref="#RdC"> Revue des Colonies</title></bibl>,
+                        et <persName ref="#CB">M. Bissette</persName> en a la direction. </p>
+                    <pb n="4" facs="v1n1p4"/>
+                    <p> Ce journal n'est pas seulement consacré à tout ce qui concerne les colonies,
+                        considérées comme source de nouvelles et de faits curieux propres à amuser
+                        les loisirs du lecteur, mais il se voue en entier aux intérêts politiques,
+                        intellectuels, moraux et industriels des colons de l'une et l'autre
+                            couleur<ptr target="#n6CEA"/>. </p>
+                    <p> Rien de ce qui concerne les colonies françaises particulièrement ne sera
+                        omis dans cette publication mensuelle. Le gouvernement, l'administration, la
+                        justice y seront examinés sous le double rapport de leurs actes et de leur
+                        personnel; car de celui-ci dépend trop souvent l'esprit et la tendance qui
+                        oppriment les populations ou préparent leur bien-être. </p>
+                    <p> Les droits civils, politiques et sociaux des deux classes libres, qui,
+                        jusqu'à présent divisées, devraient être unies, y seront développés et
+                        soutenus avec un zèle infatigable. </p>
+                    <p> La grande question de l'abolition de l'esclavage, pierre fondamentale de la
+                        liberté, y sera traitée avec le soin le plus consciencieux et l'amour le
+                        plus ardent de l'égalité et du bien général<ptr target="#n79DB"/>. </p>
+                    <p> L'arbitraire, la partialité y seront traduits sans aucune acception de
+                        personnes devant le tribunal de l'opinion publique. Le faible y trouvera
+                        appui et protection, l'oppresseur, châtiment, le fonctionnaire, bláme mérité
+                        de ses actes illégaux, mais respect pour sa personne. </p>
+                    <p> La <title>Revue des Colonies</title> s'occupera aussi de tous les <choice>
+                            <sic>changemens</sic>
+                            <corr>changements</corr>
+                        </choice> opérés ou projetés dans la législation qui régit les colonies
+                        étrangères et qui doivent réagir d'une manière puissante sur les nôtres<ptr
+                            target="#n5699"/>. </p>
+                    <p> Les intérêts nationaux, par rapport à la possession
+                            d'<placeName ref="#Alg">Alger</placeName>, trouveront dans la <title>Revue des
+                            Colonies</title> un organe dévoué et indépendant<ptr target="#n6ED7"/>. </p>
+                    <p> Des <choice>
+                            <sic>correspondans</sic>
+                            <corr>correspondants</corr>
+                        </choice> nombreux et instruits assurent aux lecteurs autant de variété que
+                        de savoir dans les articles de la <title>Revue des Colonies.</title>
+                    </p>
+                </div>
+                <pb/>
+                <div xml:id="declaration">
+                    <pb n="5" facs="v1n1p5"/>
+                    <head>DÉCLARATION DE PRINCIPES.</head>
+                    <p> La <title>Revue des Colonies</title> croit devoir, avant tout, indiquer
+                        d'après quels principes elle jugera les hommes et les choses.<ptr
+                            target="#n6ED7"/> Selon elle, 89, dans l'immortelle <bibl type="legal"
+                                ><title ref="#DDH">Déclaration des Droits</title></bibl> que vota
+                            <orgName ref="#AN">l'Assemblée Nationale</orgName>, posa les bases à
+                        venir de toutes les institutions vraiment démocratiques; c'est pourquoi nous
+                        inscrivons cette <title>Déclaration</title> en tête de ce recueil : ce sont
+                        là les tables de notre loi. </p>
+                    <epigraph>
+                        <cit>
+                            <quote>Les Droits de l'Homme étaient méconnus, insultés depuis des
+                                siècles; ils ont été rétablis pour l'humanité entière dans cette
+                                    <title>Déclaration</title>, qui sera à jamais le cri de
+                                ralliement contre les oppresseurs, et la loi des légis lateurs
+                                eux-mêmes. </quote>
+                            <bibl type="legal">(Adresse de<orgName> l'Assemblée Nationale</orgName>
+                                aux Français, 11 février 1790.)</bibl>
+                        </cit>
+                    </epigraph>
+                </div>
+                <div>
+                    <floatingText>
+                        <body>
+                            <div>
+                                <head rend="bold">Extrait</head>
+                                <head>DES PROCES-VERBAUX DE <orgName>L'ASSEMBLÉE NATIONALE</orgName>
+                                    DES 20, 21, 22, 23, 24, 26 AOUT ET 1er OCTOBRE 1789.</head>
+                                <head>DÉCLARATION DES DROITS DE L'HOMME EN SOCIÉTÉ<ptr
+                                        target="#n7767"/>.</head>
+                                <p> Les <choice>
+                                        <sic>représentans</sic>
+                                        <corr>représentants</corr>
+                                    </choice> du peuple français, constitués en <orgName>Assemblée
+                                        Nationale</orgName>, considérant que l'ignorance, l'oubli ou
+                                    le mépris des droits de l'homme sont les seules causes des
+                                    malheurs publics et de la corruption des <choice>
+                                        <sic>gouvernemens</sic>
+                                        <corr>gouvernements</corr>
+                                    </choice>, ont résolu d'exposer dans une déclaration solennelle
+                                    les droits naturels, inaliénables et sacrés de l'homme, afin que
+                                    cette déclaration, constamment présente à tous les membres du
+                                    corps social, leur rappelle sans cesse leurs droits et leurs
+                                    devoirs, afin que les actes du pouvoir législatif et ceux du
+                                    pouvoir exécutif, pouvant être à chaque instant comparés avec le
+                                    but de toute institution politique, en soient plus respectés;
+                                    afin que les réclamations des citoyens, fondées désormais sur
+                                    des principes simples et incontestables, tournent toujours au
+                                    maintien de la constitution et au bonheur de tous. </p>
+                                <pb n="6" facs="v1n1p6"/>
+                                <p> En conséquence, <orgName>l'Assemblée Nationale</orgName>
+                                    reconnaît et déclare, en présence et sous les auspices de
+                                    l'Etre-Suprême, les droits <choice>
+                                        <sic>suivans</sic>
+                                        <corr>suivants</corr>
+                                    </choice> de l'homme et du citoyen. </p>
+                                <p xml:id="art1"> Article 1er.- Les hommes naissent et demeurent libres et égaux
+                                    en droits. Les distinctions sociales ne peuvent être fondées que
+                                    sur l'utilité commune.</p>
+                                <p>2.- Le but de toute association politique est la conservation des
+                                    droits naturels et imprescriptibles de l'homme. Ces droits sont
+                                    la liberté, la propriété, la sûreté et la résistance à
+                                    l'oppression.</p>
+                                <p xml:id="art3">3.- Le principe de toute souveraineté réside essentiellement dans
+                                    la nation. Nul corps, nul individu ne peut exercer d'autorité
+                                    qui n'en émane expressément.</p>
+                                <p>4.- La liberté consiste à pouvoir faire tout ce qui ne nuit pas à
+                                    autrui; ainsi l'exercice des droits naturels de chaque homme n'a
+                                    de bornes que celle qui assurent aux autres membres de la
+                                    société la jouissance de ces mêmes droits. Ces bornes ne peuvent
+                                    être déterminées que par la loi.</p>
+                                <p><gap reason="accidental" unit="number" extent="1"
+                                        /><supplied>5.-</supplied> La loi n'a le droit de défendre
+                                    que les actions nuisibles à la société. Tout ce qui n'est pas
+                                    défendu par la loi ne peut être empêché, et nul ne peut être
+                                    contraint à faire ce qu'elle n'ordonne pas.</p>
+                                <p><choice>
+                                        <sic>5.-</sic>
+                                        <corr>6.-</corr>
+                                    </choice> La loi est l'expression de la volonté générale. Tous
+                                    les citoyens ont droit de concourir personnellement ou par leurs <choice>
+                                        <sic>representans</sic>
+                                        <corr>representants</corr>
+                                    </choice> à sa formation. Elle doit être la même pour tous, soit
+                                    qu'elle protège, soit qu'elle punisse. Tous les citoyens étant
+                                    égaux à ses yeux sont également admissibles à toutes dignités,
+                                    places, emplois publics, selon leur capacité et sans autre
+                                    distinction que celle de leurs vertus et de leurs <choice>
+                                        <sic>talens</sic>
+                                        <corr>talents</corr>
+                                    </choice>.</p>
+                                <p>7.- Nul homme ne peut être accusé, arrêté ni détenu que dans les
+                                    cas déterminés par la loi et selon les formes qu'elle a
+                                    prescrites. Ceux qui sollicitent, expédient, exécutent ou font
+                                    exécuter des ordres arbitraires doivent être punis; mais tout
+                                    citoyen appelé ou saisi, en vertu de la loi, doit obéir à
+                                    l'instant; il se rend coupable par la résistance.</p>
+                                <p>8.- La loi ne doit établir que des peines strictement et
+                                    évidemment nécessaires, et nul ne peut être puni qu'en vertu
+                                    d'une loi établie et promulguée antérieurement au délit et
+                                    légalement appliquée.</p>
+                                <p>9.- Tout homme étant présumé innocent jusqu'à ce qu'il ait <pb
+                                        n="7" facs="v1n1p7"/>été déclaré coupable, s'il est jugé
+                                    indispensable de l'arrêter, toute rigueur qui ne serait pas
+                                    nécessaire pour s'assurer de sa personne doit être sévèrement
+                                    réprimée par la loi.</p>
+                                <p>10.- Nul ne doit être inquiété pour ses opinions, même
+                                    religieuses, pourvu que leur manifestation ne trouble pas
+                                    l'ordre public établi par la loi. </p>
+                                <p>11.- La libre communication des pensées et des opinions est un
+                                    des droits les plus précieux de l'homme : tout citoyen peut donc
+                                    parler, écrire, imprimer librement, sauf à répondre de l'abus de
+                                    cette liberté, dans les cas déterminés par la loi.</p>
+                                <p>12.- La garantie des droits de l'homme et du citoyen nécessite
+                                    une force publique : cette force est donc instituée pour
+                                    l'avantage de tous, et non pour l'utilité particulière de ceux
+                                    auxquels elle est cofiée.</p>
+                                <p>13.- Pour l'entretien de la force publique, et pour les dépenses
+                                    d'administration, une contribution commune est indispensable.
+                                    Elle doit être également répartie entre tous les citoyens, en
+                                    raison de leurs facultés. </p>
+                                <p>14.- Tous les citoyens ont le droit de constater par eux-mêmes ou
+                                    par leurs <choice>
+                                        <sic>représentans</sic>
+                                        <corr>représentants</corr>
+                                    </choice> la nécessité de la contribution publique, de la
+                                    consentir librement, d'en suivre l'emploi et d'en déterminer la
+                                    quotité, l'assiette, le recouvrement et la durée.</p>
+                                <p>15.- La société a le droit de demander compte à tout agent public
+                                    de son administration.</p>
+                                <p>16.- Toute Société dans laquelle la garantie des droits n'est pas
+                                    assurée, ni la séparation des pouvoirs déterminée, n'a point de
+                                    constitution.</p>
+                                <p xml:id="art17">17.- Les propriétés étant un droit inviolable et sacré, nul ne
+                                    peut en être privé, si ce n'est lorsque la nécessité publique,
+                                    légalement constatée, l'exige évidemment, et sous la condition
+                                    d'une juste et préalable indemnité.</p>
+                                <closer> Extrait du procès-verbal de <orgName>l'assemblée
+                                        nationale</orgName>, du jeudi 1 octobre 1789.
+                                    <lb/>Collationné conforme à l'original. <signed>Signé MOUNIER,
+                                        président; le vicomte DE MIRABEAU, DEMEUNIER, BUREAU DE
+                                        Pusy, l'évêque DE NANCY, FAYDEL, l'abbé d'EYMAR,
+                                        secrétaires. </signed>
+                                </closer>
+                            </div>
+                        </body>
+                    </floatingText>
+                    <pb n="8" facs="v1n1p8"/>
+                    <p>Tous les principes de 89 sont dans cette déclaration; et, quoi qu'on fasse,
+                        il y a dans ces principes, que la révolution française, par ses armées
+                        républicaines et impériales, a semés sur la terre d'<placeName>Europe</placeName>, et par ses livres partout dans l'univers, une
+                        virtualité qu'on ne parviendra pas à étouffer. </p>
+                    <p> Certes, s'il est une connaissance bonne à rappeler à l'homme, c'est celle de
+                        ses droits, que les aristocraties peuvent bien parvenir à faire tomber en
+                        désuétude çà et là, mais auxquels l'avenir appartient.</p>
+                    <p>Nous demandons qu'on compare l'état présent de notre législation avec cette
+                        page de justice et de liberté, qu'on examine si les lois qu'on nous fait
+                        sont conformes aux principes de cette déclaration, laquelle doit être à
+                        jamais, selon la belle expression de <orgName>l'Assemblée
+                            Nationale</orgName>, <emph>la loi des législateurs eux-mêmes</emph>. Et
+                        si cet examen montre évidemment que le gouvernement, quel qu'il soit, n'est
+                        pas fondé sur cette base, seule équitable, la mise en pratique des droits de
+                        tous, ceux qui, comme nous et avec <orgName>l'Assemblée Nationale</orgName>,
+                        seront convaincus que <emph>l'ignorance, l'oubli ou le mépris des droits de
+                            l'homme sont les seules causes des malheurs publics et de la corruption
+                            des <choice>
+                                <sic>gouvernemens</sic>
+                                <corr>gouvernements</corr>
+                            </choice></emph>, en concluront victorieusement que tout le mal de la
+                        situation présente, aux colonies comme partout, vient positivement de cette
+                        ignorance, de cet oubli ou de ce mépris, nous ne savons précisément lequel
+                        dire, tant de la part des <choice>
+                            <sic>gouvernans</sic>
+                            <corr>gouvernants</corr>
+                        </choice>, au reste, que de celle des gouvernés.</p>
+                    <closer>
+                        <emph>Le directeur</emph>, <signed><persName ref="#CB"
+                            >BISSETTE</persName>.</signed>
+                    </closer>
+                </div>
+                <div xml:id="regime">
+                    <head>COUP D'OEIL SUR LE RÉGIME COLONIAL ET SES EFFETS.</head>
+                    <p>Tous les journaux ont retenti des déplorables <choice>
+                            <sic>événemens</sic>
+                            <corr>évènements</corr>
+                        </choice> de la Grand'Anse<ptr target="#n590A"/>, <placeName ref="#MQ"
+                            >Martinique</placeName>. Les uns, inspirés par le pouvoir, aux yeux
+                        duquel tout ce qui est émancipation devient un objet de terreur, ont
+                        présenté cette affaire sous un aspect défavorable à des hommes qui se sont
+                        bornés à résister à l'oppression.<ptr target="#n684A"/> D'autres, plus <choice>
+                            <sic>bienveillans</sic>
+                            <corr>bienveillant</corr>
+                        </choice>, plus impartiaux surtout, se sont bien gardés de porter un
+                        jugement anticipé sur une affaire de cette nature : ils savaient que la
+                        passion exagère le mal comme le bien, et qu'il ne faut point <pb n="9" facs="v1n1p9"/>
+                        adopter avec précipitation les dires d'un parti puissant et souvent
+                        injuste. </p>
+                    <p>Nous aussi, nous allons nous en occuper, mais en la faisant précéder de
+                        considérations propres à en déterminer la moralité.</p>
+                    <p>Ces faits, qui nous semblent à peine croyables, se répètent chaque jour avec
+                        impunité dans nos colonies. Et comment n'en serait-il pas ainsi, lorsque les
+                        hommes chargés de maintenir les lois y sont le plus intéressés à les violer!
+                        L'arbitraire n'y est donc que le triste corollaire d'un état de choses dont
+                        l'origine remonte à une époque de conquête, de rapines et de brutales
+                        violences. On sait que cet arbitraire existe; la philosophie l'a flétri; le
+                        pouvoir lui-même semble repousser une honteuse solidarité, et cependant rien
+                        de vrai n'a été fait pour le faire cesser. Tout a été déception et mensonge,
+                        depuis les mesures illusoires contre le trafic des noirs jusqu'aux lois qui
+                        semblent accorder aux hommes de couleur des droits de citoyens et une
+                        justice qu'on ne pourrait sans mensonge représenter une balance à la
+                        main.</p>
+                    <p>Ces causes, qui, découlant du régime général des colonies, sembleraient
+                        étrangères aux <choice>
+                            <sic>événemens</sic>
+                            <corr>évènements</corr>
+                        </choice> de la Grand'Anse, dont nous nous occuperons plus spécialement<ptr
+                            target="#n65C6"/>, s'y rattachent néanmoins par une multitude de fils :
+                        car, dans la destinée des peuples comme dans celle des hommes, rien n'est
+                        isolé, et les effets actuels sont souvent produits par des causes qui se
+                        perdent dans la nuit des temps.</p>
+                    <p>Les colonies aussi, malgré leur éloignement de la mère-patrie, ont ressenti
+                        les effets de la grande commotion politique qui a régénéré la <placeName>France</placeName>. Un long ilotisme, largement exploité par
+                        l'aristocratie, n'avait pu réussir à paralyser tellement les cœurs qu'ils ne
+                        se sentissent réchauffés par les rayons du soleil de la liberté. Les hommes
+                        de couleur surtout, plus avancés que les malheureux esclaves, tournaient les
+                        yeux vers la France avec amour et confiance; ils sentaient que chaque
+                        chainon qui tombait des liens de la vieille Europe était pour eux un gage
+                        d'affranchissement. La noblesse <choice>
+                            <sic>blazonnée</sic>
+                            <corr>blasonnée</corr>
+                        </choice>, élevée au titre de peuple, offrait un haut enseignement à la
+                        noblesse de la peau<ptr target="#n2BFD"/>, qui n'avait même pas comme elle
+                        le prestige des illustrations personnelles. La destruction de l'une était le
+                        gage assuré de la destruction de l'autre. L'affranchissement du peuple, qui
+                        avait gémi si long-temps sous l'empire de <pb n="10" facs="v1n1p10"/> la glèbe, n'était-il
+                        pas aussi pour les esclaves un présage de liberté? Il y avait donc aux
+                        colonies ce qui s'y trouve encore aujourd'hui, une absurde aristocratie
+                        cramponnée à ses <choice>
+                            <sic>priviléges</sic>
+                            <corr>privilèges</corr>
+                        </choice> et prête à commettre tous les excès pour les conserver, et d'un
+                        autre côté une population pleine de sève, d'énergie, commençant à comprendre
+                        ses droits et sa dignité. </p>
+                    <p> Telle était donc la position des colonies lorsque la révolution de
+                            juillet<ptr target="#n9F29"/>, si riche d'avenir, fit croire un moment
+                        au réveil de la France. Le nouveau gouvernement, entraîné, malgré lui sans
+                        doute, par la force des circonstances, n'osant pas soulever le voile qui
+                        cachait ses arrières-pensées, se courbant enfin devant l'opinion publique
+                        qui venait d'avoir quelque retentissement, effaça le mot <emph><choice>
+                                <sic>réglemens</sic>
+                                <corr>réglements</corr>
+                            </choice></emph> de l'article de la charte concernant les colonies. Il
+                        déclara qu'elles seraient régies par des <emph>lois</emph> particulières<ptr
+                            target="#n3257"/>. Cette reconnaissance tacite des abus de toutes
+                        sortes, dont le régime des ordonnances est la source impure, fit concevoir
+                        d'heureuses espérances aux hommes qui peuvent encore ajouter quelque foi à
+                        des promesses de ministres. C'est qu'ils ne croyaient pas qu'un gouvernement
+                        né de la démocratie pût si promptement oublier son origine; ils ne
+                        réfléchissaient pas que la conservation des titres de noblesse, d'une
+                        soi-disant chambre haute, et surtout d'une liste civile exagérée étaient des
+                        jalons posés par le pouvoir naissant pour se constituer sur des bases
+                        analogues à celui que le bras populaire venait d'écraser. La conservation de
+                        la noblesse titrée dans la mère-patrie<ptr target="#n917D"/>, l'adjonction
+                        qu'on lui faisait de l'aristocratie des Turcarets<ptr target="#n9C9A"/>, ne disait-<choice>
+                            <sic>il</sic>
+                            <corr>elle</corr>
+                        </choice> pas hautement aux colonies que, sauf quelques légères
+                        modifications, on leur conserverait leur aristocratie de peau avec la plus
+                        grande partie de ses <choice>
+                            <sic>priviléges</sic>
+                            <corr>privilèges</corr>
+                        </choice>. </p>
+                    <p>En effet les admirables <emph>lois</emph> particulières furent rendues
+                        tellement illusoires qu'elles équivalent au bon plaisir des ordonnances<ptr
+                            target="#n332A"/>, n'en différant que par l'hypocrisie du titre. Par
+                        exemple, la loi électorale, établissant les droits politiques des blancs et
+                        des hommes de couleur, n'est-elle pas une ceuvre de perfide déception? A
+                            <placeName ref="#BrB">l'ile de Bourbon</placeName> et de <placeName
+                            ref="#Cay">Cayenne</placeName>, où les blancs sont en grande majorité,
+                        le cens électoral et l'éligibilité sont fixés à un taux moins élevé, car il
+                        n'y a point à craindre de concurrence; mais dans les colonies de la
+                            <placeName ref="#GP">Guadeloupe </placeName> et de la <placeName
+                            ref="#MQ">Martinique</placeName>, où la population de couleur, très
+                        nombreuse, possède une fortune <pb n="11" facs="v1n1p11"/>moyenne, on prend la précaution
+                        d'élever le cens de manière qu'elle ne puisse y atteindre. Est-il rien de
+                        plus perfide, je dirai même de plus odieusement ironique que de concéder
+                        ainsi le droit en interdisant les moyens. N'eût-il pas été plus vrai de
+                        déclarer franchement que les blancs seuls seraient électeurs<ptr
+                            target="#n0490"/>?</p>
+                    <p>Il devenait difficile, en présence de cette loi d'organisation politique,
+                        créant ou plutôt sanctionnant un <choice>
+                            <sic>privilége</sic>
+                            <corr>privilèges</corr>
+                        </choice>, de donner quelques <choice>
+                            <sic>développemens</sic>
+                            <corr>développements</corr>
+                        </choice> à la force populaire. La garde
+                            nationale, cette admirable institution de la métropole, eut
+                        aux colonies une pâle imitation dont on eut soin de bannir le nom et
+                        l'élément démocratique, l'élection.</p>
+                    <p>Si la France a une garde nationale, les colonies ont une milice dont les
+                        officiers, nommés par le gouverneur, sont pris généralement dans la
+                        population blanche et parmi quelques hommes de couleur. Ceux-ci, pour
+                        conserver un grade obtenu par la faveur, se devouent sans réflexion au
+                        gouverneur et se font ses <choice>
+                            <sic>complaisans</sic>
+                            <corr>complaisants</corr>
+                        </choice>. Nous nous hâtons de le dire, parmi les promotions qui ont été
+                        faites, nous comptons des amis qui n'ont pas varié dans leurs opinions
+                        politiques, mais il n'en est pas ainsi de tous. Quand le pouvoir se rend
+                        odieux par sa partialité, il corrompt toujours les hommes qui se font ses <choice>
+                            <sic>tenans</sic>
+                            <corr>tenants</corr>
+                        </choice>. Quels liens peuvent en effet unir des hommes se trouvant dans une
+                        aussi fausse position que la milice coloniale et ses chefs? La confiance?
+                        elle n'existe pas. La fraternité? on l'y chercherait vainement. Reste donc
+                        la force, et elle est bien journalière.</p>
+                    <p>Dans l'ordre judiciaire, les abus fourmillent, et toujours ils sont à
+                        l'avantage de la classe aristocratique. Les cours royales et les tribunaux
+                        de première instance sont constitués de manière à laisser les blancs devenir
+                        juges et parties dans leur propre cause. Enfin, en dépit du texte même de la
+                        charte, des <emph>cours prévôtales</emph> peuvent encore ensanglanter le sol
+                        des colonies en assassinant juridiquement les <choice>
+                            <sic>innocens</sic>
+                            <corr>innocents</corr>
+                        </choice> dont on veut se défaire. </p>
+                    <p>Eh bien! en présence de cet arbitraire sans bornes, appuyés sur leurs
+                        nombreux <choice>
+                            <sic>priviléges</sic>
+                            <corr>privilèges</corr>
+                        </choice>, les blancs font entendre des murmures, et se plaignent que le
+                        gouvernement ait osé toucher à l'arche sainte de leur pouvoir, en diminuant
+                        quelques-uns de leurs <choice>
+                            <sic>priviléges</sic>
+                            <corr>privilèges</corr>
+                        </choice>. Les droits politiques, ils les possèdent tous; la puissance
+                        judiciaire se trouve entre leurs mains; la force publique, ils la diri<pb
+                            n="12" facs="v1n1p12"/>gent et la commandent; mais ce n'est pas assez au gré de leur
+                        orgueil blessé. Un principe, sans application il est vrai, a été émis; le
+                        mot égalité a été prononcé, n'était-ce pas suffisant pour froisser ces cœurs
+                        égoïstes et durs pour lesquels tout homme indépendant qui n'est pas de leur
+                        ligue n'est qu'un vil esclave révolté? Les hommes de couleur, au contraire, <choice>
+                            <sic>confians</sic>
+                            <corr>confiants</corr>
+                        </choice> dans la bonne volonté dont le gouvernement avait donné quelques
+                        faibles gages, attendaient avec patience des jours meilleurs en formant leur
+                        éducation politi que de manière à pouvoir saisir l'influence que leur
+                        assurent dans leur patrie le bon droit et le nombre. Et que veulent-ils en
+                        effet qui ne soit sage et raisonnable? Placés dans leur pays dans la même
+                        position que le tiers-état en France avant la révolution, ils demandent ce
+                        que cet ordre exigeait alors : la liberté et l'égalité. Mais ils ont affaire
+                        à des privilégiés plus tenaces encore que ne le furent la noblesse et le
+                        clergé de France. Ceux-ci du moins n'avaient pas l'impudence de dénier le
+                        titre d'hommes à leurs adversaires<ptr target="#n8508"/>. </p>
+                    <p>Quel était donc le moyen dont pouvaient se servir les privilégiés pour
+                        reconquérir l'intégrité de leurs <choice>
+                            <sic>priviléges</sic>
+                            <corr>privilèges</corr>
+                        </choice>? Les demander au gouvernement était chose impossible, on leur eût
+                        répondu d'attendre tout du temps; que l'on n'avait fait que céder à une
+                        pénible nécessité; que d'ailleurs les libertés accordées aux mulâtres
+                        étaient purement illusoires, se bornant en réalité à quelques légères
+                        concessions de sociabilité<ptr target="#n6759"/>. Et encore ces concessions
+                        même fléchissent-elles souvent devant le bon plaisir de l'aristocratie. </p>
+                    <p>Ces réponses, qui satisferaient des hommes moins <choice>
+                            <sic>impatiens</sic>
+                            <corr>impatients</corr>
+                        </choice>, moins orgueilleux surtout, eussent blessé profondément ces
+                        maîtres impérieux dont le despotisme s'exerce sans contrôle sur de
+                        malheureux esclaves. Il fallait donc employer tous les moyens, la calomnie
+                        même, pour asservir la classe de couleur et l'écraser<ptr target="#n7A20"/>.
+                        II fallait la représenter comme <emph>factieuse</emph>, turbulente, ayant
+                        juré de détruire les blancs et ne reculant pour y parvenir, ni devant
+                        l'assassinat, ni devant l'incendie. Il est si facile de calomnier des hommes
+                        auxquels on interdit la défense! De trouver coupable l'ennemi que l'on juge
+                        soi-même! Et puis les colonies comptent aussi dans leur sein des hommes qui
+                        savent créer des complots, les fomenter, les faire naître à propos, pour en
+                        tirer avantage dans leur intérêt. Et qu'importe en effet que le <emph>sang
+                            vil</emph> de quelques nègres vienne rougir le sol! Qu'importe que la
+                        tête d'un mulâtre roule sur <pb n="13" facs="v1n1p13"/> l'échafaud! Bagatelles que tout
+                        cela, quand on considère le glorieux résultat qu'on en attend; c'est-à-dire
+                        l'asservissement de la masse au profit du plus petit nombre. D'ailleurs la
+                        métropole offre bien quelques exemples qui sembleraient autoriser les
+                        colonies dans ce machiavélisme. </p>
+                    <p>Alors nous avons vu naître ces complots imaginaires, ces incendies dont la
+                        périodicité à certaines époques indique d'affreux mystères. Des <choice>
+                            <sic>innocens</sic>
+                            <corr>innocents</corr>
+                        </choice> ont été accusés, jetés dans les cachots, torturés, fusillés sans
+                        pitié lorsqu'ils se permettaient quelques plaintes. Ni le sexe ni l'âge ne
+                        pouvaient attendrir ces hommes féroces qui se livrent envers leurs esclaves
+                        à des <choice>
+                            <sic>raffinemens</sic>
+                            <corr>raffinements</corr>
+                        </choice> de cruauté, et leur or, jeté à la tête des proconsuls de la grande
+                        nation, cache à leurs yeux de larges taches de sang. </p>
+                    <p>Ah! si quelque jour une plume éloquente déchirant le voile funèbre qui couvre
+                        nos colonies, retraçait l'histoire de la domination des possesseurs
+                        d'hommes; si elle évoquait du fond de leur tombeau les tristes victimes qui
+                        chaque jour y sont entassées, jamais contrée souillée par la tyrannie
+                        n'offrirait de pages aussi horribles<ptr target="#n4C92"/>. Tout ce que nous
+                        lisons des Mésence, des Caligula, des Louis XI<ptr target="#n5DA0"/>, tout
+                        ce que nos cœurs se refusent à croire comme trop dégradant pour l'humanité
+                        se trouve surpassé au dix-neuvième siècle par des Français d'outre-mer. Mais
+                        ces horribles scènes de despotisme n'ont point ici leur place, ailleurs nous
+                        les révélerons en jetant les noms de leurs infâmes auteurs aux gémonies de
+                        l'histoire.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <xi:include href="RdCv1n1-notes.xml"/>
+            <xi:include href="entities.xml"/>
+        </back>
+    </text>
+</TEI>

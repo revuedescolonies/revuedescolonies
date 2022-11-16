@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Revue des Colonies N°1 (selection)</title>
+            <editor>Maria Beliaeva Solomon</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information  about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+  <front>
+  <titlePage>
+  <titlePart type="main">REVUE<lb/>DES<lb/>COLONIES,</titlePart>
+  <titlePart type="sub"><lb/>RECUEIL MENSUEL<lb/> DE LA POLITIQUE, DE L'ADMINISTRATION, DE LA JUSTICE, DE L'INSTRUCTION ET DES MOEURS COLONIALES,</titlePart>
+  <byline><lb/>PAR UNE <orgName ref="#SHC">SOCIÉTÉ D'HOMMES DE COULEUR</orgName>
+   <lb/> DIRIGÉE PAR <persName ref="#CB">C.-A. BISSETTE</persName>.<lb/></byline>
+  <docEdition><lb/>N°1<lb/>Juillet.<lb/>
+  <lb/> PARIS,<lb/> AU BUREAU DE LA REVUE DES COLONIES,</docEdition>
+  <docImprint><lb/>46, RUE NEUVE-SAINT-EUSTACHE <lb/> 1834.</docImprint> 
+  </titlePage>
+  </front>
+   <body>
+   <div>
+   <head>REVUE<lb/>DES <lb/>COLONIES</head>
+   <pb/>
+   <div>
+   <head>Prospectus.</head>
+      <p>
+      Les colonies en général ne connaissent encore que la théorie des grands principes de philantropie;
+      de la liberté en action, point. 
+      </p>
+      <p>
+      Les classes souffrantes et opprimées réclament et combattent sans cesse, toujours sans succès. 
+      Pour stimuler cette volonté molle de faire le bien, à laquelle se bornent nos <choice><sic>gouvernans</sic><corr>gouvernants</corr></choice>, il est 
+      nécessaire de grouper en faisceau les réclamations justes qui s'élèvent de toutes parts. Ces 
+      réclamations, ces griefs, pour avoir du succès, doivent recevoir la plus grande publicité : 
+      c'est l'objet de notre <bibl type="periodical"><title ref="#RdC">Revue</title></bibl>
+      </p>
+      <p> 
+      La tribune ne peut plus suffire <emph>aujourd'hui</emph>; les pétitions sont ajournées par la négligence 
+      calculée des rapporteurs ou repoussées par d'<choice><sic>insolens</sic><corr>insolents</corr></choice> ordres du jour. D'un autre côté, les 
+      prescriptions des ministres sont savamment éludées par les autorités coloniales, toujours bien 
+      disposées en faveur des privilégiés. A cette tactique jusqu'à ce jour triomphante, des partisans de 
+      l'aristocratie et du <choice><sic>privilége</sic><corr>privilège</corr></choice>, il faut enfin opposer la puissance de l'opinion publique éclairée 
+      par une discussion toujours sage, toujours vraie, mais énergique et jamais timide, des causes, 
+      quelles qu'elles soient, qui entravent la fusion désirable des populations diverses des colonies.
+      </p>
+      <p>
+      A cet effet, un journal spécial est créé sous le titre de <bibl type="periodical"><title ref="#RdC">
+      Revue des Colonies</title></bibl>, et <persName ref="#CB">M. Bissette</persName> en a la direction.
+      </p>
+      <pb/>
+      <p>
+      Ce journal n'est pas seulement consacré à tout ce qui concerne les colonies, considérées comme source de nouvelles 
+      et de faits curieux propres à amuser les loisirs du lecteur, mais il se voue en entier aux intérêts politiques, 
+      intellectuels, moraux et industriels des colons de l'une et l'autre couleur.
+      </p>
+      <p> 
+      Rien de ce qui concerne les colonies françaises particulièrement ne sera omis dans cette publication mensuelle. 
+      Le gouvernement, l'administration, la justice y seront examinés sous le double rapport de leurs actes et de leur 
+      personnel; car de celui-ci dépend trop souvent l'esprit et la tendance qui oppriment les populations ou préparent 
+      leur bien-être.
+      </p>
+      <p>
+      Les droits civils, politiques et sociaux des deux classes libres, qui, jusqu'à présent divisées, devraient être 
+      unies, y seront développés et soutenus avec un zèle infatigable. 
+      </p>
+      <p>
+      La grande question de l'abolition de l'esclavage, pierre fondamentale de la liberté, y sera traitée avec le soin 
+      le plus consciencieux et l'amour le plus ardent de l'égalité et du bien général.
+      </p>
+      <p>
+      L'arbitraire, la partialité y seront traduits sans aucune acception de personnes devant le tribunal de l'opinion 
+      publique. Le faible y trouvera appui et protection, l'oppresseur, châtiment, le fonctionnaire, bláme mérité de 
+      ses actes illégaux, mais respect pour sa personne.
+      </p>
+      <p>
+      La <title>Revue des Colonies</title> s'occupera aussi de tous les <choice><sic>changemens</sic><corr>changements</corr></choice> opérés ou projetés dans la législation 
+      qui régit les colonies étrangères et qui doivent réagir d'une manière puissante sur les nôtres.
+      </p>
+      <p>
+      Les intérêts nationaux, par rapport à la possession d'<placeName>Alger</placeName>, trouveront dans la <title>Revue 
+      des Colonies</title> un organe dévoué et indépendant.
+      </p>
+      <p>
+      Des <choice><sic>correspondans</sic><corr>correspondants</corr></choice> nombreux et instruits assurent aux lecteurs autant de variété que de savoir dans les articles de la 
+      <title>Revue des Colonies.</title> 
+      </p>
+      </div>
+      <pb/>
+   <div> 
+    <head>DÉCLARATION DE PRINCIPES.</head>
+    <p>
+    La <title>Revue des Colonies</title> croit devoir, avant tout, indiquer d'après quels principes elle jugera les hommes et 
+    les choses. Selon elle, 89, dans l'immortelle <bibl type="legal"><title ref="#DDH">Déclaration des Droits</title></bibl> que vota 
+    <orgName ref="#AN">l'Assemblée Nationale</orgName>, posa les bases à venir de toutes les institutions vraiment démocratiques; c'est pourquoi 
+    nous inscrivons cette <title>Déclaration</title> en tête de ce recueil: ce sont là les tables de notre loi.
+    </p>
+        <epigraph><cit>
+    <quote>Les Droits de l'Homme étaient méconnus, insultés depuis des siècles; ils ont été rétablis pour l'humanité entière dans 
+    cette <title>Déclaration</title>, qui sera à jamais le cri de ralliement contre les oppresseurs, et la loi des légis lateurs eux-mêmes. 
+    </quote><bibl type="legal">(Adresse de<orgName> l'Assemblée Nationale</orgName> aux Français, 11 février 1790.)</bibl> 
+        </cit></epigraph>
+   </div>
+   <div>
+   <floatingText>
+   <body>
+   <div>
+   <head>Extrait</head>
+   <head>DES PROCES-VERBAUX DE <orgName>L'ASSEMBLÉE NATIONALE</orgName> DES 20, 21, 22, 23, 24, 26 AOUT ET 1er OCTOBRE 1789 </head>
+    <head>DÉCLARATION DES DROITS DE L'HOMME EN SOCIÉTÉ.</head>
+    <p>
+    Les <choice><sic>représentans</sic><corr>représentants</corr></choice> du peuple français, constitués en <orgName>Assemblée Nationale</orgName>, considérant que l'ignorance, 
+    l'oubli ou le mépris des droits de l'homme sont les seules causes des malheurs publics et de la corruption des <choice><sic>gouvernemens</sic><corr>gouvernements</corr></choice>, 
+    ont résolu d'exposer dans une déclaration solennelle les droits naturels, inaliénables et sacrés de l'homme, afin que cette déclaration,
+    constamment présente à tous les membres du corps social, leur rappelle sans cesse leurs droits et leurs devoirs, afin que les actes du 
+    pouvoir législatif et ceux du pouvoir exécutif, pouvant être à chaque instant comparés avec le but de toute institution politique, 
+    en soient plus respectés; afin que les réclamations des citoyens, fondées désormais sur des principes simples et incontestables, 
+    tournent toujours au maintien de la constitution et au bonheur de tous.
+    </p>
+    <pb n="6"/>
+    <p>
+    En conséquence, <orgName>l'Assemblée Nationale</orgName> reconnaît et déclare, en présence et sous les auspices de l'Etre-Suprême, les 
+    droits <choice><sic>suivans</sic><corr>suivants</corr></choice> de l'homme et du citoyen.
+    </p>
+    <p>
+    Article 1er.- Les hommes naissent et demeurent libres et égaux en droits. Les distinctions sociales ne peuvent être fondées que sur
+    l'utilité commune.</p>
+    <p>2.- Le but de toute association politique est la conservation des droits naturels et imprescriptibles de l'homme. Ces droits sont 
+    la liberté, la propriété, la sûreté et la résistance à l'oppression.</p>
+    <p>3.- Le principe de toute souveraineté réside essentiellement dans la nation. Nul corps, nul individu ne peut exercer d'autorité qui 
+    n'en émane expressément.</p>
+    <p>4.- La liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui; ainsi l'exercice des droits naturels de chaque homme n'a de 
+    bornes que celle qui assurent aux autres membres de la société la jouissance de ces mêmes droits. Ces bornes ne peuvent être déterminées 
+    que par la loi.</p>
+    <p><gap reason="accidental" unit="number" extent="1" /><supplied>5.-</supplied> La loi n'a le droit de défendre que les actions nuisibles 
+    à la société. Tout ce qui n'est pas défendu par la loi ne peut être empêché, et nul ne peut être contraint à faire ce qu'elle n'ordonne pas.</p>
+    <p><choice><sic>5.-</sic><corr>6.-</corr></choice> La loi est l'expression de la volonté générale. Tous les citoyens ont droit de concourir 
+    personnellement ou par leurs <choice><sic>representans</sic><corr>representants</corr></choice> à sa formation. Elle doit être la même pour tous, soit qu'elle protège, soit qu'elle punisse. 
+    Tous les citoyens étant égaux à ses yeux sont également admissibles à toutes dignités, places, emplois publics, selon leur capacité et 
+    sans autre distinction que celle de leurs vertus et de leurs <choice><sic>talens</sic><corr>talents</corr></choice>.</p>
+    <p>7.- Nul homme ne peut être accusé, arrêté ni détenu que dans les cas déterminés par la loi et selon les formes qu'elle a prescrites. 
+    Ceux qui sollicitent, expédient, exécutent ou font exécuter des ordres arbitraires doivent être punis; mais tout citoyen appelé ou saisi, 
+    en vertu de la loi, doit obéir à l'instant; il se rend coupable par la résistance.</p>
+    <p>8.- La loi ne doit établir que des peines strictement et évidemment nécessaires, et nul ne peut être puni qu'en vertu d'une loi établie 
+    et promulguée antérieurement au délit et légalement appliquée.</p>
+    <p>9.- Tout homme étant présumé innocent jusqu'à ce qu'il ait <pb n="7"/>été déclaré coupable, s'il est jugé indispensable de l'arrêter, 
+    toute rigueur qui ne serait pas nécessaire pour s'assurer de sa personne doit être sévèrement réprimée par la loi.</p>
+    <p>10.- Nul ne doit être inquiété pour ses opinions, même religieuses, pourvu que leur manifestation ne trouble pas l'ordre public établi par 
+    la loi. </p>
+    <p>11.- La libre communication des pensées et des opinions est un des droits les plus précieux de l'homme : tout citoyen peut donc parler, 
+    écrire, imprimer librement, sauf à répondre de l'abus de cette liberté, dans les cas déterminés par la loi.</p>
+    <p>12.- La garantie des droits de l'homme et du citoyen nécessite une force publique : cette force est donc instituée pour l'avantage de 
+    tous, et non pour l'utilité particulière de ceux auxquels elle est cofiée.</p>
+    <p>13.- Pour l'entretien de la force publique, et pour les dépenses d'administration, une contribution commune est indispensable. Elle doit 
+    être également répartie entre tous les citoyens, en raison de leurs facultés. </p>
+    <p>14.- Tous les citoyens ont le droit de constater par eux-mêmes ou par leurs <choice><sic>représentans</sic><corr>représentants</corr></choice> la nécessité de la contribution publique, de la 
+    consentir librement, d'en suivre l'emploi et d'en déterminer la quotité, l'assiette, le recouvrement et la durée.</p>
+    <p>15.- La société a le droit de demander compte à tout agent public de son administration.</p>
+    <p>16.- Toute Société dans laquelle la garantie des droits n'est pas assurée, ni la séparation des pouvoirs déterminée, n'a point de constitution.</p>
+    <p>17.- Les propriétés étant un droit inviolable et sacré, nul ne peut en être privé, si ce n'est lorsque la nécessité publique, légalement 
+    constatée, l'exige évidemment, et sous la condition d'une juste et préalable indemnité.</p>
+    <closer> Extrait du procès-verbal de <orgName>l'assemblée nationale</orgName>, du jeudi 1 octobre 1789. 
+    <lb/>Collationné conforme à l'original.
+    <signed>Signé MOUNIER, président; le vicomte DE MIRABEAU, DEMEUNIER, BUREAU DE Pusy, l'évêque DE NANCY, FAYDEL, l'abbé d'EYMAR, secrétaires.
+    </signed>
+    </closer>
+    </div>
+    </body>
+    </floatingText>
+    <pb n="8"/><p>Tous les principes de 89 sont dans cette déclaration; et, quoi qu'on fasse, il y a dans ces principes, que la révolution française, 
+    par ses armées républicaines et impériales, a semés sur la terre d'<placeName ref="#EUR">Europe</placeName>, et par ses livres partout dans l'univers, 
+    une virtualité qu'on ne parviendra pas à étouffer.
+    </p>
+    <p> Certes, s'il est une connaissance bonne à rappeler à l'homme, c'est celle de ses droits, que les aristocraties peuvent bien parvenir à faire 
+    tomber en désuétude çà et là, mais auxquels l'avenir appartient.</p>
+    <p>Nous demandons qu'on compare l'état présent de notre législation avec cette page de justice et de liberté, qu'on examine si les lois qu'on 
+    nous fait sont conformes aux principes de cette déclaration, laquelle doit être à jamais, selon la belle expression de <orgName>l'Assemblée Nationale</orgName>, 
+    <emph>la loi des législateurs eux-mêmes</emph>. Et si cet examen montre évidemment que le gouvernement, quel qu'il soit, n'est pas fondé sur cette base, 
+    seule équitable, la mise en pratique des droits de tous, ceux qui, comme nous et avec <orgName>l'Assemblée Nationale</orgName>, seront convaincus que <emph>l'ignorance, 
+    l'oubli ou le mépris des droits de l'homme sont les seules causes des malheurs publics et de la corruption des <choice><sic>gouvernemens</sic><corr>gouvernements</corr></choice></emph>, en concluront 
+    victorieusement que tout le mal de la situation présente, aux colonies comme partout, vient positivement de cette ignorance, de cet oubli ou de 
+    ce mépris, nous ne savons précisément lequel dire, tant de la part des <choice><sic>gouvernans</sic><corr>gouvernants</corr></choice>, au reste, que de celle des gouvernés.</p>
+    <closer> <emph>Le directeur</emph>,
+    <signed><persName ref="#CB">BISSETTE</persName>.</signed>
+    </closer>
+    </div>
+    <div>
+    <head>COUP D'OEIL SUR LE RÉGIME COLONIAL ET SES EFFETS.</head>
+    <p>Tous les journaux ont retenti des déplorables <choice><sic>événemens</sic><corr>évènements</corr></choice> de la <rs type="affaire" ref="#GA">Grand'Anse</rs>, <placeName ref="#MQ">Martinique</placeName>. Les uns, inspirés 
+    par le pouvoir, aux yeux duquel tout ce qui est émancipation devient un objet de terreur, ont présenté cette affaire sous un aspect défavorable
+    à des hommes qui se sont bornés à résister à l'oppression. D'autres, plus <choice><sic>bienveillans</sic><corr>bienveillant</corr></choice>, plus impartiaux surtout, se sont bien gardés de porter 
+    un jugement anticipé sur une affaire de cette nature: ils savaient que la passion exagère le mal comme le bien, et qu'il ne faut point
+    <pb n="9"/>adopter avec précipitation les dires d'un parti puissant et souvent injuste.
+    </p>
+    <p>Nous aussi, nous allons nous en occuper, mais en la faisant précéder de considérations propres à en déterminer la moralité.</p>
+    <p>Ces faits, qui nous semblent à peine croyables, se répètent chaque jour avec impunité dans nos colonies. Et comment n'en serait-il pas 
+    ainsi, lorsque les hommes chargés de maintenir les lois y sont le plus intéressés à les violer! L'arbitraire n'y est donc que le triste 
+    corollaire d'un état de choses dont l'origine remonte à une époque de conquête, de rapines et de brutales violences. On sait que cet 
+    arbitraire existe; la philosophie l'a flétri; le pouvoir lui-même semble repousser une honteuse solidarité, et cependant rien de vrai 
+    n'a été fait pour le faire cesser. Tout a été décep tion et mensonge, depuis les mesures illusoires contre le trafic des noirs 
+    jusqu'aux lois qui semblent accorder aux hommes de couleur des droits de citoyens et une justice qu'on ne pourrait saus mensonge 
+    représenter une balance à la main.</p>
+    <p>Ces causes, qui, découlant du régime général des colonies, sembleraient étrangères aux <choice><sic>événemens</sic><corr>évènements</corr></choice> de la Grand'Anse, dont nous nous 
+    occuperons plus spécialement, s'y rattachent néanmoins par une multitude de fils: car, dans la destinée des peuples comme dans 
+    celle des hommes, rien n'est isolé, et les effets actuels sont souvent produits par des causes qui se perdent dans la nuit des temps.</p>
+    <p>Les colonies aussi, malgré leur éloignement de la mère-patrie, ont ressenti les effets de la grande commotion politique qui a régénéré 
+    la <placeName ref="#FR">France</placeName>. Un long ilotisme, largement exploité par l'aristocratie, n'avait pu réussir à paralyser 
+    tellement les cœurs qu'ils ne se sentissent réchauffés par les rayons du soleil de la liberté. Les hommes de couleur surtout, plus 
+    avancés que les malheureux esclaves, tournaient les yeux vers la France avec amour et con fiance; ils sentaient que chaque chainon 
+    qui tombait des liens de la vieille Europe était pour eux un gage d'affranchissement. La noblesse blazonnée, élevée au titre de 
+    peuple, offrait un haut enseignement à la noblesse de la peau, qui n'avait même pas comme elle le prestige des illustrations 
+    personnelles. La destruction de l'une était le gage assuré de la destruction de l'autre. L'affranchissement du peuple, qui avait 
+    gémi si <orig>long-temps</orig><corr>longtemps</corr> sous l'empire de <pb n="10"/> la glèbe, n'était-il pas aussi pour les esclaves un présage de liberté? Il y avait 
+    donc aux colonies ce qui s'y trouve encore aujourd'hui, une absurde aristocratie cramponnée à ses <choice><sic>priviléges</sic><corr>privilèges</corr></choice> et prête à commettre 
+    tous les excès pour les conserver, et d'un autre côté une population pleine de sève, d'énergie, commençant à comprendre ses 
+    droits et sa dignité. </p>
+   <p> Telle était donc la position des colonies lorsque <rs type="event" ref="#RJ">la révolution de juillet</rs>, si riche d'avenir, fit croire un moment au réveil 
+   de la France. Le nouveau gouvernement, entraîné, malgré lui sans doute, par la force des circonstances, n'osant pas soulever 
+   le voile qui cachait ses arrières-pensées, se courbant enfin devant l'opinion publique qui venait d'avoir quelque retentissement, 
+   effaça le mot <emph><choice><sic>réglemens</sic><corr>réglements</corr></choice></emph> de l'article de <bibl type="legal"><title ref="#C30">la charte</title></bibl> concernant les colonies. 
+   Il déclara qu'elles seraient régies par des <emph>lois</emph> particulières. Cette reconnaissance tacite des abus de toutes sortes, dont 
+   le régime des ordonnances est la source impure, fit concevoir d'heureuses espérances aux hommes qui peuvent encore ajouter quelque 
+   foi à des promesses de ministres. C'est qu'ils ne croyaient pas qu'un gouvernement né de la démocratie pût si promptement oublier 
+   son origine; ils ne réfléchissaient pas que la conservation des titres de noblesse, d'une soi-disant chambre haute, et surtout 
+   d'une liste civile exagérée étaient des jalons posés par le pouvoir naissant pour se constituer sur des bases analogues à celui 
+   que le bras populaire venait d'écraser. La conservation de la noblesse titrée dans la mère-patrie, l'adjonction qu'on lui faisait 
+   de l'aristocratie des Turcarets ne disait-il pas hautement aux colonies que, sauf quelques légères modifications, on leur 
+   conserverait leur aristocratie de peau avec la plus grande partie de ses <choice><sic>priviléges</sic><corr>privilèges</corr></choice>.
+   </p>
+   <p>En effet les admirables <emph>lois</emph> particulières furent rendues tellement illusoires qu'elles équivalent au bon plaisir 
+   des ordonnances, n'en différant que par l'hypocrisie du titre. Par exemple, la loi électorale, établissant les droits politiques 
+   des blancs et des hommes de couleur, n'est-elle pas une ceuvre de perfide déception? A <placeName ref="#BrB">l'ile de Bourbon</placeName> 
+   et de <placeName ref="#Cay">Cayenne</placeName>, où les blancs sont en grande majorité, le cens électoral et l'éligibilité sont fixés 
+   à un taux moins élevé, car il n'y a point à craindre de concurrence; mais dans les colonies de la <placeName ref="#GP">Guadeloupe
+   </placeName> et de la <placeName ref="#MQ">Martinique</placeName>, où la population de couleur, très nombreuse, possède une fortune <pb n="11"/>moyenne, on prend 
+   la précaution d'élever le cens de manière qu'elle ne puisse y atteindre. Est-il rien de plus perfide, je dirai même de plus odieusement ironique que de concéder ainsi le droit en interdisant les moyens. N'eût-il pas été plus vrai de déclarer franchement que les blancs seuls seraient électeurs?</p>
+   <p>Il devenait difficile, en présence de cette loi d'organisation politique, créant ou plutôt sanctionnant un <choice><sic>privilége</sic><corr>privilèges</corr></choice>, de 
+   donner quelques <choice><sic>développemens</sic><corr>développements</corr></choice> à la force populaire. <orgName ref="#GN">La garde nationale</orgName>, cette admirable institution de la 
+   métropole, eut aux colonies une pâle imitation dont on eut soin de bannir le nom et l'élément démocratique, l'élection.</p>
+   <p>Si la France a une garde nationale, les colonies ont une milice dont les officiers, nommés par le gouverneur, sont pris 
+   généralement dans la population blanche et parmi quelques hommes de couleur. Ceux-ci, pour conserver un grade obtenu par 
+   la faveur, se devouent sans réflexion au gouverneur et se font ses <choice><sic>complaisans</sic><corr>complaisants</corr></choice>. Nous nous hâtons de le dire, parmi les 
+   promotions qui ont été faites, nous comptons des amis qui n'ont pas varié dans leurs opinions politiques, mais il n'en 
+   est pas ainsi de tous. Quand le pouvoir se rend odieux par sa partialité, il corrompt toujours les hommes qui se font ses 
+   <choice><sic>tenans</sic><corr>tenants</corr></choice>. Quels liens peuvent en effet unir des hommes se trouvant dans une aussi fausse position que la milice coloniale et 
+   ses chefs? La confiance? elle n'existe pas. La fraternité? on l'y chercherait vainement. Reste donc la force, et elle est 
+   bien journalière.</p>
+   <p>Dans l'ordre judiciaire, les abus fourmillent, et toujours ils sont à l'avantage de la classe aristocratique. Les 
+   cours royales et les tribunaux de première instance sont constitués de manière à laisser les blancs devenir juges et 
+   parties dans leur propre cause. Enfin, en dépit du texte même de la charte, des <emph>cours prévôtales</emph> peuvent 
+   encore ensanglanter le sol des colonies en assassinant juridiquement les <choice><sic>innocens</sic><corr>innocents</corr></choice> dont on veut se défaire.
+   </p>
+   <p>Eh bien! en présence de cet arbitraire sans bornes, appuyés sur leurs nombreux <choice><sic>priviléges</sic><corr>privilèges</corr></choice>, les blancs font entendre 
+   des murmures, et se plaignent que le gouvernement ait osé toucher à l'arche sainte de leur pouvoir, en diminuant 
+   quelques-uns de leurs <choice><sic>priviléges</sic><corr>privilèges</corr></choice>. Les droits politiques, ils les possèdent tous; la puissance judiciaire se trouve 
+   entre leurs mains; la force publique, ils la diri-<pb n="12"/>gent et la commandent; mais ce n'est pas assez au gré 
+   de leur orgueil blessé. Un principe, sans application il est vrai, a été émis; le mot égalité a été prononcé, n'était-ce 
+   pas suffisant pour froisser ces cœurs égoïstes et durs pour lesquels tout homme indépendant qui n'est pas de leur ligue 
+   n'est qu'un vil esclave révolté? Les hommes de couleur, au contraire, confians dans la bonne volonté dont le gouvernement 
+   avait donné quelques faibles gages, attendaient avec patience des jours meilleurs en formant leur éducation politi que 
+   de manière à pouvoir saisir l'influence que leur assurent dans leur patrie le bon droit et le nombre. Et que veulent-ils 
+   en effet qui ne soit sage et raisonnable? Placés dans leur pays dans la même position que le tiers-état en France avant 
+   la révolution, ils demandent ce que cet ordre exigeait alors: la liberté et l'égalité. Mais ils ont affaire à des 
+   privilégiés plus tenaces encore que ne le furent la noblesse et le clergé de France. Ceux-ci du moins n'avaient pas 
+   l'impudence de dénier le titre d'hommes à leurs adversaires.
+   </p>
+   <p>Quel était donc le moyen dont pouvaient se servir les privilégiés pour reconquérir l'intégrité de leurs <choice><sic>priviléges</sic><corr>privilèges</corr></choice>? 
+   Les demander au gouvernement était chose impossible, on leur eût répondu d'attendre tout du temps; que l'on n'avait 
+   fait que céder à une pénible nécessité; que d'ailleurs les libertés accordées aux mulâtres étaient purement illusoires, 
+   se bornant en réalité à quelques légères concessions de sociabilité. Et encore ces concessions même fléchissent-elles 
+   souvent devant le bon plaisir de l'aristocratie. 
+   </p>
+   <p>Ces réponses, qui satisferaient des hommes moins <choice><sic>impatiens</sic><corr>impatients</corr></choice>, moins orgueilleux surtout, eussent blessé profondément 
+   ces maîtres impérieux dont le despotisme s'exerce sans contrôle sur de malheureux esclaves. Il fallait donc employer 
+   tous les moyens, la calomnie même, pour asservir la classe de couleur et l'écraser. II fallait la représenter comme 
+   <emph>factieuse</emph>, turbulente, ayant juré de détruire les blancs et ne reculant pour y parvenir, ni devant 
+   l'assassinat, ni devant l'incendie. Il est si facile de calomnier des hommes auxquels on interdit la défense! De 
+   trouver coupable l'ennemi que l'on juge soi-même! Et puis les colonies comptent aussi dans leur sein des hommes 
+   qui savent créer des complots, les fomenter, les faire naître à propos, pour en tirer avantage dans leur intérêt. 
+   Et qu'importe en effet que le <emph>sang vil</emph> de quelques nègres vienne rougir le sol! Qu'importe que la 
+   tête d'un mulâtre roule sur <pb n="13"/> l'échafaud! Bagatelles que tout cela, quand on considère le glorieux 
+   résultat qu'on en attend; c'est-à-dire l'asservissement de la masse au profit du plus petit nombre. D'ailleurs 
+   la métropole offre bien quelques exemples qui sembleraient autoriser les colonies dans ce machiavélisme.
+   </p>
+   <p>Alors nous avons vu naître ces complots imaginaires, ces incendies dont la périodicité à certaines époques 
+   indique d'affreux mystères. Des innocens ont été accusés, jetés dans les cachots, torturés, fusillés sans pitié 
+   lorsqu'ils se permettaient quelques plaintes. Ni le sexe ni l'âge ne pouvaient attendrir ces hommes féroces qui 
+   se livrent envers leurs esclaves à des <choice><sic>raffinemens</sic><corr>raffinements</corr></choice> de cruauté, et leur or, jeté à la tête des proconsuls de 
+   la grande nation, cache à leurs yeux de larges taches de sang.
+   </p>
+   <p>Ah! si quelque jour une plume éloquente déchirant le voile funèbre qui couvre nos colonies, retraçait 
+   l'histoire de la domination des possesseurs d'hommes; si elle évoquait du fond de leur tombeau les tristes 
+   victimes qui chaque jour y sont entassées, jamais contrée souillée par la tyrannie n'offrirait de pages aussi 
+   horribles. Tout ce que nous lisons des Mésence, des Caligula, des Louis XI, tout ce que nos cœurs se refusent 
+   à croire comme trop dégradant pour l'humanité se trouve surpassé au dix-neuvième siècle par des Français 
+   d'outre-mer. Mais ces horribles scènes de despotisme n'ont point ici leur place, ailleurs nous les révélerons 
+   en jetant les noms de leurs infâmes auteurs aux gémonies de l'histoire. </p>
+    </div>
+   <div> 
+           <head>AFFAIRE DE LA GRAND'ANSE</head>
+<p>Pendant que le parquet de <placeName ref="#MQ">la Martinique</placeName> enfante laborieusement ce qu'il appelle <rs type="event"><emph>l'insurrection de la Grand'Anse</emph></rs>, l'attention du gouvernement métropolitain est appelée sur ces déplorables 
+<choice>
+   <orig>événemens</orig>
+   <reg>événements</reg>
+</choice>
+par la plainte des principales victimes adressée au <choice>
+   <orig>conseil d'état</orig>
+   <corr>conseil d'État</corr>
+</choice>
+. Les 
+<choice>
+   <orig>plaignans</orig>
+   <reg>plaignants</reg>
+</choice>
+sont, entre autres, les héritiers de l'infortuné <persName><emph>Lorville</emph></persName>, qui tomba percé de sept balles sous une décharge de mousqueterie commandée pour arrêter sa fuite; les héritiers de <persName><emph>Fréjus</emph></persName>, laissé pour mort sous les coups d'un <persName>Lasserre</persName> et depuis décédé par suite des violences exercées contre lui; les héritiers de <persName><emph>Maurice</emph></persName><pb n="14"/>tué avec sa femme, et sa fille assassinée par une fusillade exécutée sur eux à travers leur case; <persName><emph>Joseph Albert</emph></persName>, déporté de <date>1823</date>, blessé dans cette autre fusillade exécutée sur les prisonniers de <placeName>la purgerie Bonafon</placeName>, à travers le grillage des fenêtres, etc., etc.</p>
+<p>Certes de pareilles victimes, immolées non dans un conflit, non dans une lutte armée entre l'autorité et telle ou telle partie de la population, mais assassinées dans leur prison, dans leur domicile après s'être rendues à discrétion sur la foi de fallacieuses promesses; de pareilles victimes élevant la voix vers la mère-patrie semblaient mériter quelque intérêt de la part du ministère.</p>
+<p>De quelle douloureuse indignation ne seront pas saisis nos concitoyens des colonies lorsqu'ils sauront l'accueil fait par <persName ref="#GVD"><roleName>M. le ministre</roleName> de la marine</persName>, à la requête au <persName ref="#LP"><roleName>roi</roleName></persName> en son conseil, pour avoir autorisation de poursuivre les auteurs ou fauteurs de ces saturnales d'arbitraire et de sang! <persName><roleName>Ce ministre</roleName></persName>, à qui la requête a été communiquée, selon l'usage, se borne à ces courtes et dédaigneuses observations: <q>Je ne discuterai pas, dit-il, les faits, parce que la plupart des  
+<choice>
+   <orig>plaignans</orig>
+   <reg>plaignants</reg>
+</choice>
+sont compris dans le procès qui s'instruit à <placeName>la Martinique</placeName></q>. <bibl type="journal"><title ref="#MU">Moniteur</title></bibl> du <date>17 mars</date> a d'ailleurs donné une <emph>relation émanée du <persName ref="#EH"><roleName>gouverneur</roleName></persName></emph> (c'est-à-dire de celui que les 
+<choice>
+   <orig>plaignans</orig>
+   <reg>plaignants</reg>
+</choice>
+ accusent) qui ne peut entrer en parallèle, sous le rapport de la confiance qui lui est due, avec le récit d'individus compromis dans l'accusation. »</p>
+<p>Puis, sortant bientôt lui-même de son respect affecté pour la position des accusés, <persName ref="#GVD"> <roleName> M. le ministre </roleName></persName> termine sa lettre en les traitant de <emph>factieux</emph>, ressassant par des phrases banales et de commande ces lieux communs à l'ordre du jour : « Qu'il y aurait danger à accueillir leurs <emph>récriminations</emph> à une époque où tant et de si coupables tentatives sont dirigées contre la tranquillité publique. Tel est l'avis du département de la marine sur le recours des 
+<choice>
+   <orig>plaignans</orig>
+   <reg>plaignants</reg>
+</choice>
+ au
+ <choice>
+   <orig>conseil-d'état</orig>
+   <reg>conseil-d'État</reg>
+</choice>. 
+Nous aimons à croire que cette haute juridiction suivra des inspirations plus généreuses, plus équitables, plus amies de l'humanité.</p>
+<p>Oui, sans doute, quelques-uns des 
+<choice>
+   <orig>plaignans</orig>
+   <reg>plaignants</reg>
+</choice>
+, c'est-à-dire trois, et non la plupart, sont destinés à figurer dans le triste procès dont on donne à l'heure qu'il est le spectacle à <placeName>la Martinique </placeName>; mais les autres, mais ceux qui sont morts désarmés, prisonniers, sous les balles des soldats, ceux-là n'iront pas aux assises. Comment op<pb n="15"/>pose-t-on de sang-froid à leurs femmes et à leurs 
+<choice>
+   <orig>enfans</orig>
+   <reg>enfants</reg>
+</choice> 
+qui se plaignent, ce cruel déni de justice. Quel que soit d'ailleurs le résultat du procès, quand il devrait justifier l'existence du prétendu complot, pourra-t-il justifier jamais le gouvernement local du massacre de conspirateurs dont on s'était rendu maître, qu'on avait désarmés et qu'on tenait prisonniers, gardés à vue, investis de tous côtés par la force publique? pourra-t-il absoudre les autorités locales d'avoir laissé tomber ces malheureuses victimes sous un plomb meurtrier. </p>
+<p>On connaît aujourd'hui en <placeName><country>France</country></placeName> la procédure instruire à raison des 
+<choice>
+   <orig>événemens</orig>
+   <reg>événements</reg>
+</choice>
+de <placeName>la Grand'Anse</placeName>. Nous avons sous les yeux un exemplaire imprimé de l'arrêt de renvoi devant les assises, rendu par la chambre des mises en accusation, contre 117 prévenus. Cette pièce constate ce que nous venons d'avancer, que trois seulement de ceux qui ont adressé requête au  <choice>
+   <orig>conseil d'état</orig>
+   <corr>conseil-d'État</corr>
+</choice>
+ sont renvoyés aux assises de <placeName>Saint-Pierre</placeName>. Cet arrêt constate en outre authentiquement les faits énoncés dans la requête, et que <persName ref="#GVD"><roleName>M. le ministre de la marine</roleName></persName> dédaigne de discuter, notamment <emph>la fusillade exécutée par l'ordre exprès du capitaine commandant sur <persName>Lorville</persName> et deux autres prisonniers fuyant avec lui</emph>(pages 51 et 55 de l'arrêt de mise en accusation). Quant au massacre de <persName>la famille <emph>Maurice</emph></persName>, il est avoué, bien qu'un peu dénaturé par ce même <title>Moniteur</title> du <date>17 mars</date> dont la sincérité paraît moins douteuse que celle des 
+ <choice>
+   <orig>plaignans</orig>
+   <reg>plaignants</reg>
+</choice>
+, mais duquel néanmoins <roleName>M. le ministre</roleName> a retranché certains passages du rapport officiel du <persName ref="#EH"><roleName>gouverneur</roleName></persName> par trop maladroits. Des faits aussi incontestables sont-ils indignes de la sollicitude du gouvernement? ne méritent-ils pas examen, enquête, discussion contradictoire avec <persName ref="#GVD"><roleName>M. le ministre</roleName></persName>? Il en est une foule d'autres spécifiés également dans la requête, tous ceux qui dénoncent pour la centième fois à la métropole l'oppression systématique des classes de couleur, les provocations journalières dirigées contre elles, la dénégation persévérante de tous leurs droits au mépris des lois qui les leur accordent, tous ceux enfin qui donnent aux 
+<choice>
+   <orig>événemens</orig>
+   <reg>événements</reg>
+</choice>
+de <placeName>la Grand'Anse</placeName> une véritable couleur. Mais qu'importe! tous ces faits de haute importance politique et sociale seront omis, dissimulés, déniés au besoin, et dans tous les cas excusés. Ce qu'on montrera aux colonies, à <placeName><country>la France </country></placeName>, dans les relations officielles et authentiques, comme on sait, du <title><emph>Moniteur</emph></title>, ce sera <emph>cent dix- <pb n="16"/>sept conspirateurs</emph>comparaissant sous le poids d'une accusation de 300 pages, accusés tous de complot, car il en faut bien un au gouvernement de <placeName>la Martinique</placeName>; puis prévenus chacun en particulier d'avoir <emph>pillé</emph> deux pots de tafia et deux pots de rhum chez <placeName><emph>Seguinot </emph></placeName>; ou chez <placeName><emph>Desmadrelles</emph></placeName>, du savon, de la chandelle, une étrille de cheval; ou chez <placeName><emph>Lereynerie</emph></placeName>, une bouteille de genièvre (pages 85 et 86 d'arrêt de renvoi). Et tout cela imprimé par le gouvernement de la colonie à 200 pages, intitulé pompeusement, par le plus ignorant des magistrats,<rs type="event"><emph>Insurrection de la Grand' Anse</emph></rs>.</p>
+<p>Et la conspiration permanente contre les droits et la sécurité personnelle de la population de couleur! l'insurrection permanente des blancs contre les lois de la métropole chaque jour audacieusement souffletées par ces <emph>colons du nord</emph> de la colonie, tristement fameux par la proscription en masse de <date>1823</date>, par leur déclaration au gouvernement qu'ils ne reconnaîtraient jamais pour leurs égaux des hommes de couleur! Que fait-on de ces complots chaque jour 
+<choice>
+   <orig>renaissans</orig>
+   <reg>renaissant</reg>
+</choice>
+, toujours impunis </p>
+<p>Malheureuses colonies! votre sort sera-t-il <orig>long-temps</orig><corr>longtemps</corr> encore de montrer inutilement vos plaies à la mère-patrie sans que nos incrédules 
+<choice>
+   <orig>gouvernans</orig>
+   <reg>gouvernants</reg>
+</choice> 
+daignent au moins les sonder de leur doigt!</p>
+         </div>
+<div><head>UN MOT SUR LE DISCOURS PRONONCÉ PAR M. ISAMBERT DANS LA SÉANCE DU 8 MAI DERNIER.</head>
+<p>
+Si l'expérience est la pierre de touche de toute législation, on ne saurait disconvenir que la loi organique promulguée en 1833, pour les colonies, ne soit essentiellement défectueuse; car les résultats qu'elle a produits sont détestables; M. Isambert l'a surabondamment démontré. La commission chargée de l'examen de cette loi reconnut unanimement, à ce qu'il nous dit, qu'il était désirable que les hommes de couleur fussent admis dans le conseil colonial. Eh bien! à l'exception de la Guiane française, dans cha cune de nos colonies et notamment à la Martinique, la plus impor tante de toutes, ce conseil a été exclusivement formé de colons blancs. Ce vice radical de composition est un obstacle insurmon
+</p><pb n="17"/>
+<p>table à l'introduction des réformes que réclame impérieusement la situation de nos colonies. En preuve de cette assertion, M. Isambert cite un fait qui vaut bien la peine d'être reproduit: le gouverneur de la Martinique présenta au conseil colonial divers projets d'ordonnances royales concernant la réorganisation des milices, la forme et les conditions des affranchissemens, sur les avis à donner relativement à l'organisation municipale et judiciaire, etc. Voici en quels termes le conseil répondit: <quote> « Le conseil colonial rend hommage à la pensée du gouvernement du roi, mais souvent les mesures prises pour arriver à ce but, loin de l'atteindre, entraînent à des résultats désastreux. Nous allons nous occuper <emph>immédiatement</emph> du budget de 1834. »</quote></p>
+<p>Franchement, n'est-ce pas là repousser du pied les propositions du gouverneur? N'est-ce pas lui déclarer que ses propositions ne méritent même pas les honneurs d'une prise en considération? Aussi, sans s'y arrêter une seconde, le conseil passera immédiatement à l'examen du budget. Ce tour de leste dédain et de rondeur ne peint-il pas parfaitement la morgue aristocratique de nos très hauts et très puissans maîtres <emph>par droit de blancheur?</emph>
+</p>
+<p>En regard de cette impertinente réponse, l'honorable député a mis les généreuses paroles par lesquelles le conseil colonial de la Guiane française a, non seulement promis son concours à tous les projets d'amélioration que lui a présentés le gouverneur, mais s'est même engagé à prendre sur beaucoup de points l'initiative des réformes. Pourquoi l'accueil que ces propositions ont rencontré dans l'une de ces colonies est-il si différent de celui qu'elles ont reçu dans l'autre? C'est que la loi de 1833 a été encore plus parci monieuse du droit de suffrage envers les hommes de couleur de la Martinique et de la Guadeloupe, qu'envers ceux qui habitent à la Guiane française.
+</p>
+<p><quote>« Il n'en serait pas ainsi, dit M. Isambert, si quelques <emph>hommes de couleur</emph> (je dis quelques car je n'ai pas la prétention de vou loir que les classes, qui sont restées jusqu'à présent dans un ilo tisme complet aient le même avantage que la classe des créoles); mais enfin, si quelques hommes de couleur étaient admis dans le conseil colonial. » On voit que l'illustre jurisconsulte se montre ici de bonne composition, et qu'il fait par trop beau jeu à l'aristocratie coloniale; aussi notre devoir est-il de protester contre une</quote></p><pb n="18"/>
+<p><quote>concession qui n'irait pas à moins qu'à consacrer le maintien du privilège et un attentat au grand principe de l'égalité.</quote></p>
+<p>Nous regretterions que l'on vit dans ces paroles l'ombre même d'un reproche; nous savons trop bien tout ce qu'il y a chez M. Isambert de probité consciencieuse et d'amour de la justice, pour trouver, dans cet écart d'un principe, autre chose qu'un oubli d'un moment. Au surplus, les instincts généreux de M. Isambert ne tardent pas à le ramener au droit commun. Quelques lignes plus bas, il s'élève en effet contre la partialité du système électoral qui, sur dix électeurs, n'en admet qu'un seul de couleur, quoique la population de cette classe soit triple de celle des blancs; ce qui, évidemment, ferme à tout homme de couleur l'accès du conseil colonial. Sur ce point, il est indispensable d'en revenir au principe proclamé par l'assemblée constituante, qui conférait le droit d'élection à tout homme libre, âgé de vingt-cinq ans révolus, propriétaire d'immeubles, ou domicilié dans la commune depuis deux ans et payant une contribution.</p>
+<p>Une partie du discours que nous examinons est consacrée à faire ressortir les vices monstrueux qui fourmillent dans l'organisation judiciaire de la Martinique, et surtout de la justice criminelle. Lá on dirait que tout a été combiné pour priver les malheureux justiciables de toute chance d'acquittement. Ainsi, une cour d'assises se compose de trois conseillers de la cour royale et de quatre membres du college des assesseurs, institution qui offre un reflet du jury. Les uns et les autres sont pris exclusivement dans la classe blanche. Les quatre assesseurs sont tirés au sort sur une liste de trente membres, mais cette liste est encore réduite par les maladies, par les absences ou par toutes autres causes d'empêchement, à vingt hommes par assises; la décision se forme de la majorité des voix de cette sorte de jury réunies à celle de la cour, composée de trois juges. De manière qu'en supposant unanimité de la cour et du jury, l'arrêt est rendu à un nombre de voix inférieur à celui qui est exigé du jury en France; ainsi quatre voix suffisent dans les colonies pour faire tomber une tête, tandis qu'en France il en faut huit pour une condamnation criminelle, et que la loi anglaise, encore plus humaine, exige l'unanimité du jury pour toutes sortes de condamnations.
+</p>
+<p>Que si vous ajoutez à tout cela qu'aux colonies les hommes de
+</p>
+<pb n="19"/>
+<p>couleur sont sans cesse en rivalité avec les blancs, que les haines qui les divisent, violentes et envenimées, produisent souvent des querelles que l'on traduit en complots, n'en conclurez-vous pas que le glaive de la justice remis aux seules mains du créole devient inévitablement un instrument de vengeance et de cruauté? Que c'est livrer les hommes de couleur à la discrétion de leurs enne mis, et que maintenir plus <orig>long-temps</orig><corr>longtemps</corr> un tel état de choses, ce serait montrer une barbare indifférence pour la vie humaine et un odieux mépris pour les saintes lois de la justice. Une réorganisation judiciaire est d'autant plus urgente que, par suite des tristes événemens de la Grand'Anse, cent dix-sept personnes se trouvent en ce moment placées sous le poids d'une accusation capitale.
+</p>
+</div>
+<div>
+<head>NÉCESSITÉ DE L'INSTRUCTION AUX COLONIES</head>
+<p>Les hommes de couleur ont dû aux progrès de l'opinion publi que des améliorations dans leur condition. Ils ont enfin obtenu depuis 1830 ces droits politiques qui leur ont été si <orig>long-temps</orig><corr>longtemps</corr> refusés par des hommes intéressés encore à maintenir leur avilissement. Les distinctions humiliantes qui irritaient si justement leur amour propre blessé, et les privaient de l'exercice d'un droit naturel, ont enfin disparu. Ils font aujourd'hui, sans restriction, partie de la grande famille française. Ils sont citoyens français, ou aptes à le devenir. Qu'ils s'énorgueillissent à bon droit de cette qualification, qui les fait asseoir au milieu du peuple souverain avec leur part de sa souveraineté; mais qu'ils sachent aussi que ce bienfait de la civilisation est venu leur imposer de nouveaux devoirs, dont l'accomplissement est indispensable pour se maintenir au rang élevé qu'ils ont obtenu du triomphe de la liberté.
+</p>
+<p>C'est à la science que la civilisation a dû sa marche triomphale à travers les préjugés entassés par les siècles: ou plutôt, la civilisation n'a été elle-même que la conquête de la science. C'est là le plus noble résultat dont puisse s'enorgueillir l'esprit humain, et la liberté, fille de la civilisation, n'a pu avoir d'autre origine que sa mère. Science, civilisation, liberté, sont donc des corrélatifs inséparables, qui se supposent, s'appellent l'un l'autre et qui ne peuvent pas avoir d'existence séparée.
+</p>
+<pb n="20"/>
+<p>Ce serait donc avoir une bien fausse idée de la liberté que de croire qu'elle pût s'établir avec des chances de stabilité dans un pays qu'habitent des hommes ennemis de l'instruction, ou du moins <orig>indifférens</orig><corr>indifférents</corr> pour elle. C'est un air méphitique pour la liberté que celui que l'on respire dans le séjour de l'ignorance, des préjugés et des honteuses passions. La liberté ne veut pour adorateur que des hommes à idées généreuses, aux <orig>sentimens</orig><corr>sentiments</corr> élevés, qui par l'étude puissent apprécier ses bienfaits, lui offrir un culte pur, digne d'elle, et la défendre contre les attaques de ses ennemis.</p>
+<p>Les hommes de couleur doivent donc renoncer à conserver l'indépendance dont ils sont fiers aujourd'hui, et à l'espoir d'acquérir quelque influence dans les affaires de leur pays, s'ils ne répandent pas l'instruction parmi eux, et si un vil et désastreux égoïsme les empêche de faire les sacrifices nécessaires à l'éducation, en France, de leurs <orig>enfans</orig><corr>sentiments</corr>. Aujourd'hui plus que jamais ils doivent sentir ce besoin : le conseil colonial de la Martinique ne vient-il pas, dans sa première session, de supprimer les écoles mutuelles, créées par M. d'Argout pendant son ministère à la marine.
+</p>
+<p>Dans l'état actuel des choses aux colonies, l'émancipation politi que des hommes de couleur, et leur admission dans la grande famille française, doivent être sans doute un sujet de joie pour cha cun d'eux, mais quelle source d'humiliation n'y trouvent pas le plus grand nombre lorsque dans l'exercice de leurs nouveaux droits ils sont placés en contact d'hommes versés dans les affaires et possédant des connaissances spéciales et variées.
+</p>
+</div>
+    </div>
+   </body>
+  </text>
+</TEI>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="RdCv1n1-fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Revue des Colonies V.5 N°6 (selection in original French)</title>
+                <editor>Maria Beliaeva Solomon</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front></front>
+        <body>
+            <div>
+                <pb n="193"/>
+                <head>REVUE DES COLONIES.</head>
+                <div>
+                    <head>CORRESPONDANCE</head>
+                    <head>LETTRE DE M. ALEXANDRE DUMAS.</head>
+                    <p> Il existe une <bibl type="periodical"><title ref="#RC">Revue Coloniale</title></bibl><ptr target="#mock3"/> qui diffère de la <bibl type="periodical"><title ref="#RdC">Revue des Colonies</title></bibl>, non seulement par son titre, mais par ses principes et le but de sa publication. En mentionnant cette opposition nous n'entendons point blâmer nos adversaires. Chacun est parfaitement libre d'écrire pour ou contre l'esprit de réforme; mais la lettre suivante, qui nous est adressée par une des illustrations littéraires du siècle, nous obligeait à dire qu'une opinion contraire à la nôtre publie une <title>Revue Coloniale</title>, et que cette Revue avait inscrit <persName ref="#ADp">M. Alexandre Dumas</persName> au nombre de ses collaborateurs.</p>
+                </div>
+                <div>
+                    <floatingText>
+                        <body>
+                            <div>
+                                <head>Monsieur le Rédacteur de la <title>Revue des Colonies.</title></head>
+                                <p> Voulez-vous bien rectifier dans un de vos prochains numéros une erreur que je vois commise à mon égard sur la couverture de la <title>Revue Coloniale</title>; elle annonce comme devant faire paraître dans un de ses prochains numéros des poésies de moi. D'abord, je fais peu de poésies, excepté au théâtre; puis je n'ai rien promis à la <title>Revue Coloniale</title> qui ne m'a rien demandé. Toutes mes sympathies, au contraire, sont instinctivement et nationalement pour les adversaires des principes que défendent Messieurs de la <title>Revue Coloniale</title>; c'est ce que je désire que l'on sache parfaitement, non seulement en France, mais partout où je compte des frères de race et des amis de couleur.</p>
+                                <lb/>
+                                <closer>Veuillez agréer, etc. <lb/> <signed>A. DUMAS</signed>
+                                </closer>
+                            </div>
+                        </body>
+                    </floatingText>
+                </div>
+                <div>
+                <head>BIOGRAPHIE.
+                </head>
+                <head>VASSA<ptr target="#mock1"/></head>
+                <p><persName ref="#Equ">Olaudad-Equiano, ou Gustave Vassa</persName> (plus connu sous ce dernier nom), naquit à <placeName ref="#Esk">Essaka</placeName>, charmante et fertile vallée, à une grande distance de la côte et de la capitale du <sic>Bénier</sic><corr><placeName ref="#BEN">Bénin</placeName></corr>. A l'âge de</p>
+                </div>
+            </div>
+            <closer>5e Année.										13</closer>
+        </body>
+        <back>
+            <xi:include href="RdCv5n6p13-notes.xml"/>
+            <xi:include href="entities.xml"/>
+        </back>
+    </text>
+</TEI>
