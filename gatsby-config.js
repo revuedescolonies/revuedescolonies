@@ -1,13 +1,14 @@
 const basePath = process.env.BASEPATH
-const title = "Revue des Colonies"
-const htmlTitle = title
+const title = "Selections from the Revue des Colonies"
+const htmlTitle = "Selections from the <em>Revue des Colonies</em>"
+const {addPtrNumbers, xinclude} = require('./scripts/transformers')
 
 module.exports = {
   pathPrefix: basePath,
   siteMetadata: {
     title,
     htmlTitle,
-    description: `Digital Edition of Revue des Colonies`,
+    description: `${title}. Edited by Maria Beliaeva Solomon.`,
     authors: [
       {
         "first": "Maria",
@@ -39,18 +40,34 @@ module.exports = {
         link: '/about'
       },
       {
+        name: 'people',
+        link: '/people'
+      },
+      {
         name: 'edition',
-        link: '/example' // This needs to match the filename of the TEI
+        link: '/toc'
       },
     ]
   },
   plugins: [
     `gatsby-plugin-emotion`,
     `gatsby-plugin-material-ui`,
-    `gatsby-theme-ceteicean`,
+    {
+      resolve: `gatsby-theme-ceteicean`,
+      options: {
+        applyBefore: [addPtrNumbers, xinclude],
+        applyAfter: [],
+        namespaces: {
+          "http://www.tei-c.org/ns/1.0": "tei",
+          "http://www.tei-c.org/ns/Examples": "teieg",
+          "http://www.w3.org/2001/XInclude": "xi"
+        }
+      }
+    },
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-netlify`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -64,12 +81,13 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `pages`,
-        path: `${__dirname}/src/contents`,
-      },
-    },
+          resolve: `gatsby-source-filesystem`,
+          options: {
+            name: `pages`,
+            path: `${__dirname}/src/contents`,
+          },
+        },
+      
     `gatsby-transformer-remark`,
     {
       resolve: `gatsby-plugin-manifest`,

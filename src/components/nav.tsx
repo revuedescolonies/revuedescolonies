@@ -3,22 +3,28 @@ import { navigate } from "gatsby"
 import Grid from "@mui/material/Grid"
 import Container from "@mui/material/Container"
 import Button from "@mui/material/Button"
+import DisplayOptionsMenu from "./displayOptionsMenu"
 
 import theme from "../theme"
+import useMediaQuery from "@mui/material/useMediaQuery"
+import Box from "@mui/material/Box"
+import RadioGroup from "@mui/material/RadioGroup"
+import FormControlLabel from "@mui/material/FormControlLabel"
+import Radio from "@mui/material/Radio"
 
-interface Links {
+interface Link {
   name: string
   link: string
 }
 
 interface Props {
   location: string
-  menuLinks: Links[]
+  menuLinks: Link[]
 }
 
 const styles = {
   nav: {
-    "& div": {
+    "& .MuiGrid-item": {
       padding: "0 2.1rem 0 0",
     },
   },
@@ -34,15 +40,38 @@ const styles = {
   },
 }
 
-const Layout = ({ location, menuLinks }: Props) => {
-  const isHome = location === "intro"
+const Nav = ({ location, menuLinks }: Props) => {
+  const isScreenSmall = useMediaQuery(theme.breakpoints.down('md'))
+  const lang = location.replace(/\w+-/, '')
+
+  const handleTextLangChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const target = event.target as HTMLInputElement
+    if (target.name == 'textLang') {
+      const dest = location.replace("introduction-", "").replace(/\w{2}$/, target.value)
+      navigate(`/${dest == "en" ? "" : dest}`)
+    }
+  }
+  const options = (<>
+    <Box sx={{flex: '1 1 auto'}}/>
+    <DisplayOptionsMenu label={`Language (${lang})`} color="default">
+      <Box sx={{padding: ".5em 1em 0 1em"}}> 
+        <RadioGroup row name="textLang" value={lang} onChange={handleTextLangChange}>
+          <FormControlLabel value="fr" control={<Radio />} label="Français" />
+          <FormControlLabel value="en" control={<Radio />} label="English" />
+        </RadioGroup>
+      </Box>
+    </DisplayOptionsMenu>
+  </>)
+
+  const isEdition = location.startsWith("RdC")
 
   return (
     <Container maxWidth="md" sx={styles.nav}>
       <Grid container={true} component="nav">
         {menuLinks.map(link => {
+          console.log(location, link.link)
           const active = {
-            borderBottomColor: (isHome && link.link === "/") || location === link.link.replace(/\/+/, "")
+            borderBottomColor: location === link.link || (isEdition && link.name == "edition")
               ? theme.palette.primary.main
               : "transparent"
           }
@@ -62,9 +91,10 @@ const Layout = ({ location, menuLinks }: Props) => {
             </Grid>
           )
         })}
+        {isEdition ? options : null}
       </Grid>
     </Container>
   );
 }
 
-export default Layout
+export default Nav

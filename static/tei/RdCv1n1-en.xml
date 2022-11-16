@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="RdCv1n1-en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Revue des Colonies V.1 N°1 (selection in English translation)</title>
+                <editor>Maria Beliaeva Solomon</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+          <pb n="1" facs="v1n1p1"/>
+            <titlePage>
+                <titlePart type="main"><seg>REVUE</seg><lb/>DES<lb/><seg>COLONIES,</seg></titlePart>
+                <titlePart type="sub">MONTHLY COMPENDIUM<ptr target="#n13FA"/><lb/> OF
+                    POLITICS, ADMINISTRATION, JUSTICE, INSTRUCTION AND COLONIAL CUSTOMS,</titlePart>
+                <byline>BY A <orgName ref="#SHC">SOCIETY OF MEN OF COLOR</orgName></byline>
+                <byline>DIRECTED BY <persName ref="#CB">C.-A. BISSETTE</persName>.<lb/></byline>
+                <docEdition>N°1<lb/>July.</docEdition>
+                <docImprint><pubPlace><settlement>PARIS</settlement>,<lb/> AT THE OFFICE OF THE REVUE DES COLONIES,<lb/>46, RUE NEUVE-SAINT-EUSTACHE</pubPlace> <lb/> <date>1834</date>.</docImprint>
+            </titlePage>
+        </front>
+        <body>
+            <div>
+               <pb n="3" facs="v1n1p3"/>
+                <head><seg>REVUE</seg><lb/>DES <lb/><seg>COLONIES</seg></head>
+                <div xml:id="prospectus">
+                    <head rend="bold">Prospectus.</head>
+                    <p> As of now, the colonies, generally speaking, only know of the great
+                        principles of philanthropy in theory; of freedom in action, nothing at all. </p>
+                    <p> The suffering and oppressed classes appeal and fight relentlessly, always in
+                        vain. To stimulate the feeble good will to which our rulers limit
+                        themselves, it is necessary to compile the just complaints that arise from
+                        all sides. These claims, these grievances, to be successful, must receive
+                        the greatest publicity: this is the object of our <bibl type="periodical"
+                                ><title ref="#RdC">Revue</title></bibl>
+                    </p>
+                    <p> The debate floor <emph>today</emph> is no longer enough; petitions are
+                        adjourned by the calculated negligence of rapporteurs or pushed back by the 
+                        insolent agendas of the day. On the other hand, colonial authorities, always
+                        disposed in favor of the privileged, cleverly evade the ministers' prescriptions. Against this hitherto successful tactic
+                        of the partisans of aristocracy and privilege, it is necessary to finally
+                        engage the power of public opinion, enlightened by a discussion always wise,
+                        always true, but energetic and never timid, of the causes, whatever they may
+                        be, which hinder the desirable fusion of the diverse populations of the
+                            colonies.<ptr target="#n4F2A"/>
+                    </p>
+                    <p> For this purpose, a specialized journal is founded under the title of <bibl
+                            type="periodical"><title ref="#RdC"> Revue des Colonies</title></bibl>,
+                        with <persName ref="#CB">M. Bissette</persName> as director. </p>
+                    <pb n="4" facs="v1n1p4"/>
+                    <p> This journal is not only dedicated to all that concerns the colonies,
+                        considered as a source of news and interesting facts apt to occupy the
+                        leisure of the reader, but it devotes itself entirely to the political,
+                        intellectual, moral and industrial interests of colonists of either
+                            color.<ptr target="#n6CEA"/>
+                    </p>
+                    <p> Nothing that concerns the French colonies in particular will be omitted from
+                        this monthly publication. The government, the administration, and the justice
+                        system will be examined here with respect to both their actions and their
+                        persons; for it is the latter that too often determines the spirit and
+                        the manner in which populations are either oppressed or well looked
+                        after.</p>
+                    <p> The civil, political, and social rights of the two free classes, which,
+                        having been hitherto divided, ought to be united, will here be advanced and
+                        supported with indefatigable zeal. </p>
+                    <p> The great question of the abolition of slavery, the cornerstone of liberty,
+                        will here be treated with the most conscientious care and the most ardent
+                        love of equality and of the general good.<ptr target="#n79DB"/>
+                    </p>
+                    <p>Arbitrariness and partiality will here be brought to face the court of public
+                        opinion with no distinction between persons. The weak will find here support
+                        and protection, the oppressor, punishment, the official, warranted blame for
+                        his illegal acts, but respect for his person. </p>
+                    <p> The <title>Revue des Colonies</title> will also concern itself with all the
+                        changes made or projected in the legislation that governs foreign colonies
+                        and inevitably affects our own in a powerful way.<ptr target="#n5699"/>
+                    </p>
+                    <p> National interests, in relation to the possession of
+                            <placeName ref="#Alg">Algiers</placeName>, will find in the <title>Revue des
+                            Colonies</title> a devoted and independent outlet.<ptr target="#n6ED7"/>
+                    </p>
+                    <p> Numerous and knowledgeable correspondents ensure that readers find as much
+                        variety as edification in the articles of the <title>Revue des
+                            Colonies.</title>
+                    </p>
+                </div>
+                <pb/>
+                <div xml:id="declaration">
+                  <pb n="5" facs="v1n1p5"/>
+                    <head>DECLARATION OF PRINCIPLES.</head>
+                    <p> The <title>Revue des Colonies</title> believes it must, above all, indicate
+                        by what principles it will offer judgment upon men and things.<ptr
+                            target="#n3E34"/> In its estimation, '89, in the immortal Declaration
+                        of Rights voted by the <orgName ref="#AN">National Assembly</orgName>, laid
+                        the future foundations of all truly democratic institutions; this is why we
+                        inscribe this <title>Declaration</title> at the beginning of this
+                        compendium: these are the tables of our law. </p>
+                    <epigraph>
+                        <cit>
+                            <quote>The rights of men had been misunderstood, insulted for centuries;
+                                they have been restored for all mankind by this
+                                    <title>Declaration</title>, which will forever remain a rallying
+                                cry against oppressors, and a law for legislators themselves. </quote>
+                            <bibl type="legal">(Address of the <orgName>National Assembly</orgName>
+                                to the French People, 11 February 1790.)</bibl>
+                        </cit>
+                    </epigraph>
+                </div>
+                <div>
+                    <head rend="bold">Excerpt</head>
+                    <head>FROM THE MINUTES OF THE <orgName>NATIONAL ASSEMBLY</orgName> OF AUGUST 20,
+                        21, 22, 23, 24, 26 AND OCTOBER 1st, 1789.</head>
+                    <floatingText>
+                        <body>
+                            <div>
+                                <head>DECLARATION OF THE RIGHTS OF MAN IN SOCIETY.<ptr
+                                        target="#n7767"/></head>
+                                <p>The representatives of the French People, formed into a National
+                                    Assembly, considering ignorance, forgetfulness or contempt of
+                                    the rights of man to be the only causes of public misfortunes
+                                    and the corruption of Governments, have resolved to set forth,
+                                    in a solemn Declaration, the natural, unalienable and sacred
+                                    rights of man, to the end that this Declaration, constantly
+                                    present to all members of the body politic, may remind them
+                                    unceasingly of their rights and their duties; to the end that
+                                    the acts of the legislative power and those of the executive
+                                    power, since they may be continually compared with the aim of
+                                    every political institution, may thereby be the more respected;
+                                    to the end that the demands of the citizens, founded henceforth
+                                    on simple and incontestable principles, may always be directed
+                                    toward the maintenance of the Constitution and the happiness of
+                                    all. </p>
+                                <pb n="6" facs="v1n1p6"/>
+                                <p> In consequence whereof, the National Assembly recognizes and
+                                    declares, in the presence and under the auspices of the Supreme
+                                    Being, the following Rights of Man and of the Citizen. </p>
+                                <p xml:id="art1">Article 1.-Men are born and remain free and equal in rights.
+                                    Social distinctions may be based only on considerations of the
+                                    common good.</p>
+                                <p>2.- The aim of every political association is the preservation of
+                                    the natural and imprescriptible rights of man. These rights are
+                                    Liberty, Property, Safety and Resistance to Oppression.</p>
+                                <p xml:id="art3">3.-The source of all sovereignty lies essentially in the Nation.
+                                    No corporate body, no individual may exercise any authority that
+                                    does not expressly emanate from it.</p>
+                                <p>4.- Liberty consists in being able to do anything that does not
+                                    harm others: thus, the exercise of the natural rights of every
+                                    man has no bounds other than those that ensure to the other
+                                    members of society the enjoyment of these same rights. These
+                                    bounds may be determined only by Law.</p>
+                                <p><gap reason="accidental" unit="number" extent="1"
+                                        /><supplied>5.-</supplied> The Law has the right to forbid
+                                    only those actions that are injurious to society. Nothing that
+                                    is not forbidden by Law may be hindered, and no one may be
+                                    compelled to do what the Law does not ordain.</p>
+                                <p><choice>
+                                        <sic>5.-</sic>
+                                        <corr>6.-</corr>
+                                    </choice>The Law is the expression of the general will. All
+                                    citizens have the right to take part, personally or through
+                                    their representatives, in its making. It must be the same for
+                                    all, whether it protects or punishes. All citizens, being equal
+                                    in its eyes, shall be equally eligible to all high offices,
+                                    public positions and employments, according to their ability,
+                                    and without other distinction than that of their virtues and
+                                    talents.</p>
+                                <p>7.- No man may be accused, arrested or detained except in the
+                                    cases determined by the Law, and following the procedure that it
+                                    has prescribed. Those who solicit, expedite, carry out, or cause
+                                    to be carried out arbitrary orders must be punished; but any
+                                    citizen summoned or apprehended by virtue of the Law, must give
+                                    instant obedience; resistance makes him guilty.</p>
+                                <p> 8.- The Law must prescribe only the punishments that are
+                                    strictly and evidently necessary; and no one may be punished
+                                    except by virtue of a Law drawn up and promulgated before the
+                                    offense is committed, and legally applied.</p>
+                                <p>9.- As every man is presumed innocent until he has <pb n="7" facs="v1n1p7"/>
+                                    been declared guilty, if it should be considered necessary to
+                                    arrest him, any undue harshness that is not required to secure
+                                    his person must be severely curbed by Law.</p>
+                                <p>10. - No one may be disturbed on account of his opinions, even
+                                    religious ones, as long as the manifestation of such opinions
+                                    does not interfere with the established Law and Order.</p>
+                                <p>11.- The free communication of ideas and of opinions is one of
+                                    the most precious rights of man. Any citizen may therefore
+                                    speak, write and publish freely, except what is tantamount to
+                                    the abuse of this liberty in the cases determined by Law.</p>
+                                <p>12.- To guarantee the Rights of Man and of the Citizen a public
+                                    force is necessary; this force is therefore established for the
+                                    benefit of all, and not for the particular use of those to whom
+                                    it is entrusted.</p>
+                                <p>13. For the maintenance of the public force, and for
+                                    administrative expenses, a general tax is indispensable; it must
+                                    be equally distributed among all citizens, in proportion to
+                                    their ability to pay.</p>
+                                <p>14. All citizens have the right to ascertain, by themselves, or
+                                    through their representatives, the need for a public tax, to
+                                    consent to it freely, to watch over its use, and to determine
+                                    its proportion, basis, collection and duration.</p>
+                                <p>15. Society has the right to ask a public official for an
+                                    accounting of his administration.</p>
+                                <p>16. Any society in which no provision is made for guaranteeing
+                                    rights or for the separation of powers, has no Constitution.</p>
+                                <p xml:id="art17">17.- Since the right to Property is inviolable and sacred, no one
+                                    may be deprived thereof, unless public necessity, legally
+                                    ascertained, obviously requires it, and just and prior indemnity
+                                    has been paid.</p>
+                                <closer> Excerpt from the minutes of the <orgName>National
+                                        Assembly</orgName>, October 1, 1789. <lb/>Collated true to
+                                    the original. <signed>Signed MOUNIER, president; Viscount DE
+                                        MIRABEAU, DEMEUNIER, BUREAU DE Pusy, Bishop DE NANCY,
+                                        FAYDEL, Abbot of EYMAR, secretaries. </signed>
+                                </closer>
+                            </div>
+                        </body>
+                    </floatingText>
+                    <pb n="8" facs="v1n1p8"/>
+                    <p>All of the principles of '89 are in this declaration; and, whatever one does,
+                        there is in these principles, which the French revolution, by its republican
+                        and imperial armies, has sown acrossed the land of <placeName>Europe</placeName>, and by its books everywhere in the universe, a
+                        power which cannot be suppressed. </p>
+                    <p>Certainly, if a man should be reminded of anything, it is his rights, which
+                        aristocracies may well succeed in making obsolete here and there, but to
+                        which the future belongs.</p>
+                    <p>We ask that we compare the present state of our legislation with this page of
+                        justice and liberty, that we examine whether the laws that are made for us
+                        are in conformity with the principles of this declaration, which must be
+                        forever, according to the fine expression of the <orgName>National
+                            Assembly</orgName>, <emph>the law of the legislators
+                        themselves</emph>. And if this examination clearly shows that the government,
+                        whatever it may be, is not founded on this one equitable basis — the
+                        enforcement of the rights of all — those who, like us and with the
+                            <orgName>National Assembly</orgName>, will be convinced that
+                            <emph>ignorance, forgetfulness or contempt for the rights of man are the
+                            only causes of public misfortunes and the corruption of
+                            governments</emph>, will triumphantly conclude that all the evil of the
+                        present situation, in the colonies as everywhere, is absolutely a result of
+                        this ignorance, of this forgetfulness or of this contempt, we cannot
+                        precisely say which, as much on the part of the rulers as on that of the
+                        governed.</p>
+                    <closer>
+                        <emph>The director</emph>, <signed><persName ref="#CB"
+                            >BISSETTE</persName>.</signed>
+                    </closer>
+                </div>
+                <div xml:id="regime">
+                    <head>A LOOK AT THE COLONIAL REGIME AND ITS EFFECTS.</head>
+                    <p>The deplorable events of Grand'Anse, <ptr target="#n590A"/>
+                        <placeName ref="#MQ">Martinique</placeName> have echoed through every
+                        newspaper. Some, inspired by the authorities, in whose eyes all that is
+                        emancipation becomes an object of terror, have presented this affair in an
+                        unfavorable light to those who have limited themselves to passive
+                            resistance.<ptr target="#n684A"/> Others, more benevolent, and above
+                        all, more impartial, were careful not to pass premature judgment on a matter
+                        of this nature: they knew that passion exaggerates both evil and good, and
+                        that one should not <pb n="9" facs="v1n1p9"/>rush to adopt the words of a powerful and
+                        often unjust party. </p>
+                    <p>We too will attend to this matter, but by prefacing it with all the
+                        considerations necessary to draw the correct conclusions.</p>
+                    <p>These facts, which seem to us hardly believable, are repeated every day with
+                        impunity in our colonies. And how could it not be so, when the men charged
+                        with maintaining the laws are those most interested in violating them!
+                        Arbitrariness is therefore only the sad corollary of a state of affairs
+                        whose origins date back to a time of conquest, plunder and brutal violence.
+                        We know that this arbitrariness exists; philosophy has decried it; power
+                        itself seems to reject a shameful solidarity, and yet nothing real has been
+                        done to put an end to it. Everything has been deceit and lies, from the
+                        illusory measures against the slave trade, to the laws which seem to grant
+                        men of color the rights of citizens, and a justice which one could not
+                        truthfully represent scales in the hand.</p>
+                    <p>These causes, which, deriving from the overall regime of the colonies, would seem foreign to the events of Grand'Anse, to which we will attend more particularly, 
+                    <ptr target="#n65C6"/> are nevertheless attached to them by a multitude of threads:
+                        for nothing in the fate of peoples, as in that of men, is isolated, and the
+                        actual effects are often produced by causes lost to the depths of time.</p>
+                    <p>The colonies too, despite their distance from the motherland, felt the
+                        effects of the great political commotion which regenerated <placeName>France</placeName>. A long subjugation, largely exploited by
+                        the aristocracy, had not been able to paralyze hearts so much that they did
+                        not feel warmed by the rays of the sun of freedom. Men of color especially,
+                        more advantaged than the unfortunate slaves, turned their eyes towards
+                        France with love and confidence; they felt that each link which fell from
+                        the chains of old Europe was for them a pledge of emancipation. The
+                        emblazoned nobility, elevated to the rank of people, offered an edifying
+                        lesson to the nobility of the skin,<ptr target="#n2BFD"/> which did not
+                        even possess the prestige of the former's personal accomplishments. The
+                        destruction of one was the sure guarantee of the destruction of the other.
+                        Was not the emancipation of the people, who had long suffered the bondage <pb n="10" facs="v1n1p10"/>of the field, also a sign of freedom for the slaves? There was
+                        therefore in the colonies what is still there today, an absurd aristocracy
+                        clinging to its privileges and willing to go to any length to preserve them,
+                        and on the other hand a population full of verve, of energy, beginning to
+                        understand its rights and its dignity. </p>
+                    <p>Such, then, was the position of the colonies when the July revolution,<ptr
+                            target="#n9F29"/> so rich in prospects, made conceivable for a moment
+                        the awakening of France. The new government, carried along, no doubt in
+                        spite of itself, by the force of circumstance, not daring to lift the veil
+                        which hid its ulterior motives, finally bowing before public opinion which
+                        had just had its impact felt, erased the word <emph>regulations</emph> from
+                        the article of the charter concerning the colonies. It declared that the
+                        colonies would be governed by special <emph>laws</emph><ptr target="#n3257"
+                        />. This tacit recognition of abuses of all kinds, originating in the
+                        corrupted system of ordinences, stoked the hopes of those who could still
+                        put some faith in ministers' promises. It was because they did not believe
+                        that a government born of democracy could so quickly forget its origin; they
+                        did not comprehend that the preservation of titles of nobility, of a
+                        so-called upper chamber, and above all of an exaggerated civil list were
+                        milestones laid down by the nascent power to constitute itself on bases
+                        similar to that which the popular arm had just crushed. Did not the
+                        preservation of the titled nobility in the motherland,<ptr target="#n917D"/> and the addition that was made to it of a Turcarets aristrocracy,<ptr
+                            target="#n9C9A"/> clearly impart to the colonies that, except for a few
+                        slight adjustments, their aristocracy of skin would be preserved along with
+                        most of its privileges.</p>
+                    <p>Indeed these fine particular <emph>laws</emph> were rendered so illusory as
+                        to match the ordinances' arbitrariness,<ptr target="#n332A"/> differing from
+                        them only by the hypocrisy of the name. For example, is not the electoral
+                        law, establishing the political rights of whites and of men of color, a work
+                        of perfidious deception? On the <placeName ref="#BrB">isle of
+                            Bourbon</placeName> and of <placeName ref="#Cay">Cayenne</placeName>,
+                        where the whites are in overwhelming majority, the electoral qualification
+                        and eligibility are fixed at a lower rate, for there is no fear of
+                        competition; but in the colonies of <placeName ref="#GP">Guadeloupe
+                        </placeName> and <placeName ref="#MQ">Martinique</placeName>, where the
+                        population of color, quite numerous, is of <pb n="11" facs="v1n1p11"/>average wealth, the
+                        tax is preemptively raised to an unattainable level. Is there anything more
+                        perfidious, I would even say more odiously ironic, than to thus concede the
+                        right while prohibiting the means. Would it not have been truer to declare
+                        outright that only whites could vote?<ptr target="#n0490"/></p>
+                    <p>It became difficult, in the presence of this law of political organization,
+                        creating or rather sanctioning a privilege, to allow for the action of the
+                        popular will. The national guard, that
+                        admirable institution of the métropole,<ptr target="#n5F16"/> had a pale
+                        imitation in the colonies, where both the name and the democratic element of
+                        election were carefully banished.</p>
+                    <p>If France has a national guard, the colonies have a militia whose officers,
+                        appointed by the governor, are generally taken from the white population and
+                        from among a few men of color. These, to keep a rank obtained by favor,
+                        devote themselves unquestioningly to the governor and become his
+                        accomplices. We hasten to say that, among those promoted, we count friends
+                        who have not wavered in their political opinions, but not all of them are
+                        so. When power makes itself odious by its partiality, it always corrupts the
+                        men who make themselves its supporters. What bonds can indeed unite men who
+                        find themselves in a position so false as the colonial militia and its
+                        leaders? Trust? It does not exist. Fraternity? it would be vain to search
+                        for it there. So there remains only force, and it is indeed felt
+                        everyday.</p>
+                    <p>In the judicial system, abuses abound, and they are always to the advantage
+                        of the aristocratic class. The royal courts and the magistrates' courts are
+                        constituted in such a way as to let the whites become judges and parties in
+                        their own cause. Finally, despite the very text of the charter, provost
+                        courts can still bloody the soil of the colonies by legally assassinating
+                        the innocent people they want to get rid of.</p>
+                    <p>Well! in the presence of this boundless arbitrariness, leaning on their
+                        numerous privileges, the whites groan and complain that the government has
+                        dared to touch the holy ark of their power, by diminishing some of their
+                        privileges. Political rights, they possess them all; the judicial power is
+                        in their hands; law enforcement, they<pb n="12" facs="v1n1p12"/> direct and command it; but
+                        it is not enough to suit their wounded pride. A principle, admittedly
+                        without application, has been issued; the word equality was spoken, was it
+                        not enough to offend those selfish and hard hearts for whom every
+                        independent man who is not part of their league is but a worthless
+                        rebellious slave?<ptr target="#n3701"/> Men of color, on the contrary,
+                        confident in the government's feeble pledges of good will, waited patiently
+                        for better days perfecting their political education so as to wield the
+                        influence that they are entitled to in their country by their rights and
+                        numbers. And what do they really want that is not wise and reasonable?
+                        Placed in their land in the same position as the third estate in France
+                        before the revolution, they then ask what this order commanded: liberty and
+                        equality. But they are dealing with privileged people who are even more
+                        tenacious than the nobility and clergy of France. These at least did not
+                        have the impudence to deny the title of men to their adversaries.<ptr
+                            target="#n8508"/>
+                    </p>
+                    <p>By what means, then, could the privileged recover the integrity of their
+                        privileges? To ask the government for them was impossible, they would have
+                        been told to bide their time; that the compromise was only a matter of
+                        painful necessity; that, moreover, the liberties granted to the mulattoes
+                        were purely illusory, being limited in reality to a few slight concessions
+                        of sociability.<ptr target="#n6759"/> And furthermore these same concessions
+                        often bend according to the whims of the aristocracy. These answers, which
+                        would satisfy less impatient, and above all less prideful men, would have
+                        deeply wounded those imperious masters whose despotism is exercised without
+                        control over unfortunate slaves. It was therefore necessary to employ all
+                        means, even calumny, to subjugate the class of color and crush it.<ptr
+                            target="#n7A20"/> It had to be represented as factious, turbulent,
+                        having sworn to destroy the whites and stopping at nothing, not murder, not
+                        arson, to accomplish this. It is so easy to slander men who are not allowed
+                        to defend themselves! To find guilty the enemy that one judges oneself! And
+                        then the colonies also count among their ranks men who know how to create
+                        conspiracies, foment them, cause them to arise at the right time, in order
+                        to take advantage of them in their own interest. And what does it really
+                        matter that the worthless blood of a few negroes comes to redden the ground!
+                        What does it matter if a mulatto's head rolls on<pb n="13" facs="v1n1p13"/> the scaffold!
+                        Mere trifles, when you consider the glorious result expected of it; that is,
+                        the bondage of the many for the benefit of the few. Besides, the métropole
+                        offers a few examples which would seem to authorize the colonies in this
+                        Machiavellianism.</p>
+                    <p>And so we have seen the birth of these imaginary plots, these conflagrations
+                        whose frequency during certain periods bespeaks frightful mysteries.
+                        Innocents have been accused, thrown into dungeons, tortured, shot without
+                        pity when they allowed themselves a few complaints. Neither sex nor age
+                        could soften these ferocious men who subject their slaves to the most
+                        sophisticated cruelties, and their gold, thrown at the heads of the
+                        proconsuls of the great nation, hides large stains of blood from their
+                        eyes.</p>
+                    <p>Ah! if some day an eloquent pen tearing the funereal veil which covers our
+                        colonies, would retrace the history of domination of the possessors of
+                        men; if it evoked from the depths of their tombs the sad victims who are
+                        heaped there every day, never would a country defiled by tyranny offer such
+                        horrible pages.<ptr target="#n4C92"/> All that we read of the Mésences, the
+                        Caligulas, the Louis XIs,<ptr target="#n5DA0"/> all that our hearts refuse
+                        to believe as too degrading for humanity, finds itself surpassed in the
+                        nineteenth century by overseas Frenchmen. But these horrible scenes of
+                        despotism have no place here, elsewhere we will reveal them by throwing the
+                        names of their infamous authors among the ignominies of history. </p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <xi:include href="RdCv1n1-notes.xml"/>
+            <xi:include href="entities.xml"/>
+        </back>
+    </text>
+    
+</TEI>

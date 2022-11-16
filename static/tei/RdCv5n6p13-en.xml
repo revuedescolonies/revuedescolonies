@@ -18,6 +18,7 @@
         </fileDesc>
     </teiHeader>
     <text>
+        <front></front>
         <body>
             <div>
                 <pb n="193"/>
@@ -25,7 +26,7 @@
                 <div>
                     <head>CORRESPONDENCE</head>
                     <head>LETTER FROM Mr. ALEXANDRE DUMAS.</head>
-                    <p>There is a <bibl type="periodical"><title ref="#RC">Revue Coloniale</title></bibl> which differs from the <bibl type="periodical"><title ref="#RdC">Revue des Colonies</title></bibl>, not only in its title, but in its principles and the purpose of its publication. In mentioning this opposition; we do not mean to blame our adversaries. Everyone is perfectly free to write for or against the spirit of reform; but the following letter, which is addressed to us by one of the century’s greatest literary figures, compels us to acknowledge this <title>Revue Coloniale</title>, which publishes opinions contrary to ours, and this Review has cited <persName ref="#ADp">M. Alexandre Dumas</persName> among its collaborators.</p>
+                    <p>There is a <bibl type="periodical"><title ref="#RC">Revue Coloniale</title></bibl><ptr target="#mock3"/> which differs from the <bibl type="periodical"><title ref="#RdC">Revue des Colonies</title></bibl>, not only in its title, but in its principles and the purpose of its publication. In mentioning this opposition; we do not mean to blame our adversaries. Everyone is perfectly free to write for or against the spirit of reform; but the following letter, which is addressed to us by one of the century’s greatest literary figures, compels us to acknowledge this <title>Revue Coloniale</title>, which publishes opinions contrary to ours, and this Review has cited <persName ref="#ADp">M. Alexandre Dumas</persName> among its collaborators.</p>
                 </div>
                 <div>
                     <floatingText>
@@ -43,12 +44,15 @@
                 <div>
                 <head>BIOGRAPHY.
                 </head>
-                <head>VASSA
-                </head>
+                <head>VASSA<ptr target="#mock1"/></head>
                 <p><persName ref="#Equ">Olaudad-Equiano, or Gustave Vassa</persName> (better known by that name), was born in <placeName ref="#Esk">Essaka</placeName>, a charming and fertile valley, a great distance from the coast and the capital of <sic>Bénier</sic><corr><placeName ref="#BEN">Bénin</placeName></corr>. At the age of</p>
                 </div>
             </div>
             <closer>5th Year.										13</closer>
         </body>
+        <back>
+            <xi:include href="RdCv5n6p13-notes.xml"/>
+            <xi:include href="entities.xml"/>
+        </back>
     </text>
 </TEI>

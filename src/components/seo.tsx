@@ -1,7 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-import theme from "../theme"
 import { Box } from "@mui/material"
 
 interface Props {
@@ -9,15 +8,6 @@ interface Props {
   lang?: string
   meta?: []
   title?: string
-}
-
-const styles = {
-  Body: {
-    "&& ::selection": { 
-      background: theme.palette.primary.main,
-      color: theme.palette.secondary.main
-    }
-  }
 }
 
 const SEO = ({ description, lang, meta, title }: Props) => {
@@ -39,7 +29,7 @@ const SEO = ({ description, lang, meta, title }: Props) => {
   )
 
   const metaDescription = description || site.siteMetadata.description
-  const fullTitle = `${title} | ${site.siteMetadata.title}` 
+  const fullTitle = `${title} | ${site.siteMetadata.title} ` 
 
   return (
     <Helmet
@@ -82,9 +72,9 @@ const SEO = ({ description, lang, meta, title }: Props) => {
         },
       ].concat(meta || [])}
     >
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin=""/>
-      <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet"/>
-      <Box component="body" sx={styles.Body} />
+      <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+        rel="stylesheet"/>
     </Helmet>
   )
 }
