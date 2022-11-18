@@ -342,4 +342,15 @@
       </note>
     </org>
   </listOrg>
+  <listBibl>
+  <bibl xml:id="CR">
+  <biblName>Revue Coloniale</biblName>
+   <note xml:lang="fr">
+   <p>The <title>Revue Coloniale</title>, was an ephemeral monthly periodical, printed in Paris during the year 1838. Its founder Édouard Bouvet and editor Rosemond Beauvallon conceived of it on the model of many similar, contemporaneous publications reporting on political and economic questions of interest to white colonists while also attending to arts and literature, as attested by the journal’s complete title: <title>Revue Coloniale. intérêts des colons : marine, commerce, littérature, beaux-arts, théâtres, modes</title>. In the December 1838 issue of the <title>Revue des Colonies</title>, Cyrille Bissette acknowledges the <title>Revue Coloniale</title> as both an ideological adversary and an opponent.</p>
+    </note>
+    <note xml:lang="en">
+    <p>The <title>Revue Coloniale</title>, was an ephemeral monthly periodical, printed in Paris during the year 1838. Its founder Édouard Bouvet and editor Rosemond Beauvallon conceived of it on the model of many similar, contemporaneous publications reporting on political and economic questions of interest to white colonists while also attending to arts and literature, as attested by the journal’s complete title: <title>Revue Coloniale. intérêts des colons : marine, commerce, littérature, beaux-arts, théâtres, modes</title>. In the December 1838 issue of the <title>Revue des Colonies</title>, Cyrille Bissette acknowledges the <title>Revue Coloniale</title> as both an ideological adversary and an opponent.</p>
+     </note>
+    </bibl>
+  </listBibl>
 </div>

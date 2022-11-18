@@ -4,6 +4,14 @@
 <noteGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="RdCv2n1-notes">
   <noteGrp xml:id="mock1">
     <note xml:lang="fr" type="commentaire">
+      <p>Rather than concede to the flattery of the establishment friendly, pro-slavery <title>Revue Coloniale</title>, Dumas explicitly aligns himself with the global network of people color formed by the <title>Revue</title>’s editors, contributors and subscribers.</p>
+    </note>
+    <note xml:lang="en" type="commentary">
+      <p>Rather than concede to the flattery of the establishment friendly, pro-slavery <title>Revue Coloniale</title>, Dumas explicitly aligns himself with the global network of people color formed by the <title>Revue</title>’s editors, contributors and subscribers.</p>
+    </note>
+      </noteGrp>
+    <noteGrp xml:id="mock2">
+    <note xml:lang="fr" type="commentaire">
       <p>The following article on Olaudah Equiano, also known as Gustavus Vassa, is excerpted from Abbé Grégoire’s <title>De la littérature des nègres</title> (1808). The abolitionist Grégoire presents the literary work of Black writers as evidence of their equal claim to humanity and human rights.</p>
       <bibl>
         Dorigny, Marcel. <title>Les Abolitions de l'esclavage (1793-1888)</title>. Presses universitaires de France, 2008.
@@ -18,20 +26,12 @@
       <bibl>Sepinwall, Alyssa Goldstein. <title>The Abbé Grégoire and the French Revolution: The Making of Modern Universalism</title>. University of California Press, 2005.</bibl>
     </note>
   </noteGrp>
-  <noteGrp xml:id="mock2">
+  <noteGrp xml:id="mock3">
     <note xml:lang="fr" type="commentaire">
       <p>Equiano claims to have been born in the Kingdom of Benin, not to be confused with the current nation of Benin. Abbé Grégoire uses the same spelling as Equiano, so there appears to have been a transcription error on the part of the <title>Revue</title>.</p>
     </note>
     <note xml:lang="en" type="commentary">
       <p>Equiano claims to have been born in the Kingdom of Benin, not to be confused with the current nation of Benin. Abbé Grégoire uses the same spelling as Equiano, so there appears to have been a transcription error on the part of the <title>Revue</title>.</p>    
-    </note>
-  </noteGrp>
-  <noteGrp xml:id="mock3">
-    <note xml:lang="fr" type="commentaire">
-      <p>The <title>Revue Coloniale</title>, was an ephemeral monthly periodical, printed in Paris during the year 1838. Its founder Édouard Bouvet and editor Rosemond Beauvallon conceived of it on the model of many similar, contemporaneous publications reporting on political and economic questions of interest to white colonists while also attending to arts and literature, as attested by the journal’s complete title: <title>Revue Coloniale. intérêts des colons : marine, commerce, littérature, beaux-arts, théâtres, modes</title>. In the December 1838 issue of the <title>Revue des Colonies</title>, Cyrille Bissette acknowledges the <title>Revue Coloniale</title> as both an ideological adversary and an opponent.</p>
-    </note>
-    <note xml:lang="en" type="commentary">
-      <p>The <title>Revue Coloniale</title>, was an ephemeral monthly periodical, printed in Paris during the year 1838. Its founder Édouard Bouvet and editor Rosemond Beauvallon conceived of it on the model of many similar, contemporaneous publications reporting on political and economic questions of interest to white colonists while also attending to arts and literature, as attested by the journal’s complete title: <title>Revue Coloniale. intérêts des colons : marine, commerce, littérature, beaux-arts, théâtres, modes</title>. In the December 1838 issue of the <title>Revue des Colonies</title>, Cyrille Bissette acknowledges the <title>Revue Coloniale</title> as both an ideological adversary and an opponent.</p>
     </note>
   </noteGrp>
 </noteGrp>
