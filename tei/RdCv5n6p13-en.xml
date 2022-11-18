@@ -33,7 +33,7 @@
                         <body>
                             <div>
                                 <head>Mr. Editor of the <title>Revue des Colonies.</title></head>
-                                <p>“Would you mind correcting in one of your next issues an error which I see committed in my regard on the cover of the <title>Revue Coloniale</title>; Revue Coloniale; they announce that they will be publishing poems by me in one of their upcoming issues. First of all, I do little poetry, except in the theater; and I did not promise anything to the <title>Revue Coloniale</title>, which did not ask me for anything. All my sympathies, on the contrary, are instinctively and nationally for the adversaries of the principles defended by the Gentlemen of the <title>Revue Coloniale</title>; this is what I wish to be made perfectly clear, not only in France, but wherever I have brothers in race and friends of color.</p>
+                                <p>“Would you mind correcting in one of your next issues an error which I see committed in my regard on the cover of the <title>Revue Coloniale</title>; Revue Coloniale; they announce that they will be publishing poems by me in one of their upcoming issues. First of all, I do little poetry, except in the theater; and I did not promise anything to the <title>Revue Coloniale</title>, which did not ask me for anything. All my sympathies, on the contrary, are instinctively and nationally for the adversaries of the principles defended by the Gentlemen of the <title>Revue Coloniale</title>; this is what I wish to be made perfectly clear, not only in France, but wherever I have brothers in race and friends of color.<ptr target="#mock1"/></p>
                                 <lb/>
                                 <closer>Please accept, etc. <lb/> <signed>A. DUMAS</signed>
                                 </closer>
@@ -44,8 +44,8 @@
                 <div>
                 <head>BIOGRAPHY.
                 </head>
-                <head>VASSA<ptr target="#mock1"/></head>
-                <p><persName ref="#Equ">Olaudad-Equiano, or Gustave Vassa</persName> (better known by that name), was born in <placeName ref="#Esk">Essaka</placeName>, a charming and fertile valley, a great distance from the coast and the capital of <sic>Bénier</sic><corr><placeName ref="#BEN">Bénin</placeName></corr>. At the age of</p>
+                <head>VASSA<ptr target="#mock2"/></head>
+                <p><persName ref="#Equ">Olaudad-Equiano, or Gustave Vassa</persName> (better known by that name), was born in <placeName ref="#Esk">Essaka</placeName>, a charming and fertile valley, a great distance from the coast and the capital of <sic>Bénier</sic><ptr target="#mock3"/>. At the age of</p>
                 </div>
             </div>
             <closer>5th Year.										13</closer>
