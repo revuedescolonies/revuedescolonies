@@ -296,6 +296,21 @@
         <p>Dominica, located directly between Guadeloupe and Martinique, was first settled by French settlers from these islands in the late seventeenth century, who soon brought in African slaves. Like Martinique and Guadeloupe, Dominica was taken by British forces during the Seven Years' War. Unlike those islands, however, it remained under British control. After a French re-invasion in 1775, the colony was formally returned to the British in 1783 and remained under British control until its independence in 1978.</p>
       </note>
     </place>
+    <place xml:id="esk">
+      <placeName>Essaka</placeName>
+      <note xml:lang="fr">
+        <p>The place of birth of Oladuah Equiano, according to his autobiography <title>The Interesting Narrative of the Life of Olaudah Equiano, Or Gustavus Vassa, The African</title>. This work, which is the source for the chapter on Equiano in Abbé Grégoire’s <title>De la littérature des nègres</title> reprinted in the <title>Revue</title>, contains the only known reference to “Essaka” with this spelling. The actual place of Equiano’s birth has been the subject of some debate, with some claiming that Essaka refers to Issieke, in Igboland, present day Nigeria. Other scholars have pointed out that Equiano’s baptismal records (whose information would have been provided by the family of his master), and other documents from his naval career, list his place of birth as South Carolina.</p>
+        <bibl>
+          Lovejoy, Paul E. "Olaudah Equiano or Gustavus Vassa, What's in a Name?" <title>Atlantic Studies</title> 9.2 (2012), 165-84.
+        </bibl>
+      </note>
+      <note xml:lang="en">
+        <p>The place of birth of Oladuah Equiano, according to his autobiography <title>The Interesting Narrative of the Life of Olaudah Equiano, Or Gustavus Vassa, The African</title>. This work, which is the source for the chapter on Equiano in Abbé Grégoire’s <title>De la littérature des nègres</title> reprinted in the <title>Revue</title>, contains the only known reference to “Essaka” with this spelling. The actual place of Equiano’s birth has been the subject of some debate, with some claiming that Essaka refers to Issieke, in Igboland, present day Nigeria. Other scholars have pointed out that Equiano’s baptismal records (whose information would have been provided by the family of his master), and other documents from his naval career, list his place of birth as South Carolina.</p>
+        <bibl>
+          Lovejoy, Paul E. "Olaudah Equiano or Gustavus Vassa, What's in a Name?" <title>Atlantic Studies</title> 9.2 (2012), 165-84.
+        </bibl>
+      </note>
+    </place>
   </listPlace>
   <listOrg>
     <org xml:id="SHC">
@@ -343,14 +358,14 @@
     </org>
   </listOrg>
   <listBibl>
-  <bibl xml:id="CR">
-  <biblName>Revue Coloniale</biblName>
-   <note xml:lang="fr">
-   <p>The <title>Revue Coloniale</title>, was an ephemeral monthly periodical, printed in Paris during the year 1838. Its founder Édouard Bouvet and editor Rosemond Beauvallon conceived of it on the model of many similar, contemporaneous publications reporting on political and economic questions of interest to white colonists while also attending to arts and literature, as attested by the journal’s complete title: <title>Revue Coloniale. intérêts des colons : marine, commerce, littérature, beaux-arts, théâtres, modes</title>. In the December 1838 issue of the <title>Revue des Colonies</title>, Cyrille Bissette acknowledges the <title>Revue Coloniale</title> as both an ideological adversary and an opponent.</p>
-    </note>
-    <note xml:lang="en">
-    <p>The <title>Revue Coloniale</title>, was an ephemeral monthly periodical, printed in Paris during the year 1838. Its founder Édouard Bouvet and editor Rosemond Beauvallon conceived of it on the model of many similar, contemporaneous publications reporting on political and economic questions of interest to white colonists while also attending to arts and literature, as attested by the journal’s complete title: <title>Revue Coloniale. intérêts des colons : marine, commerce, littérature, beaux-arts, théâtres, modes</title>. In the December 1838 issue of the <title>Revue des Colonies</title>, Cyrille Bissette acknowledges the <title>Revue Coloniale</title> as both an ideological adversary and an opponent.</p>
-     </note>
+    <bibl xml:id="RC" type="periodical">
+      <title>Revue Coloniale</title>
+      <note xml:lang="fr">
+        <p>The <title>Revue Coloniale</title>, was an ephemeral monthly periodical, printed in Paris during the year 1838. Its founder Édouard Bouvet and editor Rosemond Beauvallon conceived of it on the model of many similar, contemporaneous publications reporting on political and economic questions of interest to white colonists while also attending to arts and literature, as attested by the journal’s complete title: <title>Revue Coloniale. intérêts des colons : marine, commerce, littérature, beaux-arts, théâtres, modes</title>. In the December 1838 issue of the <title>Revue des Colonies</title>, Cyrille Bissette acknowledges the <title>Revue Coloniale</title> as both an ideological adversary and an opponent.</p>
+      </note>
+      <note xml:lang="en">
+        <p>The <title>Revue Coloniale</title>, was an ephemeral monthly periodical, printed in Paris during the year 1838. Its founder Édouard Bouvet and editor Rosemond Beauvallon conceived of it on the model of many similar, contemporaneous publications reporting on political and economic questions of interest to white colonists while also attending to arts and literature, as attested by the journal’s complete title: <title>Revue Coloniale. intérêts des colons : marine, commerce, littérature, beaux-arts, théâtres, modes</title>. In the December 1838 issue of the <title>Revue des Colonies</title>, Cyrille Bissette acknowledges the <title>Revue Coloniale</title> as both an ideological adversary and an opponent.</p>
+      </note>
     </bibl>
   </listBibl>
 </div>

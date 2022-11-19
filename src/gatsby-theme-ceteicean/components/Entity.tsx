@@ -21,6 +21,7 @@ import CardHeader from "@mui/material/CardHeader"
 import CardContent from "@mui/material/CardContent"
 import TranslateIcon from '@mui/icons-material/Translate';
 import Button from "@mui/material/Button"
+import Chip from "@mui/material/Chip"
 
 type TEIProps = {
   teiNode: Node,
@@ -53,6 +54,7 @@ const Entity: EntityBehavior = (props: TEIProps) => {
   }, [entity])
   
   const el = props.teiNode as Element
+  const entityType = el.getAttribute('type')
   const entityId = el.getAttribute('id')
   const titleEl = el.getElementsByTagName(props.entityType)[0]
   const title = titleEl ? titleEl.textContent : ""
@@ -70,6 +72,7 @@ const Entity: EntityBehavior = (props: TEIProps) => {
       </IconButton>)
 
       const entityContent = Array.from(el.children).filter(c => c.getAttribute('lang') === cardLang)[0]
+      const chip = entityType ? <><br/><Chip size="small" label={entityType} /></> : null
 
       if (isScreenSmall || props.isSynoptic) {
         content = (
@@ -85,7 +88,9 @@ const Entity: EntityBehavior = (props: TEIProps) => {
             <DialogTitle id="alert-dialog-slide-title" sx={{display: "flex",
       justifyContent: "space-between",
       alignItems: "center"}}>
-              <Typography variant="h6">{title}</Typography>              
+              <Typography variant="h6">{title}
+                {chip}
+              </Typography>              
               <IconButton aria-label="close person info" onClick={() => setEntity(null)}>
                 <CloseIcon />
               </IconButton>
@@ -109,7 +114,7 @@ const Entity: EntityBehavior = (props: TEIProps) => {
             }}>
             <CardHeader
               action={closeNote}
-              title={title}
+              title={<>{title}{chip}</>}
             />
             <CardContent>
               <Button size="small" onClick={() => {setCardLang(cardLang === 'en' ? 'fr' : 'en')}}>{makeLangLabel()}</Button>

@@ -118,6 +118,10 @@ const theme = createTheme({
           borderBottom: `2px solid ${mainColor}`,
           cursor: "pointer"
         },
+        "tei-title[ref]": { // Generate list of refs that should be rendered as annotations
+          borderBottom: `2px solid #00542d`,
+          cursor: "pointer"
+        },
         "tei-placeName[ref]": { // Generate list of refs that should be rendered as annotations
           borderBottom: "2px solid #154c79",
           cursor: "pointer"

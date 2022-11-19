@@ -4,7 +4,8 @@ import { graphql, useStaticQuery } from "gatsby"
 import Ceteicean, {Routes} from "gatsby-theme-ceteicean/src/components/Ceteicean"
 import {
   TeiHeader,
-  Ref
+  Ref,
+  SafeUnchangedNode
 } from "gatsby-theme-ceteicean/src/components/DefaultBehaviors"
 import Pb from "./Pb"
 import Layout from "../../components/layout"
@@ -102,9 +103,25 @@ const EditionCeteicean = ({pageContext}: Props) => {
     "tei-person": (props) => <Entity isSynoptic={isSynoptic} entityType={"tei-persName"} {...props}/>,
     "tei-place": (props) => <Entity isSynoptic={isSynoptic} entityType={"tei-placeName"} {...props}/>,
     "tei-org": (props) => <Entity isSynoptic={isSynoptic} entityType={"tei-orgName"} {...props}/>,
+    "tei-bibl": (props) => {
+      const el = props.teiNode as Element
+      // Only deal with bibliography bibls.
+      if (el.parentElement?.tagName.toLocaleLowerCase() !== "tei-listbibl") {
+        return <SafeUnchangedNode {...props}/>
+      }
+      return <Entity isSynoptic={isSynoptic} entityType={"tei-title"} {...props}/>
+    },
     "tei-persname": EntityLink,
     "tei-placename": EntityLink,
     "tei-orgname": EntityLink,
+    "tei-title": (props) => {
+      const el = props.teiNode as Element
+      // Only deal with bibliography bibls.
+      if (el.getAttribute("ref")) {
+        return <EntityLink {...props}/>
+      }
+      return <SafeUnchangedNode {...props}/>      
+    },
     "tei-graphic": Graphic,
     "tei-sic": Sic,
     "tei-corr": Corr
