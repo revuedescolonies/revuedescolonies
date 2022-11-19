@@ -106,7 +106,7 @@ const Layout = ({ location, appbar, children }: Props) => {
           />
           {appbar}
           {backdrop}
-          <Main>
+          <Main className="RdCcontent">
             {children}
           </Main>
           {footer}

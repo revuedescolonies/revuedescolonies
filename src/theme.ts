@@ -228,6 +228,40 @@ const theme = createTheme({
         "tei-note": {
           fontSize: "1rem",
           color: "rgba(0, 0, 0, 0.54)"
+        },
+        ".RdCcontent > #entities": {
+          margin: "0 auto",
+          width: "60%"
+        },
+        ".RdCcontent > #entities tei-persName, .RdCcontent > #entities tei-placeName, .RdCcontent > #entities tei-orgName, .RdCcontent > #entities tei-listbibl > tei-bibl > tei-title": {
+          display: "block",
+        },
+        ".RdCcontent > #entities tei-person, .RdCcontent > #entities tei-place, .RdCcontent > #entities tei-org, .RdCcontent > #entities tei-listbibl > tei-bibl": {
+          display: "block",
+          border: "1px solid grey",
+          padding: "1.5em",
+          margin: "1em 0"
+        },
+        ".RdCcontent > #entities tei-listperson::before": {
+          content: "'People'"
+        },
+        ".RdCcontent > #entities tei-listplace::before": {
+          content: "'Places'"
+        },
+        ".RdCcontent > #entities tei-listorg::before": {
+          content: "'Organizations'"
+        },
+        ".RdCcontent > #entities tei-listbibl::before": {
+          content: "'Bibliographical entities'"
+        },
+        ".RdCcontent > #entities *[lang=en]::before": {
+          content: "'(EN)'"
+        },
+        ".RdCcontent > #entities *[lang=fr]::before": {
+          content: "'(FR)'"
+        },
+        ".RdCcontent > #entities tei-graphic": {
+          display: "block"
         }
       }
     },

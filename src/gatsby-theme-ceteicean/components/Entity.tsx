@@ -22,6 +22,7 @@ import CardContent from "@mui/material/CardContent"
 import TranslateIcon from '@mui/icons-material/Translate';
 import Button from "@mui/material/Button"
 import Chip from "@mui/material/Chip"
+import { SafeUnchangedNode } from "gatsby-theme-ceteicean/src/components/DefaultBehaviors"
 
 type TEIProps = {
   teiNode: Node,
@@ -133,6 +134,9 @@ const Entity: EntityBehavior = (props: TEIProps) => {
       )
     }
 
+  } else if (el.ownerDocument.getElementsByTagName("tei-text").length === 0) {
+    // Show entities on proofing page.
+    return <SafeUnchangedNode {...props}/>
   }
   return null
 }
