@@ -1,6 +1,6 @@
 const basePath = process.env.BASEPATH
-const title = "Selections from the Revue des Colonies"
-const htmlTitle = "Selections from the <em>Revue des Colonies</em>"
+const title = " "
+const htmlTitle = "Digital Scholarly Edition and Translation of the <em>Revue des Colonies</em>"
 const {addPtrNumbers, xinclude} = require('./scripts/transformers')
 
 module.exports = {
@@ -92,10 +92,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Scholarly Editing`,
-        short_name: `Scholarly Editing`,
+        name: `Revue des Colonies`,
+        short_name: `Revue des Colonies`,
         start_url: `/`,
-        icon: `src/images/se-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/RdC-icon.png`, // This path is relative to the root of the site.
       },
     },
   ],
