@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-11-10T18:56:03Z. .
+Schema generated from ODD source 2022-12-05T20:31:32Z. .
 TEI Edition: Version 4.5.0. Last updated on
         25th October 2022, revision 3e98e619e
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0/
@@ -5151,7 +5151,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          <optional>
             <attribute name="ref">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference) provides an explicit means of locating a full definition or identity for the entity being named by means of one or more URIs.
-Suggested values include: 1] #LT; 2] #MU; 3] #DDH</a:documentation>
+Suggested values include: 1] #LT; 2] #MU; 3] #DDH; 4] #C30; 5] #RdC; 6] #CN; 7] #Abol; 8] #RC</a:documentation>
                <list>
                   <oneOrMore>
                      <choice>
@@ -5160,6 +5160,16 @@ Suggested values include: 1] #LT; 2] #MU; 3] #DDH</a:documentation>
                         <value>#MU</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#DDH</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#C30</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#RdC</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#CN</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#Abol</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#RC</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <data type="anyURI">
                            <param name="pattern">\S+</param>
@@ -5992,7 +6002,7 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
          <optional>
             <attribute name="ref">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference) provides an explicit means of locating a full definition or identity for the entity being named by means of one or more URIs.
-Suggested values include: 1] #SHC; 2] #GN; 3] #AN; 4] #AC; 5] #UN; 6] #PB; 7] #SAE</a:documentation>
+Suggested values include: 1] #SHC; 2] #GN; 3] #AN; 4] #AC; 5] #StCyr; 6] #PB; 7] #CNat; 8] #SAE</a:documentation>
                <list>
                   <oneOrMore>
                      <choice>
@@ -6004,9 +6014,11 @@ Suggested values include: 1] #SHC; 2] #GN; 3] #AN; 4] #AC; 5] #UN; 6] #PB; 7] #S
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#AC</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#UN</value>
+                        <value>#StCyr</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#PB</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#CNat</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#SAE</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -6037,10 +6049,14 @@ Suggested values include: 1] #SHC; 2] #GN; 3] #AN; 4] #AC; 5] #UN; 6] #PB; 7] #S
          <optional>
             <attribute name="ref">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference) provides an explicit means of locating a full definition or identity for the entity being named by means of one or more URIs.
-Suggested values include: 1] #CB; 2] #GVD; 3] #LP; 4] #EH; 5] #AA; 6] #ALG; 7] #EP; 8] #SB; 9] #JP; 10] #JPB; 11] #CO; 12] #CH; 13] #GL; 14] #RO; 15] #LE; 16] #GA; 17] #AC; 18] #JFB; 19] #NB; 20] #ML; 21] #HG; 22] #JN; 23] #TO; 24] #TC; 25] #LX; 26] #VT; 27] #LdV; 28] #ES; 29] #AD; 30] #FI; 31] #GdL; 32] #D; 33] #Cé; 34] #Ca; 35] #Li; 36] #Au; 37] #Ci; 38] #JHD; 39] #EL; 40] #SA; 41] #CA; 42] #AB</a:documentation>
+Suggested values include: 1] #Bast; 2] #BARC; 3] #CB; 4] #GVD; 5] #LP; 6] #EH; 7] #AA; 8] #ALGr; 9] #EP; 10] #SB; 11] #JP; 12] #JPB; 13] #CO; 14] #CH; 15] #GL; 16] #RO; 17] #LE; 18] #Gatine; 19] #AJC; 20] #JFB; 21] #NB; 22] #ML; 23] #HG; 24] #JN; 25] #Tous; 26] #TC; 27] #LX; 28] #VT; 29] #LdV; 30] #ES; 31] #AD; 32] #FI; 33] #GdL; 34] #D; 35] #Cé; 36] #Ca; 37] #Li; 38] #Au; 39] #Ci; 40] #JHD; 41] #EL; 42] #SA; 43] #Caïen; 44] #AB; 45] #ADp; 46] #Equ; 47] #ANog; 48] #Mul; 49] #Deniz; 50] #Ambert; 51] #JAC; 52] #Sligo; 53] #Parant</a:documentation>
                <list>
                   <oneOrMore>
                      <choice>
+                        <value>#Bast</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#BARC</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#CB</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#GVD</value>
@@ -6051,7 +6067,7 @@ Suggested values include: 1] #CB; 2] #GVD; 3] #LP; 4] #EH; 5] #AA; 6] #ALG; 7] #
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#AA</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#ALG</value>
+                        <value>#ALGr</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#EP</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -6071,9 +6087,9 @@ Suggested values include: 1] #CB; 2] #GVD; 3] #LP; 4] #EH; 5] #AA; 6] #ALG; 7] #
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#LE</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#GA</value>
+                        <value>#Gatine</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#AC</value>
+                        <value>#AJC</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#JFB</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -6085,7 +6101,7 @@ Suggested values include: 1] #CB; 2] #GVD; 3] #LP; 4] #EH; 5] #AA; 6] #ALG; 7] #
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#JN</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#TO</value>
+                        <value>#Tous</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#TC</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -6121,9 +6137,27 @@ Suggested values include: 1] #CB; 2] #GVD; 3] #LP; 4] #EH; 5] #AA; 6] #ALG; 7] #
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#SA</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#CA</value>
+                        <value>#Caïen</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#AB</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#ADp</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#Equ</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#ANog</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#Mul</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#Deniz</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#Ambert</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#JAC</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#Sligo</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#Parant</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <data type="anyURI">
                            <param name="pattern">\S+</param>
@@ -6211,7 +6245,7 @@ Suggested values include: 1] #CB; 2] #GVD; 3] #LP; 4] #EH; 5] #AA; 6] #ALG; 7] #
          <optional>
             <attribute name="ref">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(reference) provides an explicit means of locating a full definition or identity for the entity being named by means of one or more URIs.
-Suggested values include: 1] #FR; 2] #Par; 3] #EUR; 4] #GP; 5] #MQ; 6] #BrB; 7] #Cay; 8] #Alg; 9] #DOM; 10] #STL; 11] #CUB; 12] #EU; 13] #Che; 14] #GEO; 15] #Sav; 16] #Dar; 17] #StM; 18] #SaY; 19] #Bor; 20] #JA; 21] #Ha; 22] #AM; 23] #Cha; 24] #GF; 25] #HT; 26] #Nan; 27] #ANG; 28] #Vi; 29] #AN; 30] #GdA; 31] #GdM; 32] #IDV; 33] #ISV; 34] #ME; 35] #PlB; 36] #CGR</a:documentation>
+Suggested values include: 1] #FR; 2] #Par; 3] #EUR; 4] #GP; 5] #MQ; 6] #BrB; 7] #Cay; 8] #Alg; 9] #DOM; 10] #STL; 11] #CUB; 12] #Che; 13] #GEO; 14] #Sav; 15] #Dar; 16] #StM; 17] #SaY; 18] #Bor; 19] #JA; 20] #Ha; 21] #AM; 22] #Cha; 23] #GF; 24] #HT; 25] #Nan; 26] #ANG; 27] #Vi; 28] #ANT; 29] #ANTE; 30] #GdA; 31] #GdM; 32] #IDV; 33] #ISV; 34] #ME; 35] #PlB; 36] #CGR; 37] #USA; 38] #Esk; 39] #BEN; 40] #CapM</a:documentation>
                <list>
                   <oneOrMore>
                      <choice>
@@ -6236,8 +6270,6 @@ Suggested values include: 1] #FR; 2] #Par; 3] #EUR; 4] #GP; 5] #MQ; 6] #BrB; 7] 
                         <value>#STL</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#CUB</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#EU</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#Che</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -6271,7 +6303,9 @@ Suggested values include: 1] #FR; 2] #Par; 3] #EUR; 4] #GP; 5] #MQ; 6] #BrB; 7] 
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#Vi</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#AN</value>
+                        <value>#ANT</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#ANTE</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#GdA</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -6286,6 +6320,14 @@ Suggested values include: 1] #FR; 2] #Par; 3] #EUR; 4] #GP; 5] #MQ; 6] #BrB; 7] 
                         <value>#PlB</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#CGR</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#USA</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#Esk</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#BEN</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#CapM</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <data type="anyURI">
                            <param name="pattern">\S+</param>
