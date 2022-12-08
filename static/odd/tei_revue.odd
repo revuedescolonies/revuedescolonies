@@ -179,7 +179,7 @@
               <valItem mode="add" ident="#JAC"/>
               <valItem mode="add" ident="#Sligo"/>
               <valItem mode="add" ident="#Parant"/>
-              </valList>
+              <valItem mode="add" ident="#ADA"/><valItem mode="add" ident="#AG"/><valItem mode="add" ident=""/><valItem mode="add" ident="#A-L"/><valItem mode="add" ident="#AR"/><valItem mode="add" ident="#AuA"/><valItem mode="add" ident="#BA"/><valItem mode="add" ident="#BAI"/><valItem mode="add" ident="#Be-O"/><valItem mode="add" ident="#Be-Z"/><valItem mode="add" ident="#Be-M"/><valItem mode="add" ident="#BOI"/><valItem mode="add" ident="#BO"/><valItem mode="add" ident="#BU"/><valItem mode="add" ident="#CAC"/><valItem mode="add" ident="#CAR"/><valItem mode="add" ident="#C-A"/><valItem mode="add" ident="#C"/><valItem mode="add" ident="#CJ"/><valItem mode="add" ident="#DR"/><valItem mode="add" ident="#DUC"/><valItem mode="add" ident="#Dfy"/><valItem mode="add" ident="#DUL"/><valItem mode="add" ident="#DU"/><valItem mode="add" ident="#EG"/><valItem mode="add" ident="#MMG"/><valItem mode="add" ident="#FA"/><valItem mode="add" ident="#F-D"/><valItem mode="add" ident="#FXD"/><valItem mode="add" ident="#Gdl"/><valItem mode="add" ident="#JEF"/><valItem mode="add" ident="#J"/><valItem mode="add" ident="#LaF"/></valList>
             </attDef>
           </attList>
         </elementSpec>
