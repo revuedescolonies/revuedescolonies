@@ -88,7 +88,7 @@
         <elementSpec ident="gap" mode="change">
           <attList>
             <attDef ident="reason" mode="change">
-              <valList type="semi" mode="change">
+              <valList type="closed" mode="change">
                 <valItem mode="add" ident="accidental"/>
               </valList>
             </attDef>
@@ -98,7 +98,7 @@
         <elementSpec ident="orgName" mode="change">
           <attList>
             <attDef ident="ref" mode="change">
-              <valList type="semi" mode="change">
+              <valList type="closed" mode="change">
                 <valItem mode="add" ident="#SHC"/>
                 <valItem mode="add" ident="#GN"/>
                 <valItem mode="add" ident="#AN"/>
@@ -114,7 +114,7 @@
         <elementSpec ident="bibl" mode="change">
           <attList>
             <attDef ident="type" mode="change">
-              <valList type="semi" mode="change">
+              <valList type="closed" mode="change">
                 <valItem mode="add" ident="monogr"/>
                 <valItem mode="add" ident="periodical"/>
                 <valItem mode="add" ident="legal"/>
@@ -125,7 +125,7 @@
         <elementSpec ident="persName" mode="change">
           <attList>
             <attDef ident="ref" mode="change">
-              <valList type="semi" mode="change">
+              <valList type="closed" mode="change">
                 <valItem mode="add" ident="#Bast"/>
                 <valItem mode="add" ident="#BARC"/>
                 <valItem mode="add" ident="#CB"/>
@@ -186,7 +186,7 @@
         <elementSpec ident="placeName" mode="change">
           <attList>
             <attDef ident="ref" mode="change">
-              <valList type="semi" mode="change">
+              <valList type="closed" mode="change">
                 <valItem mode="add" ident="#FR"/>
                 <valItem mode="add" ident="#Par"/>
                 <valItem mode="add" ident="#EUR"/>
@@ -235,7 +235,7 @@
         <elementSpec ident="title" mode="change">
           <attList>
             <attDef ident="ref" mode="change">
-              <valList type="semi" mode="change">
+              <valList type="closed" mode="change">
                 <valItem mode="add" ident="#LT"/>
                 <valItem mode="add" ident="#MU"/>
               <valItem mode="add" ident="#DDH"/><valItem mode="add" ident="#C30"/><valItem mode="add" ident="#RdC"/><valItem mode="add" ident="#CN"/><valItem mode="add" ident="#Abol"/><valItem mode="add" ident="#RC"/></valList>
@@ -245,7 +245,7 @@
         <elementSpec ident="rs" mode="change">
           <attList>
             <attDef ident="type" mode="change">
-              <valList type="semi" mode="change">
+              <valList type="closed" mode="change">
                 <valItem mode="add" ident="affaire"/>
                 <valItem mode="add" ident="event"/>
               </valList>
