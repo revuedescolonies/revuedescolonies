@@ -49,11 +49,11 @@ const Footer = ({repository} : Props) => (
           <br /> © {new Date().getFullYear()} University of Maryland.
         </Grid>
         <Grid item={true} xs={3} sx={styles.logo}>
-          <a href="http://www.documentaryediting.org">
+          <a href="https://umd.edu">
             <img
               width={150}
               src={`${umd}`}
-              alt="Logo of the Association for Documentary Editing"
+              alt="Logo of the University of Maryland"
             />
           </a>
         </Grid>

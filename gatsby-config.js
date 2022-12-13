@@ -1,5 +1,5 @@
 const basePath = process.env.BASEPATH
-const title = " "
+const title = "Digital Scholarly Edition and Translation of the Revue des Colonies"
 const htmlTitle = "Digital Scholarly Edition and Translation of the <em>Revue des Colonies</em>"
 const {addPtrNumbers, xinclude} = require('./scripts/transformers')
 
@@ -29,7 +29,7 @@ module.exports = {
         orcid:"0000-0000-0000-0000"
       }
     ],
-    repository: "https://github.com/mashabelsol/revuedescolonies",
+    repository: "https://github.com/revuedescolonies/revuedescolonies",
     menuLinks: [
       {
         name: 'home',
