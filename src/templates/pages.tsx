@@ -45,7 +45,9 @@ export default function PageTemplate({ location, data, pageContext }: Props) {
         <Typography variant="h3" component="h2" gutterBottom={false} dangerouslySetInnerHTML={
             {__html: data.site.siteMetadata.htmlTitle}
           } />
-        <Typography variant="h4" component="h3" gutterBottom={false} >{title}</Typography>
+        <Typography variant="h4" component="h3" gutterBottom={false} sx={{
+            marginBottom: "2em"
+          }}>{title}</Typography>
         <Typography
           variant="body1"
           gutterBottom={true}
