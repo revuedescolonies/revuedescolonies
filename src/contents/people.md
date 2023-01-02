@@ -2,11 +2,11 @@
 path: "/people"
 title: "People"
 ---
-### Project Director
+#### Project Director
 Maria Beliaeva Solomon, Assistant Professor of French, University of Maryland
-### Technical Director
+#### Technical Director
 Raffaele Viglianti, Senior Research Software Developer, Maryland Institute for Technology in the Humanities (MITH), University of Maryland
-### Collaborating Editors
+#### Collaborating Editors
 Anna Brickhouse, Professor of English, University of Virginia  
 Kelly Duke Bryant, Associate Professor of History, Rowan University  
 Marlene Daut, Professor of French and African Diaspora Studies, Yale University  

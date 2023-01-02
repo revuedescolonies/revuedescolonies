@@ -23,7 +23,7 @@ export const mainColor = "#002654"
 // It is not intended to be comprehensive; add further rules as needed.
 const theme = createTheme({
   typography: {
-    fontFamily: "'PT Serif', serif",
+    fontFamily: "EB Garamond, serif",
     body1: {
       fontSize: "1.25rem",
       paddingBottom: "1.25rem",

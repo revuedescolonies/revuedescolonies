@@ -33,11 +33,23 @@ const Main = styled.div(() => ({
   paddingBottom: '1.45rem',
   minHeight: "60vh",
   "& h2, & h3": {
-    paddingBottom: '1rem'
+  paddingBottom: '0.35rem'
+  },
+  "& h3": {
+    marginBlockStart: "0.4em",
+    marginBlockEnd: "0.4em"
+  },
+  "& h4": {
+    marginBlockStart: "0.4em",
+    marginBlockEnd: "0.4em"
+    },
+  "& p": {
+  marginBlockStart: "0.4em",
+  marginBlockEnd: "0.4em"
   }
-}))
+  }))
 
-const Layout = ({ location, appbar, children }: Props) => {
+function Layout({ location, appbar, children }: Props): JSX.Element {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -51,18 +63,18 @@ const Layout = ({ location, appbar, children }: Props) => {
         }
       }
     }
-  `)
-  
-  const {repository, title, menuLinks} = data.site.siteMetadata
+  `);
 
-  let footer = <Footer repository={repository}/>
+  const { repository, title, menuLinks } = data.site.siteMetadata;
+
+  let footer = <Footer repository={repository} />;
   if (location?.startsWith("RdC")) {
-    footer = <EditionFooter repository={repository}>{footer}</EditionFooter>
+    footer = <EditionFooter repository={repository}>{footer}</EditionFooter>;
   }
 
   const styles = {
     Body: {
-      "&& ::selection": { 
+      "&& ::selection": {
         background: theme.palette.primary.main,
         color: theme.palette.secondary.main
       }
@@ -78,20 +90,20 @@ const Layout = ({ location, appbar, children }: Props) => {
       display: 'block',
       fontSize: "150%"
     }
-  }
+  };
 
-  const [open, setOpen] = React.useState(true)
-  let backdrop: JSX.Element | undefined
-  
+  const [open, setOpen] = React.useState(true);
+  let backdrop: JSX.Element | undefined;
+
   if (location?.startsWith('synoptic') && useMediaQuery('(max-width:500px)')) {
     backdrop = <Backdrop sx={styles.backdrop} open={open} onClick={() => setOpen(false)}>
       <Typography component="mark" variant="h4" sx={styles.backdropText}>
         <Rotate90DegreesCcwIcon sx={styles.backdropIcon} />
-        Rotate your device to a landscape (horizontal) position for the Synoptic view 
-        <br/><br/>
+        Rotate your device to a landscape (horizontal) position for the Synoptic view
+        <br /><br />
         <em>Tap to dismiss</em>
       </Typography>
-    </Backdrop>
+    </Backdrop>;
   }
 
   return (
@@ -102,8 +114,7 @@ const Layout = ({ location, appbar, children }: Props) => {
           <Header
             menuLinks={menuLinks}
             location={location || ''}
-            siteTitle={title}
-          />
+            siteTitle={title} />
           {appbar}
           {backdrop}
           <Main className="RdCcontent">
