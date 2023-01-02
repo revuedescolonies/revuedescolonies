@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-pages-tsx",
     "path": "/",
-    "result": {"data":{"site":{"siteMetadata":{"htmlTitle":"Digital Scholarly Edition and Translation of the <em>Revue des Colonies</em>"}},"markdownRemark":{"html":"<p>Welcome ...</p>","frontmatter":{"title":" ","path":"/"}}},"pageContext":{"html":"<p>Welcome ...</p>","lang":"en"}},
+    "result": {"data":{"site":{"siteMetadata":{"htmlTitle":"The <em>Revue des Colonies</em>: a Digital Scholarly Edition and Translation"}},"markdownRemark":{"html":"<p>Welcome ...</p>","frontmatter":{"title":" ","path":"/"}}},"pageContext":{"html":"<p>Welcome ...</p>","lang":"en"}},
     "staticQueryHashes": ["3353843886","4138870136"]}
