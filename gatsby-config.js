@@ -1,5 +1,5 @@
 const basePath = process.env.BASEPATH
-const title = "Digital Scholarly Edition and Translation of the Revue des Colonies"
+const title = "The Revue des Colonies: a Digital Scholarly Edition and Translation"
 const htmlTitle = "The <em>Revue des Colonies</em>: a Digital Scholarly Edition and Translation"
 const {addPtrNumbers, xinclude} = require('./scripts/transformers')
 

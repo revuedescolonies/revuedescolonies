@@ -37,7 +37,11 @@ const Main = styled.div(() => ({
   },
   "& h3": {
     marginBlockStart: "0.4em",
-    marginBlockEnd: "0.4em"
+    marginBlockEnd: "0.4em",
+    marginTop: "5px",
+    marginRight: "10px",
+    marginBottom: "0.75em",
+    marginLeft: "10px"
   },
   "& h4": {
     marginBlockStart: "0.4em",
