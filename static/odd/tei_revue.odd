@@ -106,7 +106,7 @@
                 <valItem mode="add" ident="#StCyr"/>
                 <valItem mode="add" ident="#PB"/>
                 <valItem mode="add" ident="#CNat"/>
-              <valItem mode="add" ident="#SAE"/></valList>
+              <valItem mode="add" ident="#SAE"/><valItem mode="add" ident="#MJ"/><valItem mode="add" ident="#MM"/><valItem mode="add" ident="#CC"/><valItem mode="add" ident="#IDF"/><valItem mode="add" ident="#SA-E"/><valItem mode="add" ident="#SEU"/><valItem mode="add" ident="#PA"/><valItem mode="add" ident="#CHC"/><valItem mode="add" ident="#CDC"/><valItem mode="add" ident="#CS"/><valItem mode="add" ident="#PO"/><valItem mode="add" ident="#CE"/><valItem mode="add" ident="#CRN"/><valItem mode="add" ident="#CHD"/></valList>
             </attDef>
           </attList>
         </elementSpec>
