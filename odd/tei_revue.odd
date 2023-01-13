@@ -250,7 +250,7 @@
                 <valItem mode="add" ident="event"/>
               </valList>
             </attDef>
-          </attList>
+          <attDef ident="ref" mode="change"><valList mode="change"><valItem mode="add" ident="#RJ"/><valItem mode="add" ident="#INDA"/><valItem mode="add" ident="#GIND"/><valItem mode="add" ident="#REV"/><valItem mode="add" ident="#PCé"/><valItem mode="add" ident="#YKS"/></valList></attDef></attList>
         </elementSpec>
         <moduleRef key="figures" include="figure figDesc"/>
       </schemaSpec>
