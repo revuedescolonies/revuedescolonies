@@ -360,7 +360,7 @@
                 <valItem mode="add" ident="#Lo"/>
                 <valItem mode="add" ident="#LUÇ"/>
                 <valItem mode="add" ident="#MC"/>
-              <valItem mode="add" ident="#BE"/><valItem mode="add" ident="#BA"/><valItem mode="add" ident="#GR"/><valItem mode="add" ident="#StV"/><valItem mode="add" ident="#MO"/><valItem mode="add" ident="#NI"/><valItem mode="add" ident="#TA"/><valItem mode="add" ident="#TO"/><valItem mode="add" ident="#DE"/><valItem mode="add" ident="#BER"/></valList>
+              <valItem mode="add" ident="#BE"/><valItem mode="add" ident="#BA"/><valItem mode="add" ident="#GR"/><valItem mode="add" ident="#StV"/><valItem mode="add" ident="#MO"/><valItem mode="add" ident="#NI"/><valItem mode="add" ident="#TA"/><valItem mode="add" ident="#TO"/><valItem mode="add" ident="#DE"/><valItem mode="add" ident="#BER"/><valItem mode="add" ident="#IM"/></valList>
             </attDef>
           </attList>
         </elementSpec>
