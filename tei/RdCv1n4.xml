@@ -283,7 +283,7 @@ COLONIALES.</head>
 <sic>iles</sic>
 <corr>îles</corr>
 </choice>
- Martinique et Sainte-Lucie (<bibl type="legal"><title ref="CM">code de la Martinique</title></bibl>, tome 2, page 608). Elle est encore en vigueur, car on la rappelle dans un 
+ Martinique et Sainte-Lucie (<bibl type="legal">code de la Martinique</bibl>, tome 2, page 608). Elle est encore en vigueur, car on la rappelle dans un 
  <choice>
  <orig>réglement</orig>
  <corr>règlement</corr>
@@ -424,7 +424,7 @@ COLONIALES.</head>
             <orig>réglemens</orig>
             <corr>règlements</corr>
             </choice>
-            , conséquence de l'<bibl type="periodical"><title ref="#AE">acte d'émancipation</title></bibl>.
+            , conséquence de l'<bibl type="legal">acte d'émancipation</bibl>.
             (<bibl type="periodical"><title><emph>Standard</emph></title></bibl>.)</p></div>
 
             <div>
@@ -597,8 +597,8 @@ COLONIALES.</head>
                            <head>NOUVELLES DIVERSES.</head>
                            
                            <p><persName ref="#DU">M. Henri Dutrône</persName>, conseiller à la cour royale d'<placeName ref="#Ami">Amiens</placeName>, vient d'être chargé par le gouvernement d'aller étudier à <placeName ref="#Alg">Alger</placeName> ce qu'il est possible de faire pour organiser et répandre l'instruction dans cette colonie.</p>
-                           <p>-<persName ref="#Ba">M. Babe</persName>, conseiller-auditeur à la cour royale de la <placeName ref="#GP">Guadeloupe</placeName>, a été nommé conseiller titulaire à la <placeName ref="#MQ">Martinique</placeName>, en remplacement de <persName ref="#Pé">M. Pécoul</persName>.</p>
-                           <p>-On lit dans le <bibl type="peridical"><title><emph>Journal de la marine</emph></title></bibl>: Quelques jours avant le départ du capitaine Barbédienne, commandant <emph>l'Aimable Lucette</emph>, parti le <date>17 juillet</date> de la <placeName ref="#PàP">Pointe-à-Pitre</placeName>, on avait appris à la Guadeloupe la nomination du <persName ref="#JAC">comte Jacob</persName> au ministère de la marine. Les 
+                           <p>-<persName ref="#BA">M. Babe</persName>, conseiller-auditeur à la cour royale de la <placeName ref="#GP">Guadeloupe</placeName>, a été nommé conseiller titulaire à la <placeName ref="#MQ">Martinique</placeName>, en remplacement de <persName ref="#Pé">M. Pécoul</persName>.</p>
+                           <p>-On lit dans le <bibl type="periodical"><title><emph>Journal de la marine</emph></title></bibl>: Quelques jours avant le départ du capitaine Barbédienne, commandant <emph>l'Aimable Lucette</emph>, parti le <date>17 juillet</date> de la <placeName ref="#PàP">Pointe-à-Pitre</placeName>, on avait appris à la Guadeloupe la nomination du <persName ref="#JAC">comte Jacob</persName> au ministère de la marine. Les 
                            <choice>
                            <orig>habitans</orig>
                            <corr>habitants</corr>
