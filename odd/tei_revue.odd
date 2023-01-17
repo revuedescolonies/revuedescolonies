@@ -261,7 +261,7 @@
                 <valItem mode="add" ident="#Bo"/>
                 <valItem mode="add" ident="#CAF"/>
                 <valItem mode="add" ident="#Grey"/>
-              <valItem mode="add" ident="#DEH"/><valItem mode="add" ident="#PIL"/></valList>
+              <valItem mode="add" ident="#DEH"/><valItem mode="add" ident="#PIL"/><valItem mode="add" ident="#THI"/></valList>
             </attDef>
           </attList>
         </elementSpec>
