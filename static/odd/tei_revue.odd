@@ -261,7 +261,7 @@
                 <valItem mode="add" ident="#Bo"/>
                 <valItem mode="add" ident="#CAF"/>
                 <valItem mode="add" ident="#Grey"/>
-              <valItem mode="add" ident="#DEH"/><valItem mode="add" ident="#PIL"><desc versionDate="2023-01-17" xml:lang="en"/></valItem><valItem mode="add" ident="#THI"/></valList>
+              <valItem mode="add" ident="#DEH"/><valItem mode="add" ident="#PIL"></valItem><valItem mode="add" ident="#THI"/></valList>
             </attDef>
           </attList>
         </elementSpec>
