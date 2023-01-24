@@ -30,7 +30,7 @@ const Pb: PbBehavior = ({teiNode, facs}: TEIProps) => {
       zIndex: -1,
       gridArea: "1/1",
       height: '54px',
-      opacity: .2,
+      opacity: .4,
       overflow: 'clip',
     },
     accordion: {
@@ -44,6 +44,24 @@ const Pb: PbBehavior = ({teiNode, facs}: TEIProps) => {
         width: '100%',
         margin: '0'
       },
+    },
+    side: {
+      position: 'absolute',
+      left: 'auto',
+      width: '10em',
+      marginTop: '-1em',
+      marginLeft: '-12em'
+    },
+    paper: {
+      padding: '.6em 1em'
+    },
+    empty: {
+      position: 'static !important',
+      marginBottom: '2em',
+      left: 'auto',
+      width: '10em',
+      marginTop: '-1em',
+      marginLeft: '-12em'
     }
   }
 
@@ -68,9 +86,8 @@ const Pb: PbBehavior = ({teiNode, facs}: TEIProps) => {
 
     const background: JSX.Element | undefined = expanded ? undefined : (<BackgroundImage
       image={img.childImageSharp.gatsbyImageData}
-      alt=""/> ) 
+      alt=""/> )
 
-    // Setting expanded via state stops the Collapse transition from working
     page = (
       <Box sx={{display: "grid"}}>
         {background}
@@ -90,8 +107,9 @@ const Pb: PbBehavior = ({teiNode, facs}: TEIProps) => {
         </Accordion>
       </Box>
     )
+
   } else if (n) {
-    page = <Paper elevation={1} sx={{...styles.accordion, padding: ".6em 1em"}}>{n}</Paper>
+    page = <Paper elevation={1} sx={{...styles.accordion, ...styles.paper}}>{n}</Paper>
   }
 
   if (n) {

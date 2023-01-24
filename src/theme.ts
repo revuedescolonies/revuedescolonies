@@ -17,13 +17,13 @@ declare module '@mui/material/Button' {
   }
 }
 
-const mainColor = "#002654"
+export const mainColor = "#002654"
 
 // A custom theme for CETEIcean
 // It is not intended to be comprehensive; add further rules as needed.
 const theme = createTheme({
   typography: {
-    fontFamily: "'PT Serif', serif",
+    fontFamily: "EB Garamond, serif",
     body1: {
       fontSize: "1.25rem",
       paddingBottom: "1.25rem",
@@ -47,23 +47,24 @@ const theme = createTheme({
             fontSize: "1.25rem",
           },
         ],
+        "html": {
+          scrollPaddingTop: "75px"
+        },
         "a, a:visited, a:hover, a:active": {
           color: mainColor,
         },
         "h1, h2, h3, h4, h5, h6": {
           color: "#333",
         },
-        // "tei-choice tei-abbr + tei-expan:before, tei-choice tei-expan + tei-abbr:before, tei-choice tei-sic + tei-corr:before, tei-choice tei-corr + tei-sic:before, tei-choice tei-orig + tei-reg:before, tei-choice tei-reg + tei-orig:before": {
-        //   content: `" ("`
-        // },
-        // "tei-choice tei-abbr + tei-expan:after, tei-choice tei-expan + tei-abbr:after, tei-choice tei-sic + tei-corr:after, tei-choice tei-corr + tei-sic:after, tei-choice tei-orig + tei-reg:after, tei-choice tei-reg + tei-orig:after": {
-        //   content: `")"`
-        // },
-        "tei-choice tei-sic": { // TODO: show as popup
-          display: "none",
+        "blockquote": {
+          fontWeight: "600",
         },
-        "tei-choice tei-corr": {
-          borderBottom: "2px solid Red",
+        "blockquote .footnote-ref": {
+          fontWeight: "400",
+        },
+        "tei-choice tei-sic": {
+          borderBottom: "2px solid #A9A9A9",
+          borderBottomStyle: "dashed",
           cursor: "pointer"
         },
         "tei-ab": {
@@ -71,7 +72,7 @@ const theme = createTheme({
           marginTop: "1.25em",
           marginBottom: "1.25em",
         },
-        "tei-emph": {
+        "tei-emph, tei-foreign": {
           fontStyle: "italic"
         },
         "tei-head": {
@@ -103,23 +104,30 @@ const theme = createTheme({
           marginTop: "1rem",
           paddingTop: "1rem"
         },
-        "tei-div > tei-div": {
+        "tei-div > tei-div, tei-body > tei-div": {
           borderTop: "1px solid grey"
+        },
+        "tei-floatingText tei-body > tei-div": {
+          borderTop: "none"
         },
         "tei-closer": {
           display: "block",
           textAlign: "right"
         },
         "tei-persName[ref]": { // Generate list of refs that should be rendered as annotations
-          borderBottom: "4px solid darkred",
+          borderBottom: `2px solid ${mainColor}`,
           cursor: "pointer"
         },
-        "tei-placeName[ref='#MQ']": { // Generate list of refs that should be rendered as annotations
-          borderBottom: "4px solid blue",
+        "tei-title[ref]": { // Generate list of refs that should be rendered as annotations
+          borderBottom: `2px solid #00542d`,
           cursor: "pointer"
         },
-        "tei-rs[type=affaire]": { // Generate list of refs that should be rendered as annotations
-          borderBottom: "4px solid purple",
+        "tei-placeName[ref]": { // Generate list of refs that should be rendered as annotations
+          borderBottom: "2px solid #154c79",
+          cursor: "pointer"
+        },
+        "tei-orgName[ref]": { // Generate list of refs that should be rendered as annotations
+          borderBottom: "2px solid #741579",
           cursor: "pointer"
         },
         "tei-titlePage": {
@@ -128,6 +136,132 @@ const theme = createTheme({
         },
         "tei-title": {
           fontStyle: "italic"
+        },
+        // "tei-back": {
+        //   flex: "1"
+        // },
+        "tei-note tei-bibl:nth-of-type(1)": {
+          borderTop: "1px solid grey",
+          paddingTop: "1rem"
+        },
+        "tei-note tei-bibl": {
+          display: "block",
+          fontSize: "1rem",
+          marginBottom: "1rem",
+        },
+        "tei-figdesc": {
+          display: "block",
+          textAlign: "center",
+          lineHeight: "1.66",
+          padding: "0 1em"
+        },
+        "tei-note tei-figdesc": {
+          fontSize: "0.75rem",
+        },
+        "#synoptic": {
+          wordBreak: "break-word"
+        },
+        "tei-titlepart": {
+          display: "block",
+          marginBottom: "2em"
+        },
+        "tei-byline": {
+          display: "block",
+          marginBottom: "2em"
+        },
+        "tei-docedition": {
+          display: "block",
+          marginBottom: "2em"
+        },
+        "tei-docimprint": {
+          display: "block",
+          marginBottom: "2em"
+        },
+        "#RdCv1n1-en tei-titlepart[type=main] tei-seg:nth-of-type(1), #RdCv1n1-fr tei-titlepart[type=main] tei-seg:nth-of-type(1), #RdCv2n1-en tei-titlepart[type=main] tei-seg:nth-of-type(1), #RdCv2n1-fr tei-titlepart[type=main] tei-seg:nth-of-type(1)": {
+          fontSize: "2.5em"
+        },
+        "#RdCv1n1-en tei-titlepart[type=main] tei-seg:nth-of-type(2), #RdCv1n1-fr tei-titlepart[type=main] tei-seg:nth-of-type(2)": {
+          fontSize: "3.5em",
+          fontWeight: "500"
+        },
+        "#RdCv2n1-en tei-titlepart[type=main] tei-seg:nth-of-type(2), #RdCv2n1-fr tei-titlepart[type=main] tei-seg:nth-of-type(2)": {
+          fontSize: "4em",
+        },
+        "tei-byline tei-persname, tei-settlement": {
+          fontWeight: "600"
+        },
+        "#RdCv1n1-en tei-byline:nth-of-type(2), #RdCv1n1-fr tei-byline:nth-of-type(2)": {
+          fontWeight: "600"
+        },
+        "*[rend=bold]": {
+          fontWeight: "600"
+        },
+        "tei-front tei-figure": {
+          display: "block",
+          marginBottom: "1em"
+        },
+        "#RdCv2n1-en tei-body > tei-div tei-head:nth-of-type(1), #RdCv2n1-fr tei-body > tei-div tei-head:nth-of-type(1)": {
+          fontSize: "1.5em"
+        },
+        "#RdCv1n1-en tei-body > tei-div tei-head:nth-of-type(1) tei-seg:nth-of-type(1), #RdCv1n1-fr tei-body > tei-div tei-head:nth-of-type(1) tei-seg:nth-of-type(1)": {
+          fontSize: "1.5em"
+        },
+        "#RdCv1n1-en tei-body > tei-div tei-head:nth-of-type(1) tei-seg:nth-of-type(2), #RdCv1n1-fr tei-body > tei-div tei-head:nth-of-type(1) tei-seg:nth-of-type(2)": {
+          fontSize: "2.5em"
+        },
+        "tei-note tei-p": {
+          textIndent: "0",
+          textAlign: "left",
+        },
+        "#synoptic #RdCv1n1-fr tei-front, #synoptic #RdCv1n1-en tei-front": {
+          display: "block",
+          minHeight: "48.5em"
+        },
+        "#synoptic #RdCv1n1-fr #prospectus": {
+          display: "block",
+          minHeight: "214em"
+        },
+        "#synoptic #RdCv1n1-en #prospectus": {
+          display: "block",
+          minHeight: "203em"
+        },
+        "tei-note": {
+          fontSize: "1rem",
+          color: "rgba(0, 0, 0, 0.54)"
+        },
+        ".RdCcontent > #entities": {
+          margin: "0 auto",
+          width: "60%"
+        },
+        ".RdCcontent > #entities tei-persName, .RdCcontent > #entities tei-placeName, .RdCcontent > #entities tei-orgName, .RdCcontent > #entities tei-listbibl > tei-bibl > tei-title": {
+          display: "block",
+        },
+        ".RdCcontent > #entities tei-person, .RdCcontent > #entities tei-place, .RdCcontent > #entities tei-org, .RdCcontent > #entities tei-listbibl > tei-bibl": {
+          display: "block",
+          border: "1px solid grey",
+          padding: "1.5em",
+          margin: "1em 0"
+        },
+        ".RdCcontent > #entities tei-listperson::before": {
+          content: "'People'"
+        },
+        ".RdCcontent > #entities tei-listplace::before": {
+          content: "'Places'"
+        },
+        ".RdCcontent > #entities tei-listorg::before": {
+          content: "'Organizations'"
+        },
+        ".RdCcontent > #entities tei-listbibl::before": {
+          content: "'Bibliographical entities'"
+        },
+        ".RdCcontent > #entities *[lang=en]::before": {
+          content: "'(EN)'"
+        },
+        ".RdCcontent > #entities *[lang=fr]::before": {
+          content: "'(FR)'"
+        },
+        ".RdCcontent > #entities tei-graphic": {
+          display: "block"
         }
       }
     },

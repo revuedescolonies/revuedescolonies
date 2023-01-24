@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<noteGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="RdCv1n1-notes">
+  <noteGrp xml:id="n13FA">
+    <note xml:lang="fr" type="commentaire">
+      <p>La <title>Revue des Colonies </title>souscrit pleinement à la mode, importée d’Angleterre dans les années 1800, des périodiques non-quotidiens destinés essentiellement à une élite lettrée. Comme l’indique la désignation « recueil » dans le sous-titre, il s’agit d’une compilation de textes divers sélectionnés par le directeur comme représentatifs de l’actualité politique, administrative, juridique, et culturelle du monde colonial. La forme éditoriale de la revue (de son étymologie anglaise, <title>review</title>, c’est-à-dire, bilan ou récapitulatif) vise en effet, autant par sa structure que par sa périodicité, à faire la synthèse des événements marquants des semaines écoulées. </p>
+      <p>La <title>Revue </title>s’attache également à sensibiliser le lecteur métropolitain aux conditions de vie des populations de couleur, libres ou esclavisées, des territoires coloniaux ainsi qu’à promouvoir l’apport culturel, littéraire et artistique d’auteurs et personnalités de couleur avec des rubriques spécialisées, d’où l’insistence du sous-titre sur les « moeurs » et l’« instruction ».</p>
+      <p>Comme toutes les publications de son genre, la <title>Revue </title>répond plus du livre que du journal par son format (grand in-octavo), sa mise en page traditionnelle et la taille, relativement conséquente, de ses livraisons (de 40 à 48 pages). Celles-ci sont d’ailleurs destinées à être reliées en fin d’année afin d’être recueillies, comme des livres, dans les bibliothèques, ainsi qu’en atteste la numérotation continue des pages, introduite dès le second volume. Régulier au cours des deux premières années, le tirage de la <title>Revue </title>sera sujet, par la suite, à des interruptions ponctuelles jusqu’à l’arrêt définitif de sa publication en juin 1842. </p>
+      <p>Saminadayar-Perrin, Corinne. <title>Les Discours du journal Rhétorique et médias au XIXe siècle (1836-1885).</title> Presses de l'Université de Saint-Etienne, 2007.</p>
+      <p>Thérenty, Marie-Ève.« Le recueil contre la revue », <title>Recherches &amp; Travaux</title>, 70 | 2007, 29-38.</p>
+      <p>Loué, Thomas. « La revue », dans Dominique Kalifa, Philippe Régnier et Marie-Ève Thérenty (dirs.), La civilisation du journal - histoire culturelle et littéraire de la presse française au xixe siècle, Paris, Nouveau Monde, 2011, p. 333-357;</p>
+      <p>Berthier, Pascal. « Miroirs des littératures du monde : les revues parisiennes, 1830- 1835 », Romantisme, n° 89, 1995</p>
+      <p>Portebois, Yannick et Dorothy E. Speirs. <title>Entre le livre et le journal</title>, 2 vols. Lyon: ENS Éditions, 2013.</p>
+      <p>Jeune, Simon. « Les revues littéraires », <title>Histoire de l’édition française</title>, Roger Chartier et Henri-Jean Martin dir., Paris, Fayard / Cercle de la Librairie, 1990, tome 3, p.455 .</p>
+    </note>
+    <note xml:lang="en" type="commentary">
+      <p>The form of the “review,” a non-daily periodical offering a survey of current events, commentary, and reprinted material, originates in Romantic-era English print culture.  As indicated by the designation “compendium” in the subtitle, the <title>Revue des Colonies</title> is a compilation of various texts selected by the editors as representative of the political, administrative, legal and cultural news of the colonial world. In choosing the form of the “review” (in the sense of survey or evaluation), the journal indicates its aim to summarize the significant occurrences of the previous weeks.</p>
+      <p>Like most publications of its kind, the <title>Revue</title>, printed in-octavo, with single column pages, in relatively long issues (40 to 50 pages), more closely resembles a book than a newspaper. Issues are designed to be bound at the end of each year in order to be collected as volumes, as evidenced by the continuous numbering of the pages between issues, beginning in the second year of the journal's print run. </p>
+      <p>Though making the metropolitan French reader aware of the hardships experienced by people of color, free or enslaved, was the <title>Revue des Colonies</title>'s main objective, it also aimed to promote the literary, artistic, and cultural contributions of contemporaneous writers and historical figures of color. It did so through regular features and reprints, hence the insistence, in the subtitle, on “customs” and “instruction.”</p>
+      <p>Printed regularly over the first two years, the <title>Revue</title> was, thereafter, subject to occasional interruptions until its final issue in June 1842.</p>
+      <p>Saminadayar-Perrin, Corinne. <title>Les Discours du journal Rhétorique et médias au XIXe siècle (1836-1885).</title> Saint-Etienne: Presses de l'Université de Saint-Etienne, 2007.</p>
+      <p>Thérenty, Marie-Ève. “Le recueil contre la revue.” <title>Recherches &amp; Travaux</title> 70 (2007): 29-38.</p>
+      <p>Loué, Thomas. “La revue ” in <title>La civilisation du journal - histoire culturelle et littéraire de la presse française au xixe siècle</title>. Edited by Dominique Kalifa, Philippe Régnier and Marie-Ève Thérenty. Paris: Nouveau Monde, 2011. 333-357</p>
+      <p>Berthier, Pascal. “ Miroirs des littératures du monde : les revues parisiennes, 1830-1835.” <title>Romantisme</title> 89 (1995): 7-27</p>
+      <p>Portebois, Yannick and Dorothy E. Speirs. <title>Entre le livre et le journal</title>, 2 vols. Lyon: ENS Éditions, 2013.</p>
+      <p>Jeune, Simon. “Les revues littéraires,” in <title>Histoire de l’édition française</title>, tome 3. Edited by Roger Chartier and Henri-Jean Martin. Paris: Fayard / Cercle de la Librairie, 1990. 455 .</p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n4F2A">
+    <note xml:lang="fr" type="commentaire">
+      <p>Cette notion de « fusion » revient souvent dans la <title>Revue</title>, qui lui consacre, notamment, un article intitulé « De la fusion des deux races aux colonies et des causes qui la retardent » (décembre 1834, p. 1-7). Proposée comme moyen d’abolir la hiérarchie raciale des colonies par le métissage, elle peut paraître utopique, voire naïve. Comme l’a signalé Marlene Daut, elle demeure néanmoins ancrée, pour Bissette et ses associés, dans une conscience nécessaire des rapports de force profondément inégalitaires que le métissage impliquait, en pratique, dans le contexte colonial. </p>
+      <p>Bongie, Chris. <title>Islands and Exiles: The Creole Identities of Post/colonial Literature</title>, Stanford, Californie : Stanford University Press, 1998, p. 274-275.</p>
+      <p>Daut, Marlene L. <title>Tropics of Haiti</title>, Liverpool : Liverpool University Press, 2015, p. 345‑372.</p>
+      <p>Manchuelle, François. « Le rôle des Antillais dans l’apparition du nationalisme culturel en Afrique noire francophone », <title>Cahiers d'Études Africaines</title> 32, no. 127, 1992, p. 375‑408.</p>
+    </note>
+    <note xml:lang="en" type="commentary">
+      <p>This notion of “fusion” appears frequently in the <title>Revue</title>, notably in article in the December 1834 issue entitled “Of the fusion of the two races in the colonies and the causes that delay it” (“De la fusion des deux races aux colonies et des causes qui la retardent,” <title>Revue des Colonies</title>, December 1834, 1-7). As Marlene Daut has noted, for the "society of men of color" at the helm of the journal, this notion of fusion remains inextricable from the history of sexual violence that racial mixing implied, in practice, in the colonial context.</p>
+      <p>Bongie, Chris. <title>Islands and Exiles: The Creole Identities of Post/colonial Literature</title>. Stanford: Stanford University Press, 1998, 274-275.</p>
+      <p>Daut, Marlene L. <title>Tropics of Haiti</title>, Liverpool: Liverpool University Press, 2015. 345‑372.</p>
+      <p>Manchuelle, François. "The role of the West Indians in the emergence of cultural nationalism in French-speaking black Africa," <title>Cahiers d'Études Africaines</title> 32, no. 127, 1992, 375-408.</p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n6CEA">
+    <note xml:lang="fr" type="commentaire">
+      <p>Cette phrase apporte un éclairage essentiel sur la politique éditoriale de la <title>Revue</title>à ses débuts. Si l’objectif est de combattre le système esclavagiste en commençant, en premier lieu, par le démantèlement de l’ordre ségregationniste des colonies par la revendication des droits civiques des personnes de couleur libres, la voie choisie par Bissette et ses associés dans cette première livraison est, que ce soit pour des raisons idéologiques sincères ou pour des raisons stratégiques, celle de la conciliation et de l’assimilationnisme social. Il n’y est, par ailleurs, pas question d’envisager une quelconque indépendance des Antilles, et ce particulièrement dans une décennie qui voit la France étendre son empire à l’Algérie après avoir perdu plusieurs territoires de son premier empire colonial. La perspective que Bissette affiche par le biais de la <title>Revue</title> reste celle d’un Français qui croit à la vitalité de l’Empire et n’envisage pas d’alternative au système colonial. </p>
+    </note>
+    <note xml:lang="en" type="commentary">
+      <p>This claim is indicative of the editorial politics of the <title>Revue</title> in its early days. Though the ultimate goal remains the abolition of slavery and the dismantlement of the colonies' segregationist order, Bissette and his associates adopt an overhwelmingly assimilationist and conciliatory position with regard to metropolitan France. This may be a pragmatic decision, given the slim possibility of independence for the Caribbean colonies, in the decade that saw France extend its empire to Algeria. The position Bissette adopts throughout the <title>Revue</title>’s print run is, thus, ostensibly that of a colonial and imperial subject who does not see the need to pursue any alternative forms of governance.</p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n79DB">
+    <note xml:lang="fr" type="commentaire">
+      <p>Si Bissette et ses associés Fabien et Richard avaient rédigé, au cours des deux années précédentes, plusieurs textes et pétitions à visée explicitement émancipatrice, cette déclaration suggère une approche plus conciliante, sans doute par souci d’attirer un nombre important d’abonnés, mais aussi, potentiellement, par crainte de censure officielle ou de répercussions juridiques. Un an plus tard, la première livraison du second volume tient un discours bien plus explicitement et résolument abolitionniste. </p>
+      <p><ref target="RdCv2n1-fr">Juillet 1835</ref></p>
+    </note>
+    <note xml:lang="en" type="commentary">
+      <p>Unlike the more explicitly emancipatory tracts that Bissette and his associates Fabien and Richard had drafted over the previous two years, this declaration suggests a more conciliatory approach, likely out of concern for attracting and maintaining subscribers, but also, potentially, for fear of official censorship or legal repercussions. A year later, the first issue of the second volume features markedly more radical abolitionist arguments.</p>
+      <p><ref target="RdCv2n1-en">July 1835</ref></p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n6ED7">
+    <note xml:lang="fr" type="commentaire">
+      <p>Cet oxymore souligne l’attitude paradoxale de la <title>Revue</title> et de son rédacteur quant au projet colonial. Comme beaucoup de ses contemporains, le libéralisme de Bissette, même lorsqu’il est au plus explicite dans ses engagements antiesclavagistes et antiségrégationnistes, n’est jamais explicitement décolonial. Toutefois, l’apparente adhésion, voire la « dévotion » de la <title>Revue</title> au modèle colonial, mérite d’être nuancée, notamment par les propos tenus dès l’année suivante, dans <ref target="RdCv2n1-fr#abolition">l’article sur le projet de loi pour l’abolition immédiate</ref>. La France y est invoquée, de manière ouvertement pragmatique, au titre d’arbitre nécessaire à la transition de « l’ancien au nouvel état produit par l’abolition de l’esclavage », dans une allusion claire à l’embargo économique et diplomatique d’Haïti aux lendemains de son idépendance. (juillet 1835, p. 10)</p>
+    </note>
+    <note xml:lang="en" type="commentary">
+      <p>This oxymoron underlines the paradoxical attitude  the <title>Revue</title> adopts regarding France's imperial and colonial project. Bissette's liberalism does not explicitly extend from anti-slavery to anti-colonialism. However, the apparent adhesion, even “devotion,” of the <title>Revue</title> to the French empire, is not without complication, particularly in its discussion of the <ref target="RdCv2n1-en#abolition">bill for immediate abolition published the following year</ref>. France is invoked there, in the spirit of pragmatism, as the necessary arbiter for the transition from “the old to the new state produced by the abolition of slavery,” in a clear allusion to the economic and diplomatic embargo of Haiti in the aftermath of its independence. (July 1835, 10)</p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n65C6">
+    <note xml:lang="fr" type="commentaire">
+      <p>Une série d’articles intitulés « Affaire de la Grand’Anse » paraît dans les trois premières livraisons de la <title>Revue</title>, revenant sur les particularités de l’affaire et la procédure judiciaire qui s'en est suivie tout au long de la première année.</p>
+    </note>
+    <note xml:lang="en" type="commentary">
+      <p>A series of articles entitled “Affaire de la Grand’Anse” appeared in the first three issues of the <title>Revue</title>, detailing the specifics of the case and the legal proceedings that followed.</p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n2BFD">
+    <note xml:lang="fr" type="commentaire">
+      <p>Cette expression vise à mettre en équivalence le statut privilégié des colons blancs avec celui qui est réservé à la noblesse, et par extension à opérer un parallèle entre la hiérarchie raciale de la société coloniale et celle de l’Ancien Régime. De fait, l’ensemble des diverses mesures discriminatoires mises en place par les ordonnances coloniales à l’encontre de la population de couleur libre est souvent désigné par l’expression « préjugé de couleur », ce qui en fait le pendant colonial du préjugé de noblesse de la France d’Ancien Régime. </p>
+      <p>Régent, Frédéric. « Préjugé de couleur, esclavage et citoyennetés dans les colonies françaises (1789-1848) », <title>La Révolution française</title>. 17 novembre 2015 n<hi rend="superscript">o</hi> 9.</p>
+    </note>
+    <note xml:lang="en" type="commentary">
+      <p>This original expression analogizes the privileged status of white settlers in the colonies to that of Old Regime nobility. In so doing, it echoes the phrase “prejudice of color,” which was used to refer collectively to the various discriminatory measures put in place by colonial ordinances against the free population of color.</p>
+      <p>Régent, Frédéric. “Préjugé de couleur, esclavage et citoyennetés dans les colonies françaises (1789-1848),”  <title>La Révolution française</title> 9 (2015). 1-37.</p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n7A20">
+    <note xml:lang="fr" type="commentaire">
+      <p>Référence transparente aux victimes de l’<title>affaire Bissette</title>, dont Bissette et Fabien, mais également à celles de l’<title>affaire de la Grand’Anse.</title></p>
+    </note>
+    <note xml:lang="en" type="commentary">
+      <p>This is a transparent allusion to the victims of the <title>affaire Bissette</title>, including the founders of the <title>Revue</title>, as well as those of the <title>affaire de la Grand’Anse</title>.</p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n4C92">
+    <note xml:lang="fr" type="commentaire">
+      <p>Déclaration aussi surprenante qu’évocatrice des engagements réels de la <title>Revue.</title></p>
+    </note>
+    <note xml:lang="en" type="commentary">
+      <p>This passage of elevated rhetoric effectively constitutes a mission statement for the <title>Revue.</title></p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n5699">
+    <note xml:lang="fr" type="contexte_historique">
+      <p>Cette référence claire à l’abolition de l’esclavage britannique décrétée en août 1833, et devant entrer en vigueur en août 1834, soit quelques semaines après la première livraison de la <title>Revue</title>, permet d’identifier l’'un des moteurs politiques de la fondation du périodique.  La référence comprend également une allusion implicite aux insurrections antiesclavagistes de l’ancienne colonie française de Saint-Domingue qui ont précipité la première abolition française de l’esclavage en 1794. À l’époque de la première livraison de la <title>Revue</title>, l’émancipation et l’éventuelle indépendance d’Haïti constituent une menace pour les sociétés coloniales et esclavagistes, et exercent de ce fait une influence importante sur l’administration des territoires coloniaux. </p>
+    </note>
+    <note xml:lang="en" type="historical_context">
+      <p>This reference to the British Abolition Act, passed in August 1833, which would take effect only a few weeks after the first issue of the <title>Revue</title>, in August 1834, is indicative of its impetus and political ambitions. The phrasing also appears to make implicit reference to the slave insurrections in the former colony of Saint-Domingue that ultimately brought about the first French abolition in 1794. At the time of the <title>Revue</title>’s publication, the emancipation and ultimate independence of Haiti were perceived as persistent threats to the colonial system, with lasting effects on French international and colonial policy.</p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n7767">
+    <note xml:lang="fr" type="contexte_historique">
+      <p>Bissette choisit de réimprimer les procès-verbaux, un tirage séparé plus rare, et moins référencé de la Déclaration, qui contenait également les articles de la première Constitution française. Ce document était initialement destiné au cercle restreint de ceux qui ont participé à sa création, avec des copies limitées à ces personnes. </p>
+    </note>
+    <note xml:lang="en" type="historical_context">
+      <p>Bissette chooses to reprint the minutes (“procès-verbaux”) of the meetings of the National Constituent Assembly during which the Declaration was discussed and adopted. This rarer, less referenced separate edition of the Declaration, also contained the articles of the first French Constitution. Copies of this document were originally limited to those who participated in its creation.</p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n590A">
+    <note xml:lang="fr" type="contexte_historique">
+      <p>Cette <title>affaire</title>, qui a bénéficié d’une couverture médiatique importante dans la <title>Revue</title> et ailleurs, a pour origine une altercation, en août 1833, entre un planteur blanc et un homme de couleur libre qui aboutit à  une mobilisation fermement réprimée. Sur plus d’une centaine d’accusés, la majorité reçoit de sévères condamnations —  travaux forcés, déportations, exécutions — à l’issue d’un procès expéditif mené par la justice locale. L’article « Coup d’œil sur le régime colonial et ses effets » est d’ailleurs suivi d’un article entièrement consacré à l’« Insurrection de la Grand’Anse » énumérant les 117 accusés.</p>
+      <p>Schloss, Rebecca Hartkopf. <title>Sweet Liberty : The Final Days of Slavery in Martinique</title> Philadelphia: University of Pennsylvania Press, 2011. p. 152-165.</p>
+    </note>
+    <note xml:lang="en" type="historical_context">
+      <p>This <title>affaire</title>, which received significant media coverage in the <title>Revue</title> and elsewhere, originated in an altercation in August 1833 between a white planter and a free man of color, ultimately resulting in an authoritarian mass mobilization against protesting men of color. A majority of the more than one hundred arrested received severe sentences — forced labor, deportations, executions — after a hasty trial conducted by local courts. In this issue, the article “A look at the colonial regime and its effects” is followed by an article entirely devoted to the "Grand'Anse Uprising,” which includes a list of the 117 accused.</p>
+      <p>Schloss, Rebecca Hartkopf. <title>Sweet Liberty: The Final Days of Slavery in Martinique</title> Philadelphia: University of Pennsylvania Press, 2011. 152-165.</p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n9F29">
+    <note xml:lang="fr" type="contexte_historique">
+      <p>Trois jours d’insurrection parisienne en juillet 1830, les Trois Glorieuses, mettent fin au règne de Charles X et à la Restauration, régime supplanté par la Monarchie de Juillet avec à sa tête, Louis-Philippe, roi des Français.</p>
+    </note>
+    <note xml:lang="en" type="historical_context">
+      <p>Three days of insurrection across Paris in July 1830, the so-called <title>Trois Glorieuses</title>, put an end to the reign of Charles X and the Bourbon Restoration, installing, in its place, the July Monarchy of Louis-Philippe, who accepted the title “King of the French.”</p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n3257">
+    <note xml:lang="fr" type="contexte_historique">
+      <p>En proclamant, en son article 73, que les colonies seraient régies par « des lois et des règlements particuliers », la Charte constitutionnelle de 1814 cautionnait, de fait, d’importants abus à l’encontre de la population de couleur. L’élimination du mot « règlements » de l’article 64 (par ailleurs identique) de la nouvelle Charte de 1830 signalerait donc, comme l’explique la <title>Revue,</title> une volonté de la part du nouveau gouvernement de remédier à la situation en rapprochant les colonies de la métropole. </p>
+      <p>Larcher, Silyane. <title>L’autre citoyen: L’idéal républicain et les Antilles après l’esclavage</title>, Paris. Armand Colin, 2014, p. 114-117.</p>
+    </note>
+    <note xml:lang="en" type="historical_context">
+      <p>Per Article 73 of the Constitutional Charter of 1814: “The colonies are governed by specific laws and regulations.” Article 64 of the revised Charter of 1830 is equivalent save for the removal of the word “regulations.” As the <title>Revue</title> explains, the capacity of colonial governments to abide by their own particular “regulations” enabled significant forms of abuse and oppression of people of color. Thus the new charter would appear to reform these injustices by bringing the colonies more in line with the <title>métropole</title>.</p>
+      <p>Larcher, Silyane. <title>L’autre citoyen: L’idéal républicain et les Antilles après l’esclavage</title>, Paris. Armand Colin, 2014, 114-117.</p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n917D">
+    <note xml:lang="fr" type="contexte_historique">
+      <p>Les titres de noblesse, abolis au début de la Révolution, sont rétablis avec la Restauration de la monarchie en 1814 et maintenus pendant la monarchie de Juillet. </p>
+    </note>
+    <note xml:lang="en" type="historical_context">
+      <p>Titles of nobility were abolished at the start of the Revolution but reestablished with the Restoration of the Monarchy in 1814 and maintained during the July Monarchy. </p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n332A">
+    <note xml:lang="fr" type="contexte_historique">
+      <p>Les ordonnances locales qui régissent, de fait, les territoires coloniaux, tendent systématiquement à protéger les intérêts des planteurs blancs. Dès 1831, Mondésir Richard objecte auprès du gouvernement métropolitain: « La Charte nous promet des lois, et vous nous replacez inhumainement sous l’empire des ordonnances, et le mauvais vouloir des Colons. »</p>
+      <p>Richard, Mondésir. <title>Examen des deux projets de loi sur l'organisation des colonies: et sur les droits civils et politiques des hommes de couleur, </title>Paris, Imprimerie Porthmann, 1831, p. 11.</p>
+    </note>
+    <note xml:lang="en" type="historical_context">
+      <p>Local ordinances which <title>de facto</title> govern colonial territories systematically tend to protect the interests of white planters. As early as 1831, Mondésir Richard decried the unjustness of this system to the French government: “The Charter promises us laws, and you inhumanly put us back under the empire of ordinances, and the ill will of the colonists.”</p>
+      <p>Richard, Mondésir. <title>Examen des deux projets de loi sur l'organisation des colonies: et sur les droits civils et politiques des hommes de couleur. </title>Paris: Imprimerie Porthmann, 1831. 11.</p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n0490">
+    <note xml:lang="fr" type="contexte_historique">
+      <p>Les lois d’avril 1833, parfois connues sous le nom de <title>Charte coloniale</title>, devaient en principe confirmer l’égalité des populations libres des colonies. Elles ne font cependqnt qu’appuyer l’hégémonie des colons blancs en leur assurant la domination au sein d’assemblées locales et en maintenant des conditions de cens qui leur sont largement favorables.</p>
+    </note>
+    <note xml:lang="en" type="historical_context">
+      <p>The laws passed in April 1833, referred to collectively as the <title>Colonial Charter</title>, were meant, in principle, to confirm the equality of the free populations of the colonies. In practice, however, they ensured white landowners’ control of local assemblies and set tax requirements for voting that barred all but a few men of color from the electoral process.</p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n8508">
+    <note xml:lang="fr" type="contexte_historique">
+      <p>L’implication ici est que le statut des hommes libres de couleur par rapport aux propriétaires terriens blancs en 1834 est plus dégradé que le statut des gens ordinaires (membres du tiers état, l'ordre le plus bas de la hiérarchie sociale) par rapport au clergé ou à l'aristocratie au cours de la ancien régime, qui étaient au moins reconnus comme ayant des droits égaux à l'humanité.</p>
+    </note>
+    <note xml:lang="en" type="historical_context">
+      <p>The implication here is that the status of free men of color relative to white landowners in 1834 is more degraded than the status of commoners (members of the third estate, the lowest order of the social hierarchy) relative to the clergy or aristocracy during the ancien regime, who were at least recognized as having equal claims to humanity. </p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n6759">
+    <note xml:lang="fr" type="contexte_historique">
+      <p>Un exemple de ce type de concession est l’ordonnance royale du 24 février 1831 permettant aux  « libres de couleur  » de Martinique d’hériter des blancs, d’exercer la médecine, la chirurgie ou la pharmacie, de s’établir en métropole, et d’accèder à l'éducation.</p>
+      <p>Schloss, Rebecca Hartkopf. <title>Sweet Liberty: The Final Days of Slavery in Martinique</title>. <title>Philadelphia.</title> University of Pennsylvania Press. 2011, p. 136.</p>
+    </note>
+    <note xml:lang="en" type="historical_context">
+      <p>An example of this type of concession is the royal ordinance of February 24, 1831 allowing the free men of color of Martinique to inherit property from whites, to practice medicine, surgery or pharmacy, to settle in metropolitan France, and to receive education.</p>
+      <p>Schloss, Rebecca Hartkopf. <title>Sweet Liberty: The Final Days of Slavery in Martinique. </title>Philadelphia. Philadelphia: University of Pennsylvania Press. 2011. 136.</p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n684A">
+    <note xml:lang="fr" type="contexte_historique">
+      <p>Ce passage est révélateur du public visé par la <title>Revue </title>et de l’objectif qu’elle se donne auprès de celui-ci. Le sensationnalisme qui a pu caractériser le traitement médiatique de l’<title>affairede la Grand’Anse </title>a sans doute éffarouché quelques lecteurs potentiellement favorables à la cause des personnes de couleur, la <title>Revue </title>promet de remédier à cet état de fait en apportant un contrepoids nécessaire, en vue d’éclairer des lecteurs métropolitains bienveillants mais trop éloignés des réalités coloniales.</p>
+    </note>
+    <note xml:lang="en" type="historical_context">
+      <p>This meta-commentary on the state of colonial reporting is revelatory of the <title>Revue</title>’s intended audience. If sensationalist coverage of the <title>affaire de la Grand’Anse </title>might have instilled doubts in readers potentially sympathetic to the cause of expanded rights for free people of color, the <title>Revue </title>promises to provide a necessary counterbalance, and thus to attract benevolent but otherwise disengaged metropolitan French readers to the emancipatory cause. </p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n9C9A">
+    <note xml:lang="fr" type="référence_culturelle">
+      <p>Il s’agit d’une référence à <title>Turcaret</title>,une comédie populaire de 1709 par Alain-René Lesage, dont le personnage titulaire est un usurier et ancien laquais qui tente de s’insinuer dans l’aristocratie.</p>
+      <p>Dans le contexte de la comparaison aux anciens titres de noblesse, l’« aristocratie des Turcarets »</p>
+      <p>semble donc faire allusion au système de pairie introduit à la Restauration et calqué sur le système anglais, créant une catégorie de noblesse non héréditaire et transactionnelle.</p>
+    </note>
+    <note xml:lang="en" type="cultural_reference">
+      <p>This is a reference to <title>Turcaret</title>, a popular comedy from 1709 by Alain-René Lesage, whose titular character is a usurer and former valet who attempts to insinuate himself into the aristocracy. The reference thus appears to be to the recently redefined system of peerage, modeled on the English system, which created a non-hereditary and thus acquirable and transactional category of nobility. </p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n5DA0">
+    <note xml:lang="fr" type="référence_culturelle">
+      <p>Mésence, le tyran étrusque dans l'<title>Énéide</title> de Virgile, Caligula, l’empereur romain connu pour sa cruauté et sa débauche, et Louis XI, emblème du despotisme médiéval dans la littérature romantique, sont ici évoqués pour sous-entendre que la cruauté et la corruption des planteurs et administrateurs coloniaux surpassent celle des personnages historiques ou mythologiques les plus infâmes.</p>
+    </note>
+    <note xml:lang="en" type="cultural_reference">
+      <p>Mésence, or Mezentius, the tyrant Etruscan king in Virgil’s <title>Aeneid</title>, Caligula, the Roman emperor notorious for cruelty and debauchery, and Louis XI, an emblem of dark-age despotism familiar to readers of nineteenth-century French literature, are here evoked with the implication that the cruelty and corruption of white colonial landowners and authorities surpasses that of the most infamous historical, or mythological figures.</p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n3E34">
+    <note xml:lang="en" type="translation_note">
+      <p>The <title>Revue</title>’s use of “man” or “men” to refer to humanity is conventional for the time.</p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n2F0A">
+    <note xml:lang="en" type="translation_note">
+      <p>The following is the official English translation of the Declaration, referenced in the Preamble of the French Constitution, made available by the Conseil constitutionnel at <ref target="http://www.conseil-constitutionnel.fr/">http://www.conseil-constitutionnel.fr/</ref>.</p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n5F16">
+    <note xml:lang="en" type="translation_note">
+      <p><title>Métropole</title> or Metropolitan France refers to the part of the country located geographically in Europe, as distinct from France’s overseas territories and, at the time of the <title>Revue</title>, its colonies.</p>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="n3701">
+    <note xml:lang="en" type="translation_note">
+      <p>“Worthless” is a translation of the word “vil,” from which the English word “vile” is derived, but which here indicates lack of value rather than moral or physical offensiveness.</p>
+    </note>
+  </noteGrp>
+</noteGrp>

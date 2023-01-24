@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="entities">
+  <listPerson>
+    <person xml:id="CB">
+      <persName>Cyrille Bissette</persName>
+      <note xml:lang="fr">
+        <figure>
+          <graphic url="portrait_Bissette.jpg"/>
+          <figDesc>Portrait de Cyrille Bissette. Courtesy of the Schomburg Center for Research in Black Culture</figDesc>
+        </figure>
+        <p>Né à Fort-Royal (Martinique) le 9 juillet 1795, Cyrille Charles Auguste Bissette est le fondateur et rédacteur en chef de la <title>Revue des Colonies</title>, premier organe de presse à plaider publiquement pour une abolition immédiate.</p>
+        <p>Ses parents Charles Borromée Bissette et Elizabeth Mélanie Bellaine, étaient libres de couleur. Par sa mère, la fille naturelle de Joseph-Gaspard de Tascher de La Pagerie, Cyrille Bissette est un neveu de Joséphine de Beauharnais.</p>
+        <p>En 1816, Bissette épouse Augustine Séverin, une femme de couleur libre, avec qui il a quatre enfants. Négociant et propriétaire d’esclaves, il n’est pas encore engagé dans le mouvement antiesclavagiste, participant, en 1822, à la répression de la révolte du Carbet. Quelque mois plus tard, cependant, il est arrêté, ainsi que six autres hommes de couleur libres — Montlouis Thébia, Joseph Richer, Joseph Millet, Laborde, Louis Fabien, fils et Jean-Baptiste Volny — pour détention et distribution présumées d’un pamphlet séditieux imprimé à Paris, <title>De la situation des homme de couleur libre aux Antilles françaises </title>(que Bissette aurait écrit). </p>
+        <p>Jugés comme meneurs présumés d’un complot visant à renverser l’organisation ségrégationniste de la société martiniquaise, Bissette, Fabien <title>fils </title>et Volny sont marqués au fer rouge et condamnés aux galères à perpétuité. En 1827, avec l’aide de l’avocat François Isambert, Bissette voit sa peine réduite à dix ans de bannissement et les frais juridiques de la procédure, qui demeureront un fardeau important. Bénéficiant d’une importante couverture médiatique, la dénommée « Affaire Bissette » donne l’impulsion à sa carrière politique. </p>
+        <p>A Paris, Bissette participe aux Trois Glorieuses ce qui lui vaudra d’être décoré de la Croix de Juillet, fréquente les cercles républicains comme l’<title>Association libre pour l'éducation du peuple</title>, rejoint une loge maçonnique, publie plusieurs pétitions à visée émancipatrice, et fonde la <title>Revue des Colonies, </title>organe de presse pour ses plaidoyers pour une abolition totale et immédiate de l'esclavage. Cette position radicale le met en porte-à-faux avec la majorité de la communauté abolitionniste française,dont Victor Schoelcher. \</p>
+        <p>La distance entre les deux abolitionnistes tourne au conflit après la publication <title>Des Colonies Françaises </title>de Schoelcher, que Bissette critique sévèrement pour sa caractérisation stigmatisante - allant jusqu’au racisme décomplexé - de la population de couleur libre des Antilles.  Occulté par le culte de Schoelcher dans la bourgeoisie intellectuelle assimilationniste, Cyrille Bissette est rejeté de la mémoire collective pour sa plateforme réconciliationniste et son alliance stratégique avec un planteur blanc aux élections législatives de 1849. </p>
+        <bibl>Bongie, Chris. “1835, ou ‘Le troisième cycle’: The Creole Afterlives of Cyrille-Charles Auguste Bissette, Louis de Maynard de Queilhe, and Victor Schoelcher.” In <title>Islands and Exiles: The Creole Identities of Post/Colonial Literature</title>. Stanford: Stanford University Press, 1998. 264-287, 323-340.</bibl>
+        <bibl>Bongie, Chris. “A Street Named Bissette: Assimilating the Cent-cinquantenaire of the Abolition of Slavery in Martinique (1848–1998).” In <title>Friends and Enemies, </title>vol.3. Liverpool: Liverpool University Press. 2008. 185‑220. </bibl>
+        <bibl>Jennings, Lawrence C. “Cyrille Bissette,  Radical Black French Abolitionist.” French History 9.1 (1995): p. 48-66 </bibl>
+        <bibl>Jennings, Lawrence C.  <title>French Anti-Slavery: The Movement for the Abolition of Slavery in France, 1802-1848</title>. Cambridge: Cambridge University Press, 2000. 29-37, 49-50, 71-73, 266-69. </bibl>
+        <bibl>Mesnard, Eric. “Les Mouvements de Résistance dans les colonies franchisées : L'affaire Bissette (1823-1827).” In <title>The Abolitions of Slavery : From Leger Felicite Sonthonax to Victor Schoelcher, 1793, 1794, 1848</title>, edited by Marcel Dorigny. Paris: UNESCO, 2003. 293-97.</bibl>
+        <bibl>Pâme, Stella. <title>Cyrille Bissette: un martyr de la liberté</title>. Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
+      </note>
+      <note xml:lang="en">
+        <figure>
+          <graphic url="portrait_Bissette.jpg"/>
+          <figDesc>Portrait de Cyrille Bissette. Courtesy of the Schomburg Center for Research in Black Culture</figDesc>
+        </figure>
+        <p>Born in Fort-Royal (now Fort-de-France, Martinique) on July 9, 1795, Cyrille Charles Auguste Bissette was the founder and editor-in-chief of the Revue des Colonies, the first French press outlet to advocate for immediate and total abolition. His parents, Charles Borromée Bissette and Elizabeth Mélanie Bellaine, were free people of color, and his mother was the illegitimate daughter of Joseph-Gaspard de Tascher de La Pagerie, making Bissette a nephew of Empress Joséphine de Beauharnais.</p>
+        <p>In 1816, Bissette married Augustine Séverin, a free woman of color, with whom he had four children. During these early years in Fort-Royal, Bissette was not engaged in abolitionist activities, and was in fact himself a slaveowner, taking part, in 1822, in the suppression of a slave revolt in the village of Le Carbet. The following year, however, he was arrested, along with six other free men of color — Montlouis Thébia, Joseph Richer, Joseph Millet, Laborde, Louis Fabien, <title>fils</title> and Jean-Baptiste Volny — for possession and alleged distribution of a seditious pamphlet printed in Paris, entitled <title>De la situation des hommes de color libre aux Antilles françaises </title>(which Bissette was alleged to have written). </p>
+        <p>Accused as architects of a plot to overthrow the segregationist organization of Martinican society, Bissette, Fabien, <title>fils</title> and Volny were branded and sentenced to the galleys for life. In 1827, with the help of attorney François Isambert, Bissette’s sentence was reduced to ten years’ banishment and the legal costs of the proceedings, which would remain a substantial burden. Garnering significant media coverage, the so-called <title>Affaire Bissette </title>catalyzed his political career. </p>
+        <p>In Paris, Bissette participated in the <title>Trois Glorieuses </title>(“the three glorious days” of riots that led to the end of the reign of Charles X and the restored Bourbon dynasty), which earned him the decoration of the July Cross, frequented Republican circles such as the <title>Free Association for the Education of the People</title>, joined a Masonic lodge, published several emancipatory petitions, and founded the <title>Revue des Colonies, </title>a press organ for the cause of the total and immediate abolition of slavery. This radical position would put him at odds with the majority of the French abolitionist community, including Victor Schoelcher, the eventual author of the 1848 decree. The distance between these two abolitionists develops into a rivalry after the publication of Schoelcher’s <title>Des Colonies Françaises</title>, which Bissette harshly criticizes for its stigmatizing, indeed, uninhibitedly racist, characterization of the free population of color of the Antilles. Overshadowed by the cult of Schoelcher in the assimilationist intellectual bourgeoisie, Bissette is deliberately written out of abolitionist history for his later reconciliationist platform and his strategic alliance with a white planter in the legislative elections of 1849. </p>
+        <bibl>Bongie, Chris. “1835, ou ‘Le troisième cycle’: The Creole Afterlives of Cyrille-Charles Auguste Bissette, Louis de Maynard de Queilhe, and Victor Schoelcher.” In <title>Islands and Exiles: The Creole Identities of Post/Colonial Literature</title>. Stanford: Stanford University Press, 1998. 264-287, 323-340.</bibl>
+        <bibl>Bongie, Chris. “A Street Named Bissette: Assimilating the Cent-cinquantenaire of the Abolition of Slavery in Martinique (1848–1998).” In <title>Friends and Enemies, </title>vol.3. Liverpool: Liverpool University Press. 2008. 185‑220. </bibl>
+        <bibl>Jennings, Lawrence C. “Cyrille Bissette,  Radical Black French Abolitionist.” French History 9.1 (1995): p. 48-66 </bibl>
+        <bibl>Jennings, Lawrence C.  <title>French Anti-Slavery: The Movement for the Abolition of Slavery in France, 1802-1848</title>. Cambridge: Cambridge University Press, 2000. 29-37, 49-50, 71-73, 266-69. </bibl>
+        <bibl>Mesnard, Eric. “Les Mouvements de Résistance dans les colonies franchisées : L'affaire Bissette (1823-1827).” In<title> Les Abolitions de l'Esclavage de LF Sonthonax à V. Schoelcher1793, 1794, 1848</title>, edited by Marcel Dorigny (Paris: Editions UNESCO, 1995). 293-97.</bibl>
+        <bibl>Pâme, Stella. <title>Cyrille Bissette: un martyr de la liberté</title>. Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
+      </note>
+    </person>
+    <person xml:id="Dfy">
+      <persName>Louis-­Pierre Dufay</persName>
+      <note xml:lang="fr">
+        <p>Louis-­Pierre Dufay (ou Dufahy, l’orthographe employée par Bissette est peu répandue) est parmi les députés envoyés pour représenter Saint-Domingue à la Convention à l’issue des élections de 1793 et ​​soutient par la suite l’abolition de 1794. Avant ce revirement politique, cependant , il avait été membre du Club de l’hôtel de Massiac, une association de propriétaires terriens caribéens qui s'opposaient au premier groupe abolitionniste La Société des amis des Noirs et s'opposaient à l'application de la Déclaration des droits de l'homme et du citoyen aux colonies.</p>
+        <bibl>Benzaken, Jean-­Charles. « Louis-­Pierre Dufahy, député abo­­li­­tion­­niste et homme d’affaires avisé. Esquisse bio­­gra­­phique », <title>Annales historiques de la Révolution française</title>. 1 juin 2012 n<hi rend="superscript">o</hi> 368. p. 61‑85.</bibl>
+      </note>
+      <note xml:lang="en">
+        <p>Louis-­Pierre Dufay (or Dufaÿ, Bissette’s spelling is not standard) was among the deputies sent to represent Saint-Domingue in the National Convention as a result of the elections of 1793 and subsequently supported the abolition of 1794. Prior to this political reversal, however, he had been a member of the Club de l’hôtel de Massiac, an association of Caribbean planters who opposed the the early abolitionist group <title>La Société des amis des Noirs </title>and opposed the application of the Declaration of the Rights of Man and of the Citizen to the colonies. </p>
+        <bibl>Benzaken, Jean-­Charles. “Louis-­Pierre Dufay, député abo­­li­­tion­­niste et homme d’affaires avisé. Esquisse bio­­gra­­phique.” <title>Annales historiques de la Révolution française</title> 368 (2012): 61‑85.</bibl>
+      </note>
+    </person>
+    <person xml:id="Plv">
+      <persName>Étienne Polverel</persName>
+      <note xml:lang="fr">
+        <p>Issu de l’aristocratie provinciale, Étienne Polverel est avocat au parlement de Paris à partir de 1780. Secrétaire du club des Jacobins dès 1790, il s’y lie avec Léger-Félicité Sonthonax et Jacques Pierre Brissot, créateur de la <title>Société des Amis des Noirs</title>, en 1788. Nommé commissaire civil, il est envoyé avec Sonthonax à Saint-Domingue pour faire appliquer la loi du 4 avril 1792 reconnaissant les droits politiques des « libres de couleur ».  Face aux importantes insurrections antiesclavagistes et à l’alliance hispano-britannique contre la France, les deux commissaires civils accordent de manière ponctuelle la liberté à tous les Africains et descendants d’Africains acceptant de combattre sous les drapeaux de la République. Responsable de la partie Ouest de l’île, Polverel y étend, en septembre 1793, l’émancipation générale proclamée par Sonthonax dans la province du Nord le 29 août 1793. </p>
+        <bibl>Dorigny, Marcel, éd. <title>Les Abolitions de l’esclavage: de L.F. Sonthonax à V. Schoelcher, 1793, 1794, 1848</title>. Paris: Presses universitaires de Vincennes, UNESCO, 1995.</bibl>
+        <bibl>Dubois, Laurent. <title>Avengers of the New World: The Story of the Haitian Revolution</title>. Cambridge, Mass: Harvard University Press, 2004</bibl>
+      </note>
+      <note xml:lang="en">
+        <p>A lawyer in the <title>Parlement </title>of Paris (the regional appellate court), Étienne Polverel became secretary of the Jacobin Club in 1790, where he was introduced to Léger-Félicité Sonthonax and Jacques Pierre Brissot, founder of the <title>Société des Amis des Noirs</title>. Appointed civil commissioner, he was sent with Sonthonax to Saint-Domingue to enforce the law of April 4, 1792 recognizing the political rights of free people of color. Faced with important anti-slavery insurrections and the Spanish-British alliance against France, the two civil commissioners gradually granted freedom to all Africans and Afro-descendants agreeing to fight for the Republic. In September 1793, Polverel extended to the western part of the island under his jurisdiction the general emancipation proclaimed in the Northern Province by Sonthonax on 29 August 1793.</p>
+        <bibl>Dorigny, Marcel, ed. <title>The Abolitions of Slavery : From Leger Felicite Sonthonax to Victor Schoelcher, 1793, 1794, 1848</title>. Paris: UNESCO, 2003. </bibl>
+        <bibl>Dubois, Laurent. <title>Avengers of the New World: The Story of the Haitian Revolution</title>. Cambridge, Mass: Harvard University Press, 2004</bibl>
+      </note>
+    </person>
+    <person xml:id="Stx">
+      <persName>Léger-Félicité Sonthonax</persName>
+      <note xml:lang="fr">
+        <p>Avocat au parlement de Paris à la veille de la Révolution, Léger-Félicité Sonthonax fréquente le club des Jacobins où il fait la connaissance d’Étienne Polverel et de Jacques Pierre Brissot, créateur de la <title>Société des Amis des Noirs</title>, en 1788. Nommé commissaire civil, il est envoyé avec Polverel à Saint-Domingue pour faire appliquer la loi du 4 avril 1792 reconnaissant les droits politiques des « libres de couleur ». Face aux importantes insurrections antiesclavagistes et à l’alliance hispano-britannique contre la France, les deux commissaires civils accordent de manière ponctuelle la liberté à tous les Africains et descendants d’Africains acceptant de combattre sous les drapeaux de la République. La proclamation de Sonthonax, le 29 août 1793, officialise l’émancipation générale dans la partie Nord de l’île.</p>
+        <bibl>Dorigny, Marcel, éd. <title>Les Abolitions de l’esclavage: de L.F. Sonthonax à V. Schoelcher, 1793, 1794, 1848</title>. Paris: Presses universitaires de Vincennes, UNESCO, 1995.</bibl>
+        <bibl>Dubois, Laurent. <title>Avengers of the New World: The Story of the Haitian Revolution</title> (Cambridge, Mass: Belknap Press of Harvard University Press, 2004).</bibl>
+      </note>
+      <note xml:lang="en">
+        <p>A lawyer in the <title>Parlement</title> of Paris (the regional appellate court) on the eve of the Revolution, Léger-Félicité Sonthonax frequented the Jacobin Club where he associated with Étienne Polverel and Jacques Pierre Brissot, founder of the <title>Société des Amis des Noirs</title>. He was sent with Polverel as part of the Civil Commission to Saint-Domingue to enforce the law of April 4, 1792 recognizing the political rights of free people of color. Faced with major anti-slavery insurgencies and the Spanish-British alliance against France, the two civil commissioners gradually granted freedom to all Africans and descendants of Africans who agreed to fight for the Republic. Sonthonax’s August 29, 1793 proclamation formalized the general emancipation in the Northern Province.</p>
+        <bibl>Dorigny, Marcel, ed. <title>The Abolitions of Slavery : From Leger Felicite Sonthonax to Victor Schoelcher, 1793, 1794, 1848</title>. Paris: UNESCO, 2003. </bibl>
+        <bibl>Dubois, Laurent. <title>Avengers of the New World: The Story of the Haitian Revolution</title>. Cambridge, Mass: Harvard University Press, 2004</bibl>
+      </note>
+    </person>
+    <person xml:id="NB">
+      <persName>Napoléon Bonaparte</persName>
+      <note xml:lang="fr">
+        <p>En 1802, Napoléon Bonaparte, alors Premier Consul du gouvernement républicain français, plus tard empereur, rétablit l’esclavage dans les colonies où il avait été aboli ou partiellement aboli en 1794 et le ratifie sur les territoires coloniaux où l’abolition n’avait pas pris effet, comme par exemple la Martinique. Son invasion de Saint-Domingue pour y rétablir l’esclavage a été repoussée, aboutissant à la déclaration d’une Haïti indépendante. </p>
+        <p>Bissette avait un lien personnel avec Napoléon en tant que neveu de Joséphine de Beauharnais. </p>
+        <p>Lorsque Bonaparte, à la suite de la paix d’Amiens, décide de rétablir l’esclavage dans les possessions françaises (loi du 20 mai 1802), une guerre particulièrement meurtrière éclate, qui conduit à l’indépendance du pays.</p>
+      </note>
+      <note xml:lang="en">
+        <p>In 1802, Napoleon Bonaparte, then First Consul of the French Republican government, later Emperor, reestablished slavery in the colonies where it had been abolished or partially abolished in 1794 and reaffirmed it in the colonial territories where abolition had not taken effect, such as Martinique. His invasion of Saint-Domingue to reestablish slavery there was repulsed, resulting in the declaration of an independent Haiti. </p>
+        <p>Bissette had a personal connection to Napoleon as the nephew of Joséphine de Beauharnais. </p>
+      </note>
+    </person>
+    <person xml:id="ADp">
+      <persName>Alexandre Dumas</persName>
+      <note xml:lang="fr">
+        <figure>
+          <graphic url="dumas.jpg"/>
+          <figDesc>Portrait de Alexandre Dumas</figDesc>
+        </figure>
+        <p>Born in 1802 to Marie-Louise Elisabeth Labouret and Thomas-Alexandre Dumas Davy de la Pailleterie, a Revolutionary War general from Saint-Domingue, Alexandre Dumas (also known as Alexandre Dumas <foreign>père</foreign>) was among the most popular French playwrights and novelists of the nineteenth century. Dumas received early education in his native Villers-Cotterets from Abbé Grégoire, who ran a local school. By the 1830’s, Dumas was a successful dramatist and a leading figure in the Romantic movement, though he was not favored by contemporary critics. Over the course of the twentieth century, Dumas’ canonical status would be solidified, culminating with the transfer of his remains to the Pantheon in 2002. </p>
+        <p>Dumas’ Haitian ancestry, and accordingly, his race were regular subjects of caricature and malicious insinuation in his time, thus Dumas rarely explicitly identified himself as a person of color or took up questions of race and slavery in his writing. One notable exception is the 1843 novel <title>Georges</title>, which depicts a slave uprising in Isle de France (Mauritius), and in its narrative and rhetoric appears to reflect Dumas’ engagement with the <title>Revue des Colonies</title>.</p>
+        <bibl>Daut, Marlene L. “Haiti and the Black Romantics: Enlightenment and Color Prejudice after the Haitian Revolution in Alexandre Dumas’s Georges (1843).” <title>Studies in Romanticism</title>, vol. 56, no. 1 (2017): 73–92.
+        </bibl>
+        <bibl>
+          Desormeaux, Daniel. “L’amour Nègre Chez Alexandre Dumas.” In <title>Dumas Amoureux : Formes et Imaginaires de l’Éros Dumasien</title>, edited by Julie Anselmini and Claude Schopp, 373–87. Presses universitaires de Caen, 2021.
+        </bibl>
+        <bibl>
+          Martone, Eric, ed. <title>Alexandre Dumas as a French Symbol Since 1870</title>. Cambridge Scholars Publishing, 2021.
+        </bibl>
+      </note>
+      <note xml:lang="en">
+        <figure>
+          <graphic url="dumas.jpg"/>
+          <figDesc>Portrait of Alexandre Dumas</figDesc>
+        </figure>
+        <p>Born in 1802 to Marie-Louise Elisabeth Labouret and Thomas-Alexandre Dumas Davy de la Pailleterie, a Revolutionary War general from Saint-Domingue, Alexandre Dumas (also known as Alexandre Dumas <foreign>père</foreign>) was among the most popular French playwrights and novelists of the nineteenth century. Dumas received early education in his native Villers-Cotterets from Abbé Grégoire, who ran a local school. By the 1830’s, Dumas was a successful dramatist and a leading figure in the Romantic movement, though he was not favored by contemporary critics. Over the course of the twentieth century, Dumas’ canonical status would be solidified, culminating with the transfer of his remains to the Pantheon in 2002. </p>
+        <p>Dumas’ Haitian ancestry, and accordingly, his race were regular subjects of caricature and malicious insinuation in his time, thus Dumas rarely explicitly identified himself as a person of color or took up questions of race and slavery in his writing. One notable exception is the 1843 novel <title>Georges</title>, which depicts a slave uprising in Isle de France (Mauritius), and in its narrative and rhetoric appears to reflect Dumas’ engagement with the <title>Revue des Colonies</title>.</p>
+        <bibl>Daut, Marlene L. “Haiti and the Black Romantics: Enlightenment and Color Prejudice after the Haitian Revolution in Alexandre Dumas’s Georges (1843).” <title>Studies in Romanticism</title>, vol. 56, no. 1 (2017): 73–92.
+        </bibl>
+        <bibl>
+          Desormeaux, Daniel. “L’amour Nègre Chez Alexandre Dumas.” In <title>Dumas Amoureux : Formes et Imaginaires de l’Éros Dumasien</title>, edited by Julie Anselmini and Claude Schopp, 373–87. Presses universitaires de Caen, 2021.
+        </bibl>
+        <bibl>
+          Martone, Eric, ed. <title>Alexandre Dumas as a French Symbol Since 1870</title>. Cambridge Scholars Publishing, 2021.
+        </bibl>
+      </note>
+    </person>
+    <person xml:id="Equ">
+      <persName>Olaudah Equiano</persName>
+      <note xml:lang="fr">
+        <figure>
+          <graphic url="Equiano.jpg"/>
+          <figDesc>Portrait de Equiano</figDesc>
+        </figure>
+        <p>Olaudah Equiano was among the most prominent British abolitionists of the late eighteenth century. Born around 1745, he was sold as a child to the British captain Michael Pascal, who gave him the name Gustavus Vassa, which remained his legal name for the remainder of his life. Equiano served in the British Navy during the Seven Years’ War and in 1766, he purchased his freedom from the American merchant Robert King.</p>
+        <p>
+          As a free man in London in the 1780s, Equiano became more active in the abolitionist movement, notably working with Granville Sharp to bring public attention to the 1781 Zong massacre, in which more than 130 enslaved people were thrown overboard to their deaths while crossing the Atlantic. In 1789, Equiano published his autobiography (his first public use of the name Olaudah Equiano), <title>The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African</title>, which was an instant success in Britain and abroad, becoming the standard for the genre of the slave narrative. 
+        </p>
+        <p>
+          The feature on Equiano that appears in the <title>Revue</title> is taken directly from Abbé Grégoire’s <title>De la littérature des nègres</title> (1808) a survey of writing by Black authors through the turn of the nineteenth century. In the included passage, Grégoire paraphrases the accounts of Equiano’s early childhood in <title>The Interesting Narrative</title>. These passages reflect a consistent point of emphasis in the <title>Revue</title> itself, that the Euopean slave trade corrupts otherwise functional and sophisticated cultures. Later in <title>The Interesting Narrative</title>, Equiano makes a plea for the end of the slave trade in the British Empire that the <title>Revue</title> echoes regularly: that free trade with the African continent would ultimately be more profitable to the nations that supposedly benefit from slave economies. 
+        </p>
+        <bibl>Equiano, Olaudah. <title>The Interesting Narrative</title>, edited by Brycchan Carey. Oxford University Press 2018.
+        </bibl>
+      </note>
+      <note xml:lang="en">
+        <figure>
+          <graphic url="Equiano.jpg"/>
+          <figDesc>Portrait of Equiano</figDesc>
+        </figure>
+        <p>Olaudah Equiano was among the most prominent British abolitionists of the late eighteenth century. Born around 1745, he was sold as a child to the British captain Michael Pascal, who gave him the name Gustavas Vassa, which remained his legal name for the remainder of his life. Equiano served in the British Navy during the Seven Years’ War and in 1766, he purchased his freedom from the American merchant Robert King.</p>
+        <p>
+          As a free man in London in the 1780s, Equiano became more active in the abolitionist movement, notably working with Granville Sharp to bring public attention to the 1781 Zong massacre, in which more than 130 enslaved people were thrown overboard to their deaths while crossing the Atlantic. In 1789, Equiano published his autobiography (his first public use of the name Olaudah Equiano), <title>The Interesting Narrative of the Life of Olaudah Equiano</title>, or Gustavus Vassa, the African, which was an instant success in Britain and abroad, becoming the standard for the genre of the slave narrative. 
+        </p>
+        <p>
+          The feature on Equiano that appears in the Revue is taken directly from <title>Abbé Grégoire’s De la littérature des nègres</title> (1808) a survey of writing by Black authors through the turn of the nineteenth century. In the included passage, Grégoire paraphrases the accounts of Equiano’s early childhood in <title>The Interesting Narrative</title>. These passages reflect a consistent point of emphasis in the <title>Revue</title> itself, that the Euopean slave trade corrupts otherwise functional and sophisticated cultures. Later in <title>The Interesting Narrative</title>, Equiano makes a plea for the end of the slave trade in the British Empire that the <title>Revue</title> echoes regularly: that free trade with the African continent would ultimately be more profitable to the nations that supposedly benefit from slave economies. 
+        </p>
+        <bibl>Equiano, Olaudah. <title>The Interesting Narrative</title>, edited by Brycchan Carey. Oxford University Press 2018.
+        </bibl>
+      </note>
+    </person>
+  </listPerson>
+  <listPlace>
+    <place xml:id="Alg">
+      <placeName>Alger</placeName>
+      <note xml:lang="fr">
+        <p>Les forces françaises entrent pour la première fois dans la ville d’Alger en juillet 1830, dans les derniers jours du règne de Charles X, avec une annexion militaire formelle commençant en 1834. Au moment de la première livraison de la <title>Revue</title>, Alger est métonymique de l’ensemble des conquêtes effectuées au cours des opérations de « pacification », constituant un territoire trop restreint pour être perçu différemment de la ville. C’est en 1847, lorsque la conquête amorce un tournant définitif avec la reddition d’Abd el-Kader, que le territoire de l’Algérie coloniale commence à s’étendre de manière précipitée. Bien qu’elle soit généralement opposée à la violence des forces d’occupation, la <title>Revue </title>ne se montre jamais explicitement hostile à la colonisation de l’Algérie.</p>
+        <bibl>Bouchène, Abderrahmane, Jean-Pierre Peyroulou, Ouanassa Siari Tengour, Sylvie Thénault, eds. <title>Histoire de l’Algérie à la période coloniale, 1830-1962. </title>Paris: La Découverte, 2014.</bibl>
+        <bibl>Jennifer E. Sessions. <title>By Sword and Plow: France and the Conquest of Algeria</title>. Ithaca: Cornell University Press, 2014.</bibl>
+      </note>
+      <note xml:lang="en">
+        <p>French forces first entered the city of Algiers in July, 1830, in the closing days of the reign of Charles X, with formal military annexation beginning in 1834. At the time of the <title>Revue</title>’s initial publication, Algiers was metonymic of all the conquests carried out during the “pacification” operations, constituting a territory too restricted to be perceived distinctly from the city. It was in 1847, when the conquest took a definitive turn with the surrender of Abd el-Kader, that the territory of colonial Algeria began to expand in a precipitous manner. Although it generally opposes the violence of the occupying forces, the <title>Revue </title>is never explicitly critical of the colonization of Algeria.</p>
+        <bibl>Bouchène, Abderrahmane, Jean-Pierre Peyroulou, Ouanassa Siari Tengour, Sylvie Thénault, eds.<title> Histoire de l’Algérie à la période coloniale, 1830-1962. </title>Paris: La Découverte, 2014.</bibl>
+        <bibl>Sessions, Jennifer E. <title>By Sword and Plow: France and the Conquest of Algeria</title>. Ithaca: Cornell University Press, 2014.</bibl>
+      </note>
+    </place>
+    <place xml:id="BrB">
+      <placeName>Bourbon</placeName>
+      <note xml:lang="fr">
+        <p>Située dans l’océan Indien à l’est de Madagascar, l’île de Bourbon est sous contrôle français depuis le 17e siècle. Devenue Réunion à la Révolution, puis île Bonaparte sous l’Empire, elle est occupée par les Britanniques entre 1810 et 1814, avant d’être définitivement rendue à la France dans le cadre du traité de Paris. D’abord employée comme escale pour les navires de la Compagnie française des Indes orientales, l’île intègre, dans la première moitié du 18e siècle, le modèle de la société de plantation esclavagiste. D’après le recensement de 1788, environ 80% de la population de l’île, d’origine africaine, malgache, ou indienne, est esclavisée. L’esclavagisme bourbonnais repose, par ailleurs, sur une politique de division éthnique d’africains, de malgaches et d’indiens dans le but d’éviter la constitution d’un groupe majoritaire menaçant pour l’ordre colonial. L’abolition décrétée par la Convention le 4 février 1794, n’y est jamais appliquée et les actes de résistance, notamment le marronnage, sont répandus. </p>
+        <p>Comme c’est le cas dans d’autres territoires coloniaux, la <title>Revue des Colonies </title>y dispose d’un distributeur et d’un correspondant chargé de rendre compte de l’actualité de l’île. Cependant, la circulation de la <title>Revue</title>, estimée dangereuse pour l’ordre colonial, y est entravée par l’administration locale. Ainsi, dans une lettre datée de mai 1836, Louis-Timagène Houat, lui-même incarcéré, avec d’autres hommes de couleur, pour incitation à l’insurrection, propose de prendre la relève du correspondant précédent, victime d’intimidations. </p>
+        <bibl>Ève, Prosper. <title>Naître et mourir à l’île Bourbon à l’époque de l’esclavage</title>. Paris &amp; Saint-Denis: L’Harmattan, 1999.</bibl>
+        <bibl>Little, Roger et Pratima Prasad (eds.). <title>Esclaves marrons à Bourbon Une anthologie littéraire (1831-1848)</title>. 2005. vol.64. </bibl>
+        <bibl>Prasad, Pratima. « Colour and Conflict in Nineteenth-Century Île Bourbon: the Case of the Affaire Houat », Dix-Neuf. 2 janvier 2020, vol.24 no 1. p. 1‑16.</bibl>
+      </note>
+      <note xml:lang="en">
+        <p>Located in the Indian Ocean to the east of Madagascar, the island of Bourbon has been under French control since the seventeenth century. Renamed Réunion during the Revolution, then Bonaparte Island under the Empire, it was occupied by the British between 1810 and 1814, before definitively returning to France in the Treaty of Paris. First used as a stopover for the ships of the French East India Company, the island adopted a slave plantation economy in the first half of the eighteenth century. According to the 1788 census, approximately 80% of the island’s population, originating in Africa, Madagascar or India, was enslaved. The abolition decreed by the Convention on February 4, 1794 was never actually applied and acts of resistance, notably <title>marronage</title>, were common.</p>
+        <p>As is in other colonial territories, the <title>Revue des Colonies</title> maintained a distributor and a correspondent there responsible for reporting on the island’s current events. However, the circulation of the <title>Revue</title> was hampered by the local administration, who considered the publication seditious. Thus, in a letter dated May 1836, Louis-Timagène Houat, himself imprisoned, along with other men of color, for incitement to insurrection, offered to take over from the previous correspondent, who had been the victim of such intimidation.</p>
+        <bibl>Ève, Prosper. <title>Naître et mourir à l’île Bourbon à l’époque de l’esclavage.</title> Paris &amp; Saint-Denis: L'Harmattan, 1999.</bibl>
+        <bibl>Little, Roger Pratima Prasad, eds. <title>Esclaves marrons à Bourbon Une anthologie littéraire (1831-1848)</title>. Paris: L’Harmattan, 2005</bibl>
+        <bibl>Prasad, Pratima. “Colour and Conflict in Nineteenth-Century <title>Île Bourbon:</title> the Case of the <title>Affaire Houat.</title>” <title>Dix-Neuf </title> 24.1 (2020): 1‑16.</bibl>
+      </note>
+    </place>
+    <place xml:id="Cay">
+      <placeName>Cayenne </placeName>
+      <note xml:lang="fr">
+        <p>Situé sur l’île de Cayenne, dans l’estuaire de la rivière du même nom, Cayenne est le chef-lieu de la Guyane française. Issue du premier empire colonial français, voisine du Brésil et du Suriname, cette colonie fondée sur l’économie de plantation devient un lieu de déportation lors de la Révolution française, accueillant plusieurs convois de proscrits. D’après le recensement de 1788,  la population esclavisée y représente un peu plus de 80% de la population. L’abolition de l’esclavage, en application du décret de la Convention, y est proclamée le 14 juin 1794. En 1802, Victor Hugues, le commissaire chargé de faire appliquer le décret d’abolition de l’esclavage en Guadeloupe, y impose le rétablissement de l’esclavage promulgué en 1802 par Napoléon Bonaparte, Premier Consul, et instaure un régime de conscription locale. Cette régression aux dispositions antérieures à la Révolution entraîne d’importants mouvements de marronnage. Conquise par les forces portugaises en 1809, la colonie est restituée à la France en 1817, à l’issue du traité de Paris. La <title>Revue des Colonies </title>dispose d’un correspondant à Cayenne qui rend compte des nouvelles, notamment électorales, de Guyane dès la première livraison.</p>
+        <bibl>Mam Lam Fouck, Serge. <title>La Guyane française au temps de l'esclavage, de l'or et de la francisation (1802-1946)</title>, Ibis Rouge Editions, 1999.</bibl>
+        <bibl>Schmidt, Nelly. <title>La France a-t-elle aboli l'esclavage ? Guadeloupe, Martinique, Guyane, 1830-1935</title>, Perrin, 2009.</bibl>
+      </note>
+      <note xml:lang="en">
+        <p>The island of Cayenne, in the estuary of the river of the same name, is also the location of the city of Cayenne, the capital of French Guiana. According to the 1788 census, Cayenne’s enslaved population represented just over 80% of the total population. During the Revolution, Cayenne received multiple convoys of exiles from metropolitan France, beginning its eventual transformation into a penal colony in the nineteenth century. The 1794 abolition decree was never meaningfully enforced there. Victor Hugues, the commissioner in charge of enforcing the decree in Guadeloupe, was named governor of Guiana in 1799, replacing slavery with a system of conscripted labor until the official restoration of slavery in 1802 by the decree of First Consul Napoleon Bonaparte. This regression to pre-Revolutionary conditions  led to high frequencies of marronage. Conquered by Portuguese forces in 1809, the colony was returned to France in 1817, following the Treaty of Paris. From its inaugural issue, the <title>Revue des Colonie</title> features regular reports from a correspondent in Cayenne, including detailed electoral data.</p>
+        <bibl>Mam Lam Fouck, Serge. <title>La Guyane française au temps de l'esclavage, de l'or et de la francisation (1802-1946)</title>. Matoury, French Guiana: Ibis Rouge Editions, 1999.</bibl>
+        <bibl>Schmidt, Nelly. <title>La France a-t-elle aboli l'esclavage ? Guadeloupe, Martinique, Guyane, 1830-1935</title>. Paris: Perrin, 2009.</bibl>
+      </note>
+    </place>
+    <place xml:id="ANG">
+      <placeName>Angleterre </placeName>
+      <note xml:lang="fr">
+        <p>À la fois puissance militaire et coloniale rivale de la France et modèle du mouvement abolitionniste français, l’Angleterre bénéficie, au sein de la <title>Revue, </title>d’une couverture médiatique particulièrement intéressante. </p>
+        <p>Adversaire de la France pendant la période révolutionnaire et napoléonienne, la Grande-Bretagne saisit et restitue à plusieurs reprises diverses possessions coloniales françaises. </p>
+        <p>Quelque peu freiné, dans les années 1790, par les craintes que suscitent les Révolution française et haïtienne, le mouvement abolitionniste britannique se popularise à partir de 1807, sous la double perspective de l’immoralité du maintien de l’esclavage et l’intérêt économique de son abolition. En 1833, le Parlement britannique proclame l’abolition de l’esclavage, devant entrer en vigueur en 1834 et culminerait avec l’émancipation effective de tous les esclaves dans les colonies britanniques en 1838 après une période d ’«apprentissage». Le processus d’abolition britannique, qui se déroule parallèlement aux premières années de publication de la <title>Revue</title>, signale le caractère inévitable de l’abolition en France, déplaçant le débat vers la question de l’émancipation immédiate ou gradualiste.</p>
+        <p>Comme d’autres abolitionnistes français, Bissette a reçu un soutien avéré de la <title>British and Foreign Anti-Slavery Society</title> (BFASS), au moins pour la publication de son éphémère <title>Revue Abolioniste </title>en 1847.</p>
+        <bibl>Jennings, Lawrence C. “Slavery and the Venality of the July Monarchy Press.” <title>French Historical Studies</title> 17.4 (1992): 957–78.</bibl>
+        <bibl>Walvin, James. "British Abolitionism, 1787-1838." In <title>The Abolitions of Slavery: From the LF Sonthonax to Victor Schoelcher, 1793, 1794, 1848</title>,edited by Marcel Dorigny (New York: Bergham Books, 2003), 71-78</bibl>
+      </note>
+      <note xml:lang="en">
+        <p>As both France’s primary military and colonial rival and a model for the French abolitionist movement, England is a particularly interesting topic of coverage within the <title>Revue.</title></p>
+        <p>France’s adversary through the Revolution and Napoleonic wars, British forces repeatedly seized and returned various French colonial possessions.</p>
+        <p>Though hampered in the 1790s by panic over the French and Haitian Revolutions, the British abolitionist movement successfully campaigned for the end of the slave trade in 1807, gaining popular support by emphasizing, simultaneously, the immorality of maintaining slavery and the possible economic advantages of its abolition. In 1833, British Parliament proclaimed the abolition of slavery, to be enacted in 1834, culminating in the effective emancipation of all enslaved people in the British colonies by 1838, after a period of “apprenticeship.” The process of British abolition, which occurred in parallel to the first years of publication of the <title>Revue</title>, signaled the inevitability of abolition in France, shifting the debate to the question of immediate or gradualist emancipation.</p>
+        <p>Like other French abolitionists, Bissette received confirmed support from the <title>British and Foreign Anti-Slavery Society </title>(BFASS), at least for the publication of his short-lived <title>Revue Abolioniste </title>in 1847.</p>
+        <bibl>Jennings, Lawrence C. “Slavery and the Venality of the July Monarchy Press.” <title>French Historical Studies</title> 17.4 (1992): 957–78.</bibl>
+        <bibl>Walvin, James. "British Abolitionism, 1787-1838." In <title>The Abolitions of Slavery: From the LF Sonthonax to Victor Schoelcher, 1793, 1794, 1848</title>,edited by Marcel Dorigny (New York: Bergham Books, 2003), 71-78</bibl>
+      </note>
+    </place>
+    <place xml:id="MQ">
+      <placeName>Martinique</placeName>
+      <note xml:lang="fr">
+        <p>Principalement sous contrôle français depuis le milieu du 17e siècle, la Martinique, comme l’archipel guadeloupéen voisin, fait partie du premier empire colonial français. Il s’agit d’une société coloniale fondée sur une économie de plantation esclavagiste, principalement consacrée à la monoculture sucrière. L’île passe sous contrôle Britannique entre 1759 et 1763, et de nouveau, en 1794, avec l’appui des planteurs cherchant à se soustraire à l’abolition décrétée par la Convention. Lors du recensement de 1789, la population esclavisée y représente environ 84% du total, pour 11% de blancs et 5% de « libres de couleur ». </p>
+        <p>La Martinique redevient française en 1802, après le rétablissement de l’esclavage par Napoléon Bonaparte, alors Premier Consul, sans que l’abolition ait pu entrer y en vigueur. </p>
+        <p>Dans les dernières années de la Restauration, l’île est le théâtre de la retentissante <title>affaire Bissette</title>, qui voit plus d’une centaine d’hommes de couleur libres, accusés de complicité de complot, condamnés à la déportation à vie. Largement diffusée dans la presse, l’affaire sensibilise les milieux libéraux métropolitains à la cause des « libres de couleur » et aide à populariser les sentiments antiesclavagistes. </p>
+        <p>À la suite de la Révolution de Juillet 1830, de nombreuses mobilisations réunissant la population esclavisée et les « libres de couleur » dans une lutte commune contre les hiérarchies socio-raciales imposées par le colonialisme esclavagiste. Ces mobilisations influent sur les autorités métropolitaines, notamment par l’entremise de Bissette et de ses associés. L’île natale de Bissette bénéficie en effet d’une couverture médiatique abondante dans la <title>Revue des Colonies</title>, notamment quand aux conséquences de la loi électorale du 24 avril 1833, qui écarte de fait la plupart des « libres de couleur » de la vie politique en imposant un cens éléctoral près de deux fois plus élevé dans les colonies qu’en métropole. Le taux de participation des hommes de couleur libres aux éléctions de 1834 en Martinique ne dépasse pas 3 % des électeurs.</p>
+        <bibl>Kováts Beaudoux, Édith,<title> Les Blancs créoles de la Martinique : une minorité dominante</title>, préface de Michel Giraud, Paris, France, L’Harmattan, 2003.</bibl>
+        <bibl>Larcher, Silyane. <title>L’autre citoyen: L’idéal républicain et les Antilles après l’esclavage</title>. Paris. Armand Colin. 2014, p. 109-125.</bibl>
+        <bibl>Régent, Frédéric. « Préjugé de couleur, esclavage et citoyennetés dans les colonies françaises (1789-1848) », <title>La Révolution française</title>. 17 novembre 2015 n<hi rend="superscript">o</hi> 9. En ligne : <ref target="http://journals.openedition.org/lrf/1403">http://journals.openedition.org/lrf/1403</ref> [consulté le 13 novembre 2021].</bibl>
+      </note>
+      <note xml:lang="en">
+        <p>Principally under French control since the mid seventeenth century, Martinique, like the neighboring archipelago of Guadeloupe, was part of the first French colonial empire. A slave plantation economy, mainly devoted to sugar monoculture, the island came under British control between 1759 and 1763, and again, in 1794, with the support of planters seeking to avoid the abolition decreed by the National Convention. According to the 1789 census, the enslaved population there represented approximately 84% of the total population, with 11% white and 5% free people of color.</p>
+        <p>Martinique returned to French control in 1802, after Napoleon Bonaparte, then First Consul, reinstated slavery in the colonies, without abolition having ever been implemented there.</p>
+        <p>In 1823, the island was the scene of the infamous <title>affaire Bissette</title>, in which more than a hundred free men of color, accused of sedition, were exiled for life. Covered widely in the press, the affair helped to advance the cause of free men of color among liberal circles in metropolitan France to and to popularize anti-slavery sentiments.</p>
+        <p>Following the Revolution of July 1830, activism against colonial socio-racial hierarchies garnered significant attention from metropolitan authorities, particularly through the efforts of Bissette and his associates. Bissette's native island was  indeed  covered extensively in the <title>Revue des Colonies</title>, with early issues giving particular attention to the disappointing results of the laws of April 1833, which effectively maintained the exclusion of free men of color from political life by imposing electoral qualifications in the colonies nearly twice as stringent as those in metropolitan France. The participation rate of free men of color in the 1834 elections in Martinique was thus under 3%.</p>
+        <bibl>Kováts Beaudoux, Édith,<title> Les Blancs créoles de la Martinique : une minorité dominante</title>. Paris: L’Harmattan, 2003.</bibl>
+        <bibl>Larcher, Silyane. <title>L’autre citoyen: L’idéal républicain et les Antilles après l’esclavage</title>. Paris: Armand Colin, 2014. 109-125.</bibl>
+        <bibl>Régent, Frédéric, <title>La France et ses esclaves : de la colonisation aux abolitions, 1620-1848</title>. Paris: Hachette Littératures, 2009.</bibl>
+      </note>
+    </place>
+    <place xml:id="GP">
+      <placeName>Guadeloupe</placeName>
+      <note xml:lang="fr">
+        <p>Comme son île voisine de la Martinique, l'archipel guadeloupéen fait partie du premier empire colonial français. Il s’agit d’une société coloniale fondée sur une économie de plantation esclavagiste, principalement consacrée à la monoculture sucrière. Lors du recensement de 1789, la population esclavisée y représente environ 85% du total, pour 13% de blancs et 3% de « libres de couleur ».</p>
+        <p>L’archipel passe sous contrôle Britannique entre 1759 et 1763, puis de nouveau en 1794, avec l’appui des planteurs cherchant à se soustraire à l’abolition décrétée par la Convention.</p>
+        <p>L’invasion britannique est repoussée par les forces de l’île, composées, entre autres, de plusieurs milliers de nouveaux affranchis et dirigées par Victor Hugues, commissaire civil envoyé par la Convention pour faire appliquer le décret de l’abolition. Celle-ci n’est toutefois promulguée que de manière symbolique, l’esclavage étant remplacé par une forme de travail forcé. </p>
+        <p>En 1802, une importante armée insurrectionnelle commandée par Louis Delgrès, homme de couleur libre, s’oppose au général Richepanse envoyé rétablir l’esclavage sur ordre de Napoléon Bonaparte, alors Premier Consul. L’insurrection brutalement réprimée s’achève par le suicide de Delgrès et ses compagnons. </p>
+        <p>Comme la Martinique, la Guadeloupe passe de nouveau sous contrôle Britannique pendant les guerres napoléoniennes. Brièvement cédée à la Suède lors du traité de Paris de 1814, elle revient définitivement sous contrôle français en 1815. </p>
+        <p>À l’époque de la fondation de la <title>Revue des Colonies</title>, les libres de couleur y sont aussi nombreux que les blancs, et possèdent environ un quart des terres. La <title>Revue </title>accorde une place importante à l’actualité de la Guadeloupe, sans doute avec le concours de Mondésir Richard, « mandataire des libres de couleur de Guadeloupe » et membre très probable de la « Société d’hommes de couleur » qui fonde le périodique. </p>
+        <bibl>Marcel Dorigny et Bernard Gainot. <title>Atlas des esclavages. Traités, sociétés coloniales, abolitions, de l’Antiquité à nos jours</title>. Paris : Éditions Autrement, 2006</bibl>
+        <bibl>Frédéric Régent, « Préjugé de couleur, esclavage et citoyennetés dans les colonies françaises (1789-1848) », <title>La Révolution française</title>, no. 9 (2015), <ref target="https://doi.org/10.4000/lrf.1403">https://doi.org/10.4000/lrf.1403</ref>.</bibl>
+        <bibl>Fallope, Josette. <title>Esclaves et citoyens. Les Noirs à la Guadeloupe au XIXe siècle dans les processus de résistance et d’intégration</title> (1802-1910), Basse-Terre, Bibliothèque d’Histoire antillaise, 1992</bibl>
+      </note>
+      <note xml:lang="en">
+        <p>Like Martinique, the Guadeloupe archipelago was part of the first French colonial empire of the seventeenth century. As a slave economy primarily devoted to sugar cultivation, the island’s enslaved population represented approximately 85% of the total, per the 1789 census, with 13% white and 3% “free people of color.” The archipelago came under British control between 1759 and 1763, and was briefly occupied again in 1794, following the National Convention’s abolition decree. This occupation was, however, expelled by military forces including several thousand newly emancipated men, led by Victor Hugues, the civil commissioner sent by the Convention to enforce the abolition decree. The implementation of this abolition was, however, largely symbolic, with chattel slavery replaced, in many instances, by forced labor. In 1802, a large insurrectionary army commanded by Louis Delgrès, a free man of color, opposed the French General Richepanse, who had been sent to restore slavery on the orders of Napoleon Bonaparte, then First Consul. The brutally repressed insurrection would end with the suicide of Delgrès and his company. </p>
+        <p>Guadeloupe again came under British control during the Napoleonic Wars. Briefly ceded to Sweden during the Treaty of Paris in 1814, it definitively returned to French control in 1815. At the time of the foundation of the  <title>Revue des Colonies</title>, the population of free people of color equaled the white population, and owned about a quarter of the land. The <title>Revue</title> gives significant attention to current events in Guadeloupe, likely through the efforts of Mondésir Richard, a “<title>mandataire</title> of the free people of color of Guadeloupe" and apparent member of the “Society of men of color” who founded the periodical.</p>
+        <bibl>Dorigny, Marcel, and Bernard Gainot, eds. <title>Atlas des esclavages. Traités, sociétés coloniales, abolitions, de l’Antiquité à nos jours</title>. Paris: Éditions Autrement, 2006</bibl>
+        <bibl>Régent, Frédéric. “Préjugé de couleur, esclavage et citoyennetés dans les colonies françaises (1789-1848).” <title>La Révolution française</title> 9 (2015) <ref target="https://doi.org/10.4000/lrf.1403">https://doi.org/10.4000/lrf.1403</ref>.</bibl>
+        <bibl>Fallope, Josette.,<title> Esclaves et citoyens: Les Noirs à la Guadeloupe au XIXe siècle dans les processus de résistance et d’intégration: 1802-1910</title>. Basse-Terre: Bibliothèque d’Histoire antillaise, 1992.</bibl>
+      </note>
+    </place>
+    <place xml:id="HT">
+      <placeName>Haiti</placeName>
+      <note xml:lang="fr">
+        <p>L’ancienne colonie de Saint-Domingue, située sur la partie occidentale de l’île d’Hispaniola, était de loin le territoire le plus profitable du premier empire colonial français. En 1789, 90% de sa population de près d’un demi-million est esclavisée et produit trois quarts du sucre mondial.</p>
+        <p>Les soulèvements de masse qui s’y produisent dès 1791 incitent la proclamation d’une émancipation locale en 1793, suivie d’élections législatives auxquelles participent les hommes nouvellement affranchis. C’est à l’issue de ces éléctions que les députés Mills, Dufaÿ et Belley, le premier parlementaire noir, rejoignent la Convention et l’incitent à décréter, le 4 février 1794, l’abolition étendue à l’ensemble des colonies françaises esclavagistes. Saint-Domingue est alors gouvernée par Toussaint Louverture, ancien affranchi, qui souhaite garantir l’autonomie de l’île en élaborant une constitution qui l’émancipe des institutions métropolitaines. En 1802, le Napoléon Bonaparte, à titre de Premier Consul, ordonne la reconquête de la colonie et le rétablissement de l’esclavage. À l’incarcération de Louverture, son second, Jean-Jacques Dessalines, prend la tête du mouvement révolutionnaire pour imposer, le 1er janvier 1804, l’indépendance de l’ancienne colonie sous le nom arawak d’Haïti. En 1825, le président Jean-Baptiste Boyer en fait reconnaître la légitimité au roi Charles X, au prix d’une indemnité de 150 millions de francs qui asphyxie l’économie du pays. </p>
+        <p>Il reste que l’auto-émancipation des esclaves de Saint-Domingue et la constitution de l'État souverain haïtien que celle-ci a amené ont inauguré, de fait, un siècle de réformes émancipatrices et abolitionnistes à échelle mondiale.</p>
+        <p>La <title>Revue des Colonies </title>présente la Révolution haïtienne comme une incarnation puissante et durable des principes de la Révolution française, alors même que la violence par laquelle elle s’est accomplie et l’instabilité politique qui s’en est suivie ont été régulièrement brandies comme arguments en faveur du maintien de l’esclavage dans les colonies françaises, les colonies britanniques et les États-Unis. La caractérisation d’Haïti par la <title>Revue </title>comme un Etat-modèle à prendre en exemple pour les puissances colonisatrices européennes fait donc partie de ses positions éditoriales les plus radicales.</p>
+        <bibl>Brickhouse, Anna. <title>Transamerican Literary Relations and Nineteenth-Century Public Sphere</title>, Cambridge: Cambridge University Press, 2004</bibl>
+        <bibl>Daut, Marlene. <title>Tropics of Haiti: Race and the Literary History of the Haitian Revolution in the Atlantic World, 1789-1865</title>. Liverpool: Liverpool University Press, 2015</bibl>
+        <bibl>Dubois, Laurent. <title>Avengers of the New World: The Story of the Haitian Revolution</title>. Cambridge, Mass: Harvard University Press, 2004.</bibl>
+        <bibl>Pierrot, Grégory. <title>The Black Avenger in Atlantic Culture</title>. Athens: The University of Georgia Press, 2019.</bibl>
+        <bibl>Stieber, Chelsea. <title>Haiti’s Paper War: Post-Independence Writing, Civil War, and the Making of the Republic, 1804-1954</title>. New York: New York University Press, 2020.</bibl>
+      </note>
+      <note xml:lang="en">
+        <p>The former colony of Saint-Domingue, located on the western part of the island of Hispaniola, was by far the most profitable territory of the first French colonial empire. In 1789, 90% of its population of almost half a million consisted of enslaved people, who produced three quarters of the world's sugar.</p>
+        <p>The mass uprisings of enslaved people that began there 1791 prompted the proclamation of local emancipation in 1793, followed by legislative elections in which the newly enfranchised took part, electing deputies Mills, Dufaÿ, and Belley, the first Black parliamentarian, to represent the colony in the National Convention. In Paris, these deputies encourage the Convention to decree complete and immediate abolition in all French colonies on February 4, 1794. Saint-Domingue was then governed by the formerly enslaved general Toussaint Louverture, who sought to guarantee the autonomy of the colony by drafting a constitution emancipating it from metropolitan institutions. In 1802, Napoleon Bonaparte, as First Consul, ordered the reconquest of the colony and the reestablishment of slavery. When Louverture is imprisoned, his second, Jean-Jacques Dessalines, takes the lead of the revolutionary movement and imposed, on January 1, 1804, the independence of the former colony under the Arawak name of Haiti. In 1825, President Jean-Baptiste Boyer had King Charles X recognize its legitimacy, at the cost of an indemnity of 150 million francs, effectively suffocating the country's economy.</p>
+        <p>That the first total abolition of slavery occured in response to slave insurrections is a testament to the importance and agency of enslaved people within the global struggle for abolition. Anticipating the arguments of twentieth-century historians, the <title>Revue </title>presents the Haitian Revolution as a true and lasting embodiment of the universalist principles of the French Revolution, even as the violence through which it was accomplished and the political instability that followed were regularly wielded as arguments in favor of the maintenance of slavery in the French colonies, the British colonies, and the United States. The <title>Revue</title>’s characterization of Haiti as a kind of countermodel to the exploitative and prejudiced nations of Europe is thus among its most radical editorial positions. </p>
+        <bibl>Brickhouse, Anna. <title>Transamerican Literary Relations and Nineteenth-Century Public Sphere</title>, Cambridge: Cambridge University Press, 2004</bibl>
+        <bibl>Daut, Marlene. <title>Tropics of Haiti: Race and the Literary History of the Haitian Revolution in the Atlantic World, 1789-1865</title>. Liverpool: Liverpool University Press, 2015</bibl>
+        <bibl>Dubois, Laurent. <title>Avengers of the New World: The Story of the Haitian Revolution</title>. Cambridge, Mass: Harvard University Press, 2004.</bibl>
+        <bibl>Pierrot, Grégory. <title>The Black Avenger in Atlantic Culture</title>. Athens: The University of Georgia Press, 2019.</bibl>
+        <bibl>Stieber, Chelsea. <title>Haiti’s Paper War: Post-Independence Writing, Civil War, and the Making of the Republic, 1804-1954</title>. New York: New York University Press, 2020.</bibl>
+      </note>
+    </place>
+    <place xml:id="DOM">
+      <placeName>Dominique</placeName>
+      <note xml:lang="fr">
+        <p>La Dominique, située directement entre la Guadeloupe et la Martinique, a d’abord été colonisée par des colons français de ces îles à la fin du XVIIe siècle, qui ont rapidement amené des esclaves africains. Comme la Martinique et la Guadeloupe, la Dominique a été prise par les forces britanniques pendant la guerre de Sept Ans. Contrairement à ces îles, cependant, elle est restée sous contrôle britannique. Après une ré-invasion française en 1775, la colonie est formellement rendue aux Britanniques en 1783 et resta sous contrôle britannique jusqu’à son indépendance en 1978. </p>
+      </note>
+      <note xml:lang="en">
+        <p>Dominica, located directly between Guadeloupe and Martinique, was first settled by French settlers from these islands in the late seventeenth century, who soon brought in African slaves. Like Martinique and Guadeloupe, Dominica was taken by British forces during the Seven Years' War. Unlike those islands, however, it remained under British control. After a French re-invasion in 1775, the colony was formally returned to the British in 1783 and remained under British control until its independence in 1978.</p>
+      </note>
+    </place>
+    <place xml:id="Esk">
+      <placeName>Essaka</placeName>
+      <note xml:lang="fr">
+        <p>The place of birth of Oladuah Equiano, according to his autobiography <title>The Interesting Narrative of the Life of Olaudah Equiano, Or Gustavus Vassa, The African</title>. This work, which is the source for the chapter on Equiano in Abbé Grégoire’s <title>De la littérature des nègres</title> reprinted in the <title>Revue</title>, contains the only known reference to “Essaka” with this spelling. The actual place of Equiano’s birth has been the subject of some debate, with some claiming that Essaka refers to Issieke, in Igboland, present day Nigeria. Other scholars have pointed out that Equiano’s baptismal records (whose information would have been provided by the family of his master), and other documents from his naval career, list his place of birth as South Carolina.</p>
+        <bibl>
+          Lovejoy, Paul E. "Olaudah Equiano or Gustavus Vassa, What's in a Name?" <title>Atlantic Studies</title> 9.2 (2012), 165-84.
+        </bibl>
+      </note>
+      <note xml:lang="en">
+        <p>The place of birth of Oladuah Equiano, according to his autobiography <title>The Interesting Narrative of the Life of Olaudah Equiano, Or Gustavus Vassa, The African</title>. This work, which is the source for the chapter on Equiano in Abbé Grégoire’s <title>De la littérature des nègres</title> reprinted in the <title>Revue</title>, contains the only known reference to “Essaka” with this spelling. The actual place of Equiano’s birth has been the subject of some debate, with some claiming that Essaka refers to Issieke, in Igboland, present day Nigeria. Other scholars have pointed out that Equiano’s baptismal records (whose information would have been provided by the family of his master), and other documents from his naval career, list his place of birth as South Carolina.</p>
+        <bibl>
+          Lovejoy, Paul E. "Olaudah Equiano or Gustavus Vassa, What's in a Name?" <title>Atlantic Studies</title> 9.2 (2012), 165-84.
+        </bibl>
+      </note>
+    </place>
+  </listPlace>
+  <listOrg>
+    <org xml:id="SHC">
+      <orgName>Société d’Hommes de Couleur</orgName>
+      <note xml:lang="fr">
+        <p>La présence éphémère de cette « société » sur la page de titre de la <title>Revue </title>(jusqu’en janvier 1835), conjuguée à l’absence de toute autre trace documentaire, suggère qu’il s’agirait d’une construction éditoriale plutôt que d’un véritable organisme associatif. </p>
+        <p>La revendication, dès la page de titre, d’une identité collective en complément de l’appareil éditorial de la <title>Revue </title>est, du reste, un geste d’auto-légitimation courant dans la culture de l’imprimé des années 1830. C’est également une manière d’afficher et de souligner l’importance, démographique et, par conséquent, politique, des <title>«</title> hommes de couleur » libres — groupe au statut contesté, comprenant aussi bien les descendants d’unions interraciales que les esclaves africains affranchis, et se trouvant systématiquement et dans les deux cas écartés de la citoyenneté par les ordonnances locales.</p>
+        <p>Hormis Bissette, la <title>«</title> société d’hommes de couleur » comprenait très certainement au moins deux de ses coauteurs pour plusieurs écrits et pétitions à visée émancipatrice parus au cours des années précédentes: Mondésir Richard, mandataire des libres de couleur de Guadeloupe, et Louis Fabien <title>fils</title>, mandataire, comme Bissette, des libres de couleur de Martinique et son coaccusé dans l'<title>Affaire Bissette.</title></p>
+        <p>L’expression « mandataire des hommes de couleur » apparaît, ainsi que l’explique un article paru dans la <title>Revue</title> à la livraison suivante (août 1834), en réaction aux lois du 24 avril 1833 sur le régime législatif des colonies (également appelées <title>Charte coloniale</title>) qui, tout en reconnaîssant des droits civils identiques à toutes les populations libres des colonies, imposent un cens électoral écartant de fait la quasi-totalité de la population libre de couleur, et établissent des conseils coloniaux laissant l’administration des colonies entre les mains de colons blancs. L’utilisation de l’expression <title>«</title> hommes de couleur » en 1834 est particulièrement significative car ces lois auraient dû, en principe, en abolir l’usage en lui ôtant sa valeur juridique par la suppression de  toute distinction légale entre les hommes de couleur libres et les colons blancs.</p>
+        <bibl>Braun, Juliane. « Transatlantic Vistas: Changing Alliances at Home and Abroad » <title>Creole Drama</title>. University of Virginia Press. 2019, p. 141‑143.</bibl>
+        <bibl>Pâme, Stella. <title>Cyrille Bisette</title>. 1. éd. Fort-de-France, Martinique: Editions Désormeaux. 1997. 123-124.</bibl>
+        <bibl>Schmidt, Nelly. <title>Abolitionnistes de l'esclavage et réformateurs des colonies, 1820-1851 : analyses et documents</title>. Hommes et Sociétés. Paris : Karthala, 2000. 254–263 ; 283–285.</bibl>
+      </note>
+      <note xml:lang="en">
+        <p>The ephemeral presence of this “society” on the title page of the <title>Revue </title>(until January 1835), combined with the absence of any other documentary trace, suggests that it was more an editorial construction than a formal organization. </p>
+        <p>This claim of a collective identity for the <title>Revue</title>’s editorial apparatus was a common gesture of self-legitimation in the print culture of the 1830s. It is furthermore a way of signalling the demographic and, consequently, political importance of free <title>“</title>men of color,” a group of contested status, which included descendants of interracial unions and recently emancipated men, both of whom were systematically barred from citizenship by local ordinances.</p>
+        <p>Apart from Bissette, the <title>“</title>society of men of color” almost certainly included at least two of his co-authors for several emancipatory pamphlets and petitions published in previous years: Mondésir Richard, <title>mandataire</title>, or self-appointed representative of the free people of color of Guadeloupe, and Louis Fabien <title>fils</title>, <title>mandataire</title>, like Bissette, of the free people of color of Martinique and his co-defendant in the <title>affaire Bissette.</title></p>
+        <p>Their roles as <title>“</title>mandataires des hommes de couleur<title>”</title> are assumed, as explained in the <title>Revue</title>’s subsequent issue (August 1834), in reaction to the laws of April 24, 1833 (sometimes referred to as the <title>Colonial Charter</title>) which, while nominally establishing equal rights for all free populations of the colonies, imposed electoral qualifications that functionally excluded almost all of the free population of color, and established colonial councils that left the administration of the colonies in the hands of white planters. The use of the expression “men of color” in 1834 is particularly significant because these laws, in principle, should have removed any practical distinction between white men and free men of color.</p>
+        <bibl>Braun, Juliane. <title>Creole drama: Theatre and Society in Antebellum New Orleans</title>. Charlottesville: University of Virginia Press, 2019. 141‑143.</bibl>
+        <bibl>Pâme, Stella. <title>Cyrille Bissette: un martyr de la liberté</title>. Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
+        <bibl>Schmidt, Nelly. <title>Abolitionnistes de l'esclavage et réformateurs des colonies, 1820-1851: analyses et documents</title>. Paris: Karthala, 2000.</bibl>
+      </note>
+    </org>
+    <org xml:id="AN">
+      <orgName>Assemblée Nationale</orgName>
+      <note xml:lang="fr">
+        <p>Il s’agit de l’Assemblée nationale auto-proclamée, le 17 juin 1789, soit un mois après la réunion des états généraux, par les députés du tiers état. Cette date est depuis retenue comme marquant le début de la Révolution française. </p>
+      </note>
+      <note xml:lang="en">
+        <p>The National Assembly was formed on June 17, 1789, one month after the meeting of the Estates General, by the deputies of the Third Estate. This date commonly marks the beginning of the French Revolution. </p>
+      </note>
+    </org>
+    <org xml:id="CNat">
+      <orgName>Convention Nationale</orgName>
+      <note xml:lang="fr">
+        <p>Assemblée constituante pendant la Révolution française, elle succède à l’Assemblée législative en 1792, fonde la Ière République et gouverne la France jusqu’au 26 octobre 1795. </p>
+        <p>L’esclavage est aboli une première fois, par décret de la Convention, le 4 février 1794, accordant les droits de citoyenneté à tous, dans toutes les colonies françaises et sans distinction de race. Cette première abolition est surtout un acte de pragmatisme, venant ratifier l’émancipation proclamée quelques mois auparavant dans la colonie française de Saint-Domingue sous l’effet de l’insurrection antiesclavagiste menée sur ce territoire par des africains esclavisés depuis 1791.</p>
+        <bibl>Schmidt, Nelly. <title>L’abolition de l’esclavage: cinq siècles de combats (xvie - xxe siècle)</title>. Paris : Fayard, 2006.</bibl>
+      </note>
+      <note xml:lang="en">
+        <p>An assembly of the French Revolution, it succeeded the Legislative Assembly in 1792, established the First Republic, and governed France until October 26, 1795.</p>
+        <p>Slavery was abolished for the first time, by decree of the Convention, on February 4, 1794, which granted the rights of citizenship to all, in all the colonies, without distinction of race. This first abolition is above all an act of pragmatism, ratifying the emancipation proclaimed a few months earlier in the colony of Saint-Domingue as an effort to quell a slave insurrection that began in 1791.</p>
+        <bibl>Schmidt, Nelly. <title>L’abolition de l’esclavage: cinq siècles de combats (xvie - xxe siècle)</title>. Paris : Fayard, 2006.</bibl>
+      </note>
+    </org>
+  </listOrg>
+  <listBibl>
+    <bibl xml:id="RC" type="periodical">
+      <title>Revue Coloniale</title>
+      <note xml:lang="fr">
+        <p>Fondée par Édouard Bouvet et dirigée par Rosemond Beauvallon, la <title>Revue Coloniale</title>, sous-titrée <title>intérêts des colons : marine, commerce, littérature, beaux-arts, théâtres, modes</title>, souscrit au modèle des revues destinées aux propriétaires coloniaux, rendant compte de l'actualité politique et économique des colonies tout en ménageant une place aux contenus littéraires, culturels et mondains. Dans le numéro de décembre 1838 de la <title>Revue des Colonies</title>, Cyrille Bissette reconnaît en la <title>Revue Coloniale</title> tant un adversaire idéologique qu'un concurrent dans le paysage médiatique.</p>
+      </note>
+      <note xml:lang="en">
+        <p>The <title>Revue Coloniale</title>, was an ephemeral monthly periodical, printed in Paris during the year 1838. Its founder Édouard Bouvet and editor Rosemond Beauvallon conceived of it on the model of many similar, contemporaneous publications reporting on political and economic questions of interest to white colonists while also attending to arts and literature, as attested by the journal’s complete title: <title>Revue Coloniale. intérêts des colons : marine, commerce, littérature, beaux-arts, théâtres, modes</title>. In the December 1838 issue of the <title>Revue des Colonies</title>, Cyrille Bissette acknowledges the <title>Revue Coloniale</title> as both an ideological opponent and a competitor in the print market.</p>
+      </note>
+    </bibl>
+  </listBibl>
+</div>

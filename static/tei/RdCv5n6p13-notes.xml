@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<noteGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="RdCv2n1-notes">
+  <noteGrp xml:id="mock1">
+    <note xml:lang="fr" type="commentaire">
+      <p>Rather than concede to the flattery of the establishment friendly, pro-slavery <title>Revue Coloniale</title>, Dumas explicitly aligns himself with the global network of people color formed by the <title>Revue</title>’s editors, contributors and subscribers.</p>
+    </note>
+    <note xml:lang="en" type="commentary">
+      <p>Rather than concede to the flattery of the establishment friendly, pro-slavery <title>Revue Coloniale</title>, Dumas explicitly aligns himself with the global network of people color formed by the <title>Revue</title>’s editors, contributors and subscribers.</p>
+    </note>
+      </noteGrp>
+    <noteGrp xml:id="mock2">
+    <note xml:lang="fr" type="commentaire">
+      <p>The following article on Olaudah Equiano, also known as Gustavus Vassa, is excerpted from Abbé Grégoire’s <title>De la littérature des nègres</title> (1808). The abolitionist Grégoire presents the literary work of Black writers as evidence of their equal claim to humanity and human rights.</p>
+      <bibl>
+        Dorigny, Marcel. <title>Les Abolitions de l'esclavage (1793-1888)</title>. Presses universitaires de France, 2008.
+      </bibl>
+      <bibl>Sepinwall, Alyssa Goldstein. <title>The Abbé Grégoire and the French Revolution: The Making of Modern Universalism</title>. University of California Press, 2005.</bibl>
+    </note>
+    <note xml:lang="en" type="commentary">
+      <p>The following article on Olaudah Equiano, also known as Gustavus Vassa, is excerpted from Abbé Grégoire’s <title>De la littérature des nègres</title> (1808). The abolitionist Grégoire presents the literary work of Black writers as evidence of their equal claim to humanity and human rights.</p>
+      <bibl>
+        Dorigny, Marcel. <title>Les Abolitions de l'esclavage (1793-1888)</title>. Presses universitaires de France, 2008.
+      </bibl>
+      <bibl>Sepinwall, Alyssa Goldstein. <title>The Abbé Grégoire and the French Revolution: The Making of Modern Universalism</title>. University of California Press, 2005.</bibl>
+    </note>
+  </noteGrp>
+  <noteGrp xml:id="mock3">
+    <note xml:lang="fr" type="commentaire">
+      <p>Equiano claims to have been born in the Kingdom of Benin, not to be confused with the current nation of Benin. Abbé Grégoire uses the same spelling as Equiano, so there appears to have been a transcription error on the part of the <title>Revue</title>.</p>
+    </note>
+    <note xml:lang="en" type="commentary">
+      <p>Equiano claims to have been born in the Kingdom of Benin, not to be confused with the current nation of Benin. Abbé Grégoire uses the same spelling as Equiano, so there appears to have been a transcription error on the part of the <title>Revue</title>.</p>    
+    </note>
+  </noteGrp>
+</noteGrp>
