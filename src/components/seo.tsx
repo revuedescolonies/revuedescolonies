@@ -1,11 +1,10 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-import { Box } from "@mui/material"
 
 interface Props {
   description?: string
-  lang?: string
+  lang: "en" | "fr"
   meta?: []
   title?: string
 }
@@ -16,8 +15,8 @@ const SEO = ({ description, lang, meta, title }: Props) => {
       query {
         site {
           siteMetadata {
-            title
-            description
+            customTitle {en, fr}
+            desc {en, fr}
             authors {
               first
               last
@@ -28,8 +27,8 @@ const SEO = ({ description, lang, meta, title }: Props) => {
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
-  const fullTitle = `${title} | ${site.siteMetadata.title} ` 
+  const metaDescription = description || site.siteMetadata.desc[lang]
+  const fullTitle = `${title} | ${site.siteMetadata.customTitle[lang]} ` 
 
   return (
     <Helmet

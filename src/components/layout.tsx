@@ -1,7 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import CssBaseline from "@mui/material/CssBaseline"
-import { ThemeProvider, Theme, StyledEngineProvider } from "@mui/material/styles";
+import { ThemeProvider, StyledEngineProvider } from "@mui/material/styles";
 
 import theme from "../theme"
 import Header from "./header"
@@ -14,12 +14,6 @@ import Backdrop from "@mui/material/Backdrop";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import Typography from "@mui/material/Typography";
 import Rotate90DegreesCcwIcon from '@mui/icons-material/Rotate90DegreesCcw';
-
-
-declare module '@mui/styles/defaultTheme' {
-  // eslint-disable-next-line @typescript-eslint/no-empty-interface
-  interface DefaultTheme extends Theme {}
-}
 
 type Children = JSX.Element | JSX.Element[]
 
@@ -59,21 +53,32 @@ function Layout({ location, appbar, children }: Props): JSX.Element {
       site {
         siteMetadata {
           menuLinks {
-            link
-            name
+            en {
+              link
+              name
+            }
+            fr {
+              link
+              name
+            }
           }
-          title
+          customTitle {
+            en
+            fr
+          }
           repository
         }
       }
     }
   `);
 
-  const { repository, title, menuLinks } = data.site.siteMetadata;
+  const { repository, customTitle, menuLinks } = data.site.siteMetadata
 
-  let footer = <Footer repository={repository} />;
+  const title = customTitle
+
+  let footer = <Footer repository={repository} />
   if (location?.startsWith("RdC")) {
-    footer = <EditionFooter repository={repository}>{footer}</EditionFooter>;
+    footer = <EditionFooter repository={repository}>{footer}</EditionFooter>
   }
 
   const styles = {

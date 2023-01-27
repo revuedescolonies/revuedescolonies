@@ -1,5 +1,5 @@
 ---
-path: "/en/about"
+path: "/fr/àpropos"
 title: "About"
 ---
 

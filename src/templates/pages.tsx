@@ -11,7 +11,11 @@ interface Props {
   data: {
     site: {
       siteMetadata: {
-        htmlTitle: string
+        menuLinks: {
+          en: {name:string, link: string}
+          fr: {name:string, link: string}
+        }[]
+        htmlTitle: {en:string, fr: string}
       }
     }
     markdownRemark: {
@@ -27,6 +31,8 @@ interface Props {
   }
 }
 
+type Lang = "en" | "fr"
+
 export default function PageTemplate({ location, data, pageContext }: Props) {
   const { modifiedTime } = pageContext
   const { markdownRemark } = data
@@ -38,12 +44,19 @@ export default function PageTemplate({ location, data, pageContext }: Props) {
     months[modifiedDate.getMonth()]
   } ${modifiedDate.getFullYear()}`
 
+  const loc = decodeURIComponent(location.pathname) 
+  let curLang: Lang = "en" 
+  
+  for (const ml of data.site.siteMetadata.menuLinks) {
+    if (ml["fr"].link === loc) curLang = "fr"
+  }
+
   return (
     <Layout location={location.pathname}>
-      <SEO title={title} />
+      <SEO title={title} lang={curLang}/>
       <Container component="main" maxWidth="md">
         <Typography variant="h3" component="h2" gutterBottom={false} dangerouslySetInnerHTML={
-            {__html: data.site.siteMetadata.htmlTitle}
+            {__html: data.site.siteMetadata.htmlTitle[curLang]}
           } />
         <Typography variant="h4" component="h3" gutterBottom={false} sx={{
             marginBottom: "2em"
@@ -64,7 +77,18 @@ export const pageQuery = graphql`
   query($path: String!) {
     site {
       siteMetadata {
-        htmlTitle
+        menuLinks {
+          en {
+            link
+          }
+          fr {
+            link
+          }
+        }
+        htmlTitle {
+          en
+          fr
+        }
       }
     }
     markdownRemark(frontmatter: { path: { eq: $path } }) {

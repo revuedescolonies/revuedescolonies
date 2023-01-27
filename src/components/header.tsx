@@ -1,5 +1,4 @@
 import React from "react"
-import Container from "@mui/material/Container"
 
 import Nav from "./nav"
 
@@ -8,7 +7,7 @@ import theme from "../theme"
 
 import styled from '@emotion/styled'
 
-interface Links {
+export interface Link {
   name: string
   link: string
 }
@@ -16,7 +15,10 @@ interface Links {
 interface Props {
   location: string
   siteTitle: string
-  menuLinks: Links[]
+  menuLinks: {
+    en: Link
+    fr: Link
+  }[]
 }
 
 // Styled components

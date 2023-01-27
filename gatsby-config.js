@@ -1,14 +1,23 @@
 const basePath = process.env.BASEPATH
-const title = "The Revue des Colonies: a Digital Scholarly Edition and Translation"
-const htmlTitle = "The <em>Revue des Colonies</em>: a Digital Scholarly Edition and Translation"
+const customTitle = {
+  en: "The Revue des Colonies: a Digital Scholarly Edition and Translation",
+  fr: "La Revue des Colonies: ..."
+}
+const htmlTitle = {
+  en: "The <em>Revue des Colonies</em>: a Digital Scholarly Edition and Translation",
+  fr: "La <em>Revue des Colonies</em>:"
+}
 const {addPtrNumbers, xinclude} = require('./scripts/transformers')
 
 module.exports = {
   pathPrefix: basePath,
   siteMetadata: {
-    title,
+    customTitle,
     htmlTitle,
-    description: `${title}. Edited by Maria Beliaeva Solomon.`,
+    desc: {
+      en: `${customTitle.en}. Edited by Maria Beliaeva Solomon.`,
+      fr: `${customTitle.fr}. ... Maria Beliaeva Solomon.`
+    },
     authors: [
       {
         "first": "Maria",
@@ -32,21 +41,45 @@ module.exports = {
     repository: "https://github.com/revuedescolonies/revuedescolonies",
     menuLinks: [
       {
-        name: 'home',
-        link: '/'
+        en: {
+          name: 'home',
+          link: '/'
+        },
+        fr: {
+          name: 'accueil',
+          link: '/fr'
+        }
       },
       {
-        name: 'about',
-        link: '/about'
+        en: {
+          name: 'about',
+          link: '/en/about'
+        },
+        fr: {
+          name: 'à propos',
+          link: '/fr/àpropos'
+        }
       },
       {
-        name: 'people',
-        link: '/people'
+        en: {
+          name: 'people',
+          link: '/en/people'
+        },
+        fr: {
+          name: 'équipe',
+          link: '/fr/équipe'
+        }
       },
       {
-        name: 'edition',
-        link: '/toc'
-      },
+        en: {
+          name: 'edition',
+          link: '/en/toc'
+        },
+        fr: {
+          name: 'édition',
+          link: '/fr/sommaire'
+        }
+      }
     ]
   },
   plugins: [

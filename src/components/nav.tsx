@@ -11,16 +11,17 @@ import Box from "@mui/material/Box"
 import RadioGroup from "@mui/material/RadioGroup"
 import FormControlLabel from "@mui/material/FormControlLabel"
 import Radio from "@mui/material/Radio"
-
-interface Link {
-  name: string
-  link: string
-}
+import type {Link} from './header'
 
 interface Props {
   location: string
-  menuLinks: Link[]
+  menuLinks: {
+    en: Link
+    fr: Link
+  }[]
 }
+
+type Lang = "en" | "fr"
 
 const styles = {
   nav: {
@@ -41,21 +42,31 @@ const styles = {
 }
 
 const Nav = ({ location, menuLinks }: Props) => {
+  const loc = decodeURIComponent(location) 
+  const isEdition = loc.startsWith("RdC")
+  let curLang = isEdition ? loc.slice(-2) as Lang : "en" 
+  
+  for (const ml of menuLinks) {
+    if (ml["fr"].link === loc) curLang = "fr"
+  }
+
   const isScreenSmall = useMediaQuery(theme.breakpoints.down('md'))
-  const lang = location.replace(/\w+-/, '')
 
   const handleTextLangChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const target = event.target as HTMLInputElement
-    if (target.name == 'textLang') {
-      const dest = location.replace("introduction-", "").replace(/\w{2}$/, target.value)
-      navigate(`/${dest == "en" ? "" : dest}`)
+    const chosenLang = event.target.value as Lang
+    if (isEdition) {
+      const dest = loc.replace(/\w{2}$/, event.target.value)
+      navigate(`/${dest}`)
+    } else {
+      const curLoc = menuLinks.filter(ml => ml[curLang].link === loc)[0]
+      navigate(curLoc[chosenLang].link)
     }
   }
   const options = (<>
     <Box sx={{flex: '1 1 auto'}}/>
-    <DisplayOptionsMenu label={`Language (${lang})`} color="default">
+    <DisplayOptionsMenu label={`Language (${curLang})`} color="default">
       <Box sx={{padding: ".5em 1em 0 1em"}}> 
-        <RadioGroup row name="textLang" value={lang} onChange={handleTextLangChange}>
+        <RadioGroup row name="textLang" value={curLang} onChange={handleTextLangChange}>
           <FormControlLabel value="fr" control={<Radio />} label="Français" />
           <FormControlLabel value="en" control={<Radio />} label="English" />
         </RadioGroup>
@@ -63,14 +74,12 @@ const Nav = ({ location, menuLinks }: Props) => {
     </DisplayOptionsMenu>
   </>)
 
-  const isEdition = location.startsWith("RdC")
-
   return (
     <Container maxWidth="md" sx={styles.nav}>
       <Grid container={true} component="nav">
         {menuLinks.map(link => {
           const active = {
-            borderBottomColor: location === link.link || (isEdition && link.name == "edition")
+            borderBottomColor: loc === link[curLang].link || (isEdition && link[curLang].name.endsWith("dition"))
               ? theme.palette.primary.main
               : "transparent"
           }
@@ -78,19 +87,19 @@ const Nav = ({ location, menuLinks }: Props) => {
           const buttonStyle = {...styles.navBtn, ...active}
 
           return (
-            <Grid item={true} key={link.name} xs={6} sm="auto" md="auto">
+            <Grid item={true} key={link[curLang].name} xs={6} sm="auto" md="auto">
               <Button
                 color="default"
                 size="large"
                 sx={buttonStyle}
-                onClick={() => navigate(link.link)}
+                onClick={() => navigate(link[curLang].link)}
               >
-                {link.name}
+                {link[curLang].name}
               </Button>
             </Grid>
           )
         })}
-        {isEdition ? options : null}
+        {options}
       </Grid>
     </Container>
   );

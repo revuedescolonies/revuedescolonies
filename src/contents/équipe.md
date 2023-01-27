@@ -1,5 +1,5 @@
 ---
-path: "/en/people"
+path: "/fr/équipe"
 title: "People"
 ---
 #### Project Director
