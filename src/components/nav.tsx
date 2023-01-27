@@ -44,7 +44,7 @@ const styles = {
 const Nav = ({ location, menuLinks }: Props) => {
   const loc = decodeURIComponent(location) 
   const isEdition = loc.startsWith("RdC")
-  let curLang = isEdition ? loc.slice(-2) as Lang : "en" 
+  let curLang: Lang = isEdition && loc.slice(-2) === "fr" ? "fr" : "en" 
   
   for (const ml of menuLinks) {
     if (ml["fr"].link === loc) curLang = "fr"
