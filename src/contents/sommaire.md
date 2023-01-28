@@ -3,6 +3,6 @@ path: "/fr/sommaire"
 title: "Edition"
 ---
 
-* [Volume 1, Number 1 (FR)](/RdCv1n1-fr)
-* [Volume 2, Number 1 (FR)](/RdCv2n1-fr)
-* [Volume 5, Number 6, Page 13 (FR)](/RdCv5n6p13-fr)
+* [Volume 1, numéro 1](/RdCv1n1-fr)
+* [Volume 2, numéro 1](/RdCv2n1-fr)
+* [Volume 5, numéro 6, Page 13](/RdCv5n6p13-fr)
