@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-pages-tsx",
     "path": "/fr/àpropos",
-    "result": {"data":{"site":{"siteMetadata":{"menuLinks":[{"en":{"link":"/"},"fr":{"link":"/fr"}},{"en":{"link":"/en/about"},"fr":{"link":"/fr/àpropos"}},{"en":{"link":"/en/people"},"fr":{"link":"/fr/équipe"}},{"en":{"link":"/en/toc"},"fr":{"link":"/fr/sommaire"}}],"htmlTitle":{"en":"The <em>Revue des Colonies</em>: a Digital Scholarly Edition and Translation","fr":"La <em>Revue des Colonies</em>:"}}},"markdownRemark":{"html":"<p>The edition ...</p>","frontmatter":{"title":"About","path":"/fr/àpropos"}}},"pageContext":{"html":"<p>The edition ...</p>","lang":"fr"}},
+    "result": {"data":{"site":{"siteMetadata":{"menuLinks":[{"en":{"link":"/"},"fr":{"link":"/fr"}},{"en":{"link":"/en/about"},"fr":{"link":"/fr/àpropos"}},{"en":{"link":"/en/people"},"fr":{"link":"/fr/équipe"}},{"en":{"link":"/en/toc"},"fr":{"link":"/fr/sommaire"}}],"htmlTitle":{"en":"The <em>Revue des Colonies</em>: a Digital Scholarly Edition and Translation","fr":"La <em>Revue des Colonies</em>: Édition bilingue annotée"}}},"markdownRemark":{"html":"<p>The edition ...</p>","frontmatter":{"title":"About","path":"/fr/àpropos"}}},"pageContext":{"html":"<p>The edition ...</p>","lang":"fr"}},
     "staticQueryHashes": ["1245115475","755394998"]}
