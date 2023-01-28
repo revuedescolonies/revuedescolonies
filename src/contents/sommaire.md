@@ -1,6 +1,6 @@
 ---
 path: "/fr/sommaire"
-title: "Edition"
+title: "Édition"
 ---
 
 * [Volume 1, numéro 1](/RdCv1n1-fr)
