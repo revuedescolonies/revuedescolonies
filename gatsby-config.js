@@ -1,7 +1,7 @@
 const basePath = process.env.BASEPATH
 const customTitle = {
   en: "The Revue des Colonies: a Digital Scholarly Edition and Translation",
-  fr: "La Revue des Colonies: ..."
+  fr: "La Revue des Colonies: Édition bilingue annotée"
 }
 const htmlTitle = {
   en: "The <em>Revue des Colonies</em>: a Digital Scholarly Edition and Translation",
