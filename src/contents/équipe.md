@@ -4,7 +4,7 @@ title: "Équipe"
 ---
 #### Responsable du projet
 Maria Beliaeva Solomon, Assistant Professor of French, University of Maryland
-#### Technical Director
+#### Directeur technique
 Raffaele Viglianti, Senior Research Software Developer, Maryland Institute for Technology in the Humanities (MITH)
 
 #### Équipe éditoriale
