@@ -64,7 +64,7 @@ const Nav = ({ location, menuLinks }: Props) => {
   }
   const options = (<>
     <Box sx={{flex: '1 1 auto'}}/>
-    <DisplayOptionsMenu label={`Language (${curLang})`} color="default">
+    <DisplayOptionsMenu label={`${curLang === "fr" ? "Langues" : "Language"} (${curLang})`} color="default">
       <Box sx={{padding: ".5em 1em 0 1em"}}> 
         <RadioGroup row name="textLang" value={curLang} onChange={handleTextLangChange}>
           <FormControlLabel value="fr" control={<Radio />} label="Français" />

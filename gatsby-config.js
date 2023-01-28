@@ -5,7 +5,7 @@ const customTitle = {
 }
 const htmlTitle = {
   en: "The <em>Revue des Colonies</em>: a Digital Scholarly Edition and Translation",
-  fr: "La <em>Revue des Colonies</em>:"
+  fr: "La <em>Revue des Colonies</em>: Édition bilingue annotée"
 }
 const {addPtrNumbers, xinclude} = require('./scripts/transformers')
 

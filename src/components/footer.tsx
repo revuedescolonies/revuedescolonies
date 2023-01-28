@@ -51,7 +51,7 @@ const Footer = ({repository} : Props) => (
         <Grid item={true} xs={3} sx={styles.logo}>
           <a href="https://umd.edu">
             <img
-              width={150}
+              width={100}
               src={`${umd}`}
               alt="Logo of the University of Maryland"
             />
