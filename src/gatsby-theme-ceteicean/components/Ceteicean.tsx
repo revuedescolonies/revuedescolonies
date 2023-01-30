@@ -20,6 +20,7 @@ import Entity from "./Entity"
 import EntityLink from "./EntityLink"
 import Graphic from './Graphic'
 import Synoptic from './Synoptic'
+import type {Lang} from '../../components/nav'
 
 interface Props {
   pageContext: {
@@ -91,8 +92,7 @@ const EditionCeteicean = ({pageContext}: Props) => {
     }
   `)
   const facs: Fac[] = queryData.facs.nodes
-  const lang = pageContext.name.replace(/\w+-/, "")
-  console.log(lang)
+  const lang = pageContext.name.replace(/\w+-/, "") as Lang
 
   let isSynoptic = pageContext.name.includes("synoptic") ? true : false
 
@@ -101,16 +101,16 @@ const EditionCeteicean = ({pageContext}: Props) => {
     "tei-ptr": Ptr,
     "tei-ref": Ref,
     "tei-notegrp": (props) => <Note isSynoptic={isSynoptic} {...props}/>,
-    "tei-person": (props) => <Entity isSynoptic={isSynoptic} entityType={"tei-persName"} {...props}/>,
-    "tei-place": (props) => <Entity isSynoptic={isSynoptic} entityType={"tei-placeName"} {...props}/>,
-    "tei-org": (props) => <Entity isSynoptic={isSynoptic} entityType={"tei-orgName"} {...props}/>,
+    "tei-person": (props) => <Entity isSynoptic={isSynoptic} entityType={"tei-persName"} {...props} curLang={lang}/>,
+    "tei-place": (props) => <Entity isSynoptic={isSynoptic} entityType={"tei-placeName"} {...props} curLang={lang}/>,
+    "tei-org": (props) => <Entity isSynoptic={isSynoptic} entityType={"tei-orgName"} {...props} curLang={lang}/>,
     "tei-bibl": (props) => {
       const el = props.teiNode as Element
       // Only deal with bibliography bibls.
       if (el.parentElement?.tagName.toLocaleLowerCase() !== "tei-listbibl") {
         return <SafeUnchangedNode {...props}/>
       }
-      return <Entity isSynoptic={isSynoptic} entityType={"tei-title"} {...props}/>
+      return <Entity isSynoptic={isSynoptic} entityType={"tei-title"} {...props} curLang={lang}/>
     },
     "tei-persname": EntityLink,
     "tei-placename": EntityLink,

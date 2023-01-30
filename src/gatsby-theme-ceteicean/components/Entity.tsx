@@ -23,12 +23,14 @@ import TranslateIcon from '@mui/icons-material/Translate';
 import Button from "@mui/material/Button"
 import Chip from "@mui/material/Chip"
 import { SafeUnchangedNode } from "gatsby-theme-ceteicean/src/components/DefaultBehaviors"
+import type {Lang} from '../../components/nav'
 
 type TEIProps = {
   teiNode: Node,
   availableRoutes?: string[],
   entityType: string,
-  isSynoptic: boolean
+  isSynoptic: boolean,
+  curLang: Lang
 }
 
 const Transition = React.forwardRef(function Transition(
@@ -45,7 +47,7 @@ export type EntityBehavior = (props: TEIProps) => JSX.Element | null
 const Entity: EntityBehavior = (props: TEIProps) => {
   const { entity, setEntity } = React.useContext(EntityContext)
   const [cardPosition, setCardPosition] = React.useState(350)
-  const [cardLang, setCardLang] = React.useState('en')
+  const [cardLang, setCardLang] = React.useState(props.curLang)
 
   const isScreenSmall = useMediaQuery(theme.breakpoints.down('lg'))
 

@@ -21,7 +21,7 @@ interface Props {
   }[]
 }
 
-type Lang = "en" | "fr"
+export type Lang = "en" | "fr"
 
 const styles = {
   nav: {
