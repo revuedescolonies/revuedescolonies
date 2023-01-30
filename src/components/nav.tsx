@@ -42,12 +42,12 @@ const styles = {
 }
 
 const Nav = ({ location, menuLinks }: Props) => {
-  const loc = decodeURIComponent(location) 
+  const loc = decodeURIComponent(location).replace(/\//g, '')
   const isEdition = loc.startsWith("RdC")
   let curLang: Lang = isEdition && loc.slice(-2) === "fr" ? "fr" : "en" 
   
   for (const ml of menuLinks) {
-    if (ml["fr"].link === loc) curLang = "fr"
+    if (ml["fr"].link.replace(/\//g, '') === loc) curLang = "fr"
   }
 
   const isScreenSmall = useMediaQuery(theme.breakpoints.down('md'))
@@ -58,7 +58,7 @@ const Nav = ({ location, menuLinks }: Props) => {
       const dest = loc.replace(/\w{2}$/, event.target.value)
       navigate(`/${dest}`)
     } else {
-      const curLoc = menuLinks.filter(ml => ml[curLang].link === loc)[0]
+      const curLoc = menuLinks.filter(ml => ml[curLang].link.replace(/\//g, '') === loc)[0]
       navigate(curLoc[chosenLang].link)
     }
   }
@@ -79,7 +79,7 @@ const Nav = ({ location, menuLinks }: Props) => {
       <Grid container={true} component="nav">
         {menuLinks.map(link => {
           const active = {
-            borderBottomColor: loc === link[curLang].link || (isEdition && link[curLang].name.endsWith("dition"))
+            borderBottomColor: loc === link[curLang].link.replace(/\//g, '') || (isEdition && link[curLang].name.endsWith("dition"))
               ? theme.palette.primary.main
               : "transparent"
           }

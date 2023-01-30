@@ -7,7 +7,7 @@ import {
   Ref,
   SafeUnchangedNode
 } from "gatsby-theme-ceteicean/src/components/DefaultBehaviors"
-import Pb from "./Pb"
+// import Pb from "./Pb"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import MicroEdAppbar from "../../components/microedAppbar"
@@ -129,7 +129,7 @@ const EditionCeteicean = ({pageContext}: Props) => {
 
   if (!isSynoptic) {
     routes["tei-text"] = Text
-    routes["tei-pb"] = (props) => <Pb facs={facs} {...props}/>
+    // routes["tei-pb"] = (props) => <Pb facs={facs} {...props}/>
   }
 
   if (isSynoptic) {
@@ -151,7 +151,12 @@ const EditionCeteicean = ({pageContext}: Props) => {
       <EntityContext.Provider value={{entity, setEntity}}>
         <NoteContext.Provider value={{note, setNote}}>
           <Layout location={pageContext.name} appbar={<MicroEdAppbar location={pageContext.name}/>} >
-            <SEO title="Edition" />
+            <SEO title="Edition" lang={lang as "en" | "fr"} />
+            <div style={{padding: 0, paddingBottom: "55%", position: "relative",  display: "block", height: 0, width: "50%", margin: "0 auto"}}>
+              <iframe style={{position: "absolute",  top: 0, bottom: 0, left: "0", width: "100%", height: "100%", border: 0}} 
+                src="https://gallica.bnf.fr/ark:/12148/bpt6k999266f.mini">
+              </iframe>
+              </div>
             <Ceteicean pageContext={pageContext} routes={routes} />
           </Layout>
         </NoteContext.Provider>
