@@ -8,7 +8,7 @@ import Paper from '@mui/material/Paper'
 import ExpandMore from '@mui/icons-material/ExpandMore'
 import { styled } from '@mui/material/styles'
 
-import {Fac} from "./Ceteicean"
+import { Fac } from "./Ceteicean"
 import { Box } from "@mui/system"
 
 interface TEIProps {
@@ -27,11 +27,11 @@ const Pb: PbBehavior = ({teiNode, facs}: TEIProps) => {
     background: {
       width: '100%',
       margin: '1em 0',
-      zIndex: -1,
       gridArea: "1/1",
       height: '54px',
       opacity: .4,
-      overflow: 'clip',
+      // overflow: 'clip',
+      objectFit: "cover",
     },
     accordion: {
       width: '100%',
@@ -68,6 +68,9 @@ const Pb: PbBehavior = ({teiNode, facs}: TEIProps) => {
   const pb = teiNode as Element
   const n = pb.getAttribute('n') || ''
   const facRef = pb.getAttribute('facs') || ''
+
+  const isRemote = facRef.startsWith('http')
+
   const img = facs.filter(f => f.name === facRef)[0]
 
   let page: JSX.Element | undefined = undefined
@@ -77,16 +80,23 @@ const Pb: PbBehavior = ({teiNode, facs}: TEIProps) => {
     ...styles.ease
   }))
 
-  if (img) {
+  if (img || isRemote) {
 
     const [expanded, setExpanded] = React.useState(false)
     const handleChange = (event: React.SyntheticEvent, isExpanded: boolean) => {
       setExpanded(isExpanded)
     }
 
-    const background: JSX.Element | undefined = expanded ? undefined : (<BackgroundImage
+    let background: JSX.Element | undefined
+    if (!expanded) {
+      background = isRemote ? <img src={facRef} style={{...styles.background, ...styles.ease}} /> : <BackgroundImage
+        image={img.childImageSharp.gatsbyImageData}
+        alt=""/>
+    }
+
+    const mainImage = isRemote ? <img src={facRef} /> : <GatsbyImage
       image={img.childImageSharp.gatsbyImageData}
-      alt=""/> )
+      alt={`Image of page ${n}`}/>
 
     page = (
       <Box sx={{display: "grid"}}>
@@ -100,9 +110,7 @@ const Pb: PbBehavior = ({teiNode, facs}: TEIProps) => {
             {n}
           </AccordionSummary>
           <AccordionDetails sx={{textAlign: "center"}}>
-            <GatsbyImage
-              image={img.childImageSharp.gatsbyImageData}
-              alt={`Image of page ${n}`}/>
+            {mainImage}
           </AccordionDetails>
         </Accordion>
       </Box>
