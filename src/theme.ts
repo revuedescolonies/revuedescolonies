@@ -99,6 +99,12 @@ const theme = createTheme({
         "tei-q:after": {
           content: `"”"`
         },
+        "*[*|lang=fr] tei-q:before": {
+          content: `"«"`
+        },
+        "*[*|lang=fr] tei-q:after": {
+          content: `"»"`
+        },
         "tei-div": { // Make sure to only get div/div and no other div
           display: "block",
           marginTop: "1rem",
