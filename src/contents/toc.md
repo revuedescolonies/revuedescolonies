@@ -1,8 +1,15 @@
 ---
 path: "/en/toc"
-title: "Edition"
+title: "Table of contents"
 ---
+Volume 1, Issue 1
+* [Annotated original](/RdCv1n1-fr)
+* [Annotated English translation](/RdCv1n1-en)
 
-* [Volume 1, Issue 1](/RdCv1n1-en)
-* [Volume 2, Issue 1](/RdCv2n1-en)
-* [Volume 5, Issue 6, Page 13](/RdCv5n6p13-en)
+Selections of Volume 1, Issue 2
+* [Annotated original](/RdCv2n1-fr)
+* [Annotated English translation](/RdCv2n1-en)
+
+Selections of Volume 5, Issue 1
+* [Annotated original](/RdCv5n6p13-fr)
+* [Annotated English translation](/RdCv5n6p13-en)
