@@ -6,7 +6,7 @@ Volume 1, Issue 1
 * [Annotated original](/RdCv1n1-fr)
 * [Annotated English translation](/RdCv1n1-en)
 
-Selections of Volume 1, Issue 2
+Selections of Volume 2, Issue 1
 * [Annotated original](/RdCv2n1-fr)
 * [Annotated English translation](/RdCv2n1-en)
 
