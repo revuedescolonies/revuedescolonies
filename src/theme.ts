@@ -268,6 +268,29 @@ const theme = createTheme({
         },
         ".RdCcontent > #entities tei-graphic": {
           display: "block"
+        },
+        "tei-table": {
+          display: "block",
+          marginTop: "2em",
+          marginBottom: "2em",
+          fontSize: "12pt"
+        },
+        "tei-table > tei-head": {
+          fontSize: "120%",
+          fontWeight: "bold",
+          padding: "2px",
+          textAlign: "center"
+        },
+        "tei-row": {
+          display: "grid",
+          gridAutoFlow: "column",
+          gridAutoColumns: "1fr"
+        },
+        "tei-cell": {
+          padding: "2px",
+        },
+        "tei-cell[role=label]": {
+          fontWeight: "bold"
         }
       }
     },
