@@ -859,24 +859,57 @@ Au <placeName ref="#FoR">Fort-Royal</placeName> (<placeName>Martinique</placeNam
            <head>SUPPLÉMENT</head>
            
            <q><p>Enfin ils sont parvenus à ce résultat, et deux hommes de couleur ont été admis à faire partie du conseil, ce qui n'est qu'une véritable dérision, car on sait quelle influence ils peuvent avoir dans les délibérations. Cette exclusion de fait des hommes de couleur est une conséquence de l'élévation exagérée du cens électoral, qui a été combiné de manière à les éloigner.</p>
-           <p></p>Il ne faut pour s'en convaincre que jeter les yeux sur la liste des électeurs, arrêtée le <date>13 octobre 1833</date>, pour la <placeName>
+           <p>Il ne faut pour s'en convaincre que jeter les yeux sur la liste des électeurs, arrêtée le <date>13 octobre 1833</date>, pour la <placeName>
            <choice>
            <orig>Guiane</orig>
            <corr>Guyane</corr>
            </choice>
-            francaise</placeName>.
-            
-            <p>Électeurs, Blancs, Hom. de couleur.
-
-1e arrond. Ville de Cayenne				85   66         19
-2e - lle Cayenne, Canal et Tour de-l'lle. 		57   55          2  
-3e - Quartiers Tonnégrande et Mont-Sinéry.             21   12          9
-4e - Quartiers de. Rouza et la Comté.		20   18          2 
-5e - Macouria, Kouron Synamary, Iracoula.		38   33          5
-6e - Kair, Approuague, Oyapock. 			24   19          5
-							225 183       42
-</p></q></div>
-
+            francaise</placeName>.</p>
+<table>
+    <row>
+      <cell role="label">Électeurs</cell>
+      <cell role="label">Blancs</cell>
+      <cell role="label">Hom. de couleur.</cell>
+    </row>
+    <row>
+      <cell>1e arrond. Ville de Cayenne</cell>
+      <cell>85</cell>
+      <cell>66</cell>
+      <cell>19</cell>
+    </row>
+    <row>
+      <cell>2e - lle Cayenne, Canal et Tour de-l'lle.</cell>
+      <cell>57</cell>
+      <cell>55</cell>
+      <cell>2</cell>
+    </row>
+    <row>
+      <cell>3e - Quartiers Tonnégrande et Mont-Sinéry.</cell>
+      <cell>21</cell>
+      <cell>12</cell>
+      <cell>9</cell>
+    </row>
+    <row>
+      <cell>4e - Quartiers de. Rouza et la Comté.</cell>
+      <cell>20</cell>
+      <cell>18</cell>
+      <cell>2</cell>
+    </row>
+    <row>
+      <cell>5e - Macouria, Kouron Synamary, Iracoula.</cell>
+      <cell>38</cell>
+      <cell>33</cell>
+      <cell>5</cell>
+    </row>
+    <row>
+      <cell>6e - Kair, Approuague, Oyapock.</cell>
+      <cell>24</cell>
+      <cell>19</cell>
+      <cell>5</cell>
+    </row>
+</table>
+</q>
+</div>
 <div>
 <head>MARTINIQUE.</head>
 
