@@ -18,6 +18,7 @@
    </teiHeader>
    <text>
       <front>
+         <pb n="1" facs="v1n2p1"/>
          <titlePage>
             <titlePart type="main">REVUE<lb/>DES<lb/>COLONIES,</titlePart>
             <titlePart type="sub"><lb/>RECUEIL MENSUEL<lb/> DE LA POLITIQUE, DE L'ADMINISTRATION, DE
@@ -31,9 +32,9 @@
       </front>
       <body>
          <div>
+            <pb n="3" facs="v1n2p3"/>
             <head>REVUE<lb/>DES <lb/>COLONIES</head>
             <pb/>
-
             <div>
                <head>DE L'ABOLITION DE L'ESCLAVAGE.</head>
 
@@ -75,7 +76,7 @@
                   aujourd'hui la condition même de l'existence des colonies. En présence de cette
                   impérieuse nécessité, un seul parti est à prendre, celui de s'occuper sur-le-champ
                   des moyens par lesquels cette abolition pourra le plus doucement s'accomplir. On
-                  n'y échappera<pb n="4"/>pas. Que les intéressés demandent donc eux-mêmes une loi
+                  n'y échappera<pb n="4" facs="v1n2p4"/>pas. Que les intéressés demandent donc eux-mêmes une loi
                   qui dénoue le noeud gordien, sans attendre comme des insensés que quelque
                      <persName ref="#ALGr">Alexandre</persName>, à la face noire et aux cheveux
                   crépus, le tranche violemment par l'épée. Il en est temps encore :'qu'ils
@@ -118,7 +119,7 @@
                         ><country>Sainte-Lucie</country></placeName>, un grand nombre d'esclaves
                   s'échappent durant la nuit et se rendent dans ces deux colonies anglaises pour y
                   jouir des bienfaits du nouveau <emph>bill</emph>.</p>
-               <pb n="5"/>
+               <pb n="5" facs="v1n2p5"/>
                <p>Nous ne finirons pas sans faire des voeux pour que le gouvernement français prenne
                   en sérieuse considération cette situation pénible, et presse les chambres de
                   chercher une solution à tous les embarras des colonies. Nous voudrions sans doute
@@ -169,7 +170,7 @@
                         ministre </roleName>d'Argout</persName>, avec la mission d'inspecteur de
                   l'instruction, fut en butte à tant de persécutions et assailli de tant de dégoûts
                   qu'il a été obligé d'abandonner la <placeName ref="#MQ">Martinique</placeName> et
-                  la <placeName ref="#GP">Guadeloupe</placeName> et de revenir <pb n="6"/> en
+                  la <placeName ref="#GP">Guadeloupe</placeName> et de revenir <pb n="6" facs="v1n2p6"/> en
                      <placeName ref="#FR">France</placeName>, où il est mort des chagrins et des
                   ennuis dont on l'avait abreuvé.</p>
                <p>Et cependant la charte nouvelle a proclamé et consacré pour les hommes de couleur
@@ -190,7 +191,7 @@
                   deviendront les colonnes de notre liberté et s'assureront des titres à la
                   reconnaissance de la race noire et de couleur dont ils sauront conquérir et
                   défendre les droits.</p>
-               <p>C'est du sein de <placeName ref="#Par">Paris</placeName> que les <persName
+               <p>C'est du sein de <placeName>Paris</placeName> que les <persName
                      ref="#SB">Bolivar</persName>, les <persName ref="#AP">Pétion</persName>, les
                      <persName ref="#JPB">Boyer</persName> et leurs plus illustres compagnons de
                   gloire ont pendant plusieurs années puisé de nobles et généreuses idées, pour le
@@ -212,7 +213,7 @@
                <p>Quel homme de couleur pourrait oublier que c'est une chambre française qui la
                   première proclama les <bibl type="legal"><title ref="#DDH">Droits de
                         l'homme</title></bibl> et les grands principes d'égalité! Et d'ailleurs,
-                     <placeName>la France</placeName> n'est-elle pas <pb n="7"/>notre véritable
+                     <placeName>la France</placeName> n'est-elle pas <pb n="7" facs="v1n2p7"/>notre véritable
                   patrie, celle dont nous sommes si fiers ? Ce qui fait l'objet de nos vœux les plus <choice>
                      <sic>ardens</sic>
                      <corr>ardents</corr>
@@ -255,7 +256,7 @@
                   de l'innocent et de l'opprimé.</p>
                <p>Nous ne serons plus alors des <emph>ilotes</emph> et des <emph>parias</emph>
                   honteux de se montrer et ne sachant où trouver appui et protection. Investis de la
-                  confiance publique, nous aurons pour nous, libres et instruits,<pb n="8"/>la
+                  confiance publique, nous aurons pour nous, libres et instruits,<pb n="8" facs="v1n2p8"/>la
                   considération, et des gages de sécurité pour la défense de nos droits, de nos
                   biens et de nos libertés.</p>
                <p>Ces pensées ne sont pas les conceptions d'une imagination délirante et malade;
@@ -292,7 +293,7 @@
                <p>Notre but aujourd'hui n'est pas de réclamer l'extension plus ou moins grande d'une
                   faculté politique pour les hommes de couleur, c'est leur droit même de citoyen
                   français qu'il s'agit de maintenir et de préserver d'une grave atteinte, atteinte
-                  dont le dommage ne <pb n="9"/> porterait pas seulement sur eux, mais sur la nation
+                  dont le dommage ne <pb n="9" facs="v1n2p9"/> porterait pas seulement sur eux, mais sur la nation
                   tout entière, qui doit prendre pour elle-même l'insulte faite par une nation
                   étrangère à chacun de ses membres.</p>
                <p>Le <choice>
@@ -340,7 +341,7 @@
                      mois.</q></p>
                <p>Le ministre chargeait le préfet de donner aux commissaires des classes l'ordre de
                   transmettre copie de sa circulaire aux chambres de commerce, et d'en rappeler le
-                  contenu aux capitaines des na-<pb n="10"/>vires destinés pour les ports de
+                  contenu aux capitaines des na-<pb n="10" facs="v1n2p10"/>vires destinés pour les ports de
                      l'<placeName>état de la Géorgie</placeName> afin qu'ils eussent à se conformer
                   à cette loi.</p>
                <p>Plus tard, <date>le 11 décembre 1832</date>, notre ministre des affaires
@@ -384,7 +385,7 @@
                   citoyen français de son titre de citoyen, de son droit de locomotion, jusqu'à le
                   traiter en proscrit et à le priver de sa liberté, sans autre cause que le caprice
                   d'une législation inhospitalière ?</p>
-               <pb n="11"/>
+               <pb n="11" facs="v1n2p11"/>
                <p>La loi de <date>1833</date> a formellement déclaré <choice>
                      <sic>aborgées</sic>
                      <corr>abroger</corr>
@@ -426,7 +427,7 @@
                   arbitraire, tout acte enfin qui peut porter atteinte au caractère de citoyens
                   français dont jouissent les hommes de couleur libres, nés dans toute l'étendue de
                   notre territoire.</p>
-               <pb n="12"/>
+               <pb n="12" facs="v1n2p12"/>
             </div>
 
             <div>
@@ -471,7 +472,7 @@
                   </choice> de nos intérêts, à nous, hommes de la petite propriété, et, si l'on peut
                   ainsi dire, de la petite liberté, qui demandons pour nous et pour autrui à n'être
                   pas exclus du droit commun, qui faisons plus, qui voulons l'abolition non
-                  seule'ment de l'esclavage parmi tous les hommes quelle que soit leur<pb n="13"
+                  seule'ment de l'esclavage parmi tous les hommes quelle que soit leur<pb n="13" facs="v1n2p13"
                   />couleur, mais encore, nous en référant à notre déclaration de principes, leur
                   participation directe à l'élection des <choice>
                      <sic>représentans</sic>
@@ -516,7 +517,7 @@
                   aujourd'hui que le ministre de la marine ait en quelque sorte dénoncé au
                   garde-des-sceaux celui des anciens déportés de la <placeName ref="#MQ"
                      >Martinique</placeName>, qui a cru devoir l'ajouter encore à son nom ! Nous qui
-                  avons renoncé volontairement à cette<pb n="14"/>qualification comme inutile et
+                  avons renoncé volontairement à cette<pb n="14" facs="v1n2p14"/>qualification comme inutile et
                   comme pouvant nous gêner dans le libre développement de nos doctrines, qui l'avons
                   rejetée comme inutile, non comme illicite, nous la reprendrions avec empressement
                   si nous pensions qu'elle fût de nature à déterminer des pour suites <choice>
@@ -559,7 +560,7 @@
                   <p>Monsieur,</p>
                   <p>Vous avez inséré dans votre numéro du 19 une lettre d'un colon de la <placeName
                         ref="#MQ">Martinique</placeName> relative au grand procès qui se juge dans
-                        cette<pb n="15"/> colonie; cette lettre est de nature à provoquer des
+                        cette<pb n="15" facs="v1n2p15"/> colonie; cette lettre est de nature à provoquer des
                      réflexions que votre impartialité vous engagera peut-être à publier aussi.</p>
                   <p>Comme son auteur, je suis de ceux qui pensent qu'on aurait dû faire trève à la
                      polémique sur les déplorables <rs type="event">
@@ -601,7 +602,7 @@
                      jetées aux hommes de couleur, qu'il s'agit d'un événement militaire où il y eût
                      de la gloire à gagner pour l'un ou l'autre parti. Et l'accusation est d'avoir
                      excité <emph>la guerre civile</emph> ! Reproche bien placé que celui d'a<pb
-                        n="16"/>voir manqué de courage à déchirer le sein de la patrie ! J'avais
+                        n="16" facs="v1n2p16"/>voir manqué de courage à déchirer le sein de la patrie ! J'avais
                      toujours pensé que les bons citoyens doivent, après ces déplorables conflits,
                      pleurer en silence sur la victoire des uns aussi bien que sur la défaite des
                      autres. Noble reproche aussi que celui que l'on crie bien haut à des captifs, à
@@ -642,14 +643,14 @@
                   <p>J'ai l'honneur d'être, etc.</p>
                   <p><persName>AD. GATINE</persName>, votre abonné,</p>
                   <p>avocat à la Cour de Cassation.<!--encodage de la signature ?-->
-                  </p><pb n="17"/>
+                  </p><pb n="17" facs="v1n2p17"/>
                </quote>
             </div>
 
             <div>
                <head>SOCIÉTÉ POUR L'ABOLITION DE L'ESCLAVAGE.</head>
 
-               <p>En 1789, au moment de la convocation des états-généraux, il se forma dans <placeName ref="#Par">Paris</placeName> une société qui depuis a servi de modèle aux Anglais ; elle avait pour but de convaincre les esprits non seulement de l'inhumanité de l'esclavage, par les privations de toute nature imposées aux malheureux qui y sont soumis et par les peines atroces auxquelles ils sont exposés de la part d'une justice toute prévotale, mais encore de démontrer la corruption des 
+               <p>En 1789, au moment de la convocation des états-généraux, il se forma dans <placeName>Paris</placeName> une société qui depuis a servi de modèle aux Anglais ; elle avait pour but de convaincre les esprits non seulement de l'inhumanité de l'esclavage, par les privations de toute nature imposées aux malheureux qui y sont soumis et par les peines atroces auxquelles ils sont exposés de la part d'une justice toute prévotale, mais encore de démontrer la corruption des 
                <choice>
                 <sic>sentimens</sic>
                <corr>sentiments</corr>
@@ -662,7 +663,7 @@
                <corr>À</corr>
                </choice> 
                l'ouverture des états-généraux, l'opinion avait déjà fait tant de progrès que le <roleName>ministre</roleName> <persName ref="#JN">Necker</persName>, dans son discours du <date>5 mai 1789</date>, disait aux députés de la nation, après avoir parlé de l'abolition de la corvée de la taille:</p>
-               <p><q>Un jour viendra peut-être où vous étendrez plus loin votre intérêt; un jour viendra peut-être où, associant à vos délibérations les députés des colonies, vous jetterez un regard de compassion sur ce malheureux peuple, dont on a fait tranquillement un objet de trafic; sur ces hommes <emph>semblables à nous</emph> par la pensée et surtout par la triste faculté de souffrir ; sur ces hommes cependant que, sans pitié pour leurs douloureuses plaintes, nous accumulons, nous entassons au fond d'un vaisseau pour aller ensuite à pleine voiles les présenter aux chaînes qui les attendent..... Déjà l'humanité est défendue au nom même de l'intérêt personnel et des calculs politiques, et cette superbe cause ne tardera pas à paraître devant le tribunal de toutes les nations. Ah ! combien de sortes de satisfactions, combien d'espèces de gloire sont réservées à cette suite d'états-généraux qui vont prendre naissance au milieu d'un siècle éclairé ! Malheur, malheur et honte à la nation française si elle méconnaissait le<pb n="18"/> prix d'une telle position, si elle ne cherchait pas à s'en montrer digne et si une telle ambition était trop forte pour elle.</q></p>
+               <p><q>Un jour viendra peut-être où vous étendrez plus loin votre intérêt; un jour viendra peut-être où, associant à vos délibérations les députés des colonies, vous jetterez un regard de compassion sur ce malheureux peuple, dont on a fait tranquillement un objet de trafic; sur ces hommes <emph>semblables à nous</emph> par la pensée et surtout par la triste faculté de souffrir ; sur ces hommes cependant que, sans pitié pour leurs douloureuses plaintes, nous accumulons, nous entassons au fond d'un vaisseau pour aller ensuite à pleine voiles les présenter aux chaînes qui les attendent..... Déjà l'humanité est défendue au nom même de l'intérêt personnel et des calculs politiques, et cette superbe cause ne tardera pas à paraître devant le tribunal de toutes les nations. Ah ! combien de sortes de satisfactions, combien d'espèces de gloire sont réservées à cette suite d'états-généraux qui vont prendre naissance au milieu d'un siècle éclairé ! Malheur, malheur et honte à la nation française si elle méconnaissait le<pb n="18" facs="v1n2p18"/> prix d'une telle position, si elle ne cherchait pas à s'en montrer digne et si une telle ambition était trop forte pour elle.</q></p>
                <p>Lorsque les députés de <placeName ref="#HT">Saint-Domingue</placeName>se présentèrent au sein de l'assemblée, on leur contesta la légitimité de leur titre, par le motif qu'ils étaient les
                <choice>
                <sic>représentans</sic>
@@ -702,7 +703,7 @@
                      <corr>arguments</corr>
                   </choice> 
                   qui sont employés pour le maintien de l'esclavage.</p>
-               <p>Nous apprenons qu'une <orgName ref="#SAE"><emph>Société pour l'abolition de l'esclavage</emph></orgName> se forme en ce moment à <placeName ref="#Par">Paris</placeName>, sous la direction de <persName ref="#TRA">MM. Victor de Tracy</persName>, <persName ref="#LdV">Lainé de Villevêque</persName>, <persName ref="#ES">Eusèbe Salverte</persName>, <persName ref="#AD">Alexandre Delaborde</persName>, <persName ref="#FI">Isambert</persName>, <persName ref="#GdL">Gaëtan de Larochefoucauld</persName> et d'autres membres de la chambre des députés.</p>
+               <p>Nous apprenons qu'une <orgName ref="#SAE"><emph>Société pour l'abolition de l'esclavage</emph></orgName> se forme en ce moment à <placeName>Paris</placeName>, sous la direction de <persName ref="#TRA">MM. Victor de Tracy</persName>, <persName ref="#LdV">Lainé de Villevêque</persName>, <persName ref="#ES">Eusèbe Salverte</persName>, <persName ref="#AD">Alexandre Delaborde</persName>, <persName ref="#FI">Isambert</persName>, <persName ref="#GdL">Gaëtan de Larochefoucauld</persName> et d'autres membres de la chambre des députés.</p>
                <p>Nous espérons que le petit-gendre de <persName>M. Necker</persName>, quoiqu'il n'ait rien fait pour cette cause pendant la durée de son ministère, s'empressera de s'adjoindre à ces honorables députés, et que l'adversaire éloquent de la traite, dans la chambre des pairs, ne reculera pas devant l'abolition de l'esclavage. Nous ferons connaître, dans notre prochain numéro, l'organisation de la Société et les noms de ses membres.</p>
             </div>
 
@@ -711,7 +712,7 @@
                <p>La loi du <date>24 avril 1833</date> commence à recevoir son exécution dans nos
                   colonies, et déjà nous avons sous les yeux les procès-verbaux des séances du
                   conseil colonial de <placeName ref="#GP">la Guadeloupe</placeName>. En les
-                     lisant<pb n="19"/>attentivement, nous avons une preuve certaine de
+                     lisant<pb n="19" facs="v1n2p19"/>attentivement, nous avons une preuve certaine de
                   l'accomplissement de nos prévisions sur les résultats de la nouvelle loi. En
                   effet, après l'avoir étudiée, il ne pouvait plus rester de doute dans notre esprit
                   sur ses perfides combinaisons: nous les signalâmes, nous n'hésitâmes pas un
@@ -752,7 +753,7 @@
                   lorsqu'il dit que <q>le conseil entrera dans un système d'améliorations
                      compatibles avec <emph>les droits acquis</emph>.</q> Or on sait que, dans le
                   langage colonial, <emph>les droits</emph> acquis ne sont autre chose que <emph>la
-                     possession des esclaves</emph>:<pb n="20"/>un descendant de
+                     possession des esclaves</emph>:<pb n="20" facs="v1n2p20"/>un descendant de
                      <persName>Cartouche</persName>, riche des vols de son aïeul, aurait ainsi
                      <emph>des droits acquis</emph>. Ce discours promettait.</p>
                <p>Des séances plus insignifiantes les unes que les autres se succédèrent, presque
@@ -800,7 +801,7 @@
                   paraphraser platement les paroles du pouvoir. Il est même fort difficile que, dans
                   cette dernière circonstance, quelque phrase échappée à l'irréflexion ne vienne
                   trahir les véritables sympathies de la majorité des assemblées.</p>
-               <pb n="21"/>
+               <pb n="21" facs="v1n2p21"/>
                <p>Mais ce qui est plus rare, ce dont il existe même peu d'exemples, c'est de voir
                   une assemblée délibérante donner un démenti formel aux assertions de l'organe du
                   gouvernement lorsqu'il s'agit de faits <choice>
@@ -839,7 +840,7 @@
                      améliorant; mais souvent les mesures prises pour arriver à ce but, loin de
                      l'atteindre, entraînent des résultats désastreux.”</q></p>
                <p>Le compliment n'était pas flatteur pour le pouvoir dont le gou verneur est
-                  l'organe; il était même impossible de lui donner plus<pb n="22"/>
+                  l'organe; il était même impossible de lui donner plus<pb n="22" facs="v1n2p22"/>
                   <choice>
                      <sic>complétement</sic>
                      <corr>complètement</corr>
@@ -881,7 +882,7 @@
                   hommes libres. Que vouliez-vous? qu'on vous rendit justice? Eh bien! il fallait la
                   réclamer haut et ferme de l'opinion publique, comme on l'a fait pour vous dans les
                   journaux de Paris, et non en style courtisanesque comme vous l'avez fait dans
-                  votre adresse. Que n'attendiez-<pb n="23"/>vous, avant de jeter à la tête de votre
+                  votre adresse. Que n'attendiez-<pb n="23" facs="v1n2p23"/>vous, avant de jeter à la tête de votre
                   gouverneur tous ces <choice>
                      <sic>complimens</sic>
                      <corr>compliments</corr>
@@ -925,7 +926,7 @@
                   avenir pour ceux qui étaient sans avenir, un Dieu pour ceux qui étaient sans Dieu.
                   La mère qui allaitera son fils ne pleurera plus en songeant au fouet du colon,
                   parce qu'elle saura que le fouet du colon ne déchirera pas le corps de son fils.
-                  En donnant le sein à sa fille,<pb n="24"/>elle ne pleurera pas non plus, parce
+                  En donnant le sein à sa fille,<pb n="24" facs="v1n2p24"/>elle ne pleurera pas non plus, parce
                   qu'elle saura que les lois protégent l'honneur de sa fille.</p>
                <p>Le <date>1er août 1834</date> est le jour qui consacre le plus beau triomphe qu'un
                   peuple ait jamais remporté sur lui-même, le plus noble sacrifice que l'égoïsme ait
@@ -963,7 +964,7 @@
                      les passions humaines avait formé est dissipé, reconnaîtront unanimement
                      l'intervention providentielle du Dieu tout-puissant qui, du commencement à la
                      fin, est celui qui vraiment a fait cette œuvre glorieuse. C'est lui qui a
-                     inspiré ses premiers défenseurs; c'est lui qui l'a fait triom-<pb n="25"/>pher
+                     inspiré ses premiers défenseurs; c'est lui qui l'a fait triom-<pb n="25" facs="v1n2p25"/>pher
                      des obstacles presque insurmontables qu'elle a rencontrés dans ses <choice>
                         <sic>commencemens</sic>
                         <corr>commencements</corr>
@@ -1002,7 +1003,7 @@
                   jour vienne bientôt où nous pourrons dire, comme nos voisins, qu'il n'y a plus
                   d'esclaves dans les contrées sur lesquelles s'étend notre empire!</p>
                <p>(<title type="journal">Le Semeur</title> du <date>25 juillet</date>)</p>
-               <pb n="26"/>
+               <pb n="26" facs="v1n2p26"/>
             </div>
 
             <div type="article">
@@ -1039,13 +1040,12 @@
                   dit-il, chose bien étrange que la prétention d'un adversaire qui, cité en justice
                   pour répondre de ses écrits, supporte les fatigues d'une longue traversée, fait un
                   voyage de dix-huit cents lieues pour venir dire à ses juges: <q>Je n'accepte pas
-                     votre juridiction.<pb n="27"/>J'arrive en toute hâte de <placeName>la
+                     votre juridiction.<pb n="27" facs="v1n2p27"/>J'arrive en toute hâte de <placeName>la
                         Martinique</placeName> pour vous déclarer que je m'en vais plus vite encore
                      plaider à <placeName>la Martinique</placeName>.</q>Combien, ajoute le
                   défenseur, un pareil système ne doit-il pas nous paraître plus surprenant encore
                   lorsque nous jetons les yeux sur le titre et la nature de la prévention ! Quoi !
-                     <persName>M. Cicéron</persName> a fait répandre à <placeName ref="#Par"
-                     >Paris</placeName> un libelle dans lequel il cherche à porter atteinte à la
+                     <persName>M. Cicéron</persName> a fait répandre à <placeName>Paris</placeName> un libelle dans lequel il cherche à porter atteinte à la
                   considération de mon client; il est venu troubler dans sa retraite un homme
                   d'honneur qui ne lui avait jamais donné aucun motif de plainte, et lorsque nous
                   lui demandons la juste réparation du préjudice qu'il a causé, il se retranche dans
@@ -1074,7 +1074,7 @@
                   justificative du retard qui a été mis à saisir les tribunaux de ce délit.</p>
                <p><persName>M. FERDINAND BARROT</persName> pense que ses paroles ont été mal
                   interprétées par <persName>M. Boitel</persName>; il déclare que, comme magistrat
-                  et comme<pb n="28"/> homme, il n'a point eu l'intention d'employer la moindre
+                  et comme<pb n="28" facs="v1n2p28"/> homme, il n'a point eu l'intention d'employer la moindre
                   acrimonie; qu'il n'avait au contraire d'autre désir que celui d'éteindre, s'il
                   était possible, la haine qui semblait animer les parties.</p>
                <p>Le tribunal, après en avoir longuement délibéré en la chambre du conseil, a rendu
@@ -1115,7 +1115,7 @@
                      <persName>M. Juston</persName>, dont la démission a été acceptée.</p>
                <p>
                   <persName ref="#Dal">M. Dalican</persName>, juge-auditeur au tribunal de première instance
-                     de<pb n="29"/><placeName>la Pointe-à-Pitre</placeName>
+                     de<pb n="29" facs="v1n2p29"/><placeName>la Pointe-à-Pitre</placeName>
                      (<placeName>Guadeloupe</placeName>), a été nommé conseiller-auditeur à la cour
                   royale de <placeName>la Guiane</placeName>, en remplacement de <persName>M. Saint
                      Quantin</persName>.</p>
@@ -1159,7 +1159,7 @@
                      Martinique</placeName>, restera fidèle aussi à ses principes, et en cela il
                   sera parfaitement d'accord avec les hommes rétrogrades qui lui ont donné mandat de
                   les représenter.</p>
-               <pb n="30"/>
+               <pb n="30" facs="v1n2p30"/>
                <p>- Une ordonnance du roi, en date du <date>22 juillet</date>, arrête que les
                   gouverneurs des colonies françaises transmettront chaque année au ministre de la
                   marine une liste des condamnés libres et esclaves qui se seront fait remarquer par
@@ -1207,7 +1207,7 @@
                      </choice> dont <persName><roleName>le général</roleName> Inginac</persName>
                      aurait été l'objet. Mais l'esprit humain est si inventif ! C'est de nos jours
                      une jouissance si attrayante de causer plus ou moins d'impression qu'il n'y
-                     aurait rien d'étonnant que<pb n="31"/> quelques nouveaux capitaines de <choice>
+                     aurait rien d'étonnant que<pb n="31" facs="v1n2p31"/> quelques nouveaux capitaines de <choice>
                         <sic>bâtimens</sic>
                         <corr>bâtiments</corr>
                      </choice> arrivant d'<placeName>Haïti</placeName> annonçassent de nouvelles <choice>
@@ -1252,7 +1252,7 @@
                         <corr>descendants</corr>
                      </choice> du peuple anglais regarderont le 15 août comme un glorieux souvenir
                      de la libéralité anglaise.”</q></p>
-               <pb n="32"/>
+               <pb n="32" facs="v1n2p32"/>
             </div>
 
             <div>
@@ -1296,7 +1296,7 @@
                      Notez que le tiers au moins de la compagnie commandée par <persName>le sieur
                         Bardel</persName> manquait à la revue, et que <persName>M. Sugnin</persName>
                      est seul puni. Le récit qui précède explique cette préférence de sévérité.
-                     Ajoutons que<pb n="33"/>
+                     Ajoutons que<pb n="33" facs="v1n2p33"/>
                      <persName>M. Sugnin</persName> est un patriote ardent et dévoué. Aussi, à la
                      peine arbitraire que lui a infligée le caprice de <persName>M.
                         Bardel</persName>, a-t-on ajouté un surcroît de rigueur non moins arbitraire
@@ -1337,7 +1337,7 @@
                   l'étranger; il vient de se montrer dans la ville de
                      <placeName>Saint-Pierre</placeName>. Ses amis ont eu beaucoup de peine à le
                   décider à quitter la colonie: ils lui ont démontré qu'il n'était pas prudent de se
-                     faire<pb n="34"/>juger au moment où les passions sont si irritées; qu'il valait
+                     faire<pb n="34" facs="v1n2p34"/>juger au moment où les passions sont si irritées; qu'il valait
                   mieux attendre le jugement par contumace, quitte à se présenter plus tard pour
                   être jugé contradictoirement. <persName>Auguste Eugénie</persName> s'est décidé
                   enfin à quitter de nouveau la colonie pour passer à l'étranger.</p>
@@ -1385,7 +1385,7 @@
                   colon de la classe que nous qualifions d'aristocrate publie un écrit intitulé:
                      <title>Prospectus d'une société d'encouragement et d'émulation pour
                      l'amélioration du sort des esclaves, l'instruction publique, l'agriculture et
-                     les arts industriels.</title><pb n="35"/></p>
+                     les arts industriels.</title><pb n="35" facs="v1n2p35"/></p>
                <p><persName>M. Henri Maingard</persName>, auteur de cet écrit, propose qu'il soit
                   établi dans chaque quartier de <placeName>l'île Bourbon</placeName> une société
                   d'encouragement, composée des électeurs de l'arrondissement. Son but serait de
@@ -1425,7 +1425,7 @@
                   l'affaire de <persName>MM. Vidal de Lingendes</persName> et
                      <persName>Pontevès</persName>. Ayant essuyé des reproches immérités, cet
                   honorable magistrat a donné sa démission de membre du conseil colonial et de
-                  président de la cour.<pb n="36"/></p>
+                  président de la cour.<pb n="36" facs="v1n2p36"/></p>
                <p><persName>M. V. Vidal de Lingendes</persName>,
                      <roleName>procureur-général</roleName>, l'a remplacé au conseil colonial.</p>
             </div>
@@ -1481,7 +1481,7 @@
                         <sic>A</sic>
                         <corr>À</corr>
                      </choice>
-                     <placeName>Alger</placeName>, nos malades dépassent à peine<pb n="37"/>1,200,
+                     <placeName>Alger</placeName>, nos malades dépassent à peine<pb n="37" facs="v1n2p37"/>1,200,
                      et malgré la chaleur, l'effectif reste ainsi au-dessous de toutes les
                      prévisions.</p>
                   <p>Les travaux du camp de <placeName>Douera</placeName>, ceux du
@@ -1518,7 +1518,7 @@
                      donner sept roupies sans vivres.</p>
                   <p>Le grand point pour cette colonie, comme pour toutes les au tres, relativement
                      à l'exécution du bill d'émancipation, est que la grande culture puisse se
-                     maintenir, que l'affranchissement ne soit<pb n="38"/>pas pour les noirs le
+                     maintenir, que l'affranchissement ne soit<pb n="38" facs="v1n2p38"/>pas pour les noirs le
                      signal du désordre et de la paresse, en un mot que le travail libre remplace,
                      au moyen d'un raisonnable salaire, le travail forcé. C'est vers ce but que
                      doivent tendre, dans les limites de l'acte du parlement, toutes les
@@ -1570,7 +1570,7 @@
                      </choice> sur ce point, et il ne s'agirait que de les consulter. Quant à
                      l'assentiment et au concours du gouvernement, et une fois le premier point
                      favorablement résolu, si nous le supposons tel qu'il doit être et qu'il est
-                     sans doute, porté à faire tout ce qui peut contribuer à la pros<pb n="39"
+                     sans doute, porté à faire tout ce qui peut contribuer à la pros<pb n="39" facs="v1n2p39"
                      />périté du pays, nous ne voyons pas quelles seraient les objections qui
                      pourraient l'arrêter. Nous ferons observer toutefois que ce n'est pas seulement
                      ici l'acquiescement et le consentement de l'autorité qui seraient nécessaires,
@@ -1606,7 +1606,7 @@
                      dont le but est la pêche de la baleine, qui abonde dans les parages voisins.
                      Partout enfin c'est par de semblables moyens que l'industrie se développe, et
                      bien que nous n'ayons ici que le mérite de l'imitation, ne serait-ce pas une
-                     grande faute de notre part que de le négliger ?</p><pb n="40"/>
+                     grande faute de notre part que de le négliger ?</p><pb n="40" facs="v1n2p40"/>
                   <p>Le gouvernement local possédait, en <date>1829</date>, 1294 esclaves et 2010
                      apprentis. Depuis on en a libéré un certain nombre. Désireux de savoir au juste
                      combien il en reste, nous avons cherché à nous procurer quelques <choice>
@@ -1647,7 +1647,7 @@
                      méfont, les lois répressives sont là pour eux comme pour
                      les autres affranchis. Qu'on les livre donc immédiatement, au risque de faire
                      prendre à messieurs tels ou tels, des domestiques à gros gages."</p></q>
-               <pb n="41"/>
+               <pb n="41" facs="v1n2p41"/>
             </div>
 
             <div type="article">
@@ -1696,7 +1696,7 @@
                   même voyageur a vu des dames de couleur en assez grand nombre et qui se faisaient
                   remarquer par leur esprit et leur bonne éducation. En général, dans les
                   possessions anglaises, la classe de couleur a compris que le moyen le plus
-                  efficace pour établir une égale parfaite et<pb n="42"/>réelle parmi la population,
+                  efficace pour établir une égale parfaite et<pb n="42" facs="v1n2p42"/>réelle parmi la population,
                   aux colonies, était de se livrer à l'étude des sciences et des lettres, et de se
                   mettre par là en état de rivaliser de capacité avec la classe blanche. C'est un
                   exemple que nous ne pouvons trop recommander à l'attention de nos frères des
@@ -1744,7 +1744,7 @@
                      vote d'un côté et le mari de l'autre, dans les mêmes ou dans différentes
                      élections, suivant les droits que leur donnent leurs propriétés. Au mois de
                         <date>mai 1832</date>, il y eut une contestation à l'élection de
-                        <placeName>Montréal</placeName>, qui dura environ un<pb n="43"/>mois, et
+                        <placeName>Montréal</placeName>, qui dura environ un<pb n="43" facs="v1n2p43"/>mois, et
                      pendant laquelle il y eut deux cent vingt-cinq femmes qui votèrent. L'un des
                      candidats était un Irlandais; il y eut quatre vingt-quinze dames qui donnèrent
                      leurs votes pour lui. L'autre gentleman était <persName>M.
@@ -1781,7 +1781,7 @@
                      Il eût été si doux pour toi de contribuer à la régénération de ton pays, à le
                      rendre digne du dix neuvième siècle, et à lui faire répudier les stupides et
                      barbares préjugés du passé! Alors tu aurais pu mourir; mais aujourd'hui c'est
-                     trop tôt !</p><pb n="44"/>
+                     trop tôt !</p><pb n="44" facs="v1n2p44"/>
                   <p>Quelles paroles de consolation ferons-nous entendre à ton père ? Que
                      dirons-nous pareillement aux tiens, à cette tante, qui eût pu te faire oublier
                      ta mère, si une mère se pouvait oublier ? Ah! descends un moment du séjour des <choice>
@@ -1821,7 +1821,7 @@
                   le sang-froid d'un martyr de la liberté. <persName>M. Cabasse</persName> dut à
                   cette circonstance d'être remarqué par ses supérieurs et noté comme un homme zélé
                   à qui il revenait de l'avancement. Il lui dut aussi, selon la notoriété publique,
-                  d'être dé<pb n="45"/>coré du ruban rouge qui brille à sa boutonnière. <persName>M.
+                  d'être dé<pb n="45" facs="v1n2p45"/>coré du ruban rouge qui brille à sa boutonnière. <persName>M.
                      Cabasse</persName> prétend qu'il y a erreur et que ce n'est pas pour ce fait
                   qu'il a été décoré. C'est possible; mais, comme il ne nie pas l'avoir été après le
                   jugement de <persName>Vallée</persName>, il y a de grandes présomptions pour la
@@ -1870,7 +1870,7 @@
                         diffamatoires sera pendu et étranglé jusqu'à ce que mort
                      s'ensuive"</emph></q>; ces non moins horribles paroles de l'ordonnance de
                      <date>janvier 1629</date>:</p>
-               <pb n="46"/>
+               <pb n="46" facs="v1n2p46"/>
                <p><q><emph>"Ceux qui écrivent, impriment on font imprimer, exposent en vente,
                         publient et distribuent des livres, libelles ou écrits diffamatoires et
                         convicieux seront pendus et étranglés jusqu'à ce que mort
@@ -1909,7 +1909,7 @@
                   </choice> damnée de l'aristocratie de la peau, transgressait et déchirait même ses
                   ordres quand ils contrariaient un tant soit peu les passions des dominateurs, et
                   le procureur-général le laissait faire et s'humiliait devant la volonté de cet
-                  agent subal<pb n="47"/>terne. Ainsi les <choice>
+                  agent subal<pb n="47" facs="v1n2p47"/>terne. Ainsi les <choice>
                      <sic>parens</sic>
                      <corr>parents</corr>
                   </choice> et amis des détenus, malgré la permission signée du procureur-général,
