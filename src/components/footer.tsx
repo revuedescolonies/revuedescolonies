@@ -4,6 +4,8 @@ import Container from "@mui/material/Container"
 import { Box } from "@mui/material"
 
 import umd from "../images/umd-logo.png"
+import fme from "../images/fme.png"
+import Schomburg from "../images/Schomburg.jpg"
 
 const styles = {
   footer: {
@@ -25,7 +27,7 @@ const Footer = ({repository} : Props) => (
   <Box component="footer" sx={styles.footer}>
     <Container maxWidth="lg">
       <Grid container={true}>
-        <Grid item={true} xs={9}>
+        <Grid item={true} xs={8}>
           <a
             rel="license"
             href="http://creativecommons.org/licenses/by-nc-sa/3.0/"
@@ -48,10 +50,24 @@ const Footer = ({repository} : Props) => (
           <br /> The open source code for this edition is available at <a href={repository}>{repository}</a>.
           <br /> © {new Date().getFullYear()} University of Maryland.
         </Grid>
-        <Grid item={true} xs={3} sx={styles.logo}>
+        <Grid item={true} xs={4} sx={{ display: "flex", justifyContent: "flex-end" }}>
+        <a href="https://www.nypl.org/locations/schomburg" style={{ marginRight: "1rem" }}>
+            <img
+              width={280}
+              src={`${Schomburg}`}
+              alt="Logo of the Schomburg Center"
+            />
+          </a>
+  <a href="https://memoire-esclavage.org/fme" style={{ marginRight: "1rem" }}>
+            <img
+              width={90}
+              src={`${fme}`}
+              alt="Logo of the FME"
+            />
+            </a>
           <a href="https://umd.edu">
             <img
-              width={100}
+              width={90}
               src={`${umd}`}
               alt="Logo of the University of Maryland"
             />
