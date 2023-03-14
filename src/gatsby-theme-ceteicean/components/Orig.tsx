@@ -20,13 +20,13 @@ const Popup = styled(({ className, ...props }: TooltipProps) => (
   },
 }));
 
-const Sic: TBehavior = (props: TEIProps) => {
+const Orig: TBehavior = (props: TEIProps) => {
   const el = props.teiNode as Element
-  const corr = el.parentElement?.getElementsByTagName("tei-corr") || []
+  const reg = el.parentElement?.getElementsByTagName("tei-reg") || []
   const { contextOpts } = React.useContext(DisplayContext)
 
   const content = contextOpts.originalSpelling
-  ? (<Popup title={corr[0].textContent || ""} placement="top" arrow enterTouchDelay={0}> 
+  ? (<Popup title={reg[0].textContent || ""} placement="top" arrow enterTouchDelay={0}> 
     <span><TEINodes 
         teiNodes={props.teiNode.childNodes}
         {...props}/></span>
@@ -38,4 +38,4 @@ const Sic: TBehavior = (props: TEIProps) => {
   </Behavior>)
 }
 
-export default Sic
+export default Orig

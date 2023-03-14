@@ -14,8 +14,8 @@ import MicroEdAppbar from "../../components/microedAppbar"
 import Ptr from "./Ptr"
 import Note from "./Note"
 import Text from "./Text"
-import Sic from "./Sic"
-import Corr from "./Corr"
+import Orig from "./Orig"
+import Reg from "./Reg"
 import Entity from "./Entity"
 import EntityLink from "./EntityLink"
 import Graphic from './Graphic'
@@ -124,8 +124,8 @@ const EditionCeteicean = ({pageContext}: Props) => {
       return <SafeUnchangedNode {...props}/>      
     },
     "tei-graphic": Graphic,
-    "tei-sic": Sic,
-    "tei-corr": Corr
+    "tei-orig": Orig,
+    "tei-reg": Reg
   }
 
   if (!isSynoptic) {

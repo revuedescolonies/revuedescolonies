@@ -8,7 +8,7 @@ type TEIProps = {
   availableRoutes?: string[]
 }
 
-const Corr: TBehavior = (props: TEIProps) => {
+const Reg: TBehavior = (props: TEIProps) => {
   const { contextOpts } = React.useContext(DisplayContext)
 
   if (contextOpts.originalSpelling) {
@@ -18,4 +18,4 @@ const Corr: TBehavior = (props: TEIProps) => {
   return <SafeUnchangedNode {...props} />
 }
 
-export default Corr
+export default Reg

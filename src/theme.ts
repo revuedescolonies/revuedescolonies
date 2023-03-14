@@ -62,7 +62,7 @@ const theme = createTheme({
         "blockquote .footnote-ref": {
           fontWeight: "400",
         },
-        "tei-choice tei-sic": {
+        "tei-choice tei-orig": {
           borderBottom: "2px solid #A9A9A9",
           borderBottomStyle: "dashed",
           cursor: "pointer"
