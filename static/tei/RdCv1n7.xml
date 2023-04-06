@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Revue des Colonies N°7</title>
+                <editor>Noëlle Romney</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="fr">
+        <front>
+            <pb n="1" facs="v1n7p1"/>
+            <titlePage>
+                <titlePart type="main">
+                    <seg>REVUE</seg><lb/>DES<lb/><seg>COLONIES,</seg>
+                </titlePart>
+                <titlePart type="sub">
+                    RECUEIL MENSUEL<ptr target="#n13FA"/><lb/>DE LA
+                    POLITIQUE, DE L'ADMINISTRATION, DE LA JUSTICE, DE<lb/>L'INSTRUCTION ET DES MOEURS COLONIALES,
+                </titlePart>
+                <byline>
+                    DIRIGÉ PAR <persName ref="#CB">C.-A. BISSETTE</persName>.
+                </byline>
+                <docEdition>N°7. — Janvier.</docEdition>
+                <!-- confirmer la syntaxe pour insérer une image + confirmer qu'on insère de nouveau la note. -->
+                <figure>
+                    <graphic url="v2n1-vignette.jpg"/>
+                    <figDesc rend="bold">Ne suis-je pas un homme et votre frère?....<ptr
+                     target="#n6D92"/></figDesc>
+                 </figure>
+                <docImprint>
+                    <pubPlace><settlement>PARIS</settlement>,<lb/> AU BUREAU DE LA REVUE DES COLONIES, <lb/>46, RUE NEUVE-SAINT-EUSTACHE
+                    </pubPlace> <lb/> 
+                    <date>1835</date>.
+                </docImprint>
+            </titlePage>
+        </front>
+        <body>
+            <div>
+                <pb n="3" facs="v1n7p3"/>
+                <head>REVUE DES COLONIES.</head>
+                <!--syntaxe pour le trait de séparation?-->
+                <div xml:id="émancipation">
+                    <head>
+                        DE L'EMANCIPATION DES ESCLAVES, CONSIDÉRÉE COMME PREMIER ÉLÉMENT DU PROGRES SOCIAL AUX COLONIES.
+                    </head>
+                    <p>
+                        Partout, en tout pays, il s'élève aujourd'hui un admirable concert de preuves et de protestations contre l'esclavage<ptr target="#"/>. Ce n'est pas seulement la voix de l'humanité, le génie du christianisme, le principe de la fraternité des hommes qui en sollicitent universellement l'abolition, c'est l'intérêt même de la société, de la civilisation et de l'industrie; c'est l'esprit philanthropique dans la plus large acception du mot, qui plaide en tout pays aujourd'hui, pour cette belle et noble cause que nous avons embrassée avec tout le zèle et tout le courage qui peuvent être en nous<ptr target="#"/>.
+                        <!-- réf de la note?  -->
+                    </p>
+                    <p>
+                        Aussi, dans notre sollicitude philanthropique, ne nous inquiétons-nous pas seulement des esclaves de race africaine, nos compatriotes, nos frères; mais encore de tous les esclaves. <placeName ref="#EUR">Europe</placeName>, <placeName ref="#AF">Afrique</placeName>, <placeName ref="#ASI">Asie</placeName>, <placeName ref="#AM">Amérique</placeName>, <placeName ref="#OCN"> Océanie</placeName>, il n'importe! Nous voulons des hommes libres, des travailleurs heureux sur toute la surface de la terre. Nous en voulons à l'esclavage, non seulement 
+                        <choice>
+                            <orig>parcequ'</orig>
+                            <reg>parce qu'</reg>
+                        </choice>
+                        il est atroce et abominable en tout état de cause, mais aussi et encore 
+                        <choice>
+                            <orig>parcequ'</orig>
+                            <reg>parce qu'</reg>
+                        </choice>
+                        il est un obstacle au progrès, un empêchement à l'accroissement des richesses sociales, et par conséquent au développement du bien-être humain<ptr target="#"/>.<!-- réf de la note?  -->
+                    </p>
+                    <p>
+                        Aussi est-ce maintenant une opinion qui a perdu tout crédit sur le grand nombre, que celle qui faisait croire naguère presque universellement que le sol des colonies ne pouvait être cultivé que par des nègres esclaves, et que le travail de la servitude était plus fécond que le travail de l'homme libre.
+                    </p>
+                    <p>
+                        De toutes les nouvelles reçues récemment des colonies anglaises, il résulte ce fait, que la production et la prospérité matérielle y sont en voie progressive, et que, dans un nombre d'années fort limité, la fusion des races noire et blanche fera de ces contrées si 
+                        <choice>
+                            <orig>long-temps</orig>
+                            <reg>longtemps</reg>
+                        </choice> malheureuses un pays jouissant de la liberté et de l'égalité civiles et politiques, ayant ses moeurs et sa civilisation propres, et <pb n="4" facs="v1n7p4"/> ne gardant plus trace de la hideuse servitude dont il fut si cruellement affligé pendant des siècles. Les premières expériences de l'affranchissement ont confondu tous les prophètes de malheur qui ne voyaient que désordres et désolation dans la mise en liberté des esclaves. A entendre les sinistres prédictions de quelques hommes, la proclamation du <foreign>bill</foreign>, obtenue à si grand'peine des préjugés du <orgName ref="#PA">parlement anglais</orgName>, et malgré même ses nombreuses restrictions anti-libérales, la proclamation du <foreign>bill</foreign> devait avoir pour premier effet, dans les <placeName ref="#CGB">colonies de la Grande-Bretagne</placeName>, la révolte des nouveaux affranchis contre toute espèce de lois et d'autorité, et avoir pour résultat, en définitive, la cessation de tout travail, la misère et toutes ses horreurs. Rien de tout cela n'a été même un instant à craindre: loin de là; d'innombrables <choice>
+                            <orig>documens</orig>
+                            <reg>documents</reg>
+                        </choice> 
+                        qui nous ont été adressés des lieux mêmes témoignent d'une manière irrécusable que le travail libre a déjà porté les plus heureux fruits aux <placeName ref="CA">colonies anglaises</placeName>.
+                    </p>
+                    <p>
+                        S'il est besoin cependant de montrer encore aux incrédules de nos colonies tout ce que la culture et l'industrie ont à gagner à n'être pratiquées que par des mains libres, nous pouvons facilement invoquer le témoignage de tous ceux qui ont approfondi consciencieusement la question; et certes les preuves et les 
+                        <choice>
+                            <orig>argumens</orig>
+                            <reg>arguments</reg>
+                        </choice>
+                        ne nous manqueront pas!
+                    </p>
+                    <p>
+                        Essayons cet utile examen. Voyons ce qu'ont pensé sur cette matière importante les sages et les philosophes de tous les pays. 
+                    </p>
+                    <p>
+                        <quote>
+                            L'esclave, dit <persName ref="#Sto">M. Storch</persName>, célèbre économiste russe, qui avait soigneusement étudié le système d'esclavage de <placeName ref="#ER">ce vaste empire</placeName>, travaille toujours pour un autre et jamais pour lui; il se borne tout simplement à la vie matérielle, et, comme il désespère de pouvoir jamais améliorer sa position, il n'a rien qui le stimule; il devient une pure machine, souvent très dispendieuse et toujours très difficile à mettre en mouvement. Tout homme qui n'est point rétribué en proportion de son travail, travaillera aussi peu que possible; c'est une règle peut-être sans exception. Qu'un travailleur libre soit loué à la journée, il fera peu de chose; mais payez-le à la pièce, et souvent il travaillera avec tant d'ardeur que sa santé en souffrira. Si cette observation est vraie pour le producteur libre, combien plus doit-elle l'être pour le producteur esclave.
+                        </quote>
+                    </p>
+                    <p>
+                        <quote>
+                            La supériorité des travailleurs libres, même sur des serfs, est <pb n="5" facs="v1n7p5"/> partout attestée par leurs maîtres, quand ils sont assez 
+                            <choice>
+                                <orig>intelligens</orig>
+                                <reg>intelligents</reg>
+                            </choice> pour apprécier cette différence et assez consciencieux pour l'avouer.<ptr target=""/> On doit consulter sur ce point un passage de <persName ref="#Col">Columelle</persName>, où il raconte des traits inouïs de la perversité et de la négligence des esclaves travailleurs, et où il établit comme principe incontestable que, quelle que soit la nature du travail, la production libre est toujours supérieure à celle qui ne l'est pas.
+                        </quote>
+                    </p>
+                    <p>
+                        <quote>
+                            Et il est très remarquable qu'un témoignage aussi positif en faveur de ma thèse, continue <persName>M. Storch</persName>, vienne d'écrivains romains, qui possédaient eux-mêmes des esclaves et des terres, et qui par conséquent étaient très bien placés pour juger l'état de l'agriculture.<ptr target=""/> Assurément ce ne sera pas un sentiment philanthropique qui leur aura fait tenir ce langage; car on sait le peu de respect qu'avaient en général les plus beaux génies de l'antiquité, pour les droits et la dignité de l'espèce humaine.<ptr target=""/> Dans l'industrie manufacturière, la supériorité du travail libre est encore plus incontestable. A mesure que les manufactures s'étendent en Russie, les occasions de se convaincre de cette vérité se multiplient. En 1805, <persName ref="#Pan">M. Panteleyef</persName>, manufacturier à Moscou, affranchit lui même tous ses ouvriers serfs, au nombre de quatre-vingt-quatre, et la même année <persName ref="#Mln">M. Milioutin</persName> imita ce généreux exemple.
+                        </quote>
+                    </p>
+                    <p>
+                        <persName ref="#Brm">M. Brougham</persName>, dans sa <bibl type=”monogr”><title ref="#PC"> Politique coloniale</title> , adopte aussi la même théorie: 
+                        <quote>
+                            Si le travailleur est esclave, dit-il, le seul motif qui peut agir sur lui c'est la crainte. Il faudra donc constamment le surveiller. La douleur et les coups pourront seuls l'empêcher d'être paresseux. Mais cette puissance du fouet est limitée par sa nature. Par cet odieux moyen vous pourrez obliger l'esclave à se donner du mouvement, à agir, parce qu'il existe une différence marquée entre le repos absolu et l'exercice du corps; mais aucun châtiment, ni aucune punition ne peuvent obliger un malheureux ouvrier à être toujours adroit, vigilant, attentif. D'ailleurs, lorsque le corps souffre, l'esprit n'est pas plus propre à commander que lui-même ne l'est à obéir. Les châtimens sévères amènent bientôt le désespoir à leur suite, et la répétition des mêmes cruautés finit par engendrer une insensibilité physique, qui rend nulle la sévérité des punitions.
+                        </quote>
+                    </p>
+                    <p> 
+                        Hume fait à ce sujet la réflexion suivante : « Je dois ajouter, d'après l'expérience de nos planteurs, que l'esclavage est aussi
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
