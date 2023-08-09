@@ -20,12 +20,11 @@
 
          <div>
             <head>
-               <choice>
                  REVUE DES COLONIES.
 ÉTAT SOCIAL AUX COLONIES. 
 </head>
 
-<p>L'état social actuel des colonies françaises, notamment de la <placeName ref="#MQ">Martinique</placeName> et de la <placeName ref="#GP">Guadeloupe, présente un spectacle affligeant pour les amis de l'humanité. D'une part, le colon blanc, avide et cruel possesseur d'hommes ; de l'autre, le nègre, l'esclave, non seulement faisant partie, corps et 
+<p>L'état social actuel des colonies françaises, notamment de la <placeName ref="#MQ">Martinique</placeName> et de la <placeName ref="#GP">Guadeloupe</placeName>, présente un spectacle affligeant pour les amis de l'humanité. D'une part, le colon blanc, avide et cruel possesseur d'hommes ; de l'autre, le nègre, l'esclave, non seulement faisant partie, corps et 
 <choice>
 <orig>ame</orig>
 <corr>âme</corr>
@@ -54,6 +53,7 @@ viennent de toutes parts au secours de la philantropie. Quel prétexte encore, q
 </choice> 
 ces banales raisons : Que deviendraient nos fortunes, nos existences ? que deviendront les colonies mêmes ? à tout cela, le droit et le fait aujourd'hui répondent péremptoirement. Une récente expérience prouve, ce nous semble, que ce ne sont là que de misérables et mauvais dires de privilégiés, d'exploiteurs d'hommes. Les colonies anglaises n'ont pas péri encore, que nous sachions, et il est même probable que quelques-unes vont atteindre, sous l'empire du nouveau bill, un degré de prospérité de beaucoup supérieur à celui où elles étaient parvenues sous l'ancien régime.<!--une note pour ancien régime?--></p>
 
- </text>
-      </body>
-
+          </div>
+        </body>
+    </text>
+</TEI>
