@@ -27,9 +27,7 @@ Noëlle Romney, Université Paris Nanterre
 
 #### Advisory Board
 Chris Bongie, Professor of English, Queen’s University  
-Daniel Desormeaux, William D. and Robin Mayer Professor of Arts and Sciences, Johns Hopkins University  
 Brent Hayes Edwards, Peng Family Professor of English and Comparative Literature, Columbia University  
 Marisa Parham, Professor of English, University of Maryland; Associate Director of MITH  
 Guillaume Pinson, Professor of Literature, Theater and Film, Laval University  
-Alyssa Goldstein Sepinwall, Professor of History, California State University, San Marcos  
 Marie-Ève Thérenty, Professor of French Literature, Université Paul-Valéry Montpellier 3  
