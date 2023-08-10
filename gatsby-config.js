@@ -86,10 +86,19 @@ module.exports = {
     `gatsby-plugin-emotion`,
     `gatsby-plugin-material-ui`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: `G-38Y0J0NHJY`,
-        anonymize: true,
+        trackingIds: [
+          "G-38Y0J0NHJY"
+        ],
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: true
+        },
+        gtagConfig: {
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
       },
     },
     {
