@@ -86,6 +86,13 @@ module.exports = {
     `gatsby-plugin-emotion`,
     `gatsby-plugin-material-ui`,
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `G-38Y0J0NHJY`,
+        anonymize: true,
+      },
+    },
+    {
       resolve: `gatsby-theme-ceteicean`,
       options: {
         applyBefore: [addPtrNumbers, xinclude],
