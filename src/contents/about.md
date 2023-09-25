@@ -49,5 +49,5 @@ The digital images of the _Revue_ visible on the site are sourced from collectio
 
 The project has also received support from the Fondation pour la Mémoire de l’Esclavage  (FME), the Schomburg Center for Research in Black Culture at the New York Public Library, The Bibliographic Society of America.
 
-This page contains some material originally published here from Maria BELIAEVA SOLOMON, “Selections from the Revue des Colonies (July 1834 and July 1835): From the Prospectus to the Bill for Immediate Abolition,” _Scholarly Editing_ 40, 2023.
+This page contains some material originally published in Maria BELIAEVA SOLOMON, “Selections from the Revue des Colonies (July 1834 and July 1835): From the Prospectus to the Bill for Immediate Abolition,” _Scholarly Editing_ 40, 2023.
 [https://doi.org/10.55520/5M5YRJS2](https://doi.org/10.55520/5M5YRJS2) 
