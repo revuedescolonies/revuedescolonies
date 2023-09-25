@@ -7,15 +7,15 @@
   Referrer-Policy: same-origin
 /framework-f06cf9af6248959c7788.js
   Cache-Control: public, max-age=31536000, immutable
-/commons-bc81c3b9d7a040117af8.js
+/commons-4872f080d55dd6f1e669.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-gatsby-theme-ceteicean-components-ceteicean-tsx-673e35965c1cbb727827.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-templates-pages-tsx-6cd79a29174d7b619435.js
+/component---src-templates-pages-tsx-cd070ab51986399c077c.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-404-tsx-08c92fcec50051309d68.js
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-1d373b6d3090e9576fb4.js
+/webpack-runtime-cb64bcf7823ea29d88de.js
   Cache-Control: public, max-age=31536000, immutable
 /app-6c047746075b82b7c3e2.js
   Cache-Control: public, max-age=31536000, immutable
