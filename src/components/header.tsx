@@ -2,7 +2,7 @@ import React from "react"
 
 import Nav from "./nav"
 
-import banner from "../images/se-banner.jpg"
+import banner from "../images/revues-banner.png"
 import theme from "../theme"
 
 import styled from '@emotion/styled'
@@ -25,9 +25,12 @@ interface Props {
 
 const Banner = styled.div(() => ({
   backgroundImage: `url(${banner})`,
-  backgroundPositionX: "-125px",
+  // backgroundPositionX: "-125px",
   filter: "opacity(80%)",
   paddingBottom: "1.45rem",
+  backgroundSize: "contain",
+  backgroundPosition: "center",
+  backgroundRepeat: "no-repeat",
 }))
 
 const Wrapper = styled.header(() => ({

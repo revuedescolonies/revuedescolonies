@@ -26,16 +26,17 @@ interface Props {
 const Main = styled.div(() => ({
   paddingBottom: '1.45rem',
   minHeight: "60vh",
-  "& h2, & h3": {
-  paddingBottom: '0.35rem'
-  },
-  "& h3": {
-    marginBlockStart: "0.4em",
-    marginBlockEnd: "0.4em",
-    marginTop: "5px",
-    marginRight: "10px",
-    marginBottom: "0.75em",
-    marginLeft: "10px"
+  // "& h2, & h3": {
+  // paddingBottom: '0.35rem'
+  // },
+  "& h2": {
+    fontSize: "1.7rem"
+    // marginBlockStart: "0.4em",
+    // marginBlockEnd: "0.4em",
+    // marginTop: "5px",
+    // marginRight: "10px",
+    // marginBottom: "0.75em",
+    // marginLeft: "10px"
   },
   "& h4": {
     marginBlockStart: "0.4em",

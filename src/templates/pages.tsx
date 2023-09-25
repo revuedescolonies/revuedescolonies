@@ -51,15 +51,18 @@ export default function PageTemplate({ location, data, pageContext }: Props) {
     if (ml["fr"].link === loc) curLang = "fr"
   }
 
+  console.log(location)
+  const homePageTitle = location.pathname === "/" ? <Typography variant="h3" component="h1" gutterBottom={false} dangerouslySetInnerHTML={
+    {__html: data.site.siteMetadata.htmlTitle[curLang]}
+  } /> : ""
+
   return (
     <Layout location={location.pathname}>
       <SEO title={title} lang={curLang}/>
       <Container component="main" maxWidth="md">
-        <Typography variant="h3" component="h2" gutterBottom={false} dangerouslySetInnerHTML={
-            {__html: data.site.siteMetadata.htmlTitle[curLang]}
-          } />
-        <Typography variant="h4" component="h3" gutterBottom={false} sx={{
-            marginBottom: "2em"
+        {homePageTitle}
+        <Typography variant="h3" component="h1" gutterBottom={false} sx={{
+            marginBottom: "2rem"
           }}>{title}</Typography>
         <Typography
           variant="body1"
