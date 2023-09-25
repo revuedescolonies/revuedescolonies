@@ -2,7 +2,7 @@ import React from "react"
 
 import Nav from "./nav"
 
-import banner from "../images/revues-banner.png"
+import banner from "../images/se-banner.jpg"
 import theme from "../theme"
 
 import styled from '@emotion/styled'
