@@ -1,6 +1,6 @@
 ---
 path: "/fr/àpropos"
-title: "About"
+title: "À propos"
 ---
 
 ## Contexte historique
