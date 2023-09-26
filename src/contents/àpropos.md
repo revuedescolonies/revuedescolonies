@@ -11,7 +11,7 @@ Publiée mensuellement, avec des interruptions occasionnelles jusqu’en 1842, l
 
 <div style="
     float: left;
-    margin: 1.5rem 1.5rem 0 0;
+    margin: 1.5rem 1.5rem 1rem 0;
     color: rgb(116, 116, 116);
   ">
   <a href='https://gallica.bnf.fr/ark:/12148/bd6t54043487/f13.item.zoom' target='_blank'>
@@ -24,7 +24,7 @@ De manière plus radicale, la _Revue_ a joué un rôle important dans l’access
 
 S’inscrivant dans la vogue des revues mondaines par son format et sa composition, la _Revue_ a également mis en œuvre des stratégies éditoriales novatrices — feuilletons, chroniques, annonces de parution, illustrations — dans le but de promouvoir les intérêts et les apports culturels de la diaspora Noire et de ses alliés, publiant chroniques, poèmes et fictions par un vaste réseau de correspondants. Aujourd’hui méconnue hormis de rares sélections rééditées, la Revue demeure une source fondamentale pour mieux comprendre les rapports complexes entre identités coloniales, nationales et raciales ; le rôle de la presse périodique comme vecteur de changement politique et social ; et la formation de solidarités intellectuelles et politiques à une échelle globale pendant la période entre les deux abolitions.
 
-## Objectifs du projet
+<h2 style="clear: both">Objectifs du projet</h2>
 
 Le présent projet a pour objectif de contribuer à la pérennité de ce périodique remarquable en le rendant accessible aux chercheurs, aux étudiants et aux membres intéressés du grand public. Cette édition numérique bilingue en accès libre et l’appareil critique qui l’accompagne visent à fournir un texte faisant autorité sur la _Revue_, soutenu par une recherche de premier plan dans l'éventail de disciplines impliquées par ses contenus, à savoir, entre autres, l'histoire de l'esclavage transatlantique et son abolition, l'histoire coloniale française et européenne au sens large, la littérature et la culture de la diaspora Noire et l'essor des médias de masse.
 

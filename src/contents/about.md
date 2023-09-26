@@ -23,7 +23,7 @@ Monthly issues, published with occasional hiatuses until 1842, offered readers a
 
 Taking after fashionable general interest periodicals, the _Revue_ employed an array of innovative media strategies—serialized fictions, regular features, reviews, previews, advertisements, and collectible prints—to generate public interest in Black diasporic literature and culture and gave international prominence to Black writers and their allies by publishing essays, poems, and fictions by a vast network of correspondents. Little known today beyond a few reedited selections, the journal remains a fundamental source of insight into the complex relationships between colonial, national, and racial identities; the role of the periodical press as a vector for political and social change; and the formation of intellectual and political solidarities on a global scale over the first half of the nineteenth century.
 
-## Project goals
+<h2 style="clear: both">Project Goals</h2>
 
 The purpose of this project is to preserve the legacy of this remarkable and influential journal by making it accessible to researchers, students, and interested members of the general public. The open-access bilingual digital edition and its accompanying critical apparatus aim to provide an authoritative text of the _Revue_ supported by robust scholarship in the range of academic disciplines its contents engage, including the history of transatlantic slavery and its abolition, French and wider European colonial history, international Black literature and culture, and the rise of mass media. The edition’s translations and annotations are the work of an international team of scholars, including leading experts in nineteenth-century Caribbean studies, French literary history, the history of the French colonial empire, and the history of print media. 
 
@@ -31,7 +31,7 @@ The purpose of this project is to preserve the legacy of this remarkable and inf
 
 The encoding of the text in TEI-XML is largely the work of graduate students under the supervision of project team members. This edition has been encoded according to the P5 Guidelines of the Text Encoding Initiative (TEI). Each issue and corresponding translation is transcribed into a TEI file. These files, along with the files related to the edition’s specific customization, can be accessed and downloaded by clicking the TEI icon at the bottom right-hand corner of the edition page. 
 
-## User interface
+## User Interface
 
 The site, as it currently exists, is a prototype for the ongoing project, a space for experimenting with design and layout while regularly introducing more complex features and, crucially, collecting feedback from readers.
 
@@ -49,5 +49,5 @@ The digital images of the _Revue_ visible on the site are sourced from collectio
 
 The project has also received support from the Fondation pour la Mémoire de l’Esclavage  (FME), the Schomburg Center for Research in Black Culture at the New York Public Library, The Bibliographic Society of America.
 
-This page contains some material originally published in Maria BELIAEVA SOLOMON, “Selections from the Revue des Colonies (July 1834 and July 1835): From the Prospectus to the Bill for Immediate Abolition,” _Scholarly Editing_ 40, 2023.
+This page contains some material originally published here from Maria BELIAEVA SOLOMON, “Selections from the Revue des Colonies (July 1834 and July 1835): From the Prospectus to the Bill for Immediate Abolition,” _Scholarly Editing_ 40, 2023.
 [https://doi.org/10.55520/5M5YRJS2](https://doi.org/10.55520/5M5YRJS2) 
