@@ -52,7 +52,7 @@ export default function PageTemplate({ location, data, pageContext }: Props) {
   }
 
   console.log(location)
-  const homePageTitle = location.pathname === "/" ? <Typography variant="h3" component="h1" gutterBottom={false} dangerouslySetInnerHTML={
+  const homePageTitle = location.pathname === "/" || location.pathname.match(/fr\/?$/) ? <Typography variant="h3" component="h1" gutterBottom={false} dangerouslySetInnerHTML={
     {__html: data.site.siteMetadata.htmlTitle[curLang]}
   } /> : ""
 
