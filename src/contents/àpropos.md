@@ -15,7 +15,7 @@ Publiée mensuellement, avec des interruptions occasionnelles jusqu’en 1842, l
     color: rgb(116, 116, 116);
   ">
   <a href='https://gallica.bnf.fr/ark:/12148/bd6t54043487/f13.item.zoom' target='_blank'>
-    <img src="https://gallica.bnf.fr/iiif/ark:/12148/bd6t54043487/f13/91.24573216995434,313.2549317147191,2180.9635811836124,3221.2063732928677/369,545/0/native.jpg" alt="Title page of the first issue of volume 2" />
+    <img src="../images/facs/v2n1p1.jpg" alt="Title page of the first issue of volume 2" />
   </a>
   <div style="font-size: 80%; text-align: center">Page de titre de la première livraison du second volume</div>
 </div>

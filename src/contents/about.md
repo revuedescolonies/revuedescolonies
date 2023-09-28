@@ -13,11 +13,10 @@ Founded in 1834 in Paris by Cyrille Bissette, a Martinican abolitionist, the _Re
     color: rgb(116, 116, 116);
   ">
   <a href='https://gallica.bnf.fr/ark:/12148/bd6t54043487/f13.item.zoom' target='_blank'>
-    <img src="https://gallica.bnf.fr/iiif/ark:/12148/bd6t54043487/f13/91.24573216995434,313.2549317147191,2180.9635811836124,3221.2063732928677/369,545/0/native.jpg" alt="Title page of the first issue of volume 2" />
+    <img src="../images/facs/v2n1p1.jpg" alt="Title page of the first issue of volume 2" />
   </a>
   <div style="font-size: 80%; text-align: center">Title page of the first issue of volume 2</div>
 </div>
-
 
 Monthly issues, published with occasional hiatuses until 1842, offered readers a detailed inventory of current events, disseminated emancipatory petitions, denounced the abuses of colonial administrators and exposed the influence of enslavers over the French government, reflecting the editors’ personal struggle for the political recognition of free people of color. More radically, however, the _Revue_ campaigned for immediate rather than gradual abolition years before members of the French Society for the Abolition of Slavery, including Victor Schoelcher, would adopt this position, thus altering the trajectory of the abolitionist movement in the period preceding France’s second abolition in 1848.
 

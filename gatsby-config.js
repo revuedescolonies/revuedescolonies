@@ -130,14 +130,25 @@ module.exports = {
       },
     },
     {
-          resolve: `gatsby-source-filesystem`,
-          options: {
-            name: `pages`,
-            path: `${__dirname}/src/contents`,
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/contents`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 5000,
+            },
           },
-        },
-      
-    `gatsby-transformer-remark`,
+        ],
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
