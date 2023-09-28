@@ -25,11 +25,11 @@ interface Props {
 
 const Banner = styled.div(() => ({
   backgroundImage: `url(${banner})`,
-  // backgroundPositionX: "-125px",
+  backgroundPositionX: "-125px",
   filter: "opacity(80%)",
   paddingBottom: "1.45rem",
-  backgroundSize: "contain",
-  backgroundPosition: "center",
+  // backgroundSize: "contain",
+  // backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
 }))
 
