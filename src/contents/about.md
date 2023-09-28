@@ -11,6 +11,7 @@ Founded in 1834 in Paris by Cyrille Bissette, a Martinican abolitionist, the _Re
     float: left;
     margin: 1.5rem 1.5rem 0 0;
     color: rgb(116, 116, 116);
+    width: 15em;
   ">
   <a href='https://gallica.bnf.fr/ark:/12148/bd6t54043487/f13.item.zoom' target='_blank'>
     <img src="../images/facs/v2n1p1.jpg" alt="Title page of the first issue of volume 2" />
