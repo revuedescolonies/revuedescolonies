@@ -21,6 +21,8 @@ import EntityLink from "./EntityLink"
 import Graphic from './Graphic'
 import Synoptic from './Synoptic'
 import type {Lang} from '../../components/nav'
+import { DisplayContext, EntityContext, NoteContext } from './Context'
+import type { IOptions, TNote, TEntity } from "./Context"
 
 interface Props {
   pageContext: {
@@ -36,47 +38,6 @@ export interface Fac {
     gatsbyImageData: IGatsbyImageData
   }
 }
-
-export interface IOptions { [key: string]: string | boolean}
-
-export type ContextType = {
-  contextOpts: IOptions
-  setContextOpts: React.Dispatch<React.SetStateAction<IOptions>>
-}
-
-export const DisplayContext = React.createContext<ContextType>({
-  contextOpts: {},
-  setContextOpts: () => console.warn('no DisplayContext options provider')
-})
-
-export type TNote = {
-  id: string
-  n: number
-}
-
-type NoteContextType = {
-  note: TNote | null
-  setNote: React.Dispatch<React.SetStateAction<TNote | null>>
-}
-
-export const NoteContext = React.createContext<NoteContextType>({
-  note: null,
-  setNote: () => console.warn('no note data provider')
-})
-
-export type TEntity = {
-  id: string
-}
-
-type EntityContextType = {
-  entity: TEntity | null
-  setEntity: React.Dispatch<React.SetStateAction<TEntity | null>>
-}
-
-export const EntityContext = React.createContext<EntityContextType>({
-  entity: null,
-  setEntity: () => console.warn('no entity data provider')
-})
 
 const EditionCeteicean = ({pageContext}: Props) => {
   const queryData = useStaticQuery(graphql`
@@ -153,11 +114,6 @@ const EditionCeteicean = ({pageContext}: Props) => {
         <NoteContext.Provider value={{note, setNote}}>
           <Layout location={pageContext.name} appbar={<MicroEdAppbar location={pageContext.name}/>} >
             <SEO title="Edition" lang={lang as "en" | "fr"} />
-            {/* <div style={{padding: 0, paddingBottom: "55%", position: "relative",  display: "block", height: 0, width: "50%", margin: "0 auto"}}>
-              <iframe style={{position: "absolute",  top: 0, bottom: 0, left: "0", width: "100%", height: "100%", border: 0}} 
-                src="https://gallica.bnf.fr/ark:/12148/bpt6k999266f.mini">
-              </iframe>
-              </div> */}
             <Ceteicean pageContext={pageContext} routes={routes} />
           </Layout>
         </NoteContext.Provider>

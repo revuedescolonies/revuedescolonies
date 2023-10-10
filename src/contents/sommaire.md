@@ -1,5 +1,5 @@
 ---
-path: "/fr/sommaire"
+path: "/fr/sommaire/"
 title: "Table des matières"
 ---
 Volume 1, numéro 1

@@ -1,7 +1,7 @@
 import React from "react"
 import { SafeUnchangedNode, TBehavior } from "gatsby-theme-ceteicean/src/components/DefaultBehaviors"
 import { Behavior } from "gatsby-theme-ceteicean/src/components/Behavior"
-import { DisplayContext } from "./Ceteicean"
+import { DisplayContext } from "./Context"
 
 type TEIProps = {
   teiNode: Node,

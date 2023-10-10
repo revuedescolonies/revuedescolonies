@@ -1,5 +1,5 @@
 ---
-path: "/en/toc"
+path: "/en/toc/"
 title: "Table of contents"
 ---
 Volume 1, Issue 1

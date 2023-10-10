@@ -4,7 +4,7 @@ import { TEINodes } from "react-teirouter"
 import { Behavior } from "gatsby-theme-ceteicean/src/components/Behavior"
 import Tooltip, { TooltipProps, tooltipClasses } from '@mui/material/Tooltip'
 import { styled } from '@mui/material/styles'
-import { DisplayContext } from "./Ceteicean"
+import { DisplayContext } from "./Context"
 
 type TEIProps = {
   teiNode: Node,

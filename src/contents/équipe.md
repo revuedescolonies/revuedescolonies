@@ -1,5 +1,5 @@
 ---
-path: "/fr/équipe"
+path: "/fr/équipe/"
 title: "Équipe"
 ---
 #### Responsable du projet

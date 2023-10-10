@@ -1,5 +1,5 @@
 ---
-path: "/en/about"
+path: "/en/about/"
 title: "About"
 ---
 

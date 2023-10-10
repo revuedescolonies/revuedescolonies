@@ -3,7 +3,7 @@ import React from "react"
 import { Behavior } from "gatsby-theme-ceteicean/src/components/Behavior"
 import { TEINodes } from "react-teirouter"
 
-import { EntityContext } from "./Ceteicean"
+import { EntityContext } from "./Context"
 
 import theme from '../../theme'
 import { TransitionProps } from "@mui/material/transitions/transition"

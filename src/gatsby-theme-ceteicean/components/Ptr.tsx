@@ -4,10 +4,7 @@ import { TBehavior, SafeUnchangedNode } from "gatsby-theme-ceteicean/src/compone
 
 import { Behavior } from "gatsby-theme-ceteicean/src/components/Behavior"
 
-import { NoteContext, TNote, EntityContext } from "./Ceteicean"
-import Badge, { BadgeProps } from "@mui/material/Badge"
-import { styled } from '@mui/material/styles'
-import estyled from '@emotion/styled'
+import { NoteContext, TNote, EntityContext } from "./Context"
 
 import { Colors, IColors } from '../../displayOptions'
 import { Box } from "@mui/system"

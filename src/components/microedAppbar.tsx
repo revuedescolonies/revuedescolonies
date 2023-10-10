@@ -7,7 +7,7 @@ import useScrollTrigger from '@mui/material/useScrollTrigger'
 
 import { navigate } from "gatsby-link"
 import DisplayOptionsMenu from "./displayOptionsMenu"
-import { DisplayContext } from "../gatsby-theme-ceteicean/components/Ceteicean"
+import { DisplayContext } from "../gatsby-theme-ceteicean/components/Context"
 import { Box, Divider, FormControlLabel, FormGroup, MenuItem, Radio, RadioGroup, Switch, Typography } from "@mui/material"
 
 const styles = {
