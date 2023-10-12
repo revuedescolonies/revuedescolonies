@@ -47,37 +47,37 @@ module.exports = {
         },
         fr: {
           name: 'accueil',
-          link: '/fr'
+          link: '/fr/'
         }
       },
       {
         en: {
           name: 'about',
-          link: '/en/about'
+          link: '/en/about/'
         },
         fr: {
           name: 'à propos',
-          link: '/fr/àpropos'
+          link: '/fr/àpropos/'
         }
       },
       {
         en: {
           name: 'people',
-          link: '/en/people'
+          link: '/en/people/'
         },
         fr: {
           name: 'équipe',
-          link: '/fr/équipe'
+          link: '/fr/équipe/'
         }
       },
       {
         en: {
           name: 'edition',
-          link: '/en/toc'
+          link: '/en/toc/'
         },
         fr: {
           name: 'édition',
-          link: '/fr/sommaire'
+          link: '/fr/sommaire/'
         }
       }
     ]
