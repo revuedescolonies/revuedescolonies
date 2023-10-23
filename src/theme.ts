@@ -309,7 +309,7 @@ const theme = createTheme({
       main: "#E3DCD4",
     },
     background: {
-      default: "#fff",
+      default: "#fcf9f8",
     },
   },
   breakpoints: {

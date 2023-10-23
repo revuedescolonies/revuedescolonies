@@ -25,7 +25,9 @@ Taking after fashionable general interest periodicals, the _Revue_ employed an a
 
 <h2 style="clear: both">Project goals</h2>
 
-The purpose of this project is to preserve the legacy of this remarkable and influential journal by making it accessible to researchers, students, and interested members of the general public. The open-access bilingual digital edition and its accompanying critical apparatus aim to provide an authoritative text of the _Revue_ supported by robust scholarship in the range of academic disciplines its contents engage, including the history of transatlantic slavery and its abolition, French and wider European colonial history, international Black literature and culture, and the rise of mass media. The edition’s translations and annotations are the work of an international team of scholars, including leading experts in nineteenth-century Caribbean studies, French literary history, the history of the French colonial empire, and the history of print media. 
+The purpose of this project is to preserve the legacy of this remarkable periodical by making it accessible to researchers, students, and interested members of the general public. The open-access bilingual digital edition and its accompanying critical apparatus aim to provide an authoritative text on the _Revue_, supported by robust scholarship in the range of academic disciplines its contents engage, including the history of transatlantic slavery and its abolition, French and wider European colonial history, international Black literature and culture, and the rise of the periodical press.
+
+The edition's translations and annotations are the work of an international team of researchers, including leading experts in Caribbean studies, colonial history, nineteenth-century literatures and cultures, translation studies, and the history of print media. 
 
 ## Text encoding
 
@@ -35,7 +37,7 @@ The encoding of the text in TEI-XML is largely the work of graduate students und
 
 The site, as it currently exists, is a prototype for the ongoing project, a space for experimenting with design and layout while regularly introducing more complex features and, crucially, collecting feedback from readers.
 
-As we design our user interface and navigation functions, we seek to enable readers to experience the _Revue_ less like a collection of archival documents and more like a modern publication, whose contents are organized, as they were for original subscribers, under recurring headings and features, by geographic area of interest, and by various journalistic genres. Many of the editorial choices within the edition are motivated by considerations of accessibility. Spellings, for instance, appear modernized by default, though a version of the text featuring original spellings (which correspond to conventions predating widespread 1835 orthographic reforms) is available via the edition’s interface. Each page can easily be switched between original French, modernized French, or English translation, with notes, including bibliographic references, available in either language. Images of the original issues can be accessed by clicking on the minimized bar marking the page change. 
+The interface and navigation functions aim to recreate contemporary reading practices, presenting the _Revue_ less as a collection of archival documents and more as a periodical whose contents are organized, as they were for subscribers, through recurring headings reflecting its objectives and interests. Many of the editorial choices within the edition are motivated by considerations of accessibility. Spellings, for instance, appear modernized by default, though an option to view the text with original spellings (reflecting conventions predating widespread 1835 orthographic reforms) is available through the edition's interface. Each page can easily be switched between original French, modernized French, or English translation, with notes, including bibliographic references, available in either language. Images of the original issues can be accessed by clicking on the minimized bar indicating page changes. 
 
 ## Translation and critical apparatus
 
@@ -45,9 +47,11 @@ Notes fall into two overarching categories: reference notes corresponding to “
 
 ## Sources and partnerships
 
-The digital images of the _Revue_ visible on the site are sourced from collections of the French National Library (BnF). We are immensely grateful to Gallica, the digital collections of the BnF, for their support of our project with digitizing and making available the images of copies kept in the Philosophy, History, Human Sciences department of the BnF. 
+Unless otherwrise indicated, the digital images of the _Revue_ visible on the site are sourced from the collections of the French National Library (BnF). We are immensely grateful to Gallica, the digital librarires of the BnF, for their support in digitizing and making available copies held in the Philosophy, History, Human Sciences department of the BnF. 
 
-The project has also received support from the Fondation pour la Mémoire de l’Esclavage  (FME), the Schomburg Center for Research in Black Culture at the New York Public Library, The Bibliographic Society of America.
+The project has also received support from the Fondation pour la Mémoire de l’Esclavage  (FME), the Schomburg Center for Research in Black Culture at the New York Public Library, and the Bibliographic Society of America.
+
+The open source code for the project is available at https://github.com/revuedescolonies/revuedescolonies.
 
 This page contains some material originally published here from Maria BELIAEVA SOLOMON, “Selections from the Revue des Colonies (July 1834 and July 1835): From the Prospectus to the Bill for Immediate Abolition,” _Scholarly Editing_ 40, 2023.
 [https://doi.org/10.55520/5M5YRJS2](https://doi.org/10.55520/5M5YRJS2) 
