@@ -36,7 +36,7 @@
                 <figure>
                     <graphic url="v2n1-vignette.jpg"/>
                     <figDesc rend="bold">
-                        Ne suis-je pas un homme et votre frère?....
+                        Ne suis-je pas un homme et votre frère ?....
                         <ptr target="#n6D92"/>
                     </figDesc>
                  </figure>
@@ -51,20 +51,20 @@
             <div>
                 <pb n="3" facs="v1n7p3"/>
                 <head>REVUE DES COLONIES.</head>
-                <!--syntaxe pour le trait de séparation?-->
+                <!--syntaxe pour le trait de séparation ?-->
                 <div xml:id="émancipation">
                     <head>
                         DE L'EMANCIPATION DES ESCLAVES, CONSIDÉRÉE COMME PREMIER ÉLÉMENT DU PROGRES SOCIAL AUX COLONIES.
                     </head>
                     <p>
-                        Partout, en tout pays, il s'élève aujourd'hui un admirable concert de preuves et de protestations contre l'esclavage<ptr target="#"/>. Ce n'est pas seulement la voix de l'humanité, le génie du christianisme, le principe de la fraternité des hommes qui en sollicitent universellement l'abolition, c'est l'intérêt même de la société, de la civilisation et de l'industrie; c'est l'esprit philanthropique dans la plus large acception du mot, qui plaide en tout pays aujourd'hui, pour cette belle et noble cause que nous avons embrassée avec tout le zèle et tout le courage qui peuvent être en nous<ptr target="#"/>.
-                        <!-- réf de la note?  -->
+                        Partout, en tout pays, il s'élève aujourd'hui un admirable concert de preuves et de protestations contre l'esclavage<ptr target="#"/>. Ce n'est pas seulement la voix de l'humanité, le génie du christianisme, le principe de la fraternité des hommes qui en sollicitent universellement l'abolition, c'est l'intérêt même de la société, de la civilisation et de l'industrie ; c'est l'esprit philanthropique dans la plus large acception du mot, qui plaide en tout pays aujourd'hui, pour cette belle et noble cause que nous avons embrassée avec tout le zèle et tout le courage qui peuvent être en nous<ptr target="#"/>.
+                        <!-- réf de la note ?  -->
                     </p>
                     <p>
-                        Aussi, dans notre sollicitude philanthropique, ne nous inquiétons-nous pas seulement des esclaves de race africaine, nos compatriotes, nos frères; mais encore de tous les esclaves. 
+                        Aussi, dans notre sollicitude philanthropique, ne nous inquiétons-nous pas seulement des esclaves de race africaine, nos compatriotes, nos frères ; mais encore de tous les esclaves. 
                         <placeName ref="#EUR">Europe</placeName>, <placeName ref="#AF">Afrique</placeName>, <placeName ref="#ASI">Asie</placeName>, 
                         <placeName ref="#AM">Amérique</placeName>, <placeName ref="#OCN"> Océanie</placeName>, 
-                        il n'importe! Nous voulons des hommes libres, des travailleurs heureux sur toute la surface de la terre. Nous en voulons à l'esclavage, non seulement 
+                        il n'importe ! Nous voulons des hommes libres, des travailleurs heureux sur toute la surface de la terre. Nous en voulons à l'esclavage, non seulement 
                         <choice>
                             <orig>parcequ'</orig>
                             <reg>parce qu'</reg>
@@ -75,7 +75,7 @@
                             <reg>parce qu'</reg>
                         </choice>
                         il est un obstacle au progrès, un empêchement à l'accroissement des richesses sociales, et par conséquent au développement du bien-être humain
-                        <ptr target="#"/>.<!-- réf de la note?  -->
+                        <ptr target="#"/>.<!-- réf de la note ?  -->
                     </p>
                     <p>
                         Aussi est-ce maintenant une opinion qui a perdu tout crédit sur le grand nombre, que celle qui faisait croire naguère presque universellement que le sol des colonies ne pouvait être cultivé que par des nègres esclaves, et que le travail de la servitude était plus fécond que le travail de l'homme libre.
@@ -94,7 +94,7 @@
                         <placeName ref="#CGB">
                             colonies de la Grande-Bretagne
                         </placeName>, 
-                        la révolte des nouveaux affranchis contre toute espèce de lois et d'autorité, et avoir pour résultat, en définitive, la cessation de tout travail, la misère et toutes ses horreurs. Rien de tout cela n'a été même un instant à craindre: loin de là; d'innombrables 
+                        la révolte des nouveaux affranchis contre toute espèce de lois et d'autorité, et avoir pour résultat, en définitive, la cessation de tout travail, la misère et toutes ses horreurs. Rien de tout cela n'a été même un instant à craindre : loin de là ; d'innombrables 
                         <choice>
                             <orig>documens</orig>
                             <reg>documents</reg>
@@ -102,12 +102,12 @@
                         qui nous ont été adressés des lieux mêmes témoignent d'une manière irrécusable que le travail libre a déjà porté les plus heureux fruits aux <placeName ref="CA">colonies anglaises</placeName>.
                     </p>
                     <p>
-                        S'il est besoin cependant de montrer encore aux incrédules de nos colonies tout ce que la culture et l'industrie ont à gagner à n'être pratiquées que par des mains libres, nous pouvons facilement invoquer le témoignage de tous ceux qui ont approfondi consciencieusement la question; et certes les preuves et les 
+                        S'il est besoin cependant de montrer encore aux incrédules de nos colonies tout ce que la culture et l'industrie ont à gagner à n'être pratiquées que par des mains libres, nous pouvons facilement invoquer le témoignage de tous ceux qui ont approfondi consciencieusement la question ; et certes les preuves et les 
                         <choice>
                             <orig>argumens</orig>
                             <reg>arguments</reg>
                         </choice>
-                        ne nous manqueront pas!
+                        ne nous manqueront pas !
                     </p>
                     <p>
                         Essayons cet utile examen. Voyons ce qu'ont pensé sur cette matière importante les sages et les philosophes de tous les pays. 
@@ -118,7 +118,7 @@
                             <persName ref="#Sto">M. Storch</persName>, célèbre économiste russe, qui avait soigneusement étudié le système d'esclavage de <placeName ref="#ER">
                                 ce vaste empire
                             </placeName>, 
-                            travaille toujours pour un autre et jamais pour lui; il se borne tout simplement à la vie matérielle, et, comme il désespère de pouvoir jamais améliorer sa position, il n'a rien qui le stimule; il devient une pure machine, souvent très dispendieuse et toujours très difficile à mettre en mouvement. Tout homme qui n'est point rétribué en proportion de son travail, travaillera aussi peu que possible; c'est une règle peut-être sans exception. Qu'un travailleur libre soit loué à la journée, il fera peu de chose; mais payez-le à la pièce, et souvent il travaillera avec tant d'ardeur que sa santé en souffrira. Si cette observation est vraie pour le producteur libre, combien plus doit-elle l'être pour le producteur esclave.
+                            travaille toujours pour un autre et jamais pour lui ; il se borne tout simplement à la vie matérielle, et, comme il désespère de pouvoir jamais améliorer sa position, il n'a rien qui le stimule ; il devient une pure machine, souvent très dispendieuse et toujours très difficile à mettre en mouvement. Tout homme qui n'est point rétribué en proportion de son travail, travaillera aussi peu que possible ; c'est une règle peut-être sans exception. Qu'un travailleur libre soit loué à la journée, il fera peu de chose ; mais payez-le à la pièce, et souvent il travaillera avec tant d'ardeur que sa santé en souffrira. Si cette observation est vraie pour le producteur libre, combien plus doit-elle l'être pour le producteur esclave.
                         </quote>
                     </p>
                     <p>
@@ -134,7 +134,7 @@
                         <quote>
                             Et il est très remarquable qu'un témoignage aussi positif en faveur de ma thèse, continue <persName>M. Storch</persName>, vienne d'écrivains romains, qui possédaient eux-mêmes des esclaves et des terres, et qui par conséquent étaient très bien placés pour juger l'état de l'agriculture.
                             <ptr target=""/> 
-                            Assurément ce ne sera pas un sentiment philanthropique qui leur aura fait tenir ce langage; car on sait le peu de respect qu'avaient en général les plus beaux génies de l'antiquité, pour les droits et la dignité de l'espèce humaine.
+                            Assurément ce ne sera pas un sentiment philanthropique qui leur aura fait tenir ce langage ; car on sait le peu de respect qu'avaient en général les plus beaux génies de l'antiquité, pour les droits et la dignité de l'espèce humaine.
                             <ptr target=""/> 
                             Dans l'industrie manufacturière, la supériorité du travail libre est encore plus incontestable. A mesure que les manufactures s'étendent en Russie, les occasions de se convaincre de cette vérité se multiplient. En 1805, 
                             <persName ref="#Pan">M. Panteleyef</persName>, manufacturier à Moscou, affranchit lui même tous ses ouvriers serfs, au nombre de quatre-vingt-quatre, et la même année 
@@ -147,9 +147,9 @@
                             <title ref="#PC"> 
                                 Politique coloniale
                             </title>
-                        </bibl>, adopte aussi la même théorie: 
+                        </bibl>, adopte aussi la même théorie : 
                         <quote>
-                            Si le travailleur est esclave, dit-il, le seul motif qui peut agir sur lui c'est la crainte. Il faudra donc constamment le surveiller. La douleur et les coups pourront seuls l'empêcher d'être paresseux. Mais cette puissance du fouet est limitée par sa nature. Par cet odieux moyen vous pourrez obliger l'esclave à se donner du mouvement, à agir, parce qu'il existe une différence marquée entre le repos absolu et l'exercice du corps; mais aucun châtiment, ni aucune punition ne peuvent obliger un malheureux ouvrier à être toujours adroit, vigilant, attentif. D'ailleurs, lorsque le corps souffre, l'esprit n'est pas plus propre à commander que lui-même ne l'est à obéir. Les <choice>
+                            Si le travailleur est esclave, dit-il, le seul motif qui peut agir sur lui c'est la crainte. Il faudra donc constamment le surveiller. La douleur et les coups pourront seuls l'empêcher d'être paresseux. Mais cette puissance du fouet est limitée par sa nature. Par cet odieux moyen vous pourrez obliger l'esclave à se donner du mouvement, à agir, parce qu'il existe une différence marquée entre le repos absolu et l'exercice du corps ; mais aucun châtiment, ni aucune punition ne peuvent obliger un malheureux ouvrier à être toujours adroit, vigilant, attentif. D'ailleurs, lorsque le corps souffre, l'esprit n'est pas plus propre à commander que lui-même ne l'est à obéir. Les <choice>
                                 <orig>châtimens</orig>
                                 <reg>châtiments</reg>
                             </choice> sévères amènent bientôt le désespoir à leur suite, et la répétition des mêmes cruautés finit par engendrer une insensibilité physique, qui rend nulle la sévérité des punitions.
@@ -157,7 +157,7 @@
                     </p>
                     <p>
                         <persName ref="#Hume">Hume</persName>
-                        fait à ce sujet la réflexion suivante:
+                        fait à ce sujet la réflexion suivante :
                         <quote>
                             Je dois ajouter, d'après l'expérience de nos planteurs, que l'esclavage est aussi
                             <pb n="6" facs="v1n7p6"/>
@@ -190,13 +190,13 @@
                         <placeName ref="#IN">Inde</placeName>
                         où la matière première est la même, mais où il y a des esclaves, à la liberté des travailleurs de ce pays.
                         <quote>
-                            La terre, ajoute-t-il, qui multiplie les productions sous la main d'un laboureur de race libre, semble frappée d'une incurable stérilité par les sueurs de l'esclave!
+                            La terre, ajoute-t-il, qui multiplie les productions sous la main d'un laboureur de race libre, semble frappée d'une incurable stérilité par les sueurs de l'esclave !
                         </quote>
                     </p>
                     <p>
                     Le grand et bon 
                     <persName ref="#Fkl">Franklin</persName>
-                    n'a pas d'autre avis sur la question: 
+                    n'a pas d'autre avis sur la question : 
                     <quote>
                         C'est une opinion sans fondement, dit-il dans son 
                         <bibl type="monogr">
@@ -205,7 +205,7 @@
                             </title>
                         </bibl>
                         , de croire que les colonies, avec leurs esclaves, pourront jamais lutter pour le bas prix de leurs produits avec les manufacturiers libres de l'
-                        <placeName ref="#ANG">Angleterre</placeName>. Jamais le travail de la servitude n'est aussi bon marché que l'autre; il est facile de s'en rendre raison. Que l'on calcule l'intérêt du prix d'achat d'un noir; le taux d'assurance de sa vie ou les risques de sa perte; son entretien complet; les frais de ses journées de maladie ou de repos; les pertes qui résultent de sa paresse, d'autant plus naturelle qu'il n'est nullement intéressé à ce que son travail soit productif; ce que coûte l'intendant, dont la présence et le fouet sont toujours nécessaires; qu'on ajoute à cela les pertes occasionnées par le gaspillage ou même les vols de l'esclave (car tout esclave, par la nature même de l'esclavage, est et doit être voleur, lui à qui l'on a volé sa chair et ses os); et qu'on compare ensuite ces frais avec le salaire d'un mineur ou d'un fileur anglais, et l'on se convaincra que le travail en 
+                        <placeName ref="#ANG">Angleterre</placeName>. Jamais le travail de la servitude n'est aussi bon marché que l'autre ; il est facile de s'en rendre raison. Que l'on calcule l'intérêt du prix d'achat d'un noir ; le taux d'assurance de sa vie ou les risques de sa perte ; son entretien complet ; les frais de ses journées de maladie ou de repos ; les pertes qui résultent de sa paresse, d'autant plus naturelle qu'il n'est nullement intéressé à ce que son travail soit productif ; ce que coûte l'intendant, dont la présence et le fouet sont toujours nécessaires ; qu'on ajoute à cela les pertes occasionnées par le gaspillage ou même les vols de l'esclave (car tout esclave, par la nature même de l'esclavage, est et doit être voleur, lui à qui l'on a volé sa chair et ses os) ; et qu'on compare ensuite ces frais avec le salaire d'un mineur ou d'un fileur anglais, et l'on se convaincra que le travail en 
                         <placeName>Angleterre</placeName> 
                         est infiniment meilleur marché que dans les <placeName ref="#ANTE">Antilles</placeName>.
                     </quote>
@@ -216,7 +216,7 @@
                         <persName ref="#JBS">J.-B. Say</persName>, 
                         le célèbre économiste, avait aussi partagé sans passion l'erreur de ceux qui soutiennent que les colonies des 
                         <placeName>Antilles</placeName>  
-                        ne peuvent être cultivées avec succès que par des esclaves; il avait avancé cette assertion comme un fait dans les premières éditions de son 
+                        ne peuvent être cultivées avec succès que par des esclaves ; il avait avancé cette assertion comme un fait dans les premières éditions de son 
                         <bibl type="monogr">
                             <title ref="#TEP">
                                 Traité d'Economie politique
@@ -236,7 +236,7 @@
                          </choice>
                          cette allégation. L'honorable 
                          <persName>M. Say</persName> 
-                         donna à cette occasion un bel exemple; il s'empressa de reconnaître et de confesser son erreur; il écrivit à 
+                         donna à cette occasion un bel exemple ; il s'empressa de reconnaître et de confesser son erreur ; il écrivit à 
                          <persName>M. Hodgson</persName> 
                          une lettre à cet effet. 
                          <quote>
@@ -262,13 +262,13 @@
                             Vous n'avez probablement lu qu'une des premières éditions de mon 
                             <bibl type="monogr">
                                 <title>Traité d'Economie Politique </title>
-                            </bibl>; 
-                            car, dans les dernières, j'ai beaucoup amendé ce que je disais du travail des esclaves, au point d'en venir à peu près à la même conclusion que vous; mais n'étant pas borné à une seule question, et ne voulant pas grossir le livre, je n'ai pu qu'effleurer le sujet. Je me rapproche encore plus de votre opinion dans les ouvrages que je prépare.
+                            </bibl> ; 
+                            car, dans les dernières, j'ai beaucoup amendé ce que je disais du travail des esclaves, au point d'en venir à peu près à la même conclusion que vous ; mais n'étant pas borné à une seule question, et ne voulant pas grossir le livre, je n'ai pu qu'effleurer le sujet. Je me rapproche encore plus de votre opinion dans les ouvrages que je prépare.
                         </quote>
                     </p>
                     <p>
                         <quote>
-                            L'esclavage est incompatible avec une industrie un peu avancée; il touche à son terme chez tous les peuples d'origine européenne; et comme l'inquiétude et l'intelligence de l'
+                            L'esclavage est incompatible avec une industrie un peu avancée ; il touche à son terme chez tous les peuples d'origine européenne ; et comme l'inquiétude et l'intelligence de l'
                             <placeName>Europe</placeName> finiront par envahir le monde, on peut affirmer qu'un jour l'esclavage aura cessé partout.
                         </quote>
                     </p>
@@ -289,7 +289,7 @@
                         <placeName ref="#LVP">Liverpool</placeName>, 
                         in-8
                         <ptr target="#"/>
-                        <!-- réf de la note?  --> 
+                        <!-- réf de la note ?  --> 
                         de 60 pages. Cette brochure a eu d'innombrables éditions en 
                         <placeName>Angleterre</placeName>.
                     </note>
@@ -301,7 +301,7 @@
                         </bibl>
                         , 
                         <quote>
-                            devrait être proscrite, par cette seule raison, qu'un homme réduit à l'esclavage ne peut pas être aussi utile à la société qu'un homme qui conserve tonte la liberté de ses actions. Il faut que la possibilité de faire fortune dépende de l'individu, et ce n'est qu'ainsi que l'état social s'améliore et tend à la perfection. Cette vérité indubitable est plus claire encore pour tous ceux qui ont eu occasion de voir par eux-mêmes la manière dont se fait le travail des esclaves. L'indifférence de ce genre de travailleurs, leur insouciance, l'extrême apathie de leurs mouvemens, prouvent d'une manière péremptoire qu'ils ne prennent aucun intérêt à leur travail. J'ai eu moi-même occasion de remarquer, sur la même plantation, deux bandes de travailleurs, l'une d'esclaves, l'autre d'hommes libres: mélange qui est assez rare; je fus frappé de la différence de leur travail: les travailleurs libres chantaient en travaillant, leurs 
+                            devrait être proscrite, par cette seule raison, qu'un homme réduit à l'esclavage ne peut pas être aussi utile à la société qu'un homme qui conserve tonte la liberté de ses actions. Il faut que la possibilité de faire fortune dépende de l'individu, et ce n'est qu'ainsi que l'état social s'améliore et tend à la perfection. Cette vérité indubitable est plus claire encore pour tous ceux qui ont eu occasion de voir par eux-mêmes la manière dont se fait le travail des esclaves. L'indifférence de ce genre de travailleurs, leur insouciance, l'extrême apathie de leurs mouvemens, prouvent d'une manière péremptoire qu'ils ne prennent aucun intérêt à leur travail. J'ai eu moi-même occasion de remarquer, sur la même plantation, deux bandes de travailleurs, l'une d'esclaves, l'autre d'hommes libres : mélange qui est assez rare ; je fus frappé de la différence de leur travail : les travailleurs libres chantaient en travaillant, leurs 
                             <choice>
                                 <orig>mouvemens</orig>
                                 <reg>mouvements</reg>
@@ -323,7 +323,7 @@
                         <placeName ref="#CNE">Chine</placeName>
                         , le 
                         <placeName ref="#Bng">Bengale</placeName>
-                        <!-- l'autocomplétion n'a pas fonctionné pour #Bng. L'abréviation a-t-elle été rajoutée dans ODD?-->
+                        <!-- l'autocomplétion n'a pas fonctionné pour #Bng. L'abréviation a-t-elle été rajoutée dans ODD ?-->
                         , les côtes du 
                         <placeName ref="#Mlb">Malabar</placeName> 
                         produisent de grandes quantités de sucres et d'esprits, mais ce genre de productions prospère surtout à 
@@ -341,7 +341,7 @@
                         , à des travailleurs libres, qui paient une certaine somme par pécul (153 kil.) de sucre fabriqué
                         <ptr></ptr>
                         . 
-                        Tous ces travailleurs se divisent l'ouvrage; les uns récoltent les cannes et les portent au moulin; les autres font cuire le sirop; d'autres sont chargés de la clarification: tous ces travaux sont exécutés par une répartition volontaire. Quand la saison de la fabrication est passée, les travailleurs quittent la plantation, se livrent à des occupations diverses pendant les pluies, et il n'en reste sur les lieux que le nombre nécessaire à l'entretien des pieds de cannes
+                        Tous ces travailleurs se divisent l'ouvrage ; les uns récoltent les cannes et les portent au moulin ; les autres font cuire le sirop ; d'autres sont chargés de la clarification : tous ces travaux sont exécutés par une répartition volontaire. Quand la saison de la fabrication est passée, les travailleurs quittent la plantation, se livrent à des occupations diverses pendant les pluies, et il n'en reste sur les lieux que le nombre nécessaire à l'entretien des pieds de cannes
                         <ptr></ptr>
                         .
                         <quote>
@@ -360,7 +360,7 @@
                             <placeName ref="#BCL">Bencoulen</placeName>
                             , où j'ai organisé une fabri-
                             <pb n="9" facs="v1n7p9"/>
-                            cation libre de sucre. J'ai éprouvé alors combien ce nouveau genre de travail est utile au propriétaire; je suis même persuadé, d'après mon expérience personnelle, que si l'on adoptait dans nos îles à sucre le mode de culture libre usité dans l'
+                            cation libre de sucre. J'ai éprouvé alors combien ce nouveau genre de travail est utile au propriétaire ; je suis même persuadé, d'après mon expérience personnelle, que si l'on adoptait dans nos îles à sucre le mode de culture libre usité dans l'
                             <placeName>Inde</placeName>
                             , la moitié des travailleurs actuels suffiraient pour obtenir la même production
                             <ptr></ptr>.
@@ -404,9 +404,9 @@
                             <placeName ref="#ROM">Rome</placeName>
                             , lorsque la capitale était entourée de nations avec lesquelles elle était perpétuellement en guerre, les 
                             <emph>marchés d'hommes</emph> 
-                            furent toujours abondamment pourvus. La cruauté du traitement qu'on leur faisait subir, était en raison directe de la facilité avec laquelle on se les procurait, et l'histoire nous montre combien leur sort fut à plaindre chez ces peuples qui flétrissaient tous les étrangers du nom de barbares. Dès que les guerres devinrent moins fréquentes et qu'on s'adonna davantage aux arts de la paix, il ne fut plus aussi facile d'avoir des esclaves; et enfin, quand le colosse de l'empire romain s'affaissa sous son propre poids, il fut impossible d'enlever des esclaves. Un système plus doux de gouvernement domestique, un peu plus d'humanité envers les esclaves que l'on possédait, et un peu plus de soins à en perpétuer la race, furent la suite nécessaire de cet état de choses; car l'intérêt obligeait le maître de mieux traiter des esclaves qu'il était fort difficile de remplacer. Les lois finirent par donner leur sanction à ce changement qu'elles n'avaient pas provoqué. On reconnut que les esclaves avaient aussi des droits, et leur émancipation fut ouver-
+                            furent toujours abondamment pourvus. La cruauté du traitement qu'on leur faisait subir, était en raison directe de la facilité avec laquelle on se les procurait, et l'histoire nous montre combien leur sort fut à plaindre chez ces peuples qui flétrissaient tous les étrangers du nom de barbares. Dès que les guerres devinrent moins fréquentes et qu'on s'adonna davantage aux arts de la paix, il ne fut plus aussi facile d'avoir des esclaves ; et enfin, quand le colosse de l'empire romain s'affaissa sous son propre poids, il fut impossible d'enlever des esclaves. Un système plus doux de gouvernement domestique, un peu plus d'humanité envers les esclaves que l'on possédait, et un peu plus de soins à en perpétuer la race, furent la suite nécessaire de cet état de choses ; car l'intérêt obligeait le maître de mieux traiter des esclaves qu'il était fort difficile de remplacer. Les lois finirent par donner leur sanction à ce changement qu'elles n'avaient pas provoqué. On reconnut que les esclaves avaient aussi des droits, et leur émancipation fut ouver-
                             <pb n="10" facs="v1n7p10"/>
-                            tement encouragée; peu à peu, par degrés insensibles, les esclaves furent incorporés dans la famille de leurs maitres, et formèrent la majeure partie de cette énorme masse de population libre, avec laquelle les peuples du nord se mêlèrent plutôt qu'ils ne la soumirent.
+                            tement encouragée ; peu à peu, par degrés insensibles, les esclaves furent incorporés dans la famille de leurs maitres, et formèrent la majeure partie de cette énorme masse de population libre, avec laquelle les peuples du nord se mêlèrent plutôt qu'ils ne la soumirent.
                         </quote>    
                     </p>
                     <p>
@@ -428,7 +428,7 @@
                             <placeName ref="#ROM">Romains</placeName>
                             étaient marchandise importée, au lieu que les esclaves des 
                             <placeName ref="#GOT">Goths</placeName> 
-                            étaient nés sur la terre même qu'ils occupaient, sauf quelques rares exceptions; dans ces premières guerres de la conquête, des vainqueurs barbares trainaient quelquefois leurs prisonniers à leur suite. Aussi il n'y a aucune comparaison à faire entre la rigueur de ces deux espèces d'esclavage. C'est à cette différence qu'il faut attribuer les prodigieux progrès de la civilisation. L'esclave fut d'abord attaché à son maître, non comme sa propriété personnelle, mais comme 
+                            étaient nés sur la terre même qu'ils occupaient, sauf quelques rares exceptions ; dans ces premières guerres de la conquête, des vainqueurs barbares trainaient quelquefois leurs prisonniers à leur suite. Aussi il n'y a aucune comparaison à faire entre la rigueur de ces deux espèces d'esclavage. C'est à cette différence qu'il faut attribuer les prodigieux progrès de la civilisation. L'esclave fut d'abord attaché à son maître, non comme sa propriété personnelle, mais comme 
                             <emph>faisant partie de son bien</emph>
                             , suivant l'expression des temps féodaux. Par degrés, les intérêts 
                             <emph>du seigneur et des serfs</emph> 
@@ -437,11 +437,11 @@
                                 <orig>changemens</orig>
                                 <reg>changements</reg>
                             </choice>
-                            , dont il est résulté la formation de la bourgeoisie, qui depuis à renouvelé entièrement la face de l'Europe. Voici par quels degrés s'opéra cette grande révolution: d'abord le 
+                            , dont il est résulté la formation de la bourgeoisie, qui depuis à renouvelé entièrement la face de l'Europe. Voici par quels degrés s'opéra cette grande révolution : d'abord le 
                             <emph>villain</emph> 
-                            obtint la faculté de cultiver la terre pour son compte, sauf une certaine redevance; ce grand et signalé bienfait, l'un de ceux qui ont assuré le bonheur des temps modernes, s'est opéré après une longue série d'améliorations progressives, dont la suite échappe presque aux recherches de l'historien, et la race humaine en est redevable à la découverte que firent plusieurs possesseurs de serfs, de l'avantage que pouvait avoir pour eux la libération de leurs esclaves, moyennant de certaines conditions. Ils crurent que l'intérêt des esclaves était identique avec le leur, et qu'il était pour eux de la plus haute importance de mieux traiter à l'avenir ceux qui les faisaient vivre et qu'il n'était plus possible de remplacer. Ils se convainquirent qu'il était bien plus avantageux de partager avec leurs vassaux le fruit d'un travail énergique et volontaire, que de leur ravir honteusement le triste produit d'une industrie forcée et servile. Aussitôt que le droit de propriété et la tranquille jouissance de son travail furent garantis au serf, la 
+                            obtint la faculté de cultiver la terre pour son compte, sauf une certaine redevance ; ce grand et signalé bienfait, l'un de ceux qui ont assuré le bonheur des temps modernes, s'est opéré après une longue série d'améliorations progressives, dont la suite échappe presque aux recherches de l'historien, et la race humaine en est redevable à la découverte que firent plusieurs possesseurs de serfs, de l'avantage que pouvait avoir pour eux la libération de leurs esclaves, moyennant de certaines conditions. Ils crurent que l'intérêt des esclaves était identique avec le leur, et qu'il était pour eux de la plus haute importance de mieux traiter à l'avenir ceux qui les faisaient vivre et qu'il n'était plus possible de remplacer. Ils se convainquirent qu'il était bien plus avantageux de partager avec leurs vassaux le fruit d'un travail énergique et volontaire, que de leur ravir honteusement le triste produit d'une industrie forcée et servile. Aussitôt que le droit de propriété et la tranquille jouissance de son travail furent garantis au serf, la 
                             <pb n="11" facs="v1n7p11"/>
-                            civilisation prit une allure constante et progressive. Les paysans obtinrent le droit de changer de lieu et de disposer de leur pécule. Par degrés on paya la rente en argent, et le prix en fut fixé par la concurrence; et ceux qui ne purent obtenir de ferme à cultiver vendirent leur travail, moyennant un salaire déterminé. Enfin les lois assurèrent à tous les fermiers la liberté de leur fermage, comme elles garantirent au seigneur ses droits sur la terre affermée. 
+                            civilisation prit une allure constante et progressive. Les paysans obtinrent le droit de changer de lieu et de disposer de leur pécule. Par degrés on paya la rente en argent, et le prix en fut fixé par la concurrence ; et ceux qui ne purent obtenir de ferme à cultiver vendirent leur travail, moyennant un salaire déterminé. Enfin les lois assurèrent à tous les fermiers la liberté de leur fermage, comme elles garantirent au seigneur ses droits sur la terre affermée. 
                         </quote>
                     </p>
                     <p>
@@ -497,24 +497,24 @@
                             Amérique du Sud 
                             les noirs sont, à certains égards, dans la position des 
                             <foreign>coloni partiarii</foreign>
-                            , ou métayers des temps féodaux; mais leur 
+                            , ou métayers des temps féodaux ; mais leur 
                             <foreign>reddendo</foreign> 
-                            est fixe; tout le surplus leur appartient, tandis qu'un métayer partage tous ses profits quelconques avec son maître. Cet adoucissement graduel de la servitude, consistant à
+                            est fixe ; tout le surplus leur appartient, tandis qu'un métayer partage tous ses profits quelconques avec son maître. Cet adoucissement graduel de la servitude, consistant à
                             <pb n="12" facs="v1n7p12"/>
                             donner à l'esclave la faculté de travailler à son compte, moyennant une redevance, a été suivi des plus grands avantages.
                         </quote>
                     </p>
                     <p>
-                        L'expérience a prouvé que partout l'émancipation des esclaves ou des serfs augmente la valeur des terres; voici ce que rapporte à ce sujet le voyageur 
-                        Coxe: 
+                        L'expérience a prouvé que partout l'émancipation des esclaves ou des serfs augmente la valeur des terres ; voici ce que rapporte à ce sujet le voyageur 
+                        Coxe : 
                             <quote>
-                                Plusieurs seigneurs polonais, humains et éclairés, ont essayé d'affranchir leurs serfs; l'évènement a fait voir que cette mesure, qui fait honneur à leur humanité, leur était de plus fort avantageuse, car les districts affranchis ont rapidement augmenté de population et ont triplé leurs revenus. Le seigneur qui donna le premier la liberté à ses serfs fut 
+                                Plusieurs seigneurs polonais, humains et éclairés, ont essayé d'affranchir leurs serfs ; l'évènement a fait voir que cette mesure, qui fait honneur à leur humanité, leur était de plus fort avantageuse, car les districts affranchis ont rapidement augmenté de population et ont triplé leurs revenus. Le seigneur qui donna le premier la liberté à ses serfs fut 
                                 <persName ref="#Jms">Jamoiski</persName>
                                 , ancien chancelier de la diète, qui affranchit six villages, dans le 
                                 <placeName ref="#MSV">
                                     palatinat de Masovie
                                 </placeName>
-                                . En examinant le registre des naissances de 1750 à 1760, pendant les dix années qui précédèrent l'affranchissement, on trouve quatre cent trente-quatre naissances, et dans les dix premières années de liberté, de 1760 à 1770, cinq cent vingt-huit, et de 1770 à 1777, cinq cent quatre vingt-cinq; d'où il résulte que la moyenne proportionnelle des naissances de chaque année a été comme il suit:
+                                . En examinant le registre des naissances de 1750 à 1760, pendant les dix années qui précédèrent l'affranchissement, on trouve quatre cent trente-quatre naissances, et dans les dix premières années de liberté, de 1760 à 1770, cinq cent vingt-huit, et de 1770 à 1777, cinq cent quatre vingt-cinq ; d'où il résulte que la moyenne proportionnelle des naissances de chaque année a été comme il suit :
                                 <table>
                                     <row>
                                         <cell>
@@ -558,23 +558,23 @@
                         , telles que les principes de la civilisation moderne les ont faites, avec leur admirable organisation industrielle, leur belle démocratie de travailleurs libres et égaux devant la loi, leurs usines, leurs ateliers, leur confortable en toutes choses, puissamment lancées dans la carrière indéfinie de la perfectibilité, témoignent hautement et disent assez à tous ce que savent et peuvent faire les peuples affranchis de toute servitude et de tout servage, et quelle est leur supériorité sur les peuples à esclaves, principalement dans les arts de la paix. 
                     </p>
                     <p>
-                        Dira-t-on qu'un avenir pareil est un rêve pour nous; que, quoi que nous fassions, ce sera pour les hommes de race africaine, la terre promise, vers laquelle ils aspireront toujours sans y atteindre jamais ?
+                        Dira-t-on qu'un avenir pareil est un rêve pour nous ; que, quoi que nous fassions, ce sera pour les hommes de race africaine, la terre promise, vers laquelle ils aspireront toujours sans y atteindre jamais ?
                         <pb n="13" facs="v1n7p13"/>
                         <choice>
                             <sic>que</sic>
                             <corr>Que</corr>
                         </choice>
-                        c'est un point culminant hors de notre portée, qui restera inaccessible à tous nos efforts? Mais que de choses qu'on appelait, il n'y a pas encore cinquante ans, rêves et utopies sans application possible à l'immense majorité des hommes, qui sont maintenant réalisées, consenties de tous aujourd'hui et passées dans la pratique sociale, c'est-à-dire dans les moeurs non moins que dans les lois!
+                        c'est un point culminant hors de notre portée, qui restera inaccessible à tous nos efforts ? Mais que de choses qu'on appelait, il n'y a pas encore cinquante ans, rêves et utopies sans application possible à l'immense majorité des hommes, qui sont maintenant réalisées, consenties de tous aujourd'hui et passées dans la pratique sociale, c'est-à-dire dans les moeurs non moins que dans les lois !
                     </p>
                     <p>
-                        Voudra-t-on arguer de l'infériorité intellectuelle de la race noire? Mais les faits sont là pour démentir cette pitoyable assertion. La race noire n'est inférieure à la race blanche que 
+                        Voudra-t-on arguer de l'infériorité intellectuelle de la race noire ? Mais les faits sont là pour démentir cette pitoyable assertion. La race noire n'est inférieure à la race blanche que 
                         <corr>
                             <orig>parceque</orig>
                             <reg>parce que</reg>
                         </corr> 
                         celle-ci est admise depuis des siècles au grand banquet de la civilisation, dont elle a centuplé les forces par l'intelligence, tandis que l'autre en a toujours été tenue soigneusement éloignée. D'elle-même cependant la race noire a su se faire une place de vive force et se créer une patrie là où quelques années auparavant le fouet des commandeurs et la geôle ignominieuse étaient son seul partage. Mais sans parler même de la république d'
                         <placeName ref="#HT">Haiti</placeName>
-                        , la race noire n'a-t-elle pas présenté de nombreux et grands exemples de sociabilité? Les 
+                        , la race noire n'a-t-elle pas présenté de nombreux et grands exemples de sociabilité ? Les 
                         <choice>
                             <orig>régimens</orig>
                             <reg>régiments</reg>
@@ -593,7 +593,7 @@
                         <placeName ref="#CLB">Colombie </placeName>
                         affranchis par 
                         <persName ref="#SB">Bolivar</persName>
-                        , ne sont-ce pas là de péremptoires et irrécusables réponses à ceux qui nient les preuves de l'aptitude et de la valeur intellectuelle de cette race si méprisée de ceux qui en étouffent le développement dans l'intérêt seul de leur fortune du moment? Les faits sont donc ici du côté du bon droit et de la raison, et il n'est rien aujourd'hui de plus évidemment démontré que cette proposition admirablement soutenue dans un 
+                        , ne sont-ce pas là de péremptoires et irrécusables réponses à ceux qui nient les preuves de l'aptitude et de la valeur intellectuelle de cette race si méprisée de ceux qui en étouffent le développement dans l'intérêt seul de leur fortune du moment ? Les faits sont donc ici du côté du bon droit et de la raison, et il n'est rien aujourd'hui de plus évidemment démontré que cette proposition admirablement soutenue dans un 
                         <bibl type="monogr">
                             <title ref="#SRN">
                                 mémoire sur la sociabilité de la race noire
@@ -605,11 +605,11 @@
                                 Journal de la société de la morale chrétienne
                             </title>
                         </bibl>
-                        , à savoir que: 
+                        , à savoir que : 
                         Toutes les fois que le despotisme du plus fort a bien voulu permettre à la race noire de se développer, elle s'est développée aussi rapidement sous tous les rapports que la race blanche.
                     </p>
                     <p>
-                        Si donc les noirs esclaves sont de très mauvais travailleurs, c'est qu'il est naturel qu'ils soient ainsi; c'est qu'avilis, méprisés, battus, traités plus mal que des bêtes de somme, une seule chose doit étonner de leur part, c'est qu'ils se laissent faire avec tant de longanimité; c'est qu'ils ne montrent pas plus souvent, le fer et feu à la main, comme à 
+                        Si donc les noirs esclaves sont de très mauvais travailleurs, c'est qu'il est naturel qu'ils soient ainsi ; c'est qu'avilis, méprisés, battus, traités plus mal que des bêtes de somme, une seule chose doit étonner de leur part, c'est qu'ils se laissent faire avec tant de longanimité ; c'est qu'ils ne montrent pas plus souvent, le fer et feu à la main, comme à 
                         <placeName ref="#HT">Saint-Domingue</placeName>
                         , le caractère féroce et cruel
                         <pb n="14" facs="v1n7p14"/>
@@ -618,24 +618,24 @@
                             <orig>long-temps</orig>
                             <reg>longtemps</reg>
                         </choice>
-                        soufferte fait naturellement aux hommes; c'est que privés de toutes notions morales et véritablement religieuses, ils souffrent sans vengeance les maux et les affronts de toutes sortes dont ils sont journellement accablés.
+                        soufferte fait naturellement aux hommes ; c'est que privés de toutes notions morales et véritablement religieuses, ils souffrent sans vengeance les maux et les affronts de toutes sortes dont ils sont journellement accablés.
                     </p>
                     <p>
-                        Quelque chose qu'on pût dire de l'immoralité, de la férocité même des noirs esclaves, il n'est pas un vrai philosophe qui s'en étonnât, et si, même dans l'esclavage, les noirs montrent, comme il est vrai, d'admirables qualités et des facultés remarquables, qui peut douter de tout ce dont il seront capables une fois rendus à la la liberté? 
+                        Quelque chose qu'on pût dire de l'immoralité, de la férocité même des noirs esclaves, il n'est pas un vrai philosophe qui s'en étonnât, et si, même dans l'esclavage, les noirs montrent, comme il est vrai, d'admirables qualités et des facultés remarquables, qui peut douter de tout ce dont il seront capables une fois rendus à la la liberté ? 
                     </p>
                     <p>
                         Voyez 
                         <placeName>Haiti</placeName>
                         , où l'instruction et les livres d'
                         <placeName>Europe</placeName> 
-                        ont fertilisé l'intelligence et moralisé le cœur du grand nombre. Sans doute ce n'est pas encore une république de tout point libre et heureuse; mais quelle nation d'
+                        ont fertilisé l'intelligence et moralisé le cœur du grand nombre. Sans doute ce n'est pas encore une république de tout point libre et heureuse ; mais quelle nation d'
                         <placeName>Europe</placeName> 
                         peut se prétendre 
                         <choice>
                             <orig>complétement</orig>
                             <reg>complètement</reg>
                         </choice>
-                         l'une et l'autre? 
+                         l'une et l'autre ? 
                         <placeName>Haiti</placeName> 
                         est une nation nouvelle, peu avancée encore sur quelques points, qui souffre des nécessités fâcheuses de son passé, mais qui chaque jour voit s'accomplir quelque progrès en son sein, et qui marche d'un pas ferme et hardi vers l'avenir. 
                         <placeName>Haiti</placeName>
@@ -681,22 +681,22 @@
                     sans mesure les peines fixées par les ordonnances. Habitants et géreurs sont loin de dissimuler les exécutions qu'ils ordonnent de temps en temps, et dans lesquelles ils font appliquer depuis trente jusqu'à cent coups de fouet et même plus. Un de ces planteurs voulant, se débarrasser d'une vieille négresse, la fit tailler successivement par trois commandeurs, et la laissa ensuite terminer ses jours dans un cachot.
                     </p>
                     <p>
-                    Le poison fait-il des ravages sur une habitation? Aussitôt on fait arrêter les noirs qui paraissent les plus suspects. Au lieu de les remettre entre les mains de la justice avec les indices de leur culpabilité, l'habitant se constitue chez lui un tribunal souverain, fait enfermer dans un cachot le nègre soupçonné; son arrêt est porté, il faut qu'il y meure de faim ou sous les coups. On m'a affirmé que ces exemples étaient nombreux. On lit dans la 
+                    Le poison fait-il des ravages sur une habitation ? Aussitôt on fait arrêter les noirs qui paraissent les plus suspects. Au lieu de les remettre entre les mains de la justice avec les indices de leur culpabilité, l'habitant se constitue chez lui un tribunal souverain, fait enfermer dans un cachot le nègre soupçonné ; son arrêt est porté, il faut qu'il y meure de faim ou sous les coups. On m'a affirmé que ces exemples étaient nombreux. On lit dans la 
                         <bibl type="periodical">
                             <title ref="#GdT">Gazette des Tribunaux </title>
                         </bibl>
-                    du 26 octobre 1831:
+                    du 26 octobre 1831 :
                         <quote>
                         Une commission d'enquête, dont M. 
                             <persName ref="#Dqn">Duquesne</persName>
                         était président, a constaté en mars dernier, au quartier de 
                             <placeName ref="#TRI">la Trinité </placeName>
                             <placeName ref="#MQ">(Martinique)</placeName>
-                        des crimes horribles. Un esclave est mort après avoir reçu deux cents coups de fouet sur les reins, avoir été exposé toute une journée à l'ardeur du soleil, et enfin avoir passé une nuit attaché à terre sur une échelle, temps pendant lequel le ventre de cet infortuné fut mangé par des crabes… Un autre esclave fut renfermé dans un cachot avec huit autres; la seule fenêtre qui donnait un peu d'air fut bouchée avec des briques, et dans cet état ces malheureux sont restés trois jours privés de nourriture et d'air: lorsque la porte fut ouverte, et que la nommée 
+                        des crimes horribles. Un esclave est mort après avoir reçu deux cents coups de fouet sur les reins, avoir été exposé toute une journée à l'ardeur du soleil, et enfin avoir passé une nuit attaché à terre sur une échelle, temps pendant lequel le ventre de cet infortuné fut mangé par des crabes… Un autre esclave fut renfermé dans un cachot avec huit autres ; la seule fenêtre qui donnait un peu d'air fut bouchée avec des briques, et dans cet état ces malheureux sont restés trois jours privés de nourriture et d'air : lorsque la porte fut ouverte, et que la nommée 
                             <persName ref="Em">Emilienne</persName>
                         fut portée au dehors, elle expira aussitôt. Ces cruautés étaient
                             <pb n="16" facs="v1n7p16"/>
-                        commises par un géreur, contre lequel, à la suite de l'enquête, une instruction fut ordonnée; mais le mandat d'arrêt resta sans exécution, 
+                        commises par un géreur, contre lequel, à la suite de l'enquête, une instruction fut ordonnée ; mais le mandat d'arrêt resta sans exécution, 
                             <choice>
                                 <orig>parcequ</orig>
                                 <reg>parce qu</reg>
@@ -705,12 +705,12 @@
                         </quote>
                     </p>
                     <p>
-                    Que dire de ces monstres qui, dans des accès de fureur, se sont précipités sur des nègres, les ont tout meurtris, et qui, poussant le délire et la rage à son dernier point, ont arraché eux-mêmes des dents à leurs esclaves! Cela ne les empêchera pas, disaient-ils avec une ironie infernale, de manger leur morue et leur farine de manioc.
+                    Que dire de ces monstres qui, dans des accès de fureur, se sont précipités sur des nègres, les ont tout meurtris, et qui, poussant le délire et la rage à son dernier point, ont arraché eux-mêmes des dents à leurs esclaves ! Cela ne les empêchera pas, disaient-ils avec une ironie infernale, de manger leur morue et leur farine de manioc.
                     </p>
                     <p>
                     Un habitant de
                         <placeName ref="#Cpt">la Capesterre </placeName> 
-                    a été accusé deux fois d'avoir tué de sa main un de ses nègres, avec une atrocité inouïe, en le dépeçant comme une pièce de gibier. Le procureur-général en fut informé, ordonna une descente sur les lieux et une instruction. J'ignore quel motif a pu empêcher la poursuite; mais le crime passait pour manifeste, c'était la rumeur publique. Ce fait est antérieur à l'organisation judiciaire.
+                    a été accusé deux fois d'avoir tué de sa main un de ses nègres, avec une atrocité inouïe, en le dépeçant comme une pièce de gibier. Le procureur-général en fut informé, ordonna une descente sur les lieux et une instruction. J'ignore quel motif a pu empêcher la poursuite ; mais le crime passait pour manifeste, c'était la rumeur publique. Ce fait est antérieur à l'organisation judiciaire.
                     </p>
                     <p>
                     Voici la discipline établie par un habitant de
@@ -718,40 +718,40 @@
                     pour contenir ses esclaves.
                     </p>
                     <p>
-                    Le preneur de rats, nègre tout infirme, est obligé de prendre tous les jours douze rats dans les cannes à sucre. Quand il n'a pas complété le nombre prescrit, il reçoit douze coups de fouet, s'il lui en manque peu; mais s'il en manque la moitié, il reçoit de vingt-cinq à trente coups. Les autres habitants n'exigent ordinairement que sept et même six rats, souvent ils se contentent de moins: qu'on juge donc du nombre de coups que doit recevoir tous les jours le pauvre nègre de ce monstre!
+                    Le preneur de rats, nègre tout infirme, est obligé de prendre tous les jours douze rats dans les cannes à sucre. Quand il n'a pas complété le nombre prescrit, il reçoit douze coups de fouet, s'il lui en manque peu ; mais s'il en manque la moitié, il reçoit de vingt-cinq à trente coups. Les autres habitants n'exigent ordinairement que sept et même six rats, souvent ils se contentent de moins : qu'on juge donc du nombre de coups que doit recevoir tous les jours le pauvre nègre de ce monstre !
                     </p>
                     <p>
-                    Les gardiens de ses troupeaux en ont la responsabilité absolue Si un veau, un boeuf, un agneau, etc., viennent à mourir, le nègre qui en est chargé reçoit un trois piquets sans rémission: vice de conformation en naissant, accident bien avéré, maladie, etc., rien ne peut mitiger cet arrêt inexorable, c'est un ordre établi; et cependant point de récompense, pas un sou de gratification pour le croît ou l'amélioration des animaux.
+                    Les gardiens de ses troupeaux en ont la responsabilité absolue Si un veau, un boeuf, un agneau, etc., viennent à mourir, le nègre qui en est chargé reçoit un trois piquets sans rémission : vice de conformation en naissant, accident bien avéré, maladie, etc., rien ne peut mitiger cet arrêt inexorable, c'est un ordre établi ; et cependant point de récompense, pas un sou de gratification pour le croît ou l'amélioration des animaux.
                     </p>
                     <p>
-                    Les enfants de huit ans sont obligés, chez lui, de garder les troupeaux et sont soumis à la discipline des grands nègres; il sont taillés comme eux, et j'ai vu sur ces petits êtres, si intéressants par leur malheur, des stigmates qui ne laissaient aucun doute sur la férocité de leur tyran!
+                    Les enfants de huit ans sont obligés, chez lui, de garder les troupeaux et sont soumis à la discipline des grands nègres ; il sont taillés comme eux, et j'ai vu sur ces petits êtres, si intéressants par leur malheur, des stigmates qui ne laissaient aucun doute sur la férocité de leur tyran !
                     </p>
                     <pb n="17" facs="v1n7p17"/>
                     <p>
-                    S'il craint que, par suite d'un châtiment, une de ses négresses parte marronne, ou bien si elle est prise en marronnage, il lui fait mettre au cou ou au pied une énorme chaîne à laquelle on attache un de ses enfants. J'ai vu une petite fille de six ans trainer avec peine ce lourd et pénible fardeau; comme si le crime (le crime!!) de la mère pouvait autoriser à punir cette jeune enfant d'une manière si barbare! Son corps, si faible à cet âge, et ses chairs délicates en étaient tout meurtris. Innocente créature, combien la vue de tes douleurs a fortement ému mon
+                    S'il craint que, par suite d'un châtiment, une de ses négresses parte marronne, ou bien si elle est prise en marronnage, il lui fait mettre au cou ou au pied une énorme chaîne à laquelle on attache un de ses enfants. J'ai vu une petite fille de six ans trainer avec peine ce lourd et pénible fardeau ; comme si le crime (le crime !!) de la mère pouvait autoriser à punir cette jeune enfant d'une manière si barbare ! Son corps, si faible à cet âge, et ses chairs délicates en étaient tout meurtris. Innocente créature, combien la vue de tes douleurs a fortement ému mon
                         <choice>
                             <orig>ame</orig>
                             <reg>âme</reg>
                         </choice>
-                    ! Comme je t'ai plaint, et comme j'ai maudit ton vil bourreau! Que ne puis-je mettre sous les yeux de nos sensibles Françaises le tableau réel de pareils excès! Que de 
+                    ! Comme je t'ai plaint, et comme j'ai maudit ton vil bourreau ! Que ne puis-je mettre sous les yeux de nos sensibles Françaises le tableau réel de pareils excès ! Que de 
                         <choice>
                             <orig>puissans</orig>
                             <reg>puissants</reg>
                         </choice>
-                    auxiliaires je gagnerais à la sainte cause de l'affranchissement des noirs!
+                    auxiliaires je gagnerais à la sainte cause de l'affranchissement des noirs !
                     </p>
                     <p>
-                    Je me trouvai un jour près de l'embarcadère où ce planteur faisait charger ses sucres dans une pirogue; trois nègres roulaient un boucaut; le pavé était mauvais, inégal, et présentait beaucoup d’aspérités: un cercle casse dans une chute du boucaut. 
+                    Je me trouvai un jour près de l'embarcadère où ce planteur faisait charger ses sucres dans une pirogue ; trois nègres roulaient un boucaut ; le pavé était mauvais, inégal, et présentait beaucoup d’aspérités : un cercle casse dans une chute du boucaut. 
                         <quote>
-                        Commandeur, s'écrie aussitôt ce barbare, appliquez-moi ce soir trente coups de fouet soignés à ce scélérat de tonnelier, pour lui apprendre à me faire de si mauvais cercles; et soignés, entendez-vous?
+                        Commandeur, s'écrie aussitôt ce barbare, appliquez-moi ce soir trente coups de fouet soignés à ce scélérat de tonnelier, pour lui apprendre à me faire de si mauvais cercles ; et soignés, entendez-vous ?
                         </quote>
-                    Trente coups de fouet pour un cercle cassé par un accident de terrain!
+                    Trente coups de fouet pour un cercle cassé par un accident de terrain !
                     </p>
                     <p>
-                    C'est un fait notoire que sur quarante-quatre nègres nouveaux qu'il avait achetés à la fois dans une cargaison, tous avant six mois avaient cessé de vivre. Quelle horreur ! quelle épouvantable boucherie!
+                    C'est un fait notoire que sur quarante-quatre nègres nouveaux qu'il avait achetés à la fois dans une cargaison, tous avant six mois avaient cessé de vivre. Quelle horreur ! quelle épouvantable boucherie !
                     </p>
                     <p>
-                    Cet homme est si connu par son humeur féroce, que deux ateliers se sont révoltés pour ne pas lui être vendus. Quand on veut effrayer un nègre dont on est mécontent, on le menace de le vendre à cet habitant; cela suffit pour le corriger.
+                    Cet homme est si connu par son humeur féroce, que deux ateliers se sont révoltés pour ne pas lui être vendus. Quand on veut effrayer un nègre dont on est mécontent, on le menace de le vendre à cet habitant ; cela suffit pour le corriger.
                     </p>
                     <p>
                     Les journaux ont raconté les forfaits de 
@@ -781,11 +781,11 @@
                             <placeName ref="#FR">France</placeName> 
                         , lui proposa de lui vendre un des nègres qui les servaient à table, excellent domestique, dont il lui vanta les précieuses qualités. Mon père se tournant vers cet esclave, lui demanda s'il voulait le servir. Sa réputation de sévérité était si bien établie, que le nègre, qui redoutait de lui être vendu, lui répondit franchement que non, et fit un geste négatif. Mon père feignit de ne l'avoir pas compris, et dit au gouverneur que le marché était conclu et qu'il lui en donnerait le prix qu'il désirerait. Il emmena le nègre avec lui à la 
                             <placeName ref="#GP">Guadeloupe</placeName>
-                        . Tu as déclaré que tu ne voulais pas me servir, lui dit-il, j'y consens; tu n'auras rien à faire : voici ta case. On lui met par son ordre une grosse chaîne au pied; puis on l'enferme dans une petite hutte grillée, ou loge à chien, placée sur la terrasse attenante à la maison. En vain ce malheureux lui demanda pardon les larmes aux yeux, en vain lui assura-t-il qu'il le servirait en nègre fidèle; mon père fut inexorable. Ce noir vécut trente ans dans ce réduit, et quoique pendant ce long laps de temps mon père passât mille fois le jour près de cet infortuné, quoique souvent des étrangers s'apitoyassent sur son sort, implorassent l’oubli de sa faute, jamais il ne se laissa fléchir. Cet esclave mourut dans cette dure prison.
+                        . Tu as déclaré que tu ne voulais pas me servir, lui dit-il, j'y consens ; tu n'auras rien à faire : voici ta case. On lui met par son ordre une grosse chaîne au pied ; puis on l'enferme dans une petite hutte grillée, ou loge à chien, placée sur la terrasse attenante à la maison. En vain ce malheureux lui demanda pardon les larmes aux yeux, en vain lui assura-t-il qu'il le servirait en nègre fidèle ; mon père fut inexorable. Ce noir vécut trente ans dans ce réduit, et quoique pendant ce long laps de temps mon père passât mille fois le jour près de cet infortuné, quoique souvent des étrangers s'apitoyassent sur son sort, implorassent l’oubli de sa faute, jamais il ne se laissa fléchir. Cet esclave mourut dans cette dure prison.
                         </quote>
                     </p>
                     <p>
-                    Si l'on avait le moindre doute sur la véracité de mes récits, qu'on aille consulter les stigmates qui couvrent les corps de tant de victimes: ces cicatrices seront éloquentes, elles respirent une affreuse vérité. Qu'on interroge toutes ces fosses qu'a creusées clandestine ment un reste de pudeur, le long des ravines qui coupent les habitations; elles recèlent de nombreux cadavres dont on a voulu dérober la connaissance au public, de peur de terribles commentaires.
+                    Si l'on avait le moindre doute sur la véracité de mes récits, qu'on aille consulter les stigmates qui couvrent les corps de tant de victimes : ces cicatrices seront éloquentes, elles respirent une affreuse vérité. Qu'on interroge toutes ces fosses qu'a creusées clandestine ment un reste de pudeur, le long des ravines qui coupent les habitations ; elles recèlent de nombreux cadavres dont on a voulu dérober la connaissance au public, de peur de terribles commentaires.
                     </p>
                     <closer>
                         <signed>X. TANC,</signed>
@@ -796,25 +796,25 @@
                     <pb n="19" facs="v1n7p19"/>
                     <head>DERNIER MOT SUR LE POURVOI EN CASSATION DES CONDAMNÉS DE LA GRAND'ANSE.</head>
                     <p>
-                    Il est dans la vie publique des époques de découragement où les citoyens se prennent à désespérer profondément des institutions, où l'on peut voir avec dépit combien sont vaines les garanties du contrat social tel qu'il est aujourd'hui en France, même replacé sur sa grande base de la prétendue souveraineté nationale. Nous pourrons montrer mille applications de cette pénible vérité, mais nous ne faisons pas ici l'inventaire de toutes ces misères humaines. Un seul fait doit être cité pour exemple; fait immense, d'où notre observation philosophique ressort effrayante de réalité. 
+                    Il est dans la vie publique des époques de découragement où les citoyens se prennent à désespérer profondément des institutions, où l'on peut voir avec dépit combien sont vaines les garanties du contrat social tel qu'il est aujourd'hui en France, même replacé sur sa grande base de la prétendue souveraineté nationale. Nous pourrons montrer mille applications de cette pénible vérité, mais nous ne faisons pas ici l'inventaire de toutes ces misères humaines. Un seul fait doit être cité pour exemple ; fait immense, d'où notre observation philosophique ressort effrayante de réalité. 
                         <emph>
                         Le pourvoi des condamnés de la Grand Anse a été rejeté !
                         </emph>
                     </p>
                     <p>
-                    Ainsi donc, sept colons de la Martinique réunis en tribunal criminel, imbus des préjugés de caste, ont pu mettre à mort quarante de leurs compatriotes? Ils auraient pu jeter au bourreau les 
+                    Ainsi donc, sept colons de la Martinique réunis en tribunal criminel, imbus des préjugés de caste, ont pu mettre à mort quarante de leurs compatriotes ? Ils auraient pu jeter au bourreau les 
                         <emph>cent soixante têtes</emph> 
                     que le procureur-général 
                         <persName ref="#ANog">Nogues</persName> 
-                    a demandées... Et la métropole aurait tout approuvé!
+                    a demandées... Et la métropole aurait tout approuvé !
                     </p>
                     <p>
-                    Qu'est-ce donc que cette cour suprême placée comme clé de voûte au sommet de l'ordre judiciaire, exerçant la puissance souveraine sur les cours et tribunaux? N'a-t-elle pas été instituée pour casser les mauvais arrêts, pour ramener à la loi, à la raison, à l'humanité les juges
+                    Qu'est-ce donc que cette cour suprême placée comme clé de voûte au sommet de l'ordre judiciaire, exerçant la puissance souveraine sur les cours et tribunaux ? N'a-t-elle pas été instituée pour casser les mauvais arrêts, pour ramener à la loi, à la raison, à l'humanité les juges
                         <choice>
                             <orig>ignorans</orig>
                             <reg>ignorants</reg>
                         </choice> 
-                    ou prévaricateurs? Ceux-la sur tout que des vertiges de sang agitent sur leur
+                    ou prévaricateurs ? Ceux-la sur tout que des vertiges de sang agitent sur leur
                         <choice>
                             <orig>siége</orig>
                             <reg>siège</reg>
@@ -829,19 +829,19 @@
                             <orig>parceque</orig>
                             <reg>parce que</reg>
                         </choice>
-                    l'homme placé dans certaines conditions aime à supposer le bien. Peut-être, ô vénérables magistrats! n'avez-vous pas compris tant de perversité, tant d'insouciance pour tout ce qui est saint et sacré. Peut-être n'avez-vous pas compris
+                    l'homme placé dans certaines conditions aime à supposer le bien. Peut-être, ô vénérables magistrats ! n'avez-vous pas compris tant de perversité, tant d'insouciance pour tout ce qui est saint et sacré. Peut-être n'avez-vous pas compris
                         <pb n="20" facs="v1n7p20"/>
-                    tant de cruauté machiavelique dans des Français, dans ceux, enfin, qui comme vous et au dessous de vous, exercent le sacerdoce de la justice. La cour de cassation, créée en 1790, est une grande pensée, grande comme toutes les pensées de cette époque; mais c'est peut-être une petite institution qui fonctionne étroitement dans les liens d'une organisation mesquine et timorée. Elle ne connaît que de la 
+                    tant de cruauté machiavelique dans des Français, dans ceux, enfin, qui comme vous et au dessous de vous, exercent le sacerdoce de la justice. La cour de cassation, créée en 1790, est une grande pensée, grande comme toutes les pensées de cette époque ; mais c'est peut-être une petite institution qui fonctionne étroitement dans les liens d'une organisation mesquine et timorée. Elle ne connaît que de la 
                         <emph>forme</emph> 
                     et point du 
                         <emph>fond</emph> 
-                    des affaires; elle juge l'arrêt, non le procès; elle juge 
+                    des affaires ; elle juge l'arrêt, non le procès ; elle juge 
                         <emph>comme oeuvre de logique judiciaire</emph> 
-                    l'opération intellectuelle du tribunal inférieur qui consiste à faire application de la loi aux faits ou aux hommes; elle ne la juge pas 
+                    l'opération intellectuelle du tribunal inférieur qui consiste à faire application de la loi aux faits ou aux hommes ; elle ne la juge pas 
                         <emph>comme oeuvre de justice</emph>
                     . Là, tout se réduit à l'exactitude mathématique, et si l'homme est tué 
                         <emph>par raison démonstrative</emph>
-                    , l'arrêt est bon; il est maintenu. On doit même remarquer cette anomalie bizarre et choquante que l'influence de la cour de cassation sur le fond des affaires est bien plus dans les procès civils que dans les procès criminels.Pour les premiers où il ne s'agit que d'intérêts pécuniaires et matériels, elle enchaîne les juges du fond par la puissance de la raison et l'autorité de ses doctrines sur les questions controversées qui sont souvent tout le procès. Pour les seconds, au contraire, où il s'agit de l'honneur, de la liberté, de la vie des citoyens, réduite à vérifier la régularité de la procédure et l'exacte application de la peine, elle n'a de censure que pour les formalités; elle n'en a pas pour les condamnations en elles-mêmes, pour celles qui frapperaient des
+                    , l'arrêt est bon ; il est maintenu. On doit même remarquer cette anomalie bizarre et choquante que l'influence de la cour de cassation sur le fond des affaires est bien plus dans les procès civils que dans les procès criminels.Pour les premiers où il ne s'agit que d'intérêts pécuniaires et matériels, elle enchaîne les juges du fond par la puissance de la raison et l'autorité de ses doctrines sur les questions controversées qui sont souvent tout le procès. Pour les seconds, au contraire, où il s'agit de l'honneur, de la liberté, de la vie des citoyens, réduite à vérifier la régularité de la procédure et l'exacte application de la peine, elle n'a de censure que pour les formalités ; elle n'en a pas pour les condamnations en elles-mêmes, pour celles qui frapperaient des
                         <choice>
                             <orig>innocens</orig>
                             <reg>innocents</reg>
@@ -862,9 +862,9 @@
                         <placeName ref="#ANTE">Antilles</placeName>
                     , à la 
                         <placeName ref="#MQ">Martinique</placeName>
-                    , au milieu d'une faible population, pour cause uniquement politique, quarante accusés ont été condamnés à la peine capitale! cinquante-trois autres aux travaux forcés, à la déportation perpétuelle, etc.! Cent familles sont frappées! toute une commune est dépeuplée! Toute une colonie française est terrifiée par l'action meurtrière de cette justice plus que prévotale! Qu'importe ! La métropole fera justice et réparation; elle cassera l'abominable arrêt dénoncé à la cour de cassation par les condamnés. Non; tombent toutes les têtes que l'arrêt a frappées ! Le procès-verbal des séances de la cour
+                    , au milieu d'une faible population, pour cause uniquement politique, quarante accusés ont été condamnés à la peine capitale ! cinquante-trois autres aux travaux forcés, à la déportation perpétuelle, etc. ! Cent familles sont frappées ! toute une commune est dépeuplée ! Toute une colonie française est terrifiée par l'action meurtrière de cette justice plus que prévotale ! Qu'importe ! La métropole fera justice et réparation ; elle cassera l'abominable arrêt dénoncé à la cour de cassation par les condamnés. Non ; tombent toutes les têtes que l'arrêt a frappées ! Le procès-verbal des séances de la cour
                         <pb n="21" facs="v1n7p21"/>
-                    d'assises constate l'accomplissement minutieux de toutes les formalités. Aucune n'est oubliée, du moins dans la rédaction descriptive du procès-verbal. C'en est assez; la cour suprême est impuissante à
+                    d'assises constate l'accomplissement minutieux de toutes les formalités. Aucune n'est oubliée, du moins dans la rédaction descriptive du procès-verbal. C'en est assez ; la cour suprême est impuissante à
                         <choice>
                             <orig>reviser</orig>
                             <reg>réviser</reg>
@@ -882,12 +882,12 @@
                             <orig>O</orig>
                             <reg>Ô</reg>
                         </choice> 
-                    noirs et mulâtres, nos compatriotes, avec quelle amertume vous devez désespérer des lois et des institutions! 
+                    noirs et mulâtres, nos compatriotes, avec quelle amertume vous devez désespérer des lois et des institutions ! 
                     </p>
                     <p>
                     Cependant ne désespérez pas des hommes. Vos malheurs ont été vivement sentis par nos concitoyens d'
                         <placeName ref="#EUR">Europe</placeName>
-                    , par les magistrats eux-mêmes qui ont rejeté votre pourvoi. Bonne procédure ont-ils dit, mais mauvais procès; procès infâme, procès exécrable! Et de suite reculant devant l'omnipotence que peut-être ils auraient pu s'arroger aux acclamations du pays tout entier, solliciteur du recours en grâce, ils ont eux-mêmes arraché son voile hypocrite à l'œuvre de passion et d'iniquité cachée sous l'appareil des formes. Et vous, lâches persécuteurs, qui préparez des ovations, sachez-le bien, votre infâme procès a été maudit de tous en France, et tout en lui donnant une approbation apparente par le rejet du pourvoi, on n'a su ce qu'on doit détester le plus, ou de votre soif de sang, ou de votre habileté à faire des arrêts de mort que la cour suprême soit obligée de maintenir.
+                    , par les magistrats eux-mêmes qui ont rejeté votre pourvoi. Bonne procédure ont-ils dit, mais mauvais procès ; procès infâme, procès exécrable ! Et de suite reculant devant l'omnipotence que peut-être ils auraient pu s'arroger aux acclamations du pays tout entier, solliciteur du recours en grâce, ils ont eux-mêmes arraché son voile hypocrite à l'œuvre de passion et d'iniquité cachée sous l'appareil des formes. Et vous, lâches persécuteurs, qui préparez des ovations, sachez-le bien, votre infâme procès a été maudit de tous en France, et tout en lui donnant une approbation apparente par le rejet du pourvoi, on n'a su ce qu'on doit détester le plus, ou de votre soif de sang, ou de votre habileté à faire des arrêts de mort que la cour suprême soit obligée de maintenir.
                     </p>
                 </div>
             </div>
