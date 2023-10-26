@@ -51,15 +51,55 @@ export default function MicroedAppBar({location}: Props) {
     "RdCv1n1-fr": [
       {
         id: "prospectus",
-        label: "Prospectus."
+        label: "PROSPECTUS"
       },
       {
         id: "declaration",
-        label: "DÉCLARATION DE PRINCIPES."
+        label: "DÉCLARATION DE PRINCIPES"
       },
       {
         id: "regime",
-        label: "COUP D'OEIL SUR LE RÉGIME COLONIAL ET SES EFFETS."
+        label: "COUP D'OEIL SUR LE RÉGIME COLONIAL ET SES EFFETS"
+      },
+      {
+        id: "affaire",
+        label: "AFFAIRE DE LA GRAND'ANSE"
+      },
+      {
+        id: "discours",
+        label: "UN MOT SUR LE DISCOURS PRONONCÉ PAR M. ISAMBERT DANS LA SÉANCE DU 8 MAI DERNIER"
+      },
+      {
+        id: "instruction",
+        label: "NÉCESSITÉ DE L'INSTRUCTION AUX COLONIES"
+      },
+      {
+        id: "question",
+        label: "QUESTION ÉLECTORALE"
+      },
+      {
+        id: "pourvoi",
+        label: "POURVOI D'UN PATRONÉ"
+      },
+      {
+        id: "traits",
+        label: "TRAITS DE CRUAUTÉ"
+      },
+      {
+        id: "france",
+        label: "FRANCE"
+      },
+      {
+        id: "coloniesfr",
+        label: "COLONIES FRANÇAISES"
+      },
+      {
+        id: "coloniesetr",
+        label: "COLONIES ÉTRANGÈRES"
+      },
+      {
+        id: "necrologie",
+        label: "NÉCROLOGIE"
       },
     ],
     "RdCv1n1-en": [
