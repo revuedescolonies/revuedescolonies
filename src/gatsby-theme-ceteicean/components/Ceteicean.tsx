@@ -86,7 +86,8 @@ const EditionCeteicean = ({pageContext}: Props) => {
     },
     "tei-graphic": Graphic,
     "tei-orig": Orig,
-    "tei-reg": Reg
+    "tei-reg": Reg,
+    "tei-q": (props) => lang === "fr" ? <> « <SafeUnchangedNode {...props}/> » </> : <>“<SafeUnchangedNode {...props}/>”</>,
   }
 
   if (!isSynoptic) {
