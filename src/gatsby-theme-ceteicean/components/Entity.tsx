@@ -24,6 +24,7 @@ import Button from "@mui/material/Button"
 import Chip from "@mui/material/Chip"
 import { SafeUnchangedNode } from "gatsby-theme-ceteicean/src/components/DefaultBehaviors"
 import type {Lang} from '../../components/nav'
+import { Box } from "@mui/material"
 
 type TEIProps = {
   teiNode: Node,
@@ -75,6 +76,16 @@ const Entity: EntityBehavior = (props: TEIProps) => {
       </IconButton>)
 
       const entityContent = Array.from(el.children).filter(c => c.getAttribute('lang') === cardLang)[0]
+       
+      const resp = entityContent.getAttribute("resp")
+      let author: JSX.Element | undefined = undefined 
+      if (resp) {
+        const authorEl = entityContent.ownerDocument.getElementById(resp.replace("#", ""))
+        if (authorEl) {
+          author = <Box sx={{fontStyle: "italic", textAlign: "right"}}>{authorEl.textContent}</Box>
+        }
+      }
+
       const chip = entityType ? <><br/><Chip size="small" label={entityType} /></> : null
 
       if (isScreenSmall || props.isSynoptic) {
@@ -104,6 +115,7 @@ const Entity: EntityBehavior = (props: TEIProps) => {
                 <TEINodes 
                   teiNodes={[entityContent]}
                   {...props}/>
+                {author}
               </DialogContentText>
             </DialogContent>
           </Dialog>
@@ -124,6 +136,7 @@ const Entity: EntityBehavior = (props: TEIProps) => {
               <TEINodes 
                 teiNodes={[entityContent]}
                 {...props}/>
+              {author}
             </CardContent>
           </Card>
         )
