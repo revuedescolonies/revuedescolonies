@@ -51,89 +51,129 @@ export default function MicroedAppBar({location}: Props) {
     "RdCv1n1-fr": [
       {
         id: "prospectus",
-        label: "PROSPECTUS"
+        label: "Prospectus"
       },
       {
         id: "declaration",
-        label: "DÉCLARATION DE PRINCIPES"
+        label: "Déclaration de principes"
       },
       {
         id: "regime",
-        label: "COUP D'OEIL SUR LE RÉGIME COLONIAL ET SES EFFETS"
+        label: "Coup d'oeuil sur le régime colonial et ses effets"
       },
       {
         id: "affaire",
-        label: "AFFAIRE DE LA GRAND'ANSE"
+        label: "Affaire de la Grand'Anse"
       },
       {
         id: "discours",
-        label: "UN MOT SUR LE DISCOURS PRONONCÉ PAR M. ISAMBERT DANS LA SÉANCE DU 8 MAI DERNIER"
+        label: "Un mot sur le discours prononcé par M. Isambert dans la séance du 8 mai dernier"
       },
       {
         id: "instruction",
-        label: "NÉCESSITÉ DE L'INSTRUCTION AUX COLONIES"
+        label: "Nécessité de l'instruction aux colonies"
       },
       {
         id: "question",
-        label: "QUESTION ÉLECTORALE"
+        label: "Question électorale"
       },
       {
         id: "pourvoi",
-        label: "POURVOI D'UN PATRONÉ"
+        label: "Pourvoi d'un patroné"
       },
       {
         id: "traits",
-        label: "TRAITS DE CRUAUTÉ"
+        label: "Traits de cruauté"
       },
       {
         id: "france",
-        label: "FRANCE"
+        label: "France"
       },
       {
         id: "coloniesfr",
-        label: "COLONIES FRANÇAISES"
+        label: "Colonies françaises"
       },
       {
         id: "coloniesetr",
-        label: "COLONIES ÉTRANGÈRES"
+        label: "Colonies étrangères"
       },
       {
         id: "necrologie",
-        label: "NÉCROLOGIE"
+        label: "Nécrologie"
       },
     ],
     "RdCv1n1-en": [
       {
         id: "prospectus",
-        label: "Prospectus."
+        label: "Prospectus"
       },
       {
         id: "declaration",
-        label: "DECLARATION OF PRINCIPLES."
+        label: "Declaration of principles"
       },
       {
         id: "regime",
-        label: "A LOOK AT THE COLONIAL REGIME AND ITS EFFECTS."
+        label: "A look at the colonial regime and its effects"
+      },
+            {
+        id: "affaire",
+        label: "Affaire de la Grand'Anse"
+      },
+      {
+        id: "discours",
+        label: "Un mot sur le discours prononcé par M. Isambert dans la séance du 8 mai dernier"
+      },
+      {
+        id: "instruction",
+        label: "Nécessité de l'instruction aux colonies"
+      },
+      {
+        id: "question",
+        label: "Question électorale"
+      },
+      {
+        id: "pourvoi",
+        label: "Pourvoi d'un patroné"
+      },
+      {
+        id: "traits",
+        label: "Traits de cruauté"
+      },
+      {
+        id: "france",
+        label: "France"
+      },
+      {
+        id: "coloniesfr",
+        label: "Colonies françaises"
+      },
+      {
+        id: "coloniesetr",
+        label: "Colonies étrangères"
+      },
+      {
+        id: "necrologie",
+        label: "Nécrologie"
       },
     ],
     "RdCv2n1-fr": [
       {
         id: "abolition",
-        label: "DE L'ABOLITION DE L'ESCLAVAGE PAR LA CONVENTION NATIONALE. — PROJET DE LOI DE LA REVUE DES COLONIES."
+        label: "De l'abolition de l'esclavage par la Convention Nationale"
       },
       {
         id: "bill",
-        label: "PROJET DE LOI POUR L'ABOLITION DE L'ESCLAVAGE DANS LES COLONIES FRANCAISES."
+        label: "Projet de loi pour l'abolition de l'esclavage dans les colonies françaises"
       }
     ],
     "RdCv2n1-en": [
       {
         id: "abolition",
-        label: "ON THE ABOLITION OF SLAVERY BY THE NATIONAL CONVENTION. — REVUE DES COLONIES BILL."
+        label: "On the abolition of slavery by the National Convention"
       },
       {
         id: "bill",
-        label: "BILL FOR THE ABOLITION OF SLAVERY IN THE FRENCH COLONIES."
+        label: "Bill for the abolition of slavery in the French colonies"
       }
     ]
   }

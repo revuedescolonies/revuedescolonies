@@ -14,7 +14,7 @@ Marlene Daut, Professor of French and African Diaspora Studies, Yale University
 Jacqueline Couti, Professor of French and Francophone Studies, Rice University  
 Laure Demougin, Chercheuse associée, Université Paul-Valéry Montpellier 3  
 Sara E. Johnson, Associate Professor of Literature of the Americas, University of California, San Diego     
-Abel C. Louis,  Président élu de la Société d’Histoire de la Martinique  
+Abel A. Louis,  Président élu de la Société d’Histoire de la Martinique  
 Grégory Pierrot, Associate Professor of English, University of Connecticut  
 Pratima Prasad, Associate Professor of French, University of Massachusetts, Boston  
 Dominique Rogers, Maîtresse de conférence en histoire moderne, Université des Antilles  
