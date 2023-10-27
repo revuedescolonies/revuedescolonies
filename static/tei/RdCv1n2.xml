@@ -8,6 +8,7 @@
             <title>Revue des Colonies N°2 (selection)</title>
             <editor>Charlotte Joublot Ferré</editor>
          </titleStmt>
+         <xi:include href="shared/editionStmt.xml"/>
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>

@@ -8,6 +8,7 @@
                 <title>Revue des Colonies N°7</title>
                 <editor>Noëlle Romney</editor>
             </titleStmt>
+            <xi:include href="shared/editionStmt.xml"/>
             <publicationStmt>
                 <p>Publication Information</p>
             </publicationStmt>
