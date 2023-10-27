@@ -45,7 +45,10 @@ const Header = ({ location, menuLinks }: Props) => (
     <Wrapper>
       <Banner>
         <Container maxWidth="md">
-          <StaticImage src="../images/banner-title.png" alt="Revue des Colonies: a Digital Scholarly Edition and Translation" />
+          <StaticImage
+            src="../images/banner-title.png"
+            alt="Revue des Colonies: a Digital Scholarly Edition and Translation"
+            placeholder="none" />
         </Container>
       </Banner>
       <Nav location={location} menuLinks={menuLinks} />
