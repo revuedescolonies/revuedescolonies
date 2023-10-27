@@ -5,6 +5,8 @@
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
   Referrer-Policy: same-origin
+/static/se-banner-fd516ea3ac9cd10b7058e646c8b83343.jpg
+  Cache-Control: public, max-age=31536000, immutable
 /static/umd-logo-306b1cfbf2d795fdea349038f0c63a75.png
   Cache-Control: public, max-age=31536000, immutable
 /static/fme-ab1d1a01dc615dc26d17a392ce3673c6.png
@@ -15,19 +17,17 @@
   Cache-Control: public, max-age=31536000, immutable
 /static/Gallica-ff15d9510033122ac10b55ded2cb0c95.png
   Cache-Control: public, max-age=31536000, immutable
-/static/se-banner-fd516ea3ac9cd10b7058e646c8b83343.jpg
-  Cache-Control: public, max-age=31536000, immutable
 /731-87b0276071bb5be11a31.js.LICENSE.txt
   Cache-Control: public, max-age=31536000, immutable
 /app-2f4e19ab52c200aa4bd0.js.LICENSE.txt
   Cache-Control: public, max-age=31536000, immutable
-/commons-96142e9523ee916a901e.js.LICENSE.txt
+/commons-21b585bc15593d6493eb.js.LICENSE.txt
   Cache-Control: public, max-age=31536000, immutable
 /framework-5610699ded8afc401448.js.LICENSE.txt
   Cache-Control: public, max-age=31536000, immutable
 /app-2f4e19ab52c200aa4bd0.js
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-2ee6fcad8d17e2f88c37.js
+/webpack-runtime-0c4df3d3974891a60973.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-gatsby-theme-ceteicean-components-ceteicean-tsx-88111dd5fcdd8b3de9fd.js
   Cache-Control: public, max-age=31536000, immutable
@@ -41,11 +41,11 @@
   Cache-Control: public, max-age=31536000, immutable
 /framework-5610699ded8afc401448.js
   Cache-Control: public, max-age=31536000, immutable
-/commons-96142e9523ee916a901e.js
+/commons-21b585bc15593d6493eb.js
   Cache-Control: public, max-age=31536000, immutable
 /app-2f4e19ab52c200aa4bd0.js.map
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-2ee6fcad8d17e2f88c37.js.map
+/webpack-runtime-0c4df3d3974891a60973.js.map
   Cache-Control: public, max-age=31536000, immutable
 /component---src-gatsby-theme-ceteicean-components-ceteicean-tsx-88111dd5fcdd8b3de9fd.js.map
   Cache-Control: public, max-age=31536000, immutable
@@ -59,7 +59,7 @@
   Cache-Control: public, max-age=31536000, immutable
 /framework-5610699ded8afc401448.js.map
   Cache-Control: public, max-age=31536000, immutable
-/commons-96142e9523ee916a901e.js.map
+/commons-21b585bc15593d6493eb.js.map
   Cache-Control: public, max-age=31536000, immutable
 /static/*
   Cache-Control: public, max-age=31536000, immutable
