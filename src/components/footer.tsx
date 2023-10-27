@@ -35,11 +35,11 @@ const Footer = ({repository} : Props) => (
           <Box sx={{display: "flex", flexDirection: "column"}}>
             <a
               rel="license"
-              href="http://creativecommons.org/licenses/by-nc-sa/3.0/"
+              href="https://creativecommons.org/licenses/by-nc-sa/4.0"
             >
               <img
                 alt="Creative Commons License"
-                src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png"
+                src="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"
               />
             </a>        
             <a href="https://www.bnf.fr/fr/gallica-la-bibliotheque-numerique-de-la-bnf-et-de-ses-partenaires">
