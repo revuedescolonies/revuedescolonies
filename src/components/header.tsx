@@ -2,10 +2,12 @@ import React from "react"
 
 import Nav from "./nav"
 
-import banner from "../images/se-banner.jpg"
+import bannerBkg from "../images/banner-bk.jpg"
 import theme from "../theme"
 
 import styled from '@emotion/styled'
+import { StaticImage } from "gatsby-plugin-image"
+import { Container } from "@mui/material"
 
 export interface Link {
   name: string
@@ -24,12 +26,11 @@ interface Props {
 // Styled components
 
 const Banner = styled.div(() => ({
-  backgroundImage: `url(${banner})`,
-  backgroundPositionX: "-125px",
-  filter: "opacity(80%)",
-  paddingBottom: "1.45rem",
-  // backgroundSize: "contain",
+  backgroundImage: `url(${bannerBkg})`,
+  backgroundSize: "cover",
   // backgroundPosition: "center",
+  filter: "opacity(80%)",
+  padding: "1.45rem 0",
   backgroundRepeat: "no-repeat",
 }))
 
@@ -43,7 +44,9 @@ const Wrapper = styled.header(() => ({
 const Header = ({ location, menuLinks }: Props) => (
     <Wrapper>
       <Banner>
-        <div style={{height:'150px'}}>{" "}</div>
+        <Container maxWidth="md">
+          <StaticImage src="../images/banner-title.png" alt="Revue des Colonies: a Digital Scholarly Edition and Translation" />
+        </Container>
       </Banner>
       <Nav location={location} menuLinks={menuLinks} />
     </Wrapper>
