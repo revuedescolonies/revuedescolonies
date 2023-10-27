@@ -28,25 +28,28 @@ interface Props {
 
 const Footer = ({repository} : Props) => (
   <Box component="footer" sx={styles.footer}>
-    <Container maxWidth="lg">
-      <Grid container={true}>
+    <Container maxWidth="lg" sx={{display: "flex", justifyContent: "center"}}>
+      <Grid container xs={10} >
       
-        <Grid item={true} xs={10.5} sx={{ display: "flex", justifyContent: "flex-end" }}>
-<a
+        <Grid item xs={3} sx={{display: "flex", flexDirection: "column"}}>
+          <a
             rel="license"
             href="http://creativecommons.org/licenses/by-nc-sa/3.0/"
           >
             <img
               alt="Creative Commons License"
               src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png"
-            />        <a href="https://www.bnf.fr/fr/gallica-la-bibliotheque-numerique-de-la-bnf-et-de-ses-partenaires" style={{ marginRight: "2.5rem" }}>
+            />
+          </a>        
+          <a href="https://www.bnf.fr/fr/gallica-la-bibliotheque-numerique-de-la-bnf-et-de-ses-partenaires" style={{ marginRight: "2.5rem" }}>
             <img
               width={150}
               src={`${Gallica}`}
               alt="Logo of Gallica, la Bibliothèque numérique de la BnF"
             />
           </a> 
-          </a> 
+        </Grid> 
+        <Grid item xs={9} sx={{ display: "flex", justifyContent: "flex-end" }}>
             <a href="https://umd.edu" style={{ marginRight: "2.5rem" }}>
             <img
               width={65}
@@ -76,11 +79,11 @@ const Footer = ({repository} : Props) => (
             />
             </a>
             <a href="https://www.nypl.org/locations/schomburg" style={{ marginRight: "2.5rem" }}>
-<img
-   width={360}
-   src={`${Schomburg}`}
-  alt="Logo of the Schomburg Center"
-    />
+              <img
+                width={360}
+                src={`${Schomburg}`}
+                alt="Logo of the Schomburg Center"
+              />
           </a>  
         </Grid>
       </Grid>
