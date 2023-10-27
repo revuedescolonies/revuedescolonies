@@ -5,8 +5,6 @@
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
   Referrer-Policy: same-origin
-/static/se-banner-fd516ea3ac9cd10b7058e646c8b83343.jpg
-  Cache-Control: public, max-age=31536000, immutable
 /static/umd-logo-306b1cfbf2d795fdea349038f0c63a75.png
   Cache-Control: public, max-age=31536000, immutable
 /static/fme-ab1d1a01dc615dc26d17a392ce3673c6.png
@@ -16,6 +14,8 @@
 /static/BSA-77f0fe372c0dd8a299e4f49d2c180d08.png
   Cache-Control: public, max-age=31536000, immutable
 /static/Gallica-ff15d9510033122ac10b55ded2cb0c95.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/se-banner-fd516ea3ac9cd10b7058e646c8b83343.jpg
   Cache-Control: public, max-age=31536000, immutable
 /731-87b0276071bb5be11a31.js.LICENSE.txt
   Cache-Control: public, max-age=31536000, immutable
@@ -27,9 +27,9 @@
   Cache-Control: public, max-age=31536000, immutable
 /app-2f4e19ab52c200aa4bd0.js
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-dc257d967de1702fbd3f.js
+/webpack-runtime-2ee6fcad8d17e2f88c37.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-gatsby-theme-ceteicean-components-ceteicean-tsx-3380a756e91082df4eb8.js
+/component---src-gatsby-theme-ceteicean-components-ceteicean-tsx-88111dd5fcdd8b3de9fd.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-404-tsx-6932be67cb7fa2c47f56.js
   Cache-Control: public, max-age=31536000, immutable
@@ -45,9 +45,9 @@
   Cache-Control: public, max-age=31536000, immutable
 /app-2f4e19ab52c200aa4bd0.js.map
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-dc257d967de1702fbd3f.js.map
+/webpack-runtime-2ee6fcad8d17e2f88c37.js.map
   Cache-Control: public, max-age=31536000, immutable
-/component---src-gatsby-theme-ceteicean-components-ceteicean-tsx-3380a756e91082df4eb8.js.map
+/component---src-gatsby-theme-ceteicean-components-ceteicean-tsx-88111dd5fcdd8b3de9fd.js.map
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-404-tsx-6932be67cb7fa2c47f56.js.map
   Cache-Control: public, max-age=31536000, immutable
