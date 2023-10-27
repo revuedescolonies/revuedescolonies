@@ -49,7 +49,6 @@ export default function PageTemplate({ location, data, pageContext }: Props) {
   
   for (const ml of data.site.siteMetadata.menuLinks) {
     if (ml["fr"].link === loc) curLang = "fr"
-    console.log(ml["fr"].link, loc, curLang)
   }
 
   const homePageTitle = location.pathname === "/" || location.pathname.match(/fr\/?$/) ? <Typography variant="h3" component="h1" gutterBottom={false} dangerouslySetInnerHTML={
