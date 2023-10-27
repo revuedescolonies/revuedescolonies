@@ -9,6 +9,7 @@
                 <title>Revue des Colonies V.5 N°6 (selection in original French)</title>
                 <editor>Maria Beliaeva Solomon</editor>
             </titleStmt>
+            <xi:include href="shared/editionStmt.xml"/>
             <publicationStmt>
                 <p>Publication Information</p>
             </publicationStmt>

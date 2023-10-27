@@ -68,11 +68,11 @@
           <item><gi>body</gi> from the textstructure module as a place to put that text</item>
         </list>
       </p>
-      <schemaSpec ident="tei_revue" start="TEI div noteGrp" prefix="tei_" targetLang="en" docLang="en">
+      <schemaSpec ident="tei_revue" start="TEI div noteGrp editionStmt" prefix="tei_" targetLang="en" docLang="en">
 
         <!-- required minimal header elements -->
         <moduleRef key="namesdates"/>
-        <moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt sourceDesc"/>
+        <moduleRef key="header" include="teiHeader fileDesc titleStmt editionStmt publicationStmt sourceDesc"/>
 
         <!-- required core elements (p and title for use in titleStmt) -->
         <moduleRef key="core" include="p title abbr add addrLine address analytic author bibl biblScope biblStruct binaryObject cb choice cit citedRange corr date del desc distinct editor ellipsis email emph expan foreign gap gb gloss graphic head headItem headLabel hi imprint index item l label lb lg list listBibl measure measureGrp media meeting mentioned milestone monogr name note noteGrp num orig pb postBox postCode ptr pubPlace publisher q quote rb ref reg relatedItem resp respStmt rs rt ruby said series sic soCalled sp speaker stage street teiCorpus term textLang time unclear unit"/>

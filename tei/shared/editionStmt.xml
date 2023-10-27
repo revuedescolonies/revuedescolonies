@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<editionStmt xmlns="http://www.tei-c.org/ns/1.0">
+  <respStmt>
+    <resp>Annotated by</resp>
+    <name xml:id="masha">Maria Beliaeva-Solomon</name>
+    <name xml:id="greg">Grégory Pierrot</name>
+    <name xml:id="laure">Laure Demougin</name>
+    <name xml:id="abel">Abel Louis</name>
+  </respStmt>
+</editionStmt>
