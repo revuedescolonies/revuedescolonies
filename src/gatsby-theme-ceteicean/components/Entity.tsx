@@ -82,7 +82,7 @@ const Entity: EntityBehavior = (props: TEIProps) => {
       if (resp) {
         const authorEl = entityContent.ownerDocument.getElementById(resp.replace("#", ""))
         if (authorEl) {
-          author = <Box sx={{fontStyle: "italic", textAlign: "right"}}>{authorEl.textContent}</Box>
+          author = <Box sx={{fontStyle: "italic", textAlign: "right", fontSize: "1rem"}}>{authorEl.textContent}</Box>
         }
       }
 
