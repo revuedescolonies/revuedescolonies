@@ -116,28 +116,28 @@ export default function MicroedAppBar({location}: Props) {
         label: "A look at the colonial regime and its effects"
       },
             {
-        id: "affaire",
-        label: "Affaire de la Grand'Anse"
+        id: "affair",
+        label: "The Grand'Anse affair"
       },
       {
-        id: "discours",
-        label: "Un mot sur le discours prononcé par M. Isambert dans la séance du 8 mai dernier"
+        id: "speech",
+        label: "A word on the speech delivered by Mr. Isambert at the session of this past May 8th"
       },
       {
-        id: "instruction",
-        label: "Nécessité de l'instruction aux colonies"
+        id: "education",
+        label: "The need for education in the colonies"
       },
       {
         id: "question",
-        label: "Question électorale"
+        label: "The electoral question"
       },
       {
-        id: "pourvoi",
-        label: "Pourvoi d'un patroné"
+        id: "appeal",
+        label: "A de facto freedman's appeal"
       },
       {
         id: "traits",
-        label: "Traits de cruauté"
+        label: "Traits of cruelty"
       },
       {
         id: "france",
@@ -145,15 +145,15 @@ export default function MicroedAppBar({location}: Props) {
       },
       {
         id: "coloniesfr",
-        label: "Colonies françaises"
+        label: "French colonies"
       },
       {
         id: "coloniesetr",
-        label: "Colonies étrangères"
+        label: "Foreign colonies"
       },
       {
-        id: "necrologie",
-        label: "Nécrologie"
+        id: "necrology",
+        label: "Necrology"
       },
     ],
     "RdCv2n1-fr": [
