@@ -15,6 +15,8 @@ export type FTBehavior = (props: TEIProps) => JSX.Element | null
 
 const FloatingText: FTBehavior = (props: TEIProps) => {
 
+  const lang = props.curLang == "fr" ? "fr" : "en" // This is strangely needed. Investigate
+
   const quotes = {
     en: ["“", "”"],
     fr: ["« ", " »"]
@@ -26,11 +28,16 @@ const FloatingText: FTBehavior = (props: TEIProps) => {
   const pFirst = ps[0]
   const pLast = ps[ps.length - 1]
   if (pFirst && pLast) {
-    ps[0].prepend(el.ownerDocument.createTextNode(
-      quotes[props.curLang][0]
-    ))
-    ps[ps.length - 1].append(el.ownerDocument.createTextNode(
-      quotes[props.curLang][1]
+    const pFirstChildNode = pFirst.childNodes[0]
+    if (pFirstChildNode) {
+      pFirst.insertBefore(el.ownerDocument.createTextNode(
+        quotes[lang][0]
+      ), pFirstChildNode)
+    } else {
+      pFirst.textContent = quotes[lang][0]
+    }
+    ps[ps.length - 1].appendChild(el.ownerDocument.createTextNode(
+      quotes[lang][1]
     ))
     return (
       React.createElement(
@@ -38,9 +45,9 @@ const FloatingText: FTBehavior = (props: TEIProps) => {
         {...forwardAttributes(el.attributes)},
         <TEINodes teiNodes={el.childNodes} availableRoutes={props.availableRoutes} />)
     )
-  } 
+  }
 
-  return <> {quotes[props.curLang][0]}<SafeUnchangedNode {...props}/>quotes[props.curLang][1] </>
+  return <> {quotes[lang][0]}<SafeUnchangedNode {...props}/>{quotes[lang][1]} </>
 
 }
 
