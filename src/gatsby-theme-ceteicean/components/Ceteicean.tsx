@@ -23,6 +23,7 @@ import Synoptic from './Synoptic'
 import type {Lang} from '../../components/nav'
 import { DisplayContext, EntityContext, NoteContext } from './Context'
 import type { IOptions, TNote, TEntity } from "./Context"
+import Q from "./Q"
 
 interface Props {
   pageContext: {
@@ -87,7 +88,7 @@ const EditionCeteicean = ({pageContext}: Props) => {
     "tei-graphic": Graphic,
     "tei-orig": Orig,
     "tei-reg": Reg,
-    "tei-q": (props) => lang === "fr" ? <> « <SafeUnchangedNode {...props}/> » </> : <>“<SafeUnchangedNode {...props}/>”</>,
+    "tei-q": (props) => <Q {...props} curLang={lang}/>
   }
 
   if (!isSynoptic) {
