@@ -15,25 +15,27 @@
   Cache-Control: public, max-age=31536000, immutable
 /static/Gallica-ff15d9510033122ac10b55ded2cb0c95.png
   Cache-Control: public, max-age=31536000, immutable
+/static/nhprc-logo-252bce00744f0e2d5a3e5ec2821ecf91.png
+  Cache-Control: public, max-age=31536000, immutable
 /static/banner-bk-ccedbdfa00092a1f52b74721f923416e.jpg
   Cache-Control: public, max-age=31536000, immutable
 /731-87b0276071bb5be11a31.js.LICENSE.txt
   Cache-Control: public, max-age=31536000, immutable
 /app-fb46b981a5a4188cf670.js.LICENSE.txt
   Cache-Control: public, max-age=31536000, immutable
-/commons-73a317e973379ba54d3a.js.LICENSE.txt
+/commons-df6e4927a10fe53b3ca8.js.LICENSE.txt
   Cache-Control: public, max-age=31536000, immutable
 /framework-5610699ded8afc401448.js.LICENSE.txt
   Cache-Control: public, max-age=31536000, immutable
 /app-fb46b981a5a4188cf670.js
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-22cd9707b660eb88480a.js
+/webpack-runtime-ac906a939d065b853d5b.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-gatsby-theme-ceteicean-components-ceteicean-tsx-2ca56c80c17874fdb023.js
+/component---src-gatsby-theme-ceteicean-components-ceteicean-tsx-cc6ec9ca73ec3337bf21.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-pages-404-tsx-946c73ee873ad1a77b57.js
+/component---src-pages-404-tsx-079d79c924de9e6da2b1.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-templates-pages-tsx-5fc382bfa8465d3b5234.js
+/component---src-templates-pages-tsx-51306ce3e562a83b6d7e.js
   Cache-Control: public, max-age=31536000, immutable
 /731-87b0276071bb5be11a31.js
   Cache-Control: public, max-age=31536000, immutable
@@ -41,17 +43,17 @@
   Cache-Control: public, max-age=31536000, immutable
 /framework-5610699ded8afc401448.js
   Cache-Control: public, max-age=31536000, immutable
-/commons-73a317e973379ba54d3a.js
+/commons-df6e4927a10fe53b3ca8.js
   Cache-Control: public, max-age=31536000, immutable
 /app-fb46b981a5a4188cf670.js.map
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-22cd9707b660eb88480a.js.map
+/webpack-runtime-ac906a939d065b853d5b.js.map
   Cache-Control: public, max-age=31536000, immutable
-/component---src-gatsby-theme-ceteicean-components-ceteicean-tsx-2ca56c80c17874fdb023.js.map
+/component---src-gatsby-theme-ceteicean-components-ceteicean-tsx-cc6ec9ca73ec3337bf21.js.map
   Cache-Control: public, max-age=31536000, immutable
-/component---src-pages-404-tsx-946c73ee873ad1a77b57.js.map
+/component---src-pages-404-tsx-079d79c924de9e6da2b1.js.map
   Cache-Control: public, max-age=31536000, immutable
-/component---src-templates-pages-tsx-5fc382bfa8465d3b5234.js.map
+/component---src-templates-pages-tsx-51306ce3e562a83b6d7e.js.map
   Cache-Control: public, max-age=31536000, immutable
 /731-87b0276071bb5be11a31.js.map
   Cache-Control: public, max-age=31536000, immutable
@@ -59,7 +61,7 @@
   Cache-Control: public, max-age=31536000, immutable
 /framework-5610699ded8afc401448.js.map
   Cache-Control: public, max-age=31536000, immutable
-/commons-73a317e973379ba54d3a.js.map
+/commons-df6e4927a10fe53b3ca8.js.map
   Cache-Control: public, max-age=31536000, immutable
 /static/*
   Cache-Control: public, max-age=31536000, immutable
