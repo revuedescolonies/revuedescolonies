@@ -4,9 +4,12 @@ title: "People"
 ---
 #### Project Director
 Maria Beliaeva Solomon, Assistant Professor of French, University of Maryland
+
 #### Technical Director
 Raffaele Viglianti, Senior Research Software Developer, Maryland Institute for Technology in the Humanities (MITH), University of Maryland
-#### Collaborating Editors
+
+#### Editorial Team
+Jessica Balguy, Postdoctoral Fellow, Center for Black European Studies and the Atlantic, Carnegie Mellon University  
 Anna Brickhouse, Professor of English, University of Virginia  
 Kelly Duke Bryant, Associate Professor of History, Rowan University  
 Marlene Daut, Professor of French and African Diaspora Studies, Yale University  
@@ -16,14 +19,15 @@ Sara E. Johnson, Associate Professor of Literature of the Americas, University o
 Abel A. Louis, Associate Researcher, Université des Antilles; President of the Martinican History Society   
 Grégory Pierrot, Associate Professor of English, University of Connecticut  
 Pratima Prasad, Associate Professor of French, University of Massachusetts, Boston  
-Dominique Rogers, Associate Professor of Modern History, Université des Antilles  
 Michaël Roy, Associate Professor of North American Studies, Université Paris Nanterre  
 Chelsea Stieber, Associate Professor of French and Francophone Studies, Catholic University
 
-#### Graduate Assistants
+#### Transcription and Endcoding Team
+Emilie Hautemont, Tulane University  
 Charlotte Joublot Ferré, University of Maryland  
 Apolline Lagarde, University of Maryland  
-Noëlle Romney, Université Paris Nanterre
+Noëlle Romney, Sorbonne Nouvelle University  
+Tasnîm Tirkawi, Tulane University  
 
 #### Advisory Board
 Chris Bongie, Professor of English, Queen’s University  
