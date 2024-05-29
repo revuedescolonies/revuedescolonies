@@ -2,6 +2,10 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
   await makePages(createPage, reporter, graphql)
   await makeSynoptic(createPage, reporter, graphql)
+  const searchIndex = await makeSearchIndex(reporter, graphql);
+  if(searchIndex){
+    searchData = searchIndex.search("Technical Director")
+  }
 }
 
 async function makePages(createPage, reporter, graphql) {
@@ -99,4 +103,120 @@ async function makeSynoptic(createPage, reporter, graphql) {
       context: section
     })
   }
+}
+
+async function makeSearchIndex(reporter, graphql){
+  const lunr = require('lunr')
+  const remark = (await import('remark')).remark
+
+  const result_md = await graphql(`
+    query {
+      allMarkdownRemark {
+        edges {
+          node {
+            frontmatter {
+              path
+              title
+            }
+            rawMarkdownBody
+          }
+        }
+      }
+    }
+  `)
+  const result_synoptic = await graphql(`
+    query {
+      allCetei {
+        nodes {
+          prefixed
+          elements
+          parent {
+            ... on File {
+              name
+              relativeDirectory
+            }
+          }
+        }
+      }
+    }
+  `)
+
+  if (result_md.errors || result_synoptic.errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query.`)
+    return
+  }
+
+
+  const searchIndex = lunr(function () {
+    this.ref('path')
+    this.field('title')
+    this.field('heading')
+    this.field('content')
+    this.metadataWhitelist = ['position']
+  
+    result_md.data.allMarkdownRemark.edges.forEach(({ node }) => {
+      const tree = remark().parse(node.rawMarkdownBody)
+      let heading = ""
+      let content = ""
+
+      for(let i = 0; i < tree.children.length; i++){
+        if(tree.children[i].type === 'heading'){
+          if(content !== ""){
+            this.add({
+              path: node.frontmatter.path,
+              title: node.frontmatter.title,
+              heading: heading,
+              content: content
+            })
+          }
+          
+          content = ""
+          heading = tree.children[i].children[0].value
+        }else{
+          if(tree.children[i].children){
+            for(let x = 0; x < tree.children[i].children.length; x++){
+              content += getParagraph(tree.children[i].children[x])
+            }
+          }else{
+            if(tree.children[i].type === 'text'){
+              content += tree.children[i].value
+            }
+          }
+        }
+      }
+
+      this.add({
+        path: node.frontmatter.path,
+        title: node.frontmatter.title,
+        heading: heading,
+        content: content
+      })
+    })
+
+
+    result_synoptic.data.allCetei.nodes.forEach(( node ) => {
+      const filePath = `${node.parent.relativeDirectory}/${node.parent.name}`
+
+      this.add({
+        path: filePath,
+        title: node.parent.name,
+      })
+    })
+
+  })
+
+  function getParagraph(node){
+    let heading = ""
+
+    if(!node.children){
+        heading = node.value
+    }else{
+      for(let i = 0; i < node.children.length; i++){
+        getParagraph(node.children[i])
+      }
+    }
+    return heading
+  }
+
+  return searchIndex;
 }

@@ -79,6 +79,16 @@ module.exports = {
           name: 'édition',
           link: '/fr/sommaire/'
         }
+      },
+      {
+        en: {
+          name: 'search',
+          link: '/en/search/'
+        },
+        fr: {
+          name: 'recherche',
+          link: '/fr/recherche/'
+        }
       }
     ]
   },
