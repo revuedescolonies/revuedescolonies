@@ -11,6 +11,9 @@
     "@mui/material": "^5.14.13",
     "@mui/styles": "^5.14.13",
     "@types/react-helmet": "^6.1.7",
+    "@types/unist": "^3.0.2",
+    "@types/xast": "^2.0.4",
+    "fast-xml-parser": "^4.4.0",
     "gatsby": "^5.12.6",
     "gatsby-plugin-emotion": "^8.12.0",
     "gatsby-plugin-google-gtag": "^5.12.1",
@@ -27,7 +30,8 @@
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-teirouter": "^3.0.0",
-    "remark": "^15.0.1"
+    "remark": "^15.0.1",
+    "xast-util-from-xml": "^4.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.28",

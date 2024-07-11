@@ -4,7 +4,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   await makeSynoptic(createPage, reporter, graphql)
   const searchIndex = await makeSearchIndex(reporter, graphql);
   if(searchIndex){
-    searchData = searchIndex.search("Technical Director")
+    searchData = searchIndex.search("THE NEED FOR EDUCATION IN THE COLONIES")
   }
 }
 
@@ -109,6 +109,9 @@ async function makeSearchIndex(reporter, graphql){
   const lunr = require('lunr')
   const remark = (await import('remark')).remark
 
+  const jsdom = require("jsdom")
+  const { JSDOM } = jsdom
+
   const result_md = await graphql(`
     query {
       allMarkdownRemark {
@@ -193,14 +196,143 @@ async function makeSearchIndex(reporter, graphql){
       })
     })
 
+    const self = this
 
     result_synoptic.data.allCetei.nodes.forEach(( node ) => {
       const filePath = `${node.parent.relativeDirectory}/${node.parent.name}`
+      let dom = new JSDOM(node.prefixed, { contentType: "text/xml" })
 
-      this.add({
-        path: filePath,
-        title: node.parent.name,
-      })
+      let heading = ""
+      let content = ""
+
+      if(filePath === '/entities'){
+        if(dom.window.document.querySelector('tei-listPerson')){
+          const allElements = dom.window.document.querySelector('tei-listPerson').children
+  
+          for(let i = 0; i < allElements.length; i++){
+            if(allElements[i].tagName === 'tei-person'){
+              allElements[i].querySelectorAll('tei-note').forEach(element =>{
+                content+=element.textContent
+              })
+              console.log(allElements[i].querySelector('tei-persName').textContent)
+              self.add({
+                path: filePath,
+                title: node.parent.name,
+                heading: allElements[i].querySelector('tei-persName').textContent,
+                content: content
+              })
+              heading = ""
+              content = ""
+            }
+          }
+        }
+
+        if(dom.window.document.querySelector('tei-listPlace')){
+          const allElements = dom.window.document.querySelector('tei-listPlace').children
+  
+          for(let i = 0; i < allElements.length; i++){
+            if(allElements[i].tagName === 'tei-place'){
+              allElements[i].querySelectorAll('tei-note').forEach(element =>{
+                content+=element.textContent
+              })
+              self.add({
+                path: filePath,
+                title: node.parent.name,
+                heading: allElements[i].querySelector('tei-placeName').textContent,
+                content: content
+              })
+              heading = ""
+              content = ""
+            }
+          }
+        }
+  
+        if(dom.window.document.querySelector('tei-listOrg')){
+          const allElements = dom.window.document.querySelector('tei-listOrg').children
+  
+          for(let i = 0; i < allElements.length; i++){
+            if(allElements[i].tagName === 'tei-org'){
+              allElements[i].querySelectorAll('tei-note').forEach(element =>{
+                content+=element.textContent
+              })
+              self.add({
+                path: filePath,
+                title: node.parent.name,
+                heading: allElements[i].querySelector('tei-orgName').textContent,
+                content: content
+              })
+              heading = ""
+              content = ""
+            }
+          }
+        }
+
+        if(dom.window.document.querySelector('tei-listBibl')){
+          const allElements = dom.window.document.querySelector('tei-listBibl').children
+  
+          for(let i = 0; i < allElements.length; i++){
+            if(allElements[i].tagName === 'tei-bibl'){
+              allElements[i].querySelectorAll('tei-note').forEach(element =>{
+                content+=element.textContent
+              })
+              self.add({
+                path: filePath,
+                title: node.parent.name,
+                heading: allElements[i].querySelector('tei-title').textContent,
+                content: content
+              })
+              heading = ""
+              content = ""
+            }
+          }
+        }
+      }else{
+        if(dom.window.document.querySelector('tei-body')){
+          const allElements = dom.window.document.querySelector('tei-body').children
+  
+          for(let i = 0; i < allElements.length; i++){
+            if(allElements[i].tagName === 'tei-div'){
+              getParagraph2(allElements[i])
+            }
+          }
+        }else if(dom.window.document.querySelector('tei-noteGrp')){
+          self.add({
+            path: filePath,
+            title: node.parent.name,
+            heading: "Note",
+            content: dom.window.document.querySelector('tei-noteGrp').textContent
+          })
+        }
+      }
+
+      function getParagraph2(element){
+        if(element.querySelectorAll("tei-div").length > 0){
+          element.querySelectorAll('tei-div').forEach(part =>{
+            getParagraph2(part)
+          })
+        }else{
+          let content = element.textContent.trim()
+
+          if(element.querySelector("tei-head")){
+            let heading = element.querySelector("tei-head").textContent
+            content = content.substring(heading.length)
+
+            self.add({
+              path: filePath,
+              title: node.parent.name,
+              heading: heading,
+              content: content
+            })
+          }else{
+            self.add({
+              path: filePath,
+              title: node.parent.name,
+              content: content
+            })
+          }
+        }
+      }
+
     })
 
   })
@@ -217,6 +349,8 @@ async function makeSearchIndex(reporter, graphql){
     }
     return heading
   }
+
+  
 
   return searchIndex;
 }
