@@ -2,9 +2,12 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
   await makePages(createPage, reporter, graphql)
   await makeSynoptic(createPage, reporter, graphql)
+
+  /* Testing Code */
   const searchIndex = await makeSearchIndex(reporter, graphql);
   if(searchIndex){
     searchData = searchIndex.search("THE NEED FOR EDUCATION IN THE COLONIES")
+    console.log(searchData)
   }
 }
 
