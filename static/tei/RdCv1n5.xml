@@ -5,9 +5,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>REVUE DES COLONIES.</title>
+            <title>REVUE DES COLONIES V.5 n°1</title>
+            <editor>Charlotte Joublot Ferré</editor>
          </titleStmt>
-         <xi:include href="shared/editionStmt.xml"/>
          <publicationStmt>
             <p/>
          </publicationStmt>
@@ -17,6 +17,19 @@
       </fileDesc>
    </teiHeader>
    <text>
+   <front>
+         <pb n="1" facs="v5n1p1"/>
+         <titlePage>
+            <titlePart type="main">REVUE<lb/>DES<lb/>COLONIES,</titlePart>
+            <titlePart type="sub"><lb/>RECUEIL MENSUEL<lb/> DE LA POLITIQUE, DE L'ADMINISTRATION, DE
+               LA JUSTICE, DE L'INSTRUCTION ET DES MOEURS COLONIALES,</titlePart>
+            <byline><lb/>PAR UNE <orgName ref="#SHC">SOCIÉTÉ D'HOMMES DE COULEUR</orgName>
+               <lb/> DIRIGÉE PAR <persName ref="#CB">C.-A. BISSETTE</persName>.<lb/></byline>
+            <docEdition><lb/>N°5<lb/>Novembre.<lb/>
+               <lb/> PARIS,<lb/> AU BUREAU DE LA REVUE DES COLONIES,</docEdition>
+            <docImprint><lb/>46, RUE NEUVE-SAINT-EUSTACHE <lb/> 1834.</docImprint>
+         </titlePage>
+      </front>
       <body>
 
          <div>
@@ -54,6 +67,42 @@ viennent de toutes parts au secours de la philantropie. Quel prétexte encore, q
 </choice> 
 ces banales raisons : Que deviendraient nos fortunes, nos existences ? que deviendront les colonies mêmes ? à tout cela, le droit et le fait aujourd'hui répondent péremptoirement. Une récente expérience prouve, ce nous semble, que ce ne sont là que de misérables et mauvais dires de privilégiés, d'exploiteurs d'hommes. Les colonies anglaises n'ont pas péri encore, que nous sachions, et il est même probable que quelques-unes vont atteindre, sous l'empire du nouveau bill, un degré de prospérité de beaucoup supérieur à celui où elles étaient parvenues sous l'ancien régime.</p>
 
+<p>De quoi donc s'agit-il ? La question est fort simple : de rendre à la liberté et au bonheur une masse considérable d'hommes, au prix de justes sacrifices imposés à quelques familles de maîtres et seigneurs, lesquelles absorbent en elles tout le bonheur et toute la<pb n="4"/> liberté de plusieurs milliers d'hommes, pour être, elles, plus libres et plus heureuses ; de dépouiller, par une loi réparatrice, ces détenteurs de chair humaine de leurs injustes et atroces prérogatives, ou d'en obtenir l'abandon de leur bon vouloir, s'il est possible, par voie de concession.</p>
+
+<p>C'est là tout à la fois le moyen et le but.</p>
+
+<p>Par l'abolition de l'esclavage en effet et par le retour des hommes des deux races aux principes de la fraternité, la politique des colonies change de face. Au lieu de cette odieuse dénomination de maîtres et d'esclaves, il n'y a plus que des citoyens d'une même patrie, que des hommes se livrant, sous la protection du droit commun, aux travaux de diverses natures sans lesquels il n'y a ni bien-être ni gloire pour les sociétés. C'est par là seulement enfin que les colonies peuvent espérer d'arriver avec rapidité à une civilisation égale à celle de la mère-patrie.</p>
+
+<div>
+
+<p>COUP-D'OEIL SUR LES HABITATIONS A LA GUADELOUPE.</p>
+
+<p>L'aspect qu'offrent les habitations indique promptement à l'observateur philosophe le génie qui préside à leur administration. Les cases des nègres, construites en planches clouées sur des poteaux, ou composées de claies qui soutiennent un torchis de terre grasse, sont placées en ligne et à portée d'être surveillées par le propriétaire ou par le géreur. Là, point de meubles, point de provisions. Quelques couis, ou vases de calebasse et de coco, une natte pour y étendre des membres raidis par le travail et tout meurtris de coups, et un mauvais banc, telles sont les pièces dont se compose ce triste mobilier.</p>
+
+<p>La case principale, placée à peu de distance de celle des nègres, est occupée par le maître. C'est là que ce prétendu pacha berce son orgueil, satisfait ses fantaisies et ses honteux caprices, et lance les arrêts de ses fureurs. C'est le plus dégoûtant séjour de l'ignorance, des préjugés grossiers et des passions les plus violentes. La fatuité aristocratique qui tourmente en général les créoles est risible au dernier point. Un garde-chasse autrichien s'y fait passer pour ex-grand-veneur ; le fils d'un barbier ou d'un saltimbanque y parle de sa généalogie, des parchemins et des guerres de ses <pb n="5"/>ancêtres. J'ai vu là le petit-fils d'un paysan des <placeName ref="BaA">Basses-Alpes</placeName> qui, infatué de la jolie fortune que son père avait gagnée en qualité de procureur, ce qui me dispense des explications à cause du pays et de l'époque, affichait le gentilhomme, singeait le grand seigneur, et poussa même le ridicule jusqu'à se décorer de la croix de Malte, qu'un avis de l'autorité lui fit bientôt quitter. Devenu acquéreur d'une petite propriété appelée <placeName ref="Beau">Beauvoisin</placeName>, ce nom lui parut sonore, et il l'adopta en l'ajoutant au sien. Les malins rirent tant du contraste de ce nom de Beauvoisin avec le caractère et la physionomie de celui qui le portait, qu'il fut obligé de l'abandonner et d'en revenir à son modeste nom plébéien.</p>
+
+<p>Les colons se targuent de leur notabilité ridicule, et sont chargés de dettes, au point qu'ils seraient dépouillés de tout si l'expropriation, si 
+<choice>
+   <orig>long-temps</orig>
+   <reg>longtemps</reg>
+</choice>
+désirée et attendue, était enfin admise. Ils étalent du luxe et ne paient pas les plus légitimes salaires. Avant l'organisation judiciaire, ils recevaient à coups de bâton les ouvriers qui venaient réclamer l'argent dû à leurs pénibles travaux et nécessaire au soutien de leurs familles.</p>
+
+<p>J'ai vu des 
+<choice>
+   <orig>habitans</orig>
+   <reg>habitants</reg>
+</choice> 
+notables, ce nom leur convient ici, tapisser leurs 
+<choice>
+   <orig>appartemens</orig>
+   <reg>appartements</reg>
+</choice>
+ avec les lettres de leurs créanciers ou les assignations qu'ils recevaient. À table, vidant le champagne, ces joyeux convives, dont la loi protège la mauvaise foi, portent des toasts à la patience et au nombre des créanciers. On se dispute à qui aura reçu plus de demandes importunes dans la semaine, assignations, significations et saisies ; c'est à qui mieux mieux ; les tours joués aux recors et les mensonges dont on a payé les porteurs de billets ou autres titres sont des sujets intarissables de conversation. Vit-on jamais un dévergondage semblable ? Dans toutes les habitations sont bâtis des réduits où vont languir tour à tour les noirs qui ont encouru le déplaisir de leurs maîtres. C'est un cachot étroit, obscur, humide, où le corps ne peut ni se tenir droit ni s'allonger à terre, supplice affreux, digne des cannibales qui l’ont inventé et qui y condamnent les victimes de leurs caprices. Une boutade les y fait jeter, une boutade les y fera dépérir de besoin et de douleur.</p>
+
+ <p></p>
+
+          </div>
           </div>
         </body>
     </text>
