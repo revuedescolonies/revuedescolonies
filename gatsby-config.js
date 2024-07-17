@@ -83,11 +83,11 @@ module.exports = {
       {
         en: {
           name: 'search',
-          link: '/en/search/'
+          link: '/search/'
         },
         fr: {
-          name: 'recherche',
-          link: '/fr/recherche/'
+          name: 'récherche',
+          link: '/search/'
         }
       }
     ]

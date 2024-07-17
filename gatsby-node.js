@@ -217,7 +217,6 @@ async function makeSearchIndex(reporter, graphql){
               allElements[i].querySelectorAll('tei-note').forEach(element =>{
                 content+=element.textContent
               })
-              console.log(allElements[i].querySelector('tei-persName').textContent)
               self.add({
                 path: filePath,
                 title: node.parent.name,
