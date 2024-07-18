@@ -34,10 +34,7 @@
      
 
          <div>
-            <head>
-                 REVUE DES COLONIES.
-ÉTAT SOCIAL AUX COLONIES. 
-</head>
+            <head>REVUE DES COLONIES. ÉTAT SOCIAL AUX COLONIES.</head>
 
 <p>L'état social actuel des colonies françaises, notamment de la <placeName ref="#MQ">Martinique</placeName> et de la <placeName ref="#GP">Guadeloupe</placeName>, présente un spectacle affligeant pour les amis de l'humanité. D'une part, le colon blanc, avide et cruel possesseur d'hommes ; de l'autre, le nègre, l'esclave, non seulement faisant partie, corps et 
 <choice>
@@ -78,7 +75,7 @@ ces banales raisons : Que deviendraient nos fortunes, nos existences ? que devie
 
 <div>
 
-<p>COUP-D'OEIL SUR LES HABITATIONS A LA GUADELOUPE.</p>
+<head>COUP-D'OEIL SUR LES HABITATIONS A LA GUADELOUPE.</head>
 
 <p>L'aspect qu'offrent les habitations indique promptement à l'observateur philosophe le génie qui préside à leur administration. Les cases des nègres, construites en planches clouées sur des poteaux, ou composées de claies qui soutiennent un torchis de terre grasse, sont placées en ligne et à portée d'être surveillées par le propriétaire ou par le géreur. Là, point de meubles, point de provisions. Quelques couis, ou vases de calebasse et de coco, une natte pour y étendre des membres raidis par le travail et tout meurtris de coups, et un mauvais banc, telles sont les pièces dont se compose ce triste mobilier.</p>
 
@@ -199,13 +196,13 @@ sont enlevés à leurs mères dès qu'ils sont sevrés, et confiés à une vieil
 </div>
 
 <div>
-<p>LA MARTINIQUE EN 1831.</p>
+<head>LA MARTINIQUE EN 1831.</head>
 
 <quote>Le loup et le renard sont de mauvais voisins ; Je ne bâtirai pas autour de leur demente.(<persName ref="#JdL">LA FONTAINE</persName>)</quote><!--epigraph + quote : error signal-->
 
-<p>La révolution de juillet avait eu du retentissement à la <placeName ref="#MQ">Martinique</placeName> ; <emph>la Parisienne</emph> et <emph>la Marseillaise</emph> y 
+<p>La révolution de juillet avait eu du retentissement à la <placeName ref="#MQ">Martinique</placeName> ; <title>la Parisienne</title> et <title>la Marseillaise</title> y 
 <choice>
-   <orig>fesaient</orig>
+   <sic>fesaient</sic>
    <reg>faisaient</reg>
 </choice> vibrer des fibres africaines : placards affichés, lettres jetées à la porte des cabarets, appelaient les esclaves à imiter leurs frères de <placeName ref="#StD">Saint-Domingue</placeName>. Les noirs oublièrent qu'ils étaient sans armes devant une garnison forte et disciplinée, devant une garde nationale nombreuse qui allait combattre pour ses <emph>Lares</emph> et pour ses <emph>foyers</emph>. Ils se révoltèrent.</p><pb n="10"/>
 
@@ -232,6 +229,15 @@ des sucreries et les vastes plaines de cannes qui les entourent.</p>
    <reg>enfants</reg>
 </choice> 
 , arrachés à demi nus de leur cabane, sont conduits au milieu de la nuit dans la geôle de Saint-Pierre par des gens armés qui les chassent devant eux comme un troupeau de bétail.</p><pb n="11"/>
+
+<p>Si grand fut le désespoir de ces malheureux esclaves au moment où l'on forçait l'entrée de leurs cases et où ils se croyaient tous dévoués à un horrible massacre, que plusieurs d'entre eux tuèrent leurs 
+<choice>
+   <orig>enfans</orig>
+   <reg>enfants</reg>
+</choice> 
+pour ne pas les laisser après eux. Le nègre Hyacinthe, tenant son fils en bas âge d'une main et le coutelas levé de l'autre, fut prévenu à temps par des militaires qui s'élancèrent sur lui. Traduit aux assises pour ce fait, il n'eut pas le temps d'y paraître : il mourut à l'hôpital des suites des blessures qu'il avait reçues et qui l'avaient porté à cet acte d'égarement.</p>
+
+<p>Une longue instruction, sur 500 esclaves arrêtés, n'en envoya que vingt-quatre devant les assises de <placeName ref="#StP">Saint-Pierre</placeName>. C'est dire d'avance qu'ils furent tous condamnés à mort. Vingt-deux allèrent à l'échafaud ; un se sauva miraculeusement ; le dernier, recommandé à la clémence royale, fut gracié</p>
 
 </div>
 
