@@ -121,8 +121,10 @@ que leurs bourreaux déchirent. Vous faites souvent des lieues entières sans qu
    <orig>momens</orig>
    <reg>moments</reg>
 </choice> 
-pour les esclaves : sur pied la nuit et le jour, ils n'ont pas un moment de repos. Dans les sucreries, des tourbillons de fumée s'échappent de cinq chaudières en ébullition, remplissent une vaste pièce sans fenêtres, et les nègres apparaissent à peine à la pâle clarté que projettent des gommes, se tiennent debout devant les chaudières, plus près du foyer, occupés incessamment à faire passer, avec d'énormes cuillers, le vesou (1) d'une chaudière dans une autre. Près de là le cri aigu et monotone du moulin, dont de gros cylindres en fer servent à broyer les cannes, rappelle aux negresses qui le fournissent que, si le sommeil les surprend, une seconde suffit pour leur faire perdre un bras et même la vie. Hélas! ces funestes exemples ne se répètent que trop dans ces travaux meurtriers qui alimentent notre luxe européen. On se plaint de la
-<!--I don't remember if we identify footnote-->(1) On appelle vesou le jus exprimé de la canne.<pb n="7"/> cherté du sucre des colonies: que serait-ce s'il fallait le payer au prix du sang qu'il fait répandre?</p>
+pour les esclaves : sur pied la nuit et le jour, ils n'ont pas un moment de repos. Dans les sucreries, des tourbillons de fumée s'échappent de cinq chaudières en ébullition, remplissent une vaste pièce sans fenêtres, et les nègres apparaissent à peine à la pâle clarté que projettent des gommes, se tiennent debout devant les chaudières, plus près du foyer, occupés incessamment à faire passer, avec d'énormes cuillers, le vesou (1) d'une chaudière dans une autre. Près de là le cri aigu et monotone du moulin, dont de gros cylindres en fer servent à broyer les cannes, rappelle aux negresses qui le fournissent que, si le sommeil les surprend, une seconde suffit pour leur faire perdre un bras et même la vie. Hélas! ces funestes exemples ne se répètent que trop dans ces travaux meurtriers qui alimentent notre luxe européen. On se plaint de la 
+<note>(1) On appelle vesou le jus exprimé de la canne.</note> <pb n="7"/> 
+
+cherté du sucre des colonies: que serait-ce s'il fallait le payer au prix du sang qu'il fait répandre?</p>
 
 <p>Ce temps des roulaisons donne à la sévérité des maîtres un nouveau degré d'extension. Ils sont continuellement sur pied et marquent leurs rondes nocturnes par des 
 <choice>
@@ -198,7 +200,11 @@ sont enlevés à leurs mères dès qu'ils sont sevrés, et confiés à une vieil
 <div>
 <head>LA MARTINIQUE EN 1831.</head>
 
-<quote>Le loup et le renard sont de mauvais voisins ; Je ne bâtirai pas autour de leur demente.(<persName ref="#JdL">LA FONTAINE</persName>)</quote><!--epigraph + quote : error signal-->
+<epigraph>
+    <cit>
+        <quote>Le loup et le renard sont de mauvais voisins ; Je ne bâtirai pas autour de leur demeure.<persName ref="#JdF">LA FONTAINE</persName></quote>
+    </cit>
+</epigraph>
 
 <p>La révolution de juillet avait eu du retentissement à la <placeName ref="#MQ">Martinique</placeName> ; <title>la Parisienne</title> et <title>la Marseillaise</title> y 
 <choice>
@@ -238,6 +244,17 @@ des sucreries et les vastes plaines de cannes qui les entourent.</p>
 pour ne pas les laisser après eux. Le nègre Hyacinthe, tenant son fils en bas âge d'une main et le coutelas levé de l'autre, fut prévenu à temps par des militaires qui s'élancèrent sur lui. Traduit aux assises pour ce fait, il n'eut pas le temps d'y paraître : il mourut à l'hôpital des suites des blessures qu'il avait reçues et qui l'avaient porté à cet acte d'égarement.</p>
 
 <p>Une longue instruction, sur 500 esclaves arrêtés, n'en envoya que vingt-quatre devant les assises de <placeName ref="#StP">Saint-Pierre</placeName>. C'est dire d'avance qu'ils furent tous condamnés à mort. Vingt-deux allèrent à l'échafaud ; un se sauva miraculeusement ; le dernier, recommandé à la clémence royale, fut gracié</p>
+
+<p>De quoi les jugea-t-on coupables ? - D'incendie ? <emph>Non</emph>, répondit la cour. - De complot ? <emph>Non</emph>, répondit encore la cour. - Mais de rébellion à la force armée? <emph>Oui</emph>.</p>
+
+<p>Dans quel code trouve-t-on la peine de mort pour ce crime, sans faire observer que la résistance n'a été constatée que par les 
+<choice>
+   <orig>assaillans</orig>
+   <reg>assaillants</reg>
+</choice>
+, dont aucun n'a été tué ni même blessé ? L'ancien <bibl type="legal"><title ref="#CPen">code Pénal</title></bibl>, tout barbare qu'il était avant sa révision par la chambre de 1851, ne prononce que les travaux forcés à temps, dans les circonstances les plus aggravantes.</p>
+
+<p>Mais il y a un article 54 dans le <bibl type="legal"><title ref="#CN">code noir</title></bibl>, édit de mars 1685. Pas un mot n'y est prononcé de rébellion à la force armée ; on y trouve seulement que <emph>l'esclave</emph> coupable de voies de fait envers un individu libre sera puni <quote>très sévèrement et même de mort, si le cas échet.</quote></p>
 
 </div>
 
