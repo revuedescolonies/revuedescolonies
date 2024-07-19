@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+   <?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -255,6 +255,25 @@ pour ne pas les laisser après eux. Le nègre Hyacinthe, tenant son fils en bas 
 , dont aucun n'a été tué ni même blessé ? L'ancien <bibl type="legal"><title ref="#CPen">code Pénal</title></bibl>, tout barbare qu'il était avant sa révision par la chambre de 1851, ne prononce que les travaux forcés à temps, dans les circonstances les plus aggravantes.</p>
 
 <p>Mais il y a un article 54 dans le <bibl type="legal"><title ref="#CN">code noir</title></bibl>, édit de mars 1685. Pas un mot n'y est prononcé de rébellion à la force armée ; on y trouve seulement que <emph>l'esclave</emph> coupable de voies de fait envers un individu libre sera puni <quote>très sévèrement et même de mort, si le cas échet.</quote></p>
+
+<p>À la Martinique, un texte de loi aussi vague, et qui laisse aux juges une latitude tellement vaste, a envoyé bien des cadavres au <placeName ref="#CGR">cimetière de la <emph>Grosse-Roche</emph></placeName>. C'est cet article qu'on appliqua aux esclaves de la dame Dariste.</p>
+
+<p>Le géreur blanc trouvé armé au milieu de ses nègres armés, et criant à tue-tête qu'il est responsable de leurs faits, fut <emph>acquitté</emph> !</p>
+
+<p>Actuellement, si l'on demande ce que venait faire la force armée sur une habitation où il n'y avait ni complot ni incendie, le procureur-général <persName ref="#ANog">Nogues</persName> va nous l'apprendre : <q>"L'habitation Da-<pb n="12"/>riste, dit l'accusation, est voisine de la ville de Saint-Pierre. Elle fait peu de produits, quoique les esclaves y soient nombreux. Ces esclaves, allant souvent en ville, jouissent d'une liberté qui <emph>est un sujet d'alarmes pour les autres habitations.</emph></q></p>
+
+<p>L'habitation Dariste est limitrophe de celle de M. le président de la cour royale de la Martinique et de celle de l'un des membres de cette même cour. C'est le fils de M. le président de la cour royale qui commandait la force armée. Un géreur est détenu pendant quatre mois en prison. Treize des esclaves chefs d'atelier de cette habitation (le commandeur, le raffineur et les principaux ouvriers) sont mis à mort juridiquement. Un atelier, jadis si heureux et si content, composé de nègres créoles la plupart légitimement mariés, est aujourd'hui démoralisé et frappé de terreur. Le sujet d'alarmes des 
+<choice>
+   <orig>puissans</orig>
+   <reg>puissants</reg>
+</choice> 
+voisins de la dame Dariste n'a-t-il pas disparu?</p>
+
+<p>Quel glaive, bon Dieu, que celui de la loi dans certaines mains ! Les nègres de l'habitation Dariste marchèrent à l'échafaud avec une effrayante résignation et dans un morne silence. Ils eussent appelé leur maître, si bon pour eux, et qui par humanité leur laissait cette liberté, <emph>sujet d'alarmes pour leurs voisins</emph> ; mais leur maître, leur protecteur était trop loin. Ils en référèrent à la justice divine. Celle-là est plus boiteuse encore que celle du ministère de la marine, invoquée par M. Dariste fils, mais du moins elle arrive un jour.</p>
+
+<p>Le géreur <emph>blanc</emph> a été acquitté. Il n'a échappé à une condamnation que parce qu'il eût porté ce procès devant la cour de cassation et que la France l'aurait connu. Ce SUJET D'ALARMES était aussi important à détruire que les autres.</p>
+
+<p>Ne pas accorder un recours en cassation à des hommes condamnés à mort, parce qu'ils sont <emph>esclaves</emph>, et lorsque leurs juges sont maîtres!... Exécuter à la hâte, à dix-huit cents lieues de la métropole, vingt-deux condamnés à mort, sans donner au roi la faculté d'exercer son droit de grace!...... Et le roi des Français, <persName ref="#LP">Louis Philippe</persName>, l'avocat de l'abolition de la peine de mort, à qui on a enlevé sa plus belle prérogative, parce que les condamnés sont de malheureux esclaves !..... Voilà bientôt trois siècles que d'épouvantables choses se passent impunément dans nos colonies. Quand M. le ministre de la marine jugera-t-il à propos de dire "ASSEZ" ?<pb n="13"/></p>
 
 </div>
 
