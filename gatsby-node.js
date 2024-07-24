@@ -1,7 +1,13 @@
+const makeIndexData = require('./searchIndex.js')
+const { graphql } = require("gatsby");
+const jsdom = require("jsdom");
+const { JSDOM } = jsdom;
+
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
   await makePages(createPage, reporter, graphql)
   await makeSynoptic(createPage, reporter, graphql)
+  await getAllCETEI(reporter,graphql)
 }
 
 async function makePages(createPage, reporter, graphql) {
@@ -36,6 +42,12 @@ async function makePages(createPage, reporter, graphql) {
       }
     })   
   })
+}
+
+async function getAllCETEI(reporter, graphql) {
+  
+  await makeIndexData(reporter,graphql)
+
 }
 
 async function makeSynoptic(createPage, reporter, graphql) {
