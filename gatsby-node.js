@@ -1,3 +1,7 @@
+const lunr = require('lunr')
+const jsdom = require("jsdom")
+const { JSDOM } = jsdom
+
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
   await makePages(createPage, reporter, graphql)
@@ -109,28 +113,21 @@ async function makeSynoptic(createPage, reporter, graphql) {
 }
 
 async function makeSearchIndex(reporter, graphql){
-  const lunr = require('lunr')
   const remark = (await import('remark')).remark
-
-  const jsdom = require("jsdom")
-  const { JSDOM } = jsdom
 
   const result_md = await graphql(`
     query {
       allMarkdownRemark {
-        edges {
-          node {
-            frontmatter {
-              path
-              title
-            }
-            rawMarkdownBody
+        nodes {
+          html
+          frontmatter {
+            path
           }
         }
       }
     }
   `)
-  const result_synoptic = await graphql(`
+  const result_tei = await graphql(`
     query {
       allCetei {
         nodes {
@@ -147,7 +144,7 @@ async function makeSearchIndex(reporter, graphql){
     }
   `)
 
-  if (result_md.errors || result_synoptic.errors) {
+  if (result_md.errors || result_tei.errors) {
     reporter.panicOnBuild(`Error while running GraphQL query.`)
     return
   }
@@ -160,13 +157,13 @@ async function makeSearchIndex(reporter, graphql){
     this.field('content')
     this.metadataWhitelist = ['position']
   
-    result_md.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    result_md.data.allMarkdownRemark.nodes.forEach((node) => {
       const tree = remark().parse(node.rawMarkdownBody)
       let heading = ""
       let content = ""
 
-      for(let i = 0; i < tree.children.length; i++){
-        if(tree.children[i].type === 'heading'){
+      for (const child of tree.children){
+        if(child.type === 'heading'){
           if(content !== ""){
             this.add({
               path: node.frontmatter.path,
@@ -177,14 +174,14 @@ async function makeSearchIndex(reporter, graphql){
           }
           
           content = ""
-          heading = tree.children[i].children[0].value
+          heading = child.children[0].value
         }else{
-          if(tree.children[i].children){
-            for(let x = 0; x < tree.children[i].children.length; x++){
-              content += getParagraph(tree.children[i].children[x])
+          if(child.children){
+            for (const subChild of child.children){
+              content += getMarkdownTextContent(subChild)
             }
           }else{
-            if(tree.children[i].type === 'text'){
+            if(child.type === 'text'){
               content += tree.children[i].value
             }
           }
@@ -201,56 +198,40 @@ async function makeSearchIndex(reporter, graphql){
 
     const self = this
 
-    result_synoptic.data.allCetei.nodes.forEach(( node ) => {
+    result_tei.data.allCetei.nodes.forEach(( node ) => {
       const filePath = `${node.parent.relativeDirectory}/${node.parent.name}`
-      let dom = new JSDOM(node.prefixed, { contentType: "text/xml" })
+      const dom = new JSDOM(node.prefixed, { contentType: "text/xml" })
+      const doc = dom.window.document
 
       let heading = ""
       let content = ""
 
       if(filePath === '/entities'){
-        if(dom.window.document.querySelector('tei-listPerson')){
-          const allElements = dom.window.document.querySelector('tei-listPerson').children
-  
-          for(let i = 0; i < allElements.length; i++){
-            if(allElements[i].tagName === 'tei-person'){
-              allElements[i].querySelectorAll('tei-note').forEach(element =>{
-                content+=element.textContent
-              })
-              self.add({
-                path: filePath,
-                title: node.parent.name,
-                heading: allElements[i].querySelector('tei-persName').textContent,
-                content: content
-              })
-              heading = ""
-              content = ""
-            }
-          }
-        }
 
-        if(dom.window.document.querySelector('tei-listPlace')){
-          const allElements = dom.window.document.querySelector('tei-listPlace').children
-  
-          for(let i = 0; i < allElements.length; i++){
-            if(allElements[i].tagName === 'tei-place'){
-              allElements[i].querySelectorAll('tei-note').forEach(element =>{
-                content+=element.textContent
-              })
-              self.add({
-                path: filePath,
-                title: node.parent.name,
-                heading: allElements[i].querySelector('tei-placeName').textContent,
-                content: content
-              })
-              heading = ""
-              content = ""
+        function parseEntityTag (tagName,entityName,nameAttr,idAttr){
+          if(doc.querySelector(tagName)){
+            const allElements = Array.from(doc.querySelector(nameAttr).children)
+            for(element of allElements){
+              if(element.tagName === entityName){
+                element.querySelectorAll('tei-note').forEach(note =>{
+                  content += note.textContent
+                })
+
+                self.add({
+                  path: filePath,
+                  title: node.parent.name,
+                  heading: element.querySelector('tei-persName').textContent,
+                  content: content
+                })
+                heading = ""
+                content = ""
+              }
             }
           }
         }
   
-        if(dom.window.document.querySelector('tei-listOrg')){
-          const allElements = dom.window.document.querySelector('tei-listOrg').children
+        if(doc.querySelector('tei-listOrg')){
+          const allElements = doc.querySelector('tei-listOrg').children
   
           for(let i = 0; i < allElements.length; i++){
             if(allElements[i].tagName === 'tei-org'){
@@ -269,8 +250,8 @@ async function makeSearchIndex(reporter, graphql){
           }
         }
 
-        if(dom.window.document.querySelector('tei-listBibl')){
-          const allElements = dom.window.document.querySelector('tei-listBibl').children
+        if(doc.querySelector('tei-listBibl')){
+          const allElements = doc.querySelector('tei-listBibl').children
   
           for(let i = 0; i < allElements.length; i++){
             if(allElements[i].tagName === 'tei-bibl'){
@@ -289,28 +270,28 @@ async function makeSearchIndex(reporter, graphql){
           }
         }
       }else{
-        if(dom.window.document.querySelector('tei-body')){
-          const allElements = dom.window.document.querySelector('tei-body').children
+        if(doc.querySelector('tei-body')){
+          const allElements = doc.querySelector('tei-body').children
   
-          for(let i = 0; i < allElements.length; i++){
-            if(allElements[i].tagName === 'tei-div'){
-              getParagraph2(allElements[i])
+          for(element of allElements){
+            if(element.tagName === 'tei-div'){
+              getTEITextContent(element)
             }
           }
-        }else if(dom.window.document.querySelector('tei-noteGrp')){
+        }else if(doc.querySelector('tei-noteGrp')){
           self.add({
             path: filePath,
             title: node.parent.name,
             heading: "Note",
-            content: dom.window.document.querySelector('tei-noteGrp').textContent
+            content: doc.querySelector('tei-noteGrp').textContent
           })
         }
       }
 
-      function getParagraph2(element){
+      function getTEITextContent(element){
         if(element.querySelectorAll("tei-div").length > 0){
           element.querySelectorAll('tei-div').forEach(part =>{
-            getParagraph2(part)
+            getTEITextContent(part)
           })
         }else{
           let content = element.textContent.trim()
@@ -339,14 +320,14 @@ async function makeSearchIndex(reporter, graphql){
 
   })
 
-  function getParagraph(node){
+  function getMarkdownTextContent(node){
     let heading = ""
 
     if(!node.children){
         heading = node.value
     }else{
-      for(let i = 0; i < node.children.length; i++){
-        getParagraph(node.children[i])
+      for(child of node.children){
+        getMarkdownTextContent(child)
       }
     }
     return heading
