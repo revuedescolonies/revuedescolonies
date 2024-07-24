@@ -1,18 +1,14 @@
 const lunr = require('lunr')
-const jsdom = require("jsdom")
-const { JSDOM } = jsdom
+
+const makeIndexData = require('./searchIndex.js')
+const { graphql } = require("gatsby");
+const jsdom = require("jsdom");
+const { JSDOM } = jsdom;
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
   await makePages(createPage, reporter, graphql)
   await makeSynoptic(createPage, reporter, graphql)
-
-  /* Testing Code */
-  const searchIndex = await makeSearchIndex(reporter, graphql);
-  if(searchIndex){
-    searchData = searchIndex.search("THE NEED FOR EDUCATION IN THE COLONIES")
-    console.log(searchData)
-  }
 }
 
 async function makePages(createPage, reporter, graphql) {
@@ -47,6 +43,12 @@ async function makePages(createPage, reporter, graphql) {
       }
     })   
   })
+}
+
+async function getAllCETEI(reporter, graphql) {
+  
+  await makeIndexData(reporter,graphql)
+
 }
 
 async function makeSynoptic(createPage, reporter, graphql) {
