@@ -9,6 +9,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
   await makePages(createPage, reporter, graphql)
   await makeSynoptic(createPage, reporter, graphql)
+  await getAllCETEI(reporter,graphql)
 }
 
 async function makePages(createPage, reporter, graphql) {
@@ -114,6 +115,7 @@ async function makeSynoptic(createPage, reporter, graphql) {
   }
 }
 
+/*
 async function makeSearchIndex(reporter, graphql){
   const remark = (await import('remark')).remark
 
@@ -339,3 +341,4 @@ async function makeSearchIndex(reporter, graphql){
 
   return searchIndex;
 }
+  */
