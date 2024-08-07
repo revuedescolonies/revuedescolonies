@@ -1,11 +1,11 @@
-const lunr = require('lunr')
 /*
 const makeIndexData = require('./searchIndex.js')
 const { graphql } = require("gatsby");
 */
 const jsdom = require("jsdom");
-const MiniSearch = require('minisearch');
 const { JSDOM } = jsdom;
+
+const MiniSearch = require('minisearch');
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
@@ -26,12 +26,13 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         score: result.score,
         title: result.title,
         heading: result.heading,
+        content: result.content.substring(0,200)
       })
     })
     return newResults
   }
 
-  const searchTerm = ''
+  const searchTerm = 'Vignette signée du dessinateur-lithographe parisien Levasseur, et du collectif de graveurs su'
   const searchResults = search_index.searchWithHeadings(searchTerm)
   console.log(searchResults)
 }
@@ -179,7 +180,7 @@ async function makeSearchIndex(reporter, graphql){
 
   const search_index = new MiniSearch({
     fields: ['title', 'heading', 'content'], // Fields to index for search
-    storeFields: ['title', 'heading'], // Fields to return with search results
+    storeFields: ['title', 'heading', 'content'], // Fields to return with search results
     searchOptions: {
       prefix: true,
       fuzzy: 0.2
@@ -307,14 +308,14 @@ async function makeSearchIndex(reporter, graphql){
   }
 
   function indexDocument(document) {
-    const { title, headings } = document;
+    const { title, headings } = document
   
     headings.forEach((headingEntry, index) => {
       search_index.add({
         id: `${document.id}-${index}`, // Unique ID for each heading entry
         title: title,
         heading: headingEntry.heading,
-        content: headingEntry.content
+        content: headingEntry.content.replace(/\n+/g, ' ').trim()
       })
     })
   }
