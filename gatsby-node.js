@@ -1,15 +1,22 @@
 const lunr = require('lunr')
-
+/*
 const makeIndexData = require('./searchIndex.js')
 const { graphql } = require("gatsby");
+*/
 const jsdom = require("jsdom");
+const MiniSearch = require('minisearch');
 const { JSDOM } = jsdom;
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
   await makePages(createPage, reporter, graphql)
   await makeSynoptic(createPage, reporter, graphql)
+  /*
   await getAllCETEI(reporter,graphql)
+  */
+
+  
+  let search_index = await makeSearchIndex(reporter, graphql)
 }
 
 async function makePages(createPage, reporter, graphql) {
@@ -46,11 +53,11 @@ async function makePages(createPage, reporter, graphql) {
   })
 }
 
+/*
 async function getAllCETEI(reporter, graphql) {
-  
   await makeIndexData(reporter,graphql)
-
 }
+*/
 
 async function makeSynoptic(createPage, reporter, graphql) {
   const component = require.resolve(`./src/gatsby-theme-ceteicean/components/Ceteicean.tsx`)
@@ -115,7 +122,6 @@ async function makeSynoptic(createPage, reporter, graphql) {
   }
 }
 
-/*
 async function makeSearchIndex(reporter, graphql){
   const remark = (await import('remark')).remark
 
@@ -123,8 +129,9 @@ async function makeSearchIndex(reporter, graphql){
     query {
       allMarkdownRemark {
         nodes {
-          html
+          rawMarkdownBody
           frontmatter {
+            title
             path
           }
         }
@@ -153,123 +160,79 @@ async function makeSearchIndex(reporter, graphql){
     return
   }
 
+  const search_index = new MiniSearch({
+    fields: ['title', 'heading', 'content'], // Fields to index for search
+    storeFields: ['title', 'heading'], // Fields to return with search results
+    searchOptions: {
+      prefix: true,
+      fuzzy: 0.2
+    },
+    boost:{heading: 2}
+  });
 
-  const searchIndex = lunr(function () {
-    this.ref('path')
-    this.field('title')
-    this.field('heading')
-    this.field('content')
-    this.metadataWhitelist = ['position']
-  
-    result_md.data.allMarkdownRemark.nodes.forEach((node) => {
-      const tree = remark().parse(node.rawMarkdownBody)
-      let heading = ""
-      let content = ""
+  result_md.data.allMarkdownRemark.nodes.forEach((node) => {
+    const tree = remark().parse(node.rawMarkdownBody)
+    let heading = ""
+    let content = ""
+    let headings = []
 
-      for (const child of tree.children){
-        if(child.type === 'heading'){
-          if(content !== ""){
-            this.add({
-              path: node.frontmatter.path,
-              title: node.frontmatter.title,
-              heading: heading,
-              content: content
-            })
+    for (const child of tree.children){
+      if(child.type === 'heading'){
+        if(content !== ""){
+          headings.push({heading: heading, content: content})
+        }
+        
+        content = ""
+        heading = child.children[0].value
+      }else{
+        if(child.children){
+          for (const subChild of child.children){
+            content += getMarkdownTextContent(subChild)
           }
-          
-          content = ""
-          heading = child.children[0].value
         }else{
-          if(child.children){
-            for (const subChild of child.children){
-              content += getMarkdownTextContent(subChild)
-            }
-          }else{
-            if(child.type === 'text'){
-              content += tree.children[i].value
-            }
+          if(child.type === 'text'){
+            content += tree.children[i].value
           }
         }
       }
+    }
 
-      this.add({
-        path: node.frontmatter.path,
-        title: node.frontmatter.title,
-        heading: heading,
-        content: content
-      })
+    headings.push({heading: heading, content: content})
+
+    indexDocument({
+      id: node.frontmatter.path,
+      title: node.frontmatter.title,
+      headings: headings
     })
+  })
 
-    const self = this
-
-    result_tei.data.allCetei.nodes.forEach(( node ) => {
+  result_tei.data.allCetei.nodes.forEach(( node ) => {
       const filePath = `${node.parent.relativeDirectory}/${node.parent.name}`
       const dom = new JSDOM(node.prefixed, { contentType: "text/xml" })
       const doc = dom.window.document
 
       let heading = ""
       let content = ""
+      let headings = []
 
       if(filePath === '/entities'){
+        parseEntityTag("tei-listPerson", "tei-person", "tei-persName")
+        parseEntityTag("tei-listPlace", "tei-place", "tei-placeName")
+        parseEntityTag("tei-listOrg", "tei-org", "tei-orgName")
+        parseEntityTag("tei-listBibl", "tei-bibl", "tei-title")
 
-        function parseEntityTag (tagName,entityName,nameAttr,idAttr){
+        function parseEntityTag (tagName,entityName, nameAttr){
           if(doc.querySelector(tagName)){
-            const allElements = Array.from(doc.querySelector(nameAttr).children)
+            const allElements = Array.from(doc.querySelector(tagName).children)
             for(element of allElements){
               if(element.tagName === entityName){
                 element.querySelectorAll('tei-note').forEach(note =>{
                   content += note.textContent
                 })
-
-                self.add({
-                  path: filePath,
-                  title: node.parent.name,
-                  heading: element.querySelector('tei-persName').textContent,
-                  content: content
-                })
+                headings.push({heading: element.querySelector(nameAttr).textContent, content: content})
                 heading = ""
                 content = ""
               }
-            }
-          }
-        }
-  
-        if(doc.querySelector('tei-listOrg')){
-          const allElements = doc.querySelector('tei-listOrg').children
-  
-          for(let i = 0; i < allElements.length; i++){
-            if(allElements[i].tagName === 'tei-org'){
-              allElements[i].querySelectorAll('tei-note').forEach(element =>{
-                content+=element.textContent
-              })
-              self.add({
-                path: filePath,
-                title: node.parent.name,
-                heading: allElements[i].querySelector('tei-orgName').textContent,
-                content: content
-              })
-              heading = ""
-              content = ""
-            }
-          }
-        }
-
-        if(doc.querySelector('tei-listBibl')){
-          const allElements = doc.querySelector('tei-listBibl').children
-  
-          for(let i = 0; i < allElements.length; i++){
-            if(allElements[i].tagName === 'tei-bibl'){
-              allElements[i].querySelectorAll('tei-note').forEach(element =>{
-                content+=element.textContent
-              })
-              self.add({
-                path: filePath,
-                title: node.parent.name,
-                heading: allElements[i].querySelector('tei-title').textContent,
-                content: content
-              })
-              heading = ""
-              content = ""
             }
           }
         }
@@ -283,14 +246,15 @@ async function makeSearchIndex(reporter, graphql){
             }
           }
         }else if(doc.querySelector('tei-noteGrp')){
-          self.add({
-            path: filePath,
-            title: node.parent.name,
-            heading: "Note",
-            content: doc.querySelector('tei-noteGrp').textContent
-          })
+          headings.push({heading: "Note", content: doc.querySelector('tei-noteGrp').textContent})
         }
       }
+
+      indexDocument({
+        id: filePath,
+        title: node.parent.name,
+        headings: headings
+      })
 
       function getTEITextContent(element){
         if(element.querySelectorAll("tei-div").length > 0){
@@ -303,26 +267,14 @@ async function makeSearchIndex(reporter, graphql){
           if(element.querySelector("tei-head")){
             let heading = element.querySelector("tei-head").textContent
             content = content.substring(heading.length)
-
-            self.add({
-              path: filePath,
-              title: node.parent.name,
-              heading: heading,
-              content: content
-            })
+            headings.push({heading: heading, content: content})
           }else{
-            self.add({
-              path: filePath,
-              title: node.parent.name,
-              content: content
-            })
+            headings.push({heading: "", content: content})
           }
         }
       }
 
     })
-
-  })
 
   function getMarkdownTextContent(node){
     let heading = ""
@@ -337,8 +289,35 @@ async function makeSearchIndex(reporter, graphql){
     return heading
   }
 
+  function indexDocument(document) {
+    const { title, headings } = document;
   
+    headings.forEach((headingEntry, index) => {
+      search_index.add({
+        id: `${document.id}-${index}`, // Unique ID for each heading entry
+        title: title,
+        heading: headingEntry.heading,
+        content: headingEntry.content
+      })
+    })
+  }
 
-  return searchIndex;
+  search_index.searchWithHeadings = function(searchTerm) {
+    const results = this.search(searchTerm);
+    const newResults = []
+    results.forEach(result =>{
+      newResults.push({
+        score: result.score,
+        title: result.title,
+        heading: result.heading,
+      })
+    })
+    return newResults
+  };
+
+  const searchTerm = 'Cyrille Bissette'
+  const searchResults = search_index.searchWithHeadings(searchTerm)
+  console.log(searchResults)
+
+  return search_index
 }
-  */

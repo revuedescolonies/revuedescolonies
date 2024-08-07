@@ -1,3 +1,4 @@
+/*
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 const lunr = require('lunr');
@@ -109,8 +110,6 @@ const parseMarkDownData = async (mdData) => {
   }
 
   return md_search_index;
-  parseXMLData(xmlData)
-  parseMarkDownData(mdData)
 }
 
 const parseXMLData = (xmlData) => {
@@ -188,3 +187,4 @@ const findOccurences = (teiXMLString, entities, tagName, ref) => {
 }
 
 module.exports = makeIndexData;
+*/
