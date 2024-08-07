@@ -1,7 +1,40 @@
+/*
+const makeIndexData = require('./searchIndex.js')
+const { graphql } = require("gatsby");
+*/
+const jsdom = require("jsdom");
+const { JSDOM } = jsdom;
+
+const MiniSearch = require('minisearch');
+
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
   await makePages(createPage, reporter, graphql)
   await makeSynoptic(createPage, reporter, graphql)
+  /*
+  await getAllCETEI(reporter,graphql)
+  */
+
+  
+  let search_index = await makeSearchIndex(reporter, graphql)
+
+  search_index.searchWithHeadings = function(searchTerm) {
+    const results = this.search(searchTerm)
+    const newResults = []
+    results.forEach(result =>{
+      newResults.push({
+        score: result.score,
+        title: result.title,
+        heading: result.heading,
+        content: result.content.substring(0,200)
+      })
+    })
+    return newResults
+  }
+
+  const searchTerm = 'Vignette signée du dessinateur-lithographe parisien Levasseur, et du collectif de graveurs su'
+  const searchResults = search_index.searchWithHeadings(searchTerm)
+  console.log(searchResults)
 }
 
 async function makePages(createPage, reporter, graphql) {
@@ -37,6 +70,12 @@ async function makePages(createPage, reporter, graphql) {
     })   
   })
 }
+
+/*
+async function getAllCETEI(reporter, graphql) {
+  await makeIndexData(reporter,graphql)
+}
+*/
 
 async function makeSynoptic(createPage, reporter, graphql) {
   const component = require.resolve(`./src/gatsby-theme-ceteicean/components/Ceteicean.tsx`)
@@ -99,4 +138,187 @@ async function makeSynoptic(createPage, reporter, graphql) {
       context: section
     })
   }
+}
+
+async function makeSearchIndex(reporter, graphql){
+  const remark = (await import('remark')).remark
+
+  const result_md = await graphql(`
+    query {
+      allMarkdownRemark {
+        nodes {
+          rawMarkdownBody
+          frontmatter {
+            title
+            path
+          }
+        }
+      }
+    }
+  `)
+  const result_tei = await graphql(`
+    query {
+      allCetei {
+        nodes {
+          prefixed
+          elements
+          parent {
+            ... on File {
+              name
+              relativeDirectory
+            }
+          }
+        }
+      }
+    }
+  `)
+
+  if (result_md.errors || result_tei.errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query.`)
+    return
+  }
+
+  const search_index = new MiniSearch({
+    fields: ['title', 'heading', 'content'], // Fields to index for search
+    storeFields: ['title', 'heading', 'content'], // Fields to return with search results
+    searchOptions: {
+      prefix: true,
+      fuzzy: 0.2
+    },
+    boost:{heading: 2}
+  });
+
+  result_md.data.allMarkdownRemark.nodes.forEach((node) => {
+    const tree = remark().parse(node.rawMarkdownBody)
+    let heading = ""
+    let content = ""
+    let headings = []
+
+    for (const child of tree.children){
+      if(child.type === 'heading'){
+        if(content !== ""){
+          headings.push({heading: heading, content: content})
+        }
+        
+        content = ""
+        heading = child.children[0].value
+      }else{
+        if(child.children){
+          for (const subChild of child.children){
+            content += getMarkdownTextContent(subChild)
+          }
+        }else{
+          if(child.type === 'text'){
+            content += tree.children[i].value
+          }
+        }
+      }
+    }
+
+    headings.push({heading: heading, content: content})
+
+    indexDocument({
+      id: node.frontmatter.path,
+      title: node.frontmatter.title,
+      headings: headings
+    })
+  })
+
+  result_tei.data.allCetei.nodes.forEach(( node ) => {
+      const filePath = `${node.parent.relativeDirectory}/${node.parent.name}`
+      const dom = new JSDOM(node.prefixed, { contentType: "text/xml" })
+      const doc = dom.window.document
+
+      let heading = ""
+      let content = ""
+      let headings = []
+
+      if(filePath === '/entities'){
+        parseEntityTag("tei-listPerson", "tei-person", "tei-persName")
+        parseEntityTag("tei-listPlace", "tei-place", "tei-placeName")
+        parseEntityTag("tei-listOrg", "tei-org", "tei-orgName")
+        parseEntityTag("tei-listBibl", "tei-bibl", "tei-title")
+
+        function parseEntityTag (tagName,entityName, nameAttr){
+          if(doc.querySelector(tagName)){
+            const allElements = Array.from(doc.querySelector(tagName).children)
+            for(element of allElements){
+              if(element.tagName === entityName){
+                element.querySelectorAll('tei-note').forEach(note =>{
+                  content += note.textContent
+                })
+                headings.push({heading: element.querySelector(nameAttr).textContent, content: content})
+                heading = ""
+                content = ""
+              }
+            }
+          }
+        }
+      }else{
+        if(doc.querySelector('tei-body')){
+          const allElements = doc.querySelector('tei-body').children
+  
+          for(element of allElements){
+            if(element.tagName === 'tei-div'){
+              getTEITextContent(element)
+            }
+          }
+        }else if(doc.querySelector('tei-noteGrp')){
+          headings.push({heading: "Note", content: doc.querySelector('tei-noteGrp').textContent})
+        }
+      }
+
+      indexDocument({
+        id: filePath,
+        title: node.parent.name,
+        headings: headings
+      })
+
+      function getTEITextContent(element){
+        if(element.querySelectorAll("tei-div").length > 0){
+          element.querySelectorAll('tei-div').forEach(part =>{
+            getTEITextContent(part)
+          })
+        }else{
+          let content = element.textContent.trim()
+
+          if(element.querySelector("tei-head")){
+            let heading = element.querySelector("tei-head").textContent
+            content = content.substring(heading.length)
+            headings.push({heading: heading, content: content})
+          }else{
+            headings.push({heading: "", content: content})
+          }
+        }
+      }
+
+    })
+
+  function getMarkdownTextContent(node){
+    let heading = ""
+
+    if(!node.children){
+        heading = node.value
+    }else{
+      for(child of node.children){
+        getMarkdownTextContent(child)
+      }
+    }
+    return heading
+  }
+
+  function indexDocument(document) {
+    const { title, headings } = document
+  
+    headings.forEach((headingEntry, index) => {
+      search_index.add({
+        id: `${document.id}-${index}`, // Unique ID for each heading entry
+        title: title,
+        heading: headingEntry.heading,
+        content: headingEntry.content.replace(/\n+/g, ' ').trim()
+      })
+    })
+  }
+
+  return search_index
 }
