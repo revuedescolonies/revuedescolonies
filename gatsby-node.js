@@ -17,6 +17,23 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   
   let search_index = await makeSearchIndex(reporter, graphql)
+
+  search_index.searchWithHeadings = function(searchTerm) {
+    const results = this.search(searchTerm)
+    const newResults = []
+    results.forEach(result =>{
+      newResults.push({
+        score: result.score,
+        title: result.title,
+        heading: result.heading,
+      })
+    })
+    return newResults
+  }
+
+  const searchTerm = ''
+  const searchResults = search_index.searchWithHeadings(searchTerm)
+  console.log(searchResults)
 }
 
 async function makePages(createPage, reporter, graphql) {
@@ -301,23 +318,6 @@ async function makeSearchIndex(reporter, graphql){
       })
     })
   }
-
-  search_index.searchWithHeadings = function(searchTerm) {
-    const results = this.search(searchTerm);
-    const newResults = []
-    results.forEach(result =>{
-      newResults.push({
-        score: result.score,
-        title: result.title,
-        heading: result.heading,
-      })
-    })
-    return newResults
-  };
-
-  const searchTerm = 'Cyrille Bissette'
-  const searchResults = search_index.searchWithHeadings(searchTerm)
-  console.log(searchResults)
 
   return search_index
 }
