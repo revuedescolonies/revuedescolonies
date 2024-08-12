@@ -38,12 +38,12 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   let categoryTypes = {
     "Journal Content": true,
-    "Note": false,
-    "Miscellaneous": false,
-    "Person": false,
-    "Place": false,
+    "Note": true,
+    "Miscellaneous": true,
+    "Person": true,
+    "Place": true,
     "Organization": true,
-    "Bibl": false
+    "Bibl": true
   }
   let languages = {
     "en": true,
