@@ -1,6 +1,5 @@
 /*
 const makeIndexData = require('./searchIndex.js')
-const { graphql } = require("gatsby");
 */
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
@@ -14,25 +13,44 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   /*
   await getAllCETEI(reporter,graphql)
   */
-
   
   let search_index = await makeSearchIndex(reporter, graphql)
 
   search_index.searchWithHeadings = function(searchTerm) {
-    const results = this.search(searchTerm)
+    const results = this.search(searchTerm, {
+      filter: (result) => categoryTypes[result.type] === true && languages[result.language] === true
+    })
     const newResults = []
     results.forEach(result =>{
       newResults.push({
         score: result.score,
         title: result.title,
+        language: result.language,
+        type: result.type,
         heading: result.heading,
-        content: result.content.substring(0,200)
+        content: result.content.substring(0,200),
       })
     })
     return newResults
   }
 
-  const searchTerm = 'Vignette signée du dessinateur-lithographe parisien Levasseur, et du collectif de graveurs su'
+  /* Search Engine */
+
+  let categoryTypes = {
+    "Journal Content": true,
+    "Note": false,
+    "Miscellaneous": false,
+    "Person": false,
+    "Place": false,
+    "Organization": true,
+    "Bibl": false
+  }
+  let languages = {
+    "en": true,
+    "fr": true
+  }
+
+  const searchTerm = 'Convention Nationale'
   const searchResults = search_index.searchWithHeadings(searchTerm)
   console.log(searchResults)
 }
@@ -180,7 +198,7 @@ async function makeSearchIndex(reporter, graphql){
 
   const search_index = new MiniSearch({
     fields: ['title', 'heading', 'content'], // Fields to index for search
-    storeFields: ['title', 'heading', 'content'], // Fields to return with search results
+    storeFields: ['title', 'heading', 'content', 'type', 'language'], // Fields to return with search results
     searchOptions: {
       prefix: true,
       fuzzy: 0.2
@@ -193,11 +211,12 @@ async function makeSearchIndex(reporter, graphql){
     let heading = ""
     let content = ""
     let headings = []
+    let lang = (node.frontmatter.path.substring(0, 3) === "/en") ? "en" : (node.frontmatter.path.substring(0, 3) === "/fr") ? "fr" : "en"
 
     for (const child of tree.children){
       if(child.type === 'heading'){
         if(content !== ""){
-          headings.push({heading: heading, content: content})
+          headings.push({heading: heading, content: content, type: "Miscellaneous", language: lang})
         }
         
         content = ""
@@ -215,7 +234,7 @@ async function makeSearchIndex(reporter, graphql){
       }
     }
 
-    headings.push({heading: heading, content: content})
+    headings.push({heading: heading, content: content, type: "Miscellaneous", language: lang})
 
     indexDocument({
       id: node.frontmatter.path,
@@ -229,11 +248,16 @@ async function makeSearchIndex(reporter, graphql){
       const dom = new JSDOM(node.prefixed, { contentType: "text/xml" })
       const doc = dom.window.document
 
-      let heading = ""
-      let content = ""
       let headings = []
+      let lang = ""
 
       if(filePath === '/entities'){
+        let teiElements = new Map();
+        teiElements.set("tei-person", "Person")
+        teiElements.set("tei-place", "Place")
+        teiElements.set("tei-org", "Organization")
+        teiElements.set("tei-bibl", "Bibl")
+
         parseEntityTag("tei-listPerson", "tei-person", "tei-persName")
         parseEntityTag("tei-listPlace", "tei-place", "tei-placeName")
         parseEntityTag("tei-listOrg", "tei-org", "tei-orgName")
@@ -242,14 +266,16 @@ async function makeSearchIndex(reporter, graphql){
         function parseEntityTag (tagName,entityName, nameAttr){
           if(doc.querySelector(tagName)){
             const allElements = Array.from(doc.querySelector(tagName).children)
+
             for(element of allElements){
               if(element.tagName === entityName){
                 element.querySelectorAll('tei-note').forEach(note =>{
-                  content += note.textContent
+                  headings.push({
+                    heading: element.querySelector(nameAttr).textContent.replace(/\s+/g, ' ').trim(), 
+                    content: note.textContent.replace(/\s+/g, ' ').trim(), 
+                    type: teiElements.get(entityName), 
+                    language: (note.getAttribute("xml:lang") === "fr") ? "fr" : "en"})
                 })
-                headings.push({heading: element.querySelector(nameAttr).textContent, content: content})
-                heading = ""
-                content = ""
               }
             }
           }
@@ -257,14 +283,25 @@ async function makeSearchIndex(reporter, graphql){
       }else{
         if(doc.querySelector('tei-body')){
           const allElements = doc.querySelector('tei-body').children
-  
+          lang = (doc.querySelector("tei-text").getAttribute("xml:lang") === "fr") ? "fr" : "en"
+
           for(element of allElements){
             if(element.tagName === 'tei-div'){
               getTEITextContent(element)
             }
           }
         }else if(doc.querySelector('tei-noteGrp')){
-          headings.push({heading: "Note", content: doc.querySelector('tei-noteGrp').textContent})
+          const allNotes = Array.from(doc.querySelector('tei-noteGrp').children)
+
+          for(noteGrp of allNotes){
+            noteGrp.querySelectorAll('tei-note').forEach(note => {
+              headings.push({
+                heading: noteGrp.getAttribute("xml:id"), 
+                content: note.textContent.replace(/\s+/g, ' ').trim(), 
+                type: "Note", 
+                language: (note.getAttribute("xml:lang") === "fr") ? "fr" : "en"})
+            })
+          }
         }
       }
 
@@ -281,14 +318,18 @@ async function makeSearchIndex(reporter, graphql){
           })
         }else{
           let content = element.textContent.trim()
+          let heading = ""
 
           if(element.querySelector("tei-head")){
-            let heading = element.querySelector("tei-head").textContent
-            content = content.substring(heading.length)
-            headings.push({heading: heading, content: content})
-          }else{
-            headings.push({heading: "", content: content})
+            heading = element.querySelector("tei-head").textContent.replace(/\s+/g, ' ').trim()
+            content = content.substring(heading.length).replace(/\s+/g, ' ').trim()
           }
+
+          headings.push({
+            heading: heading, 
+            content: content, 
+            type: "Journal Content", 
+            language: lang})
         }
       }
 
@@ -308,12 +349,14 @@ async function makeSearchIndex(reporter, graphql){
   }
 
   function indexDocument(document) {
-    const { title, headings } = document
+    const {title, headings} = document
   
     headings.forEach((headingEntry, index) => {
       search_index.add({
-        id: `${document.id}-${index}`, // Unique ID for each heading entry
+        id: `${document.id}-${index}`,
         title: title,
+        language: headingEntry.language,
+        type: headingEntry.type,
         heading: headingEntry.heading,
         content: headingEntry.content.replace(/\n+/g, ' ').trim()
       })
