@@ -3,6 +3,7 @@ const makeIndexData = require('./searchIndex.js')
 */
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
+const fs = require("fs")
 
 const MiniSearch = require('minisearch');
 
@@ -10,11 +11,26 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
   await makePages(createPage, reporter, graphql)
   await makeSynoptic(createPage, reporter, graphql)
+  
+
+  async function makeTest(createPage, reporter, graphql, search_index) {
+    const component = require.resolve(`./src/templates/search.tsx`)
+    console.log(search_index)
+    createPage({
+      path: '/search',
+      component,
+      context: {
+        search_index
+      }
+    })
+  }
+
   /*
   await getAllCETEI(reporter,graphql)
   */
   
   let search_index = await makeSearchIndex(reporter, graphql)
+  await makeTest(createPage, reporter, graphql, search_index)
 
   search_index.searchWithHeadings = function(searchTerm) {
     const results = this.search(searchTerm, {
@@ -52,7 +68,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   const searchTerm = 'Convention Nationale'
   const searchResults = search_index.searchWithHeadings(searchTerm)
-  console.log(searchResults)
+  fs.writeFileSync('test', JSON.stringify(searchResults))
 }
 
 async function makePages(createPage, reporter, graphql) {
@@ -365,3 +381,4 @@ async function makeSearchIndex(reporter, graphql){
 
   return search_index
 }
+
