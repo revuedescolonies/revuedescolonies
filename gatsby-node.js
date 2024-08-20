@@ -1,6 +1,3 @@
-/*
-const makeIndexData = require('./searchIndex.js')
-*/
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 const fs = require("fs")
@@ -13,62 +10,30 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   await makeSynoptic(createPage, reporter, graphql)
   
 
-  async function makeTest(createPage, reporter, graphql, search_index) {
+  async function makeSearchPage(createPage, reporter, graphql, search_index) {
     const component = require.resolve(`./src/templates/search.tsx`)
-    console.log(search_index)
+  
     createPage({
-      path: '/search',
+      path: '/en/search/',
       component,
       context: {
-        search_index
+        search_index,
+        language: 'en'
+      }
+    });
+  
+    createPage({
+      path: '/fr/récherche/',
+      component,
+      context: {
+        search_index,
+        language: 'fr'
       }
     })
   }
-
-  /*
-  await getAllCETEI(reporter,graphql)
-  */
   
   let search_index = await makeSearchIndex(reporter, graphql)
-  await makeTest(createPage, reporter, graphql, search_index)
-
-  search_index.searchWithHeadings = function(searchTerm) {
-    const results = this.search(searchTerm, {
-      filter: (result) => categoryTypes[result.type] === true && languages[result.language] === true
-    })
-    const newResults = []
-    results.forEach(result =>{
-      newResults.push({
-        score: result.score,
-        title: result.title,
-        language: result.language,
-        type: result.type,
-        heading: result.heading,
-        content: result.content.substring(0,200),
-      })
-    })
-    return newResults
-  }
-
-  /* Search Engine */
-
-  let categoryTypes = {
-    "Journal Content": true,
-    "Note": true,
-    "Miscellaneous": true,
-    "Person": true,
-    "Place": true,
-    "Organization": true,
-    "Bibl": true
-  }
-  let languages = {
-    "en": true,
-    "fr": true
-  }
-
-  const searchTerm = 'Convention Nationale'
-  const searchResults = search_index.searchWithHeadings(searchTerm)
-  fs.writeFileSync('test', JSON.stringify(searchResults))
+  await makeSearchPage(createPage, reporter, graphql, JSON.stringify(search_index))
 }
 
 async function makePages(createPage, reporter, graphql) {
@@ -267,6 +232,20 @@ async function makeSearchIndex(reporter, graphql){
       let headings = []
       let lang = ""
 
+      let title = ""
+      let filePathMatch = node.parent.name.match(/v(\d+)n(\d+)/)
+      if(filePathMatch){
+        const volume = filePathMatch[1]
+        const issue = filePathMatch[2]
+        title = `Volume ${volume}, Issue ${issue}`
+      }else{
+        title = node.parent.name
+      }
+
+      if(node.parent.name.indexOf("notes") !== -1){
+        title+=" Notes"
+      }
+
       if(filePath === '/entities'){
         let teiElements = new Map();
         teiElements.set("tei-person", "Person")
@@ -320,10 +299,10 @@ async function makeSearchIndex(reporter, graphql){
           }
         }
       }
-
+      
       indexDocument({
         id: filePath,
-        title: node.parent.name,
+        title: title,
         headings: headings
       })
 
