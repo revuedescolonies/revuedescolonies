@@ -100,6 +100,10 @@ export default function PageTemplate({location, data, pageContext}: Props) {
       }else{
         newTitle = result.title
         path = `${result.language}/${result.title.toLowerCase()}`
+        if(result.title === ""){
+          newTitle = "Home"
+          path = ``
+        }
       }
       newResults.push({
         score: result.score,
@@ -123,7 +127,6 @@ export default function PageTemplate({location, data, pageContext}: Props) {
     }
   }, [query, selectedCategories, selectedLanguages])
 
-  // Handle search query input and update results
   const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
     setQuery(event.target.value)
   }
@@ -283,7 +286,7 @@ export default function PageTemplate({location, data, pageContext}: Props) {
                   let currentIndex = 0
                   
                   if(query.length > 0){
-                      while (currentIndex < result.content.length && highlightedContent.length < 2000) {
+                      while (currentIndex < result.content.length) {
                         const chunk = contentLower.substring(currentIndex, currentIndex + snippetLength)
                         const queryIndex = chunk.indexOf(queryLower)
             
@@ -352,7 +355,7 @@ export default function PageTemplate({location, data, pageContext}: Props) {
                         >
                           {result.language}
                         </span>
-                        <span style={{ display: "block", fontWeight: 600, textDecoration: "underline"}} onClick={() => navigate(`/${result.path}`)}>{result.title}</span>
+                        <span style={{ display: "block", fontWeight: 600, textDecoration: "underline", cursor: "pointer"}} onClick={() => navigate(`/${result.path}`)}>{result.title}</span>
                         <p style={{ fontSize: "13px", fontWeight: 300, fontStyle: "italic"}}>{result.heading}</p>
                         <p
                           style={{ fontSize: "13px"}}
