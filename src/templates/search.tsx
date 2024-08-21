@@ -104,6 +104,11 @@ export default function PageTemplate({location, data, pageContext}: Props) {
           newTitle = "Home"
           path = ``
         }
+
+        if(result.title === "entities"){
+          newTitle = result.heading
+          result.heading = ""
+        }
       }
       newResults.push({
         score: result.score,
