@@ -232,20 +232,6 @@ async function makeSearchIndex(reporter, graphql){
       let headings = []
       let lang = ""
 
-      let title = ""
-      let filePathMatch = node.parent.name.match(/v(\d+)n(\d+)/)
-      if(filePathMatch){
-        const volume = filePathMatch[1]
-        const issue = filePathMatch[2]
-        title = `Volume ${volume}, Issue ${issue}`
-      }else{
-        title = node.parent.name
-      }
-
-      if(node.parent.name.indexOf("notes") !== -1){
-        title+=" Notes"
-      }
-
       if(filePath === '/entities'){
         let teiElements = new Map();
         teiElements.set("tei-person", "Person")
@@ -302,7 +288,7 @@ async function makeSearchIndex(reporter, graphql){
       
       indexDocument({
         id: filePath,
-        title: title,
+        title: node.parent.name,
         headings: headings
       })
 

@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Box, Container, Typography } from "@mui/material"
 import { Lang } from "../components/nav"
+import { navigate } from "gatsby"
 
 
 interface Props {
@@ -81,11 +82,29 @@ export default function PageTemplate({location, data, pageContext}: Props) {
     const results = miniSearch.search(searchQuery, {
       filter: (result) => selectedCategories.includes(result.type) && selectedLanguages.includes(result.language)
     })
-    const newResults: { score: number; title: any; language: any; type: any; heading: any; content: any; }[] = []
+    const newResults: { score: number; path: any; title: any; language: any; type: any; heading: any; content: any; }[] = []
     results.forEach(result =>{
+      let newTitle = ""
+      let filePathMatch = result.title.match(/v(\d+)n(\d+)/)
+      let path = ""
+      if(filePathMatch){
+        const volume = filePathMatch[1]
+        const issue = filePathMatch[2]
+        newTitle = `Volume ${volume}, Issue ${issue}`
+
+        if(result.title.indexOf("notes") !== -1){
+          newTitle+=" Notes"
+        }
+
+        path = result.title
+      }else{
+        newTitle = result.title
+        path = `${result.language}/${result.title.toLowerCase()}`
+      }
       newResults.push({
         score: result.score,
-        title: result.title,
+        path: path,
+        title: newTitle,
         language: result.language,
         type: result.type,
         heading: result.heading,
@@ -333,7 +352,7 @@ export default function PageTemplate({location, data, pageContext}: Props) {
                         >
                           {result.language}
                         </span>
-                        <span style={{ display: "block", fontWeight: 600, textDecoration: "underline"}}>{result.title}</span>
+                        <span style={{ display: "block", fontWeight: 600, textDecoration: "underline"}} onClick={() => navigate(`/${result.path}`)}>{result.title}</span>
                         <p style={{ fontSize: "13px", fontWeight: 300, fontStyle: "italic"}}>{result.heading}</p>
                         <p
                           style={{ fontSize: "13px"}}
