@@ -5,8 +5,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Box, Container, Typography } from "@mui/material"
 import { Lang } from "../components/nav"
-import { navigate } from "gatsby"
-
+import SearchBar from "../components/SearchBar"
+import Filter from "../components/Filter"
+import SearchResult from "../components/SearchResult"
 
 interface Props {
   location: any
@@ -14,15 +15,15 @@ interface Props {
     site: {
       siteMetadata: {
         menuLinks: {
-          en: { name: string, link: string }
-          fr: { name: string, link: string }
+          en: { name: string; link: string }
+          fr: { name: string; link: string }
         }[];
         htmlTitle: { en: string; fr: string }
       }
     }
   }
-  pageContext:{
-    search_index : any
+  pageContext: {
+    search_index: any
   }
 }
 
@@ -35,12 +36,13 @@ const categoryColors: { [key: string]: string } = {
   "Organization": "#3A6EA5",
   "Bibl": "#934D8B",
 }
+
 const languageColors: { [key: string]: string } = {
   "en": "#ad8e66",
-  "fr": "#cfaa7a"
+  "fr": "#cfaa7a",
 }
 
-export default function PageTemplate({location, data, pageContext}: Props) {
+export default function PageTemplate({ location, data, pageContext }: Props) {
   const categories = [
     "Journal Content",
     "Note",
@@ -48,21 +50,17 @@ export default function PageTemplate({location, data, pageContext}: Props) {
     "Person",
     "Place",
     "Organization",
-    "Bibl"
+    "Bibl",
   ]
 
-  const loc = decodeURIComponent(location.pathname) 
-  let curLang: Lang = "en" 
-  
+  const languages = ["en", "fr"]
+
+  const loc = decodeURIComponent(location.pathname)
+  let curLang: Lang = "en"
+
   for (const ml of data.site.siteMetadata.menuLinks) {
     if (ml["fr"].link === loc) curLang = "fr"
   }
-
-  const homePageTitle = location.pathname === "/" || location.pathname.match(/fr\/?$/) ? <Typography variant="h3" component="h1" gutterBottom={false} dangerouslySetInnerHTML={
-    {__html: data.site.siteMetadata.htmlTitle[curLang]}
-  } /> : ""
-
-  const languages = ["en", "fr"]
 
   const [query, setQuery] = useState("")
   const [results, setResults] = useState<any[]>([])
@@ -71,55 +69,54 @@ export default function PageTemplate({location, data, pageContext}: Props) {
 
   const miniSearch = MiniSearch.loadJSON(pageContext.search_index, {
     fields: ["title", "heading", "content"],
-    storeFields: ["title", "heading", "content", "type", "language"], 
+    storeFields: ["title", "heading", "content", "type", "language"],
     searchOptions: {
       prefix: true,
       fuzzy: 0.2,
-    }
+    },
   })
 
-  function searchWithHeadings(searchQuery: string){
+  function searchWithHeadings(searchQuery: string) {
     const results = miniSearch.search(searchQuery, {
-      filter: (result) => selectedCategories.includes(result.type) && selectedLanguages.includes(result.language)
+      filter: (result) => selectedCategories.includes(result.type) && selectedLanguages.includes(result.language),
     })
-    const newResults: { score: number; path: any; title: any; language: any; type: any; heading: any; content: any; }[] = []
-    results.forEach(result =>{
+
+    const newResults = results.map((result) => {
       let newTitle = ""
-      let filePathMatch = result.title.match(/v(\d+)n(\d+)/)
       let path = ""
-      if(filePathMatch){
+
+      const filePathMatch = result.title.match(/v(\d+)n(\d+)/)
+      if (filePathMatch) {
         const volume = filePathMatch[1]
         const issue = filePathMatch[2]
         newTitle = `Volume ${volume}, Issue ${issue}`
-
-        if(result.title.indexOf("notes") !== -1){
-          newTitle+=" Notes"
+        if (result.title.indexOf("notes") !== -1) {
+          newTitle += " Notes"
         }
-
         path = result.title
-      }else{
+      } else {
         newTitle = result.title
         path = `${result.language}/${result.title.toLowerCase()}`
-        if(result.title === ""){
+        if (result.title === "") {
           newTitle = "Home"
           path = ``
         }
-
-        if(result.title === "entities"){
+        if (result.title === "entities") {
           newTitle = result.heading
           result.heading = ""
         }
       }
-      newResults.push({
+      return {
         score: result.score,
         path: path,
         title: newTitle,
         language: result.language,
         type: result.type,
         heading: result.heading,
-        content: result.content
-      })
+        content: result.content,
+      }
     })
+
     return newResults
   }
 
@@ -136,247 +133,57 @@ export default function PageTemplate({location, data, pageContext}: Props) {
     setQuery(event.target.value)
   }
 
-  const handleCategoryChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const category = event.target.value
-    setSelectedCategories((prevSelected) =>
-      prevSelected.includes(category)
-        ? prevSelected.filter((item) => item !== category)
-        : [...prevSelected, category]
-    )
-  }
-
-  const handleLanguageChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const language = event.target.value
-    setSelectedLanguages((prevSelected) =>
-      prevSelected.includes(language)
-        ? prevSelected.filter((item) => item !== language)
-        : [...prevSelected, language]
-    )
+  const handleFilterChange = (type: string) => (event: React.ChangeEvent<HTMLInputElement>) => {
+    const value = event.target.value
+    if (type === "category") {
+      setSelectedCategories((prevSelected) =>
+        prevSelected.includes(value)
+          ? prevSelected.filter((item) => item !== value)
+          : [...prevSelected, value]
+      )
+    } else if (type === "language") {
+      setSelectedLanguages((prevSelected) =>
+        prevSelected.includes(value)
+          ? prevSelected.filter((item) => item !== value)
+          : [...prevSelected, value]
+      )
+    }
   }
 
   return (
     <Layout location={location.pathname}>
       <SEO title="Search Results" lang={curLang} />
-
       <Container component="main" maxWidth="md">
-        <Box sx={{ display: "flex", flexDirection: "column", gap: 2, marginTop: 4}}>
+        <Box sx={{ display: "flex", flexDirection: "column", gap: 2, marginTop: 4 }}>
           <Box sx={{ display: "flex", justifyContent: "center" }}>
-            <input
-              type="text"
-              placeholder="Search..."
-              value={query}
-              onChange={handleSearch}
-              style={{ width: "100%", padding: "7px", fontSize: "16px" }}
-            />
+            <SearchBar query={query} onSearch={handleSearch} />
           </Box>
-
-          <Box sx={{ display: "grid", gridTemplateColumns: "1fr 3fr", gridGap: 4 }}>
-            <Box sx={{ display: "flex", flexDirection: "column"}}>
-              <Box
-                  sx={{
-                    padding: "10px 12px",
-                    border: "1px dotted #d8d8d8",
-                    backgroundColor: "#fff",
-                  }}
-                >
-                  <Typography
-                    sx={{
-                      color: "#333333",
-                      fontSize: "13px",
-                      fontWeight: 600,
-                      textTransform: "uppercase",
-                    }}
-                  >
-                    Filter by Categories:
-                  </Typography>
-                  
-                  {categories.map((category) => (
-                    <Box
-                      key={category}
-                      sx={{
-                        display: "grid",
-                        gridTemplateColumns: "25px 7fr 1fr",
-                        gridColumnGap: "0.25rem",
-                        gridRowGap: "1rem",
-                        padding: "4px 0",
-                        fontSize: "9pt",
-                        borderBottom: "1px solid #dedede",
-                      }}
-                    >
-                      <input
-                        type="checkbox"
-                        value={category}
-                        onChange={handleCategoryChange}
-                        checked={selectedCategories.includes(category)}
-                        style={{ justifySelf: "start" }}
-                      />
-                      <label
-                        style={{
-                          whiteSpace: "nowrap",
-                          textOverflow: "ellipsis",
-                          overflow: "hidden",
-                          fontSize: "15px"
-                        }}
-                      >
-                        {category}
-                      </label>
-                    </Box>
-                  ))}
-              </Box>
-              
-              <Box
-                  sx={{
-                    padding: "10px 12px",
-                    border: "1px dotted #d8d8d8",
-                    backgroundColor: "#fff",
-                    marginTop: "8px"
-                  }}
-                >
-                  <Typography
-                    sx={{
-                      color: "#333333",
-                      fontSize: "13px",
-                      fontWeight: 600,
-                      textTransform: "uppercase",
-                    }}
-                  >
-                    Filter by Languages:
-                  </Typography>
-                  
-                  {languages.map((language) => (
-                    <Box
-                      key={language}
-                      sx={{
-                        display: "grid",
-                        gridTemplateColumns: "25px 7fr 1fr",
-                        gridColumnGap: "0.25rem",
-                        gridRowGap: "1rem",
-                        padding: "4px 0",
-                        fontSize: "9pt",
-                        borderBottom: "1px solid #dedede",
-                      }}
-                    >
-                      <input
-                        type="checkbox"
-                        value={language}
-                        onChange={handleLanguageChange}
-                        checked={selectedLanguages.includes(language)}
-                        style={{ justifySelf: "start" }}
-                      />
-                      <label
-                        style={{
-                          whiteSpace: "nowrap",
-                          textOverflow: "ellipsis",
-                          overflow: "hidden",
-                          fontSize: "15px"
-                        }}
-                      >
-                        {language}
-                      </label>
-                    </Box>
-                  ))}
-              </Box>
+          <Box sx={{ display: "grid", gridTemplateColumns: "1fr 3fr", gridGap: 8 }}>
+            <Box sx={{ display: "flex", flexDirection: "column" }}>
+              <Filter
+                title="Filter by Categories:"
+                items={categories}
+                selectedItems={selectedCategories}
+                onItemChange={handleFilterChange("category")}
+              />
+              <Filter
+                title="Filter by Languages:"
+                items={languages}
+                selectedItems={selectedLanguages}
+                onItemChange={handleFilterChange("language")}
+              />
             </Box>
-
-            <Box 
-              sx={{
-                    backgroundColor: "#fff"
-                  }}>
-              <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
-                {results.map((result, index) => {
-                  let highlightedContent = ""
-                  const snippetLength = 60
-                  const queryLower = query.toLowerCase()
-                  const contentLower = result.content.toLowerCase()
-                  let currentIndex = 0
-                  
-                  if(query.length > 0){
-                      while (currentIndex < result.content.length) {
-                        const chunk = contentLower.substring(currentIndex, currentIndex + snippetLength)
-                        const queryIndex = chunk.indexOf(queryLower)
-            
-                        if (queryIndex !== -1) {
-                          const start = Math.max(currentIndex + queryIndex - snippetLength, 0)
-                          const end = Math.min(currentIndex + queryIndex + query.length + snippetLength, result.content.length)
-                          const snippet = result.content.substring(start, end)
-            
-                          highlightedContent += snippet.replace(
-                            new RegExp(`(${query})`, "gi"),
-                            (match: any) => `<span style="background-color: #ffd50047; color: #000">${match}</span>`
-                          )
-            
-                          if (end < result.content.length) {
-                            highlightedContent += "...";
-                          }
-            
-                          currentIndex = end;
-                        } else {
-                          currentIndex += snippetLength;
-                        }
-                      }
-            
-          
-                    return (
-                      <Box
-                        key={index}
-                        sx={{
-                          padding: "15px",
-                          border: "1px solid #ececec",
-                          fontSize: "15px",
-                          lineHeight: "1.5",
-                        }}
-                      >
-                        
-                        <span
-                          style={{
-                            display: "inline-block",
-                            padding: ".2em .6em .3em",
-                            marginBottom: "10px",
-                            borderRadius: ".25em",
-                            fontSize: "75%",
-                            fontWeight: "bold",
-                            lineHeight: "1",
-                            textTransform: "uppercase",
-                            color: "#fff",
-                            backgroundColor: categoryColors[result.type] || "#000",
-                          }}
-                        >
-                          {result.type}
-                        </span>
-                        <span
-                          style={{
-                            display: "inline-block",
-                            padding: ".2em .6em .3em",
-                            marginBottom: "10px",
-                            marginLeft: "3px",
-                            borderRadius: ".25em",
-                            fontSize: "75%",
-                            fontWeight: "bold",
-                            lineHeight: "1",
-                            textTransform: "uppercase",
-                            color: "#fff",
-                            backgroundColor: languageColors[result.language] || "#000",
-                          }}
-                        >
-                          {result.language}
-                        </span>
-                        <span style={{ display: "block", fontWeight: 600, textDecoration: "underline", cursor: "pointer"}} onClick={() => navigate(`/${result.path}`)}>{result.title}</span>
-                        <p style={{ fontSize: "13px", fontWeight: 300, fontStyle: "italic"}}>{result.heading}</p>
-                        <p
-                          style={{ fontSize: "13px"}}
-                          dangerouslySetInnerHTML={{ __html: highlightedContent }}
-                        ></p>
-                      </Box>
-                    )
-                  }
-                  })}
-              </div>
-            </Box>
+            <SearchResult
+              results={results}
+              query={query}
+              categoryColors={categoryColors}
+              languageColors={languageColors}
+            />
           </Box>
         </Box>
       </Container>
     </Layout>
-  );
+  )
 }
 
 export const pageQuery = graphql`
