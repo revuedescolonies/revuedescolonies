@@ -1,5 +1,6 @@
 const jsdom = require("jsdom")
 const {JSDOM} = jsdom;
+const crypto = require('crypto')
 
 const indexObj = {
     "persons":[],
@@ -8,7 +9,7 @@ const indexObj = {
     "bibl":[]
 }
 
-async function makeIndexData(reporter, graphql) {
+async function makeIndexData(actions,reporter, graphql) {
     const mdData = await graphql(`
         query {
           allMarkdownRemark {
@@ -46,6 +47,26 @@ async function makeIndexData(reporter, graphql) {
   }
   parseXMLData(xmlData)
   parseMarkDownData(mdData)
+  writeDataToGraphQLLayer(actions);
+}
+
+const writeDataToGraphQLLayer =  (actions) => {
+    const { createNode } = actions;
+    const contentDigest = crypto.createHash('md5').update(JSON.stringify(indexObj)).digest('hex');
+    
+    
+    createNode({
+        ...indexObj,
+        id: "allIndexData1",
+        parent: null,
+        children:[],
+        internal: {
+            type: 'indexData',
+            contentDigest: contentDigest,
+        }
+    })
+
+    
 }
 
 const parseXMLData = (xmlData) => {
@@ -70,10 +91,12 @@ const parseXMLData = (xmlData) => {
 
     teiXml.forEach((teiDoc) => {
         const tei = new JSDOM(teiDoc.original, {contentType:'text/xml'}).window.document;
+        const docName = teiDoc.parent;
         if(tei) {
-            findOccurences(tei,indexObj.persons,"persName","ref")
-            findOccurences(tei,indexObj.places,"placeName","ref")
-            findOccurences(tei,indexObj.org,"orgName","ref")
+            findOccurences(tei,indexObj.persons,"persName","ref",docName)
+            findOccurences(tei,indexObj.places,"placeName","ref",docName)
+            findOccurences(tei,indexObj.org,"orgName","ref",docName)
+            findOccurences(tei,indexObj.bibl,"title","ref",docName)
         }
     })
 }
@@ -107,10 +130,16 @@ const parseEntityTag = (entityString,tagName,entityName,nameAttr,idAttr) => {
 }
 
 //for parsing tei xml files 
-const findOccurences = (teiXMLString, entities, tagName, ref) => {
-    const teiDoc = teiXMLString.querySelector("TEI")
+const findOccurences = (teiXMLString, entities, tagName, ref,docName) => {
+    const teiHeader = teiXMLString.querySelector("teiHeader")
+    let pageName = "pagename"
+    if(teiHeader) {
+        let titleSmt = teiHeader.querySelector("titleStmt")
+        pageName = titleSmt.querySelector("title").textContent
+    }
     let occurenceObj = {
-        "teiID": "ABC"
+        "pageName": pageName,
+        "pageLink": docName.name
     }
     if(teiXMLString.querySelectorAll(tagName)) {
         teiXMLString.querySelectorAll(tagName).forEach((tag) => {

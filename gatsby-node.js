@@ -7,7 +7,30 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
   await makePages(createPage, reporter, graphql)
   await makeSynoptic(createPage, reporter, graphql)
-  await getAllCETEI(reporter,graphql)
+  await getAllCETEI(actions,reporter,graphql)
+}
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  createTypes(`
+    type Occurence {
+        pageName: String!
+        pageLink: String!
+    }
+
+    type index {
+        id: String!
+        name: String!
+        occurrences: [Occurence!]!
+    }
+    
+    type indexData implements Node {
+        persons: [index!]!
+        org: [index!]!
+        places: [index!]!
+        bibl: [index!]!
+    }
+    `)
 }
 
 async function makePages(createPage, reporter, graphql) {
@@ -44,9 +67,9 @@ async function makePages(createPage, reporter, graphql) {
   })
 }
 
-async function getAllCETEI(reporter, graphql) {
+async function getAllCETEI(actions,reporter, graphql) {
   
-  await makeIndexData(reporter,graphql)
+  await makeIndexData(actions,reporter,graphql)
 
 }
 
@@ -68,6 +91,7 @@ async function makeSynoptic(createPage, reporter, graphql) {
       }
     }
   `)
+
   if (result.errors) {
     reporter.panicOnBuild(`Error while running GraphQL query.`)
     return
