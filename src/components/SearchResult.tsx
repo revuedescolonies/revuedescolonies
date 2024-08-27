@@ -108,7 +108,7 @@ const SearchResult: React.FC<SearchResultProps> = ({
                   textDecoration: "underline",
                   cursor: "pointer",
                 }}
-                onClick={() => navigate(`/${result.path}`)}
+                onClick={() => {if(result.path !== `entities`){navigate(`/${result.path}`)}}}
               >
                 {result.title}
               </span>

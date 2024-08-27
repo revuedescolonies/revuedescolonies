@@ -104,6 +104,7 @@ export default function PageTemplate({ location, data, pageContext }: Props) {
         if (result.title === "entities") {
           newTitle = result.heading
           result.heading = ""
+          path = `entities`
         }
       }
       return {
