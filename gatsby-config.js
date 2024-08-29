@@ -79,6 +79,16 @@ module.exports = {
           name: 'édition',
           link: '/fr/sommaire/'
         }
+      },
+      {
+        en: {
+          name: 'index',
+          link: '/appendix'
+        },
+        fr:{
+          name:'indice',
+          link:'/appendix'
+        }
       }
     ]
   },
