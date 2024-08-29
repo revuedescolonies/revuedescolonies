@@ -1,15 +1,14 @@
+const makeIndexData = require('./searchIndex.js')
+const { graphql } = require("gatsby");
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
-const fs = require("fs")
-
+const fs = require("fs");
 const MiniSearch = require('minisearch');
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
   await makePages(createPage, reporter, graphql)
   await makeSynoptic(createPage, reporter, graphql)
-  
-
   async function makeSearchPage(createPage, reporter, graphql, search_index) {
     const component = require.resolve(`./src/templates/search.tsx`)
   
@@ -34,6 +33,30 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   
   let search_index = await makeSearchIndex(reporter, graphql)
   await makeSearchPage(createPage, reporter, graphql, JSON.stringify(search_index))
+  await getAllCETEI(actions,reporter,graphql)
+}
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  createTypes(`
+    type Occurence {
+        pageName: String!
+        pageLink: String!
+    }
+
+    type index {
+        id: String!
+        name: String!
+        occurrences: [Occurence!]!
+    }
+    
+    type indexData implements Node {
+        persons: [index!]!
+        org: [index!]!
+        places: [index!]!
+        bibl: [index!]!
+    }
+    `)
 }
 
 async function makePages(createPage, reporter, graphql) {
@@ -70,11 +93,12 @@ async function makePages(createPage, reporter, graphql) {
   })
 }
 
-/*
-async function getAllCETEI(reporter, graphql) {
-  await makeIndexData(reporter,graphql)
+
+async function getAllCETEI(actions,reporter, graphql) {
+  
+  await makeIndexData(actions,reporter,graphql)
+
 }
-*/
 
 async function makeSynoptic(createPage, reporter, graphql) {
   const component = require.resolve(`./src/gatsby-theme-ceteicean/components/Ceteicean.tsx`)
@@ -94,6 +118,7 @@ async function makeSynoptic(createPage, reporter, graphql) {
       }
     }
   `)
+
   if (result.errors) {
     reporter.panicOnBuild(`Error while running GraphQL query.`)
     return

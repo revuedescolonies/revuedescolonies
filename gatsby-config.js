@@ -89,6 +89,16 @@ module.exports = {
           name: 'récherche',
           link: '/fr/récherche/'
         }
+      },
+      {
+        en: {
+          name: 'index',
+          link: '/appendix'
+        },
+        fr:{
+          name:'indice',
+          link:'/appendix'
+        }
       }
     ]
   },
