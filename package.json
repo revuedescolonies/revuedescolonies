@@ -11,6 +11,10 @@
     "@mui/material": "^5.14.13",
     "@mui/styles": "^5.14.13",
     "@types/react-helmet": "^6.1.7",
+    "@types/unist": "^3.0.2",
+    "@types/xast": "^2.0.4",
+    "crypto": "^1.0.1",
+    "fast-xml-parser": "^4.4.0",
     "gatsby": "^5.12.6",
     "gatsby-plugin-emotion": "^8.12.0",
     "gatsby-plugin-google-gtag": "^5.12.1",
@@ -22,20 +26,28 @@
     "gatsby-theme-ceteicean": "^3.2.1",
     "gatsby-transformer-remark": "6.12.1",
     "gatsby-transformer-sharp": "^5.12.1",
+    "lunr": "^2.3.9",
+    "minisearch": "^7.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
-    "react-teirouter": "^3.0.0"
+    "react-teirouter": "^3.0.0",
+    "remark": "^15.0.1",
+    "xast-util-from-xml": "^4.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.28",
     "@types/react-dom": "^18.2.13",
     "@typescript-eslint/eslint-plugin": "^6.7.5",
     "@typescript-eslint/parser": "^6.7.5",
+    "babel-jest": "^29.7.0",
+    "babel-preset-gatsby": "^3.13.2",
     "eslint": "^8.51.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
     "gatsby-plugin-netlify": "^5.1.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
     "jsdom": "^22.1.0",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2",
@@ -46,6 +58,7 @@
     "clean": "gatsby clean",
     "develop": "gatsby develop",
     "metadata": "node scripts/metadata.js",
-    "doi": "node scripts/doi.js"
+    "doi": "node scripts/doi.js",
+    "test": "jest"
   }
 }
