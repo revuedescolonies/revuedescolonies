@@ -67,7 +67,7 @@ export default function PageTemplate({ location, data, pageContext }: Props) {
   const [selectedCategories, setSelectedCategories] = useState<string[]>(categories)
   const [selectedLanguages, setSelectedLanguages] = useState<string[]>(languages)
   const [currentPage, setCurrentPage] = useState(1)
-  const [resultsPerPage] = useState(10) // Adjust this number as needed
+  const [resultsPerPage] = useState(10)
 
   const miniSearch = MiniSearch.loadJSON(pageContext.search_index, {
     fields: ["title", "heading", "content"],
