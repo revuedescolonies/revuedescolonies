@@ -1,5 +1,5 @@
 import React from "react"
-import { Box } from "@mui/material"
+import { Box, Chip, Typography } from "@mui/material"
 import { navigate } from "gatsby"
 
 interface SearchResultProps {
@@ -26,8 +26,8 @@ const SearchResult: React.FC<SearchResultProps> = ({
   const snippetLength = 60
 
   return (
-    <Box sx={{ backgroundColor: "#fff", marginTop: 1}}>
-      <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+    <Box sx={{ backgroundColor: "#fff", marginTop: 1 }}>
+      <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
         {results.map((result, index) => {
           let highlightedContent = ""
           const queryLower = query.toLowerCase()
@@ -46,7 +46,7 @@ const SearchResult: React.FC<SearchResultProps> = ({
               highlightedContent += snippet.replace(
                 new RegExp(`(${query})`, "gi"),
                 (match) => `<span style="background-color: #ffd50047; color: #000">${match}</span>`
-              );
+              )
 
               if (end < result.content.length) {
                 highlightedContent += "..."
@@ -62,64 +62,70 @@ const SearchResult: React.FC<SearchResultProps> = ({
             <Box
               key={index}
               sx={{
-                padding: "15px",
+                padding: 2,
                 border: "1px solid #ececec",
                 fontSize: "15px",
-                lineHeight: "1.5",
+                lineHeight: 1.5,
+                backgroundColor: "#f9f9f9",
+                borderRadius: 1,
               }}
             >
-              <span
-                style={{
-                  display: "inline-block",
-                  padding: ".2em .6em .3em",
-                  marginBottom: "10px",
-                  borderRadius: ".25em",
-                  fontSize: "75%",
-                  fontWeight: "bold",
-                  lineHeight: "1",
-                  textTransform: "uppercase",
-                  color: "#fff",
-                  backgroundColor: categoryColors[result.type] || "#000",
-                }}
-              >
-                {result.type}
-              </span>
-              <span
-                style={{
-                  display: "inline-block",
-                  padding: ".2em .6em .3em",
-                  marginBottom: "10px",
-                  marginLeft: "3px",
-                  borderRadius: ".25em",
-                  fontSize: "75%",
-                  fontWeight: "bold",
-                  lineHeight: "1",
-                  textTransform: "uppercase",
-                  color: "#fff",
-                  backgroundColor: languageColors[result.language] || "#000",
-                }}
-              >
-                {result.language}
-              </span>
-              <span
-                style={{
-                  display: "block",
+              <Box sx={{ display: "flex", gap: 1, marginBottom: 1 }}>
+                <Chip
+                  label={result.type}
+                  sx={{
+                    backgroundColor: categoryColors[result.type] || "#000",
+                    color: "#fff",
+                    fontSize: "0.7rem",
+                    fontWeight: "bold",
+                    textTransform: "uppercase",
+                  }}
+                  size="small"
+                />
+                <Chip
+                  label={result.language}
+                  sx={{
+                    backgroundColor: languageColors[result.language] || "#000",
+                    color: "#fff",
+                    fontSize: "0.7rem",
+                    fontWeight: "bold",
+                    textTransform: "uppercase",
+                  }}
+                  size="small"
+                />
+              </Box>
+              <Typography
+                fontSize={"18px"}
+                component="div"
+                sx={{
                   fontWeight: 600,
                   textDecoration: "underline",
                   cursor: "pointer",
+                  marginBottom: -2.5
                 }}
-                onClick={() => {if(result.path !== `entities`){navigate(`/${result.path}`)}}}
+                onClick={() => {
+                  if (result.path !== `entities`) {
+                    navigate(`/${result.path}`)
+                  }
+                }}
               >
                 {result.title}
-              </span>
-              <p style={{ fontSize: "13px", fontWeight: 300, fontStyle: "italic" }}>
+              </Typography>
+              <Typography
+                variant="body2"
+                sx={{ fontSize: "0.875rem", fontStyle: "italic", fontWeight: 300}}
+              >
                 {result.heading}
-              </p>
-              <p style={{ fontSize: "13px" }} dangerouslySetInnerHTML={{ __html: highlightedContent }}></p>
+              </Typography>
+              <Typography
+                variant="body2"
+                sx={{ fontSize: "0.875rem" }}
+                dangerouslySetInnerHTML={{ __html: highlightedContent }}
+              ></Typography>
             </Box>
           )
         })}
-      </div>
+      </Box>
     </Box>
   )
 }

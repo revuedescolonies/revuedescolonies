@@ -1,4 +1,5 @@
 import React from "react"
+import { TextField, Box } from "@mui/material"
 
 interface SearchBarProps {
   query: string
@@ -7,13 +8,26 @@ interface SearchBarProps {
 
 const SearchBar: React.FC<SearchBarProps> = ({ query, onSearch }) => {
   return (
-    <input
-      type="text"
-      placeholder="Search..."
-      value={query}
-      onChange={onSearch}
-      style={{ width: "100%", padding: "7px", fontSize: "16px" }}
-    />
+    <Box sx={{ width: "100%" }}>
+      <TextField
+        variant="outlined"
+        placeholder="Search..."
+        value={query}
+        onChange={onSearch}
+        fullWidth
+        sx={{
+          '& .MuiOutlinedInput-root': {
+            height: 40,
+            padding: 0,
+          },
+          '& .MuiInputBase-input': {
+            padding: "8px 14px",
+            fontSize: "16px",
+            lineHeight: 1.5,
+          },
+        }}
+      />
+    </Box>
   )
 }
 
