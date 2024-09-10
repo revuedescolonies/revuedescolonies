@@ -3,7 +3,7 @@ import MiniSearch from "minisearch"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Box, Container, Typography } from "@mui/material"
+import { Box, Container, Pagination } from "@mui/material"
 import { Lang } from "../components/nav"
 import SearchBar from "../components/SearchBar"
 import Filter from "../components/Filter"
@@ -66,6 +66,8 @@ export default function PageTemplate({ location, data, pageContext }: Props) {
   const [results, setResults] = useState<any[]>([])
   const [selectedCategories, setSelectedCategories] = useState<string[]>(categories)
   const [selectedLanguages, setSelectedLanguages] = useState<string[]>(languages)
+  const [currentPage, setCurrentPage] = useState(1)
+  const [resultsPerPage] = useState(10)
 
   const miniSearch = MiniSearch.loadJSON(pageContext.search_index, {
     fields: ["title", "heading", "content"],
@@ -130,6 +132,14 @@ export default function PageTemplate({ location, data, pageContext }: Props) {
     }
   }, [query, selectedCategories, selectedLanguages])
 
+  function getPaginatedResults(results: any[]) {
+    const startIndex = (currentPage - 1) * resultsPerPage
+    const endIndex = startIndex + resultsPerPage
+    return results.slice(startIndex, endIndex)
+  }
+
+  const paginatedResults = getPaginatedResults(results)
+
   const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
     setQuery(event.target.value)
   }
@@ -150,6 +160,12 @@ export default function PageTemplate({ location, data, pageContext }: Props) {
       )
     }
   }
+
+  const handlePageChange = (_event: React.ChangeEvent<unknown>, page: number) => {
+    setCurrentPage(page);
+  }
+
+  const totalPages = Math.ceil(results.length / resultsPerPage)
 
   return (
     <Layout location={location.pathname}>
@@ -174,12 +190,26 @@ export default function PageTemplate({ location, data, pageContext }: Props) {
                 onItemChange={handleFilterChange("language")}
               />
             </Box>
-            <SearchResult
-              results={results}
-              query={query}
-              categoryColors={categoryColors}
-              languageColors={languageColors}
-            />
+            <Box>
+              <SearchResult
+                results={paginatedResults}
+                query={query}
+                categoryColors={categoryColors}
+                languageColors={languageColors}
+              />
+              {results.length > 0 && (
+                <Box sx={{ display: "flex", justifyContent: "center", marginTop: 2 }}>
+                  <Pagination
+                    count={totalPages}
+                    page={currentPage}
+                    onChange={handlePageChange}
+                    color="primary"
+                    showFirstButton 
+                    showLastButton
+                  />
+                </Box>
+              )}
+            </Box>
           </Box>
         </Box>
       </Container>

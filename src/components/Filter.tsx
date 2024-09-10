@@ -1,5 +1,5 @@
 import React from "react"
-import { Box, Typography } from "@mui/material"
+import { Box, Checkbox, FormControlLabel, Typography } from "@mui/material"
 
 interface FilterProps {
   title: string
@@ -23,41 +23,39 @@ const Filter: React.FC<FilterProps> = ({ title, items, selectedItems, onItemChan
           color: "#333333",
           fontSize: "13px",
           fontWeight: 600,
-          textTransform: "uppercase",
+          textTransform: "uppercase"
         }}
       >
         {title}
       </Typography>
-      {items.map((item) => (
+      {items.map((item, index) => (
         <Box
           key={item}
           sx={{
             display: "grid",
-            gridTemplateColumns: "25px 7fr 1fr",
+            gridTemplateColumns: "auto 1fr",
             gridColumnGap: "0.25rem",
             gridRowGap: "1rem",
             padding: "4px 0",
-            fontSize: "9pt",
-            borderBottom: "1px solid #dedede",
+            borderBottom: index != items.length-1 ? "solid #dedede" : ""
           }}
         >
-          <input
-            type="checkbox"
-            value={item}
-            onChange={onItemChange}
-            checked={selectedItems.includes(item)}
-            style={{ justifySelf: "start" }}
+          <FormControlLabel
+            control={<Checkbox
+              value={item}
+              checked={selectedItems.includes(item)}
+              onChange={onItemChange} />}
+              slotProps={{
+                typography:{
+                  whiteSpace: "nowrap",
+                  textOverflow: "ellipsis",
+                  fontSize: "15px",
+                  marginBottom:-2
+                }
+              }}
+              label={item}          
           />
-          <label
-            style={{
-              whiteSpace: "nowrap",
-              textOverflow: "ellipsis",
-              overflow: "hidden",
-              fontSize: "15px",
-            }}
-          >
-            {item}
-          </label>
+
         </Box>
       ))}
     </Box>
