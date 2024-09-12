@@ -103,7 +103,7 @@ async function makeIndices(createPage, reporter, graphql) {
   const component = require.resolve(`./src/templates/indices.tsx`)
   const entityComponent = require.resolve(`./src/templates/entities.tsx`)
 
-  const parseEntityTag = (entityString,tagName,entityName,nameAttr,idAttr) => {
+  const parseEntityTag = (entityString, tagName, entityName, nameAttr, idAttr) => {
     const lists = entityString.querySelector(tagName);
 
     if(lists) {
@@ -126,29 +126,29 @@ async function makeIndices(createPage, reporter, graphql) {
   }
 
   //for parsing tei xml files 
-  const findOccurences = (teiXMLString, entities, tagName, ref,docName) => {
-      const teiHeader = teiXMLString.querySelector("teiHeader")
-      let pageName = "pagename"
-      if(teiHeader) {
-          let titleSmt = teiHeader.querySelector("titleStmt")
-          pageName = titleSmt.querySelector("title").textContent
+  const findOccurences = (teiXMLString, entities, tagName, ref, docName) => {
+    const teiHeader = teiXMLString.querySelector("teiHeader")
+    let pageName = "pagename"
+    if(teiHeader) {
+      let titleSmt = teiHeader.querySelector("titleStmt")
+      pageName = titleSmt.querySelector("title").textContent
+    }
+    let occurenceObj = {
+      "pageName": pageName,
+      "pageLink": docName.name
+    }
+    const entityEls = teiXMLString.querySelectorAll(tagName);
+    
+    entityEls.forEach((tag) => {
+      let refValue = tag.getAttribute(ref)
+      // if (tagName === "persName") console.log(refValue, docName.name);
+      if (refValue) {
+        const entity = entities.find((entity)=>entity.id === refValue.substring(1))
+        if(entity) {
+            entity.occurrences.push(occurenceObj)
+        }
       }
-      let occurenceObj = {
-          "pageName": pageName,
-          "pageLink": docName.name
-      }
-      if(teiXMLString.querySelectorAll(tagName)) {
-          teiXMLString.querySelectorAll(tagName).forEach((tag) => {
-              let refValue = tag.getAttribute(ref)
-              if(refValue) {
-                  refValue = refValue.substring(1)
-                  const entity = entities.find((entity)=>entity.id === refValue)
-                  if(entity) {
-                      entity.occurrences.push(occurenceObj)
-                  }
-              }
-          })
-      }
+    })
   }
 
   const result = await graphql(`
@@ -179,7 +179,7 @@ async function makeIndices(createPage, reporter, graphql) {
     "bibl":[]
   }
 
-  const entitiesNode = result.data.allCetei.nodes.find(n => n.elements.includes("tei-person"));
+  const entitiesNode = result.data.allCetei.nodes.find(n => n.original.includes(`xml:id="entities"`));
   const entityDoc = new JSDOM(entitiesNode.original, {contentType:'text/xml'}).window.document;
   indexObj.persons  = parseEntityTag(entityDoc,"listPerson","person","persName","xml:id")
   indexObj.places   = parseEntityTag(entityDoc,"listPlace","place","placeName","xml:id")
@@ -187,7 +187,7 @@ async function makeIndices(createPage, reporter, graphql) {
   indexObj.bibl     = parseEntityTag(entityDoc,"listBibl","bibl","title","xml:id")
 
   for (const document of result.data.allCetei.nodes) {
-    if (!document.elements.includes("tei-person")) {
+    if (document.original.includes(`xml:id="RdC`)) {
       const tei = new JSDOM(document.original, {contentType:'text/xml'}).window.document;
       const docName = document.parent;
       if(tei) {
