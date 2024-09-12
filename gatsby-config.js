@@ -93,11 +93,11 @@ module.exports = {
       {
         en: {
           name: 'index',
-          link: '/appendix'
+          link: '/en/index'
         },
         fr:{
-          name:'indice',
-          link:'/appendix'
+          name:'index',
+          link:'/fr/index'
         }
       }
     ]

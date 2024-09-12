@@ -1,40 +1,7 @@
-const makeIndexData = require('./searchIndex.js')
-const { graphql } = require("gatsby");
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
-const fs = require("fs");
+const crypto = require('crypto')
 const MiniSearch = require('minisearch');
-
-exports.createPages = async ({ actions, graphql, reporter }) => {
-  const { createPage } = actions
-  await makePages(createPage, reporter, graphql)
-  await makeSynoptic(createPage, reporter, graphql)
-  async function makeSearchPage(createPage, reporter, graphql, search_index) {
-    const component = require.resolve(`./src/templates/search.tsx`)
-  
-    createPage({
-      path: '/en/search/',
-      component,
-      context: {
-        search_index,
-        language: 'en'
-      }
-    });
-  
-    createPage({
-      path: '/fr/récherche/',
-      component,
-      context: {
-        search_index,
-        language: 'fr'
-      }
-    })
-  }
-  
-  let search_index = await makeSearchIndex(reporter, graphql)
-  await makeSearchPage(createPage, reporter, graphql, JSON.stringify(search_index))
-  await getAllCETEI(actions,reporter,graphql)
-}
 
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions;
@@ -57,6 +24,38 @@ exports.createSchemaCustomization = ({ actions }) => {
         bibl: [index!]!
     }
     `)
+}
+
+exports.createPages = async ({ actions, graphql, reporter }) => {
+  const { createPage } = actions
+  await makePages(createPage, reporter, graphql)
+  await makeSynoptic(createPage, reporter, graphql)
+  await makeIndices(createPage, reporter, graphql)
+
+  let search_index = await makeSearchIndex(reporter, graphql)
+  await makeSearchPage(createPage, JSON.stringify(search_index))
+}
+
+async function makeSearchPage(createPage, search_index) {
+  const component = require.resolve(`./src/templates/search.tsx`)
+
+  createPage({
+    path: '/en/search/',
+    component,
+    context: {
+      search_index,
+      language: 'en'
+    }
+  });
+
+  createPage({
+    path: '/fr/récherche/',
+    component,
+    context: {
+      search_index,
+      language: 'fr'
+    }
+  })
 }
 
 async function makePages(createPage, reporter, graphql) {
@@ -93,12 +92,125 @@ async function makePages(createPage, reporter, graphql) {
   })
 }
 
+async function makeIndices(createPage, reporter, graphql) {
+  const component = require.resolve(`./src/templates/indices.tsx`)
 
-async function getAllCETEI(actions,reporter, graphql) {
-  
-  await makeIndexData(actions,reporter,graphql)
+  const parseEntityTag = (entityString,tagName,entityName,nameAttr,idAttr) => {
+    const lists = entityString.querySelector(tagName);
 
+    if(lists) {
+        const entities = lists.querySelectorAll(entityName)
+        let entityArr = []
+        entities.forEach((entity)=> {
+            let name = entity.querySelector(nameAttr).textContent
+            let id = entity.getAttribute(idAttr)
+            if(name && id) {
+                entityArr.push({
+                    id,
+                    name,
+                    occurrences:[]
+                })
+            }
+        })
+        return entityArr;
+    }
+    return []
+  }
+
+  //for parsing tei xml files 
+  const findOccurences = (teiXMLString, entities, tagName, ref,docName) => {
+      const teiHeader = teiXMLString.querySelector("teiHeader")
+      let pageName = "pagename"
+      if(teiHeader) {
+          let titleSmt = teiHeader.querySelector("titleStmt")
+          pageName = titleSmt.querySelector("title").textContent
+      }
+      let occurenceObj = {
+          "pageName": pageName,
+          "pageLink": docName.name
+      }
+      if(teiXMLString.querySelectorAll(tagName)) {
+          teiXMLString.querySelectorAll(tagName).forEach((tag) => {
+              let refValue = tag.getAttribute(ref)
+              if(refValue) {
+                  refValue = refValue.substring(1)
+                  const entity = entities.find((entity)=>entity.id === refValue)
+                  if(entity) {
+                      entity.occurrences.push(occurenceObj)
+                  }
+              }
+          })
+      }
+  }
+
+  const result = await graphql(`
+    query Indices {
+      allCetei {
+        nodes {
+          original
+          elements
+          parent {
+            ... on File {
+              name
+              relativeDirectory
+            }
+          }
+        }
+      }
+    }
+  `)
+  if (result.errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query.`)
+    return
+  }
+
+  const indexObj = {
+    "persons":[],
+    "org":[],
+    "places":[],
+    "bibl":[]
+  }
+
+  const entitiesNode = result.data.allCetei.nodes.find(n => n.elements.includes("tei-person"));
+  const entityDoc = new JSDOM(entitiesNode.original, {contentType:'text/xml'}).window.document;
+  indexObj.persons  = parseEntityTag(entityDoc,"listPerson","person","persName","xml:id")
+  indexObj.places   = parseEntityTag(entityDoc,"listPlace","place","placeName","xml:id")
+  indexObj.org      = parseEntityTag(entityDoc,"listOrg","org","orgName","xml:id")
+  indexObj.bibl     = parseEntityTag(entityDoc,"listBibl","bibl","title","xml:id")
+
+  for (const document of result.data.allCetei.nodes) {
+    if (!document.elements.includes("tei-person")) {
+      const tei = new JSDOM(document.original, {contentType:'text/xml'}).window.document;
+      const docName = document.parent;
+      if(tei) {
+        findOccurences(tei, indexObj.persons, "persName", "ref", docName)
+        findOccurences(tei, indexObj.places, "placeName", "ref", docName)
+        findOccurences(tei, indexObj.org, "orgName", "ref", docName)
+        findOccurences(tei, indexObj.bibl, "title", "ref", docName)
+      }
+    }
+  }
+
+  // en
+  createPage({
+    path: `/en/index`,
+    component,
+    context: {
+      language: "en",
+      data: indexObj
+    }
+  })
+  // fr
+  createPage({
+    path: `/fr/index`,
+    component,
+    context: {
+      language: "fr",
+      data: indexObj
+    }
+  })
 }
+
 
 async function makeSynoptic(createPage, reporter, graphql) {
   const component = require.resolve(`./src/gatsby-theme-ceteicean/components/Ceteicean.tsx`)
@@ -264,12 +376,12 @@ async function makeSearchIndex(reporter, graphql){
         teiElements.set("tei-org", "Organization")
         teiElements.set("tei-bibl", "Bibl")
 
-        parseEntityTag("tei-listPerson", "tei-person", "tei-persName")
-        parseEntityTag("tei-listPlace", "tei-place", "tei-placeName")
-        parseEntityTag("tei-listOrg", "tei-org", "tei-orgName")
-        parseEntityTag("tei-listBibl", "tei-bibl", "tei-title")
+        processEntityTag("tei-listPerson", "tei-person", "tei-persName")
+        processEntityTag("tei-listPlace", "tei-place", "tei-placeName")
+        processEntityTag("tei-listOrg", "tei-org", "tei-orgName")
+        processEntityTag("tei-listBibl", "tei-bibl", "tei-title")
 
-        function parseEntityTag (tagName,entityName, nameAttr){
+        function processEntityTag (tagName,entityName, nameAttr){
           if(doc.querySelector(tagName)){
             const allElements = Array.from(doc.querySelector(tagName).children)
 
