@@ -2,10 +2,9 @@ import React from "react";
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Container, Typography } from "@mui/material"
-import { navigate } from "gatsby"
-
-const placeHolders=['Persons','Places','Organization','Title']
+import { Avatar, Container, List, ListItem, ListItemAvatar, ListItemText, Typography } from "@mui/material"
+import ImageIcon from '@mui/icons-material/Image';
+import { slugify } from "../utils/slugify";
 
 interface indexData {
   bibl:{
@@ -45,20 +44,26 @@ interface indexData {
 interface objData {
   id:string,
   name:string,
-  occurrences:{
-    pageName:string,
-    pageLink:string
-  }[]
+  occurrences: Occurrence[]
 }[]
+
+interface Occurrence {
+  pageName:string,
+    pageLink:string
+}
+
+type Lang = "en" | "fr"
 
 interface Props {
   pageContext: {
     data: indexData
-    language: "en" | "fr"
+    language: Lang
   }
 }
 
-const renderIndexData = (data: indexData): JSX.Element => {
+const placeHolders=['Persons', 'Places', 'Organization', 'Title']
+
+const renderIndexData = (data: indexData, language: Lang): JSX.Element => {
   const personObj = data.persons;
   const biblObj = data.bibl;
   const placesObj = data.places;
@@ -68,37 +73,31 @@ const renderIndexData = (data: indexData): JSX.Element => {
     {placeHolders.map((ele)=>(
       <div>
       <h3>{ele}</h3>
-      {ele==="Persons" ? (
-        renderNames(personObj)
-      ):<></>}
-      {ele==="Places" ? (
-        renderNames(placesObj)
-      ):<></>}
-      {ele==="Organization" ? (
-        renderNames(orgObj)
-      ):<></>}
-      {ele==="Title" ? (
-        renderNames(biblObj)
-      ):<></>}
+      {ele === "Persons" ? renderNames(personObj, language) : null}
+      {ele === "Places" ? renderNames(placesObj, language) : null}
+      {ele === "Organization" ? renderNames(orgObj, language) : null}
+      {ele === "Title" ? renderNames(biblObj, language) : null}
       </div>
     ))}
     </div>
   )
 }
 
-const navigateToReferences =(referenceData:any) => {
-  navigate("/references", {
-    state:referenceData
-  });
-}
-const renderNames = (data:Array<objData>): JSX.Element => {
-  return (
-    <div>
+const renderNames = (data:Array<objData>, language: Lang): JSX.Element => {
+  return <List sx={{ width: '100%' }}>
     {data.map((obj)=> (
-      <p onClick={() => navigateToReferences(obj.occurrences)} style={{cursor:"pointer"}}>{obj.name}</p>
+      <ListItem>
+        <ListItemAvatar>
+          <Avatar>
+            <ImageIcon />
+          </Avatar>
+        </ListItemAvatar>
+        <ListItemText primary={
+          <a href={`/${language}/${slugify(obj.name)}`}>{obj.name}</a>
+        } secondary={`${obj.occurrences.length} occurrences.`} sx={{"& .MuiListItemText-primary": {paddingBottom: 0}}}/>
+      </ListItem>
     ))}
-    </div>
-  )
+  </List>
 }
 
 export default function IndexPage({pageContext}: Props) {
@@ -110,7 +109,7 @@ export default function IndexPage({pageContext}: Props) {
       <Typography variant="h3" component="h1" gutterBottom={false} sx={{
           marginBottom: "2rem"
         }}>{language === "en" ? "Indices" : "Index"}</Typography>
-      {renderIndexData(data)}
+      {renderIndexData(data, language)}
     </Container>
     </Layout>
   )

@@ -8,9 +8,6 @@ interface occurenceObj {
     pageName:string
     pageLink:string
 }
-interface References {
-    [key: string]: occurenceObj;
-}
 
 const navigateToPage =(pageLink:string) => {
   let link = "/"+pageLink;
@@ -18,11 +15,11 @@ const navigateToPage =(pageLink:string) => {
 }
 
 
-const renderRefrences = (references:References) => {
+const renderRefrences = (references:occurenceObj[]) => {
     
     return (
         <div>
-            {Object.values(references).map((refObj:occurenceObj) => (
+            {references.map((refObj:occurenceObj) => (
                 <p onClick={() => navigateToPage(refObj.pageLink)} style={{cursor:"pointer"}}>{refObj.pageName}</p>))}
         </div>
     )
@@ -34,8 +31,8 @@ export default function ReferencesPage(props:any) {
       <Container component="main" maxWidth="md">
         <Typography variant="h3" component="h1" gutterBottom={false} sx={{
             marginBottom: "2rem"
-          }}>References</Typography>
-        {renderRefrences(props.location.state)}
+          }}>{props.pageContext.data.name}</Typography>
+        {renderRefrences(props.pageContext.data.occurrences)}
       </Container>
       </Layout>
     )

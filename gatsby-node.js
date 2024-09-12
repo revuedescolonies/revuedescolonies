@@ -1,7 +1,14 @@
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
-const crypto = require('crypto')
-const MiniSearch = require('minisearch');
+const MiniSearch = require("minisearch");
+
+function slugify(text) {
+  return text.toLowerCase()
+    .replace(/<[^>]+>/g, '') // remove html tags
+    .replace(/ /g,'-') // spaces become -
+    .replace(/-+/g, '-') // no repeated -
+    .replace(/[^\p{L}-]+/gu,'') // remove all non word or - characters. 
+}
 
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions;
@@ -94,6 +101,7 @@ async function makePages(createPage, reporter, graphql) {
 
 async function makeIndices(createPage, reporter, graphql) {
   const component = require.resolve(`./src/templates/indices.tsx`)
+  const entityComponent = require.resolve(`./src/templates/entities.tsx`)
 
   const parseEntityTag = (entityString,tagName,entityName,nameAttr,idAttr) => {
     const lists = entityString.querySelector(tagName);
@@ -190,6 +198,20 @@ async function makeIndices(createPage, reporter, graphql) {
       }
     }
   }
+
+  // Create entity pages
+  for (const entity of Object.values(indexObj).flat()) {
+    createPage({
+      path: `/en/${slugify(entity.name)}`,
+      component: entityComponent,
+      context: {
+        language: "en",
+        data: entity
+      }
+    })
+  }
+
+  // Create index page
 
   // en
   createPage({
