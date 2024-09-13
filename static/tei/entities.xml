@@ -92,7 +92,7 @@
         </bibl>
       </note>
     </person>
-    <person xml:id="CB">
+    <person xml:id="CB" corresp="#MQ #MU">
       <persName>Cyrille Bissette</persName>
       <note resp="#masha" xml:lang="fr">
         <figure>
