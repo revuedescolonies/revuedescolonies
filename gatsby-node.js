@@ -1,5 +1,6 @@
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
+const serialize = require("w3c-xmlserializer");
 const MiniSearch = require("minisearch");
 
 function slugify(text) {
@@ -16,6 +17,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Occurence {
         pageName: String!
         pageLink: String!
+        repeats: Int! 
     }
 
     type index {
@@ -103,8 +105,8 @@ async function makeIndices(createPage, reporter, graphql) {
   const component = require.resolve(`./src/templates/indices.tsx`)
   const entityComponent = require.resolve(`./src/templates/entities.tsx`)
 
-  const parseEntityTag = (entityString, tagName, entityName, nameAttr, idAttr) => {
-    const lists = entityString.querySelector(tagName);
+  const parseEntityTag = (entityDoc, tagName, entityName, nameAttr, idAttr) => {
+    const lists = entityDoc.querySelector(tagName);
 
     if(lists) {
         const entities = lists.querySelectorAll(entityName)
@@ -126,26 +128,33 @@ async function makeIndices(createPage, reporter, graphql) {
   }
 
   //for parsing tei xml files 
-  const findOccurences = (teiXMLString, entities, tagName, ref, docName) => {
-    const teiHeader = teiXMLString.querySelector("teiHeader")
+  const findOccurences = (teiXMLDoc, entities, tagName, ref, docName) => {
+    const teiHeader = teiXMLDoc.querySelector("teiHeader")
     let pageName = "pagename"
     if(teiHeader) {
-      let titleSmt = teiHeader.querySelector("titleStmt")
+      const titleSmt = teiHeader.querySelector("titleStmt")
       pageName = titleSmt.querySelector("title").textContent
     }
-    let occurenceObj = {
-      "pageName": pageName,
-      "pageLink": docName.name
-    }
-    const entityEls = teiXMLString.querySelectorAll(tagName);
+    
+    const entityEls = teiXMLDoc.querySelectorAll(tagName);
     
     entityEls.forEach((tag) => {
-      let refValue = tag.getAttribute(ref)
-      // if (tagName === "persName") console.log(refValue, docName.name);
+      const refValue = tag.getAttribute(ref)
       if (refValue) {
         const entity = entities.find((entity)=>entity.id === refValue.substring(1))
-        if(entity) {
-            entity.occurrences.push(occurenceObj)
+        if (entity) {
+          const sameDocOccurrence = entity.occurrences.find(o => o.pageLink === docName.name)
+          if (sameDocOccurrence) {
+            console.log(`+1 ${entity.id} at ${sameDocOccurrence.pageLink}`, sameDocOccurrence.repeats)
+            sameDocOccurrence.repeats++
+            console.log(sameDocOccurrence.repeats)
+          } else {
+            entity.occurrences.push({
+              "pageName": pageName,
+              "pageLink": docName.name,
+              "repeats": 1
+            })
+          }
         }
       }
     })
@@ -156,6 +165,7 @@ async function makeIndices(createPage, reporter, graphql) {
       allCetei {
         nodes {
           original
+          prefixed
           elements
           parent {
             ... on File {
@@ -181,10 +191,10 @@ async function makeIndices(createPage, reporter, graphql) {
 
   const entitiesNode = result.data.allCetei.nodes.find(n => n.original.includes(`xml:id="entities"`));
   const entityDoc = new JSDOM(entitiesNode.original, {contentType:'text/xml'}).window.document;
-  indexObj.persons  = parseEntityTag(entityDoc,"listPerson","person","persName","xml:id")
-  indexObj.places   = parseEntityTag(entityDoc,"listPlace","place","placeName","xml:id")
-  indexObj.org      = parseEntityTag(entityDoc,"listOrg","org","orgName","xml:id")
-  indexObj.bibl     = parseEntityTag(entityDoc,"listBibl","bibl","title","xml:id")
+  indexObj.persons = parseEntityTag(entityDoc, "listPerson", "person", "persName", "xml:id")
+  indexObj.places = parseEntityTag(entityDoc, "listPlace", "place", "placeName", "xml:id")
+  indexObj.org = parseEntityTag(entityDoc, "listOrg", "org", "orgName", "xml:id")
+  indexObj.bibl = parseEntityTag(entityDoc, "listBibl", "bibl", "title", "xml:id")
 
   for (const document of result.data.allCetei.nodes) {
     if (document.original.includes(`xml:id="RdC`)) {
@@ -200,13 +210,27 @@ async function makeIndices(createPage, reporter, graphql) {
   }
 
   // Create entity pages
+  const entityDocPrefixed = new JSDOM(entitiesNode.prefixed, {contentType:'text/xml'}).window.document;
   for (const entity of Object.values(indexObj).flat()) {
+    const entityEl = entityDocPrefixed.getElementById(entity.id);
     createPage({
       path: `/en/${slugify(entity.name)}`,
       component: entityComponent,
       context: {
         language: "en",
-        data: entity
+        data: entity,
+        elements: entitiesNode.elements,
+        prefixed: serialize(entityEl)
+      }
+    })
+    createPage({
+      path: `/fr/${slugify(entity.name)}`,
+      component: entityComponent,
+      context: {
+        language: "fr",
+        data: entity,
+        elements: entitiesNode.elements,
+        prefixed: serialize(entityEl)
       }
     })
   }

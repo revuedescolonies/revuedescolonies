@@ -279,6 +279,9 @@ const theme = createTheme({
         },
         "tei-cell[role=label]": {
           fontWeight: "bold"
+        },
+        "tei-location": {
+          display: "none"
         }
       }
     },

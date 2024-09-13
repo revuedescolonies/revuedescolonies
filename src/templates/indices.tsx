@@ -6,39 +6,17 @@ import { Avatar, Container, List, ListItem, ListItemAvatar, ListItemText, Typogr
 import ImageIcon from '@mui/icons-material/Image';
 import { slugify } from "../utils/slugify";
 
+interface Occurrence {
+  pageName: string,
+  pageLink: string,
+  repeats: number
+}
+
 interface indexData {
-  bibl:{
-    id:string
-    name:string 
-    occurrences:{
-      pageName:string,
-      pageLink:string
-    }[]
-  }[]
-  org:{
-    id:string
-    name:string 
-    occurrences:{
-      pageName:string,
-      pageLink:string
-    }[]
-  }[]
-  places:{
-    id:string
-    name:string 
-    occurrences:{
-      pageName:string,
-      pageLink:string
-    }[]
-  }[]
-  persons:{
-    id:string
-    name:string 
-    occurrences:{
-      pageName:string,
-      pageLink:string
-    }[]
-  }[]
+  bibl: objData[]
+  org: objData[]
+  places: objData[]
+  persons: objData[]
 } 
 
 interface objData {
@@ -48,8 +26,9 @@ interface objData {
 }[]
 
 interface Occurrence {
-  pageName:string,
-    pageLink:string
+  pageName: string,
+  pageLink: string,
+  repeats: number
 }
 
 type Lang = "en" | "fr"
@@ -83,7 +62,7 @@ const renderIndexData = (data: indexData, language: Lang): JSX.Element => {
   )
 }
 
-const renderNames = (data:Array<objData>, language: Lang): JSX.Element => {
+const renderNames = (data: objData[], language: Lang): JSX.Element => {
   return <List sx={{ width: '100%' }}>
     {data.map((obj)=> (
       <ListItem>
@@ -94,7 +73,7 @@ const renderNames = (data:Array<objData>, language: Lang): JSX.Element => {
         </ListItemAvatar>
         <ListItemText primary={
           <a href={`/${language}/${slugify(obj.name)}`}>{obj.name}</a>
-        } secondary={`${obj.occurrences.length} occurrences.`} sx={{"& .MuiListItemText-primary": {paddingBottom: 0}}}/>
+        } secondary={`${obj.occurrences.reduce((sum, occurrence) => sum + occurrence.repeats, 0)} occurrences in ${obj.occurrences.length} documents.`} sx={{"& .MuiListItemText-primary": {paddingBottom: 0}}}/>
       </ListItem>
     ))}
   </List>

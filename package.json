@@ -33,6 +33,7 @@
     "react-helmet": "^6.1.0",
     "react-teirouter": "^3.0.0",
     "remark": "^15.0.1",
+    "w3c-xmlserializer": "^5.0.0",
     "xast-util-from-xml": "^4.0.0"
   },
   "devDependencies": {
