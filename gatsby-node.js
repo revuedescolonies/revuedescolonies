@@ -125,7 +125,7 @@ async function makeMap(createPage, reporter, graphql) {
 
   console.log(result)
   
-  result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+  
     //const dom = new JSDOM(node.prefixed, { contentType: "text/xml" })
 
     createPage({
@@ -136,7 +136,16 @@ async function makeMap(createPage, reporter, graphql) {
         language: 'en'
       }
     })
-  })
+
+    createPage({
+      path: '/fr/carte',
+      component,
+      context: {
+        //geojson: node.geojson,
+        language: 'fr'
+      }
+    })
+  
 }
 
 
