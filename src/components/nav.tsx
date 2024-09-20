@@ -44,8 +44,8 @@ const styles = {
 const Nav = ({ location, menuLinks }: Props) => {
   const loc = decodeURIComponent(location).replace(/\//g, '')
   const isEdition = loc.startsWith("RdC")
-  let curLang: Lang = isEdition && loc.slice(-2) === "fr" ? "fr" : "en" 
-  if (!isEdition) {
+  let curLang: Lang = isEdition && loc.slice(-2) === "fr" ? "fr" : "en"
+  if (!isEdition && loc !== "") {
    curLang = location.substring(1, 3) as Lang
   }
 

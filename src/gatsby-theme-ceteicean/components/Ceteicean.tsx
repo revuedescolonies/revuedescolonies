@@ -63,16 +63,16 @@ const EditionCeteicean = ({pageContext}: Props) => {
     "tei-ptr": Ptr,
     "tei-ref": Ref,
     "tei-notegrp": (props) => <Note isSynoptic={isSynoptic} {...props}/>,
-    "tei-person": (props) => <Entity isSynoptic={isSynoptic} entityType={"tei-persName"} {...props} curLang={lang}/>,
-    "tei-place": (props) => <Entity isSynoptic={isSynoptic} entityType={"tei-placeName"} {...props} curLang={lang}/>,
-    "tei-org": (props) => <Entity isSynoptic={isSynoptic} entityType={"tei-orgName"} {...props} curLang={lang}/>,
+    "tei-person": (props) => <Entity isSynoptic={isSynoptic} entityType={"tei-persName"} {...props} />,
+    "tei-place": (props) => <Entity isSynoptic={isSynoptic} entityType={"tei-placeName"} {...props} />,
+    "tei-org": (props) => <Entity isSynoptic={isSynoptic} entityType={"tei-orgName"} {...props} />,
     "tei-bibl": (props) => {
       const el = props.teiNode as Element
       // Only deal with bibliography bibls.
       if (el.parentElement?.tagName.toLocaleLowerCase() !== "tei-listbibl") {
         return <SafeUnchangedNode {...props}/>
       }
-      return <Entity isSynoptic={isSynoptic} entityType={"tei-title"} {...props} curLang={lang}/>
+      return <Entity isSynoptic={isSynoptic} entityType={"tei-title"} {...props} />
     },
     "tei-persname": EntityLink,
     "tei-placename": EntityLink,

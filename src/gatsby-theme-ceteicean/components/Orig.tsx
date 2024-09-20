@@ -25,8 +25,9 @@ const Orig: TBehavior = (props: TEIProps) => {
   const reg = el.parentElement?.getElementsByTagName("tei-reg") || []
   const { contextOpts } = React.useContext(DisplayContext)
 
+  const title = reg[0] ? (reg[0].textContent || "") : ""
   const content = contextOpts.originalSpelling
-  ? (<Popup title={reg[0].textContent || ""} placement="top" arrow enterTouchDelay={0}> 
+  ? (<Popup title={title} placement="top" arrow enterTouchDelay={0}> 
     <span><TEINodes 
         teiNodes={props.teiNode.childNodes}
         {...props}/></span>
