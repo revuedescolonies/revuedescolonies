@@ -88,6 +88,7 @@ async function makePages(createPage, reporter, graphql) {
     reporter.panicOnBuild(`Error while running GraphQL query.`)
     return
   }
+  //console.log(result)
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({
       path: node.frontmatter.path,
