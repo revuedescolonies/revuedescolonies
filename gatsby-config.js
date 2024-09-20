@@ -93,21 +93,21 @@ module.exports = {
       {
         en: {
           name: 'index',
-          link: '/en/index'
+          link: '/en/index/'
         },
         fr:{
           name:'index',
-          link:'/fr/index'
+          link:'/fr/index/'
         }
       },
       {
         en: {
           name: 'map',
-          link: '/map'
+          link: '/en/map/'
         },
         fr:{
           name:'carte',
-          link:'/map'
+          link:'/fr/map/'
         }
       }
     ]

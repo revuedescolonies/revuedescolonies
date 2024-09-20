@@ -43,6 +43,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   let search_index = await makeSearchIndex(reporter, graphql)
   await makeSearchPage(createPage, JSON.stringify(search_index))
+
+  await makeMap(createPage, reporter, graphql)
 }
 
 async function makeSearchPage(createPage, search_index) {
@@ -88,7 +90,6 @@ async function makePages(createPage, reporter, graphql) {
     reporter.panicOnBuild(`Error while running GraphQL query.`)
     return
   }
-  //console.log(result)
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({
       path: node.frontmatter.path,
@@ -101,6 +102,43 @@ async function makePages(createPage, reporter, graphql) {
     })   
   })
 }
+
+async function makeMap(createPage, reporter, graphql) {
+  const component = require.resolve(`./src/templates/map.tsx`)
+
+  const result = await graphql(`
+    query EntityDataQuery { 
+      allFile(filter: {name: {eq: "entities"}}) {
+        nodes {
+          childCetei {
+            original
+          }
+        } 
+      } 
+    }  
+  `)
+
+  if (result.errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query.`)
+    return
+  }
+
+  console.log(result)
+  
+  result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    //const dom = new JSDOM(node.prefixed, { contentType: "text/xml" })
+
+    createPage({
+      path: '/en/map',
+      component,
+      context: {
+        //geojson: node.geojson,
+        language: 'en'
+      }
+    })
+  })
+}
+
 
 async function makeIndices(createPage, reporter, graphql) {
   const component = require.resolve(`./src/templates/indices.tsx`)
