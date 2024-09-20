@@ -146,9 +146,7 @@ async function makeIndices(createPage, reporter, graphql) {
         if (entity) {
           const sameDocOccurrence = entity.occurrences.find(o => o.pageLink === docName.name)
           if (sameDocOccurrence) {
-            console.log(`+1 ${entity.id} at ${sameDocOccurrence.pageLink}`, sameDocOccurrence.repeats)
             sameDocOccurrence.repeats++
-            console.log(sameDocOccurrence.repeats)
           } else {
             entity.occurrences.push({
               "pageName": pageName,
