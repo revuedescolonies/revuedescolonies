@@ -99,6 +99,16 @@ module.exports = {
           name:'indice',
           link:'/appendix'
         }
+      },
+      {
+        en: {
+          name: 'map',
+          link: '/map'
+        },
+        fr:{
+          name:'carte',
+          link:'/map'
+        }
       }
     ]
   },

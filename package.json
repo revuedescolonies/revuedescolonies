@@ -14,6 +14,7 @@
     "@types/unist": "^3.0.2",
     "@types/xast": "^2.0.4",
     "crypto": "^1.0.1",
+    "d3": "^7.9.0",
     "fast-xml-parser": "^4.4.0",
     "gatsby": "^5.12.6",
     "gatsby-plugin-emotion": "^8.12.0",

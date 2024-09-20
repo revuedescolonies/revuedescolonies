@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4e1c1; /* Light brown background color */
+}
+
+.globe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.header h1 {
+  color: #4a2e0d; /* Darker brown for the header text */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+.map-container {
+  position: relative;
+  background-color: #e0c7a4; /* Lighter brown for the map container background */
+  padding: 20px;
+  border: 1px solid #8c7a53; /* Border to give it an old-map feel */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+  border-radius: 10px;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 8px;
+  background: rgba(255, 255, 224, 0.8); /* Slightly transparent old paper color */
+  border: 1px solid #8c7a53;
+  border-radius: 4px;
+  pointer-events: none;
+  opacity: 0;
+  font-size: 12px;
+  color: #4a2e0d;
+  transition: opacity 0.2s ease; /* Smooth transition for tooltip */
+}
+
+svg {
+  background-color: #f4e1c1; /* Background of the SVG area */
+  border-radius: 50%; /* To make the globe look circular */
+  border: 2px solid #8c7a53; /* Thicker border for the globe */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Enhanced shadow for depth */
+}
