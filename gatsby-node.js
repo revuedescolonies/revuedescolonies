@@ -1,39 +1,14 @@
-const makeIndexData = require('./searchIndex.js')
-const { graphql } = require("gatsby");
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
-const fs = require("fs");
-const MiniSearch = require('minisearch');
+const serialize = require("w3c-xmlserializer");
+const MiniSearch = require("minisearch");
 
-exports.createPages = async ({ actions, graphql, reporter }) => {
-  const { createPage } = actions
-  await makePages(createPage, reporter, graphql)
-  await makeSynoptic(createPage, reporter, graphql)
-  async function makeSearchPage(createPage, reporter, graphql, search_index) {
-    const component = require.resolve(`./src/templates/search.tsx`)
-  
-    createPage({
-      path: '/en/search/',
-      component,
-      context: {
-        search_index,
-        language: 'en'
-      }
-    });
-  
-    createPage({
-      path: '/fr/récherche/',
-      component,
-      context: {
-        search_index,
-        language: 'fr'
-      }
-    })
-  }
-  
-  let search_index = await makeSearchIndex(reporter, graphql)
-  await makeSearchPage(createPage, reporter, graphql, JSON.stringify(search_index))
-  await getAllCETEI(actions,reporter,graphql)
+function slugify(text) {
+  return text.toLowerCase()
+    .replace(/<[^>]+>/g, '') // remove html tags
+    .replace(/ /g,'-') // spaces become -
+    .replace(/-+/g, '-') // no repeated -
+    .replace(/[^\p{L}-]+/gu,'') // remove all non word or - characters. 
 }
 
 exports.createSchemaCustomization = ({ actions }) => {
@@ -42,6 +17,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Occurence {
         pageName: String!
         pageLink: String!
+        repeats: Int! 
     }
 
     type index {
@@ -57,6 +33,38 @@ exports.createSchemaCustomization = ({ actions }) => {
         bibl: [index!]!
     }
     `)
+}
+
+exports.createPages = async ({ actions, graphql, reporter }) => {
+  const { createPage } = actions
+  await makePages(createPage, reporter, graphql)
+  await makeSynoptic(createPage, reporter, graphql)
+  await makeIndices(createPage, reporter, graphql)
+
+  let search_index = await makeSearchIndex(reporter, graphql)
+  await makeSearchPage(createPage, JSON.stringify(search_index))
+}
+
+async function makeSearchPage(createPage, search_index) {
+  const component = require.resolve(`./src/templates/search.tsx`)
+
+  createPage({
+    path: '/en/search/',
+    component,
+    context: {
+      search_index,
+      language: 'en'
+    }
+  });
+
+  createPage({
+    path: '/fr/récherche/',
+    component,
+    context: {
+      search_index,
+      language: 'fr'
+    }
+  })
 }
 
 async function makePages(createPage, reporter, graphql) {
@@ -93,12 +101,162 @@ async function makePages(createPage, reporter, graphql) {
   })
 }
 
+async function makeIndices(createPage, reporter, graphql) {
+  const component = require.resolve(`./src/templates/indices.tsx`)
+  const entityComponent = require.resolve(`./src/templates/entities.tsx`)
 
-async function getAllCETEI(actions,reporter, graphql) {
-  
-  await makeIndexData(actions,reporter,graphql)
+  const parseEntityTag = (entityDoc, tagName, entityName, nameAttr, idAttr) => {
+    const lists = entityDoc.querySelector(tagName);
 
+    if(lists) {
+        const entities = lists.querySelectorAll(entityName)
+        let entityArr = []
+        entities.forEach((entity)=> {
+            let name = entity.querySelector(nameAttr).textContent
+            let id = entity.getAttribute(idAttr)
+            if(name && id) {
+                entityArr.push({
+                    id,
+                    name,
+                    occurrences:[]
+                })
+            }
+        })
+        return entityArr;
+    }
+    return []
+  }
+
+  //for parsing tei xml files 
+  const findOccurences = (teiXMLDoc, entities, tagName, ref, docName) => {
+    const teiHeader = teiXMLDoc.querySelector("teiHeader")
+    let pageName = "pagename"
+    if(teiHeader) {
+      const titleSmt = teiHeader.querySelector("titleStmt")
+      pageName = titleSmt.querySelector("title").textContent
+    }
+    
+    const entityEls = teiXMLDoc.querySelectorAll(tagName);
+    
+    entityEls.forEach((tag) => {
+      const refValue = tag.getAttribute(ref)
+      if (refValue) {
+        const entity = entities.find((entity)=>entity.id === refValue.substring(1))
+        if (entity) {
+          const sameDocOccurrence = entity.occurrences.find(o => o.pageLink === docName.name)
+          if (sameDocOccurrence) {
+            console.log(`+1 ${entity.id} at ${sameDocOccurrence.pageLink}`, sameDocOccurrence.repeats)
+            sameDocOccurrence.repeats++
+            console.log(sameDocOccurrence.repeats)
+          } else {
+            entity.occurrences.push({
+              "pageName": pageName,
+              "pageLink": docName.name,
+              "repeats": 1
+            })
+          }
+        }
+      }
+    })
+  }
+
+  const result = await graphql(`
+    query Indices {
+      allCetei {
+        nodes {
+          original
+          prefixed
+          elements
+          parent {
+            ... on File {
+              name
+              relativeDirectory
+            }
+          }
+        }
+      }
+    }
+  `)
+  if (result.errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query.`)
+    return
+  }
+
+  const indexObj = {
+    "persons":[],
+    "org":[],
+    "places":[],
+    "bibl":[]
+  }
+
+  const entitiesNode = result.data.allCetei.nodes.find(n => n.original.includes(`xml:id="entities"`));
+  const entityDoc = new JSDOM(entitiesNode.original, {contentType:'text/xml'}).window.document;
+  indexObj.persons = parseEntityTag(entityDoc, "listPerson", "person", "persName", "xml:id")
+  indexObj.places = parseEntityTag(entityDoc, "listPlace", "place", "placeName", "xml:id")
+  indexObj.org = parseEntityTag(entityDoc, "listOrg", "org", "orgName", "xml:id")
+  indexObj.bibl = parseEntityTag(entityDoc, "listBibl", "bibl", "title", "xml:id")
+
+  for (const document of result.data.allCetei.nodes) {
+    if (document.original.includes(`xml:id="RdC`)) {
+      const tei = new JSDOM(document.original, {contentType:'text/xml'}).window.document;
+      const docName = document.parent;
+      if(tei) {
+        findOccurences(tei, indexObj.persons, "persName", "ref", docName)
+        findOccurences(tei, indexObj.places, "placeName", "ref", docName)
+        findOccurences(tei, indexObj.org, "orgName", "ref", docName)
+        findOccurences(tei, indexObj.bibl, "title", "ref", docName)
+      }
+    }
+  }
+
+  // Create entity pages
+  const entityDocPrefixed = new JSDOM(entitiesNode.prefixed, {contentType:'text/xml'}).window.document;
+  for (const entity of Object.values(indexObj).flat()) {
+    const entityEl = entityDocPrefixed.getElementById(entity.id);
+    createPage({
+      path: `/en/${slugify(entity.name)}`,
+      component: entityComponent,
+      context: {
+        language: "en",
+        data: entity,
+        elements: entitiesNode.elements,
+        prefixed: serialize(entityEl)
+      }
+    })
+    createPage({
+      path: `/fr/${slugify(entity.name)}`,
+      component: entityComponent,
+      context: {
+        language: "fr",
+        data: entity,
+        elements: entitiesNode.elements,
+        prefixed: serialize(entityEl)
+      }
+    })
+  }
+
+  // Create index page
+
+  // en
+  createPage({
+    path: `/en/index`,
+    component,
+    context: {
+      language: "en",
+      data: indexObj
+    }
+  })
+  // fr
+  createPage({
+    path: `/fr/index`,
+    component,
+    context: {
+      language: "fr",
+      data: indexObj
+    }
+  })
 }
+
 
 async function makeSynoptic(createPage, reporter, graphql) {
   const component = require.resolve(`./src/gatsby-theme-ceteicean/components/Ceteicean.tsx`)
@@ -264,12 +422,12 @@ async function makeSearchIndex(reporter, graphql){
         teiElements.set("tei-org", "Organization")
         teiElements.set("tei-bibl", "Bibl")
 
-        parseEntityTag("tei-listPerson", "tei-person", "tei-persName")
-        parseEntityTag("tei-listPlace", "tei-place", "tei-placeName")
-        parseEntityTag("tei-listOrg", "tei-org", "tei-orgName")
-        parseEntityTag("tei-listBibl", "tei-bibl", "tei-title")
+        processEntityTag("tei-listPerson", "tei-person", "tei-persName")
+        processEntityTag("tei-listPlace", "tei-place", "tei-placeName")
+        processEntityTag("tei-listOrg", "tei-org", "tei-orgName")
+        processEntityTag("tei-listBibl", "tei-bibl", "tei-title")
 
-        function parseEntityTag (tagName,entityName, nameAttr){
+        function processEntityTag (tagName,entityName, nameAttr){
           if(doc.querySelector(tagName)){
             const allElements = Array.from(doc.querySelector(tagName).children)
 
