@@ -37,16 +37,23 @@ const Ptr: TBehavior = (props: TEIProps) => {
       n: parseInt(n)
     }
 
+    const handleDialog = (e: React.KeyboardEvent | React.MouseEvent) => {
+      if (e.type !== 'keydown' || e.type === 'keydown' && (e as React.KeyboardEvent).key === 'Enter') {
+        setEntity(null)
+        setNote(noteData)
+      }
+    }
+
     return (
       <Behavior node={props.teiNode} key={n}>
-        <Box onClick={() => {
-          setEntity(null)
-          setNote(noteData)
-        }} component="sup" sx={{
-          color: typeColor,
-          fontSize: "80%",
-          cursor: "pointer"
-        }}>[{n}]</Box>
+        <sup>
+          <Box component="a" onClick={handleDialog} onKeyDown={handleDialog} sx={{
+            color: typeColor,
+            fontSize: "80%",
+            cursor: "pointer",
+            wordBreak: "normal",
+          }} tabIndex={0}>[{n}]</Box>
+        </sup>
       </Behavior>
     )
   }
