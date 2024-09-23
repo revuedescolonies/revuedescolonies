@@ -3,11 +3,29 @@ import React from "react"
 import { TBehavior, SafeUnchangedNode } from "gatsby-theme-ceteicean/src/components/DefaultBehaviors"
 import { Behavior } from "gatsby-theme-ceteicean/src/components/Behavior"
 import { EntityContext, TEntity, NoteContext } from "./Context"
+import { Button } from "@mui/material"
+import { styled } from '@mui/material/styles';
+import type {ButtonProps} from "@mui/material"
 
 type TEIProps = {
   teiNode: Node,
   availableRoutes?: string[]
 }
+
+const EntityButton = styled(Button)<ButtonProps>(({ theme }) => ({
+  boxShadow: 'none',
+  fontSize: 'inherit',
+  fontFamily: theme.typography.body1.fontFamily,
+  verticalAlign: "unset",
+  fontWeight: theme.typography.body1.fontWeight,
+  lineHeight: "unset",
+  padding: 0,
+  color: theme.palette.default.main,
+  textTransform: "none",
+  backgroundColor: "transparent",
+  minWidth: "unset",
+  display: 'inline'
+}));
 
 
 const EntityLink: TBehavior = (props: TEIProps) => {
@@ -20,18 +38,18 @@ const EntityLink: TBehavior = (props: TEIProps) => {
   const id = target?.replace('#', '') || ''
 
   if (target) {
-    const noteData: TEntity = {
+    const entityData: TEntity = {
       id
     }
 
     return (
       <Behavior node={props.teiNode}>
-        <span onClick={() => {
+        <EntityButton component="a" color="default" variant="text" disableElevation size="small" onClick={() => {
           setNote(null)
-          setEntity(noteData)
-        }}>
+          setEntity(entityData)
+        }} >
           <SafeUnchangedNode {...props} />
-        </span>
+        </EntityButton>
       </Behavior>
     )
   }
