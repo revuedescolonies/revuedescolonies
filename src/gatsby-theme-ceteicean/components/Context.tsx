@@ -1,6 +1,6 @@
 import React from "react"
 
-export interface IOptions { [key: string]: string | boolean}
+export interface IOptions { [key: string]: string | boolean | string[]}
 
 export type ContextType = {
   contextOpts: IOptions

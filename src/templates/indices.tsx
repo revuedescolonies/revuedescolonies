@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import { Avatar, Container, List, ListItem, ListItemAvatar, ListItemText, Typography } from "@mui/material"
 import ImageIcon from '@mui/icons-material/Image';
 import { slugify } from "../utils/slugify";
+import { Link } from "gatsby";
 
 interface Occurrence {
   pageName: string,
@@ -72,7 +73,7 @@ const renderNames = (data: objData[], language: Lang): JSX.Element => {
           </Avatar>
         </ListItemAvatar>
         <ListItemText primary={
-          <a href={`/${language}/${slugify(obj.name)}`}>{obj.name}</a>
+          <Link to={`/${language}/${slugify(obj.name)}`}>{obj.name}</Link>
         } secondary={`${obj.occurrences.reduce((sum, occurrence) => sum + occurrence.repeats, 0)} occurrences in ${obj.occurrences.length} documents.`} sx={{"& .MuiListItemText-primary": {paddingBottom: 0}}}/>
       </ListItem>
     ))}

@@ -187,7 +187,7 @@ export default function MicroedAppBar({location}: Props) {
 
   const makeMenuButton = (dest: string, label: string) => {
     const here = location.endsWith(dest)
-    return <MenuItem onClick={() => handleNavClick(here, dest)}>
+    return <MenuItem onClick={() => handleNavClick(here, dest)} key={label}>
       {label}
     </MenuItem>
   }

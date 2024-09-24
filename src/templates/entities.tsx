@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Box, Container, List, ListItem, ListItemText, Typography } from "@mui/material"
-import { navigate } from "gatsby"
+import { Link, navigate } from "gatsby"
 import {Routes} from "gatsby-theme-ceteicean/src/components/Ceteicean"
 import Renderer from "gatsby-theme-ceteicean/src/components/Renderer";
 import Q from "../gatsby-theme-ceteicean/components/Q";
@@ -34,20 +34,15 @@ type TEIProps = {
   availableRoutes?: string[],
 }
 
-const navigateToPage =(pageLink:string) => {
-  let link = "/"+pageLink;
-  navigate(link);
-}
 
-
-const renderRefrences = (references:occurenceObj[]) => {
+const renderRefrences = (references:occurenceObj[], id: string) => {
     
     return (
       <List>
         {references.map((refObj:occurenceObj) => (
           <ListItem>
-            <ListItemText onClick={() => navigateToPage(refObj.pageLink)} style={{cursor:"pointer"}}>
-              {refObj.pageName} ({refObj.repeats})
+            <ListItemText>
+              <Link to={`/${refObj.pageLink}?showEntities=${id}`}>{refObj.pageName} ({refObj.repeats})</Link>
             </ListItemText>
           </ListItem>
         ))}
@@ -94,7 +89,7 @@ export default function ReferencesPage({pageContext}: Props) {
           language === "fr" ? "Peut être trouvé dans"
           : "Appears in"
         }</Typography>
-        {renderRefrences(data.occurrences)}
+        {renderRefrences(data.occurrences, data.id)}
       </Container>
       </Layout>
     )

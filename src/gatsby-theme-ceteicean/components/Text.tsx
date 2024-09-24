@@ -3,6 +3,7 @@ import { SafeUnchangedNode, TBehavior } from "gatsby-theme-ceteicean/src/compone
 import { TEINodes } from "react-teirouter"
 import { Grid, useMediaQuery } from "@mui/material"
 import Container from "@mui/system/Container"
+import { DisplayContext } from "./Context"
 
 import theme from "../../theme"
 
@@ -12,6 +13,19 @@ type TEIProps = {
 }
 
 const Text: TBehavior = (props: TEIProps) => {
+  const { contextOpts, setContextOpts } = React.useContext(DisplayContext)
+  
+  React.useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search)
+    const entitiesToShow = urlParams.get("showEntities")
+    if (entitiesToShow) {
+      const newOpts = {...contextOpts, entitiesToShow: entitiesToShow.split(",")}
+      setContextOpts(newOpts)
+    } else {
+      setContextOpts(contextOpts)
+    }
+  }, [])
+  
   // Wrap tei-body adn tei-front in a div to facilitate column layout
   // We don't use CETEIcean's Behavior component to avoid duplication of content.
   // The default Behavior always includes the unchanged original node and we don't need that here.

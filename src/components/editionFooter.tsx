@@ -2,17 +2,28 @@ import React from "react"
 import Fab from "@mui/material/Fab"
 
 import Download from "./Download"
+import { DisplayContext } from "../gatsby-theme-ceteicean/components/Context"
+import KeyboardDoubleArrowUpIcon from '@mui/icons-material/KeyboardDoubleArrowUp';
 
 const styles = {
-  teiFab: {
+  allFab: {
     position: 'fixed',
-    bottom: "1em",
     right: "1em",
     zIndex: 99999,
     padding: "10px",
+  },
+  teiFab: {
+    bottom: "1em",
     "& svg": {
       maxHeight: "60px",
     }
+  },
+  topFab: {
+    bottom: "6em",
+  },
+  searchFab: {
+    position: 'fixed',
+    bottom: "11em",
   },
   stopFab: {
     bottom: "150px"
@@ -27,6 +38,9 @@ interface Props {
 const EditionFooter = ({children, repository}: Props) => {
   const footerRef = React.useRef<HTMLElement>(null)
   const [stopFab, setStopFab] = React.useState(false)
+  const { contextOpts, setContextOpts } = React.useContext(DisplayContext)
+  const { entitiesToShow, ...cleanContextOpts } = contextOpts;
+  const hasSearch = contextOpts.entitiesToShow;
 
   React.useEffect(() => {
     window.addEventListener('scroll', () => {
@@ -49,9 +63,19 @@ const EditionFooter = ({children, repository}: Props) => {
 
   return (<div {...{ ref: footerRef } as any}>
     <Download open={open} close={() => setOpen(false)} repository={repository}/>
+    <Fab size="large" color="secondary" aria-label="Back to top" 
+        sx={{
+          ...styles.topFab,
+          ...styles.allFab,
+          ...(stopFab && styles.stopFab)
+        }}
+        onClick={() => window.scroll({top: 0, behavior: "smooth"})}>
+      <KeyboardDoubleArrowUpIcon />
+    </Fab>
     <Fab size="large" color="secondary" aria-label="Show TEI" 
         sx={{
           ...styles.teiFab,
+          ...styles.allFab,
           ...(stopFab && styles.stopFab)
         }}
         onClick={() => setOpen(true)}>
@@ -103,6 +127,15 @@ const EditionFooter = ({children, repository}: Props) => {
           id="path164" />
       </svg>
     </Fab>
+    {hasSearch && <Fab size="large" color="secondary" aria-label="Show TEI" variant="extended"
+        sx={{
+          ...styles.searchFab,
+          ...styles.allFab,
+          ...(stopFab && styles.stopFab)
+        }}
+        onClick={() => setContextOpts(cleanContextOpts)}>
+      Clear search results
+    </Fab>}
     {children}
   </div>)
 }
