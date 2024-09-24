@@ -52,6 +52,9 @@ const Ptr: TBehavior = (props: TEIProps) => {
             fontSize: "80%",
             cursor: "pointer",
             wordBreak: "normal",
+            "&:hover, &:active": {
+              color: typeColor,
+            }
           }} tabIndex={0}>[{n}]</Box>
         </sup>
       </Behavior>
