@@ -8,6 +8,7 @@ import { Lang } from "../components/nav"
 import SearchBar from "../components/SearchBar"
 import Filter from "../components/Filter"
 import SearchResult from "../components/SearchResult"
+import { slugify } from "../utils/slugify"
 
 interface Props {
   location: any
@@ -45,7 +46,7 @@ const languageColors: { [key: string]: string } = {
 export default function PageTemplate({ location, data, pageContext }: Props) {
   const categories = [
     "Journal Content",
-    "Note",
+    // "Note",
     "Miscellaneous",
     "Person",
     "Place",
@@ -106,7 +107,7 @@ export default function PageTemplate({ location, data, pageContext }: Props) {
         if (result.title === "entities") {
           newTitle = result.heading
           result.heading = ""
-          path = `entities`
+          path = `${result.language}/${slugify(newTitle)}`
         }
       }
       return {

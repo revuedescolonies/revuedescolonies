@@ -29,6 +29,10 @@ const SearchResult: React.FC<SearchResultProps> = ({
     <Box sx={{ backgroundColor: "#fff", marginTop: 1 }}>
       <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
         {results.map((result, index) => {
+          
+          // Make sure this isn't a false positive
+          if (result.content.search(new RegExp(`(${query})`, "gi")) === -1) return null;
+
           let highlightedContent = ""
           const queryLower = query.toLowerCase()
           const contentLower = result.content.toLowerCase()
@@ -38,7 +42,7 @@ const SearchResult: React.FC<SearchResultProps> = ({
             const chunk = contentLower.substring(currentIndex, currentIndex + snippetLength)
             const queryIndex = chunk.indexOf(queryLower)
 
-            if (queryIndex !== -1) {
+            if (queryIndex !== -1) {              
               const start = Math.max(currentIndex + queryIndex - snippetLength, 0)
               const end = Math.min(currentIndex + queryIndex + query.length + snippetLength, result.content.length)
               const snippet = result.content.substring(start, end)

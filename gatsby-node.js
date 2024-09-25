@@ -396,12 +396,12 @@ async function makeSearchIndex(reporter, graphql){
       }
     }
 
-    headings.push({heading: heading, content: content, type: "Miscellaneous", language: lang})
+    headings.push({heading, content, type: "Miscellaneous", language: lang})
 
     indexDocument({
       id: node.frontmatter.path,
       title: node.frontmatter.title,
-      headings: headings
+      headings
     })
   })
 
@@ -433,9 +433,9 @@ async function makeSearchIndex(reporter, graphql){
               if(element.tagName === entityName){
                 element.querySelectorAll('tei-note').forEach(note =>{
                   headings.push({
-                    heading: element.querySelector(nameAttr).textContent.replace(/\s+/g, ' ').trim(), 
-                    content: note.textContent.replace(/\s+/g, ' ').trim(), 
-                    type: teiElements.get(entityName), 
+                    heading: element.querySelector(nameAttr).textContent.replace(/\s+/g, ' ').trim(),
+                    content: note.textContent.replace(/\s+/g, ' ').trim(),
+                    type: teiElements.get(entityName),
                     language: (note.getAttribute("xml:lang") === "fr") ? "fr" : "en"})
                 })
               }
@@ -452,25 +452,26 @@ async function makeSearchIndex(reporter, graphql){
               getTEITextContent(element)
             }
           }
-        }else if(doc.querySelector('tei-noteGrp')){
-          const allNotes = Array.from(doc.querySelector('tei-noteGrp').children)
-
-          for(noteGrp of allNotes){
-            noteGrp.querySelectorAll('tei-note').forEach(note => {
-              headings.push({
-                heading: noteGrp.getAttribute("xml:id"), 
-                content: note.textContent.replace(/\s+/g, ' ').trim(), 
-                type: "Note", 
-                language: (note.getAttribute("xml:lang") === "fr") ? "fr" : "en"})
-            })
-          }
         }
+        // else if(doc.querySelector('tei-noteGrp')){
+        //   const allNotes = Array.from(doc.querySelector('tei-noteGrp').children)
+
+        //   for(noteGrp of allNotes){
+        //     noteGrp.querySelectorAll('tei-note').forEach(note => {
+        //       headings.push({
+        //         heading: noteGrp.getAttribute("xml:id"), 
+        //         content: note.textContent.replace(/\s+/g, ' ').trim(), 
+        //         type: "Note", 
+        //         language: (note.getAttribute("xml:lang") === "fr") ? "fr" : "en"})
+        //     })
+        //   }
+        // }
       }
       
       indexDocument({
         id: filePath,
         title: node.parent.name,
-        headings: headings
+        headings
       })
 
       function getTEITextContent(element){
