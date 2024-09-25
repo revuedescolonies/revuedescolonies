@@ -51,7 +51,7 @@ const Header = ({ location, menuLinks }: Props) => (
             placeholder="none" />
         </Container>
       </Banner>
-      <Nav location={location} menuLinks={menuLinks} />
+      {location !== "404" && <Nav location={location} menuLinks={menuLinks} />}
     </Wrapper>
 )
 

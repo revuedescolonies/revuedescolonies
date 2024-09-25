@@ -39,7 +39,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
   await makeCeteiceanPages(createPage, reporter, graphql)
   await makePages(createPage, reporter, graphql)
-  await makeSynoptic(createPage, reporter, graphql)
+  // await makeSynoptic(createPage, reporter, graphql)
   await makeIndices(createPage, reporter, graphql)
 
   let search_index = await makeSearchIndex(reporter, graphql)
