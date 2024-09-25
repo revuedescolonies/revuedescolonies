@@ -349,7 +349,9 @@ async function makeSynoptic(createPage, reporter, graphql) {
         const backs = acc.prefixed.match(/<tei-back[^>]*>(.*?)<\/tei-back>/gs)
         acc.prefixed = acc.prefixed.replace(/<tei-back.*?<\/tei-back>/gs, "")
         // close
-        acc.prefixed += `<tei-standOff>${backs.join(" ")}</tei-standOff></tei-TEI>`
+        if (backs) {
+          acc.prefixed += `<tei-standOff>${backs.join(" ")}</tei-standOff></tei-TEI>`
+        }
         // merge element lists
         for (const el of node.elements) {
           if (acc.elements.indexOf(el) === -1) {
