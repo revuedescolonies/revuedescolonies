@@ -20,7 +20,6 @@ import Entity from "./Entity"
 import EntityLink from "./EntityLink"
 import Graphic from './Graphic'
 import Synoptic from './Synoptic'
-import type {Lang} from '../../components/nav'
 import { DisplayContext, EntityContext, NoteContext } from './Context'
 import type { IOptions, TNote, TEntity } from "./Context"
 import Q from "./Q"

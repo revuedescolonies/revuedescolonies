@@ -21,8 +21,6 @@ interface Props {
   }[]
 }
 
-export type Lang = "en" | "fr"
-
 const styles = {
   nav: {
     "& .MuiGrid-item": {

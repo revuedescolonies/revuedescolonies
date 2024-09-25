@@ -1,0 +1,23 @@
+[
+  {
+    "teiBasePath": "RdCv1n1",
+    "title": {
+      "en": "Volume 1, Issue 1",
+      "fr": "Volume 1, numéro 1"
+    }
+  },
+  {
+    "teiBasePath": "RdCv2n1",
+    "title": {
+      "en": "Selections of Volume 2, Issue 1",
+      "fr": "Sélections du volume 2, numéro 1"
+    }
+  },
+  {
+    "teiBasePath": "RdCv5n6p13",
+    "title": {
+      "en": "Selections of Volume 5, Issue 1",
+      "fr": "Sélections du volume 5, numéro 6"
+    }
+  }
+]

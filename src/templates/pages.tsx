@@ -5,6 +5,7 @@ import months from "../utils/months"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container, Typography } from "@mui/material"
+import Toc from "../components/toc"
 
 interface Props {
   location: any
@@ -22,6 +23,7 @@ interface Props {
       frontmatter: {
         title: string
         date: string
+        path: string
       }
       html: string
     }
@@ -31,13 +33,11 @@ interface Props {
   }
 }
 
-type Lang = "en" | "fr"
-
 export default function PageTemplate({ location, data, pageContext }: Props) {
   const { modifiedTime } = pageContext
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
-  const { title } = frontmatter
+  const { title, path } = frontmatter
 
   const modifiedDate = new Date(modifiedTime)
   const date = `${modifiedDate.getDate()} ${
@@ -55,6 +55,8 @@ export default function PageTemplate({ location, data, pageContext }: Props) {
     {__html: data.site.siteMetadata.htmlTitle[curLang]}
   } /> : ""
 
+  const divGen = ["/en/toc/", "/fr/sommaire/"].includes(path) && <Toc lang={curLang}/>
+
   return (
     <Layout location={location.pathname}>
       <SEO title={title} lang={curLang}/>
@@ -69,6 +71,7 @@ export default function PageTemplate({ location, data, pageContext }: Props) {
           component="div"
           dangerouslySetInnerHTML={{ __html: html }}
         />
+        {divGen}
         {/* <div>Last updated: {date}</div> */}
       </Container>
     </Layout>

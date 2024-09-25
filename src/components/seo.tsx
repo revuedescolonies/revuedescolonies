@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 interface Props {
   description?: string
-  lang: "en" | "fr"
+  lang: Lang
   meta?: []
   title?: string
 }

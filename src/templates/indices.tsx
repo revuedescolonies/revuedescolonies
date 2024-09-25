@@ -32,8 +32,6 @@ interface Occurrence {
   repeats: number
 }
 
-type Lang = "en" | "fr"
-
 interface Props {
   pageContext: {
     data: indexData

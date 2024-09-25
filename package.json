@@ -24,6 +24,7 @@
     "gatsby-plugin-sharp": "^5.12.1",
     "gatsby-remark-images": "^7.12.1",
     "gatsby-theme-ceteicean": "^3.2.1",
+    "gatsby-transformer-json": "^5.13.1",
     "gatsby-transformer-remark": "^6.13.1",
     "gatsby-transformer-sharp": "^5.12.1",
     "lunr": "^2.3.9",

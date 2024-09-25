@@ -37,12 +37,61 @@ exports.createSchemaCustomization = ({ actions }) => {
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
+  await makeCeteiceanPages(createPage, reporter, graphql)
   await makePages(createPage, reporter, graphql)
   await makeSynoptic(createPage, reporter, graphql)
   await makeIndices(createPage, reporter, graphql)
 
   let search_index = await makeSearchIndex(reporter, graphql)
   await makeSearchPage(createPage, JSON.stringify(search_index))
+}
+
+async function makeCeteiceanPages(createPage, reporter, graphql) {
+  const component = require.resolve(`./src/gatsby-theme-ceteicean/components/Ceteicean.tsx`)
+
+  const result = await graphql(`
+  query CETEIQuery {
+    allCetei {
+      nodes {
+        prefixed
+        elements
+        parent {
+          ... on File {
+            name
+          }
+        }
+      }
+    }
+    allTocJson {
+      nodes {
+        teiBasePath
+      }
+    }
+  }
+`)
+  if (result.errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query.`)
+    return
+  }
+
+  const includedTei = result.data.allTocJson.nodes.map(node => node.teiBasePath);
+
+  for (const node of result.data.allCetei.nodes) {
+    const {name} = node.parent
+    if (includedTei.includes(name.split("-")[0])) {
+      createPage({
+        path: name,
+        component,
+        context: {
+          site: result.data.site,
+          name,
+          prefixed: node.prefixed,
+          elements: node.elements
+        }
+      })
+    }
+    
+  }
 }
 
 async function makeSearchPage(createPage, search_index) {

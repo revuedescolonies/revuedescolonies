@@ -105,6 +105,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-emotion`,
     `gatsby-plugin-material-ui`,
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
@@ -124,6 +125,7 @@ module.exports = {
     {
       resolve: `gatsby-theme-ceteicean`,
       options: {
+        fullShadow: true,
         applyBefore: [addPtrNumbers, xinclude],
         applyAfter: [],
         namespaces: {
@@ -153,7 +155,14 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
-        path: `${__dirname}/src/contents`,
+        path: `${__dirname}/src/contents/pages`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `edition`,
+        path: `${__dirname}/src/contents/edition`,
       },
     },
     {

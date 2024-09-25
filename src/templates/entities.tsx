@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Box, Container, List, ListItem, ListItemText, Typography } from "@mui/material"
-import { Link, navigate } from "gatsby"
+import { Link } from "gatsby"
 import {Routes} from "gatsby-theme-ceteicean/src/components/Ceteicean"
 import Renderer from "gatsby-theme-ceteicean/src/components/Renderer";
 import Q from "../gatsby-theme-ceteicean/components/Q";
@@ -18,7 +18,7 @@ interface occurenceObj {
 
 interface Props {
   pageContext: {
-    language: "en" | "fr"
+    language: Lang
     data: {
       id: string,
       name: string,
