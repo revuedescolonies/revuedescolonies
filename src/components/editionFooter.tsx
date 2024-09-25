@@ -38,15 +38,22 @@ interface Props {
 const EditionFooter = ({children, repository}: Props) => {
   const footerRef = React.useRef<HTMLElement>(null)
   const [stopFab, setStopFab] = React.useState(false)
+  const [showToTop, setShowToTop] = React.useState(false)
   const { contextOpts, setContextOpts } = React.useContext(DisplayContext)
   const { entitiesToShow, ...cleanContextOpts } = contextOpts;
   const hasSearch = contextOpts.entitiesToShow;
 
   React.useEffect(() => {
     window.addEventListener('scroll', () => {
-      const scrollPosition = window.pageYOffset
+      const scrollPosition = window.scrollY
       const windowSize     = window.innerHeight
       const bodyHeight     = document.body.offsetHeight
+
+      if (scrollPosition > 250) {
+        setShowToTop(true)
+      } else {
+        setShowToTop(false)
+      }
 
       const footerEl = footerRef.current
       const threshold = footerEl ? footerEl.getBoundingClientRect().height : 100
@@ -63,15 +70,17 @@ const EditionFooter = ({children, repository}: Props) => {
 
   return (<div {...{ ref: footerRef } as any}>
     <Download open={open} close={() => setOpen(false)} repository={repository}/>
-    <Fab size="large" color="secondary" aria-label="Back to top" 
-        sx={{
-          ...styles.topFab,
-          ...styles.allFab,
-          ...(stopFab && styles.stopFab)
-        }}
-        onClick={() => window.scroll({top: 0, behavior: "smooth"})}>
-      <KeyboardDoubleArrowUpIcon />
-    </Fab>
+    {showToTop && 
+      <Fab size="large" color="secondary" aria-label="Back to top" 
+          sx={{
+            ...styles.topFab,
+            ...styles.allFab,
+            ...(stopFab && styles.stopFab)
+          }}
+          onClick={() => window.scroll({top: 0, behavior: "smooth"})}>
+        <KeyboardDoubleArrowUpIcon />
+      </Fab>
+    }
     <Fab size="large" color="secondary" aria-label="Show TEI" 
         sx={{
           ...styles.teiFab,
