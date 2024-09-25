@@ -148,7 +148,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `static/tei`,
+        path: `static/data/tei`,
       },
     },
     {
