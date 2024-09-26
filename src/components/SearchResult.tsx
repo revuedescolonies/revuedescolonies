@@ -31,7 +31,7 @@ const SearchResult: React.FC<SearchResultProps> = ({
         {results.map((result, index) => {
           
           // Make sure this isn't a false positive
-          if (result.content.search(new RegExp(`(${query})`, "gi")) === -1) return null;
+          // if (result.content.search(new RegExp(`(${query})`, "gi")) === -1) return null;
 
           let highlightedContent = ""
           const queryLower = query.toLowerCase()

@@ -126,7 +126,9 @@ export default function PageTemplate({ location, data, pageContext }: Props) {
   useEffect(() => {
     if (query.trim()) {
       const searchResults = searchWithHeadings(query)
-      setResults(searchResults)
+      // attempt to filter false positives out
+      const actualResults = searchResults.filter(result => result.content.search(new RegExp(`(${query})`, "gi")) !== -1)
+      setResults(actualResults)
     } else {
       setResults([])
     }

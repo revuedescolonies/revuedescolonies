@@ -35,18 +35,35 @@ exports.createSchemaCustomization = ({ actions }) => {
     `)
 }
 
+async function getPublishedTEI(graphql) {
+  const result = await graphql(`
+    query allPublishedTEI {
+      allTocJson {
+        nodes {
+          teiBasePath
+        }
+      }
+    }
+  `)
+
+  return result.data.allTocJson.nodes.map(node => node.teiBasePath);
+} 
+
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
-  await makeCeteiceanPages(createPage, reporter, graphql)
-  await makePages(createPage, reporter, graphql)
-  // await makeSynoptic(createPage, reporter, graphql)
-  await makeIndices(createPage, reporter, graphql)
 
-  let search_index = await makeSearchIndex(reporter, graphql)
+  const publishedTei = await getPublishedTEI(graphql);
+
+  await makeCeteiceanPages(createPage, reporter, graphql, publishedTei)
+  await makePages(createPage, reporter, graphql)
+  await makeSynoptic(createPage, reporter, graphql, publishedTei)
+  await makeIndices(createPage, reporter, graphql, publishedTei)
+
+  let search_index = await makeSearchIndex(reporter, graphql, publishedTei)
   await makeSearchPage(createPage, JSON.stringify(search_index))
 }
 
-async function makeCeteiceanPages(createPage, reporter, graphql) {
+async function makeCeteiceanPages(createPage, reporter, graphql, publishedTei) {
   const component = require.resolve(`./src/gatsby-theme-ceteicean/components/Ceteicean.tsx`)
 
   const result = await graphql(`
@@ -74,11 +91,9 @@ async function makeCeteiceanPages(createPage, reporter, graphql) {
     return
   }
 
-  const includedTei = result.data.allTocJson.nodes.map(node => node.teiBasePath);
-
   for (const node of result.data.allCetei.nodes) {
     const {name} = node.parent
-    if (includedTei.includes(name.split("-")[0])) {
+    if (publishedTei.includes(name.split("-")[0])) {
       createPage({
         path: name,
         component,
@@ -150,7 +165,7 @@ async function makePages(createPage, reporter, graphql) {
   })
 }
 
-async function makeIndices(createPage, reporter, graphql) {
+async function makeIndices(createPage, reporter, graphql, publishedTei) {
   const component = require.resolve(`./src/templates/indices.tsx`)
   const entityComponent = require.resolve(`./src/templates/entities.tsx`)
 
@@ -243,7 +258,7 @@ async function makeIndices(createPage, reporter, graphql) {
   indexObj.org = parseEntityTag(entityDoc, "listOrg", "org", "orgName", "xml:id")
   indexObj.bibl = parseEntityTag(entityDoc, "listBibl", "bibl", "title", "xml:id")
 
-  for (const document of result.data.allCetei.nodes) {
+  for (const document of result.data.allCetei.nodes.filter(n => publishedTei.includes(n.parent.name.split("-")[0]))) {
     if (document.original.includes(`xml:id="RdC`)) {
       const tei = new JSDOM(document.original, {contentType:'text/xml'}).window.document;
       const docName = document.parent;
@@ -305,7 +320,7 @@ async function makeIndices(createPage, reporter, graphql) {
 }
 
 
-async function makeSynoptic(createPage, reporter, graphql) {
+async function makeSynoptic(createPage, reporter, graphql, publishedTei) {
   const component = require.resolve(`./src/gatsby-theme-ceteicean/components/Ceteicean.tsx`)
 
   const result = await graphql(`
@@ -338,7 +353,7 @@ async function makeSynoptic(createPage, reporter, graphql) {
 
   for (lang of langs) {
     const path = `synoptic-${lang}`
-    const section = result.data.allCetei.nodes.reduce((acc, node) => {
+    const section = result.data.allCetei.nodes.filter(n => publishedTei.includes(n.parent.name.split('-')[0])).reduce((acc, node) => {
       if (node.parent.name === `RdCv1n1-${lang}`) {
         // wrap the two TEI files in a single <TEI> element
         acc.prefixed = `<tei-TEI data-xmlns=\"http://www.tei-c.org/ns/1.0\" data-origname=\"TEI\" data-origatts=\"xmlns\" xml:id=\"synoptic\" id=\"synoptic\">${node.prefixed}`
@@ -371,7 +386,7 @@ async function makeSynoptic(createPage, reporter, graphql) {
   }
 }
 
-async function makeSearchIndex(reporter, graphql){
+async function makeSearchIndex(reporter, graphql, publishedTei){
   const remark = (await import('remark')).remark
 
   const result_md = await graphql(`
@@ -456,7 +471,7 @@ async function makeSearchIndex(reporter, graphql){
     })
   })
 
-  result_tei.data.allCetei.nodes.forEach(( node ) => {
+  result_tei.data.allCetei.nodes.filter(n => publishedTei.includes(n.parent.name.split('-')[0]) || n.parent.name === "entities").forEach(( node ) => {
       const filePath = `${node.parent.relativeDirectory}/${node.parent.name}`
       const dom = new JSDOM(node.prefixed, { contentType: "text/xml" })
       const doc = dom.window.document
@@ -464,7 +479,9 @@ async function makeSearchIndex(reporter, graphql){
       let headings = []
       let lang = ""
 
-      if(filePath === '/entities'){
+      console.log(filePath)
+
+      if(filePath === 'shared/entities'){
         let teiElements = new Map();
         teiElements.set("tei-person", "Person")
         teiElements.set("tei-place", "Place")
