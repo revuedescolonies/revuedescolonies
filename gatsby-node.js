@@ -56,7 +56,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   await makeCeteiceanPages(createPage, reporter, graphql, publishedTei)
   await makePages(createPage, reporter, graphql)
-  await makeSynoptic(createPage, reporter, graphql, publishedTei)
+  // This needs to be changed to compare translations.
+  // await makeSynoptic(createPage, reporter, graphql, publishedTei)
   await makeIndices(createPage, reporter, graphql, publishedTei)
 
   let search_index = await makeSearchIndex(reporter, graphql, publishedTei)
