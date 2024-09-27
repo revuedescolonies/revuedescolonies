@@ -75,7 +75,9 @@ const Entity: EntityBehavior = (props: TEIProps) => {
         <CloseIcon />
       </IconButton>)
 
-      const entityContent = Array.from(el.children).filter(c => c.getAttribute('lang') === cardLang)[0]
+      const entityContent = el.querySelector(`tei-note[lang=${cardLang}]`)
+
+      if (!entityContent) return null;
        
       const resp = entityContent.getAttribute("resp")
       let author: JSX.Element | undefined = undefined 

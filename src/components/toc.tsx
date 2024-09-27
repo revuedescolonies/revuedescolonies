@@ -54,14 +54,14 @@ const Toc = ({lang}: TocProps) => {
     <Grid size={6}>
       <Typography component="h2" variant="h2">{i18n("Annotated English translation")}</Typography>
     </Grid>
-    {entries.map(entry => (<>{}
+    {entries.map(entry => (<React.Fragment key={entry.teiBasePath}>{}
       <Grid size={6}>
         <Link to={`/${entry.teiBasePath}-fr`}>{entry.title.fr}</Link>
       </Grid>
       <Grid size={6}>
         <Link to={`/${entry.teiBasePath}-en`}>{entry.title.en}</Link>
       </Grid>
-    </>))}
+    </React.Fragment>))}
   </Grid>
 }
 

@@ -31,7 +31,15 @@ const Graphic: TBehavior = (props: TEIProps) => {
   const noDesc = "No description provided."
   if (!src) return null
 
-  const img = imgData.allFile.nodes.filter((n: any) => n.name + n.ext === src)[0]
+  const img = imgData.allFile.nodes.filter((n: any) => {
+    // TODO: This is temporary until better image export from Strapi
+    const [name, extension] = src.split(/\.(?=[^\.]+$)/);
+    // Split the name at the last underscore and remove the last part
+    const newName = name.substring(0, name.lastIndexOf("_"));
+    // Reattach the extension
+    const cleanSrc = `${newName}.${extension}`;
+    return n.name + n.ext === cleanSrc}
+  )[0]
   if (img) {
     return (<Behavior node={props.teiNode}>
       <GatsbyImage

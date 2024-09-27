@@ -32,6 +32,7 @@ interface Props {
 type TEIProps = {
   teiNode: Node,
   availableRoutes?: string[],
+  curLang: string
 }
 
 
@@ -50,9 +51,15 @@ const renderRefrences = (references:occurenceObj[], id: string) => {
     )
 }
 
-const Title = (props: TEIProps) => <Typography variant="h3" component="h1" gutterBottom={false} sx={{
-  marginBottom: "2rem"
-}}><SafeUnchangedNode {...props}/></Typography>
+const Title = (props: TEIProps) => {
+  const el = props.teiNode as Element
+  const lang = el.getAttribute("lang")
+  console.log(lang, props.curLang)
+  if (lang !== props.curLang) return null;
+  return <Typography variant="h3" component="h1" gutterBottom={false} sx={{
+    marginBottom: "2rem"
+  }}><SafeUnchangedNode {...props}/></Typography>
+}
 
 export default function ReferencesPage({pageContext}: Props) {
   const {language, prefixed, elements, data} = pageContext;
@@ -60,13 +67,13 @@ export default function ReferencesPage({pageContext}: Props) {
   const routes: Routes = {
     "tei-graphic": (props) => <Box sx={{textAlign: "center"}}><Graphic {...props}/></Box>,
     "tei-ref": Ref,
-    "tei-q": (props) => <Q {...props} curLang={pageContext.language}/>,
-    "tei-persname": Title,
-    "tei-orgname": Title,
-    "tei-placename": Title,
+    "tei-q": (props) => <Q {...props} curLang={language}/>,
+    "tei-persname": (props) => <Title {...props} curLang={language}/>,
+    "tei-orgname": (props) => <Title {...props} curLang={language}/>,
+    "tei-placename": (props) => <Title {...props} curLang={language}/>,
     "tei-title": (props) => {
       const el = props.teiNode as Element
-      return el.parentElement?.getAttribute("type") === "periodical" ? <Title {...props}/>
+      return el.parentElement?.getAttribute("type") === "periodical" ? <Title {...props} curLang={language}/>
       : <SafeUnchangedNode {...props}/>
     },
     "tei-note": (props) => {

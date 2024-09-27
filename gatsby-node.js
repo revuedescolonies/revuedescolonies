@@ -480,8 +480,6 @@ async function makeSearchIndex(reporter, graphql, publishedTei){
       let headings = []
       let lang = ""
 
-      console.log(filePath)
-
       if(filePath === 'shared/entities'){
         let teiElements = new Map();
         teiElements.set("tei-person", "Person")
