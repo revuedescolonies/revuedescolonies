@@ -122,29 +122,44 @@ async function makeMap(createPage, reporter, graphql) {
     reporter.panicOnBuild(`Error while running GraphQL query.`)
     return
   }
+    
+  // JSDOM
+  const xmlData = result.data.allFile.nodes[0].childCetei.original;
+  const dom = new JSDOM(xmlData, { contentType: "text/xml" });
+  const document = dom.window.document;
 
-  console.log(result)
-  
-  
-    //const dom = new JSDOM(node.prefixed, { contentType: "text/xml" })
+  //query XML data
+  const geoData = [];
+  const geoElements = document.querySelectorAll('geo[decls="#geojson"]');
+  geoElements.forEach(geoElement => {
+      const snippet = JSON.parse(geoElement.textContent);
+      geoData.push(snippet);
+  });
 
-    createPage({
-      path: '/en/map',
-      component,
-      context: {
-        //geojson: node.geojson,
-        language: 'en'
-      }
-    })
+  console.log(geoData)
 
-    createPage({
-      path: '/fr/carte',
-      component,
-      context: {
-        //geojson: node.geojson,
-        language: 'fr'
-      }
-    })
+  const contextGeoJSON = {
+    type: "FeatureCollection",
+    features: geoData.flatMap(snippet => snippet.features || [snippet]),
+  };
+
+  createPage({
+    path: '/en/map',
+    component,
+    context: {
+      geojson: contextGeoJSON,
+      language: 'en'
+    }
+  })
+
+  createPage({
+    path: '/fr/carte',
+    component,
+    context: {
+      geojson: contextGeoJSON,
+      language: 'fr'
+    }
+  })
   
 }
 

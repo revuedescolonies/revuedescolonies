@@ -1,21 +1,23 @@
 import React from "react"
-import { graphql } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Container, Typography } from "@mui/material"
+import { Container } from "@mui/material"
 import GlobeMap from "../components/GlobeMap"
 
+interface Props {
+    geojson: any; 
+    language: string;
+}
 
-export default function MapPage() {
-    return (
-        <Layout location={location.pathname}>
-          <SEO title={'map'} lang={'en'}/>
+export default function MapPage({pageContext}: Props) {
+  const { geojson, language } = pageContext; 
+
+  return (
+      <Layout location={location.pathname}>
+          <SEO title={'map'} lang={language}/>
           <Container component="main" maxWidth="md">
-            <GlobeMap />
+              <GlobeMap geojson={geojson} /> {}
           </Container>
-        </Layout>
-      )
-
-
+      </Layout>
+  );
 }

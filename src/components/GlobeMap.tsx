@@ -2,13 +2,17 @@ import React, { useRef, useEffect } from "react";
 import * as d3 from "d3";
 import './GlobeMap.css'; // Adjust the path if necessary
 
-const GlobeMap: React.FC = () => {
+interface GlobeMapProps {
+  geojson: any; 
+}
+
+const GlobeMap: React.FC<GlobeMapProps>= ({ geojson }) => {
   const svgRef = useRef<SVGSVGElement | null>(null);
   const tooltipRef = useRef<HTMLDivElement | null>(null);
   let isRotationStopped = false; // Flag to track if rotation should be stopped
 
   useEffect(() => {
-    if (!svgRef.current || !tooltipRef.current) return;
+    if (!svgRef.current || !tooltipRef.current|| !geojson) return;
 
     const svg = d3.select(svgRef.current);
     const tooltip = d3.select(tooltipRef.current);
@@ -99,8 +103,6 @@ const GlobeMap: React.FC = () => {
       const mapResponse = await fetch("/earth-coastlines-10km.geojson");
       const mapData = await mapResponse.json();
       const geometries = mapData.geometries.filter((d: any) => d.type === "MultiPolygon")
-      
-     
       svg.append("g")
         .attr("class", "multipolygons")
         .selectAll("path")
@@ -111,20 +113,15 @@ const GlobeMap: React.FC = () => {
         .style('stroke', 'black')
         .style('stroke-width', 1)
         .style("opacity", 0.8);
-
-
     };
 
-
-
-    const loadhighlightData = async () => {  
-      const geojsonResponse = await fetch("/map.geojson");
-      const geojsonData = await geojsonResponse.json();
-
-      const polygons = geojsonData.features.filter((d: any) => d.geometry.type === "Polygon");
+// Render the geojson data
+  const loadGeojsonData = async() => {
+    if (geojson.features) {
+      const polygons = geojson.features.filter((d: any) => d.geometry.type === "Polygon");
 
       svg.append("g")
-        .attr("class", "polygons-layer")
+        .attr("class", "polygons")
         .selectAll("path")
         .data(polygons)
         .enter().append("path")
@@ -132,12 +129,10 @@ const GlobeMap: React.FC = () => {
         .attr("fill", "none")
         .attr("stroke", "blue") 
         .style('stroke-width', 2)
-        .attr("stroke-dasharray", "5,5") // Dotted line 
-        .attr("stroke-width", 2)
-        .style("opacity", 0.8);
+        .attr("stroke-dasharray", "5,5")
+        .style("opacity", 1);
 
-
-      const points = geojsonData.features.filter((d: any) => d.geometry.type === "Point");
+      const points = geojson.features.filter((d: any) => d.geometry.type === "Point");
 
       svg.append("g")
         .selectAll("circle")
@@ -147,23 +142,24 @@ const GlobeMap: React.FC = () => {
         .attr("r", 5) 
         .attr("fill", "red")
         .attr("stroke", "black")
-        .attr("transform", (d: any) => `translate(${projection(d.geometry.coordinates)})`)
-        .on("mouseover", function(event: any, d: any) {
+        .attr("transform", (d: any) => `translate(${projection(d.geometry.coordinates)})`) 
+        .on("mouseover", function(event, d) {
           const [mouseX, mouseY] = d3.pointer(event);
           d3.select(this).attr("fill", "yellow");
           tooltip.transition().duration(200).style("opacity", .9);
           tooltip.html("sample")
-            .style("left", `${mouseX + 50}px`)
-            .style("top", `${mouseY + 50}px`);
+            .style("left", `${mouseX + 300}px`)
+            .style("top", `${mouseY + 500}px`);
         })
         .on("mouseout", function() {
           d3.select(this).attr("fill", "red");
           tooltip.transition().duration(500).style("opacity", 0);
-        });
-    };
+        });      
+    }
+  };
 
+    loadGeojsonData();
     loadData();
-    loadhighlightData();
 
     // Optional rotation function
     const rotateGlobe = () => {
@@ -198,7 +194,7 @@ const GlobeMap: React.FC = () => {
 
     stopRotationOnFirstInteraction();
 
-  }, []);
+  }, [geojson]);
 
   return (
     <div className="globe-container">

@@ -594,7 +594,7 @@
     <place xml:id="Esk">
       <placeName>Essaka</placeName>
       <location cert="low">
-        <geo decls="geojson">
+        <geo decls="#geojson">
           {
             "type": "Feature",
             "properties": {},
