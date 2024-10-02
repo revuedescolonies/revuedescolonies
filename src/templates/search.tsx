@@ -74,7 +74,7 @@ export default function PageTemplate({ location, data, pageContext }: Props) {
     storeFields: ["title", "heading", "content", "type", "language"],
     searchOptions: {
       prefix: true,
-      fuzzy: 0.2,
+      fuzzy: 0.05,
     },
   })
 
@@ -126,9 +126,7 @@ export default function PageTemplate({ location, data, pageContext }: Props) {
   useEffect(() => {
     if (query.trim()) {
       const searchResults = searchWithHeadings(query)
-      // attempt to filter false positives out
-      const actualResults = searchResults.filter(result => result.content.search(new RegExp(`(${query})`, "gi")) !== -1)
-      setResults(actualResults)
+      setResults(searchResults)
     } else {
       setResults([])
     }
@@ -164,7 +162,8 @@ export default function PageTemplate({ location, data, pageContext }: Props) {
   }
 
   const handlePageChange = (_event: React.ChangeEvent<unknown>, page: number) => {
-    setCurrentPage(page);
+    setCurrentPage(page)
+    window.scrollTo({ top: 0, behavior: "smooth" })
   }
 
   const totalPages = Math.ceil(results.length / resultsPerPage)
