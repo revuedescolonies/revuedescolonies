@@ -15,6 +15,7 @@ interface SearchResultProps {
   query: string
   categoryColors: { [key: string]: string }
   languageColors: { [key: string]: string }
+  categoryTranslation?: { [key: string]: string }
 }
 
 const SearchResult: React.FC<SearchResultProps> = ({
@@ -22,6 +23,7 @@ const SearchResult: React.FC<SearchResultProps> = ({
   query,
   categoryColors,
   languageColors,
+  categoryTranslation
 }) => {
   const snippetLength = 60
 
@@ -76,7 +78,7 @@ const SearchResult: React.FC<SearchResultProps> = ({
             >
               <Box sx={{ display: "flex", gap: 1, marginBottom: 1 }}>
                 <Chip
-                  label={result.type}
+                  label={categoryTranslation ? categoryTranslation[result.type] : result.type}
                   sx={{
                     backgroundColor: categoryColors[result.type] || "#000",
                     color: "#fff",

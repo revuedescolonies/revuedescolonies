@@ -42,6 +42,28 @@ const languageColors: { [key: string]: string } = {
   "fr": "#cfaa7a",
 }
 
+const filterLabels = {
+  en: {
+    category: "Filter by Categories",
+    language: "Filter by Languages",
+  },
+  fr: {
+    category: "Filtrer par catégories",
+    language: "Filtrer par langues",
+  },
+}
+
+const categoryTranslation = {
+  "Journal Content": "Contenu du Journal",
+  //"Note": "Note",
+  "Miscellaneous": "Divers",
+  "Person": "Personne",
+  "Place": "Lieu",
+  "Organization": "Organisation",
+  "Bibl": "Bibl",
+}
+
+
 export default function PageTemplate({ location, data, pageContext }: Props) {
   const categories = [
     "Journal Content",
@@ -179,13 +201,14 @@ export default function PageTemplate({ location, data, pageContext }: Props) {
           <Box sx={{ display: "grid", gridTemplateColumns: "1fr 3fr", gridGap: 8 }}>
             <Box sx={{ display: "flex", flexDirection: "column" }}>
               <Filter
-                title="Filter by Categories:"
+                title={filterLabels[curLang].category}
                 items={categories}
                 selectedItems={selectedCategories}
                 onItemChange={handleFilterChange("category")}
+                categoryTranslation={curLang === "fr" ? categoryTranslation : undefined}
               />
               <Filter
-                title="Filter by Languages:"
+                title={filterLabels[curLang].language}
                 items={languages}
                 selectedItems={selectedLanguages}
                 onItemChange={handleFilterChange("language")}
@@ -197,6 +220,7 @@ export default function PageTemplate({ location, data, pageContext }: Props) {
                 query={query}
                 categoryColors={categoryColors}
                 languageColors={languageColors}
+                categoryTranslation={curLang === "fr" ? categoryTranslation : undefined}
               />
               {results.length > 0 && (
                 <Box sx={{ display: "flex", justifyContent: "center", marginTop: 2 }}>

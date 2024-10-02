@@ -5,10 +5,11 @@ interface FilterProps {
   title: string
   items: string[]
   selectedItems: string[]
-  onItemChange: (event: React.ChangeEvent<HTMLInputElement>) => void
+  onItemChange: (event: React.ChangeEvent<HTMLInputElement>) => void,
+  categoryTranslation?: { [key: string]: string }
 }
 
-const Filter: React.FC<FilterProps> = ({ title, items, selectedItems, onItemChange }) => {
+const Filter: React.FC<FilterProps> = ({ title, items, selectedItems, onItemChange, categoryTranslation }) => {
   return (
     <Box
       sx={{
@@ -53,7 +54,7 @@ const Filter: React.FC<FilterProps> = ({ title, items, selectedItems, onItemChan
                   marginBottom:-2
                 }
               }}
-              label={item}          
+              label={categoryTranslation ? categoryTranslation[item] : item}          
           />
 
         </Box>
