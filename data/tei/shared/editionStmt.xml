@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!-- 
+  THIS FILE IS GENERATED
+  DO NOT EDIT
+-->
+
+<editionStmt xmlns="http://www.tei-c.org/ns/1.0">
+  <respStmt>
+    <resp>Annotated by</resp>
+    <name xml:id="apolline">A. Lagarde</name>
+    <name xml:id="masha">M. Beliaeva Solomon</name>
+    <name xml:id="abel">A. Louis</name>
+    <name xml:id="anna">A. Brickhouse</name>
+    <name xml:id="charlotte">Charlotte Joublot Ferré</name>
+    <name xml:id="chelsea">C. Stieber</name>
+    <name xml:id="emilie">E. Hautemont</name>
+    <name xml:id="greg">G. Pierrot</name>
+    <name xml:id="jacqueline">J. Couti</name>
+    <name xml:id="jessica">J. Balguy</name>
+    <name xml:id="kelly">K. Duke-Bryant</name>
+    <name xml:id="laure">L. Demougin</name>
+    <name xml:id="marlene">M. L. Daut</name>
+    <name xml:id="michaël">M. Roy</name>
+    <name xml:id="noëlle">N. Romney</name>
+    <name xml:id="sara">S. E. Johnson</name>
+    <name xml:id="tasnîm">T. Tirkawi</name>
+    <name xml:id="yasmine">Y. Najm</name>
+  </respStmt>
+</editionStmt>

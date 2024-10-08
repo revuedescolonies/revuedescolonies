@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- 
+  THIS FILE IS GENERATED
+  DO NOT EDIT
+-->
+<noteGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="RdCv1n2-notes">
+    <noteGrp xml:id="n18GL">
+        <note xml:lang="en" type="translation_note">
+            <p>“First of August 1834” <title>Religious Intelligencer</title> (New Haven, CT), August 16, 1834 pp.179-80</p>
+        </note>
+    </noteGrp>
+</noteGrp>

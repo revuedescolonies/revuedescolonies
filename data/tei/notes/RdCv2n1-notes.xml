@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- 
+  THIS FILE IS GENERATED
+  DO NOT EDIT
+-->
+<noteGrp xmlns="http://www.tei-c.org/ns/1.0" xml:id="RdCv2n1-notes">
+    <noteGrp xml:id="n6D92">
+        <note xml:lang="en" type="commentary">
+            <p>The image used on the title page, including the text, is derived from a medallion designed by Josiah Wedgewood as the official seal of the London Committee of the Society for the Abolition of the Slave Trade in 1787 (the text of the original mediallion reads “Am I not a man and a brother?”). Though Wedgewood himself refused to sell these small black and white medallions because, he argued, trading in representations of the enslaved was not altogether different from the actual slave trade, they were immediately and extremely popular, with the image, text, or both reproduced on a number of goods, and adapted in numerous printed works such as the <title>Revue</title>. As contemporary critics have noted, this image, while undoubtedly succeeding in the goal of publicizing and popularizing the abolitionist movement, nonetheless objectifies enslaved people, reducing a population of millions into an abstract object of sentimental contemplation, and asking the--presumably white--reader to benevolently affirm the enslaved man’s plea for humanity. On the other hand, his posture, resting on one knee with his right foot flexed behind might also suggest that he is poised to elevate himself.</p>
+            <p>Thomas Clarkson. <title>History of the Rise, Progress, and Accomplishment of the Abolition of the African Slave Trade by the British Parliament</title>. 2 vols. Philadelphia: James P. Parke, 1808.</p>
+            <p>Lynn M. Festa, <title>Sentimental Figures of Empire in Eighteenth-Century Britain and France</title>. Baltimore: Johns Hopkins University Press, 2006. 165-166.</p>
+            <p>J.R. Oldfield. <title>Popular Politics and British Anti-Slavery: The Mobilisation of Public Opinion Against the Slave Trade, 1787–1807</title>. London: Frank Cass, 1998.</p>
+        </note>
+        <note xml:lang="fr" type="commentary">
+            <p>Vignette signée du dessinateur-lithographe parisien Levasseur, et du collectif de graveurs sur bois Andrew, Best et Leloir, actifs à Paris dans les années 1830-1840.</p>
+            <p>La représentation d’un esclave africain enchaîné et agenouillé, les mains jointes, la jambe gauche fléchie suggérant qu’il s’apprête à se relever, est dérivée, légende comprise, d’un médaillon conçu par l’industriel britannique Josiah Wedgewood en 1787 comme sceau officiel du Comité de Londres de la Société pour l’Abolition de la Traite.</p>
+            <p>Wedgewood aurait lui-même critiqué la reproduction commerciale de l’image comme n’étant pas sensiblement différente de la traite qu’elle condamnait, mais elle a circulé massivement tout au long du 19e siècle, contribuant à populariser le mouvement abolitionniste. Elle n’en réifie pas moins le sujet représenté, réduisant, par extension, une population de millions de personnes à un objet abstrait de contemplation sentimentale.</p>
+            <p>L’image circule en France dès 1788 sur les imprimés de la <title>Société des amis des noirs.</title> Dans les utilisations françaises, le texte de la légende varie, selon les cas, entre N<title>e suis-je pas un homme et ton frère? Ne suis-je pas ton frère? </title></p>
+            <p>Thomas Clarkson. <title>History of the Rise, Progress, and Accomplishment of the Abolition of the African Slave Trade by the British Parliament</title>. 2 vols. Philadelphia: James P. Parke, 1808.</p>
+            <p>Lynn M. Festa, <title>Sentimental Figures of Empire in Eighteenth-Century Britain and France</title> (Baltimore: Johns Hopkins University Press, 2006). 165-166.</p>
+            <p>J.R. Oldfield. <title>Popular Politics and British Anti-Slavery: The Mobilisation of Public Opinion Against the Slave Trade, 1787–1807</title>. London: Frank Cass, 1998.</p>
+        </note>
+    </noteGrp>
+    <noteGrp xml:id="n9D67">
+        <note xml:lang="en" type="commentary">
+            <p>This table of contents attests to the internal diversity of the <title>Revue’</title>s issues, both in terms of source and genre: bills and legal analysis are juxtaposed with “varieties,” miscellaneous news covering a range of subjects, poetry, fiction, biography, and bibliography.</p>
+            <p>Introduced in the second volume, the table of contents, along with the continuous numbering of the pages between issues, and the alphabetical index that closes the final issue of each year, testify to an intent to offer subscribers a varied but coherent set of texts that might be bound and cataloged in a library.</p>
+        </note>
+        <note xml:lang="fr" type="commentary">
+            <p>Cette table de matières atteste de la grande diversité des textes, à l’origine et à la forme variée, dont sont composées les livraisons de la <title>Revue </title>: projets de loi et enquêtes juridiques y côtoient les rubriques labellisées variétés, nouvelles diverses, poésie et fiction, biographie et bibliographie portant sur un vaste éventail de sujets.</p>
+            <p>Introduits au second volume, la table des matières, la numérotation continue des pages et l’index alphabétique qui clôt la dernière livraison, témoignent de la volonté de proposer aux abonnés un ensemble, certes diversifié, mais cohérent, pouvant être intégré aux bibliothèques sous forme de recueil annuel relié.</p>
+        </note>
+    </noteGrp>
+    <noteGrp xml:id="n5676">
+        <note xml:lang="en" type="commentary">
+            <p>In crediting the press specifically with propagating the ideas of the French Revolution, this reference to the transatlantic circulation of print implicitly identifies the <title>Revue </title>as a historically important medium for transnational and diasporic political engagement.</p>
+            <p>Bryant, Kelly Duke. « Black but Not African: Francophone Black Diaspora and the “Revue des Colonies,” 1834-1842 », <title>The International Journal of African Historical Studies</title>. 40, no.2 (2007). 251‑282.</p>
+            <p>Johnson, Sara E. <title>The Fear of French Negroes: Transcolonial Collaboration in the Revolutionary Americas</title>. Berkeley: University of California Press, 2012.</p>
+        </note>
+        <note xml:lang="fr" type="commentary">
+            <p>Cette référence à la circulation transatlantique des idées révolutionnaires, notamment dans la presse, permet d’identifier implicitement la <title>Revue </title>comme un organe historiquement important de d'organisation politique diasporique et transnationale.</p>
+            <p>Bryant, Kelly Duke. « Black but Not African: Francophone Black Diaspora and the “Revue des Colonies,” 1834-1842 », <title>The International Journal of African Historical Studies</title>. 2007, vol.40 nᵒ 2. p. 251‑282.</p>
+            <p>Johnson, Sara E. <title>The Fear of French Negroes: Transcolonial Collaboration in the Revolutionary Americas</title>. Berkeley: University of California Press, 2012.</p>
+        </note>
+    </noteGrp>
+    <noteGrp xml:id="n239B">
+        <note xml:lang="en" type="commentary">
+            <p>Footnotes such as this one attest to the pedagogical ambitions of the <title>Revue</title>, which endeavors, in this case, to provide an overview of an aspect of Caribbean history during the revolutionary period.</p>
+        </note>
+        <note xml:lang="fr" type="commentary">
+            <p>Les notes de bas de page comme celle-ci témoignent des ambitions pédagogiques de la <title>Revue,</title> qui s’attache, en l’occurrence, à retracer tout un pan de l’histoire antillaise à la période révolutionnaire.</p>
+        </note>
+    </noteGrp>
+    <noteGrp xml:id="n738C">
+        <note xml:lang="en" type="commentary">
+            <p>The elections held following the abolition enacted in Saint-Domingue in 1793 are important for having been the first to guarantee the participation of men of color, including those recently emancipated. This condensed account of the events between the decrees of 1792 and 1794, however, treats the French revolutionary government’s interventions in Haiti in an uncomplicatedly positive light, an editorial decision consistent with the <title>Revue des Colonies</title>’ general reticence to criticize the French colonial empire as such.</p>
+            <p>Dubois, Laurent. <title>Avengers of the New World: The Story of the Haitian Revolution</title> Cambridge, Mass: Harvard University Press, 2004</p>
+            <p>Fick, Caroline E. <title>The Making of Haiti: The Saint Domingue Revolution from Below</title>. Knoxville: University of Tennessee Press, 1990</p>
+        </note>
+        <note xml:lang="fr" type="commentary">
+            <p>Les élections tenues suite à l’abolition promulguée à Saint-Domingue en 1793 sont importantes pour avoir été les premières à garantir la participation des hommes de couleur, y compris ceux récemment émancipés. Ce récit condensé des événements entre les décrets de 1792 et 1794, présente les interventions de la Convention en Haïti sous un jour uniformément positif, conformément à la tendance générale de la <title>Revue de Colonies</title> à ne jamais critiquer l’empire colonial français en tant que tel.</p>
+            <p>Dubois, Laurent. <title>Avengers of the New World: The Story of the Haitian Revolution</title> Cambridge, Mass: Harvard University Press, 2004</p>
+            <p>Fick, Caroline E. <title>The Making of Haiti: The Saint Domingue Revolution from Below</title>. Knoxville: University of Tennessee Press, 1990</p>
+        </note>
+    </noteGrp>
+    <noteGrp xml:id="nA2CD">
+        <note xml:lang="en" type="commentary">
+            <p>The rhetorical flourishes of this passage testify to a complex, even contradictory media strategy. While affirming his allegiance France and its sovereignty over the colonies, Bissette demands the abolition of the institution of slavery on with the colonial economy depends, and the dismantling of the socio-racial hierarchy that it entails.</p>
+        </note>
+        <note xml:lang="fr" type="commentary">
+            <p>Les envolées rhétoriques de ce passage témoignent d’une stratégie médiatique complexe, voire contradictoire, multipliant d’un côté les signes d’allégeance aux idéaux républicains y compris dans leur incarnation coloniale, et réclamant, de l’autre côté, un démantèlement du système esclavagiste coextensif de l’entreprise coloniale, et de la hiérarchie socio-raciale que celui-ci met en place.</p>
+        </note>
+    </noteGrp>
+    <noteGrp xml:id="n82F8">
+        <note xml:lang="en" type="commentary">
+            <p>This declaration is remarkable not only for its praise of the Haitian state, but for its indictment of European colonial powers. If the <title>Revue des Colonies </title> is, in general, very favorable to Haiti, systematically opposing the country’s enlightened liberalism to the brutalities of colonial Saint-Domingue, it remains ambivalent as to the necessity of revolutionary violence. The fear of political instability and economic retribution served explicitly as arguments for the maintenance of the colonial order, and the <title>Revue </title>does not differ, in this regard, from other contemporary publications.</p>
+            <p>Braun, Juliane. “Transatlantic Vistas: Changing Alliances at Home and Abroad.” <title>Creole Drama: Theatre and Society in Antebellum New Orleans.</title> Charlottesville: University of Virginia Press. 2019. 138‑164.</p>
+            <p>Brickhouse, Anna. <title>Transamerican Literary Relations and Nineteenth-Century Public Sphere. </title>Cambridge: Cambridge University Press, 2004.</p>
+            <p>Johnson, Sara E. <title>The Fear of French Negroes: Transcolonial Collaboration in the Revolutionary Americas</title>. Berkeley: University of California Press, 2012.</p>
+        </note>
+        <note xml:lang="fr" type="commentary">
+            <p>Cette déclaration est remarquable non seulement par son apologie de l’État haïtien mais par la mise en accusation, tout aussi exceptionnelle, des puissances coloniales européennes. Si la <title>Revue de Colonies </title> se montre, de manière générale, très favorable à la nation haïtienne, opposant systématiquement le libéralisme éclairé d’Haïti aux brutalités de la société esclavagiste de Saint-Domingue, elle reste circonspecte quant aux mobilisations dissidentes et à tout acte de résistance violent. La peur de nouvelles révolutions, mais aussi des représailles économiques qu’a connu l’État haïtien après son indépendance, notamment avec l’accord d’indemnisation de 1825, ont servi implicitement et explicitement d’arguments en faveur de la nécessité du régime colonial existant, et la <title>Revue</title> ne diffère pas, en ce sens, d’autres publications contemporaines.</p>
+            <p>Braun, Juliane. “Transatlantic Vistas: Changing Alliances at Home and Abroad.” <title>Creole Drama: Theatre and Society in Antebellum New Orleans.</title> Charlottesville: University of Virginia Press. 2019. 138‑164.</p>
+            <p>Brickhouse, Anna. <title>Transamerican Literary Relations and Nineteenth-Century Public Sphere. </title>Cambridge: Cambridge University Press, 2004.</p>
+            <p>Johnson, Sara E. <title>The Fear of French Negroes: Transcolonial Collaboration in the Revolutionary Americas</title>. Berkeley: University of California Press, 2012.</p>
+        </note>
+    </noteGrp>
+    <noteGrp xml:id="n411B">
+        <note xml:lang="en" type="commentary">
+            <p>By advocating the immediate abolition of slavery, the <title>Revue des Colonies </title>adopts a radical position not only vis-à-vis mainstream discourse but also the abolitionist movement at the time, which supported a period of “apprenticeship,” justified by the need to maintain order and agricultural productivity. The British Abolition Act imposed such a period of several years requiring the newly emancipated to work for their former masters. It was not until 1841, at the end of a stay in the French Antilles, that Victor Schoelcher, who drafted the abolition decree of 1848, abandoned his gradualist position and insisted on an immediate and definitive abolition.</p>
+            <p>Dorigny, Marcel and Alexis Pernsteiner. “Antiesclavagisme, abolitionnisme et abolition en France de la fin du XVIIIe siècle aux années 1840,” In <title>La culture coloniale en France depuis la Révolution</title>. Ed. Pascal Blanchard et al. Bloomington: Indiana University Press, 2014. 56–74.</p>
+        </note>
+        <note xml:lang="fr" type="commentary">
+            <p>En prônant l’abolition immédiate de l’esclavage, la <title>Revue des Colonies </title>adopte une position radicale non seulement vis à vis le discours dominant mais aussi l’ensemble du mouvement abolitionniste. Celui-ci préconise en effet une période d’« apprentissage », justifiée par la nécessité de maintenir l’ordre et la productivité agricole. L’<title>Abolition Act</title> Britannique prévoyait ainsi une période de plusieurs années obligeant les nouveaux affranchis à travailler pour leurs anciens maîtres. Ce n’est qu’en 1841, au terme d’un séjour aux Antilles, que Victor Schoelcher, le rédacteur du décret de l’abolition définitive de 1848, n’abandonne sa position gradualiste militer pour une abolition immédiate et définitive.</p>
+            <p>Marcel Dorigny et Alexis Pernsteiner, « Antiesclavagisme, abolitionnisme et abolition en France de la fin du XVIIIe siècle aux années 1840 », <title>La culture coloniale en France depuis la Révolution</title>, éd. Pascal Blanchard et al. (Bloomington : Indiana University Press, 2014), p. 56–74.</p>
+        </note>
+    </noteGrp>
+    <noteGrp xml:id="n1FC1">
+        <note xml:lang="en" type="commentary">
+            <p>This preamble presents the bill as an extension of the <title>Revue</title>’s editorial project, defined here as above all “parliamentary and social” work. The humanitarian rhetoric here recalls the "Declaration of Principles" of the inaugural issue.</p>
+            <p>
+                <ref target="">July 1834: Declaration of principles.</ref>
+            </p>
+        </note>
+        <note xml:lang="fr" type="commentary">
+            <p>Ce préambule inscrit le projet de loi dans le prolongement du projet éditorial de la <title>Revue</title>, ici défini comme un travail avant tout « parlementaire et social ». Ce discours marqué par un engagement humanitaire fort rappelle la « Déclaration de principes » de la première livraison.</p>
+            <p>
+                <ref target="">Juillet 1834: Déclaration de principes.</ref>
+            </p>
+        </note>
+    </noteGrp>
+    <noteGrp xml:id="n0380">
+        <note xml:lang="en" type="commentary">
+            <p>This first article refers explicitly to Article 1 of the Declaration of the Rights of Man and of the Citizen of 1789.</p>
+            <p>
+                <ref target="">Article 1 of the Declaration of the Rights of Man and of the Citizen.</ref>
+            </p>
+        </note>
+        <note xml:lang="fr" type="commentary">
+            <p>Ce premier article renvoie explicitement à l’article 1 de la Déclaration des Droits de l'Homme et du Citoyen de 1789.</p>
+            <p>
+                <ref target="">Article 1 de la déclaration de principes.</ref>
+            </p>
+        </note>
+    </noteGrp>
+    <noteGrp xml:id="n3542">
+        <note xml:lang="en" type="commentary">
+            <p>Bissette rejects in principle the proposition that emancipation should require an indemnity paid to former slave owners. Article 17 of the Declaration of the Rights of Man and of the Citizen, notably, stipulates that an indemnity is necessary for any public seizure of “property,” and this was the framework through which the British abolition would take place, via the Slave Compensation Act of 1837.</p>
+            <p>
+                <ref target="">Article 17 of the Declaration of the Rights of Man and of the Citizen.</ref>
+            </p>
+        </note>
+        <note xml:lang="fr" type="commentary">
+            <p>Bissette rejette, en principe, la proposition selon laquelle l’émancipation exigerait le versement d’une indemnité aux anciens propriétaires d’esclaves. L’article 17 de la Déclaration des Droits de l’Homme et du Citoyen, notamment, stipule qu’une indemnité est nécessaire pour toute saisie publique de « biens », et c’est dans ce cadre que s’opérera l’abolition britannique, via le <title>Slave Compensation Act</title> de 1837.</p>
+            <p>
+                <ref target="">Article 17 de la déclaration de principes.</ref>
+            </p>
+        </note>
+    </noteGrp>
+    <noteGrp xml:id="n678F">
+        <note xml:lang="en" type="commentary">
+            <p>Since "freedom is neither sold nor acquired," Bissette only hypothetically raises the question of reparations for slaves and their descendants — a notion, however, so radical that even Bissette's oblique allusion is here quite provocative.</p>
+            <p>Bessone, Magali and Myriam Cottias, eds. <title>Lexique des réparations de l’esclavage</title>. Paris: Karthala, 2021.</p>
+        </note>
+        <note xml:lang="fr" type="commentary">
+            <p>Puisque, « la liberté ne se vend ni ne s’acquiert », Bissette n’évoque que de manière hypothétique la question des réparations pour les esclaves et leurs descendants — notion, toutefois, si radicale que même l’allusion oblique de Bissette est ici assez provocante.</p>
+            <p>Bessone, Magali et Myriam Cottias, eds. <title>Lexique des réparations de l’esclavage</title>. Paris: Karthala, 2021.</p>
+        </note>
+    </noteGrp>
+    <noteGrp xml:id="n90C0">
+        <note xml:lang="en" type="commentary">
+            <p>To demonstrate the absurdity of debating the compensation to be paid to former slave owners, Bissette discusses here the impossibility of quantifying the price of the work of an enslaved person. Specifically, he responds to the suggestion that the value of a slave might be determined by the profitability of his private industry, that is, of his work in a personal capacity. Due to the variability of free time and resources afforded by owners, such an assessment, according to Bissette, would be fundamentally unfair.</p>
+        </note>
+        <note xml:lang="fr" type="commentary">
+            <p>Pour démontrer l’absurdité du débat sur le montant de l’indemnité à verser aux anciens propriétaires, Bissette s’épanche ici sur l’impossibilité de quantifier le prix du travail d’une personne esclavisée. Spécifiquement, il répond à la suggestion que la valeur d’un esclave pourrait être déterminée par la rentabilité de son industrie privée, c’est-à-dire de son travail à titre personnel. En raison de la variabilité du temps libre et des ressources accordées par les propriétaires, une telle évaluation, selon Bissette, serait fondamentalement injuste.</p>
+        </note>
+    </noteGrp>
+    <noteGrp xml:id="n435A">
+        <note xml:lang="en" type="commentary">
+            <p>The unquestioned legitimacy of France’s colonial authority is here in reference to <ref target="">article 3 of the Declaration of the Rights of Man and of the Citizen</ref>. In citing "the difficulties which the transition from the old to the new state produced by the abolition of slavery may present,” Bissette also alludes to Haiti and the devastating economic consequences of its having to manage abolition, independence, war, and embargo all at once.</p>
+        </note>
+        <note xml:lang="fr" type="commentary">
+            <p>La légitimité incontestée de l’autorité coloniale française est ici en référence à <ref target="">l’article 3 de la Déclaration des Droits de l’Homme et du Citoyen</ref>. Les difficultés que peut entraîner l’abolition du système esclavagiste sont une allusion claire à Haïti et aux conséquences politiques et économiques qui ont suivi son indépendance.</p>
+        </note>
+    </noteGrp>
+    <noteGrp xml:id="n49AF">
+        <note xml:lang="en" type="historical_context">
+            <p>Here, the Review distinguishes its own bill from the one proposed by the French Society for the Abolition of Slavery (including Isambert and Schoelcher) a few weeks prior, which was favorable to indemnities. An article published in the preceding issue (June 1835), entitled “Examen des projets de loi de la Société francaise pour l’abolition de l’esclavage” [“An examination of the bills drafted by the French Society for the Abolition of Slavery”, 9-10] strongly criticizes this bill founded on a “buyout” system, which Bissette believed to be fundamentally opposed to the concept of liberty.</p>
+            <p>In the years following the emancipation of 1848, indemnities would ultimately be paid out to former slave owners with a stipulation that part of the funds be used to pay the emancipated as free laborers, but this provision was hardly ironclad.</p>
+            <p>Balguy, Jessica. <title>Indemniser l'esclavage en 1848 ? Débats dans l’Empire français du XIX siècle</title>, Paris: Karthala / CIRESC, 2020.</p>
+            <p>Bessone, Magali and Myriam Cottias, eds. <title>Lexique des réparations de l’esclavage</title>. Paris: Karthala. 2021.</p>
+            <p>Nelly Schmidt, <title>L’engrenage de La Liberte: Caraibes XIXe</title>. Aix-en-Provence : Publications de l'Université de Provence, 1995.</p>
+        </note>
+        <note xml:lang="fr" type="historical_context">
+            <p>Ici, la <title>Revue </title>distingue son propre projet de loi de celui, favorable à l’indemnité, proposé par la<title> Société française pour l’abolition de l’esclavage</title>, et donc par Isambert et Schoelcher, quelques semaines auparavant. Un article intitulé « Examen des projets de loi de la Société française pour l’abolition de l’esclavage » paru à la livraison précédente (juin 1835, p. 9-10), critique vivement ce projet de loi fondé sur un système de « rachat » que Bissette éstime fondamentalement contraire au principe de liberté. Dans les années qui suivent l’abolition de 1848, des indemnités seront finalement versées aux anciens propriétaires d’esclaves avec la stipulation qu’une partie des fonds couvre le salaire des émancipés, mais cette disposition était pourvue d’une brèche législative.</p>
+            <p>Balguy, Jessica. <title>Indemniser l'esclavage en 1848 ? Débats dans l’Empire français du XIX siècle</title>, Paris, Karthala / CIRESC. 2020.</p>
+            <p>Bessone, Magali et Myriam Cottias, eds. <title>Lexique des réparations de l’esclavage</title>. Paris: Karthala. 2021.</p>
+            <p>Nelly Schmidt, <title>L’engrenage de La Liberté : Caraïbes XIXe</title>. Aix-en-Provence : Publications de l’Université de Provence, 1995</p>
+        </note>
+    </noteGrp>
+    <noteGrp xml:id="n3F04">
+        <note xml:lang="en" type="historical_context">
+            <p>Because the education of enslaved people was forbidden under the <title>Code Noir</title>; it was, therefore, central to the emancipatory project of the <title>Revue</title>, and of Bissette, who, prior to founding the journal, had been a member of the <title>Association libre pour l'éducation du peuple</title>. In calling for free and compulsory education in the colonies until the age of 21, the <title>Revue</title>'s bill for immediate abolition differs substantially from the British Abolition Act of 1833, which included an the “apprenticeship” provision requiring formerly enslaved people to work for their former masters for several years while receiving “moral and spiritual education” until their ultimate enfranchisement.</p>
+            <p>Draper, Nicholas. <title>The Price of Emancipation. Slave-Ownership, Compensation and British Society at the End ofSlavery</title>. Cambridge: Cambridge University Press. 2013.</p>
+            <p>Ursulet, Léo. “Les francs-maçons et l’abolition de l’esclavage aux Antilles Françaises.” <title>Humanisme</title> 310, no. 1 (2016): 87–91. (https://doi.org/10.3917/huma.310.0087)</p>
+            <p>Jennings, Lawrence C. “Cyrille Bissette, Radical Black French Abolitionist,” <title>French History</title> 9, no. 1 (1995). 52.</p>
+        </note>
+        <note xml:lang="fr" type="historical_context">
+            <p>L'éducation des personnes esclavisées étant interdite sous le <title>Code Noir</title>, elle se trouve au cœur du projet émancipateur de Bissette qui, avant de fonder la <title>Revue</title>, a été membre de l’<title>Association libre pour l’éducation du peuple</title>. L’article 4 du projet de loi pour l’abolition préconise ainsi l’éducation gratuite et obligatoire dans les colonies jusqu’à l’âge de 21 ans. Cette mesure se distingue sensiblement de celle comprise dans l’<title>Abolition Act </title>Britannique qui imposait une éducation morale et spirituelle dans le cadre d’une période d’apprentissage de plusieurs années avant de procéder à une émancipation définitive.</p>
+            <p>Draper, Nicholas. <title>The Price of Emancipation. Slave-Ownership, Compensation and British Society at the End ofSlavery</title>. Cambridge: Cambridge University Press. 2013.</p>
+            <p>Ursulet, Léo. « Les francs-maçons et l’abolition de l’esclavage aux Antilles Françaises », <title>Humanisme</title> 310, no. 1, 2016, p.87–91.</p>
+            <p>Jennings, Lawrence C. « Cyrille Bissette, Radical Black French Abolitionist », French History. 1 mars 1995, vol.9 no 1. p. 52.</p>
+        </note>
+    </noteGrp>
+    <noteGrp xml:id="nA4C7">
+        <note xml:lang="en" type="historical_context">
+            <p>In explicitly identifying <title>metissage</title> as a necessary condition to the accession of a post-slavery future, Bissette is countering a persistent stigmatization of mixed race people as self-interested and incapable of allegiance with either race. This trope became particularly ubiquitous after the Haitian Revolution, appearing in popular literature like Victor Hugo’s early novel <title>Bug Jargal </title>(1826). In the 1840’s, such prejudice would be central to Bissette’s feud with Victor Schoelcher, who referred to mixed race Haitians as a “yellow faction” working against the cause of Black liberation.</p>
+            <p>Bongie, Chris. <title>Islands and Exiles: The Creole Identities of Post/colonial Literature</title>. Stanford, Calif: Stanford University Press, 1998. 262-287.</p>
+            <p>Daut, Marlene L. <title>Tropics of Haiti</title>. Liverpool: Liverpool University Press, 2015. 524-567.</p>
+        </note>
+        <note xml:lang="fr" type="historical_context">
+            <p>Par cette identification du métissage comme condition nécessaire à l’accession à une société post-esclavagiste, Bissette s’oppose à la stigmatisation persistante des personnes d’ascendance mixte comme traîtres des autres races. Cette idée est devenue particulièrement omniprésente après la Révolution haïtienne, notamment dans littérature avec le roman de Victor Hugo, <title>Bug Jargal </title>(1826). Dans les années 1840, cette question sera au cœur de la querelle de Bissette avec Victor Schoelcher, qui qualifiait les Haïtiens métis de « faction jaune » oeuvrant contre la cause de la libération des Noirs.</p>
+            <p>Chris Bongie, <title>Islands and Exiles: The Creole Identities of Post/colonial Literature</title>. Stanford, Calif: Stanford University Press, 1998. 262-287.</p>
+            <p>Marlene L. Daut, <title>Tropics of Haiti</title>. Liverpool: Liverpool University Press, 2015. 524-567.</p>
+        </note>
+    </noteGrp>
+    <noteGrp xml:id="n8414">
+        <note xml:lang="en" type="historical_context">
+            <p>In 1835, a work titled <title>Haïti ou renseignements authentiques sur l'abolition de l'esclavage et ses résultats à Saint-Domingue et à la Guadeloupe </title>was printed in Paris, with its title page identifying it as a translation of an English language work by the Scottish abolitionist Zachary Macaulay. This work, however, does not appear to have been published in English, and Max Bissainthe has suggested that Thomas Clarkson is the actual primary author, with Macaulay contributing.</p>
+            <p>Bissainthe, Max. <title>Dictionnaire De Bibliographie Haitienne</title>. Washington: The Scarecrow Press, 1951. 32.</p>
+        </note>
+        <note xml:lang="fr" type="historical_context">
+            <p>En 1835, un ouvrage intitulé <title>Haïti ou renseignements authentiques sur l’abolition de l’esclavage et ses résultats à Saint-Domingue et à la Guadeloupe </title>est imprimé à Paris, sa page de titre l’identifiant comme la traduction anglaise d’un ouvrage de l’abolitionniste écossais Zachary Macaulay. Cette étude ne semble, cependant, pas avoir été publiée en anglais, avec des spécialistes suggérant Thomas Clarkson comme véritable auteur principal, avec la contribution de Macaulay.</p>
+            <p>Bissainthe, Max. <title>Dictionnaire De Bibliographie Haitienne</title>. Washington: The Scarecrow Press, 1951. p. 32.</p>
+        </note>
+    </noteGrp>
+    <noteGrp xml:id="n2B16">
+        <note xml:lang="en" type="translation_note">
+            <p>The territories under French authority in the Caribbean, which at the time of the <title>Revue</title>’s publication included the colonies of Martinique and Guadeloupe.</p>
+        </note>
+    </noteGrp>
+    <noteGrp xml:id="n17AB">
+        <note xml:lang="en" type="translation_note">
+            <p>The original uses the word “century” rather than “age,” referring to the eighteenth century, which is generally associated, in France, with the spread of concepts such as natural rights and natural law.</p>
+        </note>
+    </noteGrp>
+    <noteGrp xml:id="n4F06">
+        <note xml:lang="en" type="translation_note">
+            <p>The <title>Revue</title> uses the term “noir” (“black”) more frequently than the derogatory term “nègre” (“negro”), a distinction that closely parallels contemporary English. In cases where the substantive adjective “les noirs,” or “blacks”/“the blacks” is used, I have preserved this form both for the sake of accuracy and because these terms do not carry the same derogatory connotations in contemporary French as in contemporary English.</p>
+        </note>
+    </noteGrp>
+    <noteGrp xml:id="n1542">
+        <note xml:lang="en" type="translation_note">
+            <p>The term used throughout this issue is “cultivateurs,” that is to say, emancipated people performing agricultural labor.</p>
+        </note>
+    </noteGrp>
+    <noteGrp xml:id="n09EC">
+        <note xml:lang="en" type="translation_note">
+            <p>In context, the French term “restauration” also calls to mind the restoration of the monarchy (following the fall of Napoleon) in 1814, and the failure of Revolutionary ideals to take hold.</p>
+        </note>
+    </noteGrp>
+    <noteGrp xml:id="n07F3">
+        <note xml:lang="en" type="translation_note">
+            <p>The French term here is “denrée,” literally commodity or merchandise, a deliberately degrading way of referring to enslaved people that ventriloquizes the thinking of the plantation owner.</p>
+        </note>
+    </noteGrp>
+</noteGrp>
