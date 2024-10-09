@@ -23,7 +23,7 @@
     "gatsby-plugin-material-ui": "4.1.0",
     "gatsby-plugin-sharp": "^5.12.1",
     "gatsby-remark-images": "^7.12.1",
-    "gatsby-theme-ceteicean": "^3.2.1",
+    "gatsby-theme-ceteicean": "^3.4.0",
     "gatsby-transformer-json": "^5.13.1",
     "gatsby-transformer-remark": "^6.13.1",
     "gatsby-transformer-sharp": "^5.12.1",
