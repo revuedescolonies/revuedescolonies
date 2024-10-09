@@ -11,13 +11,13 @@
   Cache-Control: public, max-age=31536000, immutable
 /static/Schomburg-3e379c9dbc3e0f1d835e0f36e830f768.jpg
   Cache-Control: public, max-age=31536000, immutable
-/static/banner-bk-ccedbdfa00092a1f52b74721f923416e.jpg
-  Cache-Control: public, max-age=31536000, immutable
-/static/nhprc-logo-252bce00744f0e2d5a3e5ec2821ecf91.png
-  Cache-Control: public, max-age=31536000, immutable
 /static/BSA-77f0fe372c0dd8a299e4f49d2c180d08.png
   Cache-Control: public, max-age=31536000, immutable
 /static/Gallica-ff15d9510033122ac10b55ded2cb0c95.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/nhprc-logo-252bce00744f0e2d5a3e5ec2821ecf91.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/banner-bk-ccedbdfa00092a1f52b74721f923416e.jpg
   Cache-Control: public, max-age=31536000, immutable
 /108-f6755ceff8cd8e308c4f.js.LICENSE.txt
   Cache-Control: public, max-age=31536000, immutable
