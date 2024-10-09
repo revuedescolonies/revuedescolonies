@@ -5,9 +5,9 @@
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
   Referrer-Policy: same-origin
-/static/umd-logo-306b1cfbf2d795fdea349038f0c63a75.png
-  Cache-Control: public, max-age=31536000, immutable
 /static/fme-ab1d1a01dc615dc26d17a392ce3673c6.png
+  Cache-Control: public, max-age=31536000, immutable
+/static/umd-logo-306b1cfbf2d795fdea349038f0c63a75.png
   Cache-Control: public, max-age=31536000, immutable
 /static/Schomburg-3e379c9dbc3e0f1d835e0f36e830f768.jpg
   Cache-Control: public, max-age=31536000, immutable
