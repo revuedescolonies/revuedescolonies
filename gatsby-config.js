@@ -12,6 +12,7 @@ const {addPtrNumbers, xinclude} = require('./scripts/transformers')
 module.exports = {
   pathPrefix: basePath,
   siteMetadata: {
+    version: process.env.npm_package_version,
     customTitle,
     htmlTitle,
     desc: {
@@ -38,7 +39,7 @@ module.exports = {
         orcid:"0000-0000-0000-0000"
       }
     ],
-    repository: "https://github.com/revuedescolonies/revuedescolonies",
+    repository: "https://github.com/revuedescolonies/",
     menuLinks: [
       {
         en: {
