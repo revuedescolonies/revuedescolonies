@@ -3,7 +3,7 @@ import React from "react"
 import { Behavior } from "gatsby-theme-ceteicean/src/components/Behavior"
 import { TEINodes } from "react-teirouter"
 
-import { EntityContext } from "./Context"
+import { DisplayContext, EntityContext } from "./Context"
 
 import theme from '../../theme'
 import { TransitionProps } from "@mui/material/transitions/transition"
@@ -23,15 +23,13 @@ import TranslateIcon from '@mui/icons-material/Translate';
 import Button from "@mui/material/Button"
 import Chip from "@mui/material/Chip"
 import { SafeUnchangedNode } from "gatsby-theme-ceteicean/src/components/DefaultBehaviors"
-import type {Lang} from '../../components/nav'
 import { Box } from "@mui/material"
 
 type TEIProps = {
   teiNode: Node,
   availableRoutes?: string[],
   entityType: string,
-  isSynoptic: boolean,
-  curLang: Lang
+  isSynoptic: boolean
 }
 
 const Transition = React.forwardRef(function Transition(
@@ -47,12 +45,14 @@ export type EntityBehavior = (props: TEIProps) => JSX.Element | null
 
 const Entity: EntityBehavior = (props: TEIProps) => {
   const { entity, setEntity } = React.useContext(EntityContext)
+  const { contextOpts } = React.useContext(DisplayContext)
   const [cardPosition, setCardPosition] = React.useState(350)
-  const [cardLang, setCardLang] = React.useState(props.curLang)
+  const [cardLang, setCardLang] = React.useState(contextOpts.annosLang)
 
   const isScreenSmall = useMediaQuery(theme.breakpoints.down('lg'))
 
   React.useEffect(() => {
+    setCardLang(contextOpts.annosLang)
     const fromTop = document.documentElement.scrollTop > 150 ? document.documentElement.scrollTop + 100 : document.body.scrollTop
     setCardPosition(fromTop > 0 ? fromTop : 350)
   }, [entity])
@@ -75,7 +75,9 @@ const Entity: EntityBehavior = (props: TEIProps) => {
         <CloseIcon />
       </IconButton>)
 
-      const entityContent = Array.from(el.children).filter(c => c.getAttribute('lang') === cardLang)[0]
+      const entityContent = el.querySelector(`tei-note[lang=${cardLang}]`)
+
+      if (!entityContent) return null;
        
       const resp = entityContent.getAttribute("resp")
       let author: JSX.Element | undefined = undefined 

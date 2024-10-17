@@ -12,6 +12,7 @@ const {addPtrNumbers, xinclude} = require('./scripts/transformers')
 module.exports = {
   pathPrefix: basePath,
   siteMetadata: {
+    version: process.env.npm_package_version,
     customTitle,
     htmlTitle,
     desc: {
@@ -38,7 +39,7 @@ module.exports = {
         orcid:"0000-0000-0000-0000"
       }
     ],
-    repository: "https://github.com/revuedescolonies/revuedescolonies",
+    repository: "https://github.com/revuedescolonies/",
     menuLinks: [
       {
         en: {
@@ -79,12 +80,33 @@ module.exports = {
           name: 'édition',
           link: '/fr/sommaire/'
         }
+      },
+      {
+        en: {
+          name: 'search',
+          link: '/en/search/'
+        },
+        fr: {
+          name: 'récherche',
+          link: '/fr/récherche/'
+        }
+      },
+      {
+        en: {
+          name: 'index',
+          link: '/en/index'
+        },
+        fr:{
+          name:'index',
+          link:'/fr/index'
+        }
       }
     ]
   },
   plugins: [
     `gatsby-plugin-emotion`,
     `gatsby-plugin-material-ui`,
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
@@ -104,6 +126,7 @@ module.exports = {
     {
       resolve: `gatsby-theme-ceteicean`,
       options: {
+        fullShadow: true,
         applyBefore: [addPtrNumbers, xinclude],
         applyAfter: [],
         namespaces: {
@@ -126,14 +149,21 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `static/tei`,
+        path: `static/data/tei`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
-        path: `${__dirname}/src/contents`,
+        path: `${__dirname}/src/contents/pages`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `edition`,
+        path: `${__dirname}/src/contents/edition`,
       },
     },
     {

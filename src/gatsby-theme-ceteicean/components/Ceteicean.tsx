@@ -20,10 +20,10 @@ import Entity from "./Entity"
 import EntityLink from "./EntityLink"
 import Graphic from './Graphic'
 import Synoptic from './Synoptic'
-import type {Lang} from '../../components/nav'
 import { DisplayContext, EntityContext, NoteContext } from './Context'
 import type { IOptions, TNote, TEntity } from "./Context"
 import Q from "./Q"
+import { Box, Container } from "@mui/material"
 
 interface Props {
   pageContext: {
@@ -63,16 +63,16 @@ const EditionCeteicean = ({pageContext}: Props) => {
     "tei-ptr": Ptr,
     "tei-ref": Ref,
     "tei-notegrp": (props) => <Note isSynoptic={isSynoptic} {...props}/>,
-    "tei-person": (props) => <Entity isSynoptic={isSynoptic} entityType={"tei-persName"} {...props} curLang={lang}/>,
-    "tei-place": (props) => <Entity isSynoptic={isSynoptic} entityType={"tei-placeName"} {...props} curLang={lang}/>,
-    "tei-org": (props) => <Entity isSynoptic={isSynoptic} entityType={"tei-orgName"} {...props} curLang={lang}/>,
+    "tei-person": (props) => <Entity isSynoptic={isSynoptic} entityType={"tei-persName"} {...props} />,
+    "tei-place": (props) => <Entity isSynoptic={isSynoptic} entityType={"tei-placeName"} {...props} />,
+    "tei-org": (props) => <Entity isSynoptic={isSynoptic} entityType={"tei-orgName"} {...props} />,
     "tei-bibl": (props) => {
       const el = props.teiNode as Element
       // Only deal with bibliography bibls.
       if (el.parentElement?.tagName.toLocaleLowerCase() !== "tei-listbibl") {
         return <SafeUnchangedNode {...props}/>
       }
-      return <Entity isSynoptic={isSynoptic} entityType={"tei-title"} {...props} curLang={lang}/>
+      return <Entity isSynoptic={isSynoptic} entityType={"tei-title"} {...props} />
     },
     "tei-persname": EntityLink,
     "tei-placename": EntityLink,
@@ -106,6 +106,8 @@ const EditionCeteicean = ({pageContext}: Props) => {
   const [note, setNote] = React.useState<TNote | null>(null)
   const [entity, setEntity] = React.useState<TEntity | null>(null)
 
+  const isPublished = pageContext.name.includes("RdCv1n1") || pageContext.name.includes("RdCv2n1")
+
   // Match the location to the TEI filename
   return(
     <DisplayContext.Provider value={{
@@ -117,6 +119,19 @@ const EditionCeteicean = ({pageContext}: Props) => {
           <Layout location={pageContext.name} appbar={<MicroEdAppbar location={pageContext.name}/>} >
             <SEO title="Edition" lang={lang as "en" | "fr"} />
             <Ceteicean pageContext={pageContext} routes={routes} />
+            {isPublished &&
+              <Container component="div" maxWidth="sm" sx={{border: "1px solid Black"}}>
+                A version of the text on this page was previously published in <a href="https://scholarlyediting.org/issues/40/selections-from-the-revue-des-colonies-july-1834-and-july-1835/">
+                <em>Scholarly Editing</em>, vol 40</a>,
+              under a <a
+                  rel="license"
+                  href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                >
+                  Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+                  International License
+                </a>
+                . </Container> || <></>
+            }
           </Layout>
         </NoteContext.Provider>
       </EntityContext.Provider>

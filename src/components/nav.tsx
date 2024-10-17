@@ -21,8 +21,6 @@ interface Props {
   }[]
 }
 
-export type Lang = "en" | "fr"
-
 const styles = {
   nav: {
     "& .MuiGrid-item": {
@@ -44,10 +42,9 @@ const styles = {
 const Nav = ({ location, menuLinks }: Props) => {
   const loc = decodeURIComponent(location).replace(/\//g, '')
   const isEdition = loc.startsWith("RdC")
-  let curLang: Lang = isEdition && loc.slice(-2) === "fr" ? "fr" : "en" 
-  
-  for (const ml of menuLinks) {
-    if (ml["fr"].link.replace(/\//g, '') === loc) curLang = "fr"
+  let curLang: Lang = isEdition && loc.slice(-2) === "fr" ? "fr" : "en"
+  if (!isEdition && loc !== "") {
+   curLang = location.substring(1, 3) as Lang
   }
 
   const isScreenSmall = useMediaQuery(theme.breakpoints.down('md'))
@@ -59,7 +56,11 @@ const Nav = ({ location, menuLinks }: Props) => {
       navigate(`/${dest}`)
     } else {
       const curLoc = menuLinks.filter(ml => ml[curLang].link.replace(/\//g, '') === loc)[0]
-      navigate(curLoc[chosenLang].link)
+      if (curLoc) {
+        navigate(curLoc[chosenLang].link)
+      } else {
+        navigate(location.replace(/\/(fr|en)\//, `/${chosenLang}/`))
+      }
     }
   }
   const options = (<>

@@ -2,7 +2,6 @@ import React from "react"
 
 import { TBehavior, SafeUnchangedNode, forwardAttributes } from "gatsby-theme-ceteicean/src/components/DefaultBehaviors"
 import { TEINodes } from "react-teirouter"
-import type { Lang } from "../../components/nav"
 
 
 type TEIProps = {

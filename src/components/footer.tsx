@@ -1,7 +1,6 @@
 import React from "react"
-import Grid from "@mui/material/Grid"
 import Container from "@mui/material/Container"
-import { Box } from "@mui/material"
+import { Box, Link } from "@mui/material"
 
 import umd from "../images/umd-logo.png"
 import fme from "../images/fme.png"
@@ -32,10 +31,11 @@ const styles = {
 }
 
 interface Props {
-  repository: string
+  repository: string,
+  version: string
 }
 
-const Footer = ({repository} : Props) => (
+const Footer = ({repository, version} : Props) => (
   <Box component="footer" sx={styles.footer}>
     <Container maxWidth="md" sx={styles.logos}>
           <Box sx={{display: "flex", flexDirection: "column"}}>
@@ -107,6 +107,10 @@ const Footer = ({repository} : Props) => (
                 alt="Logo of the Schomburg Center"
               />
           </a>  
+    <Box>
+      Site version: {version}<br/>
+      Project code on <Link href={repository} sx={{display: "inline !important"}}>GitHub</Link>
+    </Box>
     </Container>
   </Box>
 )

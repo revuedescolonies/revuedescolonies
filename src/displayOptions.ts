@@ -11,3 +11,10 @@ export const Colors: IColors = {
   référence_culturelle: "rgb(238, 136, 102)", 
   cultural_reference: "rgb(238, 136, 102)",
 }
+
+export const EntityColors: IColors = {
+  persname: mainColor,
+  placename: "#154c79",
+  orgname: "#741579",
+  title: "#00542d"
+}

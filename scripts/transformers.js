@@ -27,7 +27,7 @@ const addPtrNumbers = (obj) => {
 
   // read RdCv1n1 to get last note number
   if (m) {
-    const vol1 = fs.readFileSync(path.join(__dirname, `../static/tei/RdCv1n1-${m[1]}.xml`), 'utf-8')
+    const vol1 = fs.readFileSync(path.join(__dirname, `../static/data/tei/RdCv1n1-${m[1]}.xml`), 'utf-8')
     const jdomVol1 = new JSDOM(vol1, {contentType: 'text/xml'})
     const vol1Doc = jdomVol1.window.document
     for (const tr of Array.from(vol1Doc.getElementsByTagNameNS(TEINS, "ptr")).entries()) {
@@ -48,7 +48,7 @@ const xinclude = async (obj) => {
   const newObj = Object.assign({}, obj)
   const {original} = newObj
 
-  newObj.original = await include(original, path.join(__dirname, '../static/tei/'))
+  newObj.original = await include(original, path.join(__dirname, '../static/data/tei/'))
 
   return newObj
 }
