@@ -26,6 +26,7 @@ Chelsea Stieber, Associate Professor of French and Francophone Studies, Catholic
 Emilie Hautemont, Tulane University  
 Charlotte Joublot Ferré, University of Maryland  
 Apolline Lagarde, University of Maryland  
+Yasmine Najm, doctorante, Universität Leipzig  
 Noëlle Romney, Sorbonne Nouvelle University  
 Tasnîm Tirkawi, Tulane University  
 
