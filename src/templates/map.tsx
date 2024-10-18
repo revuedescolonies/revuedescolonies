@@ -2,7 +2,10 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container } from "@mui/material"
+import {Routes} from "gatsby-theme-ceteicean/src/components/Ceteicean"
+import Renderer from "gatsby-theme-ceteicean/src/components/Renderer";
 import GlobeMap from "../components/GlobeMap"
+
 
 interface Props {
     geojson: any; 
@@ -10,7 +13,7 @@ interface Props {
 }
 
 export default function MapPage({pageContext}: Props) {
-  const { geojson, language } = pageContext; 
+  const { geojson, language, prefixed, elements} = pageContext; 
 
   return (
       <Layout location={location.pathname}>

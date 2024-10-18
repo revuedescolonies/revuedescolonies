@@ -112,6 +112,7 @@ async function makeMap(createPage, reporter, graphql) {
         nodes {
           childCetei {
             original
+            prefixed
           }
         } 
       } 
@@ -122,21 +123,30 @@ async function makeMap(createPage, reporter, graphql) {
     reporter.panicOnBuild(`Error while running GraphQL query.`)
     return
   }
-    
+  const entitiesNode = result.data.allFile.nodes[0].childCetei;
+
   // JSDOM
-  const xmlData = result.data.allFile.nodes[0].childCetei.original;
-  const dom = new JSDOM(xmlData, { contentType: "text/xml" });
-  const document = dom.window.document;
+  const originalDoc = new JSDOM(entitiesNode.original, { contentType: 'text/xml' }).window.document;
+  const prefixedDoc = new JSDOM(entitiesNode.prefixed, { contentType: 'text/xml' }).window.document;
 
-  //query XML data
+  // Get palace from original 
+  const placeIndex = [];
   const geoData = [];
-  const geoElements = document.querySelectorAll('geo[decls="#geojson"]');
-  geoElements.forEach(geoElement => {
-      const snippet = JSON.parse(geoElement.textContent);
-      geoData.push(snippet);
-  });
+  const placeElements = originalDoc.querySelectorAll('place');
 
-  console.log(geoData)
+  placeElements.forEach((placeElement) => {
+    const xmlId = placeElement.getAttribute('xml:id'); 
+    // parse geojson data 
+    const geoElement = placeElement.querySelector('geo[decls="#geojson"]');
+    if (geoElement) {
+      const snippet = JSON.parse(geoElement.textContent);
+      geoData.push(snippet)
+      // Find the corresponding place in prefixed XML 
+      const correspondingPlace = prefixedDoc.getElementById(xmlId);
+      placeIndex
+     
+    }
+  });
 
   const contextGeoJSON = {
     type: "FeatureCollection",
@@ -147,7 +157,7 @@ async function makeMap(createPage, reporter, graphql) {
     path: '/en/map',
     component,
     context: {
-      geojson: contextGeoJSON,
+      geojson: contextGeoJSON, 
       language: 'en'
     }
   })
@@ -156,7 +166,7 @@ async function makeMap(createPage, reporter, graphql) {
     path: '/fr/carte',
     component,
     context: {
-      geojson: contextGeoJSON,
+      geojson: contextGeoJSON, 
       language: 'fr'
     }
   })

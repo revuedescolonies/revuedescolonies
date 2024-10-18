@@ -58,13 +58,6 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson }) => {
         // Update map paths
         svg.selectAll("path").attr("d", (d: any) => path(d));
 
-        // Update circle and pin positions
-        svg.selectAll("circle").attr("transform", (d: any) => {
-          if (d && d.geometry && d.geometry.coordinates) {
-            const coords = projection(d.geometry.coordinates);
-            return `translate(${coords})`;
-          }
-        });
         updatePins();
       });
 
@@ -81,13 +74,7 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson }) => {
           // Update globe circle radius
           svg.select(".globe").attr("r", projection.scale());
 
-          // Update circle and pin positions
-          svg.selectAll("circle").attr("transform", (d: any) => {
-            if (d && d.geometry && d.geometry.coordinates) {
-              const coords = projection(d.geometry.coordinates);
-              return `translate(${coords})`;
-            }
-          });  
+          // Update pin positions
           updatePins();
         }
       });
@@ -111,6 +98,9 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson }) => {
         .style("opacity", 0.8);
     };
 
+    const pinWidth = 40;  
+    const pinHeight = 40; 
+
     // Render the geojson data
     const loadGeojsonData = async () => {
       if (geojson.features) {
@@ -128,33 +118,7 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson }) => {
           .attr("stroke-dasharray", "5,5")
           .style("opacity", 1);
 
-        const points = geojson.features.filter((d: any) => d.geometry.type === "Point");
-
-        svg.append("g")
-          .selectAll("circle")
-          .data(points)
-          .enter()
-          .append("circle")
-          .attr("r", 5)
-          .attr("fill", "red")
-          .attr("stroke", "black")
-          .attr("transform", (d: any) => `translate(${projection(d.geometry.coordinates)})`)
-          .on("mouseover", function(event, d) {
-            const [mouseX, mouseY] = d3.pointer(event);
-            d3.select(this).attr("fill", "yellow");
-            tooltip.transition().duration(200).style("opacity", .9);
-            tooltip.html("sample")
-              .style("left", `${mouseX + 300}px`)
-              .style("top", `${mouseY + 500}px`);
-          })
-          .on("mouseout", function() {
-            d3.select(this).attr("fill", "red");
-            tooltip.transition().duration(500).style("opacity", 0);
-          });
-
-        const pinWidth = 20;  // Width of the pin image
-        const pinHeight = 20; // Height of the pin image
-          
+        const points = geojson.features.filter((d: any) => d.geometry.type === "Point");          
         // Add pins
         svg.selectAll("image.point-pin")
           .data(points)
@@ -165,11 +129,10 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson }) => {
           .attr("width", pinWidth)
           .attr("height", pinHeight)
           .attr("transform", (d: any) => {
-            const [x, y] = projection(d.geometry.coordinates);
-            return `translate(${x - pinWidth / 2}, ${y - pinHeight})`;  
-          });
-
-        svg.selectAll("image.polygon-pin")
+            return `translate(${projection(d.geometry.coordinates)})`
+          }).raise();
+       
+          svg.selectAll("image.polygon-pin")
           .data(polygons)
           .enter()
           .append("image")
@@ -178,24 +141,50 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson }) => {
           .attr("width", pinWidth)
           .attr("height", pinHeight)
           .attr("transform", (d: any) => {
-            const [x, y] = projection(d3.geoCentroid(d));  
-            return `translate(${x - pinWidth / 2}, ${y - pinHeight})`;  
-          });
+            let coords = d3.polygonCentroid(d.geometry.coordinates[0]);
+            return `translate(${projection(coords)})`
+          })
+          .raise();
       }
     };
+    
+    loadData();
+    loadGeojsonData();
 
-    // Function to update circles and pins positions
     const updatePins = () => {
       svg.selectAll("image.point-pin")
-        .attr("transform", (d: any) => `translate(${projection(d.geometry.coordinates)})`);
+        .attr("transform", (d: any) => {
+          const coords = projection(d.geometry.coordinates);
+          
+          // Hide pins on the far side of the globe
+          const visible = d3.geoDistance(projection.invert([width / 2, height / 2]), d.geometry.coordinates) < Math.PI / 2;
+          
+          if (visible && coords) {
+            // If visible, show the pin and place it correctly
+            return `translate(${coords[0] - pinWidth / 2}, ${coords[1] - pinHeight})`;
+          } else {
+            // Hide the pin by translating it far off-screen
+            return `translate(-9999, -9999)`;
+          }
+        }).raise();
 
-      svg.selectAll("image.polygon-pin")
-        .attr("transform", (d: any) => `translate(${projection(d3.geoCentroid(d))})`);
+        svg.selectAll("image.polygon-pin")
+        .attr("transform", (d: any) => {
+          const coords = projection(d3.polygonCentroid(d.geometry.coordinates[0]));
+          
+          // Hide pins on the far side of the globe
+          const visible = d3.geoDistance(projection.invert([width / 2, height / 2]), d3.polygonCentroid(d.geometry.coordinates[0])) < Math.PI / 2;
+          
+          if (visible && coords) {
+            // If visible, show the pin and place it correctly
+            return `translate(${coords[0] - pinWidth / 2}, ${coords[1] - pinHeight})`;
+          } else {
+            // Hide the pin by translating it far off-screen
+            return `translate(-9999, -9999)`;
+          }
+        }).raise();
     };
-
-    loadGeojsonData();
-    loadData();
-
+    
     // Optional rotation function
     const rotateGlobe = () => {
       if (!isRotationStopped) {
@@ -206,13 +195,6 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson }) => {
         // Update the map paths
         svg.selectAll("path").attr("d", (d: any) => path(d));
 
-        // Update circles and pins positions
-        svg.selectAll("circle").attr("transform", (d: any) => {
-          if (d && d.geometry && d.geometry.coordinates) {
-            const coords = projection(d.geometry.coordinates);
-            return `translate(${coords})`;
-          }
-        });
         updatePins();
       }
     };
@@ -230,6 +212,8 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson }) => {
     stopRotationOnFirstInteraction();
 
   }, [geojson]);
+
+  
 
   return (
     <div className="globe-container">
