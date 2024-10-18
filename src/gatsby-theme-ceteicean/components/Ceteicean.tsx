@@ -23,6 +23,7 @@ import Synoptic from './Synoptic'
 import { DisplayContext, EntityContext, NoteContext } from './Context'
 import type { IOptions, TNote, TEntity } from "./Context"
 import Q from "./Q"
+import { Box, Container } from "@mui/material"
 
 interface Props {
   pageContext: {
@@ -105,6 +106,8 @@ const EditionCeteicean = ({pageContext}: Props) => {
   const [note, setNote] = React.useState<TNote | null>(null)
   const [entity, setEntity] = React.useState<TEntity | null>(null)
 
+  const isPublished = pageContext.name.includes("RdCv1n1") || pageContext.name.includes("RdCv2n1")
+
   // Match the location to the TEI filename
   return(
     <DisplayContext.Provider value={{
@@ -116,6 +119,19 @@ const EditionCeteicean = ({pageContext}: Props) => {
           <Layout location={pageContext.name} appbar={<MicroEdAppbar location={pageContext.name}/>} >
             <SEO title="Edition" lang={lang as "en" | "fr"} />
             <Ceteicean pageContext={pageContext} routes={routes} />
+            {isPublished &&
+              <Container component="div" maxWidth="sm" sx={{border: "1px solid Black"}}>
+                A version of the text on this page was previously published in <a href="https://scholarlyediting.org/issues/40/selections-from-the-revue-des-colonies-july-1834-and-july-1835/">
+                <em>Scholarly Editing</em>, vol 40</a>,
+              under a <a
+                  rel="license"
+                  href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                >
+                  Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+                  International License
+                </a>
+                . </Container> || <></>
+            }
           </Layout>
         </NoteContext.Provider>
       </EntityContext.Provider>

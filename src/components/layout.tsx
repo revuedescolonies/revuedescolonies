@@ -68,16 +68,17 @@ function Layout({ location, appbar, children }: Props): JSX.Element {
             fr
           }
           repository
+          version
         }
       }
     }
   `);
 
-  const { repository, customTitle, menuLinks } = data.site.siteMetadata
+  const { repository, customTitle, menuLinks, version } = data.site.siteMetadata
 
   const title = customTitle
 
-  let footer = <Footer repository={repository} />
+  let footer = <Footer repository={repository} version={version}/>
   if (location?.startsWith("RdC")) {
     footer = <EditionFooter repository={repository}>{footer}</EditionFooter>
   }

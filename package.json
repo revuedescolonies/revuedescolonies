@@ -1,6 +1,6 @@
 {
-  "name": "se-microedition-template",
-  "version": "2.0.0",
+  "name": "revuedescolonies",
+  "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "private": true,

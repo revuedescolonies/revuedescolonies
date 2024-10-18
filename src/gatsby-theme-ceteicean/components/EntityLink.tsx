@@ -7,13 +7,20 @@ import type { TEntity } from "./Context"
 import { Button } from "@mui/material"
 import { styled } from '@mui/material/styles'
 import type {ButtonProps} from "@mui/material"
+import Popup from "./Popup"
+import { EntityColors, IColors } from "../../displayOptions"
 
 type TEIProps = {
   teiNode: Node,
   availableRoutes?: string[]
 }
 
-const EntityButton = styled(Button)<ButtonProps>(({ theme }) => ({
+type EntityButtonProps = ButtonProps & {
+  entityType: keyof IColors,
+  available: boolean
+}
+
+const EntityButton = styled(Button)<EntityButtonProps>(({ theme, entityType, available }) => ({
   boxShadow: 'none',
   fontSize: 'inherit',
   fontFamily: theme.typography.body1.fontFamily,
@@ -25,7 +32,9 @@ const EntityButton = styled(Button)<ButtonProps>(({ theme }) => ({
   textTransform: "none",
   backgroundColor: "transparent",
   minWidth: "unset",
-  display: 'inline'
+  display: 'inline',
+  borderRadius: 0,
+  borderBottom: `2px ${available ? 'solid' : 'dashed'} ${EntityColors[entityType]}`,
 }));
 
 
@@ -41,20 +50,34 @@ const EntityLink: TBehavior = (props: TEIProps) => {
 
   if (target) {
     const entityData: TEntity = { id }
+    const entityType: keyof IColors = el.tagName.toLowerCase().replace("tei-", "")
+    const commentaryExists = Boolean(el.ownerDocument.getElementById(id))
+
+    const handleClick = () => {
+      if (commentaryExists) {
+        setNote(null)
+        setEntity(entityData)
+      }
+    }
 
     const show = contextOpts.entitiesToShow as string[] | undefined
     const highlight = show && show.includes(id) ? {
       backgroundColor: "#E3DCD4",
     } : {}
 
+    const content = <EntityButton component="a" entityType={entityType} color="default" variant="text"
+      available={commentaryExists}
+      disableElevation size="small" onClick={handleClick} sx={highlight}>
+      <SafeUnchangedNode {...props} />
+    </EntityButton>
+
+    const popup = !commentaryExists ? <Popup title="Entity note not yet available" placement="top" arrow enterTouchDelay={0}> 
+      {content}
+    </Popup> : <></>;
+
     return (
       <Behavior node={props.teiNode}>
-        <EntityButton component="a" color="default" variant="text" disableElevation size="small" onClick={() => {
-          setNote(null)
-          setEntity(entityData)
-        }} sx={highlight}>
-          <SafeUnchangedNode {...props} />
-        </EntityButton>
+        {commentaryExists ? content : popup}
       </Behavior>
     )
   }
