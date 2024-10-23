@@ -123,6 +123,7 @@
                                 <valItem mode="add" ident="#CR"/>
                                 <valItem mode="add" ident="#CMi"/>
                                 <valItem mode="add" ident="#AfrIn"/>
+                                <valItem mode="add" ident="#SdJ"/>
                                 <valItem mode="add" ident="#Soc"/>
                                 <valItem mode="add" ident="#CP"/>
                                 <valItem mode="add" ident="#SA"/>
@@ -193,6 +194,8 @@
                                 <valItem mode="add" ident="#AB"/>
                                 <valItem mode="add" ident="#AdB"/>
                                 <valItem mode="add" ident="#AFoi"/>
+                                <valItem mode="add" ident="#Lcy"/>
+                                <valItem mode="add" ident="#StH"/>
                                 <valItem mode="add" ident="#Gatine"/>
                                 <valItem mode="add" ident="#ADp"/>
                                 <valItem mode="add" ident="#CB"/>
@@ -347,7 +350,6 @@
                                 <valItem mode="add" ident="#GL"/>
                                 <valItem mode="add" ident="#GVD"/>
                                 <valItem mode="add" ident="#MMG"/>
-                                <valItem mode="add" ident="#ANog"/>
                                 <valItem mode="add" ident="#AR"/>
                                 <valItem mode="add" ident="#ATelem"/>
                                 <valItem mode="add" ident="#MACK"/>
@@ -377,6 +379,7 @@
                                 <valItem mode="add" ident="#AHav"/>
                                 <valItem mode="add" ident="#FI"/>
                                 <valItem mode="add" ident="#FXD"/>
+                                <valItem mode="add" ident="#ANog"/>
                                 <valItem mode="add" ident="#JorLa"/>
                                 <valItem mode="add" ident="#DEH"/>
                                 <valItem mode="add" ident="#LTelem"/>
@@ -426,6 +429,9 @@
                                 <valItem mode="add" ident="#Lib"/>
                                 <valItem mode="add" ident="#CPa"/>
                                 <valItem mode="add" ident="#ESS"/>
+                                <valItem mode="add" ident="#clns"/>
+                                <valItem mode="add" ident="#COLs"/>
+                                <valItem mode="add" ident="#CRC"/>
                                 <valItem mode="add" ident="#LUC"/>
                                 <valItem mode="add" ident="#MAN"/>
                                 <valItem mode="add" ident="#MC"/>
@@ -574,6 +580,9 @@
                     <attList>
                         <attDef ident="ref" mode="change">
                             <valList type="closed" mode="change">
+                                <valItem mode="add" ident="#OPC"/>
+                                <valItem mode="add" ident="#Slz"/>
+                                <valItem mode="add" ident="#LOC"/>
                                 <valItem mode="add" ident="#C30"/>
                                 <valItem mode="add" ident="#DDH"/>
                                 <valItem mode="add" ident="#CN"/>
