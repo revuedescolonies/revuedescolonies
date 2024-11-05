@@ -1,21 +1,32 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState, useContext } from "react";
 import * as d3 from "d3";
-import './GlobeMap.css'; // Adjust the path if necessary
+import './GlobeMap.css'; 
+import { Routes } from "gatsby-theme-ceteicean/src/components/Ceteicean";
+import Graphic from "../gatsby-theme-ceteicean/components/Graphic";
+import { Ref, SafeUnchangedNode } from "gatsby-theme-ceteicean/src/components/DefaultBehaviors";
+import { Box, Typography } from "@mui/material";
+import Renderer from "gatsby-theme-ceteicean/src/components/Renderer";
+import Q from "../gatsby-theme-ceteicean/components/Q";
+import { DisplayContext, EntityContext, IOptions, TEntity } from "../gatsby-theme-ceteicean/components/Context";
+import Entity from "../gatsby-theme-ceteicean/components/Entity";
+import { Lang } from "./nav";
 
 interface GlobeMapProps {
   geojson: any; 
+  language: "en" | "fr";
+  elements: string[];
+  prefixed: string;
 }
 
-const GlobeMap: React.FC<GlobeMapProps> = ({ geojson }) => {
+const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, language }) => {
   const svgRef = useRef<SVGSVGElement | null>(null);
-  const tooltipRef = useRef<HTMLDivElement | null>(null);
   let isRotationStopped = false; // Flag to track if rotation should be stopped
-
+  const [entity, setEntity] = useState<TEntity | null>(null); 
+  
   useEffect(() => {
-    if (!svgRef.current || !tooltipRef.current || !geojson) return;
+    if (!svgRef.current || !geojson) return;
 
     const svg = d3.select(svgRef.current);
-    const tooltip = d3.select(tooltipRef.current);
     const width = 800;
     const height = 800;
     const sensitivity = 75;
@@ -46,6 +57,7 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson }) => {
     const dragBehavior = d3.drag<SVGSVGElement, unknown>()
       .on('start', () => {
         isRotationStopped = true; // Stop the globe from rotating permanently after first interaction
+        
       })
       .on('drag', (event: d3.D3DragEvent<SVGSVGElement, unknown, unknown>) => {
         const rotate = projection.rotate();
@@ -130,9 +142,13 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson }) => {
           .attr("height", pinHeight)
           .attr("transform", (d: any) => {
             return `translate(${projection(d.geometry.coordinates)})`
-          }).raise();
+          })
+          .on("click", (event, d) => {
+            setEntity({ id: d.properties.id });
+          })
+          .raise();
        
-          svg.selectAll("image.polygon-pin")
+        svg.selectAll("image.polygon-pin")
           .data(polygons)
           .enter()
           .append("image")
@@ -143,6 +159,9 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson }) => {
           .attr("transform", (d: any) => {
             let coords = d3.polygonCentroid(d.geometry.coordinates[0]);
             return `translate(${projection(coords)})`
+          })
+          .on("click", (event, d) => {
+            setEntity({ id: d.properties.id }); 
           })
           .raise();
       }
@@ -213,19 +232,67 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson }) => {
 
   }, [geojson]);
 
+  type TEIProps = {
+    teiNode: Node,
+    availableRoutes?: string[],
+  }
+  const lang = language as Lang
+  const startOpts: IOptions = {annosLang: lang, originalSpelling: false}
+  const [displayOpts, setDisplayOpts] = React.useState(startOpts)
   
+  const Title = (props: TEIProps) => <Typography variant="h3" component="h1" gutterBottom={false} sx={{
+    marginBottom: "2rem"
+  }}><SafeUnchangedNode {...props}/></Typography>
+  const routes: Routes = {
+    "tei-graphic": (props) => <Box sx={{textAlign: "center"}}><Graphic {...props}/></Box>,
+    "tei-ref": Ref,
+    "tei-q": (props) => <Q {...props} curLang={language}/>,
+    "tei-placename": Title,
+    "tei-title": (props) => {
+      const el = props.teiNode as Element
+      return el.parentElement?.getAttribute("type") === "periodical" ? <Title {...props}/>
+      : <SafeUnchangedNode {...props}/>
+    },
+    // "tei-note": (props) => {
+    //   const el = props.teiNode as Element
+    //   if (el.getAttribute("xml:lang") === language) {
+    //     return <SafeUnchangedNode {...props}/>
+    //   }
+    //   return null
+    // },
+    "tei-place": (props) => <Entity isSynoptic={false} entityType={"tei-placeName"} {...props} />,
+  }
+  
+
 
   return (
     <div className="globe-container">
-      <header className="header">
-        <h1>Interactive Globe Visualization</h1>
-      </header>
+        <Typography variant="h4" component="h2" gutterBottom={false} sx={{
+          marginBottom: "1rem", marginTop: "2rem"
+        }}>{
+          language === "fr" ? "Carte du monde"
+          : "Global Map Visualization"
+        }</Typography>
       <div className="map-container">
-        <svg ref={svgRef}></svg>
-        <div className="tooltip" ref={tooltipRef}></div>
+        <div className="visualization-content">
+          <svg ref={svgRef}></svg>
+          <div className="note-container">
+            <DisplayContext.Provider value={{
+              contextOpts: displayOpts,
+              setContextOpts: setDisplayOpts
+            }}>
+            <EntityContext.Provider value={{ entity, setEntity }}>
+              <Renderer name="mapnote" prefixed={prefixed} elements={elements} routes={routes} />
+            </EntityContext.Provider>
+          </DisplayContext.Provider>
+          </div>
+        </div>
       </div>
     </div>
+
   );
 };
 
 export default GlobeMap;
+
+

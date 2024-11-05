@@ -2,24 +2,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
-  padding: 20px;
-}
-
-.header h1 {
-  color: #4a2e0d; /* Darker brown for the header text */
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  margin: 0;
 }
 
 .map-container {
-  position: relative;
-  background-color: #e0c7a4; /* Lighter brown for the map container background */
-  padding: 20px;
-  border: 1px solid #8c7a53; /* Border to give it an old-map feel */
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
-  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.visualization-content {
+  display: flex;
+  align-items: center; 
+}
+
+.note-container {
+  margin-left: 60px; 
+  display: flex;
+  flex-direction: column;
+  
 }
 
 

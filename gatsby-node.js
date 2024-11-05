@@ -111,8 +111,8 @@ async function makeMap(createPage, reporter, graphql) {
       allFile(filter: {name: {eq: "entities"}}) {
         nodes {
           childCetei {
-            original
             prefixed
+            elements
           }
         } 
       } 
@@ -126,48 +126,56 @@ async function makeMap(createPage, reporter, graphql) {
   const entitiesNode = result.data.allFile.nodes[0].childCetei;
 
   // JSDOM
-  const originalDoc = new JSDOM(entitiesNode.original, { contentType: 'text/xml' }).window.document;
   const prefixedDoc = new JSDOM(entitiesNode.prefixed, { contentType: 'text/xml' }).window.document;
 
-  // Get palace from original 
-  const placeIndex = [];
+  const placeData = [];
   const geoData = [];
-  const placeElements = originalDoc.querySelectorAll('place');
+  // Get place from original 
+  const placeElements = prefixedDoc.querySelectorAll('tei-place');
+  const container = prefixedDoc.createElement("tei-div")
 
   placeElements.forEach((placeElement) => {
+    // For each place in original 
     const xmlId = placeElement.getAttribute('xml:id'); 
     // parse geojson data 
-    const geoElement = placeElement.querySelector('geo[decls="#geojson"]');
+    const geoElement = placeElement.querySelector('tei-geo[decls="#geojson"]');
     if (geoElement) {
+      
       const snippet = JSON.parse(geoElement.textContent);
+      // Add xml:id to the properties of the geojson snippet
+      snippet.properties.id = xmlId;
       geoData.push(snippet)
-      // Find the corresponding place in prefixed XML 
-      const correspondingPlace = prefixedDoc.getElementById(xmlId);
-      placeIndex
-     
-    }
+      // Find the places with geodata in prefixed XML 
+      container.appendChild(placeElement)
+    }  
   });
 
   const contextGeoJSON = {
     type: "FeatureCollection",
     features: geoData.flatMap(snippet => snippet.features || [snippet]),
   };
-
+  
   createPage({
     path: '/en/map',
     component,
     context: {
       geojson: contextGeoJSON, 
-      language: 'en'
+      language: 'en',
+      
+      elements: entitiesNode.elements,
+      prefixed: serialize(container)
     }
-  })
+  }) 
 
   createPage({
     path: '/fr/carte',
     component,
     context: {
       geojson: contextGeoJSON, 
-      language: 'fr'
+      language: 'fr',
+
+      elements: entitiesNode.elements,
+      prefixed: serialize(container)
     }
   })
   

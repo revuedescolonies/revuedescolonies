@@ -75,8 +75,7 @@ const Entity: EntityBehavior = (props: TEIProps) => {
         <CloseIcon />
       </IconButton>)
 
-      const entityContent = Array.from(el.children).filter(c => c.getAttribute('lang') === cardLang)[0]
-       
+      const entityContent = Array.from(el.children).filter(c => c.getAttribute('lang') === (cardLang))[0]
       const resp = entityContent.getAttribute("resp")
       let author: JSX.Element | undefined = undefined 
       if (resp) {
@@ -149,10 +148,7 @@ const Entity: EntityBehavior = (props: TEIProps) => {
       )
     }
 
-  } else if (el.ownerDocument.getElementsByTagName("tei-text").length === 0) {
-    // Show entities on proofing page.
-    return <SafeUnchangedNode {...props}/>
-  }
+  } 
   return null
 }
 
