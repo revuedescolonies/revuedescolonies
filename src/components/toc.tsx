@@ -6,6 +6,7 @@ import React from "react"
 interface TocData {
   allTocJson: {
     nodes: {
+      hideFromToc?: boolean
       title: {
         en: string
         fr: string
@@ -26,6 +27,7 @@ const Toc = ({lang}: TocProps) => {
     query TocQuery {
       allTocJson {
         nodes {
+          hideFromToc
           title {
             en
             fr
@@ -35,7 +37,12 @@ const Toc = ({lang}: TocProps) => {
       }
     }
   `)
-  const entries = tocData.allTocJson.nodes
+  const entries = tocData.allTocJson.nodes.filter(e => {
+    console.log(e.hideFromToc, Boolean(e.hideFromToc))
+    return Boolean(e.hideFromToc) === false
+  })
+
+  console.log(entries)
 
   const i18n = (en: string) => {
     const i18nMap = new Map<string, string>([
