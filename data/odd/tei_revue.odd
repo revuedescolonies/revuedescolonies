@@ -196,6 +196,10 @@
                                 <valItem mode="add" ident="#AFoi"/>
                                 <valItem mode="add" ident="#Lcy"/>
                                 <valItem mode="add" ident="#StH"/>
+                                <valItem mode="add" ident="#Vig"/>
+                                <valItem mode="add" ident="#CPe"/>
+                                <valItem mode="add" ident="#BC"/>
+                                <valItem mode="add" ident="#SHK"/>
                                 <valItem mode="add" ident="#Gatine"/>
                                 <valItem mode="add" ident="#ADp"/>
                                 <valItem mode="add" ident="#CB"/>
@@ -245,7 +249,6 @@
                                 <valItem mode="add" ident="#Sligo"/>
                                 <valItem mode="add" ident="#VA"/>
                                 <valItem mode="add" ident="#FRO"/>
-                                <valItem mode="add" ident="#JPB"/>
                                 <valItem mode="add" ident="#MEL"/>
                                 <valItem mode="add" ident="#LX"/>
                                 <valItem mode="add" ident="#FMaug"/>
@@ -288,6 +291,7 @@
                                 <valItem mode="add" ident="#NIC"/>
                                 <valItem mode="add" ident="#ADA"/>
                                 <valItem mode="add" ident="#ES"/>
+                                <valItem mode="add" ident="#LTelem"/>
                                 <valItem mode="add" ident="#EC"/>
                                 <valItem mode="add" ident="#CLM"/>
                                 <valItem mode="add" ident="#COX"/>
@@ -382,7 +386,6 @@
                                 <valItem mode="add" ident="#ANog"/>
                                 <valItem mode="add" ident="#JorLa"/>
                                 <valItem mode="add" ident="#DEH"/>
-                                <valItem mode="add" ident="#LTelem"/>
                                 <valItem mode="add" ident="#HF"/>
                                 <valItem mode="add" ident="#Meril"/>
                                 <valItem mode="add" ident="#NOA"/>
@@ -411,6 +414,7 @@
                                 <valItem mode="add" ident="#Dal"/>
                                 <valItem mode="add" ident="#Dupo"/>
                                 <valItem mode="add" ident="#HG"/>
+                                <valItem mode="add" ident="#JPB"/>
                             </valList>
                         </attDef>
                     </attList>
@@ -419,7 +423,6 @@
                     <attList>
                         <attDef ident="ref" mode="change">
                             <valList type="closed" mode="change">
-                                <valItem mode="add" ident="#Beau"/>
                                 <valItem mode="add" ident="#N-E"/>
                                 <valItem mode="add" ident="#SLe"/>
                                 <valItem mode="add" ident="#Ar"/>
@@ -432,7 +435,7 @@
                                 <valItem mode="add" ident="#clns"/>
                                 <valItem mode="add" ident="#COLs"/>
                                 <valItem mode="add" ident="#CRC"/>
-                                <valItem mode="add" ident="#LUC"/>
+                                <valItem mode="add" ident="#StP"/>
                                 <valItem mode="add" ident="#MAN"/>
                                 <valItem mode="add" ident="#MC"/>
                                 <valItem mode="add" ident="#ME"/>
@@ -499,6 +502,7 @@
                                 <valItem mode="add" ident="#METFR"/>
                                 <valItem mode="add" ident="#Nts"/>
                                 <valItem mode="add" ident="#BaA"/>
+                                <valItem mode="add" ident="#Beau"/>
                                 <valItem mode="add" ident="#Nan"/>
                                 <valItem mode="add" ident="#ALL"/>
                                 <valItem mode="add" ident="#ANTE"/>
@@ -509,7 +513,6 @@
                                 <valItem mode="add" ident="#FR"/>
                                 <valItem mode="add" ident="#GB"/>
                                 <valItem mode="add" ident="#GF"/>
-                                <valItem mode="add" ident="#StP"/>
                                 <valItem mode="add" ident="#StT"/>
                                 <valItem mode="add" ident="#STL"/>
                                 <valItem mode="add" ident="#SEOI"/>
@@ -563,6 +566,7 @@
                                 <valItem mode="add" ident="#Hav"/>
                                 <valItem mode="add" ident="#InO"/>
                                 <valItem mode="add" ident="#Lo"/>
+                                <valItem mode="add" ident="#LUC"/>
                                 <valItem mode="add" ident="#DOM"/>
                                 <valItem mode="add" ident="#Alg"/>
                                 <valItem mode="add" ident="#ANG"/>

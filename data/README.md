@@ -15,3 +15,9 @@ Files in `tei/notes` and `tes/shared` are generated automatically. **Any change 
 The grammar and encoding documentation for the TEI files is located in `ood`. Parts of the [ODD](https://tei-c.org/guidelines/customization/getting-started-with-p5-odds) file is generated automatically. It is recommended to not edit it unless instructed to do so.
 
 The RelaxNG schema is derived from the ODD and should not be edited. Any changes to this file will be lost.
+
+## Publishing
+
+The `published` branch of this repository is mounted as a submodule of [revuedescolonies/revuedescolonies](https://github.com/revuedescolonies/revuedescolonies), which publishes the project website. 
+
+To publish a TEI document from the working branch (`main`), merge or cherry-pick into `published`.
