@@ -87,8 +87,8 @@ module.exports = {
           link: '/en/search/'
         },
         fr: {
-          name: 'récherche',
-          link: '/fr/récherche/'
+          name: 'recherche',
+          link: '/fr/recherche/'
         }
       },
       {
