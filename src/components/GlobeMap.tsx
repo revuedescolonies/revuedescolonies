@@ -22,9 +22,11 @@ interface GlobeMapProps {
 
 const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, language }) => {
   const svgRef = useRef<SVGSVGElement | null>(null);
-  let isRotationStopped = false; // Flag to track if rotation should be stopped
+  let isRotationStopped = false; 
   const [entity, setEntity] = useState<TEntity | null>(null); 
-  
+  const theme = useTheme();
+  const isScreenSmall = useMediaQuery(theme.breakpoints.down('lg'));
+
   useEffect(() => {
     if (!svgRef.current || !geojson) return;
 
@@ -35,9 +37,9 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
     const minZoom = 0.3;
 
     let projection = d3.geoOrthographic()
-      .scale(width / 2)
+      .scale(isScreenSmall ? width / 2.5 : width / 2)    
       .center([0, 0])
-      .rotate([0, -30])
+      .rotate([30, -30])
       .translate([width / 2, height / 2]);
 
     const initialScale = projection.scale();
@@ -133,7 +135,14 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
           projection.scale(newScale);
           event.preventDefault();
           updateGlobe();
-      } 
+      } else if (event.key === "r" || event.key === "R") {
+          // Reset view
+          projection.rotate([30, -30])
+            .scale(initialScale);
+          event.preventDefault();
+          updateGlobe();
+          isRotationStopped = false;
+      }
     };   
 
     svg.call(dragBehavior).call(zoomBehavior);
@@ -236,10 +245,47 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
     // Add zoom buttons rendering after renderPins()
     
     const renderZoomButtons = () => {
-      const buttonWidth = 40;
-      const buttonHeight = 40;
-      const margin = 10;
-  
+      // Determine button size based on screen width
+      const buttonWidth = isScreenSmall ? 70 : 40;
+      const buttonHeight = isScreenSmall ? 70 : 40;
+      const margin = isScreenSmall ? 25 : 10;
+    
+      // Reset View Button
+      svg.append("rect")
+        .attr("class", "zoom-button reset-view")
+        .attr("x", width - buttonWidth - margin)
+        .attr("y", height - 3 * buttonHeight - 3 * margin)
+        .attr("width", buttonWidth)
+        .attr("height", buttonHeight)
+        .attr("rx", 10)
+        .attr("ry", 10).raise()
+        .on("click", () => {
+          // Reset rotation and scale
+          projection.rotate([30, -30])
+            .scale(initialScale);
+          
+          // Update all elements
+          svg.selectAll("path").attr("d", (d: any) => path(d));
+          svg.select(".globe").attr("r", initialScale);
+          updatePins();
+          
+          // Resume rotation
+          isRotationStopped = false;
+          
+          // Raise buttons to keep them clickable
+          svg.selectAll(".zoom-button").raise();
+          svg.selectAll(".zoom-button-text").raise();
+        }).raise();
+    
+      // Reset icon (↻)
+      svg.append("text")
+        .attr("class", "zoom-button-text")
+        .attr("x", width - buttonWidth/2 - margin)
+        .attr("y", height - 3 * buttonHeight - 3 * margin + buttonHeight/2 + (isScreenSmall ? 12 : 7))
+        .attr("text-anchor", "middle")
+        .attr("font-size", isScreenSmall ? "24px" : "16px")
+        .text("↻").raise();
+    
       // Zoom In Button
       svg.append("rect")
         .attr("class", "zoom-button zoom-in")
@@ -247,8 +293,8 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
         .attr("y", height - 2 * buttonHeight - 2 * margin)
         .attr("width", buttonWidth)
         .attr("height", buttonHeight)
-        .attr("rx", 5)
-        .attr("ry", 5)
+        .attr("rx", 10)
+        .attr("ry", 10)
         .on("click", (e) => {
           const currentScale = projection.scale();
           const newScale = Math.min(currentScale * 1.2, width);
@@ -258,16 +304,17 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
           svg.select(".globe").attr("r", newScale);
           updatePins();
           svg.selectAll(".zoom-button").raise();
-          svg.selectAll("text").raise();
+          svg.selectAll(".zoom-button-text").raise();
         });
-  
+    
       svg.append("text")
         .attr("class", "zoom-button-text")
         .attr("x", width - buttonWidth/2 - margin)
-        .attr("y", height - 2 * buttonHeight - 2 * margin + buttonHeight/2 + 7)
+        .attr("y", height - 2 * buttonHeight - 2 * margin + buttonHeight/2 + (isScreenSmall ? 12 : 7))
         .attr("text-anchor", "middle")
+        .attr("font-size", isScreenSmall ? "24px" : "16px")
         .text("+");
-  
+    
       // Zoom Out Button
       svg.append("rect")
         .attr("class", "zoom-button zoom-out")
@@ -275,8 +322,8 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
         .attr("y", height - buttonHeight - margin)
         .attr("width", buttonWidth)
         .attr("height", buttonHeight)
-        .attr("rx", 5)
-        .attr("ry", 5)
+        .attr("rx", 10)
+        .attr("ry", 10)
         .on("click", () => {
           const currentScale = projection.scale();
           const newScale = Math.max(currentScale / 1.2, initialScale * minZoom);
@@ -288,13 +335,15 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
           svg.selectAll("rect").raise();
           svg.selectAll("text").raise();
         });
-  
+    
       svg.append("text")
         .attr("class", "zoom-button-text")
         .attr("x", width - buttonWidth/2 - margin)
-        .attr("y", height - buttonHeight - margin + buttonHeight/2 + 7)
+        .attr("y", height - buttonHeight - margin + buttonHeight/2 + (isScreenSmall ? 12 : 7))
         .attr("text-anchor", "middle")
+        .attr("font-size", isScreenSmall ? "24px" : "16px")
         .text("-");
+
     };
   
     
@@ -413,8 +462,7 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
     "tei-place": (props) => <Entity isSynoptic={false} entityType={"tei-placeName"} {...props} />,
   }
   
-  const theme = useTheme();
-  const isScreenSmall = useMediaQuery(theme.breakpoints.down('lg'));
+  
 
   return (
 

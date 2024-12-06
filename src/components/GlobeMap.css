@@ -27,3 +27,8 @@
   pointer-events: none;
 }
 
+.reset-view:hover {
+  cursor: pointer;
+  fill: #f0f0f0;
+}
+
