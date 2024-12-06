@@ -1,28 +1,29 @@
-.globe-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.map-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.visualization-content {
-  display: flex;
-  align-items: center; 
-}
-
-.note-container {
-  margin-left: 60px; 
+.map-note-container {
   display: flex;
   flex-direction: column;
   
 }
 
+.map-note-container .MuiPaper-root {
+  position: unset !important;
+}
 
+.zoom-button {
+  cursor: pointer;
+  fill: white;
+  stroke: black;
+  stroke-width: 1px;
+  transition: fill 0.3s ease;
+}
 
+.zoom-button:hover {
+  fill: #f0f0f0;
+}
 
+.zoom-button-text {
+  font-size: 20px;
+  font-weight: bold;
+  user-select: none;
+  pointer-events: none;
+}
 

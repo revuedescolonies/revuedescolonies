@@ -4,12 +4,14 @@ import './GlobeMap.css';
 import { Routes } from "gatsby-theme-ceteicean/src/components/Ceteicean";
 import Graphic from "../gatsby-theme-ceteicean/components/Graphic";
 import { Ref, SafeUnchangedNode } from "gatsby-theme-ceteicean/src/components/DefaultBehaviors";
-import { Box, Typography } from "@mui/material";
+import { Grid2, Box, Typography, Grid, useTheme } from "@mui/material";
 import Renderer from "gatsby-theme-ceteicean/src/components/Renderer";
 import Q from "../gatsby-theme-ceteicean/components/Q";
 import { DisplayContext, EntityContext, IOptions, TEntity } from "../gatsby-theme-ceteicean/components/Context";
 import Entity from "../gatsby-theme-ceteicean/components/Entity";
 import { Lang } from "./nav";
+import useMediaQuery from "@mui/material/useMediaQuery"
+import theme from "../theme";
 
 interface GlobeMapProps {
   geojson: any; 
@@ -41,7 +43,7 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
     const initialScale = projection.scale();
     const path = d3.geoPath().projection(projection);
 
-    svg.attr("width", width).attr("height", height);
+    svg.attr("viewBox", `0 0 ${width} ${height}`).attr("preserveAspectRatio", "xMidYMid meet");
 
     // Light blue sea
     svg.append("circle")
@@ -91,7 +93,51 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
         }
       });
 
+      const handleKeyPress = (event: KeyboardEvent) => {
+      const rotate = projection.rotate();
+      const rotationStep = 5; // Adjust rotation step size
+      const currentScale = projection.scale();
+      const zoomStep = 1.2; // Zoom multiplier
+      
+      const updateGlobe = () => {
+        svg.selectAll("path").attr("d", (d: any) => path(d));
+        svg.select(".globe").attr("r", projection.scale());
+        updatePins();
+      }
+      
+      if (event.key === "ArrowLeft") {
+          projection.rotate([rotate[0] - rotationStep, rotate[1]]);
+          event.preventDefault();
+          updateGlobe();
+       } else if (event.key === "ArrowRight") {
+          projection.rotate([rotate[0] + rotationStep, rotate[1]]);
+          event.preventDefault();
+          updateGlobe();
+      } else if (event.key === "ArrowUp") {
+          projection.rotate([rotate[0], rotate[1] - rotationStep]);
+          event.preventDefault();
+          updateGlobe();
+      } else if (event.key === "ArrowDown") {
+          projection.rotate([rotate[0], rotate[1] + rotationStep]);
+          event.preventDefault();
+          updateGlobe();
+      } else if (event.key === "+" || event.key === "=") {
+          // Zoom In
+          const newScale = Math.min(currentScale * zoomStep, width);
+          projection.scale(newScale);
+          event.preventDefault();
+          updateGlobe();
+      } else if (event.key === "-") {
+          // Zoom Out
+          const newScale = Math.max(currentScale / zoomStep, initialScale * minZoom);
+          projection.scale(newScale);
+          event.preventDefault();
+          updateGlobe();
+      } 
+    };   
+
     svg.call(dragBehavior).call(zoomBehavior);
+    document.addEventListener("keydown", handleKeyPress);
 
     // Load and render map data
     const loadData = async () => {
@@ -129,47 +175,135 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
           .style('stroke-width', 2)
           .attr("stroke-dasharray", "5,5")
           .style("opacity", 1);
-
-        const points = geojson.features.filter((d: any) => d.geometry.type === "Point");          
-        // Add pins
-        svg.selectAll("image.point-pin")
-          .data(points)
-          .enter()
-          .append("image")
-          .attr("class", "point-pin")
-          .attr("href", "/pin.svg")
-          .attr("width", pinWidth)
-          .attr("height", pinHeight)
-          .attr("transform", (d: any) => {
-            return `translate(${projection(d.geometry.coordinates)})`
-          })
-          .on("click", (event, d) => {
-            setEntity({ id: d.properties.id });
-          })
-          .raise();
-       
-        svg.selectAll("image.polygon-pin")
-          .data(polygons)
-          .enter()
-          .append("image")
-          .attr("class", "polygon-pin")
-          .attr("href", "/pin.svg")
-          .attr("width", pinWidth)
-          .attr("height", pinHeight)
-          .attr("transform", (d: any) => {
-            let coords = d3.polygonCentroid(d.geometry.coordinates[0]);
-            return `translate(${projection(coords)})`
-          })
-          .on("click", (event, d) => {
-            setEntity({ id: d.properties.id }); 
-          })
-          .raise();
       }
     };
+    const renderPins = () => {
+    if (geojson.features) {
+        const polygons = geojson.features.filter((d: any) => d.geometry.type === "Polygon");
+        const points = geojson.features.filter((d: any) => d.geometry.type === "Point");
+
+    // Add pins with keyboard accessibility
+    svg.selectAll("image.point-pin")
+      .data(points)
+      .enter()
+      .append("image")
+      .attr("class", "point-pin")
+      .attr("href", "/pin.svg")
+      .attr("width", pinWidth)
+      .attr("height", pinHeight)
+      .attr("transform", (d: any) => {
+        return `translate(${projection(d.geometry.coordinates)})`;
+      })
+      .attr("role", "button")
+      .attr("tabindex", "0")
+      .attr("aria-label", (d: any) => `Location: ${d.properties.id || "Unknown"}`) 
+      .on("click", (event, d) => {
+        setEntity({ id: d.properties.id });
+      })
+      .on("keydown", (event, d) => {
+        if (event.key === "Enter" || event.key === " ") {
+          setEntity({ id: d.properties.id });
+        }
+      })
+      .raise();        
+
+    svg.selectAll("image.polygon-pin")
+      .data(polygons)
+      .enter()
+      .append("image")
+      .attr("class", "polygon-pin")
+      .attr("href", "/pin.svg")
+      .attr("width", pinWidth)
+      .attr("height", pinHeight)
+      .attr("transform", (d: any) => {
+        let coords = d3.polygonCentroid(d.geometry.coordinates[0]);
+        return `translate(${projection(coords)})`
+      })
+      .attr("role", "button")
+      .attr("tabindex", "0")
+      .attr("aria-label", (d: any) => `Location: ${d.properties.id || "Unknown"}`)
+      .on("click", (event, d) => {
+        setEntity({ id: d.properties.id });
+      })
+      .on("keydown", (event, d) => {
+        if (event.key === "Enter" || event.key === " ") {
+          setEntity({ id: d.properties.id });
+        }
+      }).raise(); 
+  }
+  };
+    
+    // Add zoom buttons rendering after renderPins()
+    
+    const renderZoomButtons = () => {
+      const buttonWidth = 40;
+      const buttonHeight = 40;
+      const margin = 10;
+  
+      // Zoom In Button
+      svg.append("rect")
+        .attr("class", "zoom-button zoom-in")
+        .attr("x", width - buttonWidth - margin)
+        .attr("y", height - 2 * buttonHeight - 2 * margin)
+        .attr("width", buttonWidth)
+        .attr("height", buttonHeight)
+        .attr("rx", 5)
+        .attr("ry", 5)
+        .on("click", (e) => {
+          const currentScale = projection.scale();
+          const newScale = Math.min(currentScale * 1.2, width);
+          
+          projection.scale(newScale);
+          svg.selectAll("path").attr("d", (d: any) => path(d));
+          svg.select(".globe").attr("r", newScale);
+          updatePins();
+          svg.selectAll(".zoom-button").raise();
+          svg.selectAll("text").raise();
+        });
+  
+      svg.append("text")
+        .attr("class", "zoom-button-text")
+        .attr("x", width - buttonWidth/2 - margin)
+        .attr("y", height - 2 * buttonHeight - 2 * margin + buttonHeight/2 + 7)
+        .attr("text-anchor", "middle")
+        .text("+");
+  
+      // Zoom Out Button
+      svg.append("rect")
+        .attr("class", "zoom-button zoom-out")
+        .attr("x", width - buttonWidth - margin)
+        .attr("y", height - buttonHeight - margin)
+        .attr("width", buttonWidth)
+        .attr("height", buttonHeight)
+        .attr("rx", 5)
+        .attr("ry", 5)
+        .on("click", () => {
+          const currentScale = projection.scale();
+          const newScale = Math.max(currentScale / 1.2, initialScale * minZoom);
+          
+          projection.scale(newScale);
+          svg.selectAll("path").attr("d", (d: any) => path(d));
+          svg.select(".globe").attr("r", newScale);
+          updatePins();
+          svg.selectAll("rect").raise();
+          svg.selectAll("text").raise();
+        });
+  
+      svg.append("text")
+        .attr("class", "zoom-button-text")
+        .attr("x", width - buttonWidth/2 - margin)
+        .attr("y", height - buttonHeight - margin + buttonHeight/2 + 7)
+        .attr("text-anchor", "middle")
+        .text("-");
+    };
+  
     
     loadData();
     loadGeojsonData();
-
+    renderPins();
+    renderZoomButtons();
+    
+    
     const updatePins = () => {
       svg.selectAll("image.point-pin")
         .attr("transform", (d: any) => {
@@ -228,7 +362,23 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
       });
     };
 
-    stopRotationOnFirstInteraction();
+  // Stop rotation on first Tab key press
+  const stopRotationOnTabPress = (event: KeyboardEvent) => {
+    if (event.key === "Tab" && !isRotationStopped) {
+      isRotationStopped = true;
+      timer.stop(); // Stop rotation permanently
+    }
+  };
+
+  // Add event listener for Tab key press
+  document.addEventListener("keydown", stopRotationOnTabPress);
+  stopRotationOnFirstInteraction();
+
+  return () => {
+    document.removeEventListener("keydown", stopRotationOnTabPress);
+    document.removeEventListener("keydown", handleKeyPress);
+    timer.stop();
+  };
 
   }, [geojson]);
 
@@ -263,33 +413,60 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
     "tei-place": (props) => <Entity isSynoptic={false} entityType={"tei-placeName"} {...props} />,
   }
   
-
+  const theme = useTheme();
+  const isScreenSmall = useMediaQuery(theme.breakpoints.down('lg'));
 
   return (
-    <div className="globe-container">
+
+    <>
+    {isScreenSmall ? (
+      <div style={{ textAlign: "center" }}>
         <Typography variant="h4" component="h2" gutterBottom={false} sx={{
-          marginBottom: "1rem", marginTop: "2rem"
-        }}>{
-          language === "fr" ? "Carte du monde"
-          : "Global Map Visualization"
-        }</Typography>
-      <div className="map-container">
-        <div className="visualization-content">
+          marginBottom: "2rem", 
+          marginTop: "2rem"
+        }}>
+          {language === "fr" ? "Carte du monde" : "Global Map Visualization"}
+        </Typography>     
+        <svg ref={svgRef}></svg>
+        <DisplayContext.Provider value={{
+              contextOpts: displayOpts,
+              setContextOpts: setDisplayOpts
+            }}>
+              <EntityContext.Provider value={{ entity, setEntity }}>
+                <Renderer name="mapnote" prefixed={prefixed} elements={elements} routes={routes} />
+              </EntityContext.Provider>
+            </DisplayContext.Provider>
+      </div>
+    ) : (
+      <Grid2 container spacing={1}>
+        <Grid2 size={3}>
+        </Grid2>
+
+        <Grid2 size={6} sx={{ textAlign: "center" }}>
+          <Typography variant="h4" component="h2" gutterBottom={false} sx={{
+            marginBottom: "2rem", 
+            marginTop: "2rem"
+          }}>
+            {language === "fr" ? "Carte du monde" : "Global Map Visualization"}
+          </Typography>     
           <svg ref={svgRef}></svg>
-          <div className="note-container">
+        </Grid2>
+
+        <Grid2 size={3}>
+          <div className="map-note-container">
             <DisplayContext.Provider value={{
               contextOpts: displayOpts,
               setContextOpts: setDisplayOpts
             }}>
-            <EntityContext.Provider value={{ entity, setEntity }}>
-              <Renderer name="mapnote" prefixed={prefixed} elements={elements} routes={routes} />
-            </EntityContext.Provider>
-          </DisplayContext.Provider>
+              <EntityContext.Provider value={{ entity, setEntity }}>
+                <Renderer name="mapnote" prefixed={prefixed} elements={elements} routes={routes} />
+              </EntityContext.Provider>
+            </DisplayContext.Provider>
           </div>
-        </div>
-      </div>
-    </div>
-
+        </Grid2>
+      </Grid2>
+    )}
+  </>
   );
 };
 

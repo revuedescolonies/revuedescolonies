@@ -20,7 +20,7 @@ export default function MapPage({pageContext}: Props) {
   return (
       <Layout location={location.pathname}>
           <SEO title={'map'} lang={language}/>
-          <Container component="main" maxWidth="md">
+          <Container component="main">
             <GlobeMap geojson={geojson} elements={elements} prefixed={prefixed} language={language}/> {}
           </Container>
       </Layout>
