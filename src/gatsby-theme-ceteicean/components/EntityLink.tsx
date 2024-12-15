@@ -1,5 +1,4 @@
-import React from "react"
-
+import React, { useEffect, useRef, useState } from "react"
 import { TBehavior, SafeUnchangedNode } from "gatsby-theme-ceteicean/src/components/DefaultBehaviors"
 import { Behavior } from "gatsby-theme-ceteicean/src/components/Behavior"
 import { EntityContext, NoteContext, DisplayContext } from "./Context"
@@ -37,7 +36,6 @@ const EntityButton = styled(Button)<EntityButtonProps>(({ theme, entityType, ava
   borderBottom: `2px ${available ? 'solid' : 'dashed'} ${EntityColors[entityType]}`,
 }));
 
-
 const EntityLink: TBehavior = (props: TEIProps) => {
 
   const { setEntity } = React.useContext(EntityContext)
@@ -49,16 +47,27 @@ const EntityLink: TBehavior = (props: TEIProps) => {
   const id = target?.replace('#', '') || ''
 
   if (target) {
-    const entityData: TEntity = { id }
     const entityType: keyof IColors = el.tagName.toLowerCase().replace("tei-", "")
     const commentaryExists = Boolean(el.ownerDocument.getElementById(id))
 
-    const handleClick = () => {
+    const handleClick = (event: React.MouseEvent) => {
       if (commentaryExists) {
+        const element = event.currentTarget
+        const rect = element.getBoundingClientRect()
+        const position = {
+          top: rect.top + window.scrollY,
+          left: rect.left + window.scrollX,
+          width: rect.width,
+          height: rect.height,
+          bottom: rect.bottom + window.scrollY,
+          right: rect.right + window.scrollX,
+        };
+        const fromRelation = false
         setNote(null)
-        setEntity(entityData)
+        setEntity({id, position, fromRelation})
       }
     }
+    
 
     const show = contextOpts.entitiesToShow as string[] | undefined
     const highlight = show && show.includes(id) ? {

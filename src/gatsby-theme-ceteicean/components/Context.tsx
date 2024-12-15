@@ -29,8 +29,16 @@ export const NoteContext = React.createContext<NoteContextType>({
 
 export type TEntity = {
   id: string
+  position?: {
+    top: number
+    left: number 
+    bottom: number
+    right: number
+    width: number
+    height: number
+  },
+  fromRelation: boolean
 }
-
 type EntityContextType = {
   entity: TEntity | null
   setEntity: React.Dispatch<React.SetStateAction<TEntity | null>>

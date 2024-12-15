@@ -68,7 +68,6 @@ function Layout({ location, appbar, children }: Props): JSX.Element {
             fr
           }
           repository
-          version
         }
       }
     }
