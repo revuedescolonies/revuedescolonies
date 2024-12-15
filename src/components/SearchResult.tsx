@@ -32,37 +32,41 @@ const SearchResult: React.FC<SearchResultProps> = ({
       <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
         {results.map((result, index) => {
           
-          // Make sure this isn't a false positive
-          // if (result.content.search(new RegExp(`(${query})`, "gi")) === -1) return null;
+          const regex = new RegExp(query, 'gi');
+          let match: RegExpExecArray | null;
+          const snippets: string[] = [];
+          let lastIndex = 0;
 
-          let highlightedContent = ""
-          const queryLower = query.toLowerCase()
-          const contentLower = result.content.toLowerCase()
-          let currentIndex = 0
+          while ((match = regex.exec(result.content)) !== null) {
+              const matchStart = match.index;
+              const matchEnd = regex.lastIndex;
 
-          while (currentIndex < result.content.length && highlightedContent.length < 3000) {
-            const chunk = contentLower.substring(currentIndex, currentIndex + snippetLength)
-            const queryIndex = chunk.indexOf(queryLower)
+              // Determine snippet start and end positions, keeping the desired snippet length
+              const snippetStart = Math.max(0, matchStart - Math.floor(snippetLength / 2));
+              const snippetEnd = Math.min(result.content.length, matchEnd + Math.floor(snippetLength / 2));
 
-            if (queryIndex !== -1) {              
-              const start = Math.max(currentIndex + queryIndex - snippetLength, 0)
-              const end = Math.min(currentIndex + queryIndex + query.length + snippetLength, result.content.length)
-              const snippet = result.content.substring(start, end)
-
-              highlightedContent += snippet.replace(
-                new RegExp(`(${query})`, "gi"),
-                (match) => `<span style="background-color: #ffd50047; color: #000">${match}</span>`
-              )
-
-              if (end < result.content.length) {
-                highlightedContent += "..."
+              // Add "..." between snippets if needed
+              if (lastIndex < snippetStart) {
+                  snippets.push("...");
               }
 
-              currentIndex = end
-            } else {
-              currentIndex += snippetLength
-            }
+              // Extract the snippet and wrap the matched word
+              const snippet = result.content.substring(snippetStart, snippetEnd).replace(
+                new RegExp(query, 'gi'),
+                (match) => `<span style="background-color: #ffd50047; color: #000">${match}</span>`
+              );
+              snippets.push(snippet);
+
+              lastIndex = snippetEnd;
           }
+
+          // If there's remaining text after the last snippet, add "..." at the end
+          if (lastIndex < result.content.length) {
+              snippets.push("...");
+          }
+
+          // Join all snippets together
+          const highlightedContent = snippets.join("");
 
           return (
             <Box

@@ -123,7 +123,7 @@ async function makeSearchPage(createPage, search_index) {
   });
 
   createPage({
-    path: '/fr/récherche/',
+    path: '/fr/recherche/',
     component,
     context: {
       search_index,
