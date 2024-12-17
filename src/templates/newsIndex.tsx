@@ -28,7 +28,7 @@ export default function NewsTemplate({ pageContext }: NewsProps) {
     } ${createdDate.getFullYear()}`
   }
 
-  const title = lang === "en" ? "News" : "Actualités"
+  const title = lang === "en" ? "News" : "nouvelles"
 
   return (
     <Layout location={`/${lang}/${title.toLowerCase()}`}>

@@ -42,7 +42,7 @@ const styles = {
 const Nav = ({ location, menuLinks }: Props) => {
   const loc = decodeURIComponent(location)
   const isEdition = loc.replace(/\//g, '').startsWith("RdC")
-  const isNews = loc.includes('/en/news') || loc.includes('/fr/actualités')
+  const isNews = loc.includes('/en/news') || loc.includes('/fr/nouvelles')
   let curLang: Lang = isEdition && loc.slice(-2) === "fr" ? "fr" : "en"
   if (!isEdition && loc !== "" && loc !== "/") {
    curLang = location.substring(1, 3) as Lang
@@ -56,7 +56,7 @@ const Nav = ({ location, menuLinks }: Props) => {
       const dest = loc.replace(/\w{2}$/, event.target.value)
       navigate(`/${dest}`)
     } else if (isNews) {
-      navigate(curLang === "en" ? "/fr/actualités" : "/en/news")
+      navigate(curLang === "en" ? "/fr/nouvelles" : "/en/news")
     } else {
       const curLoc = menuLinks.filter(ml => ml[curLang].link.replace(/\//g, '') === loc)[0]
       if (curLoc) {
@@ -83,7 +83,7 @@ const Nav = ({ location, menuLinks }: Props) => {
       <Grid container={true} component="nav">
         {menuLinks.map(link => {
           const active = {
-            borderBottomColor: (isNews && ["news", "actualités"].includes(link[curLang].name)) || loc.replace(/\//g, '') === link[curLang].link.replace(/\//g, '') || (isEdition && link[curLang].name.endsWith("dition"))
+            borderBottomColor: (isNews && ["news", "nouvelles"].includes(link[curLang].name)) || loc.replace(/\//g, '') === link[curLang].link.replace(/\//g, '') || (isEdition && link[curLang].name.endsWith("dition"))
               ? theme.palette.primary.main
               : "transparent"
           }

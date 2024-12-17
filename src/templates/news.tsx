@@ -23,7 +23,7 @@ export default function NewsTemplate({ pageContext }: NewsProps) {
     months[createdDate.getMonth()]
   } ${createdDate.getFullYear()}`
 
-  const name = lang === "en" ? "news" : "actualités"
+  const name = lang === "en" ? "news" : "nouvelles"
 
   return (
     <Layout location={`/${lang}/${name}/${slugify(title)}`}>

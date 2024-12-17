@@ -57,8 +57,8 @@ module.exports = {
           link: '/en/news'
         },
         fr: {
-          name: 'actualités',
-          link: '/fr/actualités'
+          name: 'nouvelles',
+          link: '/fr/nouvelles'
         }
       },
       {
@@ -97,8 +97,8 @@ module.exports = {
           link: '/en/search/'
         },
         fr: {
-          name: 'recherche',
-          link: '/fr/recherche/'
+          name: 'rechercher',
+          link: '/fr/rechercher/'
         }
       },
       {
