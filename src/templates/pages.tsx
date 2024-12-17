@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 import months from "../utils/months"
 
 import Layout from "../components/layout"
@@ -8,57 +8,39 @@ import { Container, Typography } from "@mui/material"
 import Toc from "../components/toc"
 
 interface Props {
-  location: any
-  data: {
-    site: {
-      siteMetadata: {
-        menuLinks: {
-          en: {name:string, link: string}
-          fr: {name:string, link: string}
-        }[]
-        htmlTitle: {en:string, fr: string}
-      }
-    }
-    markdownRemark: {
-      frontmatter: {
-        title: string
-        date: string
-        path: string
-      }
-      html: string
-    }
-  }
   pageContext: {
-    modifiedTime: string
+    lang: Lang
+    title: string
+    pagePath: string
+    html: string
   }
 }
 
-export default function PageTemplate({ location, data, pageContext }: Props) {
-  const { modifiedTime } = pageContext
-  const { markdownRemark } = data
-  const { frontmatter, html } = markdownRemark
-  const { title, path } = frontmatter
+export default function PageTemplate({ pageContext }: Props) {
+  const siteData = useStaticQuery(graphql`
+    query siteInfoForPage {
+      site {
+        siteMetadata {
+          htmlTitle {
+            en
+            fr
+          }
+        }
+      }
+    }
+  `)
+  const { html, title, pagePath } = pageContext
 
-  const modifiedDate = new Date(modifiedTime)
-  const date = `${modifiedDate.getDate()} ${
-    months[modifiedDate.getMonth()]
-  } ${modifiedDate.getFullYear()}`
+  let curLang: Lang = pageContext.lang
 
-  const loc = decodeURIComponent(location.pathname) 
-  let curLang: Lang = "en" 
-  
-  for (const ml of data.site.siteMetadata.menuLinks) {
-    if (ml["fr"].link === loc) curLang = "fr"
-  }
-
-  const homePageTitle = location.pathname === "/" || location.pathname.match(/fr\/?$/) ? <Typography variant="h3" component="h1" gutterBottom={false} dangerouslySetInnerHTML={
-    {__html: data.site.siteMetadata.htmlTitle[curLang]}
+  const homePageTitle = pagePath === "/" || pagePath.match(/fr\/?$/) ? <Typography variant="h3" component="h1" gutterBottom={false} dangerouslySetInnerHTML={
+    {__html: siteData.site.siteMetadata.htmlTitle[curLang]}
   } /> : ""
 
-  const divGen = ["/en/toc/", "/fr/sommaire/"].includes(path) && <Toc lang={curLang}/>
+  const divGen = ["/en/toc/", "/fr/sommaire/"].includes(pagePath) && <Toc lang={curLang}/>
 
   return (
-    <Layout location={location.pathname}>
+    <Layout location={pagePath}>
       <SEO title={title} lang={curLang}/>
       <Container component="main" maxWidth="md">
         {homePageTitle}
@@ -77,31 +59,3 @@ export default function PageTemplate({ location, data, pageContext }: Props) {
     </Layout>
   )
 }
-
-export const pageQuery = graphql`
-  query($path: String!) {
-    site {
-      siteMetadata {
-        menuLinks {
-          en {
-            link
-          }
-          fr {
-            link
-          }
-        }
-        htmlTitle {
-          en
-          fr
-        }
-      }
-    }
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
-      frontmatter {
-        title
-        path
-      }
-    }
-  }
-`

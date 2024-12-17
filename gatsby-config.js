@@ -57,7 +57,7 @@ module.exports = {
           link: '/en/news'
         },
         fr: {
-          name: 'Actualités',
+          name: 'actualités',
           link: '/fr/actualités'
         }
       },

@@ -44,7 +44,7 @@ const Nav = ({ location, menuLinks }: Props) => {
   const isEdition = loc.replace(/\//g, '').startsWith("RdC")
   const isNews = loc.includes('/en/news') || loc.includes('/fr/actualités')
   let curLang: Lang = isEdition && loc.slice(-2) === "fr" ? "fr" : "en"
-  if (!isEdition && loc !== "") {
+  if (!isEdition && loc !== "" && loc !== "/") {
    curLang = location.substring(1, 3) as Lang
   }
 
@@ -83,7 +83,7 @@ const Nav = ({ location, menuLinks }: Props) => {
       <Grid container={true} component="nav">
         {menuLinks.map(link => {
           const active = {
-            borderBottomColor: loc === link[curLang].link.replace(/\//g, '') || (isEdition && link[curLang].name.endsWith("dition"))
+            borderBottomColor: (isNews && ["news", "actualités"].includes(link[curLang].name)) || loc.replace(/\//g, '') === link[curLang].link.replace(/\//g, '') || (isEdition && link[curLang].name.endsWith("dition"))
               ? theme.palette.primary.main
               : "transparent"
           }
