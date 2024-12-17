@@ -124,7 +124,7 @@ async function makeSearchPage(createPage, search_index) {
   });
 
   createPage({
-    path: '/fr/recherche/',
+    path: '/fr/rechercher/',
     component,
     context: {
       search_index,
@@ -181,7 +181,7 @@ async function makePages(createPage, reporter, graphql) {
     } else if (node.parent.sourceInstanceName === "news") {
       const lang = node.parent.dir.split("/").pop()
       createPage({
-        path: `/${lang}/${lang === "en" ? "news" : "actualités"}/${slugify(node.frontmatter.title.replace(/<[^>]+>/g, ""))}`,
+        path: `/${lang}/${lang === "en" ? "news" : "nouvelles"}/${slugify(node.frontmatter.title.replace(/<[^>]+>/g, ""))}`,
         component: newsComponent,
         context: {
           content: node.html,
@@ -235,7 +235,7 @@ async function makeNewsIndex(createPage, reporter, graphql) {
     })
 
     createPage({
-      path: `/${lang}/${lang === "en" ? "news" : "actualités"}`,
+      path: `/${lang}/${lang === "en" ? "news" : "nouvelles"}`,
       component,
       context: {
         lang,

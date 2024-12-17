@@ -184,7 +184,7 @@ export default function PageTemplate({ pageContext }: Props) {
 
   const totalPages = Math.ceil(results.length / resultsPerPage)
 
-  const title = curLang === "en" ? "Search" : "Recherche"
+  const title = curLang === "en" ? "Search" : "Rechercher"
 
   return (
     <Layout location={`/${curLang}/${title.toLowerCase()}`}>
