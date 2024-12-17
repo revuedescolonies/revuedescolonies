@@ -56,6 +56,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   await makeCeteiceanPages(createPage, reporter, graphql, publishedTei)
   await makePages(createPage, reporter, graphql)
+  await makeNewsIndex(createPage, reporter, graphql)
   // This needs to be changed to compare translations.
   // await makeSynoptic(createPage, reporter, graphql, publishedTei)
   await makeIndices(createPage, reporter, graphql, publishedTei)
@@ -133,7 +134,9 @@ async function makeSearchPage(createPage, search_index) {
 }
 
 async function makePages(createPage, reporter, graphql) {
+  // Also handles blog posts (news).
   const component = require.resolve(`./src/templates/pages.tsx`)
+  const newsComponent = require.resolve(`./src/templates/news.tsx`)
 
   const result = await graphql(`
     query {
@@ -143,6 +146,15 @@ async function makePages(createPage, reporter, graphql) {
             html
             frontmatter {
               path
+              title
+              author
+              }
+              parent {
+              ... on File {
+                sourceInstanceName
+                birthTime
+                dir
+              }
             }
           }
         }
@@ -154,15 +166,82 @@ async function makePages(createPage, reporter, graphql) {
     return
   }
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+
+    if (node.parent.sourceInstanceName === "pages") {
+      createPage({
+        path: node.frontmatter.path,
+        component,
+        context: {
+          html: node.html,
+          title: node.frontmatter.title,
+          lang: node.frontmatter.path === "/" ? "en" : "fr"
+        }
+      })   
+    } else if (node.parent.sourceInstanceName === "news") {
+      const lang = node.parent.dir.split("/").pop()
+      createPage({
+        path: `/${lang}/${lang === "en" ? "news" : "actualités"}/${slugify(node.frontmatter.title.replace(/<[^>]+>/g, ""))}`,
+        component: newsComponent,
+        context: {
+          content: node.html,
+          title: node.frontmatter.title,
+          createdTime: node.parent.birthTime,
+          author: node.frontmatter.author,
+          lang
+        }
+      })  
+    }
+
+  })
+}
+
+async function makeNewsIndex(createPage, reporter, graphql) {
+  const component = require.resolve(`./src/templates/newsIndex.tsx`)
+
+  const result = await graphql(`
+    query NewsIndex {
+      allFile(filter: {sourceInstanceName: {eq: "news"}}) {
+        group(field: {dir: SELECT}) {
+          nodes {
+            birthTime
+            childMarkdownRemark {
+              excerpt
+              frontmatter {
+                title
+                author
+              }
+            }
+          }
+          fieldValue
+        }
+      }
+    }
+  `)
+  if (result.errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query.`)
+    return
+  }
+  result.data.allFile.group.forEach(( group ) => {
+    const lang = group.fieldValue.split("/").pop()
+
+    const posts = group.nodes.map(n => {
+      return {
+        createdTime: n.birthTime,
+        excerpt: n.childMarkdownRemark.excerpt,
+        title: n.childMarkdownRemark.frontmatter.title,
+        author: n.childMarkdownRemark.frontmatter.author
+      }
+    })
+
     createPage({
-      path: node.frontmatter.path,
+      path: `/${lang}/${lang === "en" ? "news" : "actualités"}`,
       component,
       context: {
-        html: node.html,
-        title: node.frontmatter.title,
-        lang: node.frontmatter.path === "/" ? "en" : "fr"
+        lang,
+        posts
       }
-    })   
+    })
+
   })
 }
 
@@ -399,6 +478,11 @@ async function makeSearchIndex(reporter, graphql, publishedTei){
             title
             path
           }
+          parent {
+            ... on File {
+              sourceInstanceName
+            }
+          }
         }
       }
     }
@@ -436,40 +520,45 @@ async function makeSearchIndex(reporter, graphql, publishedTei){
   });
 
   result_md.data.allMarkdownRemark.nodes.forEach((node) => {
-    const tree = remark().parse(node.rawMarkdownBody)
-    let heading = ""
-    let content = ""
-    let headings = []
-    let lang = (node.frontmatter.path.substring(0, 3) === "/en") ? "en" : (node.frontmatter.path.substring(0, 3) === "/fr") ? "fr" : "en"
 
-    for (const child of tree.children){
-      if(child.type === 'heading'){
-        if(content !== ""){
-          headings.push({heading: heading, content: content, type: "Miscellaneous", language: lang})
-        }
-        
-        content = ""
-        heading = child.children[0].value
-      }else{
-        if(child.children){
-          for (const subChild of child.children){
-            content += getMarkdownTextContent(subChild)
+    if (node.parent.sourceInstanceName === "pages") {
+      const tree = remark().parse(node.rawMarkdownBody)
+      let heading = ""
+      let content = ""
+      let headings = []
+      let lang = (node.frontmatter.path.substring(0, 3) === "/en") ? "en" : (node.frontmatter.path.substring(0, 3) === "/fr") ? "fr" : "en"
+  
+      for (const child of tree.children){
+        if(child.type === 'heading'){
+          if(content !== ""){
+            headings.push({heading: heading, content: content, type: "Miscellaneous", language: lang})
           }
+          
+          content = ""
+          heading = child.children[0].value
         }else{
-          if(child.type === 'text'){
-            content += tree.children[i].value
+          if(child.children){
+            for (const subChild of child.children){
+              content += getMarkdownTextContent(subChild)
+            }
+          }else{
+            if(child.type === 'text'){
+              content += tree.children[i].value
+            }
           }
         }
       }
+  
+      headings.push({heading, content, type: "Miscellaneous", language: lang})
+  
+      indexDocument({
+        id: node.frontmatter.path,
+        title: node.frontmatter.title,
+        headings
+      })
+
     }
 
-    headings.push({heading, content, type: "Miscellaneous", language: lang})
-
-    indexDocument({
-      id: node.frontmatter.path,
-      title: node.frontmatter.title,
-      headings
-    })
   })
 
   result_tei.data.allCetei.nodes.filter(n => publishedTei.includes(n.parent.name.split('-')[0]) || n.parent.name === "entities").forEach(( node ) => {

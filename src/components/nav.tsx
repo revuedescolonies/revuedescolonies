@@ -24,7 +24,7 @@ interface Props {
 const styles = {
   nav: {
     "& .MuiGrid-item": {
-      padding: "0 2.1rem 0 0",
+      padding: "0 1rem 0 0",
     },
   },
   navBtn: {
@@ -40,8 +40,9 @@ const styles = {
 }
 
 const Nav = ({ location, menuLinks }: Props) => {
-  const loc = decodeURIComponent(location).replace(/\//g, '')
-  const isEdition = loc.startsWith("RdC")
+  const loc = decodeURIComponent(location)
+  const isEdition = loc.replace(/\//g, '').startsWith("RdC")
+  const isNews = loc.includes('/en/news') || loc.includes('/fr/actualités')
   let curLang: Lang = isEdition && loc.slice(-2) === "fr" ? "fr" : "en"
   if (!isEdition && loc !== "") {
    curLang = location.substring(1, 3) as Lang
@@ -54,6 +55,8 @@ const Nav = ({ location, menuLinks }: Props) => {
     if (isEdition) {
       const dest = loc.replace(/\w{2}$/, event.target.value)
       navigate(`/${dest}`)
+    } else if (isNews) {
+      navigate(curLang === "en" ? "/fr/actualités" : "/en/news")
     } else {
       const curLoc = menuLinks.filter(ml => ml[curLang].link.replace(/\//g, '') === loc)[0]
       if (curLoc) {
