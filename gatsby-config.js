@@ -53,6 +53,16 @@ module.exports = {
       },
       {
         en: {
+          name: 'news',
+          link: '/en/news'
+        },
+        fr: {
+          name: 'Actualités',
+          link: '/fr/actualités'
+        }
+      },
+      {
+        en: {
           name: 'about',
           link: '/en/about/'
         },
@@ -164,6 +174,13 @@ module.exports = {
       options: {
         name: `edition`,
         path: `${__dirname}/src/contents/edition`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `news`,
+        path: `${__dirname}/src/contents/news`,
       },
     },
     {

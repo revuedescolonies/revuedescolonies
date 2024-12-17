@@ -38,11 +38,8 @@ const Toc = ({lang}: TocProps) => {
     }
   `)
   const entries = tocData.allTocJson.nodes.filter(e => {
-    console.log(e.hideFromToc, Boolean(e.hideFromToc))
     return Boolean(e.hideFromToc) === false
   })
-
-  console.log(entries)
 
   const i18n = (en: string) => {
     const i18nMap = new Map<string, string>([
