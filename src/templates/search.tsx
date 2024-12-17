@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react"
 import MiniSearch from "minisearch"
-import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Box, Container, Pagination } from "@mui/material"
@@ -10,7 +9,6 @@ import SearchResult from "../components/SearchResult"
 import { slugify } from "../utils/slugify"
 
 interface Props {
-  location: any
   data: {
     site: {
       siteMetadata: {
@@ -24,6 +22,7 @@ interface Props {
   }
   pageContext: {
     search_index: any
+    language: Lang
   }
 }
 
@@ -64,7 +63,7 @@ const categoryTranslation = {
 }
 
 
-export default function PageTemplate({ location, data, pageContext }: Props) {
+export default function PageTemplate({ pageContext }: Props) {
   const categories = [
     "Journal Content",
     // "Note",
@@ -77,12 +76,7 @@ export default function PageTemplate({ location, data, pageContext }: Props) {
 
   const languages = ["en", "fr"]
 
-  const loc = decodeURIComponent(location.pathname)
-  let curLang: Lang = "en"
-
-  for (const ml of data.site.siteMetadata.menuLinks) {
-    if (ml["fr"].link === loc) curLang = "fr"
-  }
+  const curLang: Lang = pageContext.language
 
   const [query, setQuery] = useState("")
   const [results, setResults] = useState<any[]>([])
@@ -190,8 +184,10 @@ export default function PageTemplate({ location, data, pageContext }: Props) {
 
   const totalPages = Math.ceil(results.length / resultsPerPage)
 
+  const title = curLang === "en" ? "Search" : "Recherche"
+
   return (
-    <Layout location={location.pathname}>
+    <Layout location={`/${curLang}/${title.toLowerCase()}`}>
       <SEO title="Search Results" lang={curLang} />
       <Container component="main" maxWidth="md">
         <Box sx={{ display: "flex", flexDirection: "column", gap: 2, marginTop: 4 }}>
@@ -242,23 +238,3 @@ export default function PageTemplate({ location, data, pageContext }: Props) {
   )
 }
 
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        menuLinks {
-          en {
-            link
-          }
-          fr {
-            link
-          }
-        }
-        htmlTitle {
-          en
-          fr
-        }
-      }
-    }
-  }
-`

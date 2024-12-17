@@ -172,9 +172,10 @@ async function makePages(createPage, reporter, graphql) {
         path: node.frontmatter.path,
         component,
         context: {
-          html: node.html,
-          title: node.frontmatter.title,
-          lang: node.frontmatter.path === "/" ? "en" : "fr"
+          lang: node.frontmatter.path === "/" ? "en" : "fr",
+          title: node.frontmatter.title, 
+          pagePath: node.frontmatter.path,
+          html: node.html
         }
       })   
     } else if (node.parent.sourceInstanceName === "news") {

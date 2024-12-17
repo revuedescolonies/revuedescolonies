@@ -31,7 +31,7 @@ export default function NewsTemplate({ pageContext }: NewsProps) {
   const title = lang === "en" ? "News" : "Actualités"
 
   return (
-    <Layout location={location.pathname}>
+    <Layout location={`/${lang}/${title.toLowerCase()}`}>
       <SEO title={title} lang={lang}/>
       <Container component="main" maxWidth="md">
         <Typography variant="h3" component="h1" gutterBottom={false} sx={{

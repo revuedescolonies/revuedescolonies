@@ -3,6 +3,7 @@ import months from "../utils/months"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container, Grid2, Typography } from "@mui/material"
+import { slugify } from "../utils/slugify"
 
 interface NewsProps {
   pageContext: {
@@ -22,8 +23,10 @@ export default function NewsTemplate({ pageContext }: NewsProps) {
     months[createdDate.getMonth()]
   } ${createdDate.getFullYear()}`
 
+  const name = lang === "en" ? "news" : "actualités"
+
   return (
-    <Layout location={location.pathname}>
+    <Layout location={`/${lang}/${name}/${slugify(title)}`}>
       <SEO title={title} lang={lang}/>
       <Container component="main" maxWidth="md">
         <Typography variant="h3" component="h1" gutterBottom={false} sx={{

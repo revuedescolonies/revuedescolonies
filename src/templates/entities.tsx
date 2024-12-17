@@ -54,7 +54,6 @@ const renderRefrences = (references:occurenceObj[], id: string) => {
 const Title = (props: TEIProps) => {
   const el = props.teiNode as Element
   const lang = el.getAttribute("lang")
-  console.log(lang, props.curLang)
   if (lang !== props.curLang) return null;
   return <Typography variant="h3" component="h1" gutterBottom={false} sx={{
     marginBottom: "2rem"
