@@ -28,7 +28,7 @@ export default function NewsTemplate({ pageContext }: NewsProps) {
     } ${createdDate.getFullYear()}`
   }
 
-  const title = lang === "en" ? "News" : "nouvelles"
+  const title = lang === "en" ? "News" : "Nouvelles"
 
   return (
     <Layout location={`/${lang}/${title.toLowerCase()}`}>
@@ -44,7 +44,7 @@ export default function NewsTemplate({ pageContext }: NewsProps) {
               <ListItemText primary={
                 <Stack direction="column" spacing={1}>
                   <Typography variant="h3" component="h2">{
-                    <Link to={`/${lang}/${title.toLowerCase()}/${slugify(post.title)}`}>{post.title}</Link>
+                    <Link to={`/${lang}/${title.toLowerCase()}/${slugify(post.title)}`} dangerouslySetInnerHTML={{__html: post.title}}/>
                   }</Typography>
                   <Typography variant="body2">
                   {makeDate(post.createdTime)} — {post.author}
