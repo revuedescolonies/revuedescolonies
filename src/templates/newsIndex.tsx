@@ -1,10 +1,10 @@
 import React from "react"
-import months from "../utils/months"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { slugify } from "../utils/slugify";
 import { Container, List, ListItem, ListItemText, Stack, Typography } from "@mui/material"
 import { Link } from "gatsby";
+import { makeDate } from "../utils/makeDate";
 
 interface NewsProps {
   pageContext: {
@@ -20,13 +20,6 @@ interface NewsProps {
 
 export default function NewsTemplate({ pageContext }: NewsProps) {
   const { posts, lang } = pageContext
-
-  const makeDate = (t: string) => {
-    const createdDate = new Date(t)
-    return `${createdDate.getDate()} ${
-      months[createdDate.getMonth()]
-    } ${createdDate.getFullYear()}`
-  }
 
   const title = lang === "en" ? "News" : "Nouvelles"
 
@@ -47,7 +40,7 @@ export default function NewsTemplate({ pageContext }: NewsProps) {
                     <Link to={`/${lang}/${title.toLowerCase()}/${slugify(post.title)}`} dangerouslySetInnerHTML={{__html: post.title}}/>
                   }</Typography>
                   <Typography variant="body2">
-                  {makeDate(post.createdTime)} — {post.author}
+                  {makeDate(post.createdTime, lang)} — {post.author}
                   </Typography>
                 </Stack>
               } secondary={

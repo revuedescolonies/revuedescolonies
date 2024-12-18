@@ -56,9 +56,10 @@ const Nav = ({ location, menuLinks }: Props) => {
       const dest = loc.replace(/\w{2}$/, event.target.value)
       navigate(`/${dest}`)
     } else if (isNews) {
+      // Special case to go from any post to the news toc in the other lang
       navigate(curLang === "en" ? "/fr/nouvelles" : "/en/news")
     } else {
-      const curLoc = menuLinks.filter(ml => ml[curLang].link.replace(/\//g, '') === loc)[0]
+      const curLoc = menuLinks.filter(ml => ml[curLang].link.replace(/\//g, '') === loc.replace(/\//g, ''))[0]
       if (curLoc) {
         navigate(curLoc[chosenLang].link)
       } else {

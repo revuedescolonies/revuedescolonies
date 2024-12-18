@@ -1,9 +1,9 @@
 import React from "react"
-import months from "../utils/months"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container, Grid2, Typography } from "@mui/material"
 import { slugify } from "../utils/slugify"
+import { makeDate } from "../utils/makeDate"
 
 interface NewsProps {
   pageContext: {
@@ -18,10 +18,7 @@ interface NewsProps {
 export default function NewsTemplate({ pageContext }: NewsProps) {
   const { createdTime, title, content, lang, author } = pageContext
 
-  const createdDate = new Date(createdTime)
-  const date = `${createdDate.getDate()} ${
-    months[createdDate.getMonth()]
-  } ${createdDate.getFullYear()}`
+  const date = makeDate(createdTime, lang)
 
   const name = lang === "en" ? "news" : "nouvelles"
 

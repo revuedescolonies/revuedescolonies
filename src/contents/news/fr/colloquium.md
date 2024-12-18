@@ -26,7 +26,7 @@ Avec des communications de :
 * Jessica Balguy (Carnegie Mellon University)
 * Maria Beliaeva Solomon (University of Maryland)
 * Jacqueline Couti (Rice University)
-* Laure Demougin (Université Montpellier III – RIRRA 21)
+* Laure Demougin (Université Paul-Valéry Montpellier 3)
 * Abel Louis (Société d’histoire de la Martinique)
 * Yasmine Najm (Leipzig University)
 * Grégory Pierrot (University of Connecticut)
