@@ -19,67 +19,79 @@
   Cache-Control: public, max-age=31536000, immutable
 /static/banner-bk-ccedbdfa00092a1f52b74721f923416e.jpg
   Cache-Control: public, max-age=31536000, immutable
-/108-f292e1ebe8a686384c72.js.LICENSE.txt
+/108-c30dd75bbc9e8f26a9b9.js.LICENSE.txt
   Cache-Control: public, max-age=31536000, immutable
-/app-0e533331f099cbc21c00.js.LICENSE.txt
+/app-8a8971574359f3a4c58e.js.LICENSE.txt
   Cache-Control: public, max-age=31536000, immutable
-/commons-3d2977a03ce57357f3ea.js.LICENSE.txt
+/commons-4ccdab1608513c35dbbe.js.LICENSE.txt
   Cache-Control: public, max-age=31536000, immutable
 /framework-4c7a949197dc1e684b24.js.LICENSE.txt
   Cache-Control: public, max-age=31536000, immutable
-/app-0e533331f099cbc21c00.js
+/app-8a8971574359f3a4c58e.js
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-7da3fb8fb4f663af3a63.js
+/webpack-runtime-550bb5de041ce08301da.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-gatsby-theme-ceteicean-components-ceteicean-tsx-3ebead508ee228cc0fbf.js
+/component---src-gatsby-theme-ceteicean-components-ceteicean-tsx-7bcaf4996816bc5e772a.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-404-tsx-48c01390198f77a74835.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-templates-entities-tsx-6041b6bc59f008375d88.js
+/component---src-templates-entities-tsx-24c126c652d1f7db6ad2.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-templates-indices-tsx-6507f5267ffb10afecd2.js
+/component---src-templates-home-page-tsx-111f65eab341c1f30339.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-templates-pages-tsx-cd44bfbf65d3eb8a98e2.js
+/component---src-templates-indices-tsx-484e217a3da8876f8f9a.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-templates-search-tsx-1fd022820cfef7c8ed7d.js
+/component---src-templates-news-index-tsx-3fd04e30061dae9d702f.js
   Cache-Control: public, max-age=31536000, immutable
-/108-f292e1ebe8a686384c72.js
+/component---src-templates-news-tsx-853bc24c524945c1194e.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-templates-pages-tsx-b0dd8123fcf986569f2c.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-templates-search-tsx-b443417bbe10df0dea8e.js
+  Cache-Control: public, max-age=31536000, immutable
+/108-c30dd75bbc9e8f26a9b9.js
   Cache-Control: public, max-age=31536000, immutable
 /452-fe57aacd1007b3499c19.js
   Cache-Control: public, max-age=31536000, immutable
 /framework-4c7a949197dc1e684b24.js
   Cache-Control: public, max-age=31536000, immutable
-/commons-3d2977a03ce57357f3ea.js
+/commons-4ccdab1608513c35dbbe.js
   Cache-Control: public, max-age=31536000, immutable
-/4698de61ad7bfb4aa1817faf18ed277a78ec7958-b01ddab577db030a3880.js
+/4698de61ad7bfb4aa1817faf18ed277a78ec7958-db303abd8dae65052f1d.js
   Cache-Control: public, max-age=31536000, immutable
 /c5209053cd714bfe6b86e3668bab95352cb7f13a-c5dc8c77ffdf45179ee7.js
   Cache-Control: public, max-age=31536000, immutable
-/app-0e533331f099cbc21c00.js.map
+/app-8a8971574359f3a4c58e.js.map
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-7da3fb8fb4f663af3a63.js.map
+/webpack-runtime-550bb5de041ce08301da.js.map
   Cache-Control: public, max-age=31536000, immutable
-/component---src-gatsby-theme-ceteicean-components-ceteicean-tsx-3ebead508ee228cc0fbf.js.map
+/component---src-gatsby-theme-ceteicean-components-ceteicean-tsx-7bcaf4996816bc5e772a.js.map
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-404-tsx-48c01390198f77a74835.js.map
   Cache-Control: public, max-age=31536000, immutable
-/component---src-templates-entities-tsx-6041b6bc59f008375d88.js.map
+/component---src-templates-entities-tsx-24c126c652d1f7db6ad2.js.map
   Cache-Control: public, max-age=31536000, immutable
-/component---src-templates-indices-tsx-6507f5267ffb10afecd2.js.map
+/component---src-templates-home-page-tsx-111f65eab341c1f30339.js.map
   Cache-Control: public, max-age=31536000, immutable
-/component---src-templates-pages-tsx-cd44bfbf65d3eb8a98e2.js.map
+/component---src-templates-indices-tsx-484e217a3da8876f8f9a.js.map
   Cache-Control: public, max-age=31536000, immutable
-/component---src-templates-search-tsx-1fd022820cfef7c8ed7d.js.map
+/component---src-templates-news-index-tsx-3fd04e30061dae9d702f.js.map
   Cache-Control: public, max-age=31536000, immutable
-/108-f292e1ebe8a686384c72.js.map
+/component---src-templates-news-tsx-853bc24c524945c1194e.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-templates-pages-tsx-b0dd8123fcf986569f2c.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-templates-search-tsx-b443417bbe10df0dea8e.js.map
+  Cache-Control: public, max-age=31536000, immutable
+/108-c30dd75bbc9e8f26a9b9.js.map
   Cache-Control: public, max-age=31536000, immutable
 /452-fe57aacd1007b3499c19.js.map
   Cache-Control: public, max-age=31536000, immutable
 /framework-4c7a949197dc1e684b24.js.map
   Cache-Control: public, max-age=31536000, immutable
-/commons-3d2977a03ce57357f3ea.js.map
+/commons-4ccdab1608513c35dbbe.js.map
   Cache-Control: public, max-age=31536000, immutable
-/4698de61ad7bfb4aa1817faf18ed277a78ec7958-b01ddab577db030a3880.js.map
+/4698de61ad7bfb4aa1817faf18ed277a78ec7958-db303abd8dae65052f1d.js.map
   Cache-Control: public, max-age=31536000, immutable
 /c5209053cd714bfe6b86e3668bab95352cb7f13a-c5dc8c77ffdf45179ee7.js.map
   Cache-Control: public, max-age=31536000, immutable
