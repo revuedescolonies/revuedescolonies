@@ -1,4 +1,4 @@
-export default [
+export const en = [
   "January",
   "February",
   "March",
@@ -10,5 +10,20 @@ export default [
   "September",
   "October",
   "November",
-  "December",
+  "December"
+]
+
+export const fr = [
+  "Janvier",
+ "Février",
+ "Mars",
+ "Avril",
+ "Peut",
+ "Juin",
+ "Juillet",
+ "Août",
+ "Septembre",
+ "Octobre",
+ "Novembre",
+ "Décembre"
 ]

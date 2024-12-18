@@ -1,6 +1,4 @@
 import React from "react"
-import { graphql, useStaticQuery } from "gatsby"
-import months from "../utils/months"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -17,25 +15,9 @@ interface Props {
 }
 
 export default function PageTemplate({ pageContext }: Props) {
-  const siteData = useStaticQuery(graphql`
-    query siteInfoForPage {
-      site {
-        siteMetadata {
-          htmlTitle {
-            en
-            fr
-          }
-        }
-      }
-    }
-  `)
   const { html, title, pagePath } = pageContext
 
   let curLang: Lang = pageContext.lang
-
-  const homePageTitle = pagePath === "/" || pagePath.match(/fr\/?$/) ? <Typography variant="h3" component="h1" gutterBottom={false} dangerouslySetInnerHTML={
-    {__html: siteData.site.siteMetadata.htmlTitle[curLang]}
-  } /> : ""
 
   const divGen = ["/en/toc/", "/fr/sommaire/"].includes(pagePath) && <Toc lang={curLang}/>
 
@@ -43,7 +25,6 @@ export default function PageTemplate({ pageContext }: Props) {
     <Layout location={pagePath}>
       <SEO title={title} lang={curLang}/>
       <Container component="main" maxWidth="md">
-        {homePageTitle}
         <Typography variant="h3" component="h1" gutterBottom={false} sx={{
             marginBottom: "2rem"
           }}>{title}</Typography>

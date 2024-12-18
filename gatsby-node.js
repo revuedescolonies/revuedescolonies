@@ -136,6 +136,7 @@ async function makeSearchPage(createPage, search_index) {
 async function makePages(createPage, reporter, graphql) {
   // Also handles blog posts (news).
   const component = require.resolve(`./src/templates/pages.tsx`)
+  const homeComponent = require.resolve(`./src/templates/homePage.tsx`)
   const newsComponent = require.resolve(`./src/templates/news.tsx`)
 
   const result = await graphql(`
@@ -161,23 +162,78 @@ async function makePages(createPage, reporter, graphql) {
       }
     }
   `)
-  if (result.errors) {
+  const pageInfo = await graphql(`
+    query siteInfoForPage {
+      site {
+        siteMetadata {
+          htmlTitle {
+            en
+            fr
+          }
+        }
+      }
+      lastFr: allFile(
+        filter: {sourceInstanceName: {eq: "news"}, dir: {regex: "/news\\/fr/"}}
+        limit: 1
+        sort: {birthTime: DESC}
+      ) {
+        nodes {
+          childrenMarkdownRemark {
+            frontmatter {
+              title
+            }
+          }
+          birthTime
+        }
+      }
+      lastEn: allFile(
+        filter: {sourceInstanceName: {eq: "news"}, dir: {regex: "/news\\/en/"}}
+        limit: 1
+        sort: {birthTime: DESC}
+      ) {
+        nodes {
+          childrenMarkdownRemark {
+            frontmatter {
+              title
+            }
+          }
+          birthTime
+        }
+      }
+    }
+  `)
+  if (result.errors|| pageInfo.errors ) {
     reporter.panicOnBuild(`Error while running GraphQL query.`)
     return
   }
+
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
 
     if (node.parent.sourceInstanceName === "pages") {
-      createPage({
-        path: node.frontmatter.path,
-        component,
-        context: {
-          lang: node.frontmatter.path === "/" ? "en" : "fr",
-          title: node.frontmatter.title, 
-          pagePath: node.frontmatter.path,
-          html: node.html
-        }
-      })   
+      const context = {
+        lang: node.frontmatter.path === "/" ? "en" : "fr",
+        title: node.frontmatter.title, 
+        pagePath: node.frontmatter.path,
+        html: node.html
+      }
+      // special case for homepage
+      if (node.frontmatter.path ===  "/" || node.frontmatter.path ===  "/fr/") {
+        createPage({
+          path: node.frontmatter.path,
+          component: homeComponent,
+          context: {...context, ...{
+            htmlTitle: pageInfo.data.site.siteMetadata.htmlTitle,
+            latestEn: pageInfo.data.lastEn.nodes[0],
+            latestFr: pageInfo.data.lastFr.nodes[0]
+          }}
+        })
+      } else {
+        createPage({
+          path: node.frontmatter.path,
+          component,
+          context
+        })   
+      }
     } else if (node.parent.sourceInstanceName === "news") {
       const lang = node.parent.dir.split("/").pop()
       createPage({
