@@ -19,6 +19,8 @@ export default function PageTemplate({ pageContext }: Props) {
 
   let curLang: Lang = pageContext.lang
 
+  console.log(curLang)
+
   const divGen = ["/en/toc/", "/fr/sommaire/"].includes(pagePath) && <Toc lang={curLang}/>
 
   return (

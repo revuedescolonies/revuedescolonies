@@ -208,10 +208,11 @@ async function makePages(createPage, reporter, graphql) {
   }
 
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-
+    
     if (node.parent.sourceInstanceName === "pages") {
+      const lang = node.frontmatter.path.includes("/fr/") ? "fr" : "en"
       const context = {
-        lang: node.frontmatter.path === "/" ? "en" : "fr",
+        lang,
         title: node.frontmatter.title, 
         pagePath: node.frontmatter.path,
         html: node.html
