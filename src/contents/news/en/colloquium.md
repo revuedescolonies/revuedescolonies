@@ -21,6 +21,8 @@ Bringing together members of the digital edition and translation project of the 
 
 The presentations will examine the _Revue des Colonies_ through its key figures, editorial strategies, and cultural and political ambitions, with particular attention to the tensions of the period, shaped by aspirations for emancipation and the realities of imperialist domination.
 
+**Register to attend the event online: https://www.eventbrite.com/e/the-revue-des-colonies-diasporic-networks-and-the-struggle-for-abolition-tickets-1118269346719**
+
 ### Speakers:
 * Jessica Balguy (Carnegie Mellon University)
 * Maria Beliaeva Solomon (University of Maryland)

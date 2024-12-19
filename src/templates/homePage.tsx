@@ -60,12 +60,12 @@ export default function HomePageTemplate({ pageContext }: Props) {
           <Grid2 size={{xs: 12, md: 3}} display="flex" alignItems={"center"} sx={{flexDirection: "column"}}>
             <Card sx={{marginBottom: "2em", maxWidth: 230}} >
               <CardMedia
-                sx={{ height: 180, overflow: "hidden", }}
+                sx={{ height: 310, overflow: "hidden", "& img": {width: "250px !important", objectPosition: "0 -50px"}}}
               >
-                <StaticImage alt="pages from the Revue des Colonies" src="../images/v2n1-vignette.jpg"  />
+                <StaticImage alt="pages from the Revue des Colonies" src="../images/RevueCover.jpg"  />
               </CardMedia>
               <CardContent>
-                <Button size="large" onClick={() => navigate("/en/toc")}>
+                <Button size="large" href={`/${curLang}/${curLang === "en" ? "toc" : "sommaire"}/`}>
                   {curLang == "en" ? "Read the Edition" : "Lire l'édition"}
                 </Button>
               </CardContent>
