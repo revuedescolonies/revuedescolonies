@@ -21,6 +21,8 @@ Réunissant les membres du projet d’édition numérique et de traduction de la
 
 Les interventions exploreront la _Revue des Colonies_ à travers ses figures marquantes, ses stratégies éditoriales ainsi que ses ambitions culturelles et politiques, en portant une attention particulière aux tensions qui traversent le contexte de l’époque, entre aspirations émancipatrices et logiques de domination impérialiste.
 
+**Pour suivre le colloque en ligne, inscrivez-vous au lien suivant https://www.eventbrite.com/e/the-revue-des-colonies-diasporic-networks-and-the-struggle-for-abolition-tickets-1118269346719**
+
 Avec des communications de :
 
 * Jessica Balguy (Carnegie Mellon University)
