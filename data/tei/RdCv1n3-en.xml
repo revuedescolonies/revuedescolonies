@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n3-en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -15,8 +18,188 @@
    </teiHeader>
    <text>
       <body>
+
          <div>
-            
+            <head>
+              PUNISHMENTS AND DISCIPLINARY PENALTIES FOR SLAVES.</head>
+
+            <head>ON THE USE OF THE WHIP AND THE POLICE CHAIN.</head>
+
+            <p>While <placeName ref="#ANG">England</placeName> abolishes slavery and organizes labor in her colonies, the French government scarcely appears to remember that slavery exists in its own colonies, accompanied by its hideous procession of physical and moral suffering. The Minister of the Navy and Colonies barely issues an occasional order to his overseas officers, and these, not for the improvement of the slaves' condition, but merely to preserve the status quo. Yet, it would be a noble task for an enlightened Minister of the Navy, friendly to humanity, to actively undertake the reorganization of France’s possessions in the vast Ocean. Capitals and talents are too often employed in far less important enterprises, which could find here a useful and entirely humane application. It concerns men who suffer, kept in bondage when they have the right to be free; it concerns interests that tremble at the prospect of the inevitable and impending emancipation—a necessity dictated by the force of events—and who foresee their total ruin, which would undoubtedly occur should the patience of the slave be exhausted, compelling him to demand, by force of arms, the liberty and education to which he is entitled. It is, therefore, an urgent duty for those in power to yield to this imperative of the age: to liberate, to moralize, to educate. For those whom the accident of birth has endowed with the privilege of wealth and made white rather than black, this is a great and noble mission to fulfill. Some, we do not doubt, will not shirk from this duty. And though our pride and a natural sense of jealous independence—common to all castes long oppressed—may prevent us from taking the first step, it would nonetheless be with ineffable inner joy that we would welcome the white colonist coming to us, ready to fraternize. A liberal government, one that fully understood the scope of its responsibilities in this great age of renewal, would hasten</p><pb n="3"/>
+            <p>such a future. It would not intervene with a cold neutrality between master and slave, between the privileged white man and the man of color. Rather, all its efforts would tend toward dissolving hatred, preaching, so to speak, liberty and equality, and thereby fraternity. It would seek to elevate the slave without debasing the master by imparting to both the moral education they lack and the understanding of the necessity and dignity of human labor, no matter where one stands on the social ladder. In this manner, mutual respect could be achieved. The free black would come to see labor as a condition of existence; the white would recognize that wealth is legitimate only when derived from pure sources, not from the exploitation of man by man. Then slavery, already abolished by law, would appear as nothing more than a monstrous relic of the past, mourned only by those devoid of worth, much like old nobles lament the ancien régime where one could live nobly without effort.</p>
+            <p>However, we are still far from this state of affairs. Not only does the government fail to encourage the emancipation of slaves—a measure that would so effectively serve the interests of all—but it does not even seem to take the gravest abuses of the colonial system into serious consideration. A reform, nevertheless, has become necessary, indispensable, and urgent. At the very least, the improvement of the slaves’ condition in the colonies must become the immediate concern of the metropolitan authorities. The disciplinary penal system, in particular, sanctions two abominable tortures that must be abolished without delay: the punishment of the whip and the police chain.</p>
+            <p>The punishment of the whip bears all the marks of the penalties inflicted in the most barbarous times; it is an atrocious punishment worthy of the darkest days of the Middle Ages. It consists of tying the victim, regardless of their sex, naked and prone, with arms stretched out and bound to a firmly planted stake; the legs are tied, sometimes joined to a third stake, sometimes spread and tied each to a separate stake, like the arms. In this position, the executioner, armed with a long whip, strikes the victim with twenty-nine lashes in measured intervals. In <placeName ref="#GP">Guadeloupe</placeName>, the execution is carried out by the public executioner, adding infamy to degradation. In Martinique, this punishment is entrusted to a prison servant,<pb n="4"/> known as a “commander.” This penalty, ordered by the police commissioner or the king's attorney, is inflicted for the slightest infraction: a perceived lack of respect toward an individual from the free classes, a delay in returning after curfew, the whim of a master, or at his demand, among others.</p>
+      
+            <p>This atrocious punishment, offensive to morals, humanity, and the dignity of free men, is, without doubt, one of the principal causes of the slaves’ degradation. To say that it is necessary to compel these wretched beings to labor is to return to the premise that slaves are beasts of burden, and that idleness should be punished as a crime. Even if it were a crime, it is well-known that moralists and philosophers have long condemned the cruelty of punishments, which have never reduced the number of offenses nor prevented them. Such punishments serve only to bring shame upon the law.</p>
+            <p>For the honor of humanity, of the law, of civilization—for the honor of all slaveholders in the colonies—the punishment of the whip must be abolished.</p>
+            <p>The same must be said of the so-called police chain. It cannot be permissible for a master to subject his discontented slave to this form of true galley labor, even temporarily. This association with convicts sentenced to forced labor inevitably leads to the slave’s demoralization, degrading him without reforming him.</p>
+            <p>Among the physical tortures inflicted upon the unfortunate blacks, the whip and the police chain seem to us to deserve particular denunciation for being as atrocious as they are immoral. Much is often made of progressive improvements and gradual remedies for colonial abuses. Yet here are two blatant, violent, intolerable practices that disgrace not only those who suffer under them but also those who wield them as cruel instruments of repression. If the authorities lack the courage to confront directly the great question of emancipation, they should, at the very least, immediately abolish these two punishments, which, no matter how they may be justified, are nothing more than a revolting anachronism in the 19th century.</p> <pb n="5"/>
+         </div>
+<div>
+<head>SUR L'ÉMANCIPATION DES ESCLAVES AUX COLONIES FRANCAISES.</head>
+
+<epigraph><p>L'homme est né libre ; l'esclavage est l'exception.</p>
+<p><persName ref="#WW">WILBERFORCE</persName>.</p>
+</epigraph>
+
+<p>Le <foreign>bill</foreign> pour l'abolition de l'esclavage rendu par le <orgName ref="#PB">parlement d'Angleterre</orgName> en <date>1835</date>, et qui vient de recevoir sa pleine et entière exécution le 1 août de cette année, impose au gouvernement français le devoir de s'occuper promptement de mesures analogues et de prudence, qu'il ne saurait trop se håter de prendre envers les nègres esclaves français de nos colonies, dans l'intérêt général et pour l'honneur de la <placeName ref="#FR">France</placeName> et des planteurs eux-mêmes.</p>
+<p>Déjà, aux <placeName>Antilles</placeName>, les partisans de l'ancien système colonial, système usé et absurde, font entendre les cris sinistres du désespoir en voyant l'arbitraire dont ils sont en possession depuis si 
+<choice>
+<orig>long-temps</orig>
+<reg>longtemps</reg>
+</choice> 
+leur échapper. En vain prétendent-ils, par des complots imaginaires, annuler l'effet salutaire, dans nos colonies, de l'émancipation des esclaves, et, par des actes semblables à ceux qui viennent de se passer à la <placeName ref="#GdA">Grand'Anse</placeName> de la <placeName ref="#MQ">Martinique</placeName>, prolonger autant que possible le système régnant, par la terreur des complots et des fusillades, et rejeter ainsi la culpabilité mensongère de semblables actes sur les hommes de couleur et les esclaves, tandis que, provocateurs insensés, les colons appellent sur leurs têtes la vengeance de <persName>Spartacus</persName>..... arme la plus terrible dont puisse se servir l'esclave envers son maître.</p>
+<p>La France, sur l'exemple donné par l'Angleterre, est vivement intéressée à prévenir les collisions que les nouvelles idées d'émancipation pourraient faire naître, et le gouvernement serait coupable s'il restait impassible et immobile au milieu du grand mouvement qui va s'opérer aux Antilles, sous peine de voir la force prendre la place de la loi, le désordre porté au comble amener d'épouvantables catastrophes, qui en définitive viendraient retomber sur la métropole en privant ses places maritimes du commerce avantageux qu'elles entretiennent avec les colonies.</p>
+<p>Le gouvernement peut agir efficacement dans l'intérêt de nos colonies, et il le doit ; il n'a pas un moment à perdre : des <choice>
+<orig>élémens</orig>
+<reg>éléments</reg>
+</choice>
+ <choice>
+<orig>brûlans</orig>
+<reg>brûlants</reg>
+</choice>
+de destruction couvrent le pays ; les exigences s'accrois<pb n="6"/>sent en raison de la résistance, et bientôt, si on n'y prend garde, succédera à cet état de calme apparent un abime de maux où pourront s'engloutir les fortunes avec les générations.</p>
+<p>Et c'est vis-à-vis de faits de cette nature que le gouvernement, chargé des intérêts de tous, reculerait pour laisser la place aux dissentions et aux haines des partis ! Non, cela n'est pas possible !</p>
+<p>Déjà plusieurs écrivains courageux avaient appelé l'attention du gouvernement et des chambres sur l'importante question des améliorations à introduire dans le régime intérieur des habitations et des esclaves aux colonies ; mais, loin d'avoir été compris, ils se sont vus en butte aux persécutions et aux clameurs ; on leur a reproché de provoquer à l'
+ <choice>
+<orig>insurrectien</orig>
+<reg>insurrection</reg>
+</choice>
+, tandis qu'ils n'étaient en effet que la véritable expression du mode progressif qu'il faut suivre pour arriver graduellement à la destruction si abusive du régime colonial actuel.</p>
+<p>Dans la situation des choses, on conviendra qu'il est indispensable d'aller au-devant des effets que doit produire le <foreign>bill</foreign> anglais, qui, à l'heure qu'il est, a changé totalement la position politique et civile des esclaves, rendus par lui à la liberté, en introduisant aux colonies françaises un régime analogue pour pouvoir d'un commun accord arriver à l'établissement d'un nouveau contrata social aux colonies.</p>
+<p>Comment en effet pouvoir espérer sans folie que le régime ancien, qui fait loi dans nos colonies aujourd'hui, puisse échapper à cet amosphère tout imprégné de liberté qui les entoure, sans en ressentir les effets ? Comment est-il possible de penser que lors que les mêmes principes libéraux forment la base du droit public des deux nations, elles ne soutiendront pas ce même principe dans toute l'étendue de leurs possessions, et qu'on verra le spectacle ridicule d'hommes libres d'<placeName ref="#EUR">Europe</placeName> combattant en <placeName ref="#AM">Amérique</placeName> pour attacher des esclaves à la chaîne de leur maître ?</p>
+<p>Attendre plus 
+<choice>
+<orig>long-temps</orig>
+<reg>longtemps</reg>
+</choice> 
+pour introduire les principes du <foreign>bill</foreign> anglais dans nos colonies paraît un système de temporisation impossible aujourd'hui ; et dans une question brûlante de sa nature, peut-on se persuader que l'esclave, qui sent tout le poids de ses chaînes, attendra tranquillement que toutes les épreuves soient faites pour se débarasser des entraves qui pèsent sur lui ?</p>
+<p> N'a-t-on pas vu l'esclave faire auprès des 
+<choice>
+<orig>gouvernemens</orig>
+<reg>gouvernements</reg>
+</choice> 
+qui se<pb n="7"/> sont succédés en France, dans ces derniers temps, nombre de pétitions humbles, ainsi qu'aux gouverneurs et aux chambres, et quelquefois même hostiles sur les lieux ? N'étaient-ce donc pas des pétitions que ces démonstrations armées qui ont porté si souvent depuis peu la terreur dans l'âme des colons de la <placeName ref="#GP">Guadeloupe</placeName> et de la Martinique dans ces dernières années ? Que réclamaient ces esclaves lorqu'ils se présentèrent devant la ville de <placeName ref="#StP">Saint-Pierre</placeName>, tremblante de tomber sous leur joug, si ce n'est un changement de système, un avenir plus heureux ?</p>
+<p>N'était-ce pas là un avertissement au pouvoir de porter une sérieuse attention sur leur triste position ? Fraudra-t-il donc avoir recours à de pareils moyens pour arracher des droits que le siècle a sanctionnés et que l'Angleterre a proclamés du haut de sa tribune ? Faudra-t-il que l'insurrection de l'esclave contre le maître, toujours renaissante et sans cesse étouffée, présente l'image de l'hydre de Lerne ?</p>
+<p>Et si, dans les lattes qui auraient lieu, la victoire se déclarait pour les nouveaux principes, les colons peuvent-ils penser que l'or des budgets, la vie des soldats de la France serviraient à former des expéditions coûteuses pour reconquérir les colonies dont l'exploitation profite en définitive fort médiocrement à la métropole, et dans l'unique but de les réintégrer dans leurs biens, eux dont les principes politiques sont si fort opposés à ceux de la mère patrie ?</p>
+<p>On remarquera, à l'appui de nos réflexions sur le système existant, que de tous côtés, dans le <placeName ref="#GdM">golfe du Mexique</placeName>, le système de liberté a prévalu ; que la côte ferme de l'Amérique, le <placeName ref="#ME">Mexique</placeName> et toutes les <placeName ref="#IDV">îles du vent</placeName> et <placeName ref="#ISV">sous le vent</placeName> ont plus ou moins adopté d'avance les mesures que le <foreign>bill</foreign> anglais vient de réaliser. Il y aurait donc folie, nous le répétons, de penser que les esclaves français reste ront dans la même situation politique, ayant sous leurs yeux, a si peu de distance, des exemples de cette nature.</p>
+<p>Le gouvernement français, en prenant l'initiative de la réforme à introduire et des améliorations qui doivent en découler aux Antilles, ira au-devant des plus graves 
+<choice>
+<orig>incovéniens</orig>
+<reg>inconvénients</reg>
+</choice> 
+; il agira dans les intérêts de tous, en prévenant le mouvement brusque qui peut entraîner des pertes incalculables pour nos places maritimes ; il se placera haut dans la reconnaissance de ceux dont il protégera les intérêts et qui sont, au bout du compte, le plus grand nombre ;<pb n="8"/> et, de la sorte, son intervention libérale et conciliatrice tout en semble sera pour les colonies un immense bienfait et pour lui même un titre de gloire.</p>
+<p>Le marquis de <emph>S.-C</emph>,</p>
+<p>propriétaire à la Martinique.</p>
+
+<div>
+<head>INSURRECTIONS ET LEUR CAUSE 
+<choice>
+<orig>A</orig>
+<reg>À</reg>
+</choice> 
+LA <placeName ref="#MQ">MARTINIQUE</placeName>.</head>
+
+<p>Les révolutions, quelque sanglantes qu'elles soient, reçoivent par leur succès un <foreign>bill</foreign> d'indemnité. C'est là leur légitimité que des fêtes d'anniversaire consacrent dans la mémoire des peuples. Mais, en revanche, <foreign><emph>vae victis</emph></foreign> ! Ce terrible 
+<choice>
+<orig>anathême</orig>
+<reg>anathème</reg>
+</choice>
+, sorti de la bouche d'un chef barbare, pèse encore de toute sa vigueur sur la tête des vaincus. <placeName ref="#HT"><emph>Haïti</emph></placeName>, victorieuse, a traité de puissance à puissance avec la France de la restauration.
+<choice>
+<orig>A</orig>
+<reg>À</reg>
+</choice>
+ la <emph>Martinique</emph>, vaincue en <date>1831</date>, la <placeName ref="#FR">France</placeName> de <date>juillet 1830</date>, encore chaude de sa lutte pour ses libertés, a laissé massacrer juridiquement les esclaves révoltés.</p>
+
+ <p>Cependant, lorsque trois simples sommations suffisent au pouvoir et lui achètent le droit légal de fusiller ou de sabrer sur place, à combien de sommations respectueuses, à combien de suppliques modérées et pacifiques a-t-il le droit de rester sourd ? Le moment ne vient-il jamais aux opprimés de chercher dans la révolte une <foreign><emph>ultima ratio</emph></foreign> ? Faut-il que, fatigués d'avis et de prières, ils consentent à se retrouver sans cesse en face des mêmes juges et sous la hache du même bourreau ? Certes les révolutions sont un mauvais moyen, ce sont toujours de <emph>grands malheurs</emph> ; mais souffrir à perpétuité est une condamnation à laquelle ne peut se soumettre aucune patience, aucune résignation humaine.</p>
+
+ <p>Encore une insurrection qui éclate à la Martinique en <date>décembre 1833</date>. Celle-là, ceuvre d'hommes appartenant à la population libre, est différente dans ses moyens d'exécution de la précédente, mais elle va puiser sa cause à la même source. La <emph><placeName ref="#GdA">Grand'Anse</placeName></emph>, quartier vaste et populeux de la colonie, se lève tout entière, et court aux armes à la suite d'une rixe particulière et d'un arrêt de cour d'assises qu'elle croit trop sévère. Il en résulte quelques désordres inséparables de la réunion d'hommes armés, désordres assez grands pour donner un prétexte à dénaturer les motifs 
+ <choice>
+<orig>évidens</orig>
+<reg>évidents</reg>
+</choice> 
+de cette levée de boucliers, et en faire un vaste complot, tramé depuis<pb n="9"/> <date>
+<choice>
+<orig>1823.</orig>
+<reg>1823</reg>
+</choice>
+</date> pour massacrer la population blanche. Qu'importent l'invraisemblance, l'absence de toute supposition raisonnable, l'impossibilité d'exécution démontrée jusqu'à l'évidence ? C'est après une régénération complète établie ; c'est après être arrivés à la jouissance pleine et entière de leurs droits civils et politiques ; après l'abolition même de ce mot magique, <emph>hommes de couleur</emph>, mot au moyen duquel on les avait relégués dans les antichambres de la civilisation ; c'est en pareille position que ces hommes ont l'idée d'exécuter enfin leur horrible projet, dans une île sans issue comme la Martinique, où l'impunité n'est pas possible, où le succès même ne peut être légitime, parce qu'il y serait sans durée ! <foreign><emph>Credat judœus</emph></foreign>. 
+<choice>
+<orig>Quand</orig>
+<reg>Quant</reg>
+</choice> 
+à nous, qui connaissons et juges et assesseurs, l'arrêt de la cour d'assises n'a pas changé nos convictions sur cette <rs ref="#GA">affaire de la Grand'Anse</rs>. Exécuter cet arrêt, c'est préparer des tempêtes pour l'avenir.</p>
+
+<p>Si nous comptons bien, voilà dans l'espace de douze ans, à la Martinique, quatre secousses qui ont mis cette île à deux doigts de sa perte. Ne parlons pas de perturbations d'un moindre danger qui empêchent périodiquement l'échafaud de 
+<choice>
+<orig>chomer</orig>
+<reg>chômer</reg>
+</choice>
+et nécessitent sa permanence sur la <placeName ref="#PlB">place Bertin</placeName>, curieux monument sans doute sur une promenade publique ! Commissions militaires, cours prévôtales, cours d'assises ont envoyé des cadavres par vingt et par trente à la fois au cimetière de la Grosse-Roche (1), et couvert en même temps la terre étrangère de proscrits. A côté de la Martinique, à trente lieues de distance, la <placeName ref="#GP">Guadeloupe</placeName>, avec les mêmes lois, les mêmes institutions, les mêmes préjugés ; la Guadeloupe, dont les esclaves ont été soldats de la république, dont les esclaves ont connu la liberté même dans sa licence ; la Guadeloupe, dans les mêmes douze ans, n'offre pas une condamnation à mort pour délit politique ! De loin en loin, quelques agitations s'y sont manifestées, mais sans effet de destruction ; c'est un simple reflux des désordres de la Martinique qui vient jeter de l'écume sur les rivages de sa voisine.</p>
+
+<p><note>(1) Le <placeName ref="#CGR">cimetière de la Grosse-Roche</placeName>, réservé aux suppliciés, est au pied d'un morne, sur le sable, au bord de la mer dont le flot a souvent déterré les cadavres fraîchement jetés dans des fosses peu profondes. La chaîne des condamnés vient bien vite, avec quelques pelletées de sable, rejeter cet appel d'une nouvelle forme, mais qui est le seul permis aux esclaves, en révision des arrêts de mort rendus contre eux.</note></p><pb n="10"/>
+
+<p>En pareil état de choses, si l'on réfléchit que ce sont des <emph>maîtres</emph> qui ont jugé des <emph>esclaves</emph>, et des <emph>blancs</emph> qui ont jugé des <emph>mulâtres</emph> ; si l'on a la plus petite idée des haines et des antipathies de castes ; si l'on connaît (pas de hameau en France qui n'en ait entendu parler) l'ignorance des magistrats des colonies et la cruelle partialité de quelques meneurs plus instruits que les autres, on concevra combien d'arrêts iniques ont été rendus en matière civile à la Martinique ; combien, en matière criminelle, il y a eu d'instructions faussées, suivies d'arrêts empreints de la plus féroce barbarie.</p>
+
+<p>Le ministère de la marine a reçu tous ces arrêts. Au roi lui-même a été dénoncé celui contre les esclaves de la <persName ref="#D">dame Dariste</persName>. <persName ref="#LP">Louis-Philippe</persName> l'a jeté, dit-on, de dégoût et d'horreur après l'avoir lu. Des victimes sont arrivées jusqu'à la direction des colonies. Les unes, malgré la force de la chose jugée, ont obtenu réparation ! D'autres, contumaces, ont trouvé à <placeName ref="#Par">Paris</placeName> une justice qu'ils savaient ne pas exister pour eux à la Martinique, et que la loi les obligeait pourtant à aller y chercher ! Des condamnés ont été illégalement, arbitrairement exécutés : la cour royale, par ignorance ou par cruauté, par tous les deux peut-être, les avait enlevés au pourvoi suspensif devant la cour de cassation ; ils y arrivent plus tard, et renvoyés à la Guadeloupe, à cette Guadeloupe aux mêmes lois, aux mêmes institutions, aux mêmes préjugés, des hommes que la main du bourreau avait touchés ont été acquittés ! Dans quels fastes judiciaires rencontrer rien de pareil ?</p>
+
+<p>Le ministère a été sourd à tous ces 
+<choice>
+<orig>enseignemens</orig>
+<reg>enseignements</reg>
+</choice> 
+: il n'a d'oreilles que pour les 
+<choice>
+<orig>argumens</orig>
+<reg>arguments</reg>
+</choice> 
+irrésistibles que font valoir dans ses bureaux les membres de cet ordre judiciaire des colonies qui, après chaque arrêt <emph>mémorable</emph>, viennent en France en justifier les motifs. Les mêmes hommes, assis aux mêmes fauteuils, ne cessent pas d'administrer la justice à leur manière. Tout reste impuni. Le ministère fait plus, il récompense : la croix d'officier de la Légion d'Honneur donnée au chef, la croix de légionnaire donnée aux subalternes, voilà la pierre dont on couvre les fosses mouvantes de la Grosse-Roche. Mais qu'en résulte-t-il ? Les populations ne peuvent plus avoir confiance dans leurs magistrats. Un accusé, aux yeux de ces hommes émancipés d'hier, est un condamné à mort ou aux galères. <persName ref="#Cé">Césaire</persName>, leur camarade, traduit aux assises et condamné à mort, ajoute à tort ou à raison à leur conviction. 
+<choice>
+<orig>A</orig>
+<reg>À</reg>
+</choice> 
+qui<pb n="11"/> vont-ils aller se plaindre ? dans quel nouveau désert vont-ils aller jeter leurs cris ?... Ils courent aux armes, et tous à la fois, 
+<choice>
+<orig>confians</orig>
+<reg>confiants</reg>
+</choice> 
+dans des promesses d'amnistie, ils se laissent désarmer sans combattre. Les voilà vaincus. <foreign><emph>Vae victis</emph></foreign> ! Rien ne légitimera plus leur désespoir. On les envoie aux assises, comme ces premiers chrétiens qu'on jetait dans le cirque aux bêtes féroces.</p>
+
+<p>15 sont condamnés à mort (non compris 26 contumaces, aussi condamnés à mort, mais qui feront bien de s'abstenir, nonobstant la doucereuse invitation à se présenter, insérée dans <bibl type="periodical"><title ref="#LT">le Temps</title></bibl>, journal du progrès et de l'opposition, à ses intérêts près).</p>
+
+<p>22 autres sont condamnés aux galères à perpétuité.</p>
+
+<p>25 enfin à la déportation au Sénégal.</p>
+
+<p>62 
+<choice>
+<orig>présens</orig>
+<reg>présents</reg>
+</choice>
+et 26 contumaces condamnés à mort avec variations.</p>
+
+<p><emph>Mémorable</emph> arrêt ! éternel monument de la bénignité de nos codes !...... N'est-ce pas graver en lettres d'airain, dans la mémoire des révoltés 
+<choice>
+<orig>présens</orig>
+<reg>présents</reg>
+</choice>
+et futurs, que le succès seul est l'excuse, et qu'au 
+<choice>
+<orig>pis aller</orig>
+<reg>pis-aller</reg>
+</choice>
+, entre la balle d'un soldat français ou la hache d'un bourreau, il y a un choix sur lequel il ne faut jamais hésiter ? El vous qui avez rendu ce <emph>mémorable arrêt</emph>, déjà vous êtes annoncés à Paris ; on vous y attend. Venez vous enorgueillir de 41 noirs et mulâtres condamnés à mort,</p>
+
+<p>Et leur tête à la main demander un salaire.</p> <!--floatting text-->
+
+<p>Quant à nous, nous le crierons jusque sur les toits : la cause d'insurrections aussi fréquentes à la Martinique git tout entière dans le personnel de la justice. Là sont les hommes avec lesquels il ne doit y avoir ni trève ni paix à espérer. Ce sont eux qui ont compromis dix fois la sûreté de la colonie ; ce sont ceux qui ont amassé haine et colère contre les colons en général, quoique le grand nombre gémisse de ces iniquités. Le ministère de la marine sera-t-il insensible à tant de réclamations, à tant de sang répandu ? Nous allons, s'il le faut, périr à la tâche ; mais il sera démontré que l'administration de la justice, telle que nous l'avons à la Martinique, est la cause première de nos désordres, qu'elle est une barrière infranchissable à la fusion et à la réconciliation des castes. Pour parvenir à notre but, aussi indiscrets que les flots de la mer,<pb n="12"/>nous ouvrirons les tombeaux de la Grosse-Roche ; nous fouillerons dans ce greffe satanique ; chaque numéro de <bibl type="periodical"><title ref="#RdC">la Revue des Colonies</title></bibl> examinera un arrêt de la Martinique ou de la Guadeloupe ; nous arracherons de leur antre ces nouveaux <persName><emph>Cacus</emph></persName>, et nous les jetterons à la publicité, chargée de nous venger.</p>
+
+<p>Fatiguée de complots, <persName>Livie</persName> conseilla la clémence à son époux <persName>Auguste</persName> : <q>Jusqu'ici, lui dit-elle, la sévérité n'a servi de rien. Essayez aujourd'hui de la clémence ; pardonnez. <persName>Cinna</persName> est découvert, il ne peut plus vous nuire. Il peut vous servir en vous faisant une réputation de bonté.</q> L'histoire dit qu'Auguste écouta ce conseil, et que depuis cette époque, ce qu'il n'avait pu obtenir en livrant tant de têtes à la hache des licteurs, il l'obtint par le pardon accordé à Cinna.</p>
+
+<p>Nous eussions donné le même conseil à messieurs les juges de la Martinique ; mais ils ne peuvent plus sortir de cette voie de sang où ils se sont engagés. Leur avis eût déterminé le <roleName>gouverneur</roleName> <persName ref="#JHD">Dupotet</persName> à faire de l'insurrection de la Grand'Anse une affaire d'amnistie, amnistie du reste déjà promise. Ils ont mieux aimé qu'on leur livrât 88 victimes !... <foreign><emph>Vae victis</emph></foreign> ! Entendez-le bien, vous tous qui souffrez.</p>
+</div>
+
          </div>
       </body>
    </text>

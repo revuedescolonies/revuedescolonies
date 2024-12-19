@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-   <?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n5-fr">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -629,66 +629,89 @@ mains, en guise de facéties et de choses réjouissantes, l'insulte et la diffam
 
 <p>Provoqué d'une façon aussi brutale, M. Bissette devait à M. Cicéron quelques mots de réponse, et c'est ce dont il s'acquitta le <date when="1833-05-15">15 mai 1833</date> :</p>
 
-<p>Sa Lettre à M Cicéron circulait depuis plus d'un an sans avoir excité aucune réclamation. Une nouvelle édition fut faite au mois de juillet de la présente année, et voilà tout-à-coup que M. Artaud, oncle, à ce qu'il paraît, de M. Cicéron, se plaignit d'être diffamé dans cet écrit et assigna M. Bissette devant la sixième chambre du tribunal de première instance de Paris.</p>
+<p>Sa <emph>Lettre à Mr Cicéron</emph> circulait depuis plus d'un an sans avoir excité aucune réclamation. Une nouvelle édition fut faite au mois de juillet de la présente année, et voilà tout-à-coup que M. Artaud, oncle, à ce qu'il paraît, de M. Cicéron, se plaignit d'être diffamé dans cet écrit et assigna M. Bissette devant la sixième chambre du tribunal de première instance de <placeName ref="#Par">Paris</placeName></p>
 
-<p>C'est donc le 50 août dernier que M. Artaud, par l'organe de <persName>M. Bethmont</persName>, venait demander satisfaction de la calomnie dont il se plaignait ; de plus, la suppression et la saisie, partout où elle se trouverait, de la Lettre de M. Bissette, et encore l'affiche du jugement, à Paris et à la Martinique, à je ne sais combien de milliers d'exemplaires.</p>
+<p>C'est donc le 
+<choice>
+   <sic>50</sic>
+   <reg>5</reg>
+</choice> 
+août dernier que M. Artaud, par l'organe de <persName ref="#Be">M. Bethmont</persName>, venait demander satisfaction de la calomnie dont il se plaignait ; de plus, la suppression et la saisie, partout où elle se trouverait, de la Lettre de M. Bissette, et encore l'affiche du jugement, à Paris et à la Martinique, à je ne sais combien de milliers d'exemplaires.</p>
 
-<p>M Bethmont a donc pris la parole, et, après un exorde cicéronien, il a entamé une longue homélie, bien rythmée, bien reten tissante, en l'honneur de son client. Le ton ronflant, le débit emphatique et larmoyant, les phrases phosphoriques de cet avocat ne forment qu'une partie de ses qualités. Cette chaleur passe sou vent dans ses gestes et dans son action oratoire; alors il se tord, il se noie en des mélancolies incroyables, il se balance comme un roseau agité par le vent ou plutôt comme un palmiste secoué par l'ouragan des Antilles; puis, planant majestueusement au-dessus de la barre, il s'adresse au tribunal, au ministère public, à M. Bis sette, à son adversaire, à l'auditoire, à tout et à tous. Toujours avec la même élégance, il attaque violemment M. Bissette; il cite, après sa pindarique sortie, le passage suivant de la lettre de M. Bissette à M" Cicéron:</p>
+<p>Me Bethmont a donc pris la parole, et, après un exorde <emph>cicéronien</emph>, il a entamé une longue homélie, bien rythmée, bien retentissante, en l'honneur de son client. Le ton ronflant, le débit emphatique et larmoyant, les phrases phosphoriques de cet avocat ne forment qu'une partie de ses qualités. Cette chaleur passe sou vent dans ses gestes et dans son action oratoire ; alors il se tord, il se noie en des mélancolies incroyables, il se balance comme un roseau agité par le vent ou plutôt comme un palmiste secoué par l'ouragan des Antilles ; puis, planant majestueusement au-dessus de la barre, il s'adresse au tribunal, au ministère public, à M. Bissette, à son adversaire, à l'auditoire, à tout et à tous. Toujours avec la même élégance, il attaque violemment M. Bissette ; il cite, après sa pindarique sortie, le passage suivant de la lettre de M. Bissette à Me Cicéron :</p>
 
-<p>C'est là de la belle et bonne diffamation, convenez-en. Que vous avez de courage contre moi, maître Cicéron, quand dix<pb n="31"/> huit cents lieues nous séparent! Mais, à défaut d'autres armes qui me permettent de vous voir de près, je vous réponds par un
-défi de prouver qu'un seul reproche d'immoralité puisse être adressé à ma respectable mère. Ah! monsieur, que ce n'est pas pour ma mère que je craindrais un appel à l'opinion publique de notre pays, bien que vous prétendiez me faire un reproche de sa couleur. Si la nuance de la peau est une preuve du plus ou du moins de vertus, humiliez-vous devant ses månes! Que ce n'est pas elle, toute mulâtresse qu'elle fut, qui a offert à la société le scandaleux exemple d'une épouse vivant dans un honteux concubinage avec son frère, présentant à tous le spectacle du commerce immoral de l'inceste; élevant le produit de l'oeuf précieux de ses débanches dans l'habitude de l'injure et de la calomnie; faisant de l'officine de son complice le théâtre public  de ses désordres, et portant le cynisme jusqu'à braver l'opinion, les souvenirs et les regards de la société! Je ne vous demande pas, monsieur, de respecter la mémoire et les cendres des morts..... c'est encore une vertu qui vous est inconnue, mais je vous engage, dans votre propre intérêt, à ménager le sang qui coule deux fois dans vos veines.</p>
+<q><p>C'est là de la belle et bonne diffamation, convenez-en. Que vous avez de courage contre moi, maître Cicéron, quand dix<pb n="31"/> huit cents lieues nous séparent! Mais, à défaut d'autres armes qui me permettent de vous voir de près, je vous réponds par un défi de prouver qu'un seul reproche d'immoralité puisse être adressé à ma respectable mère. Ah! monsieur, que ce n'est pas pour ma mère que je craindrais un appel à l'opinion publique de notre pays, bien que vous prétendiez me faire un reproche de sa couleur. Si la nuance de la peau est une preuve du plus ou du moins de vertus, humiliez-vous devant ses månes! Que ce n'est pas elle, toute mulâtresse qu'elle fut, qui a offert à la société le scandaleux exemple d'une épouse vivant dans un honteux concubinage avec son frère, présentant à tous le spectacle du commerce immoral de l'inceste ; élevant le produit de l'<emph>oeuf précieux</emph>  de ses débauches dans l'habitude de l'injure et de la calomnie ; faisant de l'officine de son complice le théâtre public de ses désordres, et portant le cynisme jusqu'à braver l'opinion, les souvenirs et les regards de la société ! Je ne vous demande pas, monsieur, de respecter la mémoire et les cendres des morts..... c'est encore une vertu qui vous est inconnue, mais je vous engage, dans votre propre intérêt, à ménager le sang qui coule deux fois dans vos veines.</p></q>
 
-<p>M Bethmont lit ce petit morceau avec un superbe accent de douleur et d'indignation, qui fait le plus grand honneur à sa sensibilité. Il s'efforce de démontrer qu'il y a diffamation à l'égard de M. Artaud, bien que son nom ne se trouve pas dans le passage incriminé; il s'appuie sur une note de la page suivante pour prouver qu'il ne saurait y avoir de doute sur les personnes. Enfin, chose singulière et qu'assurément personne ne lui aurait demandée, M Bethmont a produit plusieurs pièces et actes de notoriété pour démontrer, suivant lui, l'impossibilité absolue, matérielle, de l'accusation d'immoralité portée contre M. Artaud.</p>
+<p>Me Bethmont lit ce petit morceau avec un superbe accent de douleur et d'indignation, qui fait le plus grand honneur à sa sensibilité. Il s'efforce de démontrer qu'il y a diffamation à l'égard de M. Artaud, bien que son nom ne se trouve pas dans le passage incriminé ; il s'appuie sur une note de la page suivante pour prouver qu'il ne saurait y avoir de doute sur les personnes. Enfin, chose singulière et qu'assurément personne ne lui aurait demandée, Me Bethmont a produit plusieurs pièces et actes de notoriété pour démontrer, suivant lui, l'impossibilité absolue, matérielle, de l'accusation d'immoralité portée contre M. Artaud.</p>
 
-<p>M JULES MAUREL, pour M. Bissette, a répondu que son client n'avait pas même pensé à diffamer M. Artaud; qu'il ne le connais sait nullement et ne pouvait avoir contre lui aucun motif de haine; mais que M. Bissette, provoqué sans motif par M. Cicéron, pro voqué d'une manière violente, avait répondu à ce dernier sous l'impression d'un juste ressentiment; que les faits que M. Artaud prétend lui être imputés sont énoncés sans désignation de per sonnes, et que dès lors c'est M. Artaud qui se diffame lui-même.</p><pb n="32"/>
+<p>Me <persName ref="#JM">JULES MAUREL</persName>, pour M. Bissette, a répondu que son client n'avait pas même pensé à diffamer M. Artaud ; qu'il ne le connaissait nullement et ne pouvait avoir contre lui aucun motif de haine ; mais que M. Bissette, provoqué sans motif par M. Cicéron, provoqué d'une manière violente, avait répondu à ce dernier sous l'impression d'un juste ressentiment ; que les faits que M. Artaud prétend lui être imputés sont énoncés sans désignation de personnes, et que dès lors c'est M. Artaud qui se diffame lui-même.</p><pb n="32"/>
 
 <p>Après les répliques des deux avocats et les conclusions du ministère public, qui s'en est rapporté à la sagesse du tribunal, M. Bissette a pris la parole en ces termes :</p>
 
-<p>Messieurs, confiant en votre sagesse pour l'adoption des conclusions de mon avocat, je crois devoir cependant ajouter quelques mots à ce qui vous a été dit par lui: la moralité de l'affaire en sera plus appréciable à vos yeux.</p>
+<q><p> Messieurs, confiant en votre sagesse pour l'adoption des conclusions de mon avocat, je crois devoir cependant ajouter quelques mots à ce qui vous a été dit par lui : la moralité de l'affaire en sera plus appréciable à vos yeux.</p>
 
-<p>Les hommes de couleur, aux colonies, vous le savez, messieurs, ont été long-temps opprimés par les colons blancs; l'abus de la force et d'une justice tout exceptionnelle les a souvent frappés in justement. Parmi les nombreuses victimes de ce système colonial, je porte la preuve ineffaçable de ce que peuvent les préjugés de caste dans ces pays. Oui, messieurs, j'ai été MARQué pour avoir hi une brochure et l'avoir fait lire à deux de mes amis; et c'est précisément cette MARQUE qui a soulevé en Europe une si vive indignation contre le magistrat si empressé de la faire appliquer par la main du bourreau, en présence d'un pourvoi en cassation qui devait amener une éclatante réformation par des juges imbus eux mêmes des préjugés coloniaux; c'est cette MARQUE, dont il m'a été fait un, ignoble reproche, qui fait ma force et ma gloire devant vous. Vous savez, messieurs, ce que ce reproche m'inspira. A un adversaire étranger à ce point aux sentimens nobles et qui, se croyant tout permis en sa qualité de colon blanc contre un mulâtre, descendait à mon égard et à l'égard des miens jusqu'à la plus basse diffamation, je jugeai qu'il valait mieux n'opposer qu'une simple réponse écrite. Au lieu de le traduire, à plus juste titre que je ne le suis aujourd'hui, devant ce tribunal, j'écrivis la Lettre à M Cice ron, dans laquelle M. Artaud, après quinze mois de silence, s'est avisé de voir un délit de diffamation contre lui.</p>
+<p>Les hommes de couleur, aux colonies, vous le savez, messieurs, ont été 
+<choice>
+   <orig>long-temps</orig>
+   <reg>longtemps</reg>
+</choice> 
+opprimés par les colons blancs ; l'abus de la force et d'une justice tout exceptionnelle les a souvent frappés injustement. Parmi les nombreuses victimes de ce système colonial, je porte la preuve ineffaçable de ce que peuvent les préjugés de caste dans ces pays. Oui, messieurs, j'ai été MARQUÉ pour avoir lu une brochure et l'avoir fait lire à deux de mes amis ; et c'est précisément cette MARQUE qui a soulevé en <placeName ref="#EUR">Europe</placeName> une si vive indignation contre le magistrat si empressé de la faire appliquer par la main du bourreau, en présence d'un pourvoi en cassation qui devait amener une éclatante réformation par des juges imbus eux mêmes des préjugés coloniaux ; c'est cette MARQUE, dont il m'a été fait un ignoble reproche, qui fait ma force et ma gloire devant vous. Vous savez, messieurs, ce que ce reproche m'inspira. À un adversaire étranger à ce point aux 
+<choice>
+   <orig>sentimens</orig>
+   <reg>sentiments</reg>
+</choice> 
+nobles et qui, se croyant tout permis en sa qualité de colon blanc contre un <emph>mulâtre</emph>, descendait à mon égard et à l'égard des miens jusqu'à la plus basse diffamation, je jugeai qu'il valait mieux n'opposer qu'une simple réponse écrite. Au lieu de le traduire, à plus juste titre que je ne le suis aujourd'hui, devant ce tribunal, j'écrivis la <bibl type="monogr">Lettre à Me Ciceron</bibl> , dans laquelle M. Artaud, après quinze mois de silence, s'est avisé de voir un délit de diffamation contre lui.</p>
 
 <p>Je ne dirai qu'un mot.</p>
 
-<p>Cette lettre était adressée nominativement à M" Cicéron. Que M. Cicéron paraisse dans la lice, qu'il se plaigne après quinze mois. qu'il m'appelle devant vous. C'est à lui, à lui seul que je répon drai. Quant à M. Artaud, il doit être en ceci hors de cause, et je ne sais ce qu'il me veut dire. Je ne veux entrer en aucune façon dans la discussion de la plainte de M. Artaud. La prétendue diffamation dont il argue n'est à mes yeux qu'un prétexte de vengeance de caste, et M. Artaud trouvera bon que je lui fasse défaut sur ce terrain.</p><pb n="33"/>
+<p>Cette lettre était adressée nominativement à Me Cicéron. Que Me Cicéron paraisse dans la lice, qu'il se plaigne après quinze mois
+<choice>
+   <sic>.</sic>
+   <reg>,</reg>
+</choice>
+ qu'il m'appelle devant vous. C'est à lui, à lui seul que je répondrai. Quant à M. Artaud, il doit être en ceci hors de cause, et je ne sais ce qu'il me veut dire. Je ne veux entrer en aucune façon dans la discussion de la plainte de M. Artaud. La prétendue diffamation dont il argue n'est à mes yeux qu'un prétexte de vengeance de caste, et M. Artaud trouvera bon que je lui fasse défaut sur ce terrain.</p><pb n="33"/>
 
-<p>Malheureux devant la justice de la caste qui, aux colonies, nous domine et à laquelle appartient M. Artaud, on s'est flatté que je le serais devant des juges européens. Pour moins que ce que j'ai écrit, messieurs, il est tels hommes dans ces malheureuses colo nies que les pareils de M. Artaud eussent fait pendre et étrangler jusqu'à ce que mort s'ensuivit. Ces messieurs se sont flattés de trouver auprès de vous une justice facile aux condamnations contre un mulâtre insolent envers un blane, car tels sont les termes d'un arrêt rendu par la cour de la Martinique; oubliant qu'à vos yeux cette qualification, dont ils me font un crime, et le souvenir des coups dont ils m'ont frappé, seraient, si j'étais coupable, plus un titre de recommandation qu'une cause de sévérité. Ce n'est pas. avec des juges tels que vous, messieurs, et en une semblable affaire que je puis avoir la moindre appréhension du résultat. J'eusse pu à la rigueur me dispenser de rien ajouter à la plaidoirie de mon avocat, si le peu que je viens de vous dire n'était de nature à éclairer votre religion sur la moralité de ce procès.</p>
+<p>Malheureux devant la justice de la caste qui, aux colonies, nous domine et à laquelle appartient M. Artaud, on s'est flatté que je le serais devant des juges européens. Pour moins que ce que j'ai écrit, messieurs, il est tels hommes dans ces malheureuses colonies que les pareils de M. Artaud eussent fait <emph>pendre et étrangler jusqu'à ce que mort s'ensuivit</emph>. Ces messieurs se sont flattés de trouver auprès de vous une justice facile aux condamnations contre un <emph>mulâtre insolent envers un blanc</emph>, car tels sont les termes d'un arrêt rendu par la cour de la Martinique ; oubliant qu'à vos yeux cette qualification, dont ils me font un crime, et le souvenir des coups dont ils m'ont frappé, seraient, si j'étais coupable, plus un titre de recommandation qu'une cause de sévérité. Ce n'est pas. avec des juges tels que vous, messieurs, et en une semblable affaire que je puis avoir la moindre appréhension du résultat. J'eusse pu à la rigueur me dispenser de rien ajouter à la plaidoirie de mon avocat, si le peu que je viens de vous dire n'était de nature à éclairer votre religion sur la moralité de ce procès.</p>
 
-<p>Messieurs, en terminant la lettre qui fait aujourd'hui l'objet du procès, je disais à celui auquel je répondais qu'il n'était pas possible que, dans une cause qui est toute de morale et de raison, les blancs de la Martinique l'avouassent pour organe. Je dirai aujour d'hui avec bien plus de raison encore: il est impossible que les avocats du barreau français avouent pour confrère un homme qui s'est respecté assez peu pour écrire ce passage:</p>
+<p>Messieurs, en terminant la lettre qui fait aujourd'hui l'objet du procès, je disais à celui auquel je répondais <emph>qu'il n'était pas possible que, dans une cause qui est toute de morale et de raison, les blancs de la Martinique l'avouassent pour organe</emph> . Je dirai aujourd'hui avec bien plus de raison encore : il est impossible que les avocats du barreau français avouent pour confrère un homme qui s'est respecté assez peu pour écrire ce passage :</p>
 
-<p>..... Le nid on la négresse mère ou grand mère de M. Bissette déposa l'oeuf précieux qu'avaient fécondé les plus libertins et > crapuleux, sans doute, des voleurs de grand chemin dont il parle !..... Et même, n'aurait-il pas un avantage sur nous à cet >'égard?..... celui de descendre peut-être, à lui seul, de tous les
+<p>..... Le nid on la négresse mère ou grand mère de M. Bissette déposa l'oeuf précieux qu'avaient fécondé les plus libertins et crapuleux, sans doute, des voleurs de grand chemin dont il parle !..... Et même, n'aurait-il pas un avantage sur nous à cet égard?..... celui de descendre peut-être, à lui seul, de tous les
 va-nu-pieds ensemble!»</p>
 
-<p>J'ai dit.</p>
+<p>J'ai dit.</p></q>
 
-<p>Le tribunal, après une longue délibération, faisant application à M. Bissette des articles 15 et 18 de la loi du 17 mai 1819, mais admettant à son égard de nombreuses circonstances favorables, ne l'a condamné qu'à 25 francs d'amende, sans ordonner la destruc tion de l'écrit et l'affiche du jugement, demandées avec une grande
-insistance par la partie plaignante.</p>
+<p>Le tribunal, après une longue délibération, faisant application à M. Bissette des articles 15 et 18 de la loi du <date when="1819-05-17">17 mai 1819</date>, mais admettant à son égard de nombreuses circonstances favorables, ne l'a condamné qu'à 25 francs d'amende, sans ordonner la destruction de l'écrit et l'affiche du jugement, demandées avec une grande insistance par la partie plaignante.</p>
 
-<p>M BETHMONT.J'admets volontiers les circonstances favorables<pb n="34"/> à M. Bissette, puisqu'elles résultent de la provocation sous laquelle il écrivait; mais, comme elles ne détruisent pas la fausseté des faits imputés, je désire qu'il soit ajouté: mais indépendantes de ce qui regarde M. Artaud.»</p>
+<p>Me BETHMONT. - J'admets volontiers les <emph>circonstances favorables</emph><pb n="34"/> à M. Bissette, puisqu'elles résultent de la provocation sous laquelle il écrivait ; mais, comme elles ne détruisent pas la fausseté des faits imputés, je désire qu'il soit ajouté : <emph>« mais indépendantes de ce qui regarde M. Artaud. »</emph></p>
 
-<p>M. LE PRÉSIDENT. - Le tribunal a longuement délibéré à cet égard; mais en admettant vos motifs, il ne peut rien changer à son jugement.</p>
+<p>M. LE PRÉSIDENT. - Le tribunal <emph>a longuement</emph>  délibéré à cet égard ; mais en admettant vos motifs, il ne peut rien changer à son jugement.</p>
 
-<p>M Bethmont insiste avec chaleur pour que le tribunal modifie les termes de son jugement. Le président réplique à l'avocat que le tribunal, en rédigeant ainsi son jugement, a voulu formelle ment exprimer une opinion favorable à M. Bissette, résultant de la provocation.</p>
+<p>Me Bethmont insiste avec chaleur pour que le tribunal modifie les termes de son jugement. Le président réplique à l'avocat que le tribunal, en rédigeant ainsi son jugement, a voulu formellement exprimer une opinion favorable à M. Bissette, résultant de la provocation.</p>
 
-<p>M. Bissette salue le tribunal et se retire, laissant M Bethmont se démener au milieu d'un nombreux auditoire.</p>
+<p>M. Bissette salue le tribunal et se retire, laissant Me Bethmont se démener au milieu d'un nombreux auditoire.</p>
 
-<p>Les amis de M. Bissette, parmi lesquels on remarque des hom mes de lettres, des journalistes et un grand nombre d'hommes de couleur de toutes les contrées, l'entourent et le félicitent. Mr Beth mont continue toujours de parler, bien que l'huissier audiencier ait appelé une autre affaire.</p>
+<p>Les amis de M. Bissette, parmi lesquels on remarque des hommes de lettres, des journalistes et un grand nombre d'hommes de couleur de toutes les contrées, l'entourent et le félicitent. Me Bethmont continue toujours de parler, bien que l'huissier audiencier ait appelé une autre affaire.</p>
 </div>
 
 <div>
 <head>TRIBUNAL CIVIL DE LA SEINE (chambre des vacations)</head>
 <head>PRESIDENCE DE M. FOUQUET.</head>
-<head>AFFAIRE BOITEL CONTRE CICERON.</head>
+<head>AFFAIRE <persName ref="#BOI">BOITEL</persName> CONTRE <persName ref="#CIC">CICÉRON</persName></head>
 
-<p>Après avoir échoué en police correctionnelle et en cour royale, dans sa plainte au sujet d'un écrit publié contre lui, par le sieur Cicéron, avocat à la Martinique, M. Boitel, ancien secrétaire archiviste de cette colonie, qui avait eu à subir devant les premiers juges le bénéfice interprétatif de la prescription de l'action publi que, invoquait en dernier ressort, devant le tribunal civil de la Seine, par l'organe de M Rabou, son avocat, l'application des dispositions de l'article 42 de la loi du 26 mai 1819, lequel porte que: dans tous les cas, la poursuite à la requête de la partie plaignante peut être intentée devant les juges de son domicile lors que la publication y a été effectuée. On ne conteste point, a-t-il dit, que la publication ait été effectuée à Paris, lieu du domicile<pb n="35"/> de M. Boitel. Or, la loi n'établit aucune distinction entre les tribunaux civils et les tribunaux correctionnels; en saisissant le tribunal civil de la Seine, il a saisi les juges de son domicile.</p>
+<p>Après avoir échoué en police correctionnelle et en cour royale, dans sa plainte au sujet d'un écrit publié contre lui, par le sieur Cicéron, avocat à la <placeName ref="#MQ">Martinique</placeName>, M. Boitel, ancien secrétaire archiviste de cette colonie, qui avait eu à subir devant les premiers juges le bénéfice interprétatif de la prescription de l'action publique, invoquait en dernier ressort, devant le tribunal civil de la Seine, par l'organe de Me <persName ref="#RAB">Rabou</persName>, son avocat, l'application des dispositions de l'article 42 de la loi du 26 mai 1819, lequel porte que : dans tous les cas, la poursuite à la requête de la partie plaignante peut être intentée devant les juges de son domicile lors que la publication y a été effectuée. On ne conteste point, a-t-il dit, que la publication ait été effectuée à <placeName ref="#Par">Paris</placeName>, lieu du domicile<pb n="35"/> de M. Boitel. Or, la loi n'établit aucune distinction entre les tribunaux civils et les tribunaux correctionnels ; en saisissant le tribunal civil de la Seine, il a saisi les juges de son domicile.</p>
 
-<p>M MORET, avocat du sieur Cicéron, soutenait que M. Boitel devait aller plaider à la Martinique; que son client ne pouvait être ravi à ses juges naturels, et qu'il appartenait au tribunal de cette colonie, où réside le prévenu, de connaitre de la moralité de cette cause.</p>
+<p>Me <persName ref="#MORE">MORET</persName>, avocat du sieur Cicéron, soutenait que M. Boitel devait aller plaider à la Martinique ; que son client ne pouvait être ravi à ses juges naturels, et qu'il appartenait au tribunal de cette colonie, où réside le prévenu, de connaître de la moralité de cette cause.</p>
 
-<p>M RABOU a répliqué en disant que M. Boitel a été exclu du ter ritoire colonial en 1831, par délibération du conseil privé de la Martinique, pour avoir admis à sa table des hommes de couleur, et que l'écrit dont il se plaint n'est qu'un des nombreux incidens qu'a soulevés contre sa personne la manifestation de ses principes d'équité en faveur des hommes de couleur et des esclaves.</p>
+<p>Me RABOU a répliqué en disant que M. Boitel a été exclu du territoire colonial en <date>1831</date>, par délibération du conseil privé de la Martinique, pour avoir admis à sa table des hommes de couleur, et que l'écrit dont il se plaint n'est qu'un des nombreux 
+<choice>
+   <orig>incidens</orig>
+   <reg>incidents</reg>
+</choice>
+qu'a soulevés contre sa personne la manifestation de ses principes d'équité en faveur des hommes de couleur et des esclaves.</p>
 
-<p>M. POINsor, avocat du roi, a commenté avec une grande impartialité les moyens invoqués par les deux adversaires, et a conclu, en s'appuyant du texte de la loi, à ce que le tribunal adoptat les motifs de la partie plaignante et déboutât le défendeur de ses prétentions.</p>
+<p>M. <persName ref="#POI">POINSOT</persName> , avocat du roi, a commenté avec une grande impartialité les moyens invoqués par les deux adversaires, et a conclu, en s'appuyant du texte de la loi, à ce que le tribunal adoptat les motifs de la partie plaignante et déboutât le défendeur de ses prétentions.</p>
 
-<p>Le jugement ci-après a été rendu (29 octobre) les parties et le ministère public entendus:</p>
+<p>Le jugement ci-après a été rendu (29 octobre) les parties et le ministère public entendus :</p>
 
 <p>Attendu les dispositions formelles de la loi du 26 mai 1829, le tribunal se déclare compétent et retient la cause après vacances pour en connaître au fond, et condamne M Cicéron aux dépens.</p>
 </div>
@@ -696,19 +719,19 @@ insistance par la partie plaignante.</p>
 <div>
 <head>RENCONTRE BISSETTE ET CICERON.</head>
 
-<p>Grossièrement offensé dans une brochure publiée par M. Cice ron, avocat à la Martinique, M. Bissette avait, dans une lettre imprimée, en réponse à cette brochure, vivement exprimé le regret de ne pouvoir en tirer satisfaction immédiatement.</p>
+<p>Grossièrement offensé dans une brochure publiée par M. Ciceron, avocat à la Martinique, M. Bissette avait, dans une lettre imprimée, en réponse à cette brochure, vivement exprimé le regret de ne pouvoir en tirer satisfaction immédiatement.</p>
 
-<p>Dix-huit mois après, M. Cicéron a jugé à propos de faire dix huit cents lieues uniquement, s'est-il plu à répéter ici, pour venir se mettre à la disposition de M. Bissette; ce qu'il a fait. M. Bissette. l'a provoqué, et une rencontre au sabre s'en est suivie au bois de Vincennes, dans laquelle M. Cicéron a été blessé au bras droit de<pb n="36"/> manière à ne pouvoir plus s'en servir; sur quoi, les adversaires et les témoins se sont séparés.</p>
+<p>Dix-huit mois après, M. Cicéron a jugé à propos de faire dix huit cents lieues uniquement, s'est-il plu à répéter ici, pour venir se mettre à la disposition de M. Bissette ; ce qu'il a fait. M. Bissette l'a provoqué, et une rencontre au sabre s'en est suivie au <placeName ref="#BdV">bois de Vincennes</placeName>, dans laquelle M. Cicéron a été blessé au bras droit de<pb n="36"/> manière à ne pouvoir plus s'en servir ; sur quoi, les adversaires et les témoins se sont séparés.</p>
 
-<p>Quelque temps après, guéri de sa blessure, M. Cicéron, par des motifs qu'il ne nous appartient pas d'apprécier ici, a envoyé deux de ses témoins auprès de M. Bissette pour lui demander la reprise du combat. Cela pouvait convenir aux intérêts de M. Cice ron, mais M. Bissette n'avait que faire de lui complaire en ceci. M. Bissette a donc formellement repoussé la demande de l'avocat colon, et déclaré à ces messieurs qu'ayant mis M. Cicéron hors de combat, il s'était trouvé parfaitement satisfait de ce résultat et était résolu à ne point donner d'autres suites à cette affaire.</p>
+<p>Quelque temps après, guéri de sa blessure, M. Cicéron, par des motifs qu'il ne nous appartient pas d'apprécier ici, a envoyé deux de ses témoins auprès de M. Bissette pour lui demander la reprise du combat. Cela pouvait convenir aux intérêts de M. Cicéron, mais M. Bissette n'avait que faire de lui complaire en ceci. M. Bissette a donc formellement repoussé la demande de l'avocat colon, et déclaré à ces messieurs qu'ayant mis M. Cicéron hors de combat, il s'était trouvé parfaitement satisfait de ce résultat et était résolu à ne point donner d'autres suites à cette affaire.</p>
 
-<p>Cette réponse ayant été transmise à M. Cicéron, celui-ci a cru. devoir en appeler à M. Bissette par la publicité. En conséquence, une correspondance s'est établie entre ces deux messieurs dans le seul journal de la capitale qui ait ouvert ses colonnes à M. Cicéron. M. Bissette a persisté par écrit dans la résolution qu'il avait précédemment exprimée de vive voix, ne reconnaissant à personne, comme il l'a fort bien dit, toutes choses d'ailleurs s'étant passées comme il appartient à gens de cœur et d'honneur, le droit d'estimer s'il devait ou non être satisfait, quand il se déclarait tel.</p>
+<p>Cette réponse ayant été transmise à M. Cicéron, celui-ci a cru devoir en appeler à M. Bissette par la publicité. En conséquence, une correspondance s'est établie entre ces deux messieurs dans le seul journal de la capitale qui ait ouvert ses colonnes à M. Cicéron. M. Bissette a persisté par écrit dans la résolution qu'il avait précédemment exprimée de vive voix, ne reconnaissant à personne, comme il l'a fort bien dit, toutes choses d'ailleurs s'étant passées comme il appartient à gens de cœur et d'honneur, le droit d'estimer s'il devait ou non être satisfait, quand il se déclarait tel.</p>
 
-<p>Voici la lettre, publiée dans le Figaro du 11 octobre, par laquelle M. Bissette a mis fin aux étranges prétentions de son adversaire :</p>
+<p>Voici la lettre, publiée dans <bibl type="periodical">le Figaro </bibl> du 11 octobre, par laquelle M. Bissette a mis fin aux étranges prétentions de son adversaire :</p>
 
-<q><p>À M. le rédacteur du Figaro.</p>
+<q><p><emph>À M. le rédacteur du</emph> Figaro.</p>
 
-<p>Paris, 10 octobre 1834.</p>
+<p>Paris, <date when="1834-10-10">10 octobre 1834</date>.</p>
 
 <p>Monsieur,</p>
 
@@ -716,31 +739,52 @@ insistance par la partie plaignante.</p>
 
 <p>Je ne relèverai pas ici les nombreuses contradictions qui existent entre la première et la seconde lettre de M. Cicéron, c'est pour moi une question vidée. Quelles que puissent être donc à l'avenir les prétentions ou les assertions de M. Cicéron à ce sujet, elles seront pour moi comme si elles n'étaient pas, et je suis bien résolu, monsieur, à lui laisser le champ que vous nous avez si généreusement ouvert, entièrement libre désormais, s'il lui plait de s'y montrer encore.</p>
 
-<p>Je le déclare de nouveau, je ne saurais suivre davantage, sue <pb n="37"/>quelque terrain que ce soit, hors sur celui de la légitime défense, cet adversaire ou cet ennemi, je ne sais lequel dire.</p>
+<p>Je le déclare de nouveau, je ne saurais suivre davantage, sur <pb n="37"/>quelque terrain que ce soit, hors sur celui de la légitime défense, cet adversaire ou cet ennemi, je ne sais lequel dire.</p>
 
-<p>Je m'en réfère du reste à mes réponses écrites ou verbales; et sans croire que le public puisse être juge bien compétent d'une affaire personnelle, où les assertions, de part et d'autre, ne sau raient être toujours prises par lui pour ce qu'elles valent, je n'ai nulle raison de ne pas le faire juge aussi de ce différend, quelle que soit la difficulté de l'instruire suffisamment des faits de la cause.</p>
+<p>Je m'en réfère du reste à mes réponses écrites ou verbales ; et sans croire que le public puisse être juge bien compétent d'une affaire personnelle, où les assertions, de part et d'autre, ne sauraient être toujours prises par lui pour ce qu'elles valent, je n'ai nulle raison de ne pas le faire juge aussi de ce différend, quelle que soit la difficulté de l'instruire suffisamment des faits de la cause.</p>
 
 <p>Agréez, etc.   BISSETTE.</p></q>
 
-<p>Du reste, le directeur de ce recueil n'aurait pas entretenu le public de ce démêlé tout personnel, si son adversaire ne lui avait le pre mier ouvert la voie en recourant à la publicité. On a pu remarquer qu'il n'a même pas été parlé, dans le dernier numéro de la Revue des Colonies, du duel où M. Cicéron a été blessé, tant cela avait paru à M. Bissette peu important pour ses lecteurs.</p>
+<p>Du reste, le directeur de ce recueil n'aurait pas entretenu le public de ce démêlé tout personnel, si son adversaire ne lui avait le premier ouvert la voie en recourant à la publicité. On a pu remarquer qu'il n'a même pas été parlé, dans le dernier numéro de la <bibl type="periodical">Revue des Colonies</bibl>, du duel où M. Cicéron a été blessé, tant cela avait paru à M. Bissette peu important pour ses lecteurs.</p>
 </div>
 
 <div>
 <head>NOUVELLES DIVERSES.</head>
 
-<p>Le Moniteur publie l'ordonnance suivante, en date du 29 octobre:</p>
+<p>Le <bibl type="periodical">Moniteur</bibl>  publie l'ordonnance suivante, en date du 29 octobre :</p>
 
-<quote><p>"La démission donnée par M. le maréchal Gérard, président du conseil, ministre secrétaire-d'état au département de la guerre, est acceptée.</p>
-<p>L'intérim du ministère de la guerre sera rempli par M. de Rigny, ministre des affaires étrangères."</p></quote>
+<quote><p>"La démission donnée par M. le <persName ref="#EMG">maréchal Gérard</persName> , président du conseil, ministre secrétaire-d'état au département de la guerre, est acceptée.</p>
 
-<p>- M. Joseph Duton-Inginac, capitaine aide-de-camp du général haitien Inginac, son père, et secrétaire du cabinet du président Boyer, vient de mourir inopinément au Havre, au moment où il se disposait à retourner dans sa patrie. M. Duton-Inginae n'était âgé que de 20 ans. Nous l'avions vu, le jour même de son départ de Paris, plein de santé et de vie. Sa mort prématurée sera una sujet de regrets et de deuil, non seulement pour sa famille, mais encore pour son pays. La République Haitienne fondait les plus justes espérances sur cet honorable citoyen. Ses restes, déposés au Havre dans la chapelle Saint-Roch, seront prochainement <pb n="38"/>transportés à Haiti, faible consolation pour sa famille, dont il était tendrement aimé et qui ne s'attend pas sans doute à ne revoir de lui que sa dépouille inanimée.</p>
+<p>L'intérim du ministère de la guerre sera rempli par <persName ref="#HR">M. de Rigny</persName>, ministre des affaires étrangères."</p></quote>
 
-<p>- Naguère a été posée, à Londres, la première pierre d'un édifice érigé en mémoire de l'abolition de l'esclavage colonial. L'emplacement choisi est dans Fischer-Street, Red-Lion-Square; l'étage inférieur servira d'école du dimanche, et ordinaire pour les enfans des deux sexes; l'étage supérieur renfermera douze chambres d'aumônes (alms-rooms); la fondation forme une dépendance de l'église et congrégation baptiste d'Eagle-Street; ministres : MM. J. Ivimey et Overbury. Une nombreuse assemblée s'est réunie dans le temple, et après le chant de quelques hymnes de Watts, le révérend F. Price, de Devonshire-Square, ouvrit la solennité par la lecture du psaume 126 et prononça une prière d'action de graces. Le révérend J. Ivimey présenta à l'assemblée le révérend W. Knibb, qui a fait des voyages et des efforts inouis pour la cause de la liberté des pauvres nègres, et qui a parcouru, dans ces pélermages de charité, plus de neuf cents milles. Après un dis cours de ce zélé missionnaire, le cortège se forma et l'on se rendit sur le terrain; là le président de la séance, M. H. Pownal, dans une vive et intéressante allocation, fit l'historique des efforts tentés pour l'abolition de la traite depuis son introduction par les Espa gnols, en 1505, jusqu'aux Clarckson et aux Wilberforce. Ensuite un homme de couleur, M. Robert Smith, fut introduit dans le cercle immense des assistans, brisa en morceaux une chaine d'esclave et un de ces épouvantables fouets de charretiers, l'instrument ordi naire du supplice des malheureux noirs, et ces curieux monumens d'un fléau qui va finir furent déposés dans une cavité de la pre mière pierre, pendant que l'assemblée entonnait ces vers d'un cantique :</p>
+<p>- M. <persName ref="#JDI">Joseph Duton-Inginac</persName>, capitaine aide-de-camp du général haitien <persName ref="#JBI">Inginac</persName>, son père, et secrétaire du cabinet du président <persName ref="#JPB">Boyer</persName>, vient de mourir inopinément au <placeName ref="#Hav">Havre</placeName>, au moment où il se disposait à retourner dans sa patrie. M. Duton-Inginae n'était âgé que de 20 ans. Nous l'avions vu, le jour même de son départ de Paris, plein de santé et de vie. Sa mort prématurée sera una sujet de regrets et de deuil, non seulement pour sa famille, mais encore pour son pays. La République Haitienne fondait les plus justes espérances sur cet honorable citoyen. Ses restes, déposés au Havre dans la <placeName  ref="#CSR">chapelle Saint-Roch</placeName> , seront prochainement <pb n="38"/>transportés à <placeName ref="#HT">Haïti</placeName>, faible consolation pour sa famille, dont il était tendrement aimé et qui ne s'attend pas sans doute à ne revoir de lui que sa dépouille inanimée.</p>
 
-<p><q>Enfans infortunes des rives africaines,
-Contemples ces débris de vos dernières chaines; 
-Mélez votre voix libre à nos liyumes sacrés, 
-Et bénissez le Dien qui vous a délivrés,</q></p>
+<p>- Naguère a été posée, à <placeName ref="#Lo">Londres</placeName>, la première pierre d'un édifice érigé en mémoire de l'abolition de l'esclavage colonial. L'emplacement choisi est dans Fischer-Street, <placeName ref="#RLS">Red-Lion-Square</placeName> ; l'étage inférieur servira d'école du dimanche, et ordinaire pour les 
+<choice>
+   <orig>enfans</orig>
+   <reg>enfants</reg>
+</choice> 
+des deux sexes ; l'étage supérieur renfermera douze <emph>chambres d'aumônes </emph>(<emph>alms-rooms</emph>); la fondation forme une dépendance de l'église et congrégation baptiste d'Eagle-Street ; ministres : MM. J. <persName ref="#JI">Ivimey</persName> et <persName ref="#Ov">Overbury</persName>. Une nombreuse assemblée s'est réunie dans le temple, et après le chant de quelques hymnes de <persName ref="#IW">Watts</persName>, le révérend <persName ref="#FP">F. Price</persName>, de Devonshire-Square, ouvrit la solennité par la lecture du <bibl type="monogr">psaume 126</bibl> et prononça une prière d'action de graces. Le révérend J. Ivimey présenta à l'assemblée le révérend <persName ref="#WK"> W. Knibb</persName>, qui a fait des voyages et des efforts inouïs pour la cause de la liberté des pauvres nègres, et qui a parcouru, dans ces pélerinages de charité, plus de neuf cents milles. Après un discours de ce zélé missionnaire, le cortège se forma et l'on se rendit sur le terrain ; là le président de la séance, <persName ref="#MHP">M. H. Pownal</persName>, dans une vive et intéressante allocation, fit l'historique des efforts tentés pour l'abolition de la traite depuis son introduction par les Espagnols, en <date>1503</date>, jusqu'aux <persName ref="#TCL">Clarckson</persName> et aux <persName ref="#WW">Wilberforce</persName>. Ensuite un homme de couleur, M. <persName ref="#RSm">Robert Smith</persName>, fut introduit dans le cercle immense des
+<choice>
+   <orig>assistans</orig>
+   <reg>assistants</reg>
+</choice> 
+, brisa en morceaux une chaine d'esclave et un de ces épouvantables fouets de charretiers, l'instrument ordinaire du supplice des malheureux noirs, et ces curieux 
+<choice>
+   <orig>monumens</orig>
+   <reg>monuments</reg>
+</choice>  
+d'un fléau qui va finir furent déposés dans une cavité de la première pierre, pendant que l'assemblée entonnait ces vers d'un cantique :</p>
+
+<p><q>
+<choice>
+   <orig>Enfans</orig>
+   <reg>Enfants</reg>
+</choice> 
+infortunés des rives africaines,
+Contemplez ces débris de vos dernières chaînes ; 
+Mélez votre voix libre à nos hymnes sacrés, 
+Et bénissez le Dieu qui vous a délivrés,</q></p>
 
 <p>La pierre fut alors scellée par l'architecte. L'édifice achevé présentera une belle façade, et une inscription, au-dessus de la principale entrée, rappellera le grand événement dont une généreuse charité a voulu perpétuer ainsi la mémoire.</p><pb n="39"/>
 
