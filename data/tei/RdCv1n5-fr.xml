@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n5-fr">
+   <?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+   <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -788,25 +788,40 @@ Et bénissez le Dieu qui vous a délivrés,</q></p>
 
 <p>La pierre fut alors scellée par l'architecte. L'édifice achevé présentera une belle façade, et une inscription, au-dessus de la principale entrée, rappellera le grand événement dont une généreuse charité a voulu perpétuer ainsi la mémoire.</p><pb n="39"/>
 
-<p>- On a frappé, en Angleterre, une médaille en mémoire de l'abolition de l'esclavage des noirs. Il est impossible de représenter d'une manière plus ingénieuse et plus saisissante tout à la fois que ne l'a fait M. Davis Birm, et l'horrible condition des nègres dans leur état d'esclavage, et leurs touchantes impressions au moment où, foulant enfin d'un pied libre les instrumens de leur torture, ils tournent leurs regards vers le ciel avec une religieuse gratitude. La face de cette médaille représente un nègre contemplant le soleil, ayant les bras ouverts et tenant dans ses mains une chaine brisée; sous ses pieds se trouve le fouet homicide, dont les lanières ensanglantées sont détachées du manche réduit en pièces. On lit pour exergue: Ceci a été fait par l'Éternel, et a été une chose merveilleuse devant nos year. Psaume CXVIII, v. 25.-1 août 1834. Le revers porte: En commémoration de l'abolition de l'esclavage dans les possessions coloniales de la Grande-Bretagne, sous le règne de Guillaume IV. (Le Semeur.)</p>
+<p>- On a frappé, en <placeName ref="#ANG">Angleterre</placeName>, une médaille en mémoire de l'abolition de l'esclavage des noirs. Il est impossible de représenter d'une manière plus ingénieuse et plus saisissante tout à la fois que ne l'a fait M. <persName ref="#DB">Davis Birm</persName>, et l'horrible condition des nègres dans leur état d'esclavage, et leurs touchantes impressions au moment où, foulant enfin d'un pied libre les 
+<choice>
+   <orig>instrumens</orig>
+   <reg>instruments</reg>
+</choice> 
+de leur torture, ils tournent leurs regards vers le ciel avec une religieuse gratitude. La face de cette médaille représente un nègre contemplant le soleil, ayant les bras ouverts et tenant dans ses mains une chaine brisée ; sous ses pieds se trouve le fouet homicide, dont les lanières ensanglantées sont détachées du manche réduit en pièces. On lit pour exergue : <quote> "Ceci a été fait par l'Éternel, et a été une chose merveilleuse devant nos yeux. Psaume CXVIII, v. 25.-<date when="1834-08-01">1 août 1834</date> ."</quote> Le revers porte: <quote>"En commémoration de l'abolition de l'esclavage dans les possessions coloniales de la Grande-Bretagne, sous le règne de <persName ref="#GIV">Guillaume IV</persName> . (Le Semeur.<!--the newspaper ?-->)"</quote></p>
 
-<p>- Nous sommes heureux de faire connaître un trait d'une générosité rare, qui honore l'humanité, de la Société britannique et étrangère pour la propagation des saintes écritures (The British and Foreign Bible society).</p>
+<p>- Nous sommes heureux de faire connaître un trait d'une générosité rare, qui honore l'humanité, de la <emph>Société britannique et étrangère pour la propagation des saintes écritures</emph> (<emph>The British and Foreign Bible society</emph>).</p>
 
-<p>Cette Société vient de voter une somme de 20,000 livres sterling (500,000 francs) pour contribuer à l'instruction religieuse des noirs. On distribuera un exemplaire du Nouveau Testament et un recueil de pseaumnes à tous les esclaves sachant lire qui auront été affranchis le premier jour d'août 1854. Ceux qui n'auront point cette première connaissance n'en participeront pas moins au même bienfait si, étant chefs de familles, ils ont des enfans qui savent lire ou apprennent à lire.</p>
+<p>Cette Société vient de voter une somme de 20,000 livres sterling (500,000 francs) pour contribuer à l'instruction religieuse des noirs. On distribuera un exemplaire du <bibl type="monogr">Nouveau Testament</bibl>  et un recueil de pseaumnes à tous les esclaves sachant lire qui auront été affranchis le premier jour d'<date>août 1854</date>. Ceux qui n'auront point cette première connaissance n'en participeront pas moins au même bienfait si, étant chefs de familles, ils ont des 
+<choice>
+   <orig>enfans</orig>
+   <reg>enfants</reg>
+</choice>
+qui savent lire ou apprennent à lire.</p>
 
-<p>Dans un but également louable, la Société pour la distribution des publications religieuses (The Religions tracts society) avait voté l'année dernière pour 400 livres sterling (10,000 franes) d'ou vrages divers destinés à former de petites bibliothèques à l'usage des noirs. Nous apprenons que cette société philantropique a pris récemment la résolution de faire distribuer dans les colonies anglaises un grand nombre d'autres publications, où les esclaves affranchis pourront puiser les connaissances qui conviennent à leur nouvelle condition.</p>
+<p>Dans un but également louable, la <emph>Société pour la distribution des publications religieuses</emph> (<emph>The Religions tracts society</emph>) avait voté l'année dernière pour 400 livres sterling (10,000 franes) d'ouvrages divers destinés à former de petites bibliothèques à l'usage des noirs. Nous apprenons que cette société philantropique a pris récemment la résolution de faire distribuer dans les colonies anglaises un grand nombre d'autres publications, où les esclaves affranchis pourront puiser les connaissances qui conviennent à leur nouvelle condition.</p>
 
-<p>- Des lettres de la Barbade, en date du 10 septembre, annon<pb n="40"/>cent que la tranquillité la plus parfaite régnait dans cette colonic et dans les iles voisines, y compris Saint-Christophe, où l'on avait craint des désordres. Berbice était aussi dans un état satisfaisant à la date du 1 septembre.</p>
+<p>- Des lettres de la <placeName ref="#BAR">Barbade</placeName> , en date du 10 septembre, annon<pb n="40"/>cent que la tranquillité la plus parfaite régnait dans cette colonic et dans les îles voisines, y compris <placeName ref="#StC"> Saint-Christophe</placeName>, où l'on avait craint des désordres. <placeName ref="#BER">Berbice</placeName> était aussi dans un état satisfaisant à la date du 1 septembre.</p>
 
-<p>- M. de Scholten, gouverneur des possessions danoises dans les Indes occidentales, a présenté au gouvernement du Danemarck un mémoire très étendu sur les mesures à prendre pour opérer l'en tière émancipation des noirs qui y sont encore en esclavage; une commission a été nommée aussitôt pour examiner le plan du gou verneur et pour en faire le plus promptement possible son rapport, afin que M. de Scholten, avant son départ pour se rendre à la colonie de Saint-Thomas, chef-lieu de son gouvernement, puisse recevoir toutes les instructions nécessaires, ou qu'au moins les principes d'après lesquels il aura à agir soient bien établis.</p>
+<p>- <persName ref="#SC">M. de Scholten</persName>, gouverneur des possessions danoises dans les <placeName ref="#InO">Indes occidentales</placeName>, a présenté au gouvernement du <placeName ref="#DAN">
+<choice>
+   <orig>Danemarck</orig>
+   <reg>Danemark</reg>
+</choice></placeName> 
+un mémoire très étendu sur les mesures à prendre pour opérer l'entière émancipation des noirs qui y sont encore en esclavage ; une commission a été nommée aussitôt pour examiner le plan du gouverneur et pour en faire le plus promptement possible son rapport, afin que M. de Scholten, avant son départ pour se rendre à la colonie de <placeName ref="#StT">Saint-Thomas</placeName>, chef-lieu de son gouvernement, puisse recevoir toutes les instructions nécessaires, ou qu'au moins les principes d'après lesquels il aura à agir soient bien établis.</p>
 
-<p>- Les feuilles de New-York annoncent que le 24 septembre, àl'occasion d'une ascension de ballons, quelques nègres ont été mal traités et obligés de se soustraire à la fureur sans motif des blancs. Les journaux s'élèvent avec force contre ces actes barbares.</p>
+<p>- Les feuilles de <placeName ref="#NY">New-York</placeName>  annoncent que le 24 septembre, à l'occasion d'une ascension de ballons, quelques nègres ont été maltraités et obligés de se soustraire à la fureur sans motif des blancs. Les journaux s'élèvent avec force contre ces actes barbares.</p>
 
-<p>- Les journaux de Caracas annoncent un événement terrible qui aurait occasioné la perte presque totale de l'ile Sainte-Marthe. Dans les derniers jours de mai, l'éruption d'un volcan affreux, précédée et suivie de 45 secousses d'un tremblement de terre epouvantable, aurait submergé une partie de la ville. La presque totalité des édifices, grands et petits, aurait été détruite. On ne cite que pen de victimes, la population entière ayant eu le temps de se réfugier dans les bois qui garnissent les hauteurs principales. Quelques maisons seulement sont restées debout au milieu de cet amas de ruines.</p>
+<p>- Les journaux de <placeName ref="#CARA">Caracas</placeName>  annoncent un événement terrible qui aurait occasioné la perte presque totale de l'<placeName ref="#StMa">île Sainte-Marthe</placeName>. Dans les derniers jours de mai, l'éruption d'un volcan affreux, précédée et suivie de 45 secousses d'un tremblement de terre épouvantable, aurait submergé une partie de la ville. La presque totalité des édifices, grands et petits, aurait été détruite. On ne cite que pen de victimes, la population entière ayant eu le temps de se réfugier dans les bois qui garnissent les hauteurs principales. Quelques maisons seulement sont restées debout au milieu de cet amas de ruines.</p>
 
-<p>Cette ile n'offre plus maintenant que l'aspect de la désolation la plus complète, et ses malheureux habitans n'ont plus d'espoir que dans la pitié qu'ils inspirent et dans la commisération de leurs voisins.</p>
+<p>Cette île n'offre plus maintenant que l'aspect de la désolation la plus complète, et ses malheureux habitans n'ont plus d'espoir que dans la pitié qu'ils inspirent et dans la commisération de leurs voisins.</p>
 
-<p>- M. Dupetit-Thouars, capitaine de vaisseau, vient d'être chargé d'une mission du gouvernement auprès de la République d'Haiti. Cet officier va prendre le commandement de la corvette la Créole, déjà en rade de Brest. Le brick le Cuirassier fait partie de cette expédition.</p>
+<p>- M. <persName>Dupetit-Thouars</persName>, capitaine de vaisseau, vient d'être chargé d'une mission du gouvernement auprès de la <placeName ref="#HT">République d'Haiti</placeName>. Cet officier va prendre le commandement de la corvette <emph>la Créole</emph>, déjà en rade de <placeName ref="#BRE">Brest</placeName> . Le brick <emph>le Cuirassier </emph> fait partie de cette expédition.</p>
 
 <p>-M. Auguste Périnon, homme de couleur de la Martinique,<pb n="41"/> près avoir passé avec distinction deux années à l'école Polytech nique, vient d'entrer, sur sa demande, en qualité d'officier dans l'artillerie de la marine. M. Périnon a obtenu son grade au concours. Nous annonçons cette nouvelle avec bonheur à nos jeunes compatriotes de couleur. Qu'ils démentent, par d'honorables tra vaux et en faisant preuve de capacité dans toutes les carrières, les indignes préjugés de leurs oppresseurs.</p>
 
@@ -814,7 +829,7 @@ Et bénissez le Dieu qui vous a délivrés,</q></p>
 
 <p>J'ai rendu compte, dans le dernier numéro de la Revue des Colonies, d'une conversation que j'ai ene avec l'ancien procureur général de la Martinique, qui m'a fait ARQUER, au mépris de mon pourvoi en cassation.</p>
 
-<p>Une lettre-circulaire, signée De Lucy, vient d'être publiée; le signataire déclare que ce qu'il a fait, il a dû le faire.</p>
+<p>Une lettre-circulaire, signée De Lucy, vient d'être publiée ; le signataire déclare que ce qu'il a fait, il a dû le faire.</p>
 
 <p>J'ai reproché à l'ancien procureur-général sa conduite à l'occa sion de l'exécution précipitée de l'arrêt qui me condamnait, et le fait ignoble d'avoir arraché par menace à ma femme une lettre de consolation que je lui adressais en descendant de l'échafaud, et qu'il brûla après l'avoir lue. Ces actes, je les lui ai reproches en face; et il les appelle devoirs accomplis sans passion comme sans faiblesse! Cet homme est ainsi fait; cet homme ne sent pas que ce sont là des actes infâmes; cet homme n'a pas conscience qu'il a été atroce et lâche en 1824: il prétend ici, à la face d'un peuple civilisé, que ce qu'il a fait, il a dû le faire. Mépris done et exécration à cet homme! Exécration et mépris!</p>
 <p>BISSETTE.</p><pb n="42"/>

@@ -16,7 +16,8 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
-   <text>
+   <text xml:lang="fr">
+      <front/>
       <body>
 
          <div>
@@ -109,7 +110,7 @@
                l'avilissement. <choice>
                   <orig>A</orig>
                   <reg>À</reg>
-               </choice> la Martinique, ce supplice est confié aux soins d'un servant de prison,<pb n="4"/>dit <emph>commandeur</emph>. Cette peine, ordonnée par le commissaire de
+               </choice> la <placeName ref="#MQ">Martinique</placeName>, ce supplice est confié aux soins d'un servant de prison,<pb n="4"/>dit <emph>commandeur</emph>. Cette peine, ordonnée par le commissaire de
                police ou le procureur du roi, a lieu pour la plus légère contravention ; pour un
                manque d'égard ou de respect envers un individu de l'une des classes libres, pour un
                retard à la rentrée du soir après la retraite, par un caprice du maître et sur sa
@@ -262,7 +263,7 @@ et nécessitent sa permanence sur la <placeName ref="#PlB">place Bertin</placeNa
 <orig>argumens</orig>
 <reg>arguments</reg>
 </choice> 
-irrésistibles que font valoir dans ses bureaux les membres de cet ordre judiciaire des colonies qui, après chaque arrêt <emph>mémorable</emph>, viennent en France en justifier les motifs. Les mêmes hommes, assis aux mêmes fauteuils, ne cessent pas d'administrer la justice à leur manière. Tout reste impuni. Le ministère fait plus, il récompense : la croix d'officier de la Légion d'Honneur donnée au chef, la croix de légionnaire donnée aux subalternes, voilà la pierre dont on couvre les fosses mouvantes de la Grosse-Roche. Mais qu'en résulte-t-il ? Les populations ne peuvent plus avoir confiance dans leurs magistrats. Un accusé, aux yeux de ces hommes émancipés d'hier, est un condamné à mort ou aux galères. <persName ref="#Cé">Césaire</persName>, leur camarade, traduit aux assises et condamné à mort, ajoute à tort ou à raison à leur conviction. 
+irrésistibles que font valoir dans ses bureaux les membres de cet ordre judiciaire des colonies qui, après chaque arrêt <emph>mémorable</emph>, viennent en France en justifier les motifs. Les mêmes hommes, assis aux mêmes fauteuils, ne cessent pas d'administrer la justice à leur manière. Tout reste impuni. Le ministère fait plus, il récompense : la croix d'officier de la Légion d'Honneur donnée au chef, la croix de légionnaire donnée aux subalternes, voilà la pierre dont on couvre les fosses mouvantes de la Grosse-Roche. Mais qu'en résulte-t-il ? Les populations ne peuvent plus avoir confiance dans leurs magistrats. Un accusé, aux yeux de ces hommes émancipés d'hier, est un condamné à mort ou aux galères. <persName ref="#Ces">Césaire</persName>, leur camarade, traduit aux assises et condamné à mort, ajoute à tort ou à raison à leur conviction. 
 <choice>
 <orig>A</orig>
 <reg>À</reg>
@@ -278,7 +279,7 @@ dans des promesses d'amnistie, ils se laissent désarmer sans combattre. Les voi
 
 <p>22 autres sont condamnés aux galères à perpétuité.</p>
 
-<p>25 enfin à la déportation au Sénégal.</p>
+<p>25 enfin à la déportation au <placeName ref="#SEN">Sénégal</placeName>.</p>
 
 <p>62 
 <choice>
@@ -334,7 +335,7 @@ les plus vulgaires dans les sociétés civilisées ne suffisaient pas pour faire
 
 <p> Comment qualifier ce mauvais vouloir, ce bas et cruel entêtement qui fait refuser le pourvoi des esclaves, en présence du texte positif de la législation actuelle des colonies des Antilles.</p>
 
-<p>En effet, si l'article 9 de l'<bibl type="legal">ordonnance du <date>5 juillet 1827</date></bibl> n'admet pour les esclaves que le recours à la clémence du roi, il importe de remarquer que cette <bibl type="legal">ordonnance du <date>4 juillet 1827</date></bibl> n'était qu'une loi provisoire et de transition : <q>“Considérant, dit le préambule, que le travail qui a été prescrit pour l'application aux colonies  du code d'instruction criminelle n'est pas encore terminé, et voulant hater le moment où nos sujets des <placeName>Antilles</placeName> jouiront des principaux avantages qui résultent des dispositions de ce code pour l'ordre public et les accusés.”</q></p>
+<p>En effet, si l'article 9 de l'<bibl type="legal">ordonnance du <date>5 juillet 1827</date></bibl> n'admet pour les esclaves que le recours à la clémence du roi, il importe de remarquer que cette ordonnance du <date>4 juillet 1827</date> n'était qu'une loi provisoire et de transition : <q>“Considérant, dit le préambule, que le travail qui a été prescrit pour l'application aux colonies  du code d'instruction criminelle n'est pas encore terminé, et voulant hater le moment où nos sujets des <placeName>Antilles</placeName> jouiront des principaux avantages qui résultent des dispositions de ce code pour l'ordre public et les accusés.”</q></p>
 
 <p> Cette promesse fut renouvelée par l'<bibl type="legal">ordonnance du <date>24 septembre 1828</date></bibl>. Et enfin, le 12 octobre de la même année, fut promulguée l'ordonnance portant application du code d'instruction criminelle à l'île de la Martinique et à l'île de la Guadeloupe.</p>
 
@@ -346,7 +347,7 @@ les plus vulgaires dans les sociétés civilisées ne suffisaient pas pour faire
 
 <p>Or, dans ce dernier état de la législation, les esclaves ont le droit de se pourvoir en cassation ; cela ne peut faire l'objet d'un doute. On n'y trouve plus, dans les articles 417 et suivant, aucune des dispositions prohibives des lois précédentes.</p><pb n="15"/>
 
-<p>C'est l'accusé qui peut se pourvoir. Cette expression s'entend nécessairement des esclaves aussi bien que des libres, lorsqu'il est constant que l'<bibl>ordonnance du <date>12 octobre 1828</date></bibl> est appliquée aux uns comme aux autres dans toutes ses dispositions.</p>
+<p>C'est l'accusé qui peut se pourvoir. Cette expression s'entend nécessairement des esclaves aussi bien que des libres, lorsqu'il est constant que l'<bibl type="legal">ordonnance du <date>12 octobre 1828</date></bibl> est appliquée aux uns comme aux autres dans toutes ses dispositions.</p>
 
 <p>Dans tous les cas, elle n'interdit plus formellement le recours en cassation aux esclaves. Elle ne dit plus, comme l'ordonnance de 1827, qu'ils n'ont d'autres recours qu'à la clémence du roi. Il est constant qu'au contraire elle abroge cette disposition, et avec elle l'article confirmatif de l'ordonnance de septembre 1828.</p>
 
@@ -615,7 +616,7 @@ des troubles sérieux dans cette ville. La populace s'était ameutée et avait a
 
 <q><p>Il parait, dit-il, que le point de départ de ces manifestations a été la formation à New-York d'une société pour l'émancipation des noirs dans les provinces sud de l'Union.</p>
 
-<p>Dès le <date>mercredi 9 juillet</date>, une première invasion eut lieu dans la <placeName>chapelle de Chatam-Street</placeName> ; mais la foule se retira sans commettre de dégât. Elle se porta sur la maison de <persName ref="#LWT">M. Lewis-Tappan</persName> dans <placeName>Rose Street</placeName> ; une brique fut lancée sur les croisées ; mais sur l'avis qu'il y avait du trouble au <placeName>théâtre de Bowery</placeName>, la multitude s'y élança, les portes de la salle furent forcées, et les excuses demandées au régisseur ayant été présentées par <persName ref="#HA">M. Hamblis</persName>, né en <placeName ref="#AN">Angleterre</placeName>, furent accueillies par les cris : <emph>
+<p>Dès le <date>mercredi 9 juillet</date>, une première invasion eut lieu dans la <placeName>chapelle de Chatam-Street</placeName> ; mais la foule se retira sans commettre de dégât. Elle se porta sur la maison de <persName ref="#LWT">M. Lewis-Tappan</persName> dans <placeName>Rose Street</placeName> ; une brique fut lancée sur les croisées ; mais sur l'avis qu'il y avait du trouble au <placeName>théâtre de Bowery</placeName>, la multitude s'y élança, les portes de la salle furent forcées, et les excuses demandées au régisseur ayant été présentées par <persName ref="#Ham"><orig>M. Hamblis</orig><corr>M. Hamblin</corr></persName>, né en <placeName ref="#AN">Angleterre</placeName>, furent accueillies par les cris : <emph>
 <choice>
 <orig>A</orig>
 <reg>À</reg>
@@ -680,7 +681,7 @@ peu près à la même heure, un autre rassemblement attaqua l’église africain
 
 <p>Du reste si, à New-York, une partie de la population s'est soulevée coutre les abolitionistes, à la <placeName ref="#Nou">Nouvelle-Orléans</placeName> le peuple s'était porté naguère à un mouvement analogue, mais en sens inverse, contre une habitation dont le propriétaire avait traité sans pitié ses esclaves. On ne peut donc rien inférer de bien positif sur les dispositions actuelles de la population des États-Unis à l'égard de l'abolition de l'esclavage.</p>
 
-<p>La <emph><orgName ref="#SDA">Société des abolitionistes</orgName></emph> qui s'est formée à New-York a déclaré, dans un manifeste qu'elle a publié à la suite des derniers troubles, qu'elle ne solliciterait jamais du congrès une loi inconstitutionnelle comme le serait une loi pour l'abolition de l'esclavage. Cela a été très mal compris par quelques publicistes français. Le congrès, aux États-Unis, n'a pour mission que de traiter les affaires générales de l'Union ; il ne saurait intervenir, sans abus de pouvoir, dans certaines questions qui ne peuvent être résolues, en droit et en fait, d'après la constitution qui lie les uns aux autres les États qui forment la grande république américaine, que dans les assemblées, indépendantes à plusieurs égards, de chaque État. Dès lors il n'appartient pas au congrès de décider telle ou telle question d'une manière obligatoire pour tous les États. La question de l'abolition de l'esclavage est malheureusement une de celles-là. Dans les nombreux États où l'esclavage 
+<p>La <orgName ref="#SDA"><emph>société des abolitionistes</emph> qui s'est formée à New-York</orgName> a déclaré, dans un manifeste qu'elle a publié à la suite des derniers troubles, qu'elle ne solliciterait jamais du congrès une loi inconstitutionnelle comme le serait une loi pour l'abolition de l'esclavage. Cela a été très mal compris par quelques publicistes français. Le congrès, aux États-Unis, n'a pour mission que de traiter les affaires générales de l'Union ; il ne saurait intervenir, sans abus de pouvoir, dans certaines questions qui ne peuvent être résolues, en droit et en fait, d'après la constitution qui lie les uns aux autres les États qui forment la grande république américaine, que dans les assemblées, indépendantes à plusieurs égards, de chaque État. Dès lors il n'appartient pas au congrès de décider telle ou telle question d'une manière obligatoire pour tous les États. La question de l'abolition de l'esclavage est malheureusement une de celles-là. Dans les nombreux États où l'esclavage 
 <choice>
 <orig>à</orig>
 <reg>a</reg>
@@ -721,7 +722,7 @@ la santé des peuples des colonies nouvellement émancipés ! (Bravos redoublés
 <orig>applaudissemens</orig>
 <reg>applaudissements</reg>
 </choice>
-. Il répondit qu'il allait, avec plaisir, donner le détail des choses qu'il avait pu observer durant le temps qu'il avait eu l'honneur d'être gouverneur de la Jamaïque : "Il est quelques cas, dit-il, auxquels je ne puis certainement penser qu'avec de tristes souvenirs et desquels je ne parlerai que légèrement, vu que tous griefs passés doivent être oubliés, autant au moins que les circonstances présentes le permettent, et particulièrement dans un moment pareil à celui-ci, où des Anglais nés-libres sont réunis pour célébrer le plus beau jour de leur histoire. Si les circonstances l'eussent permis, j'aurais désiré passer ce jour mémorable à la Jamaïque. Quel plaisir j'eusse éprouvé en voyant des milliers de visages heureux et joyeux saluant son aurore ! C'était le jour de naisssance de leur liberté. (Bravos.) Si ma santé l'eût permis, j'eusse sacrifié tout au monde pour me trouver au milieu d'eux. (Bravos.) Mon estimable ami m'ayant demandé de rendre compte de ce que j'ai vu à la Jamaïque, je vais tâcher de le satisfaire."</p>
+. Il répondit qu'il allait, avec plaisir, donner le détail des choses qu'il avait pu observer durant le temps qu'il avait eu l'honneur d'être gouverneur de la <placeName ref="#JA">Jamaïque</placeName> : "Il est quelques cas, dit-il, auxquels je ne puis certainement penser qu'avec de tristes souvenirs et desquels je ne parlerai que légèrement, vu que tous griefs passés doivent être oubliés, autant au moins que les circonstances présentes le permettent, et particulièrement dans un moment pareil à celui-ci, où des Anglais nés-libres sont réunis pour célébrer le plus beau jour de leur histoire. Si les circonstances l'eussent permis, j'aurais désiré passer ce jour mémorable à la Jamaïque. Quel plaisir j'eusse éprouvé en voyant des milliers de visages heureux et joyeux saluant son aurore ! C'était le jour de naisssance de leur liberté. (Bravos.) Si ma santé l'eût permis, j'eusse sacrifié tout au monde pour me trouver au milieu d'eux. (Bravos.) Mon estimable ami m'ayant demandé de rendre compte de ce que j'ai vu à la Jamaïque, je vais tâcher de le satisfaire."</p>
 
 <p>Après avoir prié l'assemblée d'excuser la brièveté de son discours, il continue :</p>
 
@@ -801,7 +802,7 @@ la prospérité politique et sociale des colonies !"</p>
 
 <head>ORGANISATION DE LA COLONIE D'ALGER</head>
 
-<p><bibl type="periodical"><title ref="#LM">Le Moniteur</title></bibl> du <date>15 août</date> publie diverses ordonnances relatives à nos possessions dans le nord de l'<placeName>Afrique</placeName>.</p>
+<p><bibl type="periodical"><title ref="#MU">Le Moniteur</title></bibl> du <date>15 août</date> publie diverses ordonnances relatives à nos possessions dans le nord de l'<placeName>Afrique</placeName>.</p>
 
 <p>La première ordonnance, datée du <date>27 juillet</date>, dispose que le commandement général et la haute administration des possessions françaises dans le nord de l'Afrique (ancienne régence d'<placeName ref="#Alg">Alger</placeName>) sont confiés à un gouverneur-général. Il exerce ses pouvoirs sous les ordres et la direction du ministre de la guerre.</p>
 
@@ -811,9 +812,9 @@ la prospérité politique et sociale des colonies !"</p>
 
 <p>Une seconde <bibl type="legal">ordonnance</bibl>, également du <date>27 juillet</date>, nomme <persName ref="#DRO">M. le lieutenant-général Drouet</persName>, <roleName>comte d'Erlon</roleName>, <roleName>gouverneur-général</roleName>.</p>
 
-<p>Puis vient l'<bibl type="legal">ordonnance sur la justice, datée du <date>10 août</date></bibl>. Il y aura des tribunaux de première instance à Alger, à <placeName ref="#BON">Bone</placeName> et à <placeName ref="#OR">Oran</placeName>, un tribunal de commerce et un tribunal supérieur à Alger. Des assesseurs musulmans sont attachés aux tribunaux de première instance d'Alger, de Bone et d'Oran. Les tribunaux indigènes sont maintenus. Il y aura des tribunaux israélites partout où besoin sera.</p>
+<p>Puis vient l'<bibl>ordonnance sur la justice, datée du <date>10 août</date></bibl>. Il y aura des tribunaux de première instance à Alger, à <placeName ref="#BON">Bone</placeName> et à <placeName ref="#OR">Oran</placeName>, un tribunal de commerce et un tribunal supérieur à Alger. Des assesseurs musulmans sont attachés aux tribunaux de première instance d'Alger, de Bone et d'Oran. Les tribunaux indigènes sont maintenus. Il y aura des tribunaux israélites partout où besoin sera.</p>
 
-<p>Par une quatrième <bibl type="legal">ordonnance</bibl>, du <date>12 août</date>, <persName ref="#LEP">M. Lepasquier</persName>, préfet du Finistère, est nommé intendant civil des possessions françaises dans le nord de l'Afrique, en remplacement de <persName ref="#GDB">M. Genty de Bussy</persName>.</p>
+<p>Par une quatrième <bibl>ordonnance</bibl>, du <date>12 août</date>, <persName ref="#LEP">M. Lepasquier</persName>, préfet du Finistère, est nommé intendant civil des possessions françaises dans le nord de l'Afrique, en remplacement de <persName ref="#GDB">M. Genty de Bussy</persName>.</p>
 
 <p>Par une autre <bibl type="legal">ordonnance du 12 août</bibl>, <persName ref="#LA">M. Laurence</persName>, député, est nommé commissaire spécial de la justice.</p>
 
@@ -823,11 +824,11 @@ la prospérité politique et sociale des colonies !"</p>
 
 <p>Président du tribunal supérieur d'Alger, <persName ref="#FIL">M. Filhon</persName>, <roleName>avocat général à la cour royale de <placeName ref="#BAS">Bastia</placeName></roleName> ;</p>
 
-<p>Juges dans les possessions françaises du nord de l'Afrique, MM. <persName ref="#BDM">Bonnet des Maisons</persName>, actuellement juge dans lesdites possessions ; <persName ref="#CLM">Cornisset-la-Mathe</persName>, idem ; <persName ref="#SAL">Salles</persName>, juge d'instruction au tribunal civil de <placeName ref="#LOU">Lourdes</placeName> ; <persName ref="#PD">Ponton-Damécourt (Louis)</persName>, ancien procureur du roi ; <persName ref="#SOL">Solvet</persName>, substitut du procureur du roi près le tribunal civil de <placeName ref="#SO">Soissons</placeName> ; <persName ref="#GI">Giaccobi</persName>, substitut du procureur du roi près le tribunal civil de <placeName ref="#QU">Quimper</placeName> ; <persName ref="#VE">Verdun</persName>, substitut du procureur du roi près le tribunal civil de <placeName ref="#VI">Vienne</placeName> ;</p>
+<p>Juges dans les possessions françaises du nord de l'Afrique, MM. <persName ref="#BDM">Bonnet des Maisons</persName>, actuellement juge dans lesdites possessions ; <persName ref="#CLM">Cornisset-la-Mathe</persName>, idem ; <persName ref="#SAL">Salles, juge d'instruction au tribunal civil de Lourdes</persName> ; <persName ref="#PD">Ponton-Damécourt (Louis), ancien procureur du roi</persName> ; <persName ref="#SOL">Solvet, substitut du procureur du roi près le tribunal civil de </persName> ; <persName ref="#GI">Giaccobi, substitut du procureur du roi près le tribunal civil de Quimper</persName> ; <persName ref="#VE">Verdun, substitut du procureur du roi près le tribunal civil de Vienne </persName>;</p>
 
-<p>Juges suppléans : MM. <persName ref="#GAU">Gaurans</persName>, avocat à <placeName ref="#TOU">Toulouse</placeName>, et <persName ref="#GE">Germain</persName>, avocat à <placeName ref="#SG">Saint-Gaudens</placeName>. Premier substitut du procureur général du roi à Alger : <persName ref="#LOY">M. Loyson</persName>, procureur du roi près le tribunal civil de <placeName ref="#COL">Colmar</placeName>.</p>
+<p>Juges suppléans : MM. <persName ref="#GAU">Gaurans, avocat à Toulouse</persName>, et <persName ref="#GE">Germain, avocat à Saint-Gaudens</persName>. Premier substitut du procureur général du roi à Alger : <persName ref="#LOY">M. Loyson, procureur du roi près le tribunal civil de Colmar</persName>.</p>
 
-<p>Substituts du procureur-général du roi à Alger : MM. <persName ref="#DA">Daverton</persName>, ancien procureur du roi près le tribunal civil de <placeName ref="#MELL">Melle</placeName> ; <persName ref="#REL">Renaud Lebon</persName>, avocat à <placeName ref="#Par">Paris</placeName> ; et <persName ref="#FL">Fleury</persName>, substitut du procureur du roi près le tribunal civil de <placeName ref="#CAS">Castellane</placeName>.</p><pb n="36"/>
+<p>Substituts du procureur-général du roi à Alger : MM. <persName ref="#DA">Daverton, ancien procureur du roi près le tribunal civil de Melle</persName> ; <persName ref="#REL">Renaud Lebon, avocat à Paris</persName> ; et <persName ref="#FL">Fleury, substitut du procureur du roi près le tribunal civil de Castellane</persName>.</p><pb n="36"/>
 
 </div>
 
@@ -835,7 +836,7 @@ la prospérité politique et sociale des colonies !"</p>
 
 <head>NOUVELLES DIVERSES</head>
 
-<p>On nous assure que <persName ref="#CT">M. Charles Télèphe</persName>, <roleName>officier de la garde nationale de la <placeName ref="#MQ">Martinique</placeName></roleName>, présentement à <placeName ref="#Par">Paris</placeName>, vient d'écrire une lettre au ministre de la marine et des colonies pour éclairer la religion de ce ministre sur l'épouvantable <rs type="event">affaire de la Grand' Anse</rs>. On sait que M. Télèphe a joué un rôle dans cette affaire : en sa qualité d'officier de la garde nationale, il fut investi de la confiance du gouverneur, dans un moment où l'on avait à craindre le parti que prendrait la masse des hommes de couleur en présence de leurs frères armés, qui, à l'imitation des blancs, s'étaient retranchés aussi dans le <placeName ref="#FC">camp du Fond-Capot</placeName>. M. Télèphe fut porteur de paroles d'amnistie pour les hommes de couleur. M. Télèphe explique, dit-on, dans sa lettre, toutes ces particularités au ministre. Nous ne pouvons qu'applaudir au sentiment de justice et de patriotisme qui a dicté cette lettre à cet officier.</p>
+<p>On nous assure que <persName ref="#CT">M. Charles Télèphe</persName>, <roleName>officier de la garde nationale de la <placeName ref="#MQ">Martinique</placeName></roleName>, présentement à <placeName ref="#Par">Paris</placeName>, vient d'écrire une lettre au ministre de la marine et des colonies pour éclairer la religion de ce ministre sur l'épouvantable <rs type="event">affaire de la Grand'Anse</rs>. On sait que M. Télèphe a joué un rôle dans cette affaire : en sa qualité d'officier de la garde nationale, il fut investi de la confiance du gouverneur, dans un moment où l'on avait à craindre le parti que prendrait la masse des hommes de couleur en présence de leurs frères armés, qui, à l'imitation des blancs, s'étaient retranchés aussi dans le <placeName ref="#FC">camp du Fond-Capot</placeName>. M. Télèphe fut porteur de paroles d'amnistie pour les hommes de couleur. M. Télèphe explique, dit-on, dans sa lettre, toutes ces particularités au ministre. Nous ne pouvons qu'applaudir au sentiment de justice et de patriotisme qui a dicté cette lettre à cet officier.</p>
 
 <p>- Dans une réunion des fondateurs de la <emph><orgName ref="#SAE">Société pour l'abolition de l'esclavage</orgName></emph>, qui a eu lieu le <date>15 août</date>, les membres 
 <choice>
@@ -852,12 +853,12 @@ discours, à la chambre des pairs, sur la traite des nègres, sont d'honorables
 <orig>antécédens</orig>
 <reg>antécédents</reg> 
 </choice>
-et de précieuses garanties. MM. <persName ref="#PASS">Passy</persName> et <persName ref="#OB">Odilon-Barrot</persName> ont été nommés vice-
+et de précieuses garanties. MM. <persName ref="#PAS">Passy</persName> et <persName ref="#OB">Odilon-Barrot</persName> ont été nommés vice-
 <choice>
 <orig>présidens</orig>
 <reg>présidents</reg> 
 </choice>
-, MM. <persName ref="#DEL">Delaborde </persName>et <persName ref="#FI">Isambert</persName>, secrétaires. M. Passy a été chargé d'écrire le programme des travaux que la Société se propose. M. Isambert préparera un travail sur les premières modifications qu'il importe d'introduire dans la législation coloniale relative aux esclaves. <persName ref="#GdL">M. Gaëtan de Larochefoucauld</persName> a consenti à rédiger une analyse des travaux de la <emph><orgName ref="#SMC">Société de la morale chrétienne</orgName></emph> dans leurs rapports avec l'abolition de l'esclavage.</p>
+, MM. <persName ref="#AD">Delaborde </persName>et <persName ref="#FI">Isambert</persName>, secrétaires. M. Passy a été chargé d'écrire le programme des travaux que la Société se propose. M. Isambert préparera un travail sur les premières modifications qu'il importe d'introduire dans la législation coloniale relative aux esclaves. <persName ref="#GdL">M. Gaëtan de Larochefoucauld</persName> a consenti à rédiger une analyse des travaux de la <emph><orgName ref="#SMC">Société de la morale chrétienne</orgName></emph> dans leurs rapports avec l'abolition de l'esclavage.</p>
 
 <p>- Une lettre de M. Gaëtan de Larochefoucauld, qui nous a été communiquée par M. Delaborde, secrétaire de la <emph>Société pour l'abolition de l'esclavage</emph>, annonce que plusieurs pairs de <placeName ref="#FR">France</placeName> et un grand nombre de députés ont témoigné le désir de faire partie de cette Société ; nous avons retenu le nom de <persName ref="#VERH">M. l'amiral Verhuell</persName>, connu par son excellent discours à la chambre des pairs sur la traite des noirs.</p>
 
@@ -881,7 +882,7 @@ et de précieuses garanties. MM. <persName ref="#PASS">Passy</persName> et <pers
 
 <div> 
 
-<p>On dit que <persName ref="#ANog">M. Arsène Nogues</persName>, procureur-général à la Martinique, travaille de toutes ses forces pour mériter la main d'une jeune personne créole, fille d'un riche colon blanc de la colonie. M. Arsène Nogues aura-t-il gagné ses éperons par l'arrêt de condamnation qu'il vient d'obtenir de la cour de la Martinique ?</p>
+<p>On dit que <persName ref="#ANog">M. Arsène Nogues, procureur-général à la Martinique</persName>, travaille de toutes ses forces pour mériter la main d'une jeune personne créole, fille d'un riche colon blanc de la colonie. M. Arsène Nogues aura-t-il gagné ses éperons par l'arrêt de condamnation qu'il vient d'obtenir de la cour de la Martinique ?</p>
 
 </div>
 
@@ -909,7 +910,7 @@ et de précieuses garanties. MM. <persName ref="#PASS">Passy</persName> et <pers
 
 <head><placeName ref="#MQ">MARTINIQUE</placeName></head>
 
-<p>On nous écrit de <placeName ref="StP">Saint-Pierre</placeName> :</p>
+<p>On nous écrit de <placeName ref="#StP">Saint-Pierre</placeName> :</p>
 
 <p>"........ Nos malheureux condamnés se sont pourvus en cassation. Vous avez ici la liste des condamnés à mort. On va, dit-on, faire imprimer l'arrrêt, que je ne manquerai pas de vous envoyer.</p>
 
@@ -1013,7 +1014,7 @@ en témoignage de leur gratitude profonde pour ces honorables défenseurs de leu
 
 <p>- On croyait généralement à Saint-Louis que le dénuement dans lequel se trouvaient les Maures Trarzas, par suite de la guerre qui a rompu leurs relations commerciales avec le Sénégal, les forcerait avant peu à demander la paix aux conditions qu'ils ont jusqu'à présent repoussées.</p>
 
-<p>- Par <bibl type="legal">arrêt du <date>9 avril 1854</date></bibl>, le conseil d'appel du Sénégal et dépendances, séant à Saint-Louis, a déclaré coupables du crime de traite des noirs dans la <placeName ref="#SALU">rivière de Salum</placeName>, dépendance de Sénégal, à l'aide de la goélette dite <emph>Laguila de Oro</emph>, et condamne par application des <bibl type="legal">articles 5, 4 et 5 de la loi du <date>4 mars 1851</date></bibl>, concernant la répression de la traite des noirs, et les <bibl type="legal">articles 21, 22 et 66 da code pénal</bibl>, savoir : <persName ref="#DP">Domingo Pratz</persName> et <persName ref="#TCA">Théodore Canot</persName> à cinq ans de travaux forcés, <persName ref="#FPC">Francisco de Paula Coll</persName> et <persName ref="#MR">Manuel Rodriguez</persName> à cinq ans de réclusion, et tous quatre à l'exposition et au carcan pendant une heure ; <persName ref="#BOLI">Barthélemy Olivier</persName>, <persName ref="#JMM">José-Maria Martorel</persName>, <persName ref="#LPA">Louis Palou</persName>, <persName ref="#JH">José Hubedas</persName>, <persName ref="#ATO">Andrès Torres</persName>, <persName ref="JF">Juan Frédérick</persName>, <persName ref="#JZ">Juan Zamora</persName>, <persName ref="#ABE">Antonio Berga</persName>, <persName ref="#JB">Jayme Bisbal</persName>, <persName ref="#JBG">Jean-Baptiste Grive</persName> et <persName ref="#AGA">Antoine Galone</persName> à un an d'emprisonnement ; et tous ensemble aux frais envers l'état.</p>
+<p>- Par <bibl type="legal">arrêt du <date>9 avril 1854</date></bibl>, le conseil d'appel du Sénégal et dépendances, séant à Saint-Louis, a déclaré coupables du crime de traite des noirs dans la rivière de Salum, dépendance de Sénégal, à l'aide de la goélette dite <emph>Laguila de Oro</emph>, et condamne par application des <bibl type="legal">articles 5, 4 et 5 de la loi du <date>4 mars 1851</date></bibl>, concernant la répression de la traite des noirs, et les <bibl type="legal">articles 21, 22 et 66 da code pénal</bibl>, savoir : <persName ref="#DP">Domingo Pratz</persName> et <persName ref="#TCA">Théodore Canot</persName> à cinq ans de travaux forcés, <persName ref="#FPC">Francisco de Paula Coll</persName> et <persName ref="#MR">Manuel Rodriguez</persName> à cinq ans de réclusion, et tous quatre à l'exposition et au carcan pendant une heure ; <persName ref="#BOLI">Barthélemy Olivier</persName>, <persName ref="#JMM">José-Maria Martorel</persName>, <persName ref="#LPA">Louis Palou</persName>, <persName ref="#JH">José Hubedas</persName>, <persName ref="#ATO">Andrès Torres</persName>, <persName ref="#JF">Juan Frédérick</persName>, <persName ref="#JZ">Juan Zamora</persName>, <persName ref="#ABE">Antonio Berga</persName>, <persName ref="#JB">Jayme Bisbal</persName>, <persName ref="#JBG">Jean-Baptiste Grive</persName> et <persName ref="#AGA">Antoine Galone</persName> à un an d'emprisonnement ; et tous ensemble aux frais envers l'état.</p>
 
 <p>Le même arrêt a prononcé la confiscation et ordonné la vente par qui de droit de ladite goëlette <emph>Languila de Oro</emph>.</p>
 
@@ -1038,13 +1039,13 @@ n'auront rien à craindre tant qu'ils n'auront à supporter que quelques attaque
 
 <head>MAURICE.</head>
 
-<p>On lit dans <bibl type="perdiodical"><title ref="#LC">le Cernéen</title></bibl> l'article suivant sur les colonies :</p>
+<p>On lit dans <bibl type="periodical"><title ref="#LC">le Cernéen</title></bibl> l'article suivant sur les colonies :</p>
 
 <p>"Les questions coloniales se rapportent à deux points de vue tout-à-fait distincts, soit qu'on les envisage relativement à l'émancipation des noirs, question anglaise qui ne peut tarder à devenir celle de toutes les nations civilisées, soit qu'on les considère sous le rapport matériel de la production, de l'économie et du développement commercial.</p>
 
-<p>L'émancipation des noirs est une question de principes ; et du jour où la traite fut abolie et repoussée, le principe a été posé. Celui qui plaide en faveur de l'esclavage ne doit-il pas en effet, s'il veut être conséquent, plaider aussi pour la traite ? On ne dit plus, remarque <persName ref="#MON">M. de Montvéran</persName>, l'abolition de l'esclavage, on dit l'émancipation des noirs ; et cette pudeur dans les termes annonce la solution de la question. C'est un fait puissant à objecter à ceux qui nient les progrès de la civilisation, que ce changement complet de l'opinion publique, qui regardait il y a un siècle la grande iniquité de la traite des noirs comme une chose juste et nécessaire. L'<placeName ref="#ANG">Angleterre</placeName>, qui se place aujourd'hui à la tête de ce mouvement philantropique, fut en effet la première à exercer la traite sur la côte occidentale de l'<placeName>Afrique</placeName>, et <persName ref="#QEI">la reine Élisabeth</persName>, avec toute sa cour, avait pris des actions dans cet infâme trafic, que continuèrent <persName ref="#KJI">Jacques Ier</persName> et <persName ref="#KCI">Charles Ier</persName>. Depuis <date>1670</date>, environ cinq millions de noirs ont été importés dans les <placeName>Antilles</placeName> et sur le <placeName>continent améri<pb n="43"/>cain</placeName> au nord de la ligne. Infidèles aux lois ordinaires de la population, 4,555,220 noirs et 2,458,000 mulâtres, métis et sang mêlés, représentent actuellement cette énorme souche. <placeName ref="#ADS">Au sud de la ligne</placeName>, deux millions de noirs brésiliens représentent peut-être encore plus d'infortunes.</p>
+<p>L'émancipation des noirs est une question de principes ; et du jour où la traite fut abolie et repoussée, le principe a été posé. Celui qui plaide en faveur de l'esclavage ne doit-il pas en effet, s'il veut être conséquent, plaider aussi pour la traite ? On ne dit plus, remarque <persName ref="#MON">M. de Montvéran</persName>, l'abolition de l'esclavage, on dit l'émancipation des noirs ; et cette pudeur dans les termes annonce la solution de la question. C'est un fait puissant à objecter à ceux qui nient les progrès de la civilisation, que ce changement complet de l'opinion publique, qui regardait il y a un siècle la grande iniquité de la traite des noirs comme une chose juste et nécessaire. L'<placeName ref="#ANG">Angleterre</placeName>, qui se place aujourd'hui à la tête de ce mouvement philantropique, fut en effet la première à exercer la traite sur la côte occidentale de l'<placeName>Afrique</placeName>, et <persName ref="#QEI">la reine Élisabeth</persName>, avec toute sa cour, avait pris des actions dans cet infâme trafic, que continuèrent <persName ref="#KJI">Jacques Ier</persName> et <persName ref="#KCI">Charles Ier</persName>. Depuis <date>1670</date>, environ cinq millions de noirs ont été importés dans les <placeName>Antilles</placeName> et sur le <placeName>continent améri<pb n="43"/>cain</placeName> au nord de la ligne. Infidèles aux lois ordinaires de la population, 4,555,220 noirs et 2,458,000 mulâtres, métis et sang mêlés, représentent actuellement cette énorme souche. Au sud de la ligne, deux millions de noirs brésiliens représentent peut-être encore plus d'infortunes.</p>
 
-<p>Les six colonies françaises comptent 270 mille esclaves, que les colons estiment 1,500 francs chacun ; les colonies espagnoles de <placeName ref="#CUB">Cuba</placeName> et de<placeName ref="#PR">Porto-Rico</placeName> en ont 320 mille, estimés 1,000 francs environ ; les dix-huit colonies anglaises du <placeName ref="#GdM">golfe du Mexique</placeName> et de <placeName ref="#IM">l'île de France (Maurice)</placeName> en ont 693,200, portés à 1,500 francs ; ce qui, avec les esclaves des colonies hollandaises, de <placeName ref="#SU">Surinam</placeName>, <placeName ref="#CU">Curaçao</placeName>, <placeName ref="#STE">Saint-Eustache</placeName> et <placeName ref="#SAB">Saba</placeName>, évalués à une centaine de millions, porterait l'indemnité réclamée à près de deux milliards pour l'<placeName ref="#EUR">Europe</placeName> seule. On ne peut nier que l'esclavage ne se soit développé sous le patronage du gouvernement ; mais l'émancipation des noirs ne doit pas être une source de bénéfices pour les colons, aux 
+<p>Les six colonies françaises comptent 270 mille esclaves, que les colons estiment 1,500 francs chacun ; les colonies espagnoles de <placeName ref="#CUB">Cuba</placeName> et de<placeName ref="#PR">Porto-Rico</placeName> en ont 320 mille, estimés 1,000 francs environ ; les dix-huit colonies anglaises du <placeName ref="#GdM">golfe du Mexique</placeName> et de <placeName ref="#IM">l'île de France (Maurice)</placeName> en ont 693,200, portés à 1,500 francs ; ce qui, avec les esclaves des colonies hollandaises, de <placeName ref="#SU">Surinam</placeName>, <placeName ref="#CU">Curaçao</placeName>, <placeName ref="#STE">Saint-Eustache</placeName> et <placeName ref="#SAB">Saba</placeName>, évalués à une centaine de millions, porterait l'indemnité réclamée à près de deux milliards pour l'Europe seule. On ne peut nier que l'esclavage ne se soit développé sous le patronage du gouvernement ; mais l'émancipation des noirs ne doit pas être une source de bénéfices pour les colons, aux 
 <choice>
 <orig>dépens</orig>
 <reg>dépents</reg> 
@@ -1181,5 +1182,8 @@ biens, votre industrie, votre travail ? Et si ce n'est pas vous, comment êtes-v
 </div>
 
       </body>
+      <back>
+            <xi:include href="shared/entities.xml"/>
+        </back>
    </text>
 </TEI>
