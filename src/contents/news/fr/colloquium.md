@@ -32,6 +32,7 @@ Avec des communications de :
 * Abel Louis (Société d’histoire de la Martinique)
 * Yasmine Najm (Leipzig University)
 * Grégory Pierrot (University of Connecticut)
+* Noëlle Romney (Université Sorbonne Nouvelle)
 * Michaël Roy (Université Paris Cité)
 * Chelsea Stieber (Tulane University)
 
