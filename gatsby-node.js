@@ -96,12 +96,22 @@ async function makeCeteiceanPages(createPage, reporter, graphql, publishedTei) {
   for (const node of result.data.allCetei.nodes) {
     const {name} = node.parent
     if (publishedTei.includes(name.split("-")[0])) {
+      // build internal TOC
+      const teiDoc = new JSDOM(node.prefixed, {contentType:'text/xml'}).window.document;
+      const toc = []
+      for (const div of teiDoc.querySelectorAll(`tei-body tei-div[id]`)) {
+        toc.push({
+          id: div.getAttribute("id"),
+          label: div.querySelector("tei-head").textContent
+        })
+      }
       createPage({
         path: name,
         component,
         context: {
           site: result.data.site,
           name,
+          toc,
           prefixed: node.prefixed,
           elements: node.elements
         }
