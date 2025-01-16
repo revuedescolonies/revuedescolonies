@@ -17,10 +17,27 @@
       </fileDesc>
    </teiHeader>
    <text xml:lang="fr">
-      <front/>
+      <front>
+         <pb facs="v1n3f1" n="1"/>
+         <titlePage>
+            <titlePart type="main">REVUE<lb/>DES<lb/>COLONIES,</titlePart>
+            <titlePart type="sub"><lb/>RECUEIL MENSUEL<lb/> DE LA POLITIQUE, DE L'ADMINISTRATION, DE
+               LA JUSTICE, DE L'INSTRUCTION ET DES MOEURS COLONIALES,</titlePart>
+            <byline><lb/>PAR UNE <orgName ref="#SHC">SOCIÉTÉ D'HOMMES DE COULEUR</orgName>
+               <lb/> DIRIGÉE PAR <persName ref="#CB">C.-A. BISSETTE</persName>.<lb/></byline>
+            <docEdition>N°3<lb/>Septembre.</docEdition>
+            <docImprint><pubPlace><settlement>PARIS</settlement>,<lb/> AU BUREAU DE LA REVUE DES
+                        COLONIES, <lb/>46, RUE NEUVE-SAINT-EUSTACHE</pubPlace>
+                    <lb/>
+                    <date>1834</date>.</docImprint>
+         </titlePage>
+  </front>
       <body>
-
          <div>
+         <pb facs="v1n3f2" n="2"/>
+                  </div>
+         <div xml:id="chatiments">
+                  <pb facs="v1n3f3" n="3"/>
             <head>
                <choice>
                   <orig>CHATIMENS</orig>
@@ -67,7 +84,7 @@
                le premier pas, ce n'en serait pas moins avec une ineffable joie intérieure que nous
                verrions venir à nous le colon blanc prêt à fraterniser.</p>
             <p>Un gouvernement libéral, et qui comprendrait bien tout ce qu'il ya à faire dans cette
-               grande époque de rénovation, hâterait sin<pb n="3"/>gulièrement nos destinées à cet
+               grande époque de rénovation, hâterait sin<pb facs="v1n3f4" n="4"/>gulièrement nos destinées à cet
                égard. Il n'interviendrait pas avec une froide neutralité entre le maître et
                l'esclave, entre le privilégié blanc et l'homme de couleur. Toute son activité
                tendrait à faire tomber les haines, à prêcher pour ainsi dire la liberté et
@@ -110,7 +127,7 @@
                l'avilissement. <choice>
                   <orig>A</orig>
                   <reg>À</reg>
-               </choice> la <placeName ref="#MQ">Martinique</placeName>, ce supplice est confié aux soins d'un servant de prison,<pb n="4"/>dit <emph>commandeur</emph>. Cette peine, ordonnée par le commissaire de
+               </choice> la <placeName ref="#MQ">Martinique</placeName>, ce supplice est confié aux soins d'un servant de prison,<pb facs="v1n3f5" n="5"/>dit <emph>commandeur</emph>. Cette peine, ordonnée par le commissaire de
                police ou le procureur du roi, a lieu pour la plus légère contravention ; pour un
                manque d'égard ou de respect envers un individu de l'une des classes libres, pour un
                retard à la rentrée du soir après la retraite, par un caprice du maître et sur sa
@@ -141,10 +158,10 @@
                que ceux qui s'en font une arme cruelle de répression. Que si le pouvoir manque de
                coeur pour regarder hardiment en face la grande question de l'émancipation, il
                abolisse au moins dès au jourd'hui deux peines qui, de quelque prétexte qu'on les
-               couvre, ne sont plus qu'une anomalie révoltante au dix-neuvième siècle.</p> <pb n="5"/>
+               couvre, ne sont plus qu'une anomalie révoltante au dix-neuvième siècle.</p> <pb facs="v1n3f6" n="6"/>
          </div>
 
-<div>
+<div xml:id="émancipation">
 <head>SUR L'ÉMANCIPATION DES ESCLAVES AUX COLONIES FRANCAISES.</head>
 
 <epigraph><p>L'homme est né libre ; l'esclavage est l'exception.</p>
@@ -167,7 +184,7 @@ leur échapper. En vain prétendent-ils, par des complots imaginaires, annuler l
 <orig>brûlans</orig>
 <reg>brûlants</reg>
 </choice>
-de destruction couvrent le pays ; les exigences s'accrois<pb n="6"/>sent en raison de la résistance, et bientôt, si on n'y prend garde, succédera à cet état de calme apparent un abime de maux où pourront s'engloutir les fortunes avec les générations.</p>
+de destruction couvrent le pays ; les exigences s'accrois<pb facs="v1n3f7" n="7"/>sent en raison de la résistance, et bientôt, si on n'y prend garde, succédera à cet état de calme apparent un abime de maux où pourront s'engloutir les fortunes avec les générations.</p>
 <p>Et c'est vis-à-vis de faits de cette nature que le gouvernement, chargé des intérêts de tous, reculerait pour laisser la place aux dissentions et aux haines des partis ! Non, cela n'est pas possible !</p>
 <p>Déjà plusieurs écrivains courageux avaient appelé l'attention du gouvernement et des chambres sur l'importante question des améliorations à introduire dans le régime intérieur des habitations et des esclaves aux colonies ; mais, loin d'avoir été compris, ils se sont vus en butte aux persécutions et aux clameurs ; on leur a reproché de provoquer à l'
  <choice>
@@ -188,7 +205,7 @@ pour introduire les principes du <foreign>bill</foreign> anglais dans nos coloni
 <orig>gouvernemens</orig>
 <reg>gouvernements</reg>
 </choice> 
-qui se<pb n="7"/> sont succédés en France, dans ces derniers temps, nombre de pétitions humbles, ainsi qu'aux gouverneurs et aux chambres, et quelquefois même hostiles sur les lieux ? N'étaient-ce donc pas des pétitions que ces démonstrations armées qui ont porté si souvent depuis peu la terreur dans l'âme des colons de la <placeName ref="#GP">Guadeloupe</placeName> et de la Martinique dans ces dernières années ? Que réclamaient ces esclaves lorqu'ils se présentèrent devant la ville de <placeName ref="#StP">Saint-Pierre</placeName>, tremblante de tomber sous leur joug, si ce n'est un changement de système, un avenir plus heureux ?</p>
+qui se<pb facs="v1n3f8" n="8"/> sont succédés en France, dans ces derniers temps, nombre de pétitions humbles, ainsi qu'aux gouverneurs et aux chambres, et quelquefois même hostiles sur les lieux ? N'étaient-ce donc pas des pétitions que ces démonstrations armées qui ont porté si souvent depuis peu la terreur dans l'âme des colons de la <placeName ref="#GP">Guadeloupe</placeName> et de la Martinique dans ces dernières années ? Que réclamaient ces esclaves lorqu'ils se présentèrent devant la ville de <placeName ref="#StP">Saint-Pierre</placeName>, tremblante de tomber sous leur joug, si ce n'est un changement de système, un avenir plus heureux ?</p>
 <p>N'était-ce pas là un avertissement au pouvoir de porter une sérieuse attention sur leur triste position ? Fraudra-t-il donc avoir recours à de pareils moyens pour arracher des droits que le siècle a sanctionnés et que l'Angleterre a proclamés du haut de sa tribune ? Faudra-t-il que l'insurrection de l'esclave contre le maître, toujours renaissante et sans cesse étouffée, présente l'image de l'hydre de Lerne ?</p>
 <p>Et si, dans les lattes qui auraient lieu, la victoire se déclarait pour les nouveaux principes, les colons peuvent-ils penser que l'or des budgets, la vie des soldats de la France serviraient à former des expéditions coûteuses pour reconquérir les colonies dont l'exploitation profite en définitive fort médiocrement à la métropole, et dans l'unique but de les réintégrer dans leurs biens, eux dont les principes politiques sont si fort opposés à ceux de la mère patrie ?</p>
 <p>On remarquera, à l'appui de nos réflexions sur le système existant, que de tous côtés, dans le <placeName ref="#GdM">golfe du Mexique</placeName>, le système de liberté a prévalu ; que la côte ferme de l'Amérique, le <placeName ref="#ME">Mexique</placeName> et toutes les <placeName ref="#IDV">îles du vent</placeName> et <placeName ref="#ISV">sous le vent</placeName> ont plus ou moins adopté d'avance les mesures que le <foreign>bill</foreign> anglais vient de réaliser. Il y aurait donc folie, nous le répétons, de penser que les esclaves français reste ront dans la même situation politique, ayant sous leurs yeux, a si peu de distance, des exemples de cette nature.</p>
@@ -197,11 +214,11 @@ qui se<pb n="7"/> sont succédés en France, dans ces derniers temps, nombre de 
 <orig>incovéniens</orig>
 <reg>inconvénients</reg>
 </choice> 
-; il agira dans les intérêts de tous, en prévenant le mouvement brusque qui peut entraîner des pertes incalculables pour nos places maritimes ; il se placera haut dans la reconnaissance de ceux dont il protégera les intérêts et qui sont, au bout du compte, le plus grand nombre ;<pb n="8"/> et, de la sorte, son intervention libérale et conciliatrice tout en semble sera pour les colonies un immense bienfait et pour lui même un titre de gloire.</p>
+; il agira dans les intérêts de tous, en prévenant le mouvement brusque qui peut entraîner des pertes incalculables pour nos places maritimes ; il se placera haut dans la reconnaissance de ceux dont il protégera les intérêts et qui sont, au bout du compte, le plus grand nombre ;<pb facs="v1n3f9" n="9"/> et, de la sorte, son intervention libérale et conciliatrice tout en semble sera pour les colonies un immense bienfait et pour lui même un titre de gloire.</p>
 <p>Le marquis de <emph>S.-C</emph>,</p>
 <p>propriétaire à la Martinique.</p>
 
-<div>
+<div xml:id="insurrections">
 <head>INSURRECTIONS ET LEUR CAUSE 
 <choice>
 <orig>A</orig>
@@ -228,7 +245,7 @@ LA <placeName ref="#MQ">MARTINIQUE</placeName>.</head>
 <orig>évidens</orig>
 <reg>évidents</reg>
 </choice> 
-de cette levée de boucliers, et en faire un vaste complot, tramé depuis<pb n="9"/> <date>
+de cette levée de boucliers, et en faire un vaste complot, tramé depuis<pb facs="v1n3f10" n="10"/> <date>
 <choice>
 <orig>1823.</orig>
 <reg>1823</reg>
@@ -247,7 +264,7 @@ de cette levée de boucliers, et en faire un vaste complot, tramé depuis<pb n="
 </choice>
 et nécessitent sa permanence sur la <placeName ref="#PlB">place Bertin</placeName>, curieux monument sans doute sur une promenade publique ! Commissions militaires, cours prévôtales, cours d'assises ont envoyé des cadavres par vingt et par trente à la fois au cimetière de la Grosse-Roche (1), et couvert en même temps la terre étrangère de proscrits. A côté de la Martinique, à trente lieues de distance, la <placeName ref="#GP">Guadeloupe</placeName>, avec les mêmes lois, les mêmes institutions, les mêmes préjugés ; la Guadeloupe, dont les esclaves ont été soldats de la république, dont les esclaves ont connu la liberté même dans sa licence ; la Guadeloupe, dans les mêmes douze ans, n'offre pas une condamnation à mort pour délit politique ! De loin en loin, quelques agitations s'y sont manifestées, mais sans effet de destruction ; c'est un simple reflux des désordres de la Martinique qui vient jeter de l'écume sur les rivages de sa voisine.</p>
 
-<p><note>(1) Le <placeName ref="#CGR">cimetière de la Grosse-Roche</placeName>, réservé aux suppliciés, est au pied d'un morne, sur le sable, au bord de la mer dont le flot a souvent déterré les cadavres fraîchement jetés dans des fosses peu profondes. La chaîne des condamnés vient bien vite, avec quelques pelletées de sable, rejeter cet appel d'une nouvelle forme, mais qui est le seul permis aux esclaves, en révision des arrêts de mort rendus contre eux.</note></p><pb n="10"/>
+<p><note>(1) Le <placeName ref="#CGR">cimetière de la Grosse-Roche</placeName>, réservé aux suppliciés, est au pied d'un morne, sur le sable, au bord de la mer dont le flot a souvent déterré les cadavres fraîchement jetés dans des fosses peu profondes. La chaîne des condamnés vient bien vite, avec quelques pelletées de sable, rejeter cet appel d'une nouvelle forme, mais qui est le seul permis aux esclaves, en révision des arrêts de mort rendus contre eux.</note></p><pb facs="v1n3f11" n="11"/>
 
 <p>En pareil état de choses, si l'on réfléchit que ce sont des <emph>maîtres</emph> qui ont jugé des <emph>esclaves</emph>, et des <emph>blancs</emph> qui ont jugé des <emph>mulâtres</emph> ; si l'on a la plus petite idée des haines et des antipathies de castes ; si l'on connaît (pas de hameau en France qui n'en ait entendu parler) l'ignorance des magistrats des colonies et la cruelle partialité de quelques meneurs plus instruits que les autres, on concevra combien d'arrêts iniques ont été rendus en matière civile à la Martinique ; combien, en matière criminelle, il y a eu d'instructions faussées, suivies d'arrêts empreints de la plus féroce barbarie.</p>
 
@@ -268,7 +285,7 @@ irrésistibles que font valoir dans ses bureaux les membres de cet ordre judicia
 <orig>A</orig>
 <reg>À</reg>
 </choice> 
-qui<pb n="11"/> vont-ils aller se plaindre ? dans quel nouveau désert vont-ils aller jeter leurs cris ?... Ils courent aux armes, et tous à la fois, 
+qui<pb facs="v1n3f12" n="12"/> vont-ils aller se plaindre ? dans quel nouveau désert vont-ils aller jeter leurs cris ?... Ils courent aux armes, et tous à la fois, 
 <choice>
 <orig>confians</orig>
 <reg>confiants</reg>
@@ -302,14 +319,14 @@ et futurs, que le succès seul est l'excuse, et qu'au
 
 <p>Et leur tête à la main demander un salaire.</p> <!--floatting text-->
 
-<p>Quant à nous, nous le crierons jusque sur les toits : la cause d'insurrections aussi fréquentes à la Martinique git tout entière dans le personnel de la justice. Là sont les hommes avec lesquels il ne doit y avoir ni trève ni paix à espérer. Ce sont eux qui ont compromis dix fois la sûreté de la colonie ; ce sont ceux qui ont amassé haine et colère contre les colons en général, quoique le grand nombre gémisse de ces iniquités. Le ministère de la marine sera-t-il insensible à tant de réclamations, à tant de sang répandu ? Nous allons, s'il le faut, périr à la tâche ; mais il sera démontré que l'administration de la justice, telle que nous l'avons à la Martinique, est la cause première de nos désordres, qu'elle est une barrière infranchissable à la fusion et à la réconciliation des castes. Pour parvenir à notre but, aussi indiscrets que les flots de la mer,<pb n="12"/>nous ouvrirons les tombeaux de la Grosse-Roche ; nous fouillerons dans ce greffe satanique ; chaque numéro de <bibl type="periodical"><title ref="#RdC">la Revue des Colonies</title></bibl> examinera un arrêt de la Martinique ou de la Guadeloupe ; nous arracherons de leur antre ces nouveaux <persName><emph>Cacus</emph></persName>, et nous les jetterons à la publicité, chargée de nous venger.</p>
+<p>Quant à nous, nous le crierons jusque sur les toits : la cause d'insurrections aussi fréquentes à la Martinique git tout entière dans le personnel de la justice. Là sont les hommes avec lesquels il ne doit y avoir ni trève ni paix à espérer. Ce sont eux qui ont compromis dix fois la sûreté de la colonie ; ce sont ceux qui ont amassé haine et colère contre les colons en général, quoique le grand nombre gémisse de ces iniquités. Le ministère de la marine sera-t-il insensible à tant de réclamations, à tant de sang répandu ? Nous allons, s'il le faut, périr à la tâche ; mais il sera démontré que l'administration de la justice, telle que nous l'avons à la Martinique, est la cause première de nos désordres, qu'elle est une barrière infranchissable à la fusion et à la réconciliation des castes. Pour parvenir à notre but, aussi indiscrets que les flots de la mer,<pb facs="v1n3f13" n="13"/>nous ouvrirons les tombeaux de la Grosse-Roche ; nous fouillerons dans ce greffe satanique ; chaque numéro de <bibl type="periodical"><title ref="#RdC">la Revue des Colonies</title></bibl> examinera un arrêt de la Martinique ou de la Guadeloupe ; nous arracherons de leur antre ces nouveaux <persName><emph>Cacus</emph></persName>, et nous les jetterons à la publicité, chargée de nous venger.</p>
 
 <p>Fatiguée de complots, <persName>Livie</persName> conseilla la clémence à son époux <persName>Auguste</persName> : <q>Jusqu'ici, lui dit-elle, la sévérité n'a servi de rien. Essayez aujourd'hui de la clémence ; pardonnez. <persName>Cinna</persName> est découvert, il ne peut plus vous nuire. Il peut vous servir en vous faisant une réputation de bonté.</q> L'histoire dit qu'Auguste écouta ce conseil, et que depuis cette époque, ce qu'il n'avait pu obtenir en livrant tant de têtes à la hache des licteurs, il l'obtint par le pardon accordé à Cinna.</p>
 
 <p>Nous eussions donné le même conseil à messieurs les juges de la Martinique ; mais ils ne peuvent plus sortir de cette voie de sang où ils se sont engagés. Leur avis eût déterminé le <roleName>gouverneur</roleName> <persName ref="#JHD">Dupotet</persName> à faire de l'insurrection de la Grand'Anse une affaire d'amnistie, amnistie du reste déjà promise. Ils ont mieux aimé qu'on leur livrât 88 victimes !... <foreign><emph>Vae victis</emph></foreign> ! Entendez-le bien, vous tous qui souffrez.</p>
 </div>
 
-<div>
+<div xml:id="droit-dénié">
 <head>DU DROIT 
 <choice>
 <orig>DENIÉ</orig>
@@ -320,7 +337,7 @@ AUX ESCLAVES DE SE POURVOIR EN CASSATION.</head>
 <epigraph><p>La cour condamne <persName ref="#EL"><emph>Élysée</emph></persName> (âgé de 15 ans) à être pendu et étranglé jusqu'à ce que mort s'ensuive, et son corps jeté à la voirie, pour avoir formé le projet de s'évader et avoir ainsi <emph>voulu ravir à son maltre le prix de sa valeur ; et <persName ref="#AG">Agnès</persName>, sa mère</emph>, à assister à l'exécution, pour avoir recélé son fils en lui procurant un asile, sous <emph>prétexte de pitié, et en fournissant à sa nourriture et entretien.</emph></p>
 <p>(Arrêt de la Cour Royale de la <placeName ref="#MQ">Martinique</placeName>, <date>30 novembre 1815</date>.)</p></epigraph>
 
-<p>L'abominable arrêt dont on vient de lire le passage qui nous sert d'épigraphe fut exécuté nonobstant appel, et, depuis comme<pb n="13"/> précédemment, ce n'est pas le seul rendu par les juges coloniaux qui, en <placeName ref="#EUR">Europe</placeName>, soit abominable aux yeux des hommes de tous les partis. Aucun cependant n'a présenté des circonstances plus contraires à toutes les notions du juste et de l'injuste ; aucun n'a été marqué de ce hideux caractère que nous ne savons comment qualifier ; aucun ne fait plus frémir l'humanité ! Eh bien ! cet Élysée, cet enfant de quinze ans, qui en avait appelé par-devant une haute cour française et chrétienne dont les membres, on ne saurait en faire l'objet d'un doute sans les offenser, se fussent tous révoltés contre cet infâme arrêt et l'eussent unanimement cassé avec indignation ; cet enfant, disons-nous, fut pendu et étranglé, comme il était dit dans l'arrêt, jusqu'à ce que mort s'ensuivit, et il fut coupé court à tout pourvoi de sa part par la corde et la strangulation !</p>
+<p>L'abominable arrêt dont on vient de lire le passage qui nous sert d'épigraphe fut exécuté nonobstant appel, et, depuis comme<pb facs="v1n3f14" n="14"/> précédemment, ce n'est pas le seul rendu par les juges coloniaux qui, en <placeName ref="#EUR">Europe</placeName>, soit abominable aux yeux des hommes de tous les partis. Aucun cependant n'a présenté des circonstances plus contraires à toutes les notions du juste et de l'injuste ; aucun n'a été marqué de ce hideux caractère que nous ne savons comment qualifier ; aucun ne fait plus frémir l'humanité ! Eh bien ! cet Élysée, cet enfant de quinze ans, qui en avait appelé par-devant une haute cour française et chrétienne dont les membres, on ne saurait en faire l'objet d'un doute sans les offenser, se fussent tous révoltés contre cet infâme arrêt et l'eussent unanimement cassé avec indignation ; cet enfant, disons-nous, fut pendu et étranglé, comme il était dit dans l'arrêt, jusqu'à ce que mort s'ensuivit, et il fut coupé court à tout pourvoi de sa part par la corde et la strangulation !</p>
 
 <p>Si nous voulions remuer toute cette fange des arrêts rendus depuis leur existence par ces cours dites royales de la Martinique et de la <placeName ref="#GP">Guadeloupe</placeName>, toutes ces homicides annales de la prétendue justice coloniale, à chaque pas nous trouverions des arrêts dont l'horrible le cède à peine à celui qui condamna Élysée.</p>
 
@@ -331,7 +348,7 @@ AUX ESCLAVES DE SE POURVOIR EN CASSATION.</head>
 <orig>sentimens</orig>
 <reg>sentiments</reg>
 </choice> 
-les plus vulgaires dans les sociétés civilisées ne suffisaient pas pour faire sentir tout le danger et tout l'odieux du pourvoi en cassation dénié aux esclaves, voyons si ce n'est pas déjà un droit de ces infortunés et si ce droit ne résulte pas des lois actuellement en vigueur. L'affirmative n'est pas douteuse. Oui, ce droit résulte des lois actuellement existantes. Et cependant naguère encore ce droit fut indignement violé dans la personne de<pb n="14"/> ces vingt-quatre esclaves exécutés malgré leurs recours en cassation. Et aujourd'hui, si parmi les quinze condamnés à mort dans l'<rs type="event">affaire de la Grand'Anse</rs>, il ne se trouvait pas des hommes libres auxquels le bénéfice de la loi a été définitivement acquis, non sans peine, et qui ferons profiter ce bénéfice aux esclaves condamnés avec eux, nous serions dans l'appréhension à chaque instant d'ap prendre la fatale nouvelle de l'exécution de ces malheureux.</p>
+les plus vulgaires dans les sociétés civilisées ne suffisaient pas pour faire sentir tout le danger et tout l'odieux du pourvoi en cassation dénié aux esclaves, voyons si ce n'est pas déjà un droit de ces infortunés et si ce droit ne résulte pas des lois actuellement en vigueur. L'affirmative n'est pas douteuse. Oui, ce droit résulte des lois actuellement existantes. Et cependant naguère encore ce droit fut indignement violé dans la personne de<pb facs="v1n3f15" n="15"/> ces vingt-quatre esclaves exécutés malgré leurs recours en cassation. Et aujourd'hui, si parmi les quinze condamnés à mort dans l'<rs type="event">affaire de la Grand'Anse</rs>, il ne se trouvait pas des hommes libres auxquels le bénéfice de la loi a été définitivement acquis, non sans peine, et qui ferons profiter ce bénéfice aux esclaves condamnés avec eux, nous serions dans l'appréhension à chaque instant d'ap prendre la fatale nouvelle de l'exécution de ces malheureux.</p>
 
 <p> Comment qualifier ce mauvais vouloir, ce bas et cruel entêtement qui fait refuser le pourvoi des esclaves, en présence du texte positif de la législation actuelle des colonies des Antilles.</p>
 
@@ -345,7 +362,7 @@ les plus vulgaires dans les sociétés civilisées ne suffisaient pas pour faire
 
 <p>C'était enfin le dernier état du droit criminel pour les colonies de la Martinique et de la Guadeloupe.</p>
 
-<p>Or, dans ce dernier état de la législation, les esclaves ont le droit de se pourvoir en cassation ; cela ne peut faire l'objet d'un doute. On n'y trouve plus, dans les articles 417 et suivant, aucune des dispositions prohibives des lois précédentes.</p><pb n="15"/>
+<p>Or, dans ce dernier état de la législation, les esclaves ont le droit de se pourvoir en cassation ; cela ne peut faire l'objet d'un doute. On n'y trouve plus, dans les articles 417 et suivant, aucune des dispositions prohibives des lois précédentes.</p><pb facs="v1n3f16" n="16"/>
 
 <p>C'est l'accusé qui peut se pourvoir. Cette expression s'entend nécessairement des esclaves aussi bien que des libres, lorsqu'il est constant que l'<bibl type="legal">ordonnance du <date>12 octobre 1828</date></bibl> est appliquée aux uns comme aux autres dans toutes ses dispositions.</p>
 
@@ -375,10 +392,10 @@ cet attentat contre la loi, ce serait de sa part forfaire à ses
 <orig>sermens</orig>
 <reg>serments</reg>
 </choice>
-.<pb n="16"/></p>
+.<pb facs="v1n3f17" n="17"/></p>
 </div>
 
-<div>
+<div xml:id="magistrature-coloniale">
 <head>DE LA MAGISTRATURE COLONIALE ; CE QU'ELLE FUT, CE QU'ELLE EST, CE QU'ELLE DEVRAIT ÊTRE.</head>
 
 <p>En montant sur son 
@@ -414,7 +431,7 @@ l'organisation de la société coloniale, alors que sa population ne se composai
 <orig>instrumens</orig>
 <reg>instruments</reg>
 </choice> 
-de sa fortune, usurpa le domaine de la <emph>paternité</emph> dans ce qu'il appelait dédaigneu<pb n="17"/>sement (et il en avait le droit, lui enfant du crime) la classe abjecte. Il devint alors père ; et ainsi se créa la <emph>famille</emph> des blancs et des hommes de couleur, qui certes sont frères comme <persName>Caïn</persName> et <persName>Abel</persName>, bien entendu que, dans cette souche secondaire, <emph>le blanc est Caïn</emph>, ce qu'il a prouvé par l'oppression sous le poids de laquelle il n'a cessé de vouloir faire gémir son frère de couleur.</p>
+de sa fortune, usurpa le domaine de la <emph>paternité</emph> dans ce qu'il appelait dédaigneu<pb facs="v1n3f18" n="18"/>sement (et il en avait le droit, lui enfant du crime) la classe abjecte. Il devint alors père ; et ainsi se créa la <emph>famille</emph> des blancs et des hommes de couleur, qui certes sont frères comme <persName>Caïn</persName> et <persName>Abel</persName>, bien entendu que, dans cette souche secondaire, <emph>le blanc est Caïn</emph>, ce qu'il a prouvé par l'oppression sous le poids de laquelle il n'a cessé de vouloir faire gémir son frère de couleur.</p>
 
 <p>Semblable à <persName>Saturne</persName>, le bon père ne tarda pas à vouloir dévorer ses 
 <choice>
@@ -461,7 +478,7 @@ leur tour, les gens de couleur sont devenus les plus forts, car les plus forts s
 </choice> 
 les inspirations ardentes du soleil du tropique, ne peuvent être que sanglantes et empreintes de toutes les horreurs de l'esprit de vengeance.</p>
 
-<p>Les abus engendrés par une magistrature exclusivement livrée à la classe privilégiée qui avait écrit sur ses drapeaux <emph>impunité</emph><pb n="18"/>pour elle, ou qui, lorsqu'elle était forcée de sévir contre elle-même par l'évidence des faits se réfugiait dans la molle application du <emph>plus amplement informé</emph>, peine bâtarde et illusoire peu digne de la justice et de la prétendue légimité dont on se pavanait, tandis qu'elle réservait toutes ses rigueurs pour les gens de couleur, semblèrent devoir disparaître en partie à la promulgation de la nouvelle organisation judiciaire. C'était la pensée de la métropole ; mais malheureusement l'exécution ne répondit pas à son attente. Il y eut sans doute amélioration, progrès, mais le mal fut loin d'être extirpé intégralement.</p>
+<p>Les abus engendrés par une magistrature exclusivement livrée à la classe privilégiée qui avait écrit sur ses drapeaux <emph>impunité</emph><pb facs="v1n3f19" n="19"/>pour elle, ou qui, lorsqu'elle était forcée de sévir contre elle-même par l'évidence des faits se réfugiait dans la molle application du <emph>plus amplement informé</emph>, peine bâtarde et illusoire peu digne de la justice et de la prétendue légimité dont on se pavanait, tandis qu'elle réservait toutes ses rigueurs pour les gens de couleur, semblèrent devoir disparaître en partie à la promulgation de la nouvelle organisation judiciaire. C'était la pensée de la métropole ; mais malheureusement l'exécution ne répondit pas à son attente. Il y eut sans doute amélioration, progrès, mais le mal fut loin d'être extirpé intégralement.</p>
 
 <p>Vainement l'<bibl type="legal">ordonnance constitutive du <date>7 février 1827</date></bibl> et l'<bibl type="legal">ordonnance organique du <date>21 septembre 1828</date></bibl> avaient-elles voulu environner le magistrat colonial d'une auréole d'indépendance en interdisant aux gouverneurs de s'immiscer dans les actes du ressort de la magistrature ; et par le vice des institutions et par la faiblesse des magistrats, les gouverneurs sont toujours parvenus à exercer une influence dommageable sur leurs décisions et à convertir en quelque sorte les juges en commissaires. Que l'on ose opposer un démenti à ces assertions, et nous les regoborerons en citant des faits et des noms propres.</p>
 
@@ -472,10 +489,10 @@ les inspirations ardentes du soleil du tropique, ne peuvent être que sanglantes
 <orig>collége</orig>
 <reg>collège</reg>
 </choice>
-des assesseurs fût composé mi-partie de blancs et d'hommes de couleur. Ainsi s'établirait l'égalité devant la loi, et par l'empire de l'habitude, on verrait naître cette confiance nécessaire aux deux classes, qui ne pourront parvenir à cette fusion si désirable pour la prospérité de la <placeName ref="#FR">France</placeName><pb n="18"/>d'outre-mer qu'autant que, commencée par les prescriptions de la loi, elle s'infiltrera dans les moeurs par une mutuelle participation à l'oeuvre de la justice. Sur cette base, on pourra construire solidement l'édifice colonial ; sans elle l'avenir sera fécond en orages, et une grande responsabilité aura été encourue par ceux à qui le mal aura été signalé et qui n'y auront pas porté remède. Ils auront semé les tempêtes et ils devront en recueillir les fruits amers.</p>
+des assesseurs fût composé mi-partie de blancs et d'hommes de couleur. Ainsi s'établirait l'égalité devant la loi, et par l'empire de l'habitude, on verrait naître cette confiance nécessaire aux deux classes, qui ne pourront parvenir à cette fusion si désirable pour la prospérité de la <placeName ref="#FR">France</placeName><pb facs="v1n3f20" n="20"/>d'outre-mer qu'autant que, commencée par les prescriptions de la loi, elle s'infiltrera dans les moeurs par une mutuelle participation à l'oeuvre de la justice. Sur cette base, on pourra construire solidement l'édifice colonial ; sans elle l'avenir sera fécond en orages, et une grande responsabilité aura été encourue par ceux à qui le mal aura été signalé et qui n'y auront pas porté remède. Ils auront semé les tempêtes et ils devront en recueillir les fruits amers.</p>
 </div>
 
-<div>
+<div xml:id="abus-de-pouvoir">
 <head>ABUS DE POUVOIR D'UN GOUVERNEUR</head>
 
 <p>M. le <roleName>contre-amiral</roleName> <persName ref="#JHD">Dupotet</persName>, à l'occasion de <rs type="event">l'affaire de la Grand'Anse</rs> (<placeName ref="#MQ">Martinique</placeName>), a rendu deux arrêtés sur les milices de la colonie. Les dispositions de ces deux arrêtés nous fournissent l'occasion d'examiner l'étendue des pouvoirs des gouverneurs sur les milices coloniales, depuis la <bibl type="legal">loi organique du <date>24 avril 1833</date></bibl>.</p>
@@ -488,7 +505,7 @@ des assesseurs fût composé mi-partie de blancs et d'hommes de couleur. Ainsi s
 
 <p>Quoi qu'il en soit de ces motifs, ce qu'il importe d'examiner c'est si le gouverneur de la colonie a le droit de dissoudre la milice et de la réorganiser.</p>
 
-<p>Aux termes de l'<bibl type="legal">ordonnance du <date>9 février 1827</date>, article 10</bibl>, le<pb n="20"/> gouverneur avait le commandement général des milices et ordonnait tout ce qui était relatif à leur levée, leur organisation et leur discipline.</p>
+<p>Aux termes de l'<bibl type="legal">ordonnance du <date>9 février 1827</date>, article 10</bibl>, le<pb facs="v1n3f21" n="21"/> gouverneur avait le commandement général des milices et ordonnait tout ce qui était relatif à leur levée, leur organisation et leur discipline.</p>
 
 <p>Ainsi, en vertu de cette ordonnance, le gouverneur avait non seulement, comme chef militaire, le commandement général des milices de la colonie, il était en outre chargé, comme chef de l'administration, de tout ce qui avait rapport à leur institution. Que, sous l'empire de cette ordonnance, qui lui conférait en cette double qualité des pouvoirs aussi étendus, le gouverneur eût le droit de dissoudre la milice, c'est ce qu'il est inutile de contester aujourd'hui, quoique ce pouvoir exorbitant ne fût pas nommément attribué au gouverneur et qu'il fût difficile de le faire rentrer dans aucun de ceux que lui accordait cette ordonnance, pas même dans celui de régler leur discipline, puisque la discipline ne peut s'appliquer qu'à un corps existant, et que la dissolution a pour objet l'anéantissement même du corps.</p>
 
@@ -497,7 +514,7 @@ des assesseurs fût composé mi-partie de blancs et d'hommes de couleur. Ainsi s
 <orig>abrogées</orig>
 <reg>abroger</reg>
 </choice> 
-toutes dispositions de lois, édits, déclarations du roi, ordonnances royales et autres actes actuellement en vigueur dans lesdites colonies, en ce qu'elles ont de contraire à la présente loi. Dès lors donc, le gouverneur s'est trouvé dépouillé du droit de régler l'organisation et le service des milices, droit qui est passé dans le domaine des ordonnances royales. L'<bibl type="legal">ordonnance du <date>22 août 1833</date></bibl>, destinée à mettre les dispositions de celle du <date>9 février 1827</date> en harmonie avec la nouvelle législation, indique quels sont les articles de cette dernière ordonnance qui ont été abrogés, ceux qui ont été changés et les modifications qu'ils ont subies. Or, l'article 10 que nous avons fait connaître plus haut, et qui accordait au gouverneur non seulement le commandement général des milices mais tout ce qui avait rapport à leur levée, leur organisation et leur discipline, est réduit, en vertu de la <bibl type="legal">loi d'avril 1833</bibl> et par l'ordonnance du 22 août 1833, à ce peu de mots : Les milices de la colonie sont sous les ordres directs du gouverneur ; il en a le com<pb n="21"/>mandement général. De sorte qu'il ne reste plus aujourd'hui au gouverneur que le pouvoir, qu'il avait auparavant comme chef militaire, de faire tout ce qui est nécessaire pour le service des milices, dont il a le commandement général. Tout ce qui auparavant lui appartenait en sa qualité de chef supérieur de l'administration coloniale, la levée des milices, leur organisation, lui a été formellement enlevé. Il est impossible de voir dans ces termes de l'ordonnance du 22 août 1833 “Les milices de la colonie sont  sous les ordres directs du gouverneur,” le droit de dissolution et de réorganisation.</p>
+toutes dispositions de lois, édits, déclarations du roi, ordonnances royales et autres actes actuellement en vigueur dans lesdites colonies, en ce qu'elles ont de contraire à la présente loi. Dès lors donc, le gouverneur s'est trouvé dépouillé du droit de régler l'organisation et le service des milices, droit qui est passé dans le domaine des ordonnances royales. L'<bibl type="legal">ordonnance du <date>22 août 1833</date></bibl>, destinée à mettre les dispositions de celle du <date>9 février 1827</date> en harmonie avec la nouvelle législation, indique quels sont les articles de cette dernière ordonnance qui ont été abrogés, ceux qui ont été changés et les modifications qu'ils ont subies. Or, l'article 10 que nous avons fait connaître plus haut, et qui accordait au gouverneur non seulement le commandement général des milices mais tout ce qui avait rapport à leur levée, leur organisation et leur discipline, est réduit, en vertu de la <bibl type="legal">loi d'avril 1833</bibl> et par l'ordonnance du 22 août 1833, à ce peu de mots : Les milices de la colonie sont sous les ordres directs du gouverneur ; il en a le com<pb facs="v1n3f22" n="22"/>mandement général. De sorte qu'il ne reste plus aujourd'hui au gouverneur que le pouvoir, qu'il avait auparavant comme chef militaire, de faire tout ce qui est nécessaire pour le service des milices, dont il a le commandement général. Tout ce qui auparavant lui appartenait en sa qualité de chef supérieur de l'administration coloniale, la levée des milices, leur organisation, lui a été formellement enlevé. Il est impossible de voir dans ces termes de l'ordonnance du 22 août 1833 “Les milices de la colonie sont  sous les ordres directs du gouverneur,” le droit de dissolution et de réorganisation.</p>
 
 <p>Il n'appartenait qu'à M. Dupotet seul, parmi tous les gouverneurs des colonies, de s'y méprendre : donner des ordres directement à quelque corps, cela suppose son existence, tandis que l'organisation est le droit même de créer le corps, de lui donner l'existence, comme le dissoudre, c'est le tuer et l'anéantir. Ces expressions ne signifient rien, sinon que lui seul a le droit de disposer de la milice ; que ni le commandant militaire de la colonie, ni le directeur de l'intérieur, ni aucun autre fonctionnaire, ne peuvent la convoquer.</p>
 
@@ -507,11 +524,11 @@ toutes dispositions de lois, édits, déclarations du roi, ordonnances royales e
 
 <p>Ainsi les arrêtés pris par M. le gouverneur Dupotet, pour la dissolution et la réorganisation des milices de la Martinique, constituent un veritable abus de pouvoir, une violation de la loi d'avril 1833.</p>
 
-<p>Probablement son successeur, <persName ref="#EH">M. l'amiral Halgan</persName>, considérera ces arrêtés comme non avenus et continuera de commander la milice telle qu'elle était organisée avant les actes de dissolution ; autrement ce serait participer à l'illégalité commise par son prédécesseur.</p><pb n="22"/>
+<p>Probablement son successeur, <persName ref="#EH">M. l'amiral Halgan</persName>, considérera ces arrêtés comme non avenus et continuera de commander la milice telle qu'elle était organisée avant les actes de dissolution ; autrement ce serait participer à l'illégalité commise par son prédécesseur.</p><pb facs="v1n3f23" n="23"/>
 
 </div>
 
-<div>
+<div xml:id="machiavelisme-colonial">
 
 <head>MACHIAVÉLISME COLONIAL.</head>
 
@@ -537,7 +554,7 @@ touchante ces toutes bénignes paroles : <q>"Nous ne connaissons rien du reste d
 
 <q><title>COLONIES.</title>
 
-<p>On a reçu des nouvelles de nos colonies des Antilles qui vont jus qu'au 10 juillet ; celles de la Martinique ne vont que jusqu'au 5.<pb n="23"/></p>
+<p>On a reçu des nouvelles de nos colonies des Antilles qui vont jus qu'au 10 juillet ; celles de la Martinique ne vont que jusqu'au 5.<pb facs="v1n3f24" n="24"/></p>
 
 <p>Ces lettres annoncent le dénouement du grand procès des prévenus dans l'affaire de la Grand'Anse ; mais malheureusement les détails manquent à ce sujet ; ils doivent se trouver contenus dans des lettres antérieures de date, expédiées par des navires qui ne sont point encore arrivés.</p>
 
@@ -558,12 +575,12 @@ touchante ces toutes bénignes paroles : <q>"Nous ne connaissons rien du reste d
 
 </div>
 
-<div>
+<div xml:id="affaire-de-la-grandanse">
 <head><rs type="event">AFFAIRE DE LA GRAND'ANSE.</rs></head>
 
 <p>La cour de la <placeName ref="#MQ">Martinique</placeName> a enfin rendu son arrêt dans le grand procès qui occupait tous les esprits ; après un mois de débats, les juges de la Martinique ont prononcé 15 condamnations capitales, 10 aux galères à perpétuité, aux galères à temps et à la réclusion, et 25 à la déportation. Indépendamment de tout ce luxe de condamnations, tous les contumaces, au nombre de 26, ont été comdamnés à la peine capitale.</p>
 
-<p>Sur 117 têtes que demandait <persName ref="#ANog">M. Nogues</persName>, la cour ne lui en donne que 15 ; mais, encore une fois, il a obtenu 10 condamnations aux galères à perpétuité, aux galères à temps et à la réclusion, 25 condamnations à la déportation, et 26 contumaces sont condamnés à<pb n="24"/> mort ! Que fera M. Nogues de tout ce sang ? Eu sera-t-il rassasié ? 
+<p>Sur 117 têtes que demandait <persName ref="#ANog">M. Nogues</persName>, la cour ne lui en donne que 15 ; mais, encore une fois, il a obtenu 10 condamnations aux galères à perpétuité, aux galères à temps et à la réclusion, 25 condamnations à la déportation, et 26 contumaces sont condamnés à<pb facs="v1n3f25" n="25"/> mort ! Que fera M. Nogues de tout ce sang ? Eu sera-t-il rassasié ? 
 <choice>
 <orig>A</orig>
 <reg>À</reg>
@@ -579,13 +596,13 @@ l'acharnement avec lequel il l'a réclamé, on eût dit qu'il en avait soif. Il 
 <orig>A</orig>
 <reg>À</reg>
 </choice>
-l'ouverture de ce procès-monstre, le journal officiel de la colonie avait commencé à publier les débats, mais cette innovation d'un excellent esprit en est restée là. Les juges-colons, effrayés de l'effet produit par cette publicité inusitée, et sentant bien que la connaissance des dépositions surtout soulèverait les passions contre les témoins, presque tous faux, et contre le ministère public, ont engagé l'autorité à faire cesser la publication du compte-rendu des assises. Et certes ils ont eu bien raison, car toutes les iniquités du procès eussent été mises ainsi au grand jour et l'odieux en fût retombé sur qui de droit ; ils ont eu bien raison, car l'indignation publique les eût empêchés peut-être de rendre leur inique arrêt, qui n'est autre chose que l'expression d'une vengeance de caste,<pb n="25"/> et non pas un véritable jugement. Juges et parties, privilégiés, élevés dans les préjugés atroces de leur caste, tout ce qui est lumière et justice les épouvante, et c'est qu'en effet tout ce qui est lumière et justice ne peut tourner qu'à leur honte et à leur confusion. Dès lors ils devaient appréhender la publicité des débats, et elle eût été en effet <emph>dangereuse</emph> pour eux.</p>
+l'ouverture de ce procès-monstre, le journal officiel de la colonie avait commencé à publier les débats, mais cette innovation d'un excellent esprit en est restée là. Les juges-colons, effrayés de l'effet produit par cette publicité inusitée, et sentant bien que la connaissance des dépositions surtout soulèverait les passions contre les témoins, presque tous faux, et contre le ministère public, ont engagé l'autorité à faire cesser la publication du compte-rendu des assises. Et certes ils ont eu bien raison, car toutes les iniquités du procès eussent été mises ainsi au grand jour et l'odieux en fût retombé sur qui de droit ; ils ont eu bien raison, car l'indignation publique les eût empêchés peut-être de rendre leur inique arrêt, qui n'est autre chose que l'expression d'une vengeance de caste,<pb facs="v1n3f26" n="26"/> et non pas un véritable jugement. Juges et parties, privilégiés, élevés dans les préjugés atroces de leur caste, tout ce qui est lumière et justice les épouvante, et c'est qu'en effet tout ce qui est lumière et justice ne peut tourner qu'à leur honte et à leur confusion. Dès lors ils devaient appréhender la publicité des débats, et elle eût été en effet <emph>dangereuse</emph> pour eux.</p>
 
 <p>Ce point obtenu facilement, il ne leur restait plus qu'à faire semblant de suivre avec attention les dépositions des témoins et toutes les phases de l'affaire ; mais l'arrêt était d'avance au fond de leur pensée ; ils l'avaient formulé dans leur coeur, et il ne restait plus qu'à le rendre au milieu de l'appareil et du simulacre d'un procès criminel. Les juges-colons ont admirablement fait en cette occasion ; ils n'ont pas démenti le sang qui coule dans leurs veines : ils n'ont pas abjuré ce vieil esprit de séparation que nous nous flattions de voir céder peu à peu aux tendances humaines du siècle et faire place dans leur cœur aux principes sacrés de la fraternité des hommes. C'eût été pourtant une belle occasion à eux de se monter modérés et justes envers les hommes de couleur, auxquels d'ailleurs une amnistie avait été promise, et d'arriver par là à cette fusion désirable qui était dans nos voeux. Ils ne l'ont pas voulu. Eh bien, donc ! gardons nos haines de part et d'autre ; et que s'il y a du sang versé, il retombe sur la tête de ces hommes qui ne comprennent que leur sordide intérêt de caste, et pour qui la justice et l'humanité ne sont rien !</p>
 
 </div>
 
-<div>
+<div xml:id="états-unis">
 <head><placeName ref="#USA">États-Unis</placeName></head>
 <head>ÉMEUTES DE <placeName ref="#NY">NEW-YORK</placeName></head>
 
@@ -596,7 +613,7 @@ l'ouverture de ce procès-monstre, le journal officiel de la colonie avait comme
 <orig>précédens</orig>
 <reg>précédents</reg>
 </choice>
-des troubles sérieux dans cette ville. La populace s'était ameutée et avait attaqué plusieurs maisons, ainsi que des églises et des chapelles qu'elle avait dévastées après en avoir brisé toutes les portes et les fenêtres. La cause de ces désordres parait avoir été l'explosion du mécontentement populaire contre les philan<pb n="26"/>tropes qui s'efforcent de préparer le grand œuvre de l'abolition de l'esclavage aux États-Unis. Les maisons dévastées appartenaient en grande partie à des ministres de la religion qui avaient préché en faveur des esclaves. L'église qui a le plus souffert est <placeName>l'église épiscopale africaine de Saint-Philippe</placeName> ; la chapelle africaine de la secte des anabaptistes et l'école africaine ont aussi été ravagées. La populace a assiégé entre autres maisons celle d'un barbier, homme de couleur. Celui ci à montré le plus grand courage et a tenu tête pendant trois heures aux 
+des troubles sérieux dans cette ville. La populace s'était ameutée et avait attaqué plusieurs maisons, ainsi que des églises et des chapelles qu'elle avait dévastées après en avoir brisé toutes les portes et les fenêtres. La cause de ces désordres parait avoir été l'explosion du mécontentement populaire contre les philan<pb facs="v1n3f27" n="27"/>tropes qui s'efforcent de préparer le grand œuvre de l'abolition de l'esclavage aux États-Unis. Les maisons dévastées appartenaient en grande partie à des ministres de la religion qui avaient préché en faveur des esclaves. L'église qui a le plus souffert est <placeName>l'église épiscopale africaine de Saint-Philippe</placeName> ; la chapelle africaine de la secte des anabaptistes et l'école africaine ont aussi été ravagées. La populace a assiégé entre autres maisons celle d'un barbier, homme de couleur. Celui ci à montré le plus grand courage et a tenu tête pendant trois heures aux 
 <choice>
 <orig>assaillans</orig>
 <reg>assaillants</reg>
@@ -633,7 +650,7 @@ bas l'étranger ! à bas l'Anglais !</emph> Il fallut 60 watchmen, armés de leu
 <orig>marquans</orig>
 <reg>marquants</reg>
 </choice> 
-dans ces scènes de désordre ont été arrêtés et sont en prison.</p><pb n="27"/>
+dans ces scènes de désordre ont été arrêtés et sont en prison.</p><pb facs="v1n3f28" n="28"/>
 
 <p> Le nombre des blessés est considérable, mais nous n'avons pas appris que personne le fût dangereusement. Plusieurs hommes de couleur, qui s'en allaient chez eux après une fatigante journée de travail, tombèrent entre les mains de la foule et furent battus jusqu'à rester pour morts sur la place.</p>
 
@@ -660,7 +677,7 @@ se sont renouvelés vendredi soir. Une nouvelle attaque fut dirigée contre la c
 <orig>A</orig>
 <reg>À</reg>
 </choice> 
-peu près à la même heure, un autre rassemblement attaqua l’église africaine épiscopale de Saint-Philips, dans <placeName>Center-Street</placeName>, dont le pasteur, <persName ref="#PWill">M. Peter Williams</persName>, est un homme de couleur ; ces furieux détruisirent tout ce qu'ils purent arracher. Les fenêtres d'une autre église africaine, dans <placeName>Anthony Street</placeName>, furent mises en pièces. <placeName>L'école africaine d'Orange-Street</placeName>, où se rassemble aussi une congrégation<pb n="28"/> méthodiste, fut entièrement démolie. Plusieurs maisons où demeuraient des hommes de couleur et leurs familles, dans Orange, <placeName>Mulberry</placeName>, Anthony et <placeName>Leonard-Streets</placeName>, furent attaquées et en grande partie détruites. Les meubles, portés dans la rue, servirent à faire des feux de joie.</p>
+peu près à la même heure, un autre rassemblement attaqua l’église africaine épiscopale de Saint-Philips, dans <placeName>Center-Street</placeName>, dont le pasteur, <persName ref="#PWill">M. Peter Williams</persName>, est un homme de couleur ; ces furieux détruisirent tout ce qu'ils purent arracher. Les fenêtres d'une autre église africaine, dans <placeName>Anthony Street</placeName>, furent mises en pièces. <placeName>L'école africaine d'Orange-Street</placeName>, où se rassemble aussi une congrégation<pb facs="v1n3f29" n="29"/> méthodiste, fut entièrement démolie. Plusieurs maisons où demeuraient des hommes de couleur et leurs familles, dans Orange, <placeName>Mulberry</placeName>, Anthony et <placeName>Leonard-Streets</placeName>, furent attaquées et en grande partie détruites. Les meubles, portés dans la rue, servirent à faire des feux de joie.</p>
 
 <p>Un grand nombre de noirs se rendirent aux bureaux de police, àl'Hôtel-de-Ville, pour réclamer  la protection des autorités.</p>
 
@@ -672,7 +689,7 @@ peu près à la même heure, un autre rassemblement attaqua l’église africain
 
 <q><p>Pendant plus de cinq heures, notre ville a été la proie d'une populace en furie, qui partout devant elle a porté la destruction. Tous les efforts des watchmen, des troupes même n'ont servi tout au plus qu'à retarder les progrès de cette insurrection contre la propriété. Il y avait peut-être plus de mille soldats sous les armes, sans compter deux escadrons de cavalerie ; mais la populace était tellement convaincue de l'illegalité qu'il y aurait pour les troupes de tirer sur les citoyens sans que le gouverneur fût présent, qu'elle semblait plus disposée à braver leurs coups qu'à se retirer. Si cette opinion se fonde sur l'erreur, il faut la détruire immédiatement. Les affaires en sont arrivées à ce point que si des mesures sévères ne sont pas adoptées, notre gouvernement cessera d'exister."</p></q>
 
-<p>Cette grossière et brutale aggression du peuple de New-York contre les <emph>abolitionistes</emph>, qui usaient d'un droit incontestable, est un accident fâcheux qui témoigne du peu de progrès de la masse populaire de certains États de l'Union américaine. Une cupidité sans pudeur, l'ignorance et le mépris des droits des citoyens, non moins que de ceux de l'humanité, l'absence presque absolue du sentiment chrétien de la fraternité, c'est ce qui malheureusement paraît caractériser encore à un haut degré la portion de la population de New-York qui a pris part à ce triste et malheureux événement, triste en ce qu'il indique un état moral arriéré, malheureux parce qu'il est déshonorant pour l'humanité et qu'il ferait presque douter de l'avenir de la civilisation. Heureusement que ce n'est qu'un désordre passager, un accident de peu de conséquence. Rien ne prévaudra contre la bonne cause. Le mauvais vouloir des prolétaires blancs, auxquels, dans certains pays, la sueur et les douleurs de l'esclavage épargnent quelque labeur, et que, par<pb n="29"/> suite, un hideux égoïsme anime contre son émancipation, pas plus que le machiavélisme des grands propriétaires que le travail seul des noirs a fait riches et 
+<p>Cette grossière et brutale aggression du peuple de New-York contre les <emph>abolitionistes</emph>, qui usaient d'un droit incontestable, est un accident fâcheux qui témoigne du peu de progrès de la masse populaire de certains États de l'Union américaine. Une cupidité sans pudeur, l'ignorance et le mépris des droits des citoyens, non moins que de ceux de l'humanité, l'absence presque absolue du sentiment chrétien de la fraternité, c'est ce qui malheureusement paraît caractériser encore à un haut degré la portion de la population de New-York qui a pris part à ce triste et malheureux événement, triste en ce qu'il indique un état moral arriéré, malheureux parce qu'il est déshonorant pour l'humanité et qu'il ferait presque douter de l'avenir de la civilisation. Heureusement que ce n'est qu'un désordre passager, un accident de peu de conséquence. Rien ne prévaudra contre la bonne cause. Le mauvais vouloir des prolétaires blancs, auxquels, dans certains pays, la sueur et les douleurs de l'esclavage épargnent quelque labeur, et que, par<pb facs="v1n3f30" n="30"/> suite, un hideux égoïsme anime contre son émancipation, pas plus que le machiavélisme des grands propriétaires que le travail seul des noirs a fait riches et 
 <choice>
 <orig>puissans</orig>
 <reg>puissants</reg>
@@ -686,11 +703,11 @@ peu près à la même heure, un autre rassemblement attaqua l’église africain
 <orig>à</orig>
 <reg>a</reg>
 </choice>
-été aboli, ce sont les législatures particulières qui l'ont fait. Ce n'est donc que d'elles et des progrès des grands principes d'humanité dans les masses, qu'on doit attendre l'émancipation dans les États où elle n'a pas encore été prononcée. C'est aussi pour hâter ce progrès que les Sociétés abolitionistes se sont constituées. Malgré les vains efforts de la malveillance, elles exerceront une grande influence sur cette importante question, et nous croyons que les malheureux noirs ne tarderont pas à en ressentir les heureux effets.</p>
+été aboli, ce sont les législatures particulières qui l'ont fait. Ce n'est donc que d'elles et des progrès des grands principes d'humanité dans les masses, qu'on doit attendre l'émancipation dans les États où elle n'a pas encore été prononcée. C'est aussi pour hâter ce progrès que les Sociétés abolitionistes se sont constituées. Malgré les vains efforts de la malveillance, elles exerceront une grande <pb facs="v1n3f31" n="31"/>influence sur cette importante question, et nous croyons que les malheureux noirs ne tarderont pas à en ressentir les heureux effets.</p>
 
 </div>
 
-<div>
+<div xml:id="angleterre">
 
 <head><placeName ref="#AN">ANGLETERRE</placeName></head>
 <head><placeName ref="#Lo">LONDRES</placeName></head>
@@ -703,7 +720,7 @@ peu près à la même heure, un autre rassemblement attaqua l’église africain
 
 <p>Le diner fini, le noble président a proposé un toast à la santé du roi, en faisant observer que le grand événement qu'il célé-</p>
 
-<note><p>(1) Garde-des-sceaux privé et membre du cabinet</p></note><pb n="30"/>
+<note><p>(1) Garde-des-sceaux privé et membre du cabinet</p></note><pb facs="v1n3f32" n="32"/>
 
 <p>-braient occuperait dans les siècles à venir la plus belle page dans l'histoire de la vie et du règne de ce monarque. (
 <choice>
@@ -726,7 +743,7 @@ la santé des peuples des colonies nouvellement émancipés ! (Bravos redoublés
 
 <p>Après avoir prié l'assemblée d'excuser la brièveté de son discours, il continue :</p>
 
-<p>J'ai basé mon opinion sur mes rapports personnels avec les nègres eux-mêmes. Les défenseurs du système inhumain de l'esclavage ont parlé beaucoup de l'amélioration opérée depuis quelques années dans l'état de ces êtres infortunés. Il est de mon devoir de dire que je considère ce qu'ils ont avancé comme très exagéré. Des atrocités ont été commises jusqu'au moment où le bill pour l'émancipation des esclaves a passé ; ces atrocités n'auraient pu être prévenues ni empêchées par aucune mesure partielle. Si cette <pb n="31"/>grande mesure n'eût pas été adoptée, un bouleversement horrible devait s'ensuivre.
+<p>J'ai basé mon opinion sur mes rapports personnels avec les nègres eux-mêmes. Les défenseurs du système inhumain de l'esclavage ont parlé beaucoup de l'amélioration opérée depuis quelques années dans l'état de ces êtres infortunés. Il est de mon devoir de dire que je considère ce qu'ils ont avancé comme très exagéré. Des atrocités ont été commises jusqu'au moment où le bill pour l'émancipation des esclaves a passé ; ces atrocités n'auraient pu être prévenues ni empêchées par aucune mesure partielle. Si cette <pb facs="v1n3f33" n="33"/>grande mesure n'eût pas été adoptée, un bouleversement horrible devait s'ensuivre.
 <choice>
 <orig>A</orig>
 <reg>À</reg>
@@ -755,7 +772,7 @@ que produisait l'esclavage, non seulement dans l'esprit des esclaves, mais même
 </choice>
 des hommes libres. Je suis convaincu, d'après ce que j'en ai vu et appris, qu'ils deviendront un jour de bons et d'utiles sujets ; et je sais, à n'en pas douter, que l'esprit du nègre n'est point impropre à recevoir une instruction morale et religieuse.</p>
 
-<p>Le noble lord termina son discours en souhaitant une longue vie aux esclaves nouvellement émancipés.</p><pb n="33"/>
+<p>Le noble lord termina son discours en souhaitant une longue vie aux esclaves nouvellement émancipés.</p><pb facs="v1n3f34" n="34"/>
 
 <p>Monsieur Buxton, après avoir fait observer que dès ce jour l'esclavage serait entièrement aboli, et que le nègre, qui jusqu'ici avait été considéré comme un article de commerce, jouirait dorénavant des 
 <choice>
@@ -788,13 +805,13 @@ hommes, les membres du gouvernement de sa majesté, qui ont si puissamment trava
 </choice> 
 la prospérité politique et sociale des colonies !"</p>
 
-<p>M. Lecesne, l'homme de couleur dont nous avons déjà parlé, remercia, en son propre nom et en celui de la population noire des colonies, le gouvernement de sa majesté, qui, avec l'assistance des amis des nègres dans ce pays, avait opéré un changement aussi glorieux. Il parla de l'administration du noble président, comme gouverneur de la Jamaïque, avec les plus grands éloges, et fit observer que la tranquillité qui règne maintenant à la Jamaïque était due principalement à la manière douce, quoique ferme et politique, avec laquelle le noble comte avait agi pendant son<pb n="34"/> séjour dans cette île. Il termine en proposant la santé du noble président. Le président, en le remerciant, fit allusion à l'éloquence et au bon goût dont M. Lecesne avait fait preuve dans son discours.</p>
+<p>M. Lecesne, l'homme de couleur dont nous avons déjà parlé, remercia, en son propre nom et en celui de la population noire des colonies, le gouvernement de sa majesté, qui, avec l'assistance des amis des nègres dans ce pays, avait opéré un changement aussi glorieux. Il parla de l'administration du noble président, comme gouverneur de la Jamaïque, avec les plus grands éloges, et fit observer que la tranquillité qui règne maintenant à la Jamaïque était due principalement à la manière douce, quoique ferme et politique, avec laquelle le noble comte avait agi pendant son<pb facs="v1n3f35" n="35"/> séjour dans cette île. Il termine en proposant la santé du noble président. Le président, en le remerciant, fit allusion à l'éloquence et au bon goût dont M. Lecesne avait fait preuve dans son discours.</p>
 
 <p>(<bibl type="periodical"><title ref="#TIM">Times</title></bibl>, <date>4 août.</date>)</p>
 
 </div>
 
-<div>
+<div xml:id="France">
 
 <head>FRANCE</head>
 
@@ -808,7 +825,7 @@ la prospérité politique et sociale des colonies !"</p>
 
 <p>Un officier-général commandant les troupes, un intendant civil, un officier-général commandant la marine, un procureur-général, un intendant militaire, un directeur des finances, sont chargés des différens services civils et militaires, sous les ordres du gou verneur-général et dans la limite de leurs attributions respectives. Le gouverneur-général a près de lui un conseil composé des fonctionnaires qui viennent d'être désignés. Suivant la nature des questions soumises au conseil, le gouverneur-général y appelle les chefs des services spéciaux, civils ou militaires, que l'objet des discussions peut concerner.Ils ont voix consultative.</p>
 
-<p>Jusqu'à ce qu'il en soit autrement ordonné, les possessions fran çaises dans le nord de l'Afrique seront régies par des ordonnances royales. Le gouverneur-général prépare en conseil les [projets d'ordonnances que réclame la situation du pays et les transmet au ministre de la guerre. Dans les cas extraordinaires et urgens, il peut provisoirement et par voie d'arrêté rendre exécutoires les dispositions contenues dans ces projets.</p><pb n="35"/>
+<p>Jusqu'à ce qu'il en soit autrement ordonné, les possessions fran çaises dans le nord de l'Afrique seront régies par des ordonnances royales. Le gouverneur-général prépare en conseil les [projets d'ordonnances que réclame la situation du pays et les transmet au ministre de la guerre. Dans les cas extraordinaires et urgens, il peut provisoirement et par voie d'arrêté rendre exécutoires les dispositions contenues dans ces projets.</p><pb facs="v1n3f36" n="36"/>
 
 <p>Une seconde <bibl type="legal">ordonnance</bibl>, également du <date>27 juillet</date>, nomme <persName ref="#DRO">M. le lieutenant-général Drouet</persName>, <roleName>comte d'Erlon</roleName>, <roleName>gouverneur-général</roleName>.</p>
 
@@ -828,12 +845,11 @@ la prospérité politique et sociale des colonies !"</p>
 
 <p>Juges suppléans : MM. <persName ref="#GAU">Gaurans, avocat à Toulouse</persName>, et <persName ref="#GE">Germain, avocat à Saint-Gaudens</persName>. Premier substitut du procureur général du roi à Alger : <persName ref="#LOY">M. Loyson, procureur du roi près le tribunal civil de Colmar</persName>.</p>
 
-<p>Substituts du procureur-général du roi à Alger : MM. <persName ref="#DA">Daverton, ancien procureur du roi près le tribunal civil de Melle</persName> ; <persName ref="#REL">Renaud Lebon, avocat à Paris</persName> ; et <persName ref="#FL">Fleury, substitut du procureur du roi près le tribunal civil de Castellane</persName>.</p><pb n="36"/>
+<p>Substituts du procureur-général du roi à Alger : MM. <persName ref="#DA">Daverton, ancien procureur du roi près le tribunal civil de Melle</persName> ; <persName ref="#REL">Renaud Lebon, avocat à Paris</persName> ; et <persName ref="#FL">Fleury, substitut du procureur du roi près le tribunal civil de Castellane</persName>.</p><pb facs="v1n3f37" n="37"/>
 
 </div>
 
-<div>
-
+<div xml:id="nouvelles-diverses">
 <head>NOUVELLES DIVERSES</head>
 
 <p>On nous assure que <persName ref="#CT">M. Charles Télèphe</persName>, <roleName>officier de la garde nationale de la <placeName ref="#MQ">Martinique</placeName></roleName>, présentement à <placeName ref="#Par">Paris</placeName>, vient d'écrire une lettre au ministre de la marine et des colonies pour éclairer la religion de ce ministre sur l'épouvantable <rs type="event">affaire de la Grand'Anse</rs>. On sait que M. Télèphe a joué un rôle dans cette affaire : en sa qualité d'officier de la garde nationale, il fut investi de la confiance du gouverneur, dans un moment où l'on avait à craindre le parti que prendrait la masse des hommes de couleur en présence de leurs frères armés, qui, à l'imitation des blancs, s'étaient retranchés aussi dans le <placeName ref="#FC">camp du Fond-Capot</placeName>. M. Télèphe fut porteur de paroles d'amnistie pour les hommes de couleur. M. Télèphe explique, dit-on, dans sa lettre, toutes ces particularités au ministre. Nous ne pouvons qu'applaudir au sentiment de justice et de patriotisme qui a dicté cette lettre à cet officier.</p>
@@ -862,7 +878,7 @@ et de précieuses garanties. MM. <persName ref="#PAS">Passy</persName> et <persN
 
 <p>- Une lettre de M. Gaëtan de Larochefoucauld, qui nous a été communiquée par M. Delaborde, secrétaire de la <emph>Société pour l'abolition de l'esclavage</emph>, annonce que plusieurs pairs de <placeName ref="#FR">France</placeName> et un grand nombre de députés ont témoigné le désir de faire partie de cette Société ; nous avons retenu le nom de <persName ref="#VERH">M. l'amiral Verhuell</persName>, connu par son excellent discours à la chambre des pairs sur la traite des noirs.</p>
 
-<p>- Les habitans du <placeName ref="#SEN">Sénégal</placeName>, en reconnaissance des bons ser<pb n="37"/>vices que leur a rendu autrefois <persName ref="#ROG">M. le baron Roger</persName>, ancien gouverneur de cette colonie, et maintenant membre de la chambre des députés, lui ont envoyé une pirogue africaine faite d'un seul trone d'arbre.</p>
+<p>- Les habitans du <placeName ref="#SEN">Sénégal</placeName>, en reconnaissance des bons ser<pb facs="v1n3f38" n="38"/>vices que leur a rendu autrefois <persName ref="#ROG">M. le baron Roger</persName>, ancien gouverneur de cette colonie, et maintenant membre de la chambre des députés, lui ont envoyé une pirogue africaine faite d'un seul trone d'arbre.</p>
 
 <p>- -Ont été reçus docteurs-médecins, à la Faculté de médecine de Paris, les hommes de couleur dont les noms suivent :</p>
 
@@ -894,7 +910,7 @@ et de précieuses garanties. MM. <persName ref="#PAS">Passy</persName> et <persN
 
 <div>
 
-<p>Après la condamnation dans l'affaire des déportés de la Martinique, en <date>1824</date>, <persName ref="#RL">RICHARD-LUCY</persName>, alors procureur-général, vint en France, sollicita du ministère de la marine et obtint très facile ment la décoration de la Légion-d'Honneur. On sait que RICHARD-LUCY avait fait exécuter l'arrêt de condamnation aux galères à per<pb n="38"/>pétuité au mépris du pourvoi en cassation qui avait été formé par les condamnés.</p>
+<p>Après la condamnation dans l'affaire des déportés de la Martinique, en <date>1824</date>, <persName ref="#RL">RICHARD-LUCY</persName>, alors procureur-général, vint en France, sollicita du ministère de la marine et obtint très facile ment la décoration de la Légion-d'Honneur. On sait que RICHARD-LUCY avait fait exécuter l'arrêt de condamnation aux galères à per<pb facs="v1n3f39" n="39"/>pétuité au mépris du pourvoi en cassation qui avait été formé par les condamnés.</p>
 
 </div>
 
@@ -904,7 +920,7 @@ et de précieuses garanties. MM. <persName ref="#PAS">Passy</persName> et <persN
 
 </div>
 
-<div>
+<div xml:id="colonies-francaises">
 
 <head>COLONIES FRANÇAISES</head>
 
@@ -926,7 +942,7 @@ osé parler, dans leur interrogatoire, du drapeau blanc du <placeName ref="#CBO"
 </choice> 
 à ne point parler de cette circonstance, sous prétexte que cela pourrait indisposer les juges contre eux. Mais le croirait-on ? ce même Deslix, après s'être fait payer si chèrement, n'a pas même attendu l'arrêt pour former le pourvoi de ses malheureux clients en cas de condamnation, et est parti pour le Fort-Royal hier avant le prononcé du jugement. Que diront d'une telle conduite vos avocats d'Europe ? Sa défense est tellement coloniale qu'il a sollicité et facilement obtenu de la faire insérer dans le journal officiel, où elle a paru <date>dimanche dernier 29 juin</date>, tandis qu'on avait craint d'y laisser publier les débats. Admirable justice distributive !</p>
 
-<p><persName ref="#BART">Barthel</persName> seul a parlé hardiment du pavillon blanc du camp Bo<pb n="39"/>nafond. <persName ref="#PER">M. Perrinelle</persName> lui a dit : « Vous vous trompez, c'était une nappe qui avait une tache de vin qu'on avait mise au soleil. - Monsieur le président, a répondu Barthel, on ne met pas une nappe au bout d'un bambou de plus de vingt pieds au soleil.</p>
+<p><persName ref="#BART">Barthel</persName> seul a parlé hardiment du pavillon blanc du camp Bo<pb facs="v1n3f40" n="40"/>nafond. <persName ref="#PER">M. Perrinelle</persName> lui a dit : « Vous vous trompez, c'était une nappe qui avait une tache de vin qu'on avait mise au soleil. - Monsieur le président, a répondu Barthel, on ne met pas une nappe au bout d'un bambou de plus de vingt pieds au soleil.</p>
 
 <p>Nous nous occupons du pourvoi de nos malheureux amis.
 Non, il ne sera pas dit qu'on laisse conduire tant de victimes à l'échafaud. La France nous protégera contre la terreur des blancs.</p>
@@ -960,7 +976,7 @@ dans les gabarres de la ville et passait pour être l'ami intime de Vaille ; cel
 <orig>courans</orig>
 <reg>courants</reg> 
 </choice>
-. Son corps était criblé de coups de poignard ; il en avait au dos, au ventre et sur la tête ; trois coups avaient été dirigés au coeur. On en a compté plus de quinze. Après sa mort, Vaille fut précipité à la mer, le cou serré d'une corde à laquelle pendaient des pierres.</p><pb n="40"/>
+. Son corps était criblé de coups de poignard ; il en avait au dos, au ventre et sur la tête ; trois coups avaient été dirigés au coeur. On en a compté plus de quinze. Après sa mort, Vaille fut précipité à la mer, le cou serré d'une corde à laquelle pendaient des pierres.</p><pb facs="v1n3f41" n="41"/>
 
 </div>
 
@@ -1000,7 +1016,7 @@ esprits. Dans l'atmosphère de liberté où vous vivez, je doute que vous puissi
 <orig>enfans</orig>
 <reg>enfants</reg> 
 </choice> 
-en témoignage de leur gratitude profonde pour ces honorables défenseurs de leur liberté. Est-il possible d'imaginer rien de pareil ? La langue, n'est-ce pas, manque de mots pour qualifier tant d'ineptie jointe à si peu de res<pb n="41"/>pect pour le droit commun ? C'est pourtant par des actes de cette force que se signalent souvent nos autorités. Pauvre civilisation que la nôtre ! Le ridicule en cette affaire l'emporte sur la barbarie ; heureux quand la barbarie ne l'emporte pas sur le ridicule !.....</p>
+en témoignage de leur gratitude profonde pour ces honorables défenseurs de leur liberté. Est-il possible d'imaginer rien de pareil ? La langue, n'est-ce pas, manque de mots pour qualifier tant d'ineptie jointe à si peu de res<pb facs="v1n3f42" n="42"/>pect pour le droit commun ? C'est pourtant par des actes de cette force que se signalent souvent nos autorités. Pauvre civilisation que la nôtre ! Le ridicule en cette affaire l'emporte sur la barbarie ; heureux quand la barbarie ne l'emporte pas sur le ridicule !.....</p>
 
 </div>
 
@@ -1024,7 +1040,7 @@ en témoignage de leur gratitude profonde pour ces honorables défenseurs de leu
 
 <head><placeName ref="#Alg">ALGER</placeName>.</head>
 
-<p>Les travaux continuent avec activité. Le nombre des malades est beaucoup moindre que dans les années précédentes. Nos rela<pb n="42"/>tions avec les Arabes n'ont en ce moment rien d'hostile, mais elles sont bien loin d'être aussi amicales et aussi sûres que l'on se plaisait à le publier dans les rapports officiels. Cependant si quelques tribus se montrent hostiles, il n'y a pas le moindre symptôme de conflagration générale, et nos 
+<p>Les travaux continuent avec activité. Le nombre des malades est beaucoup moindre que dans les années précédentes. Nos rela<pb facs="v1n3f43" n="43"/>tions avec les Arabes n'ont en ce moment rien d'hostile, mais elles sont bien loin d'être aussi amicales et aussi sûres que l'on se plaisait à le publier dans les rapports officiels. Cependant si quelques tribus se montrent hostiles, il n'y a pas le moindre symptôme de conflagration générale, et nos 
 <choice>
 <orig>établissemens</orig>
 <reg>établissements</reg> 
@@ -1033,7 +1049,7 @@ n'auront rien à craindre tant qu'ils n'auront à supporter que quelques attaque
 
 </div>
 
-<div>
+<div xml:id="colonies-étrangères">
 
 <head>COLONIES ÉTRANGÈRES.</head>
 
@@ -1043,7 +1059,7 @@ n'auront rien à craindre tant qu'ils n'auront à supporter que quelques attaque
 
 <p>"Les questions coloniales se rapportent à deux points de vue tout-à-fait distincts, soit qu'on les envisage relativement à l'émancipation des noirs, question anglaise qui ne peut tarder à devenir celle de toutes les nations civilisées, soit qu'on les considère sous le rapport matériel de la production, de l'économie et du développement commercial.</p>
 
-<p>L'émancipation des noirs est une question de principes ; et du jour où la traite fut abolie et repoussée, le principe a été posé. Celui qui plaide en faveur de l'esclavage ne doit-il pas en effet, s'il veut être conséquent, plaider aussi pour la traite ? On ne dit plus, remarque <persName ref="#MON">M. de Montvéran</persName>, l'abolition de l'esclavage, on dit l'émancipation des noirs ; et cette pudeur dans les termes annonce la solution de la question. C'est un fait puissant à objecter à ceux qui nient les progrès de la civilisation, que ce changement complet de l'opinion publique, qui regardait il y a un siècle la grande iniquité de la traite des noirs comme une chose juste et nécessaire. L'<placeName ref="#ANG">Angleterre</placeName>, qui se place aujourd'hui à la tête de ce mouvement philantropique, fut en effet la première à exercer la traite sur la côte occidentale de l'<placeName>Afrique</placeName>, et <persName ref="#QEI">la reine Élisabeth</persName>, avec toute sa cour, avait pris des actions dans cet infâme trafic, que continuèrent <persName ref="#KJI">Jacques Ier</persName> et <persName ref="#KCI">Charles Ier</persName>. Depuis <date>1670</date>, environ cinq millions de noirs ont été importés dans les <placeName>Antilles</placeName> et sur le <placeName>continent améri<pb n="43"/>cain</placeName> au nord de la ligne. Infidèles aux lois ordinaires de la population, 4,555,220 noirs et 2,458,000 mulâtres, métis et sang mêlés, représentent actuellement cette énorme souche. Au sud de la ligne, deux millions de noirs brésiliens représentent peut-être encore plus d'infortunes.</p>
+<p>L'émancipation des noirs est une question de principes ; et du jour où la traite fut abolie et repoussée, le principe a été posé. Celui qui plaide en faveur de l'esclavage ne doit-il pas en effet, s'il veut être conséquent, plaider aussi pour la traite ? On ne dit plus, remarque <persName ref="#MON">M. de Montvéran</persName>, l'abolition de l'esclavage, on dit l'émancipation des noirs ; et cette pudeur dans les termes annonce la solution de la question. C'est un fait puissant à objecter à ceux qui nient les progrès de la civilisation, que ce changement complet de l'opinion publique, qui regardait il y a un siècle la grande iniquité de la traite des noirs comme une chose juste et nécessaire. L'<placeName ref="#ANG">Angleterre</placeName>, qui se place aujourd'hui à la tête de ce mouvement philantropique, fut en effet la première à exercer la traite sur la côte occidentale de l'<placeName>Afrique</placeName>, et <persName ref="#QEI">la reine Élisabeth</persName>, avec toute sa cour, avait pris des actions dans cet infâme trafic, que continuèrent <persName ref="#KJI">Jacques Ier</persName> et <persName ref="#KCI">Charles Ier</persName>. Depuis <date>1670</date>, environ cinq millions de noirs ont été importés dans les <placeName>Antilles</placeName> et sur le <placeName>continent améri<pb facs="v1n3f44" n="44"/>cain</placeName> au nord de la ligne. Infidèles aux lois ordinaires de la population, 4,555,220 noirs et 2,458,000 mulâtres, métis et sang mêlés, représentent actuellement cette énorme souche. Au sud de la ligne, deux millions de noirs brésiliens représentent peut-être encore plus d'infortunes.</p>
 
 <p>Les six colonies françaises comptent 270 mille esclaves, que les colons estiment 1,500 francs chacun ; les colonies espagnoles de <placeName ref="#CUB">Cuba</placeName> et de<placeName ref="#PR">Porto-Rico</placeName> en ont 320 mille, estimés 1,000 francs environ ; les dix-huit colonies anglaises du <placeName ref="#GdM">golfe du Mexique</placeName> et de <placeName ref="#IM">l'île de France (Maurice)</placeName> en ont 693,200, portés à 1,500 francs ; ce qui, avec les esclaves des colonies hollandaises, de <placeName ref="#SU">Surinam</placeName>, <placeName ref="#CU">Curaçao</placeName>, <placeName ref="#STE">Saint-Eustache</placeName> et <placeName ref="#SAB">Saba</placeName>, évalués à une centaine de millions, porterait l'indemnité réclamée à près de deux milliards pour l'Europe seule. On ne peut nier que l'esclavage ne se soit développé sous le patronage du gouvernement ; mais l'émancipation des noirs ne doit pas être une source de bénéfices pour les colons, aux 
 <choice>
@@ -1054,11 +1070,11 @@ des métropoles. Or, si on leur accordait cette somme, les colons seraient à la
 
 <p>Sous le point de vue économique, les questions coloniales ne sont guère plus faciles à résoudre, quoique les excellentes considérations de M. de Montvéran sur le développement de la colonie de Cuba, émancipée des monopoles de la mère-patrie, indiquent quelle devrait être cette solution.</p>
 
-<p>En effet les colonies fournissent annuellement 648,000,000 de kilogrammes de sucre, 85,000,000 de kilogrammes de café ; elles reçoivent en échange environ 500,000,000 d'objets de consommation. Ce mouvement d'un milliard de francs, qui emploie une navigation de 600 mille tonneaux, près de 5,000 navires, montés par 36 à 40,000 matelots, est sans doute un bel exemple de développement commercial ; mais dans quelles conditions se fait-il ? Les métropoles consommaient d'abord peu de denrées coloniales ; elles ne trouvèrent rien de plus simple que de donner chacune aux colonies le monopole de leur approvisionnement et de se réserver celui de leur consommation. Qu'est-il résulté de cette arrangement ? Le développement de la consommation des denrées coloniales fut extrêmement rapide dans les contrées européennes, et bientôt il ne<pb n="44"/> fut plus en rapport avec les ressources de productions des colonies. Ainsi, d'une part, les colonies se plaignirent de ce que les métropoles leur faisaient payer fort cher ce qu'elles auraient pu se procurer à meilleur marché chez les autres nations ; de l'autre, les métropoles réclamèrent la libre importation des denrées que les colonies ne leur fournissaient plus qu'à un taux extrêmement élevé. La solution naturelle était la liberté commerciale pour les deux ; mais, comme la nécessité de fournir à une consommation toujours croissante avait mis les colonies dans des conditions de production tout-à-fait anormales, et que leurs produits ne pouvaient trouver à se placer autre part que dans la métropole, il en est résulté que cette liberté devenait le signal de leur ruine."</p>
+<p>En effet les colonies fournissent annuellement 648,000,000 de kilogrammes de sucre, 85,000,000 de kilogrammes de café ; elles reçoivent en échange environ 500,000,000 d'objets de consommation. Ce mouvement d'un milliard de francs, qui emploie une navigation de 600 mille tonneaux, près de 5,000 navires, montés par 36 à 40,000 matelots, est sans doute un bel exemple de développement commercial ; mais dans quelles conditions se fait-il ? Les métropoles consommaient d'abord peu de denrées coloniales ; elles ne trouvèrent rien de plus simple que de donner chacune aux colonies le monopole de leur approvisionnement et de se réserver celui de leur consommation. Qu'est-il résulté de cette arrangement ? Le développement de la consommation des denrées coloniales fut extrêmement rapide dans les contrées européennes, et bientôt il ne<pb facs="v1n3f45" n="45"/> fut plus en rapport avec les ressources de productions des colonies. Ainsi, d'une part, les colonies se plaignirent de ce que les métropoles leur faisaient payer fort cher ce qu'elles auraient pu se procurer à meilleur marché chez les autres nations ; de l'autre, les métropoles réclamèrent la libre importation des denrées que les colonies ne leur fournissaient plus qu'à un taux extrêmement élevé. La solution naturelle était la liberté commerciale pour les deux ; mais, comme la nécessité de fournir à une consommation toujours croissante avait mis les colonies dans des conditions de production tout-à-fait anormales, et que leurs produits ne pouvaient trouver à se placer autre part que dans la métropole, il en est résulté que cette liberté devenait le signal de leur ruine."</p>
 
 </div>
 
-<div>
+<div xml:id="bibliographie">
 
 <head>BIBLIOGRAPHIE</head>
 
@@ -1081,7 +1097,7 @@ qui s'endorment sur la foi du présent, et elles encouragent et consolent celles
 <orig>suivans</orig>
 <reg>suivants</reg> 
 </choice>
-, admirables de tous points, et dont on pourrait appeler le premier la parabole DE L'ASSOCIATION, et le second la parabole DE LA LIBERTÉ.</p><pb n="45"/>
+, admirables de tous points, et dont on pourrait appeler le premier la parabole DE L'ASSOCIATION, et le second la parabole DE LA LIBERTÉ.</p><pb facs="v1n3f46" n="46"/>
 
 <p><emph>I</emph></p>
 
@@ -1109,7 +1125,7 @@ abritez-vous mutuellement.</p>
 
 <p>Et Dieu savait qu'il en serait ainsi, et c'est pourquoi il a commandé aux hommes de s'aimer, afin qu'ils fussent unis et que les faibles ne tombassent point sous l'oppression des forts.</p>
 
-<p>Car celui qui est plus fort qu'un seul sera moins fort que deux, et celui qui est plus fort que deux sera moins fort que quatre ; et ainsi, les faibles ne craindront rien lorsque, s'aimant les uns les autres, ils seront unis véritablement.</p><pb n="46"/>
+<p>Car celui qui est plus fort qu'un seul sera moins fort que deux, et celui qui est plus fort que deux sera moins fort que quatre ; et ainsi, les faibles ne craindront rien lorsque, s'aimant les uns les autres, ils seront unis véritablement.</p><pb facs="v1n3f47" n="47"/>
 
 <p>Un homme voyageait dans la montagne, et il arriva en un lieu où un gros rocher, ayant roulé sur le chemin, le remplissait tout entier, et hors du chemin il n'y avait point d'autre issue ni à gauche ni à droite.</p>
 
@@ -1140,7 +1156,7 @@ ce sont les misères qu'il rencontre à chaque pas sur sa route.</p>
 
 <p>Ne vous laissez pas tromper par de vaines paroles. Plusieurs chercheront à vous persuader que vous êtes vraiment libres, parce qu'ils auront écrit sur une feuille de papier le mot de LIBERTÉ, et l'auront affiché à tous les carrefours.</p>
 
-<p>La liberté n'est pas un placard qu'on lit au coin de la rue : elle<pb n="47"/> 
+<p>La liberté n'est pas un placard qu'on lit au coin de la rue : elle<pb facs="v1n3f48" n="48"/> 
 <choice>
 <orig>et</orig>
 <orig>est</orig> 

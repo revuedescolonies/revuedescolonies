@@ -38,7 +38,7 @@
             <pb n="3" facs="v1n2p3"/>
             <head>REVUE<lb/>DES <lb/>COLONIES</head>
             <pb/>
-            <div>
+               <div xml:id="abolition">
                <head>ABOLITION OF SLAVERY.</head>
 
                <p>
@@ -52,7 +52,7 @@
                <p>We will not end without wishing that the French government take this difficult situation into serious consideration, and urge the chambers of Parliament to seek a solution to all the embarrassments of the colonies. We would undoubtedly like the interests of the owners to be adequately satisfied by this measure, but above all we want people to remember that there are men in the colonies who are only deprived of their freedom by the most abominable abuse, and that this is not one of those questions of little importance that can be postponed until tomorrow. This is a matter of the flesh and blood of men made different from those who oppress them only by the color of their skin.</p>
             </div>
 
-            <div>
+            <div xml:id="education">
                <head>NECESSITY OF EDUCATION IN THE COLONIES</head>
                <p>At all times and in all countries ignorance has been the most powerful auxiliary of tyranny. Every government that has allowed slavery in its public law was careful to proscribe instruction as a dangerous foe. But in the colonies, this proscription, brutally enforced, has had consequences fatal to the progress of civilization. The colonial aristocracy, in its cunning and barbaric foresight, fought the development of instruction with all its might; lately it has barely allowed for the institution of a few primary schools for free men of color; but these schools, where pupils only learn basic, obtained neither the favors nor the encouragements of local authorities, fully disposed as they are to please the privileged. Men of color must not forget that, in 1803, an Attorney General to Martinique had all the schools closed to their children; and more recently yet, in 1829, the Guadeloupe administration deported without judgment Mr. Eugène Pol, a young, meritorious European teacher who devoted himself to the education of young people of color. Mr. Ballin, named educational inspector to the colonies by minister d’Argout, faced so much persecution, and was so overcome with disgust that he was forced to abandon Martinique and Guadeloupe to return <pb n="6" facs="v1n2p6"/>  to France, where he died of the sorrows and difficulties showered upon him. </p>
                <p>Yet the new charter has proclaimed and consecrated new rights for men of color! Let us not despair, however; and if the charter is powerless against the ill will of the white aristocracy, if we can enjoy at home the benefits of instruction but with difficulty, let us arm ourselves with patience and courage. Instruction is withheld from us in our homes; let us learn, if need be, to find it elsewhere. May those who can give their children a rich education, and may they remember that it is in France, at the heart of the capital, that such education must be obtained. There only will they find the immense benefit of the manners of an elegant and polite world, the knowledge specific to what vocation they deem fit to embrace; there, they will be able to foster relations useful to their future and get in touch with the best representatives of all countries. 
@@ -65,7 +65,7 @@
                </p>
             </div>
 
-            <div>
+            <div xml:id="national-duty">
                <head>NATIONAL DUTY TO MAKE FOREIGN POWERS RESPECT THE FRENCH CITIZENSHIP WHICH FREE MEN OF COLOR ENJOY.</head>
                <p>The July revolution, which should have been more fruitful, which will be later, we can only hope, was however not entirely sterile for our colonies. Among the blessings we owe it, we must count the law of April 24, 1833, which granted the rights of French citizens to free men of color, and placed them, without distinction, in the great family. This first step calls for others; this is the beginning of reparation  that must be completed frankly and without restriction. The legislative decision that gives free men of color political rights adds: “under the conditions prescribed by law.” But for rights to have real effects and not be mere lures, legal conditions arranged for their exercise must not be combined so as to make them essentially illusory; yet, this is what has happened to electoral rights, in which only a small number of men of color can partake, because of the creation of a poll and eligibility tax. Election law for the colonies must therefore be reformed; but this is not what we mean to discuss here. </p>
                <p>Our goal today is not to demand the extension of a political right to men of color, rather it is their very right as French citizens that we mean to maintain and preserve from grievous infringement, infringement whose damage <pb n="9" facs="v1n2p9"/> would bear not only on them, but on the entire nation, which must take for itself the insult levied by a foreign nation to each of its members. </p>
@@ -82,7 +82,7 @@
             </div>
                <pb n="12" facs="v1n2p12"/>
 
-            <div>
+            <div xml:id="delegates">
                <head>OF THE DELEGATES OF THE COLONIAL ARISTOCRACY AND THE AGENTS OF THE MEN OF COLOR</head>
 
                <p>The law of April 1833 that institutes an assembly in the colonies under the name of <emph>colonial council</emph>, which is composed of those colonists who pay a 600 francs tax, and which nominates delegates supposedly to represent general interest in the metropole, cannot and will never have, in the terms by which it was conceived, any result of a nature to satisfy the majority of the population of the colonies. Indeed, the obligation to pay a tax as high as 600 francs only allows access to the colonial council to the wealthiest owners of plantations and slaves, those we call the colonial aristocracy, and not at all to the mass of black, mulatto and even white workers who make up the majority of the population. The delegates nominated by this council therefore only represent the interests of the great landowners; their views are exclusive, aristocratic, entirely opposed to the betterment of the fate of those classes which they fear or hate. Nominated thus, chosen by deciders truly interested in making sure that nothing is done in favor of the colored classes, they are in France only to support and defend the privileges of white people. </p>
@@ -94,7 +94,7 @@
                <p>Therefore it is understood that the delegates nominated by virtue of the law of April 1833 are in our eyes but the paid prosecutors sent by the colonial aristocracy to the ministry of the Navy and the Colonies. As to the title of agent of the men of color: whosoever shall eloquently plead for their rights, whosoever shall articulate with force and truth their moral, intellectual and physical needs, and pursue redress for their grievances against their dominators shall earn this honorable title. </p>
             </div>
 
-            <div>
+            <div xml:id="grandanse">
                <head><rs type="event">THE GRAND’ANSE AFFAIR</rs></head>
 
                <p><bibl type="periodical"><title ref="#LT">Le Temps</title></bibl> having published a letter in which the events that took place at Grand’Anse were strangely misrepresented, Mr. Gatine, attorney at the court of cassation, highlighted the erroneous assertions made by this newspaper’s correspondent. We cannot explain why Mr. Gatine’s letter was refused insertion into this newspaper unless we accept as true what we were told by some people whom we have every reason to believe well informed, which is that <bibl type="periodical"><title ref="#LT">Le Temps</title></bibl>, for a variety of reasons, is more devoted to the interests of colonial aristocracy than to the rights of man so indignantly outraged in the treatment meted to men of color. We publish with pleasure and haste Mr. Gatine’s remarkable refutation. 
@@ -119,7 +119,7 @@
             </div>
             <pb n="17" facs="v1n2p17"/>
 
-            <div>
+            <div xml:id="society">
                <head>SOCIETY FOR THE ABOLITION OF SLAVERY</head>
 
                <p>In 1789, when the Estates General were summoned, a society was constituted in Paris that has since served as a model for the English; its goal was to convince people not only of the inhumanity of slavery, characterized by the privations of all sorts imposed to the unfortunate under its yoke and the atrocious punishments to which summary justice exposes them, but also to demonstrate how it corrupts moral sentiment in masters; overall, it was meant to look into the possibility of replacing slavery, in our colonies, with domesticity, by changing the agricultural system.</p>
@@ -143,7 +143,7 @@
                </p>
             </div>
 
-            <div>
+            <div xml:id="guadeloupe-council">
                <head>OF GUADELOUPE’S COLONIAL COUNCIL</head>
                <p>The law of April 24, 1833 has begun to be enforced in our colonies, and already we have under our eyes the minutes of Guadeloupe’s colonial council’s meetings. Reading them
                <pb n="20" facs="v1n2p20"/>
@@ -158,7 +158,7 @@
                <p>Such are the summaries of the great works that have occupied the first session of Guadeloupe’s general council. Are they not of a nature to demonstrate the plentitude of talents, activity and patriotism with which these privileged legislators were blessed! But with the national guard or militia, which should be this country’s force; but with public instruction, which elevates the soul and develops ideas, matters on which the minister had consulted them, out of some sort of condescendance, no doubt, they were careful not to busy themselves, fearing more than anything what might operate a fusion. It goes with certain assemblies as it goes with certain degraded men, who are deprived of sympathy for anything grand and generous. </p>
             </div>
 
-            <div type="article">
+            <div xml:id="installation">
                <head>ON THE INSTALLATION SPEECHES OF MARTINIQUE’S COLONIAL COUNCIL</head>
 
                <p>Opening addresses at deliberating assemblies generally express the spirit that animates them; in this way only do they deserve public attention, when they do not confine themselves to flatly paraphrasing the words of power. In the latter circumstances, it is very difficult not to thoughtlessly let out a sentence that will betray the true sympathies of the majority in these assemblies. </p>
@@ -173,7 +173,7 @@
                  a more complete certificate of incapacity. Nevertheless, we are not ones to blame the colonists’ independence of language; they are likely mistaken, blinded by partisan spirit, but at least they are honest enough to clearly formulate what it is they want. This makes us comfortable in their presence, for we too walk unmasked. Such are the principal passages from the two addresses, full of idle and banal sentences not making the least impression, at a time when peroration stumbles in the face of truth. </p>
             </div>
 
-            <div type="article">
+            <div xml:id="men-of-color-address">
                <head>ON THE MEN OF COLOR’S ADDRESS TO THE GOVERNOR OF MARTINIQUE</head>
 
                <p>The men of color of Martinique, on the occasion of the events at Grand’Anse and the colonial council’s response to Governor Dupotet’s opening speech, have felt it their duty to protest, in a letter to Mr. Halgan, the accusations levied against them regarding said events. We must tell our brethren frankly, in this they have made a mistake; and counter-admiral Halgan, who refused to receive their address, indeed could not have acted otherwise. Though we do not disapprove of its thinking nor of its foundation, we do however find the general tone of this address to be too servile. Counter-admiral Halgan was far from being one of the lights of the state council, in which he barely ever sat. Everybody in France knows that the title of state counsellor most often does not compel one to do any actual work, and that it is but a reward to a civil servant for his devotion to the ministerial system. </p>
@@ -183,7 +183,7 @@
                <p>Men of color do not care for the formalities and protocols of the old régime; they must extract themselves from the ditch of hypocritical flattery in which they have fallen; they must accustom themselves to speaking to those they call the grandees and powerful of the country in a decent, respectful language, but without humbling themselves or bending, especially when they are strong in their cause and their right; finally, they must persuade themselves that governors know what to expect from such congratulations and that they fool not one of them, former governor Dupotet included. </p>
             </div>
 
-            <div type="article">
+            <div xml:id="first-of-august">
                <head>FIRST OF AUGUST 1834</head>
 
                <p>Let us salute in advance this great day, for fear it goes unnoticed by some when it should fill hearts with joy and gratitude. </p>
@@ -211,7 +211,7 @@
 
             <pb n="27" facs="v1n2p27"/>
 
-            <div type="article">
+            <div xml:id="France">
                <head>France.</head>
                <head>PARIS.</head>
                <head>CASE OF MR. BOITEL VS MR. CICERON</head>
@@ -242,7 +242,7 @@
                <p> On leaving the hearing, Mr. Boitel and his lawyer went to a solicitor’s to have Mr. Cicéron summoned to the civil chamber of the district court of the Seine. No matter the court’s decision, Mr. Cicéron having stepped back from public debates on the background of the case, Mr. Boitel won this suit on moral grounds. </p>
             </div>
 
-            <div type="article">
+            <div xml:id="miscellaneous">
                <head>MISCELLANEOUS</head>
 
                <p><persName>M. de Saint-Simon</persName>,  peer of France, was named governor of the French establishments in India.</p>
@@ -315,6 +315,7 @@
 
             <div>
                <head>(SUPPLEMENT)</head>
+               </div><div xml:id="colonies-francaises">
 <head>
 COLONIES FRANÇAISES.</head>
             </div>
@@ -493,7 +494,7 @@ A review of the national guard takes place, which Mr. Sugnin does not attend.
                   <p>Adieu! Adieu forever!</p></q>
             </div>
 
-            <div type="article">
+            <div xml:id="biography">
                <head>BIOGRAPHY.</head>
                <head>M. CABASSE.</head>
 

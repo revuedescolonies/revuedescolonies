@@ -25,7 +25,8 @@
             <titlePart type="sub"><lb/>RECUEIL MENSUEL<lb/> DE LA POLITIQUE, DE L'ADMINISTRATION, DE
                LA JUSTICE, DE L'INSTRUCTION ET DES MOEURS COLONIALES,</titlePart>
             <byline><lb/>PAR UNE <orgName ref="#SHC">SOCIÉTÉ D'HOMMES DE COULEUR</orgName>
-               <lb/> DIRIGÉE PAR <persName ref="#CB">C.-A. BISSETTE</persName>.<lb/></byline>
+            <lb/> DIRIGÉE PAR <persName ref="#CB">C.-A. BISSETTE</persName>.<lb/></byline>
+            <docEdition>N°2<lb/>Août.</docEdition>
             <docImprint><pubPlace><settlement>PARIS</settlement>,<lb/> AU BUREAU DE LA REVUE DES
                         COLONIES, <lb/>46, RUE NEUVE-SAINT-EUSTACHE</pubPlace>
                     <lb/>
@@ -37,7 +38,7 @@
             <pb n="3" facs="v1n2p3"/>
             <head>REVUE<lb/>DES <lb/>COLONIES</head>
             <pb/>
-            <div>
+            <div xml:id="abolition">
                <head>DE L'ABOLITION DE L'ESCLAVAGE.</head>
 
                <p>
@@ -267,7 +268,7 @@
                   </choice> .</p>
             </div>
 
-            <div>
+            <div xml:id="devoir-national">
                <head>DEVOIR NATIONAL DE FAIRE RESPECTER PAR LES PUISSANCES ÉTRANGÈRES LA QUALITÉ DE
                   CITOYEN FRANÇAIS DONT JOUISSENT LES HOMMES DE COULEUR LIBRES.</head>
                <p>La <rs type="event">révolution de juillet</rs>, qui aurait dû être plus féconde,
@@ -419,7 +420,7 @@
                <pb n="12" facs="v1n2p12"/>
             </div>
 
-            <div>
+            <div xml:id="délégués-coloniaux">
                <head>DES DÉLÉGUÉS DE L'ARISTOCRATIE COLONIALE ET DES MANDATAIRES DES HOMMES DE
                   COULEUR.</head>
 
@@ -521,7 +522,7 @@
                   leurs dominateurs aura droit à cet honorable titre.</p>
             </div>
 
-            <div>
+            <div xml:id="affaire-grandanse">
                <head><rs type="event">AFFAIRE DE LA GRAND'ANSE.</rs></head>
 
                <p><bibl type="periodical"><title ref="#LT">Le Temps</title></bibl> ayant publié une
@@ -629,7 +630,7 @@
                </quote>
             </div>
 
-            <div>
+            <div xml:id="société-abolition">
                <head>SOCIÉTÉ POUR L'ABOLITION DE L'ESCLAVAGE.</head>
 
                <p>En 1789, au moment de la convocation des états-généraux, il se forma dans <placeName>Paris</placeName> une société qui depuis a servi de modèle aux Anglais ; elle avait pour but de convaincre les esprits non seulement de l'inhumanité de l'esclavage, par les privations de toute nature imposées aux malheureux qui y sont soumis et par les peines atroces auxquelles ils sont exposés de la part d'une justice toute prévotale, mais encore de démontrer la reguption des 
@@ -690,7 +691,7 @@
                <p>Nous espérons que le petit-gendre de <persName>M. Necker</persName>, quoiqu'il n'ait rien fait pour cette cause pendant la durée de son ministère, s'empressera de s'adjoindre à ces honorables députés, et que l'adversaire éloquent de la traite, dans la chambre des pairs, ne reculera pas devant l'abolition de l'esclavage. Nous ferons connaître, dans notre prochain numéro, l'organisation de la Société et les noms de ses membres.</p>
             </div>
 
-            <div>
+            <div xml:id="du-conseil-colonial">
                <head>DU CONSEIL COLONIAL DE LA GUADELOUPE.</head>
                <p>La loi du <date>24 avril 1833</date> commence à recevoir son exécution dans nos
                   colonies, et déjà nous avons sous les yeux les procès-verbaux des séances du
@@ -775,7 +776,7 @@
                   qui sont privés de sympathie pour tout ce qui est grand et généreux.</p>
             </div>
 
-            <div type="article">
+             <div xml:id="discours-installation">
                <head>DES DISCOURS D'INSTALLATION DU CONSEIL COLONIAL DE LA MARTINIQUE.</head>
 
                <p>Les discours d'ouverture des assemblées délibérantes sont assez généralement
@@ -837,7 +838,7 @@
                   impression à une époque où la déclamation tombe devant la vérité.</p>
             </div>
 
-            <div type="article">
+            <div xml:id="adresse-hommes-de-couleur">
                <head>SUR L'ADRESSE DES HOMMES DE COULEUR AU GOUVERNEUR DE LA MARTINIQUE.</head>
 
                <p>Les hommes de couleur de <placeName ref="#MQ">la Martinique</placeName>, à
@@ -885,7 +886,7 @@
                   lui-même, ne peut s'y méprendre aujourd'hui.</p>
             </div>
 
-            <div type="article">
+            <div xml:id="le-1er-aout">
                <head>LE 1er AOUT 1834.</head>
 
                <p>Saluons d'avance ce grand jour, de peur que pour plusieurs il ne passe inaperçu,
@@ -987,7 +988,7 @@
                <pb n="27" facs="v1n2p27"/>
             </div>
 
-            <div type="article">
+            <div xml:id="France">
                <head>France.</head>
                <head>PARIS.</head>
                <head>AFFAIRE DE <persName ref="#BOI">M. BOITEL</persName> CONTRE <persName ref="#CIC">M.
@@ -1083,7 +1084,7 @@
                      Boitel.</persName></p>
             </div>
 
-            <div type="article">
+            <div xml:id="nouvelles-diverses">
                <head>NOUVELLES DIVERSES.</head>
 
                <p><persName>M. de Saint-Simon</persName>, pair de France, est nommé gouverneur des
@@ -1234,7 +1235,7 @@
                <pb n="33" facs="v1n2p33"/>
             </div>
 
-            <div>
+           <div xml:id="colonies-francaises">
                <head>COLONIES FRANÇAISES.</head>
             </div>
 
@@ -1467,7 +1468,7 @@
                      activité.</p></q>
             </div>
 
-            <div>
+            <div xml:id="colonies-étrangères">
                <head>COLONIES ÉTRANGÈRES </head>
             </div>
                               <div>
@@ -1770,7 +1771,7 @@
                   <p>Adieu ! adieu pour toujours !</p></q>
             </div>
 
-            <div type="article">
+            <div xml:id="biographie">
                <head>BIOGRAPHIE.</head>
                <head>M. CABASSE.</head>
 
