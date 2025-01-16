@@ -23,11 +23,12 @@ import Synoptic from './Synoptic'
 import { DisplayContext, EntityContext, NoteContext } from './Context'
 import type { IOptions, TNote, TEntity } from "./Context"
 import Q from "./Q"
-import { Box, Container } from "@mui/material"
+import { Container } from "@mui/material"
 
 interface Props {
   pageContext: {
     name: string
+    toc: {id: string, label: string}[]
     prefixed: string
     elements: string[]
   }
@@ -116,7 +117,7 @@ const EditionCeteicean = ({pageContext}: Props) => {
     }}>
       <EntityContext.Provider value={{entity, setEntity}}>
         <NoteContext.Provider value={{note, setNote}}>
-          <Layout location={pageContext.name} appbar={<MicroEdAppbar location={pageContext.name}/>} >
+          <Layout location={pageContext.name} appbar={<MicroEdAppbar location={pageContext.name} toc={pageContext.toc}/>} >
             <SEO title="Edition" lang={lang as "en" | "fr"} />
             <Ceteicean pageContext={pageContext} routes={routes} />
             {isPublished &&
