@@ -214,7 +214,7 @@ export default function MicroedAppBar({location, toc}: Props) {
 
   const spelling = lang === "fr"
   ? <><FormGroup>
-    <FormControlLabel control={<Switch onClick={handleSpelling}/>} label="Orthographe originale" />
+    <FormControlLabel control={<Switch onClick={handleSpelling} defaultChecked={contextOpts.originalSpelling as boolean}/>} label="Orthographe originale" />
   </FormGroup>
   <Divider /></>
   : null
