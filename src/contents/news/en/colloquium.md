@@ -23,6 +23,8 @@ The presentations will examine the _Revue des Colonies_ through its key figures,
 
 **Register to attend the event online: https://www.eventbrite.com/e/the-revue-des-colonies-diasporic-networks-and-the-struggle-for-abolition-tickets-1118269346719**
 
+<a href="/Programme Colloque RdC 14-02-25 ANOM-ATM.pdf">Download the program</a> (in French).
+
 ### Speakers:
 * Jessica Balguy (Carnegie Mellon University)
 * Maria Beliaeva Solomon (University of Maryland)
