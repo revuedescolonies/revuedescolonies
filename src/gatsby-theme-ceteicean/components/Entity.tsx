@@ -19,6 +19,12 @@ import { SafeUnchangedNode } from "gatsby-theme-ceteicean/src/components/Default
 import { Box, Card, CardContent, CardHeader } from "@mui/material"
 import TranslateIcon from '@mui/icons-material/Translate'
 
+/*************
+ * 
+ * TODO: Reorganize together with EntitySimple.tsx. Code is heavily duplicated.
+ * 
+ ************** */
+
 type TEIProps = {
   teiNode: Node,
   availableRoutes?: string[],
