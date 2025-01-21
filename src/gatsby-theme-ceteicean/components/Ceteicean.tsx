@@ -5,7 +5,8 @@ import Ceteicean, {Routes} from "gatsby-theme-ceteicean/src/components/Ceteicean
 import {
   TeiHeader,
   Ref,
-  SafeUnchangedNode
+  SafeUnchangedNode,
+  TBehavior
 } from "gatsby-theme-ceteicean/src/components/DefaultBehaviors"
 import Pb from "./Pb"
 import Layout from "../../components/layout"
@@ -17,6 +18,7 @@ import Text from "./Text"
 import Orig from "./Orig"
 import Reg from "./Reg"
 import Entity from "./Entity"
+import EntitySimple from "./EntitySimple"
 import EntityLink from "./EntityLink"
 import Graphic from './Graphic'
 import Synoptic from './Synoptic'
@@ -59,21 +61,37 @@ const EditionCeteicean = ({pageContext}: Props) => {
 
   let isSynoptic = pageContext.name.includes("synoptic") ? true : false
 
+  type renderEntityProps = {
+    teiNode: Node,
+    availableRoutes?: string[],
+    entityType: string,
+  }
+  const renderEntity = (props: renderEntityProps) => {
+    // Determine whether to render a simple popup or show connected entities
+    const el = props.teiNode as Element
+    const corresp = el.getAttribute('corresp')
+    if (corresp) {
+      return <Entity isSynoptic={isSynoptic} {...props} />
+    } else {
+      return <EntitySimple isSynoptic={isSynoptic} {...props} />
+    }
+  }
+
   const routes: Routes = {
     "tei-teiheader": TeiHeader,
     "tei-ptr": Ptr,
     "tei-ref": Ref,
     "tei-notegrp": (props) => <Note isSynoptic={isSynoptic} {...props}/>,
-    "tei-person": (props) => <Entity isSynoptic={isSynoptic} entityType={"tei-persName"} {...props} />,
-    "tei-place": (props) => <Entity isSynoptic={isSynoptic} entityType={"tei-placeName"} {...props} />,
-    "tei-org": (props) => <Entity isSynoptic={isSynoptic} entityType={"tei-orgName"} {...props} />,
+    "tei-person": (props) => renderEntity(Object.assign({}, props, {entityType: "tei-persName"})),
+    "tei-place": (props) => renderEntity(Object.assign({}, props, {entityType: "tei-placeName"})),
+    "tei-org": (props) => renderEntity(Object.assign({}, props, {entityType: "tei-orgName"})),
     "tei-bibl": (props) => {
       const el = props.teiNode as Element
       // Only deal with bibliography bibls.
       if (el.parentElement?.tagName.toLocaleLowerCase() !== "tei-listbibl") {
         return <SafeUnchangedNode {...props}/>
       }
-      return <Entity isSynoptic={isSynoptic} entityType={"tei-title"} {...props} />
+      return renderEntity(Object.assign({}, props, {entityType: "tei-persName"}))
     },
     "tei-persname": EntityLink,
     "tei-placename": EntityLink,
