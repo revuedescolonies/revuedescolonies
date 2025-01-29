@@ -23,7 +23,9 @@ Les interventions exploreront la _Revue des Colonies_ à travers ses figures mar
 
 **Pour suivre le colloque en ligne, inscrivez-vous au lien suivant https://www.eventbrite.com/e/the-revue-des-colonies-diasporic-networks-and-the-struggle-for-abolition-tickets-1118269346719**
 
+<div style="padding: 1rem; border: 1px solid #002654; text-align: center">
 <a href="/Programme Colloque RdC 14-02-25 ANOM-ATM.pdf">Télécharger le programme</a>.
+</div>
 
 Avec des communications de :
 
