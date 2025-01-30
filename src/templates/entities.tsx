@@ -94,7 +94,7 @@ export default function ReferencesPage({pageContext}: Props) {
         <Typography variant="h4" component="h2" gutterBottom={false} sx={{
           marginBottom: "1rem", marginTop: "2rem"
         }}>{
-          language === "fr" ? "Apparaît dans"
+          language === "fr" ? "Figure dans"
           : "Appears in"
         }</Typography>
         {renderRefrences(data.occurrences, data.id)}
