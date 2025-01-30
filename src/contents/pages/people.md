@@ -19,7 +19,7 @@ Sara E. Johnson, Associate Professor of Literature of the Americas, University o
 Abel A. Louis, Associate Researcher, Université des Antilles; President of the Martinican History Society   
 Grégory Pierrot, Associate Professor of English, University of Connecticut  
 Pratima Prasad, Associate Professor of French, University of Massachusetts, Boston  
-Michaël Roy, Associate Professor of North American Studies, Université Paris Nanterre  
+Michaël Roy, Professor of History, Université Paris Cité    
 Chelsea Stieber, Associate Professor of French and Francophone Studies, Catholic University
 
 #### Transcription and Endcoding Team
@@ -32,6 +32,8 @@ Tasnîm Tirkawi, Tulane University
 
 #### Advisory Board
 Chris Bongie, Professor of English, Queen’s University  
+Audrey Célestine, Associate Professor of History, New York University   
+Myriam Cottias, Directrice de recherche au CNRS, CIRESC-PHEEAC    
 Brent Hayes Edwards, Peng Family Professor of English and Comparative Literature, Columbia University  
 Marisa Parham, Professor of English, University of Maryland; Associate Director of MITH  
 Guillaume Pinson, Professor of Literature, Theater and Film, Laval University  
