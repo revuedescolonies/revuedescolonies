@@ -1,6 +1,7 @@
 [
   {
     "teiBasePath": "RdCv1n1",
+    "hideFromToc": false,
     "title": {
       "en": "Volume 1, Issue 1",
       "fr": "Volume 1, numéro 1"
@@ -22,7 +23,6 @@
   },
   {
     "teiBasePath": "RdCv1n4",
-    "hideFromToc": true,
     "title": {
       "en": "Volume 1, Issue 4",
       "fr": "Volume 1, numéro 4"

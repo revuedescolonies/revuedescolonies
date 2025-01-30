@@ -40,9 +40,10 @@ function FixedScroll({children}: {children: JSX.Element}) {
 
 type Props = {
   location: string
+  toc: {id: string, label: string}[]
 }
 
-export default function MicroedAppBar({location}: Props) {
+export default function MicroedAppBar({location, toc}: Props) {
   // const isScreenSmall = useMediaQuery(theme.breakpoints.down('md'))
   const { contextOpts, setContextOpts } = React.useContext(DisplayContext)
   const lang = location.replace(/\w+-/, '')
@@ -213,7 +214,7 @@ export default function MicroedAppBar({location}: Props) {
 
   const spelling = lang === "fr"
   ? <><FormGroup>
-    <FormControlLabel control={<Switch onClick={handleSpelling}/>} label="Orthographe originale" />
+    <FormControlLabel control={<Switch onClick={handleSpelling} defaultChecked={contextOpts.originalSpelling as boolean}/>} label="Orthographe originale" />
   </FormGroup>
   <Divider /></>
   : null
@@ -232,9 +233,9 @@ export default function MicroedAppBar({location}: Props) {
     </DisplayOptionsMenu>
   </>)
 
-  const sections = !tocs[location] || location.includes("synoptic") ? null :
+  const sections = !toc || location.includes("synoptic") ? null :
     <DisplayOptionsMenu label="Sections" forceLabel closeOnClick>
-      {tocs[location].map((t: any) => (
+      {toc.map((t: any) => (
         makeMenuButton(`${location}#${t.id}`, t.label) 
       ))}
     </DisplayOptionsMenu>

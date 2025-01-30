@@ -55,7 +55,7 @@ const Ptr: TBehavior = (props: TEIProps) => {
             "&:hover, &:active": {
               color: typeColor,
             }
-          }} tabIndex={0}>[{n}]</Box>
+          }}>[{n}]</Box>
         </sup>
       </Behavior>
     )

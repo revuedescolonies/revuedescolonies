@@ -9,6 +9,7 @@ import Q from "../gatsby-theme-ceteicean/components/Q";
 import Graphic from "../gatsby-theme-ceteicean/components/Graphic";
 import { Ref, SafeUnchangedNode } from "gatsby-theme-ceteicean/src/components/DefaultBehaviors";
 import { slugify } from "../utils/slugify";
+import Birth from "./tei/Birth";
 
 interface occurenceObj {
     pageName: string
@@ -75,6 +76,7 @@ export default function ReferencesPage({pageContext}: Props) {
       return el.parentElement?.getAttribute("type") === "periodical" ? <Title {...props} curLang={language}/>
       : <SafeUnchangedNode {...props}/>
     },
+    "tei-birth": Birth,
     "tei-note": (props) => {
       const el = props.teiNode as Element
       if (el.getAttribute("xml:lang") === language) {
@@ -92,7 +94,7 @@ export default function ReferencesPage({pageContext}: Props) {
         <Typography variant="h4" component="h2" gutterBottom={false} sx={{
           marginBottom: "1rem", marginTop: "2rem"
         }}>{
-          language === "fr" ? "Peut être trouvé dans"
+          language === "fr" ? "Apparaît dans"
           : "Appears in"
         }</Typography>
         {renderRefrences(data.occurrences, data.id)}
