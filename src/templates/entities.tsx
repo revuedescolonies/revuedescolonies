@@ -86,7 +86,7 @@ export default function ReferencesPage({pageContext}: Props) {
     "tei-placename": (props) => <Title {...props} curLang={language}/>,
     "tei-title": (props) => {
       const el = props.teiNode as Element
-      return el.parentElement?.getAttribute("type") === "periodical" ? <Title {...props} curLang={language}/>
+      return ["periodical", "legal"].includes(el.parentElement?.getAttribute("type") || "") ? <Title {...props} curLang={language}/>
       : <SafeUnchangedNode {...props}/>
     },
     "tei-birth": Birth,
