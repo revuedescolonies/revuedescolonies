@@ -63,7 +63,7 @@ const renderIndexData = (data: indexData, language: Lang): JSX.Element => {
 
 const renderNames = (data: objData[], language: Lang): JSX.Element => {
   return <List sx={{ width: '100%' }}>
-    {data.map((obj)=> (
+    {data.sort((a,b) => a.name.trim().localeCompare(b.name.trim())).map((obj)=> (
       <ListItem>
         <ListItemAvatar>
           <Avatar>
