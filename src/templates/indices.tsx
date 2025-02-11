@@ -39,7 +39,8 @@ interface Props {
   }
 }
 
-const placeHolders=['Persons', 'Places', 'Organization', 'Title']
+const indices = ['Persons', 'Places', 'Organization', 'Texts']
+const indicesFr = ['Personnes', 'Lieux', 'Organisation', 'Textes']
 
 const renderIndexData = (data: indexData, language: Lang): JSX.Element => {
   const personObj = data.persons;
@@ -48,13 +49,13 @@ const renderIndexData = (data: indexData, language: Lang): JSX.Element => {
   const orgObj = data.org;
   return (
     <div>
-    {placeHolders.map((ele)=>(
+    {indices.map((idx, i)=>(
       <div>
-      <h3>{ele}</h3>
-      {ele === "Persons" ? renderNames(personObj, language) : null}
-      {ele === "Places" ? renderNames(placesObj, language) : null}
-      {ele === "Organization" ? renderNames(orgObj, language) : null}
-      {ele === "Title" ? renderNames(biblObj, language) : null}
+      <h3>{language === "fr" ? indicesFr[i] : idx}</h3>
+      {idx === "Persons" ? renderNames(personObj, language) : null}
+      {idx === "Places" ? renderNames(placesObj, language) : null}
+      {idx === "Organization" ? renderNames(orgObj, language) : null}
+      {idx === "Texts" ? renderNames(biblObj, language) : null}
       </div>
     ))}
     </div>
