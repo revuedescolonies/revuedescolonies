@@ -8,8 +8,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Revue des Colonies V.1 N°2 (English translation)</title>
-            <editor>Maria Beliaeva Solomon</editor>
+            <title>Revue des Colonies V.1 N°3 (selection in English translation)</title>
+                <editor>Maria Beliaeva Solomon</editor>
          </titleStmt>
          <xi:include href="shared/editionStmt.xml"/>
          <publicationStmt>

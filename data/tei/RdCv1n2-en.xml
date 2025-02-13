@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Revue des Colonies V.1 N. 2</title>
+            <title>Revue des Colonies V.1 N°2 (selection in English translation)</title>
             <editor>Maria Beliaeva Solomon</editor>
          </titleStmt>
          <!-- <xi:include href="shared/editionStmt.xml"/> -->
@@ -282,7 +282,7 @@
                <p>– <persName ref="#CDup">Mr. Ch. Dupin</persName>’s competition in the election of a delegate for the aristocracy of <placeName ref="#MQ">Martinique</placeName>, was <persName ref="#Berr">Mr.
                      Berryer</persName>. This Legitimist deputy was supported by <persName>Messrs.
                      Villarson</persName>, <persName>Feuardent-Desculleville</persName>,
-                     <persName>Perrinelle fils</persName>, <persName>Mauny</persName> and other men with retrograde ideas,  all members of the colonial council of <placeName ref="#MQ">
+                     <persName  ref="#PER">Perrinelle fils</persName>, <persName>Mauny</persName> and other men with retrograde ideas,  all members of the colonial council of <placeName ref="#MQ">
                      Martinique</placeName>. <persName ref="#CDup">Mr. Ch. Dupin</persName> was named by the aristocratic party, who call the followers of Villarson et al. oligarchs.</p>
                <p>– On the topic of <placeName ref="#HT">Haiti</placeName> and the path taken by its government, we expect to receive authentic and positive documents that we will rush to the printing press. It is important to know where civilization, freedom and the Enlightenment stand in this Republic of men of color. Everything concerning this country is of the greatest interest to us; this is why we quote the following letter:</p>
                <q><p>To The Editor of the <title type="periodical">Courrier français</title>.</p>
@@ -322,23 +322,30 @@ COLONIES FRANÇAISES.</head>
 
             <div type="article">
                <head><placeName ref="#MQ">MARTINIQUE.</placeName></head>
-               <p>We receive this letter from the town of <placeName>Trinité</placeName> :</p>
-               <q><p>“<persName>Mr. Bardel</persName>,  captain of a militia company in <placeName ref="#MQ"> Martinique</placeName>,  encounters <persName>Mr.
+               <p>We receive this letter from the town of <placeName ref="#TRI">La Trinité</placeName> :</p>
+               <q><persName>Mr. Bardel</persName>,  captain of a militia company in <placeName ref="#MQ"> Martinique</placeName>,  encounters <persName>Mr.
                         Igout</persName>, colonist, formerly a merchant at <placeName>
-                        Trinité</placeName>, who looks for trouble with him, insults him and threatens him with his stick. The reason is that <persName>Mr. Bardel</persName>
+                       La Trinité</placeName>, who looks for trouble with him, insults him and threatens him with his stick. The reason is that <persName>Mr. Bardel</persName>
                      was probably in a bad mood. <persName>Mr. Igout</persName>, who because of his age and infirmities can not punish this insolent provocation on his own, flees the promised blows.
-                       But <persName>Mr. Frotté</persName>,  man of color and natural son of this merchant, present at the scene, cannot contain his indignation, and takes his father’s side. Should he not be blamed had he remained a cowardly, passive spectator to the outrage addressed to the white hair of the author of his days? <persName>Mr. Bardel</persName> challenges <persName>Mr. Frotté</persName> to a duel. The latter asks
-                        <persName>Mr. Eudoxie Sugnin</persName>, his friend, to agree with his opponent’s witnesses on the mode and conditions of their combat. Thanks to the firm but conciliatory intervention of <persName>Mr.
-                        Sugnin</persName>, the affair is amicably settled, with no cost to <persName>Mr. Frotté</persName>'s honor. Yet, by not selling short his friend’s dignity, <persName>Mr. Sugnin</persName>
+                       But <persName>Mr. Frotté</persName>,  man of color and natural son of this merchant, present at the scene, cannot contain his indignation, and takes his father’s side. 
+                     Should he not be blamed had he remained a cowardly, passive spectator to the outrage addressed to the white hair of the author of his days? <persName>Mr. Bardel</persName> 
+                     challenges <persName>Mr. Frotté</persName> to a duel. The latter asks
+                        <persName>Mr. Eudoxie Sugnin</persName>, his friend, to agree with his opponent’s witnesses on the mode and conditions of their combat. Thanks to the firm but conciliatory intervention of 
+                        <persName>Mr. Sugnin</persName>, the affair is amicably settled, with no cost to <persName>Mr. Frotté</persName>'s honor. Yet, by not selling short his friend’s dignity, 
+                  <persName>Mr. Sugnin</persName>
                      incurred <persName>Mr. Bardel</persName>'s, grudge, who only waited for an opportunity to satisfy it: it presented itself quickly.
 A review of the national guard takes place, which Mr. Sugnin does not attend.
-<persName>Captain Bardel</persName> issues an order for Mr. Sugnin to spend 48 hours in the police room; ; the order is approved by <persName>Commander Commissar Mr. Caffie</persName>, who also holds personal animosity against
-                     Mr. Sugnin.  (We apologize that limited space does not allow us to copy in full this curious piece). Note that at least a third of the company led by Mr. Bardel was missing the review, and that only Mr. Sugnin was punished. The story above explains this selective severity.
+<persName>Captain Bardel</persName> issues an order for Mr. Sugnin to spend 48 hours in the police room; ; the order is approved by Commander Commissar <persName ref="#SebPC">Caffié</persName>, who also holds personal animosity against
+                     Mr. Sugnin.  (We apologize that limited space does not allow us to copy in full this curious piece). Note that at least a third of the company led by 
+                     Mr. Bardel was missing the review, and that only Mr. Sugnin was punished. The story above explains this selective severity.
                      Let us add that<pb n="34" facs="v1n2p34"/>
                      <persName>Mr. Sugnin</persName> is an ardent and devoted patriot. To the arbitrary punishment inflicted on him by <persName>Mr.
-                        Bardel</persName>'s whim, was added a no less arbitrary and much more odious surplus of rigor: Mr. Sugnin having complained about the arbitrary detention, a complaint to the superior authorities of the colony was filed against him; and on the governor’s orders, he was taken by the gendarmerie of <placeName>Trinité</placeName> the so-called <emph>Redoute-Bouillé</emph> citadel at <placeName>
-                        Fort-Royal</placeName>, where he was kept in a dungeon for six days. During his detention, Mr. Sugnin, cruelly tormented by hunger, was denied food, because it had been ordered that he could not even communicate with his parents. Only thanks to the pity of the soldiers of the garrison guarding the citadel did he receive any victuals. 
-"</p></q>
+                        Bardel</persName>'s whim, was added a no less arbitrary and much more odious surplus of rigor: Mr. Sugnin having complained about the arbitrary detention, 
+                  a complaint to the superior authorities of the colony was filed against him; and on the governor’s orders, he was taken by the gendarmerie of <placeName>La Trinité</placeName> 
+                  the so-called <emph>Redoute-Bouillé</emph> citadel at <placeName>Fort-Royal</placeName>, where he was kept in a dungeon for six days. During his detention, 
+                  Mr. Sugnin, cruelly tormented by hunger, was denied food, because it had been ordered that he could not even communicate with his parents. Only thanks to the pity of the soldiers 
+                  of the garrison guarding the citadel did he receive any victuals.
+               </q>
                <p>Is this not arbitrariness given free reins? Missing a review becomes an offense punishable with 48 hour detention, and then, through a superior order, six days in a dungeon! A captain takes it upon himself to declare this first sentence, and to add starvation to it! A commander approves, a governor tolerates it, what disgusting defilement! In truth, reading or hearing such things makes you think you’re dreaming, and your jaw might drop, did you not recall that such facts and many others whose account we spare our readers have occurred in one of our colonies, traditional land of arbitrariness and oppression. </p>
                <p>Are not these facts evidence of the necessity to quickly reorganize the colonial militias? In our next issue, we will examine the issues of rights they naturally evoke. 
 </p>
@@ -355,7 +362,7 @@ A review of the national guard takes place, which Mr. Sugnin does not attend.
                <q><p>Arbitrariness remains the order of the day in our colony; local authorities act as if in a conquered land, allowing one to stay and exiling the other, according to their whim. At the slightest suspicion, a citizen will be hunted down, abducted, deported. 
 </p>
                   <p>Several discussions having taken place between a young white man named 
-                           <persName>Romager-<emph>the Incorrigible</emph></persName>, and
+                           <persName ref="#ROMA">Romager-<emph>the Incorrigible</emph></persName>, and
                         <persName>Santz</persName>, a young man of color, the mayor and director of the interior ordered <persName>Mrs. Santz</persName>
                       to make her son leave the colony post haste, lest she wanted him arrested and deported by order of the government. Young
                         <persName>Santz</persName> left for <placeName ref="#HT">Haiti</placeName>.
@@ -530,7 +537,8 @@ A review of the national guard takes place, which Mr. Sugnin does not attend.
                <p>
 On his return to France in 1829, he was named attorney general in Limoges. Then came the July Revolution. Mr. Cabasse felt tremors in his public accuser’s seat. A lover of his position before all, he addressed the new minister to be kept in it, and in support of his request, he had the inconceivable idea to produce his famous indictment as a testimony of his moderation. 
  But the friends of the deportees from <placeName ref="#MQ">Martinique</placeName>,
-                   surrounding the virtuous <persName ref="#Dupo">Dupont</persName> from the Eure, proved they had memory: Mr. Cabasse was dismissed.</p>
+                   surrounding the virtuous <persName ref="#Dupo">Dupont de
+                    l'Eure</persName>, proved they had memory: Mr. Cabasse was dismissed.</p>
                <p>He has since sought a new position in vain, trying even to be reappointed in the colonies. We cannot imagine there will ever be a minister of the Navy indecent enough to send him back. Rejected from public office, Mr. Cabasse has become an agent for the pope and for the Legitimist party; it is said that he schemes for the Holy See. May God hold him in his holy glory!
 </p>
                <p>IMPRIMERIE D'HERHAN, 580, RUE SAINT-DENIS. <!--BAS DE PAGE-->

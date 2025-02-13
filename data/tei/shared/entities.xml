@@ -7,6 +7,21 @@
 -->
 <div xmlns="http://www.tei-c.org/ns/1.0" xml:id="entities">
     <listPerson>
+        <person xml:id="ROMA">
+            <persName xml:lang="en">Romagé the Ungovernable</persName>
+            <persName xml:lang="fr">Romagé l'Inregigible</persName>
+            <note xml:lang="en" type="Person" resp="#jessica">
+                <p>Romagé, also known as Romager, was one of the central figures in a series of dueling incidents that took place between white Creole colonists and free people of color in the colonies during the 1830s. These frequent clashes between the two groups were fueled by both personal disputes and collective solidarities.  </p>
+                <p>At the end of 1833, on the evening of November 3, Romagé, while returning from a performance, is said to have confronted a man of color. The altercation that ensued reportedly led to a significant gathering of free people of color. In the following days, tensions continued to escalate, resulting in multiple arrests, including that of Romagé.  </p>
+                <p>The colonial authorities, specifically the Private Council of Guadeloupe, ultimately decided to banish those deemed responsible for instigating these disturbances from the canton of Pointe-à-Pitre. Romagé was among them and was placed under surveillance on the island of La Désirade.</p>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#jessica">
+                <p>
+                    <span lang="FR" style="font-family: 'Times',serif; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Calibri Light'; mso-bidi-theme-font: major-latin; color: black; mso-font-kerning: 0pt; mso-ligatures: none; mso-fareast-language: FR;">Romagé ou Romager est l’un des protagonistes de l’une des affaires de duels survenues entre les colons blancs créoles des colonies et libres de couleur dans les années 1830. Les incidents entre les deux groupes qui se multiplient mêlent conflits personnels et solidarités de groupes. À la fin de l’année 1833, dans la soirée du 3 novembre, Romagé, rentrant du spectacle, aurait apostrophé un homme de couleur. L’altercation qui s’en suivit aurait entraîné un rassemblement considérable de libres de couleur. Dans les jours qui suivent, les conflits se poursuivent et donnent lieu à plusieurs arrestations, dont Romagé. Les autorités, en l’occurrence le Conseil Privé, de la Guadeloupe, décident d’exclure du canton de Pointe-à-Pitre ceux qui avaient été à l’origine de ces altercations. C’est le cas de Romagé mis en surveillance à la Désirade. </span>
+                </p>
+                <bibl>Adélaïde-Merlande, Jacques, « Libres et affranchis - réformes et tensions » dans  <title>Historial Antillais</title>  , Tome III, Dajani éditions, Pointe-à-Pitre, 1981 pp. 287-307</bibl>
+            </note>
+        </person>
         <person xml:id="ADA">
             <persName xml:lang="en">John Adams</persName>
             <persName xml:lang="fr">John Adams</persName>
@@ -27,6 +42,175 @@
                 <p>Cette image a toutefois été nuancée par l’historiographie récente, qui souligne la proximité d’Adams avec ses contemporains sur la question de l’esclavage. Le maintien des échanges avec Haïti, par exemple, ne traduit pas nécessairement une sympathie à l’égard de l’indépendance haïtienne, et Adams ne s’est jamais publiquement ni explicitement exprimé en faveur de l’égalité raciale.</p>
                 <p>
                 </p>
+            </note>
+        </person>
+        <person xml:id="CIC">
+            <persName xml:lang="en">Louis Marie Ambroise Dieudonné Cicéron</persName>
+            <persName xml:lang="fr">Louis Marie Ambroise Dieudonné Cicéron</persName>
+            <birth>1797</birth>
+            <death>1870</death>
+            <note xml:lang="en" type="Person" resp="#other #abel">
+                <p>The son of Ambroise Cicéron, a white Guadeloupean Creole notary,and Marie Victoire Artaud, Louis Marie Ambroise Dieudonné Cicéron was born in Saint-Pierre on September 25, 1797 and died on April 11, 1870 in the same city. He began practicing law in 1821, earned a bachelor of arts degree in 1822, became a lawyer and proprietor in 1825, was admitted to the royal court of Martinique and the court of 1era authority of Saint-Pierre in 1827, and was, between 1843 and 1844, a  colonial advisor and member of the municipal council of Saint-Pierre. As a defender of slavery, Ciceron was a political enemy of Cyrille Bissette through the 1830s; in October 1834, the two dueled in the Bois de Vincennes. Their political enmity is perceptible in several articles by Ciceron published in Journal du Havre in 1831, widely repeated in his “Petition to the King, to the nation and to the chambers” (dated January 1, 1832). Bissette responded to him in a letter dated May 15, 1833. In 1844, Cicero, present in Paris, acted as rapporteur for the “Observations of a special commission of the Colonial Council of Martinique on the bill presented on May 14 to the Chamber of Peers.”. These observations, signed by Le Pelletier-Duclary, president of the Colonial Council, concerned a bill for the abolition of slavery in the French colonies, refuting it point by point. Bissette's apparent good will towards former enslavers after the abolition of May 1848, and his association with the colonist Pécoul around legislative elections of 1849, brought him closer to Ciceron, whom he visited upon his return to Martinique on March 20, 1849.</p>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#other #abel">
+                <p>Fils du notaire blanc créole guadeloupéen, Ambroise Cicéron et de Marie Victoire Artaud, Louis Marie Ambroise Dieudonné Cicéron est né à Saint-Pierre le 25 septembre 1797 et meurt le 11 avril 1870 en la même ville. Il est qualifié de praticien en 1821, étudiant en droit bachelier ès lettres (1822), avocat et propriétaire (1825), avocat avoué près la cour royale de la Martinique et le tribunal de 1ère instance de Saint-Pierre (1827), conseiller colonial, membre du conseil municipal de Saint-Pierre et propriétaire en cette ville (1843-1844). Partisan du maintien du système esclavagiste, Louis Cicéron est opposé à Cyrille Bissette durant les années 1830-1840. Il se bat d’ailleurs en duel en octobre 1834 avec Bissette au bois de Vincennes. Leur inimitié politique est perceptible dans plusieurs articles de Cicéron publiés au journal du Havre en 1831, repris largement dans sa “Pétition au Roi, à la nation et aux chambres” (datée du 1er janvier 1832). Bissette lui répond dans une lettre du 15 mai 1833 ensuite. En 1844, Cicéron, présent à Paris, se fait le rapporteur des “Observations d’une commission spéciale du Conseil colonial de la Martinique sur le projet de loi présenté le 14 mai dernier à la Chambre des Pairs. Paris : Impr. de Bruneau, 1844”. Ces “observations, signées de Le Pelletier-Duclary, président du Conseil colonial, portaient sur le projet de loi du 14 mai 1844, visant à l’abolition de l’esclavage dans les colonies françaises, et le réfutant article après article...”. Le retournement de veste de Bissette vis-à-vis des colons esclavagistes après l’abolition de l’esclavage en mai 1848, son association avec le colon Pécoul en vue des élections législatives de 1849, le fit se rapprocher de Cicéron qu’il visita dès son arrivée en Martinique le 20 mars 1849.</p>
+            </note>
+        </person>
+        <person xml:id="RS">
+            <persName xml:lang="en">Viscount Rosily</persName>
+            <persName xml:lang="fr">Le vicomte de Rosily</persName>
+            <note xml:lang="en" type="Person" resp="#abel">
+                <p/>
+                <p>Viscount Rosily served as Director of the Interior in Martinique at the time of the Grande Anse affair in December 1833, which was later tried by the Court of Assizes in Saint-Pierre in June 1834. As such, he was responsible for the administration of the island, overseeing matters ranging from general and sanitary policing to the management of direct and indirect taxation.</p>
+                <p>He is mentioned in the <emph>Revue des Colonies</emph> because Cyrille Bissette, in 1834, directly accused the colonial authorities—Governor Dupotet, Director of the Interior Rosily, the district commander of Grande Anse, Desabaye, and the commander of the Saint-Pierre garrison, de Montigny—calling for the prosecution of these four men.</p>
+                <p>In the Pointe-à-Pitre affair described in the first issue of the <emph>Revue des Colonies</emph>, viscount Rosily advocated for the expulsion of the accused individuals who were free. However, he was more reluctant when it came to expelling enslaved individuals accused of various offenses, such as marronage or poisoning. He viewed the deportation of enslaved people as a potential danger to the colony, arguing that such measures might encourage others to commit crimes.</p>
+                <p>
+                </p>
+                <bibl>Pâme, Stella.  <title>Cyrille Bissette: un martyr de la liberté</title> . Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
+                <bibl>Oudin Bastide, Caroline,  <title>Des nègres et des juges : La scandaleuse affaire Spoutourne (1831-1834)</title>   <emph>, </emph> Paris, Editions Complexe, 2008</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#abel">
+                <p>Le vicomte de Rosily est directeur de l’Intérieur en Martinique au moment de l’affaire de la Grande Anse, survenue en décembre 1833 et jugée par la Cour d’assises de Saint-Pierre en juin 1834. À ce titre, il est chargé de l’administration de l’île, ses attributions couvrant aussi bien la police générale et sanitaire que la gestion des contributions directes et indirectes.</p>
+                <p>S’il est mentionné dans la <emph>Revue des Colonies</emph>, c’est parce que Cyrille Bissette, en 1834, accuse directement les autorités coloniales de complicité et réclame la mise en accusation de quatre hauts responsables : le gouverneur Dupotet, le directeur de l’Intérieur Rosily, le commandant du quartier de la Grande Anse, Desabaye, et le commandant de la garnison de Saint-Pierre, de Montigny.</p>
+                <p>Dans l’affaire de Pointe-à-Pitre, relatée dans le premier numéro de la <emph>Revue des Colonies</emph>, le vicomte de Rosily se prononce en faveur de l’expulsion des accusés libres. Toutefois, il se montre plus réservé quant à l’exil des esclaves impliqués dans divers délits, tels que le marronnage ou l’empoisonnement. Selon lui, la déportation des esclaves constitue une menace pour la colonie, car une telle mesure pourrait les encourager à commettre d’autres crimes.</p>
+                <bibl>Pâme, Stella.  <title>Cyrille Bissette: un martyr de la liberté</title> . Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
+                <bibl>Oudin Bastide, Caroline,  <title>Des nègres et des juges : La scandaleuse affaire Spoutourne (1831-1834)</title>   <emph>, </emph> Paris, Editions Complexe, 2008</bibl>
+            </note>
+        </person>
+        <person xml:id="SebPC">
+            <persName xml:lang="en">Sébastien Privat Caffié </persName>
+            <persName xml:lang="fr">Sébastien Privat Caffié </persName>
+            <birth>1786</birth>
+            <death>1848</death>
+            <note xml:lang="en" type="Person" resp="#jessica">
+                <p>Sébastien Privat Caffié was a landowner who married Marie Rose Catherine Paret in Gros-Morne, Martinique, on June 12, 1821. A commissioner-commander, he was elected mayor of the commune of Trinité in 1847.</p>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#jessica">
+                <p>
+                    <span lang="FR" style="font-family: 'Times',serif; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Calibri Light'; mso-bidi-theme-font: major-latin; color: black; mso-font-kerning: 0pt; mso-ligatures: none; mso-fareast-language: FR;">Sébastien Privat Caffié est un propriétaire, marié à Marie Rose Catherien Paret au Gros-Morne (Martinique) le 12 juin 1821. Commissaire-commandant, il est élu maire de la commune de Trinité en 1847.</span>
+                </p>
+                <bibl>
+                    <span lang="FR" style="font-size: 12.0pt; font-family: 'Times',serif; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Calibri Light'; mso-bidi-theme-font: major-latin; color: black; mso-font-kerning: 0pt; mso-ligatures: none; mso-ansi-language: FR; mso-fareast-language: FR; mso-bidi-language: AR-SA;">Bulletin officiel de la Martinique</span>
+                </bibl>
+                <bibl>"Acte de mariage, 12 juin 1821, Gros Morne." ANOM, Acte numérisé disponible en ligne :</bibl>
+            </note>
+        </person>
+        <person xml:id="LePell">
+            <persName xml:lang="en">Jean-Baptiste François Le Pelletier-Duclary</persName>
+            <persName xml:lang="fr">Jean-Baptiste François Le Pelletier-Duclary</persName>
+            <birth>1791 or 1793</birth>
+            <death>1865</death>
+            <note xml:lang="en" type="Person" resp="#abel">
+                <p>Lawyer at the court of Paris, assessor to the Superior Council of Martinique (took offic 1819), councilor to the Royal Court of Martinique (May 9, 1821, confirmed October 5 1828), of which he became president in January 1835, knight of the Legion of Honor (January 16, 1836), president of the Colonial Council of Martinique from 1834 to 1838 and from 1839 to 1847. He married Marie Elisabeth Nelly Cornette de Saint-Cyr, a white Creole woman on June 11, 1821 in Case Pilote. Like many white settlers, he refused any reformation of the slave system, particularly in favor of equality for free people of color. He was one of the members of the Assize Court of Saint-Pierre chaired by de Perinelle who judged the 173 individuals accused during the Grande Anse affair (Lorrain) of December 1833. He shared quite naturally the prejudices and principles inherent in the mentality and social group of the powerful white families of the colony who made up the colonial judiciary between the decades of 1820 and 1840. </p>
+                <p>
+                </p>
+                <p>https://www.patrimoines-martinique.org/ark:/35569/w6lcx297j5p0/c1f43fd7-b3e2-4d32-b04f-d620bbbbf54e</p>
+                <p>https://man8rove.com/en/profile/eql4p4vv1-jean-baptiste-francois-le-pelletier-du-clary</p>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#abel">
+                <p>Né le 26 décembre 1791 ou le 28 janvier 1793 à Case-Pilote en Martinique selon les sources consultées, décédé le 12 juillet 1865 à Case-Pilote, habitant propriétaire domicilié dans cette paroisse et quartier, avocat à la cour de Paris, assesseur au Conseil supérieur de la Martinique en fonctions en 1819, conseiller à la Cour royale de la Martinique (9 mai 1821, confirmé le 5 octobre 1828) dont il est président en janvier 1835, chevalier de la légion d’honneur (16 janvier 1836), président du Conseil colonial de la Martinique de 1834 à 1838 et de 1839 à 1847. Il épouse à Case-Pilote, Marie Elisabeth Nelly Cornette de Saint-Cyr, blanche créole, le 11 juin 1821. Il est l’incarnation même des colons, blancs créoles, refusant toute évolution du système esclavagiste notamment en faveur de l’égalité pour les libres de couleur. Il fait partie des membres de la Cour d’assises de Saint-Pierre présidée par de Perinelle qui juge au début du mois de juin 1834 les 173 individus accusés lors de l’affaire de la Grande Anse (Lorrain) en décembre 1833. Il partage tout naturellement les préjugés et les principes inhérents à la mentalité et au groupe social des grandes familles blanches de la colonie qui composent la magistrature coloniale entre les décennies 1820 et 1840.</p>
+                <p>
+                </p>
+                <p>https://www.patrimoines-martinique.org/ark:/35569/w6lcx297j5p0/c1f43fd7-b3e2-4d32-b04f-d620bbbbf54e</p>
+                <p>https://man8rove.com/en/profile/eql4p4vv1-jean-baptiste-francois-le-pelletier-du-clary</p>
+                <p>https://man8rove.com/en/profile/eql4p4vv1-jean-baptiste-francois-le-pelletier-du-clary</p>
+            </note>
+        </person>
+        <person xml:id="MACK">
+            <persName xml:lang="en">Ange René Armand, baron de Mackau</persName>
+            <persName xml:lang="fr">Ange René Armand, baron de Mackau</persName>
+            <birth>1788</birth>
+            <death>1855</death>
+            <note xml:lang="en" type="Person" resp="#chelsea">
+                <p>
+                    <span style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none;">Baron Ange-René-Armand de Mackau had a long career in the navy in various French colonies. He was chosen as Charles X’s envoy to Haiti to deliver—backed by a fleet of 14 warships—the 1825 ordonnance to Haitian president Jean-Pierre Boyer. He later became minister of the navy and colonies. In his new role, he proposed set of gradualist laws in anticipation of the abolition of slavery in the French colonies. The 1845 Mackau laws, as they came to be known, improved conditions for the enslaved, promoted their access to religious instruction, and allowed for the practice of buying one’s freedom or the freedom of one’s kin (<emph>rachat</emph>). Though many lauded the laws, Bissette attacked the laws swiftly and vehemently in his writings for their gradualist approach. </span>
+                </p>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#chelsea">
+                <p>Le baron Ange-René-Armand de Mackau fait carrière dans la marine et exerce diverses fonctions dans les colonies françaises. Il est choisi comme émissaire de Charles X auprès d’Haïti pour remettre, à la tête d’une flotte de quatorze navires de guerre, l’ordonnance de 1825 au président haïtien Jean-Pierre Boyer. Par la suite, il devient ministre de la Marine et des Colonies. À ce poste, il propose une série de lois réformistes en prévision de l’abolition de l’esclavage dans les colonies françaises. Les lois Mackau de 1845, comme elles seront appelées, visent à améliorer les conditions de vie des personnes réduites en esclavage, à favoriser leur accès à l’instruction religieuse et à encadrer la possibilité de rachat, leur permettant ainsi d’acheter leur liberté ou celle de leurs proches. Si ces mesures sont largement saluées, Bissette les condamne avec vigueur dans ses écrits, dénonçant leur gradualisme.</p>
+                <bibl>Dorigny, Marcel; Bruffaerts, Jean-Claude; Gaillard, Gusti-Klara; et Théodat, Jean-Marie, eds.,  <title>Haïti-France. Les chaînes de la dette. Le rapport Mackau (1825)</title>  . Hémisphères Éditions, 2022.</bibl>
+                <bibl>Jennings, Lawrence C.  <title>French Anti-Slavery: The Movement for the Abolition of Slavery in France, 1802-1848</title> . Cambridge: Cambridge University Press, 2000. 29-37, 49-50, 71-73, 266-69.</bibl>
+                <bibl>Schmidt, Nelly.  <title>Abolitionnistes de l'esclavage et réformateurs des colonies, 1820-1851: analyses et documents</title> . Paris: Karthala, 2000.</bibl>
+            </note>
+        </person>
+        <person xml:id="ANog">
+            <persName xml:lang="en">Arsène Nogues</persName>
+            <persName xml:lang="fr">Arsène Nogues</persName>
+            <birth>1798</birth>
+            <death>1869</death>
+            <note xml:lang="en" type="Person" resp="#abel">
+                <p>Born in Redon on June 12, 1798, Arsene Nogues held various positions in Brest and Nancy and was also attorney general in Guadeloupe then in Martinique during the 1830s. Later, he was advisor to the royal court of Rouen in 1845. Married to the daughter of a coffee merchant and planter of Guadeloupean origin, Jean Joseph Albert Chaviteau, who settled in Cuba at the beginning of the 19th century, Nogues had strong ties to the planter community. Nogues represented the public prosecutor as attorney general during the Grande Anse affair in December 1833. The indictment prepared by Nogues in June 1834, recovered by the historian Armand Nicolas describes the events thusly: “It is an armed insurrection, prepared for a long time... by almost the entire colored population of a district of the colony, with whom conspirators from another district and even from several others had colluded to carry out the pillage, devastation and burning of the colony, to massacre all the whites there in order to seize their property.” The members of the Assize Court of Saint-Pierre, presided over by de Perinelle and composed of advisors Richard de Lucy, Le Pelletier, and Duclary, the same ones who condemned Bissette and his comrades, were all white Creoles. They sentenced 141 individuals of color to various punishments.</p>
+                <p>
+                </p>
+                <bibl>Nicolas, Armand,  <emph>Histoire de la Martinique, Des Arawaks à 1848</emph> , Paris, L’Harmattan, 1996</bibl>
+                <bibl>"Arsène Nogues,"  <emph>Man8rove.</emph>  https://man8rove.com/fr/profile/a1r52vc3-arsene-nogues</bibl>
+                <bibl>"CHAUVITEAU Jean Joseph Albert (1775-1823),"  <emph>Cimetière du Père-Lachaise</emph> , 3 septembre 2023, https://www.appl-lachaise.net/chauviteau-jean-joseph-albert-1775-1823/</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#abel">
+                <p>Né à Redon le 12 juin 1798, il occupe divers postes à Brest et à Nancy et est aussi procureur général en Guadeloupe puis en Martinique durant les années 1830. Puis, il est ensuite conseiller à la cour royale de Rouen en 1845. Marié à la fille d’un négociant et planteur de café d’origine guadeloupéenne, Jean Joseph Albert Chaviteau, qui se fixa à Cuba au début du XIXe siècle, il est donc lié fortement au milieu des colons. Arsène Nogues, est celui qui représente le ministère public en tant que procureur général lors de l’affaire de la Grande Anse (commune du Lorrain aujourd’hui) en décembre 1833. L’historien Armand Nicolas cite ainsi l’acte d’accusation en juin 1834 que Arsène Nogues dresse en notifiant que : “C’est une insurrection à main armée, préparée depuis longtemps... par la presque totalité de la population de couleur d’un quartier de la colonie, avec laquelle des conspirateurs d’un autre quartier et même de plusieurs autres s’étaient entendus pour porter le pillage, la dévastation et l’incendie de la colonie, pour y massacrer tous les Blancs afin de s’emparer de leurs biens”. Au nombre des membres de la Cour d’Assises de Saint-Pierre présidée par de Perinelle et composée de conseillers (Richard de Lucy, Le Pelletier Duclary), tous blancs créoles, les mêmes qui ont condamné Bissette et ses camarades, se trouve donc des hommes imbus de leurs pouvoirs discrétionnaires. Ils vont condamner 141 individus de couleur à diverses peines.</p>
+                <p>
+                </p>
+                <bibl>Nicolas, Armand,  <emph>Histoire de la Martinique, Des Arawaks à 1848</emph> , Paris, L’Harmattan, 1996</bibl>
+                <bibl>"Arsène Nogues,"  <emph>Man8rove.</emph>  https://man8rove.com/fr/profile/a1r52vc3-arsene-nogues</bibl>
+                <bibl>"CHAUVITEAU Jean Joseph Albert (1775-1823),"  <emph>Cimetière du Père-Lachaise</emph> , 3 septembre 2023, https://www.appl-lachaise.net/chauviteau-jean-joseph-albert-1775-1823/</bibl>
+            </note>
+        </person>
+        <person xml:id="CBe">
+            <persName xml:lang="en">Charles Belair</persName>
+            <persName xml:lang="fr">Charles Belair</persName>
+            <birth>1760</birth>
+            <death>1802</death>
+            <note xml:lang="en" type="Person" resp="#chelsea">
+                <p>
+                    <span style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none;">Charles Bélair was Toussaint Louverture’s nephew and a general in the revolutionary army. He was among the Chausseurs volontaires de Saint Domingue recruited to fight in the 1779 Siege of Savannah during the American Revolutionary War. During the Haitian Revolution, he served first as a lieutenant and then aide de camp for Louverture; he was promoted to colonel and then, as part of the expedition to take the eastern side of the island, was named brigadier general and commander of the district of Santo Domingo. After Louverture’s unlawful arrest and deportation in June 1802, Bélair raised the banner of revolt against the French expeditionary forces. Leclerc’s forces arrested his wife and mother, forcing Bélair out of hiding and leading ot his capture. He was executed on October 15, 1802. To the history of Charles Bélair must be added that of his wife, Sanite Bélair, a warrior in her own right who fought beside the insurgents. She was executed alongside her husband. </span>
+                </p>
+                <bibl>Dayan, Colin,  <title>Haiti, History, and the Gods</title>  . University of California Press, 1995.</bibl>
+                <bibl>Pascal-Trouillot, Ertha and Trouillot, Ernst, eds.,  <title>Encyclopédie biographique d'Haïti</title>  , vol. 1. Éditions SEMIS, 2001.</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#chelsea">
+                <p>Charles Bélair est le neveu de Toussaint Louverture et un général de l’armée révolutionnaire. Il fait partie des Chasseurs volontaires de Saint-Domingue recrutés pour combattre lors du siège de Savannah (Géorgie) en 1779, pendant la guerre d’indépendance américaine. Au cours de la Révolution haïtienne, il sert d’abord comme lieutenant, puis comme aide de camp de Louverture. Promu colonel, il est ensuite nommé général de brigade et commandant du district de Santo Domingo dans le cadre de l’expédition visant à prendre la partie orientale de l’île.  </p>
+                <p>Après l’arrestation arbitraire et la déportation de Louverture en juin 1802, Bélair prend la tête de l’insurrection contre les forces expéditionnaires françaises. Pour le contraindre à se rendre, l’armée de Leclerc arrête sa femme et sa mère, ce qui entraîne son arrestation. Il est exécuté le 15 octobre 1802. L’histoire de Charles Bélair est indissociable de celle de son épouse, Sanité Bélair, elle-même combattante aux côtés des insurgés. Elle est exécutée le même jour que lui.</p>
+            </note>
+        </person>
+        <person xml:id="LorFrej">
+            <persName xml:lang="en">Lorville and Fréjus</persName>
+            <persName xml:lang="fr">Lorville et Fréjus</persName>
+            <note xml:lang="en" type="Person" resp="#jessica">
+                <p>Lorville and Fréjus were two men of color involved in the Grand’Anse affair. Following an altercation at the end of December between the white settler Louis Hilaire Lasserre and the free man of color Salomon, known as Laboulique, Fréjus and Lorville—friends of Salomon—were tasked with seeking redress from Lasserre for the previous day's insult. Entrusted with "resolving the matter to prevent any unfortunate consequences," Fréjus went to Lasserre’s home. According to Fréjus's complaint and multiple witness statements, Lasserre responded with extreme violence. Both the lawyer Gatine and Cyrille Bissette attributed Fréjus’s death to the injuries he sustained.</p>
+                <p>In the days that followed, tensions escalated in the commune. Lorville, a prominent member of the local free-colored elite, was killed on December 27 during the crackdown at the Bonafon estate, which had become a gathering point for the insurgents.</p>
+                <bibl>Adélaïde-Merlande, Jacques, " Libres et affranchis - réformes et tensions " in  <title>Historial Antillais</title>  , Tome III, Dajani éditions, Pointe-à-Pitre, 1981 pp. 287-307</bibl>
+                <bibl>Fabien, Louis, Bissette, Cyrille, and Gatine, Adolphe,  <title>Affaire de la Grand'Anse, Martinique</title>  , Paris, Imprimerie JS Cordier, 1834</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#jessica">
+                <p>Lorville et Fréjus sont deux hommes de couleur impliqués dans l’affaire de la Grand’Anse. Après l’altercation survenue à la fin du mois de décembre dans le bourg entre le colon Louis Hilaire Lasserre et le libre de couleur Salomon dit Laboulique, Fréjus et Lorville (deux amis de Solomon) sont chargés de demander à Lasserre réparation pour l’outrage survenu la veille. En charge « d’arranger les choses afin qu’elles n’aient aucune suite fâcheuse », Fréjus se rend au domicile de Lasserre qui l’accueille, selon la déposition de plainte de Fréjus et de divers témoins, avec grande violence. L’avocat Gatine, tout comme Bissette, attribue à ces blessures la mort de Fréjus. Dans les jours qui suivent, les tensions montent dans la commune et Lorville, appartenant à l’élite de couleur de la commune, est tué le 27 décembre lors de la répression qui prend place sur l’habitation Bonafon, devenu un point de rassemblement pour les insurgés.</p>
+                <bibl>Adélaïde-Merlande, Jacques, « Libres et affranchis - réformes et tensions » dans  <title>Historial Antillais</title>  , Tome III, Dajani éditions, Pointe-à-Pitre, 1981 pp. 287-307</bibl>
+                <bibl>Fabien, Louis, Bissette, Cyrille, et Gatine, Adolphe,  <title>Affaire de la Grand'Anse, Martinique</title>  , Paris, Imprimerie JS Cordier, 1834</bibl>
+            </note>
+        </person>
+        <person xml:id="FXD">
+            <persName xml:lang="en">François-Xavier Donzelot</persName>
+            <persName xml:lang="fr">François-Xavier Donzelot</persName>
+            <birth>1764</birth>
+            <death>1843</death>
+            <note xml:lang="en" type="Person" resp="#greg #abel">
+                <figure>
+                    <graphic url="Donzelot_7fc4e73ceb.jpg"/>
+                </figure>
+                <p>François Xavier Donzelot was born in Mamirolle, Franche-Comté, on January 6, 1764. He entered military service in 1785 in the Royale-Marine regiment and quickly rose through the ranks. Appointed second lieutenant in 1792 in the 21st Cavalry Regiment, he distinguished himself during the campaigns of the Revolution, the Consulate, and the Empire between 1793 and 1807, earning a promotion to divisional general on December 6, 1807. In 1815, he fought at Waterloo and continued his career under the Bourbon Restoration. On October 31, 1817, Louis XVIII appointed him civil and military governor of Martinique, a position he held until 1826 before requesting to return to France.  </p>
+                <p>His administration was marked by his firm support for maintaining the slave system, which earned him the favor of the island’s white plantation owners. In October 1822, during the slave uprising in Le Carbet, he ordered a violent crackdown led by white militias and free men of color, among whom was Cyrille Bissette. Although he initially showed some willingness to listen to the grievances of Fort-Royal’s free people of color, particularly those voiced by Bissette, Donzelot gradually distanced himself from this stance. Pressured by white landowners determined to protect their privileges and exclude free people of color from any claim to equality, he became convinced that they harbored rebellious intentions and sought to incite an uprising akin to that of Saint-Domingue.  </p>
+                <p>The Bissette Affair (1823-1824) definitively aligned him with the interests of the slaveholding elite. Under his governance, more than two hundred individuals were deported without trial. In 1826, he was granted his request to return to France. He retired to Mamirolle before settling in Neuilly-sur-Marne, where he died on July 11, 1843.</p>
+                <bibl>Kaufmann, William W.  <title>British Policy and the Independence of Latin America, 1804-1828.</title>  Vol. 52. New Haven, Connecticut: Yale University Press, 1951.</bibl>
+                <bibl>Schloss, Rebecca Hartkopf.  <title>Sweet Liberty: The Final Days of Slavery in Martinique</title>  . Philadelphia, Pennsylvania: University of Pennsylvania Press, 2009.</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#greg #abel">
+                <figure>
+                    <graphic url="Donzelot_7fc4e73ceb.jpg"/>
+                </figure>
+                <p>François Xavier Donzelot naît à Mamirolle, en Franche-Comté, le 6 janvier 1764. Il entre au service en 1785 dans le régiment Royale-Marine et gravit rapidement les échelons militaires. Nommé sous-lieutenant en 1792 au 21ᵉ régiment de cavalerie, il se distingue lors des campagnes de la Révolution, du Consulat et de l’Empire entre 1793 et 1807, ce qui lui vaut d’être promu général de division le 6 décembre 1807. En 1815, il se distingue à Waterloo, poursuivant ensuite sa carrière sous la Restauration. Le 31 octobre 1817, Louis XVIII le nomme gouverneur civil et militaire de la Martinique, un poste qu’il occupe jusqu’en 1826, avant de demander son rappel en Métropole.</p>
+                <p>Son administration est marquée par son soutien au maintien du système esclavagiste, ce qui lui vaut l’estime des colons blancs de l’île. En octobre 1822, lors de la révolte des esclaves du Carbet, il ordonne une répression brutale menée par les milices blanches et les libres de couleur, parmi lesquels figure Cyrille Bissette. Bien qu’ayant initialement prêté une oreille attentive aux doléances des libres de couleur de Fort-Royal, notamment sous l’impulsion de Bissette, Donzelot s’éloigne progressivement de cette position. Harcelé par les propriétaires blancs, soucieux de préserver leurs privilèges et d’exclure les libres de couleur de toute prétention à l’égalité, il se laisse convaincre que ces derniers nourrissent des velléités de révolte et qu’ils aspirent à un soulèvement comparable à celui de Saint-Domingue.</p>
+                <p>L’affaire Bissette (1823-1824) scelle définitivement son alignement sur les intérêts des planteurs esclavagistes. Sous sa gouvernance, plus de deux cents personnes sont déportées sans procès. En 1826, son souhait de retourner en Métropole est exaucé. Il se retire à Mamirolle avant de s’établir à Neuilly-sur-Marne, où il meurt le 11 juillet 1843.</p>
+                <bibl>Schloss, Rebecca Hartkopf.  <title>Sweet Liberty: The Final Days of Slavery in Martinique</title>  . Philadelphia, Pennsylvania: University of Pennsylvania Press, 2009.</bibl>
+                <bibl>Kaufmann, William W.  <title>British Policy and the Independence of Latin America, 1804-1828.</title>  Vol. 52. New Haven, Connecticut: Yale University Press, 1951.</bibl>
             </note>
         </person>
         <person xml:id="JEF">
@@ -129,6 +313,65 @@
                 <bibl>Equiano, Olaudah.  <title>The Interesting Narrative</title> , edited by Brycchan Carey. Oxford University Press 2018.</bibl>
             </note>
         </person>
+        <person xml:id="JHD">
+            <persName xml:lang="en">Jean Henri Joseph Dupotet</persName>
+            <persName xml:lang="fr">Jean Henri Joseph Dupotet</persName>
+            <birth>1777</birth>
+            <death>1852</death>
+            <note xml:lang="en" type="Person" resp="#jessica">
+                <p>
+                    <div class="min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&amp;]:mt-5" dir="auto" data-message-author-role="assistant" data-message-id="7a3d44ad-7ca6-4eea-803f-4f6ac8329355" data-message-model-slug="gpt-4o">
+                        <div class="flex w-full flex-col gap-1 empty:hidden first:pt-[3px]">
+                            <div class="markdown prose w-full break-words dark:prose-invert light">
+                                <p>Colonial governors are high-ranking officials who represent the state in the colonies. They wield considerable power, with authority extending across legislative, judicial, military, and diplomatic domains.  </p>
+                                <p>Rear Admiral Dupotet was appointed governor by ordinance on August 11, 1830, replacing Rear Admiral Frescinet, who had been appointed in 1829 and requested to leave his post. Taking office during a period of political transition, Dupotet was granted the authority to act at his own discretion by the central government. Among his primary directives was the abolition of all distinctions against free people of color, ensuring their legal assimilation with whites. On November 12, 1830, he signed a decree eliminating certain outdated local regulations that had perpetuated discrimination. He was also tasked with implementing a gradual process of emancipation for a number of enslaved individuals.  </p>
+                                <p>However, as Dupotet gained a deeper understanding of the colonial system, he encountered the entrenched racial prejudices and violent practices of the planters, who remained oblivious—or resistant—to the changes taking place.</p>
+                            </div>
+                        </div>
+                    </div>
+                </p>
+                <p>
+                    <div class="items-center justify-start rounded-xl p-1 flex">
+                        <div class="flex items-center">
+                        </div>
+                    </div>
+                </p>
+                <bibl>Dupotet, Jean Henri Joseph, "Ordonnance du roi nommant le gouverneur de la Martinique Jean Henri Joseph Dupotet, Contre-Amiral". August 16, 1830, ANOM</bibl>
+                <bibl>Pardon, Jean-Marie,  <emph>La <title>Martinique depuis sa découverte jusqu’à nos jours</title> , </emph> Paris, Chalamel, 1877. Gallica</bibl>
+                <bibl>Chambru, C. and Viallet-Thévenin, S., "Mobilité sociale et Empire : les gouverneurs coloniaux français entre 1830 et 1960".  <title>Revue d’histoire moderne &amp; contemporaine</title>  , n° 66-4(4), 2019, pp. 53-88.</bibl>
+                <bibl>Oudin Bastide, Caroline,  <title>Des nègres et des juges : La scandaleuse affaire Spoutourne (1831-1834)</title>   <emph>, </emph> Paris, Editions Complexe, 2008</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#jessica">
+                <p>Les gouverneurs coloniaux sont de hauts fonctionnaires qui représentent l’État dans les<br/>colonies. Ils sont investis d’un pouvoir considérable, leurs attributions couvrant l’ensemble<br/>des domaines législatifs, judiciaires, militaire et de représentation.</p>
+                <p><br/>Le contre-amiral Dupotet est nommé gouverneur, par ordonnance du 11 août 1830, en<br/>remplacement du contre-amiral Frescinet, nommé en 1829, lequel demanda à quitter ce<br/>commandement. Nommé en pleine période de changement de régime, le gouverneur Dupotet<br/>- à qui le pouvoir central autorise d’agir sous sa propre responsabilité - a notamment pour<br/>ordre de faire disparaître toutes distinctions à l’égard des libres de couleur et les assimiler aux<br/>blancs. Le 12 novembre 1830, il signe un arrêté faisant disparaître certains règlements locaux<br/>discriminants et tombés en désuétude. Il a également pour objectif d’affranchir,<br/>progressivement, un certain nombre d’esclaves. Or Dupotet découvre peu à peu la réalité du<br/>système colonial et se heurte aux préjugés raciaux et aux pratiques violentes des colons,<br/>aveugles aux changements alors à l’œuvre.</p>
+                <bibl>Dupotet, Jean Henri Joseph, « Ordonnance du roi nommant le gouverneur de la Martinique Jean Henri Joseph Dupotet, Contre-Amiral ». 16 août 1830, ANOM</bibl>
+                <bibl>Pardon, Jean-Marie,  <emph>La <title>Martinique depuis sa découverte jusqu’à nos jours</title> , </emph> Paris, Chalamel, 1877. Gallica</bibl>
+                <bibl>Chambru, C. et Viallet-Thévenin, S., "Mobilité sociale et Empire : les gouverneurs coloniaux français entre 1830 et 1960".  <title>Revue d’histoire moderne &amp; contemporaine</title>  , n° 66-4(4), 2019, pp. 53-88.</bibl>
+                <bibl>Oudin Bastide, Caroline,  <title>Des nègres et des juges : La scandaleuse affaire Spoutourne (1831-1834)</title>   <emph>, </emph> Paris, Editions Complexe, 2008</bibl>
+            </note>
+        </person>
+        <person xml:id="LSR">
+            <persName xml:lang="en">Marie Pierre Romuald Le Pelletier de Saint Rémy</persName>
+            <persName xml:lang="fr">Marie Pierre Romuald Le Pelletier de Saint Rémy</persName>
+            <birth>1809</birth>
+            <death>1882</death>
+            <note xml:lang="en" type="Person" resp="#abel">
+                <p>Born on January 15, 1809 in Martinique, he died on March 16, 1882. He would be the nephew of Le Pelletier Duclary, president of the Colonial Council of Martinique. Graduated in law in Paris on June 15, 1833, he became a lawyer at the Privy Council of Martinique on December 2, 1836. He is therefore the archetype of the white Creole defender of the colonial organization and the slave system. Between 1841 and his death, he published several notes, memoirs and works on the colonial question and in particular the question of sugars. Under the Second Empire, he served as central agent of colonial banks.</p>
+                <p>
+                </p>
+                <p><ref target="https://www.ghcaraibe.org/bul/ghc207/som207.html">https://www.ghcaraibe.org/bul/ghc207/som207.html</ref> [p. 5366];</p>
+                <p>https://data.bnf.fr/en/ark:/12148/cb100880718.</p>
+                <p>
+                </p>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#abel">
+                <p>Né le 15 janvier 1809 en Martinique, il meurt le 16 mars 1882. Il serait le neveu de Le Pelletier Duclary, président du Conseil colonial de la Martinique. Licencié en droit à Paris le 15 juin 1833, il devient avocat au Conseil privé de la Martinique le 2 décembre 1836. Il est donc l’archétype du blanc créole défenseur de l’organisation coloniale et du système esclavagiste. Entre 1841 et sa mort, il publie plusieurs notes, mémoires et ouvrages sur la question coloniale et notamment la question des sucres. Sous le Second Empire, il exerce les fonctions d’agent central des banques coloniales.</p>
+                <p><ref target="https://www.ghcaraibe.org/bul/ghc207/som207.html">https://www.ghcaraibe.org/bul/ghc207/som207.html</ref> [p. 5366] </p>
+                <p> https://data.bnf.fr/en/ark:/12148/cb100880718.</p>
+                <p>
+                </p>
+            </note>
+        </person>
         <person xml:id="ADp">
             <persName xml:lang="en">Alexandre Dumas</persName>
             <persName xml:lang="fr">Alexandre Dumas</persName>
@@ -207,6 +450,20 @@
                 <bibl>Dubois, Laurent.  <title>Avengers of the New World: The Story of the Haitian Revolution</title> .  (Cambridge, Mass: Belknap Press of Harvard University Press, 2004).</bibl>
             </note>
         </person>
+        <person xml:id="HF">
+            <persName xml:lang="en">Louis Henri de Saulces de Freycinet</persName>
+            <persName xml:lang="fr">Louis Henri de Saulces de Freycinet</persName>
+            <birth>1777</birth>
+            <death>1840</death>
+            <note xml:lang="en" type="Person" resp="#abel">
+                <p>He was born on December 31, 1777 in Montélimar (Drôme) and died in 1840 in Rochefort. This naval officer is the son of Louis de Saulces de Freycinet, merchant, and Elisabeth Armand. His career in the navy began in 1794, jointly with that of his brother Louis since they boarded together on L'Heureux and le Formidable. Aspirant 3and class on January 27, 1794, of 2and classed on January 31, 1795, ensign on July 13, 1797, he served as second-in-command on several ships and participated in the voyage of exploration of the southern lands aboard the corvette Géographe under the orders of Captain Baudin. Captain of a frigate on July 12, 1808, he married in Rochefort in 1812 where he remained between 1812 and 1816 at least. Captain on July 10, 1816, he was appointed governor of Bourbon Island in 1820, then in Guyana (February 15, 1827), and was subsequently appointed governor of Martinique (1829-1830) with the rank of rear admiral. He returned to France in 1834 where he was appointed major general in Toulon then returned to Rochefort where he ended his career as maritime prefect until his death in 1840.</p>
+                <p>https://cths.fr/an/savant.php?id=112187#.</p>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#abel">
+                <p>Il est né le 31 décembre 1777 à Montélimar (Drôme) et meurt en 1840 à Rochefort. Cet officier de marine est le fils de Louis de Saulces de Freycinet, négociant et d’Elisabeth Armand. Sa carrière dans la marine débute en 1794, conjointement avec celle de son frère Louis puisqu’ils embarquent ensemble sur L’Heureux et le Formidable. Aspirant de 3e classe le 27 janvier 1794, de 2e classe le 31 janvier 1795, enseigne de vaisseau le 13 juillet 1797, il sert de commandant en second sur plusieurs navires et participe au voyage d’exploration des terres australes à bord de la corvette le Géographe sous les ordres du capitaine Baudin. Capitaine de frégate le 12 juillet 1808, il se marie à Rochefort en 1812 où il demeure entre 1812 et 1816 au moins. Capitaine de vaisseau le 10 juillet 1816, il est nommé en 1820 gouverneur de l’île Bourbon, puis en Guyane (15 février 1827), et est nommé gouverneur de la Martinique ensuite (1829-1830) avec le grade de contre-amiral. Il est de retour en France en 1834 où il est nommé major général à Toulon puis regagne Rochefort où il termine sa carrière comme préfet maritime jusqu’à sa mort en 1840.</p>
+                <p>https://cths.fr/an/savant.php?id=112187#.</p>
+            </note>
+        </person>
         <person xml:id="Mul">
             <persName xml:lang="en">The Earl of Mulgrave</persName>
             <persName xml:lang="fr">Comte de Mulgrave</persName>
@@ -217,6 +474,40 @@
             </note>
             <note xml:lang="fr" type="Person" resp="#masha">
                 <p>Constantine Phipps, premier marquis de Normanby, également vicomte de Normanby et comte de Mulgrave, est une figure politique majeure du parti <emph>Whig</emph>. De 1832 à 1834, il exerce les fonctions de gouverneur de la Jamaïque, avant de devenir Lord Lieutenant d'Irlande de 1835 à 1839, puis secrétaire d'État à l'Intérieur de 1839 à 1841.</p>
+            </note>
+        </person>
+        <person xml:id="Ces">
+            <persName xml:lang="en">Césaire</persName>
+            <persName xml:lang="fr">Césaire</persName>
+            <note xml:lang="en" type="Person" resp="#other #abel">
+                <p>Césaire was a free man of color from the Grande Anse on the northern side of Martinique. He became involved in a dispute between the white Creole Louis Lasserre and the free man of color, Faustin Rosemond, whose home was sold, by judicial decision, to Lasserre. Rosemond is said to have shot Lasserre's horse while the latter was on his property in August 1833. He was charged with attempted assassination for being present at the scene where Rosemond and his brother-in-law committed the act. The Assize Court of Saint-Pierre, meeting on December 21, 1833, was expeditious and condemned Césaire for “complicity in an attempted assassination on the person of Lasserre, with premeditation and ambush”. On the island, the announcement of the conviction had an immediate and powerful effect, catalyzing the uprising of the free men of color of Grande Anse (December 24) within a few days. In the Revue des Colonies, Bissette would become Césaire’s most vocal defender. On April 4, 1834, lawyer Gatine presented the “means of cassation”. The Court of Cassation ruled on the following September 13 and overturned Césaire's judgment. He was retried on February 16 and 17, 1835 and was acquitted. Bissette declared himself satisfied with the outcome. </p>
+                <bibl>Pâme, Stella.  <title>Cyrille Bissette: un martyr de la liberté</title> . Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#other #abel">
+                <p>Césaire, homme de couleur libre de la Grande Anse, quartier, paroisse et commune du nord atlantique de la Martinique. Il est impliqué dans une affaire opposant le blanc créole Louis Lasserre à l’homme de couleur libre, Faustin Rosemond, dépossédé, par décision judiciaire d’une habitation lui appartenant et rachetée par Lasserre. Il aurait tiré sur le cheval de Lasserre alors que celui-ci se rend sur sa propriété en août 1833. Inculpé de tentative d’assassinat sur la personne de Lasserre parce qu’il se trouve sur les lieux alors que Rosemond et son beau-frère sont les vrais responsables du guet-apens. La cour d’assises de Saint-Pierre, réunie le 21 décembre 1833, est expéditive et condamne Césaire pour “complicité dans une tentative d’assassinat sur la personne de Lasserre, avec préméditation et guet-apens”. Dans l’ile, l’annonce de la condamnation fait l’effet d’un coup de tonnerre et précède le soulèvement des hommes de couleur libres de la Grande Anse (le 24 décembre) de quelques jours. Bissette se fait un artisan défenseur de Césaire en Métropole dans la Revue des Colonies. Le 4 avril 1834, l’avocat Gatine présente les “moyens de cassation”. La cour de cassation se prononce le 13 septembre suivant et casse le jugement de Césaire. Il est rejugé les 16 et 17 février 1835 et cette fois il est acquitté. Bissette se déclare satisfait du dénouement. </p>
+                <bibl>Pâme, Stella.  <title>Cyrille Bissette: un martyr de la liberté</title> . Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
+            </note>
+        </person>
+        <person xml:id="CT">
+            <persName xml:lang="en">Charles Télèphe</persName>
+            <persName xml:lang="fr">Charles Télèphe</persName>
+            <birth>1798</birth>
+            <death>1835</death>
+            <note xml:lang="en" type="Person" resp="#abel">
+                <p>Charles Télèphe (or Charles Hélène Guillaume Victor, known as Télèphe Plet) was a free person of color born in Saint-Pierre on September 6, 1798. A property owner and enslaver with an estimated fortune of 128,795 france in 1833, he was an important merchant in that city. He was among those deported in the Bissette affair in 1824, and, upon his return, was part of the colonial militia as a second lieutenant at the time of the Grande Anse affair in December 1833. He then had the highest rank for a man of color within this colonial institution. The regiments people of color from Saint-Pierre refused to march on the Grande Anse in order to repress the “insurrection” led by other free people of color. Télèphe was, however, among the fifteen colored militiamen to respond to the governor's call.</p>
+                <p>
+                </p>
+                <bibl>Nicolas, Armand,  <emph>Histoire de la Martinique, Des Arawaks à 1848</emph> , Paris, L’Harmattan, 1996</bibl>
+                <bibl>Nicolas, Armand,  <emph>Histoire de la Martinique, Des Arawaks à 1848</emph> , Paris, L’Harmattan, 1996</bibl>
+                <bibl>"Charles Héléne Victor TÉLÈPHE,"  <emph>Geneanet</emph> , https://gw.geneanet.org/sgendrot?lang=en&amp;p=charles+helene+victor&amp;n=telephe</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#abel">
+                <p>Charles Télèphe (ou Charles Hélène Guillaume Victor, dit Télèphe Plet), métis libre né à Saint-Pierre le 6 septembre 1798, propriétaire d’esclaves, est un commerçant important de la ville. Il possède des maisons et sa fortune estimée en 1833 à 138.795 francs. Il figure au nombre des déportés de l’affaire Bissette en 1824. Il fait partie de la milice coloniale en tant que sous-lieutenant au moment de l’affaire de la Grande Anse en décembre 1833. Il a alors le grade le plus élevé pour un homme de couleur au sein de cette institution coloniale. Les compagnies de couleur de Saint-Pierre refusent de marcher sur le quartier de la Grande Anse afin de réprimer “l’insurrection” menée par des libres de couleur, miliciens, et petits propriétaires d’habitations. Il aurait cependant fait partie des quinze miliciens de couleur à répondre à l’appel du gouverneur.</p>
+                <p>
+                </p>
+                <bibl>Mauvois, Georges B.,  <emph>Un complot d’esclaves. Martinique</emph> , 1831, [s.l.], Éditions Les Pluriels de Psyché, 1998</bibl>
+                <bibl>Nicolas, Armand,  <emph>Histoire de la Martinique, Des Arawaks à 1848</emph> , Paris, L’Harmattan, 1996</bibl>
+                <bibl>"Charles Héléne Victor TÉLÈPHE,"  <emph>Geneanet</emph> , https://gw.geneanet.org/sgendrot?lang=en&amp;p=charles+helene+victor&amp;n=telephe</bibl>
             </note>
         </person>
         <person xml:id="MEL">
@@ -248,6 +539,113 @@
                     </div>
                 </p>
                 <bibl>Mitchell, L.G.  <title>Lord Melbourne, 1779–1848</title> . Oxford: Oxford University Press, 1997 <p> </p></bibl>
+            </note>
+        </person>
+        <person xml:id="Ambert">
+            <persName xml:lang="en">Jean-Jacques Ambert</persName>
+            <persName xml:lang="fr">Jean-Jacques Ambert</persName>
+            <birth>1765</birth>
+            <death>1851</death>
+            <note xml:lang="en" type="Person" resp="#abel #null">
+                <p>A general under the Revolution and the Empire (1793-1814), Ambert held the rank of baron. He oversaw Guadeloupe at the beginning of the 19th century until his dismissal in 1808. Restored to his military functions in 1812, he notably received command of the 9th military division under the first Restoration in 1815 until his retirement to Guadeloupe in 1825. Definitively admitted to retirement on June 11, 1832, he was elected president of the Colonial Council of Guadeloupe from 1833 to 1848. He then contributed effectively to abolishing slavery there. His grave is in the Fort Saint-Charles military cemetery in Basse-Terre.</p>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#abel #null">
+                <p>Né le 30 septembre 1765 à Saint-Céré dans le Lot, il décède le 20 novembre 1851 à Saint-Claude en Guadeloupe. Général sous la Révolution et l’Empire (1793-1814), il est ensuite élevé au rang de baron. Il administra la Guadeloupe au début du XIXe siècle et fut destitué en 1808. Rétabli dans ses fonctions militaires en 1812, il reçoit notamment le commandement de la 9e division militaire sous la première Restauration en 1815. Tenu à l’écart ensuite, il se retire en Guadeloupe en 1825. Admis définitivement à la retraite le 11 juin 1832, il est élu en 1833, président du Conseil colonial de la Guadeloupe (1833-1845). Il aurait contribué ensuite efficacement à faire abolir l’esclavage en Guadeloupe. Sa tombe se trouve au cimetière militaire du fort Saint-Charles à Basse-Terre.</p>
+            </note>
+        </person>
+        <person xml:id="AuA">
+            <persName xml:lang="en">Pierre Daniel Aubert-Armand</persName>
+            <persName xml:lang="fr">Pierre Daniel Aubert-Armand</persName>
+            <birth>1795</birth>
+            <death>1854</death>
+            <note xml:lang="en" type="Person" resp="#abel">
+                <p>Employed in the management of the King's buildings, Aubert-Armand became counselor to the royal court of Martinique, succeeding Durand-Molard in the compilation of the <emph>Code de la Martinique</emph>, containing the legislative acts relating to the colony in the 19th century.</p>
+                <p>
+                </p>
+                <bibl>"Pierre, Daniel AUBERT-ARMAND."  <emph>Geneanet</emph> , https://gw.geneanet.org/pfouchard2?lang=en&amp;n=aubert+armand&amp;p=pierre+daniel</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#abel">
+                <p>Employé à l’intendance des bâtiments du Roi, il est ensuite conseiller la cour royale de la Martinique. C’est à ce titre sans doute qu’il est le continuateur du Code de la Martinique après Durand-Molard, contenant les actes législatifs portant sur cette colonie au XIXe siècle.</p>
+                <p>
+                </p>
+                <bibl>"Pierre, Daniel AUBERT-ARMAND."  <emph>Geneanet</emph> , https://gw.geneanet.org/pfouchard2?lang=en&amp;n=aubert+armand&amp;p=pierre+daniel</bibl>
+            </note>
+        </person>
+        <person xml:id="Lass">
+            <persName xml:lang="en">Louis Hilaire Lasserre</persName>
+            <persName xml:lang="fr">Louis Hilaire Lasserre</persName>
+            <note xml:lang="en" type="Person" resp="#jessica">
+                <p>Louis Hilaire Lasserre is a white Creole settler from Martinique. He is one of the key figures in the Grande Anse affair, which took place in December 1833 and was discussed in the <emph>Revue des Colonies</emph>. The conflict pitted white settlers against free people of color. At its origin was a property dispute that appears to have fueled tensions between two men. Lasserre was awarded ownership of an estate called <emph>La Pirogue</emph> by court ruling—land that had once belonged to the parents of Rosemond, a free man of color. This decision, perceived as unjust by Rosemond, heightened the hostility between racialized groups within the commune.</p>
+                <bibl>Adélaïde-Merlande, Jacques, " Libres et affranchis - réformes et tensions " in  <title>Historial Antillais</title>  , Tome III, Dajani éditions, Pointe-à-Pitre, 1981 pp. 287-307</bibl>
+                <bibl>Maurice, Nicolas,  <title>L’affaire de la Grand’Anse : Chronique des années 30</title>   <emph>, </emph> Fort-de-France : Presses de Théodore Marchand, 1960</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#jessica">
+                <p>Louis Hilaire Lasserre est un colon blanc créole de la Martinique. Il est l’un des acteurs principaux de l’affaire de la Grande Anse survenue en décembre 1833 et évoquée dans la Revue des colonies. Elle oppose les blancs aux libres de couleur. Un conflit foncier semble à l’origine de l’inimitié entre deux d’entre eux. Lasserre se voit attribuer, par décision de justice, une habitation - la Pirogue - possédée autrefois par les parents de Rosemond, un libre de couleur. Cette décision, vécue comme une injustice par ce dernier, participe à l’animosité entre les groupes racialisés de la commune.</p>
+                <bibl>Maurice, Nicolas,  <title>L’affaire de la Grand’Anse : Chronique des années 30</title>   <emph>, </emph> Fort-de-France : Presses de Théodore Marchand, 1960</bibl>
+                <bibl>Adélaïde-Merlande, Jacques, « Libres et affranchis - réformes et tensions » dans  <title>Historial Antillais</title>  , Tome III, Dajani éditions, Pointe-à-Pitre, 1981 pp. 287-307</bibl>
+            </note>
+        </person>
+        <person xml:id="LP">
+            <persName xml:lang="en">Louis-Philippe I</persName>
+            <persName xml:lang="fr">Louis-Philippe I</persName>
+            <birth>1773 </birth>
+            <death>1850</death>
+            <note xml:lang="en" type="Person" resp="#jessica">
+                <p>Louis-Philippe I was the last king to reign in France, ruling from 1830 to 1848 under the July Monarchy. He was the eldest son of Louis Philippe Joseph, Duke of Orléans (known as Philippe Égalité), and Adélaïde de Bourbon-Penthièvre. A supporter of the French Revolution, he joined the National Guard and enlisted in the revolutionary army, participating in the battles of Valmy and Jemappes. Accused of treason, he was outlawed by the revolutionary government. During the Reign of Terror, in November 1793, his father, Philippe-Égalité, was arrested and guillotined.  </p>
+                <p>That same year, Louis-Philippe began a long exile, living in Switzerland and Germany in 1795, the United States in 1796, and finally settling in England in 1800. In 1809, he married Princess Marie-Amélie of Bourbon, daughter of the King of Naples, in Sicily. After several failed attempts to return to France, Louis XVIII authorized his return in 1814 and restored his father’s confiscated properties. However, he remained excluded from the royal court until 1817.  </p>
+                <p>More than a decade later, from July 27 to 29, 1830, the people of Paris rose up in what became known as the Three Glorious Days (<emph>Trois Glorieuses</emph>). Following Charles X’s flight, Louis-Philippe was propelled to power on July 30, 1830. Under the Restoration, Charles X had pursued policies that strongly favored property owners, including the ordinance of April 17, 1825, which imposed the Haitian indemnity to compensate former colonists, and the law of April 27, 1825, known as the Billion for the Emigrés, which indemnified émigrés who had lost property confiscated and sold during the Revolution. Seeking to navigate opposition from republicans, Bonapartists, legitimists, and socialists, Louis-Philippe adopted a liberal political approach.  </p>
+                <p>In the old colonies, which also underwent abrupt political change in 1830, the long cycle of segregation against free people of color came to an end with a series of local and metropolitan egalitarian measures. At the same time, despite growing calls from abolitionists, particularly the French Society for the Abolition of Slavery (SFAE), founded in 1834, the regime sought to preserve slavery—at least in the short term—implementing gradual reforms rather than outright abolition. The July Monarchy also pursued an aggressive colonial expansion policy, marked by the conquest of Algeria in 1830 and the acquisition of key strategic territories along major maritime routes, including Nosy Be, Mayotte, Tahiti, and the Marquesas Islands.  </p>
+                <p>The February 22–25, 1848 uprising in Paris forced Louis-Philippe to abdicate and flee to Britain. Queen Victoria granted him residence at Claremont House in Surrey, where he died two years later, on August 26, 1850. In the colonies, the fall of the July Monarchy and the establishment of the Provisional Government of the Second Republic in February 1848 accelerated the abolition of slavery. Within two months, the decree was issued, officially abolishing slavery on April 27, 1848.</p>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#jessica">
+                <p>
+                    <span lang="FR" style="font-family: 'Times',serif; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Calibri Light'; mso-bidi-theme-font: major-latin; color: black; mso-font-kerning: 0pt; mso-ligatures: none; mso-fareast-language: FR;">Louis-Philippe Ier est le dernier roi à avoir régné en France, entre 1830 et 1848, sous la Monarchie de Juillet. Il est le fils aîné de Louis Philippe Joseph, duc de Bourgogne (dit Philippe Égalité) et d’Adélaïde de Bourbon-Penthièvre. Partisan de la Révolution française, il rejoint la Garde nationale et s’engage dans l’armée révolutionnaire. Il participe aux batailles de Valmy et de Jemmapes. Accusé de traitrise, il est proscrit du gouvernement révolutionnaire. Sous la Terreur, en novembre 1793, son père Philippe-Égalité est mis en accusation et guillotiné.</span>
+                </p>
+                <p>
+                    <span lang="FR" style="font-family: 'Times',serif; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Calibri Light'; mso-bidi-theme-font: major-latin; color: black; mso-font-kerning: 0pt; mso-ligatures: none; mso-fareast-language: FR;">La même année, Louis-Philippe débute un long exil international (Suisse, Allemagne en 1795, États-Unis en 1796 et enfin en Angleterre en 1800 où il s’installe). En 1809, il épouse en Sicile la princesse Marie-Amélie de Bourbon, fille du roi de Naples. Après plusieurs tentatives de retour, Louis XVIII l’autorise à rentrer en France en 1814 et lui rend les biens de son père. Il sera cependant maintenu à l’écart de la cour jusqu’en 1817.</span>
+                </p>
+                <p>
+                    <span lang="FR" style="font-family: 'Times',serif; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Calibri Light'; mso-bidi-theme-font: major-latin; color: black; mso-font-kerning: 0pt; mso-ligatures: none; mso-fareast-language: FR;">Plus d’une décennie plus tard, les 27, 28 et 29 juillet 1830, le peuple parisien se soulève. Ce sont les trois glorieuses. Louis-Philippe est alors propulsé au pouvoir le 30 juillet 1830, dès la fuite de Charles X qui, sous la Restauration, mena une politique très favorable aux intérêts des propriétaires (ordonnance du 17 avril 1825 sur l’indemnité haïtienne destinée aux anciens colons de la colonie ; loi du « milliard des émigrés du 27 avril 1825 indemnisant les émigrés ayant perdu leurs biens vendus sous la Révolution). Afin de ménager ses nombreuses oppositions (républicains, bonapartistes, légitimistes et socialistes), Louis-Philippe choisit de mener une politique libérale.</span>
+                </p>
+                <p>
+                    <span lang="FR" style="font-family: 'Times',serif; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Calibri Light'; mso-bidi-theme-font: major-latin; color: black; mso-font-kerning: 0pt; mso-ligatures: none; mso-fareast-language: FR;">Dans les « vieilles colonies » - elles aussi précipitées en 1830 dans ce brusque changement de régime politique - le cycle de ségrégations à l’encontre des libres de couleur s’achève avec une série de mesures égalitaires locales et métropolitaines. Dans le même temps, et malgré les nombreux appels des abolitionnistes, notamment ceux de la Société française pour l’abolition de l’esclavage (SFAE) fondée en 1834, le régime se place dans une logique de maintien de l’esclavage, du moins à court terme, et propose de lents aménagements, à défaut d’une abolition radicale. La Monarchie de Juillet mène par ailleurs une politique d’expansion coloniale marquée, dès 1830, par la conquête de l’Algérie, d’une part, et par l’acquisition, comme points de relâche ou d’appui sur les grandes routes maritimes, de nouveaux territoires (Nossibé, Mayotte, Tahiti, Marquises).</span>
+                </p>
+                <p>
+                    <span lang="FR" style="font-family: 'Times',serif; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Calibri Light'; mso-bidi-theme-font: major-latin; color: black; mso-font-kerning: 0pt; mso-ligatures: none; mso-fareast-language: FR;">Le soulèvement du peuple de Paris entre le 22 et le 25 février 1848 conduit Louis-Philippe à abdiquer et à quitter le territoire pour la Grande-Bretagne. La reine Victoria met à sa disposition le château de Claremont (dans le Surrey) où il meurt deux ans plus tard, le 26 août 1850. Pour les colonies, la chute de la Monarchie de Juillet et l’instauration du Gouvernement provisoire de la IIe République par la Révolution de février 1848 à Paris précipitent la proclamation de l’abolition de l’esclavage. En deux mois, le décret est publié : elle est officielle le 27 avril 1848.</span>
+                </p>
+                <bibl>Jennings, Lawrence, « Abolitionnisme, jeu politique et réforme : France, 1814-1848 », dans Pétré Grenouilleau Olivier (dir),  <title>Abolir l’esclavage. Un réformisme à l’épreuve (France, Portugal, Suisse, XVIIIe-XIXe siècle).</title>  Rennes, Presses universitaires de Rennes, 2008, pp. 169-185.</bibl>
+                <bibl>Bouchène, Abderrahmane, Jean-Pierre Peyroulou, Ouanassa Siari Tengour, Sylvie Thénault, eds.  <title>Histoire de l’Algérie à la période coloniale, 1830-1962. </title> Paris: La Découverte, 2014.</bibl>
+                <bibl>Tessier, Arnaud,  <title>Louis Philippe, Le dernier roi des Français</title>   <emph>,</emph>  Paris, Perrin, </bibl>
+                <bibl>Deluermoz, Quentin, Thibaud Clément, Fureix Emmanuel (dir),  <title>Les mondes de 1848. Au-delà du Printemps des peuples</title>  , Editions Champ Vallon, 2023,</bibl>
+            </note>
+        </person>
+        <person xml:id="JosA">
+            <persName xml:lang="en">Joseph Albert</persName>
+            <persName xml:lang="fr">Joseph Albert</persName>
+            <note xml:lang="en" type="Person" resp="#jessica">
+                <p>Joseph Albert, a man of color from the commune of Basse-Pointe in the northern part of the island, was a building contractor and mechanic, as well as the owner of a house and enslaved individuals. He was deported to foreign colonies in 1823.</p>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#jessica">
+                <p>
+                    <span lang="FR" style="font-family: 'Times',serif; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Calibri Light'; mso-bidi-theme-font: major-latin; color: black; mso-font-kerning: 0pt; mso-ligatures: none; mso-fareast-language: FR;">Joseph Albert est un homme de couleur originaire de la commune de Basse-Pointe, au nord de l’île. Entrepreneur de bâtiments et mécanicien, propriétaire d’une maison et d’esclaves, il est déporté pour les colonies étrangères en 1823. </span>
+                </p>
+                <bibl>
+                    <span lang="FR" style="font-family: 'Times',serif; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Calibri Light'; mso-bidi-theme-font: major-latin; color: black; mso-font-kerning: 0pt; mso-ligatures: none; mso-fareast-language: FR;"><title>Affaire des déportés de la Martinique. Mémoires, consultations et pièces justificatives</title> , 1823-1824</span>
+                </bibl>
+            </note>
+        </person>
+        <person xml:id="DuDu">
+            <persName xml:lang="en">Duval-Dugué, Jean-Baptiste</persName>
+            <persName xml:lang="fr">Duval-Dugué, Jean-Baptiste</persName>
+            <birth>1791</birth>
+            <death>1858</death>
+            <note xml:lang="en" type="Person" resp="#abel">
+                <p>Jean-Baptiste Duval Dugue (or Dugué) was a white Creole from Martinique born in Grande Anse (Lorrain). The son of François Duval and Elizabeth Hardy, he married Marie-Céleste Thebault on July 6, 1813 in Sainte-Marie. He is described as an “owner” in his family tree and at his death owned a La Potiche sugar house in Macouba. He was undoubtedly one of the signatories of a letter addressed to Governor Donzelot in December 1823 by the white Creoles of the north of the island, which insisted on their opposition to any modification of colonial legislation while refusing to grant equality to free of color. Any concession to the latter, they argues, was doomed to failure. </p>
+                <bibl>"Jean Baptiste DUVAL DUGUE,"  <emph>Geneanet</emph> , https://gw.geneanet.org/theodoremilie?n=duval+dugue&amp;oc=&amp;p=jean+baptiste</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#abel">
+                <p>Jean-Baptiste Duval Dugue (ou Dugué), blanc créole de la Martinique né à la Grande Anse (Lorrain) le 23 janvier 1791, il décède le 23 août 1858 au Macouba. Fils de François Duval et d’Elizabeth Hardy, il se marie le 6 juillet 1813 à Sainte-Marie avec Marie-Céleste Thebault. Il est qualifié de “propriétaire” dans son arbre généalogique et possède à son décès une habitation sucrerie La Potiche au Macouba. Il a sans doute fait partie des signataires d’une lettre adressée au gouverneur Donzelot en décembre 1823 par les créoles blancs du nord de l’île qui insiste sur leur opposition à toute modification de la législation coloniale tout en refusant de consentir l’égalité aux libres de couleur. Toute concession à l’égard de ces derniers est vouée à l’échec. Ils sont donc partisans du maintien du système ségrégationniste et esclavagiste. Duval-Dugue est donc sans nul doute l’un d’entre eux.</p>
+                <bibl>"Jean Baptiste DUVAL DUGUE,"  <emph>Geneanet</emph> , https://gw.geneanet.org/theodoremilie?n=duval+dugue&amp;oc=&amp;p=jean+baptiste</bibl>
             </note>
         </person>
         <person xml:id="NB">
@@ -325,18 +723,6 @@
                 <bibl>Abel Alexis Louis,  <title>Marchands et négociants de couleur à Saint-Pierre (1777-1830) : milieux socioprofessionnels, fortune et mode de vie</title> , Paris, L’Harmattan, 2015.</bibl>
             </note>
         </person>
-        <person xml:id="RL">
-            <persName xml:lang="en">Pierre-François Honoré Richard de Lucy de Fossarieu</persName>
-            <persName xml:lang="fr">Pierre-François Honoré Richard de Lucy de Fossarieu</persName>
-            <note xml:lang="en" type="Person" resp="#abel">
-                <p>Born in Saint-Pierre on December 18, 1790 and died in the same town on February 1, 1839, at the age of 48, Pierre-François Honoré Richard de Lucy de Fossarieu belonged to an affluent settler family in colonial Martinique, with his father, Xavier Lucy de Fossarieu, holding the rank of infantry captain. On February 3, 1814, he married Claire Elisabeth Eyma, a fellow white Creole, whose family had ties to his through her mother Hélène de Lussy de Fossarieu. He served as a counselor at the Royal Court of Martinique in 1821 and President of the General Council in 1830, following his tenure as interim Attorney General from 1822 to 1824, in which capacity he oversaw the execution of the verdict of condemnation against Cyrille Bissette in January 1824.</p>
-                <bibl>Françoise Thésée, “La Révolte des esclaves du Carbet à la Martinique (octobre-novembre 1822)”,  <title>Revue Française d’Histoire d’Outre-Mer</title> , 80-301, 1993, 551-584 [n. 54, 568]. DOI: https//doi.org/10.3406/outre.1993.3148.</bibl>
-            </note>
-            <note xml:lang="fr" type="Person" resp="#abel">
-                <p>Né à Saint-Pierre le 18 décembre 1790, il y décède le 1<hi rend="superscript">er</hi> février 1839 à l’âge de 48 ans. Ce blanc créole appartenait à une riche famille de colons de la Martinique. Son père Xavier Lucy de Fossarieu fut d’ailleurs capitaine d’infanterie. Richard de Lucy de Fossarieu épousa le 3 février 1814 Claire Elisabeth Eyma, blanche créole dont la famille était apparentée à son futur époux par sa mère Hélène de Lussy de Fossarieu. Il fut conseiller à la Cour royale de la Martinique en 1821, procureur général par intérim de 1822 à 1824 et président du Conseil général en 1830. C’est lui qui fit exécuter l’arrêt de condamnation contre Cyrille Bissette en janvier 1824.</p>
-                <bibl>Françoise Thésée, « La Révolte des esclaves du Carbet à la Martinique (octobre-novembre 1822) »,  <title>Revue Française d’Histoire d’Outre-Mer</title> , tome 80, n° 301, 4e trimestre 1993, pp. 551-584 [note 54, p. 568]. DOI :  <ref target="">https//doi.org/10.3406/outre.1993.3148</ref> .</bibl>
-            </note>
-        </person>
         <person xml:id="FI">
             <persName xml:lang="en">François-André Isambert</persName>
             <persName xml:lang="fr">François-André Isambert </persName>
@@ -365,6 +751,185 @@
                 <bibl>Hrodej, Philippe (ed),  <emph>L'esclave et les plantations, </emph> Presses universitaires de Rennes, Rennes, 2009.</bibl>
             </note>
         </person>
+        <person xml:id="RL">
+            <persName xml:lang="en">Pierre-François Honoré Richard de Lucy de Fossarieu</persName>
+            <persName xml:lang="fr">Pierre-François Honoré Richard de Lucy de Fossarieu</persName>
+            <birth>1790</birth>
+            <death>1839</death>
+            <note xml:lang="en" type="Person" resp="#abel">
+                <p>Born in Saint-Pierre on December 18, 1790 and died in the same town on February 1, 1839, at the age of 48, Pierre-François Honoré Richard de Lucy de Fossarieu belonged to an affluent settler family in colonial Martinique, with his father, Xavier Lucy de Fossarieu, holding the rank of infantry captain. On February 3, 1814, he married Claire Elisabeth Eyma, a fellow white Creole, whose family had ties to his through her mother Hélène de Lussy de Fossarieu. He served as a counselor at the Royal Court of Martinique in 1821 and President of the General Council in 1830, following his tenure as interim Attorney General from 1822 to 1824, in which capacity he oversaw the execution of the verdict of condemnation against Cyrille Bissette in January 1824.</p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <bibl>Françoise Thésée, “La Révolte des esclaves du Carbet à la Martinique (octobre-novembre 1822)”,  <title>Revue Française d’Histoire d’Outre-Mer</title> , 80-301, 1993, 551-584 [n. 54, 568]. DOI: https//doi.org/10.3406/outre.1993.3148.</bibl>
+                <bibl>"Richard de LUCY de FOSSARIEU"  <emph>Geneanet</emph> , https://gw.geneanet.org/pierfit?lang=fr&amp;n=de+lucy+de+fossarieu&amp;oc=1&amp;p=richard</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#abel">
+                <p>Né à Saint-Pierre le 18 décembre 1790, il y décède le 1<hi rend="superscript">er</hi> février 1839 à l’âge de 48 ans. Ce blanc créole appartenait à une riche famille de colons de la Martinique. Son père Xavier Lucy de Fossarieu fut d’ailleurs capitaine d’infanterie. Richard de Lucy de Fossarieu épousa le 3 février 1814 Claire Elisabeth Eyma, blanche créole dont la famille était apparentée à son futur époux par sa mère Hélène de Lussy de Fossarieu. Il fut conseiller à la Cour royale de la Martinique en 1821, procureur général par intérim de 1822 à 1824 et président du Conseil général en 1830. C’est lui qui fit exécuter l’arrêt de condamnation contre Cyrille Bissette en janvier 1824.</p>
+                <p>
+                </p>
+                <bibl>Françoise Thésée, « La Révolte des esclaves du Carbet à la Martinique (octobre-novembre 1822) »,  <title>Revue Française d’Histoire d’Outre-Mer</title> , tome 80, n° 301, 4e trimestre 1993, pp. 551-584 [note 54, p. 568]. DOI :  <ref target="">https//doi.org/10.3406/outre.1993.3148</ref> .</bibl>
+                <bibl>"Richard de LUCY de FOSSARIEU"  <emph>Geneanet</emph> , https://gw.geneanet.org/pierfit?lang=fr&amp;n=de+lucy+de+fossarieu&amp;oc=1&amp;p=richard</bibl>
+            </note>
+        </person>
+        <person xml:id="AA">
+            <persName xml:lang="en">Antoine-Maurice-Apollinaire Argout</persName>
+            <persName xml:lang="fr">Antoine-Maurice-Apollinaire Argout</persName>
+            <birth>1782</birth>
+            <death>1858</death>
+            <note xml:lang="en" type="Person" resp="#laure">
+                <p>Count Antoine-Maurice-Apollinaire d'Argout (1782-1858) had several functions during his political career: prefect and state councilor before Louis-Philippe, he was then Minister of the Navy and Colonies in 1830 (from November 1830 to March 1831 ) ; Minister of the Interior in 1833; governor of the Bank of France in 1834; Minister of Finance in 1836. He became senator in 1852, under the Second Empire. His time at the Ministry of the Navy and Colonies is therefore only a small part of his career.</p>
+                <bibl>"ARGOUT Antoine, comte d’ (1782-1858),"  <emph>Cimetière du Père-Lachaise</emph> , May 29, 2024, https://www.appl-lachaise.net/argout-antoine-comte-d-1782-1858/ <h1> </h1></bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#laure">
+                <p>Le comte Antoine-Maurice-Apollinaire d'Argout (1782-1858) a eu plusieurs fonctions : préfet et  conseiller d'Etat avant Louis-Philippe, il est ensuite ministre de la Marine et des Colonies en 1830 (de novembre 1830 à mars 1831) ; ministre de l'Intérieur en 1833 ; gouverneur de la Banque de France en 1834 ; ministre des Finances en 1836. Il devient sénateur en 1852, sous le Second Empire. Son passage au ministère de la Marine et des Colonies n'est donc qu'une petite partie de sa carrière. </p>
+                <bibl>"ARGOUT Antoine, comte d’ (1782-1858),"  <emph>Cimetière du Père-Lachaise</emph> , 29 Mai 2024, https://www.appl-lachaise.net/argout-antoine-comte-d-1782-1858/ <h1> </h1></bibl>
+            </note>
+        </person>
+        <person xml:id="TLOUV">
+            <persName xml:lang="en">Toussaint Louverture</persName>
+            <persName xml:lang="fr">Toussaint Louverture</persName>
+            <death>1803</death>
+            <note xml:lang="en" type="Person" resp="#chelsea">
+                <p>
+                    <span style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none;">Leader of the Haitian Revolution and for a time, Governor-general for life of Saint-Domingue, Toussaint Louverture is one of the most important figures of the revolutionary period. Though there is no historical consensus on his date of birth, Toussaint Louverture (as he eventually came to be known) was born sometime in the early 1740s on the Bréda plantation near the village of Haut-du-Cap in northern Saint Domingue. A creole—that is, born in the colony and not in Africa—he was known in his early years as Toussaint Bréda, after the name of his plantation owner. He rose to the position of coachmen to the manager of the Bréda plantation and, eventually, obtained his emancipation. Archival records reveal him to be legally emancipated by 1776 and a slaveowner himself, renting a coffee plantation from his son-in-law where none other than Jean-Jacques Dessalines was among the enslaved laborers. </span>
+                </p>
+                <p>
+                    <span style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none;">During the revolutionary period, Louverture joined early on with the insurgents Biassou and Jean-François who were backed by the Spanish crown. In 1794, he ended his alliance with the Spanish and proclaimed his allegiance with the French Republic. Louverture ascended the ranks of the army in Saint-Domingue, becoming brigadier-general in 1795, governor-general in 1796, and in 1797, commander-in-chief of the Saint-Domingue army. In 1800, he defeated rival southern general André Rigaud in a civil war known as the War of Knives, unifying French Saint-Domingue under his control and, briefly, the eastern side of the island. In 1801, he promulgated a constitution for Saint-Domingue that maintained the territory’s colonial status and elevated him to Governor-for-life.</span>
+                </p>
+                <p>
+                    <span style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none;">When the Leclerc expedition arrived on the northern shore of the island in early 1802, Louverture challenged its legitimacy refused officers’ entry to the island. He and his troops resisted; he was declared an outlaw and, eventually, agreed to surrender and retire from government. This was not enough for Bonaparte who had Leclerc trick, capture, and deport Louverture. He spent his final days imprisoned in the Fort de Joux in the Jura Mountains. He petitioned Bonaparte to grant him a military tribunal to clear his name and end his unlawful imprisonment. His <emph>mémoire </emph>and letters went unanswered. Louverture died in prison on April 7, 1803. </span>
+                </p>
+                <bibl>Bénot, Yves and Dorigny, Marcel, eds.,  <span lang="FR" style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none; mso-ansi-language: FR;"><emph>Rétablissement de l’esclavage dans les colonies françaises. </emph></span> <emph><span style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none;">Aux origines de Haïti</span></emph></bibl>
+                <bibl>de Cauna, Jacques,  <emph>Toussaint Louverture : le grand précurseur</emph> .  <p> </p></bibl>
+                <bibl>Forsdick, Charles and Høgsbjerg, Christian.  <title>Toussaint Louverture: A Black Jacobin in the Age of Revolutions</title>  . Pluto Press, 2017.</bibl>
+                <bibl>Hazareesingh, Sudhir,  <title>Black Spartacus: The Epic Life of Toussaint Louverture</title>  . Farrar, Straus and Giroux, 2020.</bibl>
+                <bibl>Pluchon, Pierre,  <title>Toussaint Louverture. Un révolutionnaire noir d'Ancien Régime</title>   <emph>.</emph>  Fayard, 1989</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#chelsea">
+                <p>Toussaint Louverture, chef de la Révolution haïtienne et gouverneur général à vie de Saint-Domingue, est l’une des figures majeures de la période révolutionnaire. Sa date de naissance demeure incertaine, mais il voit le jour au début des années 1740 sur l’habitation Bréda, près du Haut-du-Cap, dans le nord de Saint-Domingue. Créole — c’est-à-dire né dans la colonie et non en Afrique — il est d’abord connu sous le nom de Toussaint Bréda, en référence au domaine où il grandit. Il accède au poste de cocher du régisseur de l’habitation avant d’obtenir son affranchissement. Les archives attestent de son émancipation légale en 1776 et de son statut ultérieur de propriétaire d’esclaves, exploitant une plantation de café louée à son gendre, où Jean-Jacques Dessalines figure parmi les travailleurs asservis.</p>
+                <p>Lorsque la Révolution éclate, Louverture rejoint les insurgés Biassou et Jean-François, soutenus par la couronne espagnole. En 1794, il rompt cette alliance et se rallie à la République française. Il gravit rapidement les échelons de l’armée de Saint-Domingue, devenant général de brigade en 1795, gouverneur général en 1796, puis commandant en chef des forces de l’île en 1797. En 1800, il défait André Rigaud lors de la guerre civile connue sous le nom de <emph>Guerre des Couteaux</emph>, unifiant Saint-Domingue sous son autorité et prenant brièvement le contrôle de sa partie orientale. En 1801, il promulgue une constitution qui maintient le territoire sous statut colonial tout en le désignant gouverneur à vie.</p>
+                <p>Lorsque l’expédition Leclerc débarque sur les côtes nord de l’île en 1802, Louverture en conteste la légitimité et refuse aux officiers français l’accès au territoire. Ses troupes opposent une résistance farouche, mais il est déclaré hors-la-loi. Après plusieurs mois de combats, il accepte de se rendre et de se retirer de la vie politique. Cette reddition ne suffit pas à Bonaparte, qui ordonne à Leclerc de le capturer et de le déporter. Louverture est emprisonné au Fort de Joux, dans les montagnes du Jura, où il passe ses derniers mois. Il adresse plusieurs lettres à Bonaparte, demandant un tribunal militaire pour défendre son honneur et contester sa détention arbitraire. Ses requêtes restent sans réponse. Il meurt en captivité le 7 avril 1803.</p>
+            </note>
+        </person>
+        <person xml:id="JorLa">
+            <persName xml:lang="en">Joseph Jorna Lacale</persName>
+            <persName xml:lang="fr">Joseph Jorna Lacale</persName>
+            <note xml:lang="en" type="Person" resp="#abel">
+                <p>Joseph Jorna Lacale (or Jorna de La Calle) was a white Creole from Saint-Pierre, advisor to the Royal Court of Martinique beginning in 1805. An uncompromising supporter of the old colonial organization and a fervent defender of the slave system, he sat at the Royal Court at the time of the judgment of January 12, 1824 pronounced against Bissette and his co-defendants. </p>
+                <p>
+                </p>
+                <bibl>Pâme, Stella.  <title>Cyrille Bissette: un martyr de la liberté</title> . Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#abel">
+                <p>Joseph Jorna Lacale (ou Jorna de La Calle), blanc créole de Saint-Pierre, conseiller titulaire de la Cour royale de la Martinique dès 1805. C’est un partisan intransigeant de l’ancienne organisation coloniale. Fervent défenseur du système esclavagiste, il siège à la Cour royale au moment de l’arrêt du 12 janvier 1824 prononcé contre Bissette et ses co-accusés.</p>
+                <bibl>Pâme, Stella.  <title>Cyrille Bissette: un martyr de la liberté</title> . Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
+            </note>
+        </person>
+        <person xml:id="Dupo">
+            <persName xml:lang="en">Jacques-Charles Dupont de l'Eure</persName>
+            <persName xml:lang="fr">Jacques-Charles Dupont de l'Eure</persName>
+            <birth>1767</birth>
+            <death>1855</death>
+            <note xml:lang="en" type="Person" resp="#abel #null">
+                <p>Born on February 27, 1767, in Le Neubourg (Généralité d'Alençon), he died on March 2, 1855, in Rouge-Perriers (Eure). He studied law and began his career as a lawyer in the Parliament of Normandy. He served as a member of the Council of Five Hundred from April 14, 1798, to December 26, 1799, before later joining the Legislative Corps, representing the department of Eure, from January 6, 1813, to June 4, 1814. He continued to represent Eure during the first Restoration, then during the Hundred Days. During the Second Restoration, he was a member of the Chamber of Deputies (September 20, 1817 – December 24, 1823) and was part of the liberal opposition. It was undoubtedly as an opponent of the Restoration and a supporter of liberal reforms (equality before the law, freedom of the press in particular) that he took up the cause of Bissette and his co-defendants. Deputy for the Seine from August 2, 1824 to November 5, 1827, he was again deputy for the Eure then (November 1827-May 1830) under the Second Restoration and under the July Monarchy (1830-1848). He was then politically on the left from 1831. He then sat as deputy for Eure under the 2and Republic (April 23, 1848 – May 26, 1849). He became head of government from February 24, 1848 to May 11, 1848. </p>
+                <p>He returned to private life after July 1849.</p>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#abel #null">
+                <p>Né le 27 février 1767 à Le Neubourg (Généralité d’Alençon) et décédé le 2 mars 1855 à Rouge-Perriers (Eure), il étudie le droit et devient avocat au parlement de Normandie. Membre du Conseil des Cinq-Cents du 14 avril 1798 au 26 décembre 1799, il est ensuite membre du Corps législatif du 6 janvier 1813 au 4 juin 1814 (département de l’Eure). Il continue de représenter l’Eure durant la première Restauration, puis, durant les Cent-Jours. Durant la Seconde Restauration, il est membre de la Chambre des députés (20 septembre 1817-24 décembre 1823) et fait partie de l’opposition libérale. C’est sans doute en tant qu’opposant à la Restauration et partisan des réformes libérales (l’égalité devant la loi, la liberté de la presse notamment) qu’il prend fait et cause pour Bissette et ses co-accusés. Député de la Seine du 2 août 1824 au 5 novembre 1827, il est à nouveau député de l’Eure ensuite (novembre 1827-mai 1830) sous la Seconde Restauration et sous la Monarchie de Juillet (1830-1848). Il est alors politiquement à gauche à partir de 1831. Il siège ensuite comme député de l’Eure sous la 2 e République (23 avril 1848-26 mai 1849). Il devient chef du gouvernement du 24 février 1848 au 11 mai 1848. Il rentre dans la vie privée après juillet 1849. </p>
+                <p>Cf., https://www2.assemblee-nationale.fr/sycomore/fiche/(num_dept)/9752.</p>
+            </note>
+        </person>
+        <person xml:id="PER">
+            <persName xml:lang="en">Perrinelle</persName>
+            <persName xml:lang="fr">Perrinelle</persName>
+            <note xml:lang="en" type="Person" resp="#abel">
+                <p>This family name is strongly linked to the town of Saint-Pierre (Château Perrinelle). From this family name, there were variants and branch names like Perrinelle-Dumay. Perhaps it was Louis Nicolas Honoré Perrinelle-Dumay (1770-1858), Councilor and Président of the Royal Court of Martinique, or perhaps it is Louis Perrinelle-Dumay, born in 1801, licensed in law in 1821, hearing officer the same year at the Royal Court of Martinique. He is one of the nine titular advisors of this court judging Cyrille Bissette during the case bearing his name. His name appears at the bottom of the judgment of January 12, 1824 rendered by the Royal Court  against Bissette and his co-defendants. </p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <bibl>Pâme, Stella.  <title>Cyrille Bissette: un martyr de la liberté</title> . Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#abel">
+                <p>Ce nom de famille est fortement lié à la ville de Saint-Pierre (Château Perrinelle). À partir de ce nom de famille, il y eut des variantes et noms de branches comme Perrinelle-Dumay. Peut-être s’agit-il de Louis Perrinelle-Dumay né en 1801, licencié en droit en 1821, conseiller auditeur la même année à la Cour royale de la Martinique. Il fait parti des neuf conseillers titulaires de cette cour jugeant Cyrille Bissette lors de l’affaire portant son nom. Son nom figure au bas de l’arrêt du 12 janvier 1824 rendu par la Cour royale de la Martinique contre Bissette et ses co-accusés. Il appartient au milieu des grands blancs (créoles) de la Martinique.</p>
+                <bibl>Pâme, Stella.  <title>Cyrille Bissette: un martyr de la liberté</title> . Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
+            </note>
+        </person>
+        <person xml:id="CDup">
+            <persName xml:lang="en">Charles Dupin</persName>
+            <persName xml:lang="fr">Charles Dupin</persName>
+            <birth>1784</birth>
+            <death>1873</death>
+            <note xml:lang="en" type="Person" resp="#abel #null">
+                <p>French mathematician, engineer, economist, and politician, Dupin held a number of positions over the course of his life including professor of geometry, mamber of the academy of sciences, deputy, state councilor, Minister of the Navy, and Senator. In 1842, he led a governmental committee issuing a report on the economic state of the colonies, noting the injustice of their exploitation. </p>
+                <p>
+                </p>
+                <p>https://academiesciencesmoralesetpolitiques.fr/les-academiciens-de-1832-a-nos-jours/les-academiciens-de-1832-a-nos-jours-section-iv/charles-dupin/</p>
+                <p>
+                </p>
+                <bibl>Dupin, Charles,  <span class="bookdetail-notes-title"><emph>Mémoire Adressé par le Conseil des Délégués des Colonies, à Messieurs les Membres du Conseil des Ministres</emph>.</span>  Paris: Imprimerie de Firmin Didot Frères, 1842.</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#abel #null">
+                <p> Né le 6 octobre 1784 à Varzy (Nièvre), décédé le 18 janvier 1873 à Paris. Mathématicien, homme politique, ingénieur et économiste français, est un personnage clé du XIXe siècle français. Il est diplômé de l’école polytechnique à 17 ans – En 1803, ingénieur du génie maritime. – 1807 à 1811, secrétaire de l’Académie des îles Ioniennes. – 1811, correspondant de l’Institut. — 1818, il est élu membre de l’Académie des Sciences (section de Mécanique) – De 1819 à 1873, il est professeur de géométrie appliquée aux arts, au Conservatoire des arts et métiers. – 1824, il est fait baron. – De 1828 à 1830, il est député du Tarn. – 1830 à 1838, il est député de la Seine. – De 1830 à 1847, il est nommé conseiller d’État. – De 1831 à 1851, il est nommé membre du Conseil d’amirauté. – En 1834 (10 au 18 novembre), il devient ministre de la Marine. – En 1838, il est fait Pair de France. – De 1848 à 1851, il est élu député de la Seine-Inférieure. – De 1852 à 1870, il est sénateur. </p>
+                <p>
+                </p>
+                <p> https://academiesciencesmoralesetpolitiques.fr/les-academiciens-de-1832-a-nos-jours/les-academiciens-de-1832-a-nos-jours-section-iv/charles-dupin/</p>
+                <p>
+                </p>
+            </note>
+        </person>
+        <person xml:id="LFab">
+            <persName xml:lang="en">Louis Fabien, fils</persName>
+            <persName xml:lang="fr">Louis Fabien, fils</persName>
+            <birth>1794</birth>
+            <death>1852</death>
+            <note xml:lang="en" type="Person" resp="#abel #null">
+                <p>Born in Martinique in Fort-Royal (now Fort-de-France) on March 17, 1794, Louis Fabien fils was the son Louis Fabien, of a free man of color who worked as a carpenter and innkeeper, and Françoise Julienne Capiau. In official documents, he referred to himself as a “mulatto”. Fabien established a successful career as a merchant, further supported by 43,800 pounds acquired in his 1819 marriage to Marie Elisabeth Justine Rogemont, a fellow free person of color whose father owned a valuable sugar refinery in Le Francois. The couple’s significant estate included enslaved people. Fabien fils was arrested in December 1823, alongside Cyrille Bissette, Jean-Baptiste Volny and others for allegedly distributing a pamphlet on the situation of free people of color, demanding civil and political equality with white colonists. In 1824, the group was convicted, branded with hot irons, and sentenced to lifetime imprisonment before this punishment was ultimately reduced to banishment from the colonies. In Paris, Fabien fils gained prominence as an activist alongside Mondesir Richard, taking part in the founding of the Société des hommes de couleur, which advocated for the rights of free people of color in the colonies. He subsequently worked with Bissette on the Revue des Colonies while authoring numerous political pamphlets. He died in 1852 in St. Pierre after having fallen out with Bissette toward the end of his life.</p>
+                <p>
+                    <strong id="docs-internal-guid-28846eef-7fff-5788-9c4a-bc27d23c19da"/>
+                </p>
+                <bibl>Louis, Abel Alexis,  <emph>Les libres de couleur en Martinique. De septembre 1802 aux débuts de la Restauration</emph> , Paris, L’Harmattan, 2012</bibl>
+                <bibl>Delaporte Arnal, Patrick, "Louis FABIEN."  <emph>Geneanet</emph> , https://gw.geneanet.org/softloft?lang=fr&amp;n=fabien&amp;p=louis</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#abel #null">
+                <p>Né en Martinique à Fort-Royal (ancien nom de la ville de Fort-de-France) le 17 mars 1794, il est le fils d’un homme de couleur libre ou mulâtre libre, Louis Fabien, maître charpentier, puis cabaretier en 1818, et de Françoise Julienne Capiau. Il est lui-même qualifié de mulâtre dans les actes d’état civil et/ou de notariat. Exerçant la profession de marchand, voire même de négociant, et jouissant d’une certaine aisance économique car apportant 43.800 livres coloniales dans son contrat de mariage le 16 février 1819, il fut aussi propriétaire de maisons et d’esclaves et s’unit en outre à Marie Elisabeth Justine Rogemont, métisse libre, descendante de “Caraïbe” par son père, propriétaire pour un quart d’une habitation sucrerie au François d’une valeur de 120.000 livres coloniales. Louis Fabien fils est arrêté en décembre 1823 avec Cyrille Bissette et Jean-Baptiste Volny notamment pour avoir introduit en Martinique et colporté une brochure ou libelle sur la situation des gens de couleur libres demandant l’égalité civile et politique pour ceux-ci avec les blancs. Partageant le sort de Bissette et de Volny, il est condamné comme eux en janvier 1824 au marquage au fer rouge et au bagne à perpétuité, puis, libéré avec une peine de bannissement des colonies françaises. Fabien fils est l’un des fondateurs à Paris de la Société des hommes de couleur en 1832. De la lutte pour l’égalité des libres de couleur des Antilles françaises, Fabien fils, comme Bissette, devient ensuite au cours des années 1832-1835, l’un des principaux militants pour l’abolition immédiate de l’esclavage, aux côtés de Mondésir Richard notamment. Collaborateur de la Revue des Colonies fondée par Cyrille Bissette en 1834, il est aussi l’auteur de nombreuses brochures. Il décède le 20 mai 1852 à l’âge de 58 ans à Saint-Pierre après s’être brouillé à la fin de sa vie avec Cyrille Bissette.</p>
+                <p>
+                </p>
+                <p>
+                </p>
+                <bibl>Louis, Abel Alexis,  <emph>Les libres de couleur en Martinique. De septembre 1802 aux débuts de la Restauration</emph> , Paris, L’Harmattan, 2012</bibl>
+                <bibl>Delaporte Arnal, Patrick, "Louis FABIEN."  <emph>Geneanet</emph> , https://gw.geneanet.org/softloft?lang=fr&amp;n=fabien&amp;p=louis</bibl>
+            </note>
+        </person>
+        <person xml:id="ACL">
+            <persName xml:lang="en">Antoine Clavier</persName>
+            <persName xml:lang="fr">Antoine Clavier</persName>
+            <birth>1804</birth>
+            <note xml:lang="en" type="Person" resp="#abel">
+                <p>Antoine Clavier, or Antoine Marie Clavier was a free person of color from Fort-Royal. He was the son of Jean-Pierre Clavier, also known as Berne Clavier, master of seines, an estate owner and enslaver, and Jeanne-Catherine-Françoise Kaire. He likely did his first apprenticeships with teachers color in Fort-Royal He continued his university studies in mainland France and earned his medical degree from the faculty of Paris in 1834. He married Jeanne-Rose Patterson in Castries (St Lucia) on June 24, 1840. It is probable he found it easier to practice medicine in Saint Lucia than on his native island. Martinique was then still governed by color prejudice and professional bans gradually raised under the July Monarchy.</p>
+                <bibl>Abel Louis,  <title>Jean Pierre Eugène Clavier,Premier homme de couleur membre du conseil colonial et de la cour d’appel de la Martinique</title>   <emph> (1810-1863), </emph> Paris, L’Harmattan, 2016.</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#abel">
+                <p>Antoine Clavier, ou alors Antoine Marie Clavier (déclaré le 4 octobre 1808 à Fort-Royal, décédé à Sainte-Lucie à une date inconnue), métis libre de Fort-Royal, fils de Jean-Pierre Clavier, dit aussi Berne Clavier, maître de seines, propriétaire de maison et d’esclaves, et de Jeanne-Catherine-Françoise Kaire, fit ses premiers apprentissages auprès sans doute des instituteurs de couleur de cette ville. Il poursuit des études universitaires en Métropole et devient docteur (médecin) de la faculté de Paris en 1834. Il se maria à Castries le 24 juin 1840 avec Jeanne-Rose Patterson dont il eut une descendance. C’est à Sainte-Lucie qu’il exerça sa profession de médecin car il y trouva sans doute plus de facilités. La Martinique était alors encore gouvernée par le préjugé de couleur et des interdictions professionnelles soulevées progressivement sous la Monarchie de Juillet</p>
+                <bibl>Abel Louis,  <title>Jean Pierre Eugène Clavier,Premier homme de couleur membre du conseil colonial et de la cour d’appel de la Martinique</title>   <emph> (1810-1863), </emph> Paris, L’Harmattan, 2016. <p> </p></bibl>
+            </note>
+        </person>
+        <person xml:id="JBVol">
+            <persName xml:lang="en">Jean-Baptiste Volny</persName>
+            <persName xml:lang="fr">Jean-Baptiste Volny</persName>
+            <birth>1793</birth>
+            <death>Before 1849</death>
+            <note xml:lang="en" type="Person" resp="#abel">
+                <p>A friend of Cyrille Bissette and a fellow free man of color from Fort-Royal, Volny was a shoemaker, then a tobacco merchant. He was implicated in the Bissette affair, accused of having participated alongside Bissette in the distribution of the pamphlet “On the situation of free people of color in the French West Indies.”</p>
+                <bibl>Pâme, Stella.  <title>Cyrille Bissette: un martyr de la liberté</title> . Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#abel">
+                <p>Métis de Fort-Royal, ami de Cyrille Bissette, est cordonnier, puis, marchand de tabac. Il est impliqué dans l’affaire portant le nom de celui-ci parce qu’il “est déclaré dûment atteint d’avoir remis à Bissette un écrit de sa main (...) composé dans le but d’exciter des levains de haine, rempli de calomnies contre les tribunaux (...) et infecté des mêmes principes subversifs..., d’avoir reçu de Bissette le libelle “De la situation des gens de couleur libres aux Antilles françaises”, d’avoir participé à ses coupables projets”.</p>
+                <bibl>Pâme, Stella.  <title>Cyrille Bissette: un martyr de la liberté</title> . Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
+            </note>
+        </person>
     </listPerson>
     <listPlace>
         <place xml:id="HT">
@@ -390,6 +955,67 @@
                 <bibl>Dubois, Laurent.  <title>Avengers of the New World: The Story of the Haitian Revolution</title> .  (Cambridge, Mass: Belknap Press of Harvard University Press, 2004).</bibl>
                 <bibl>Pierrot, Grégory.  <title>The Black Avenger in Atlantic Culture</title> . Athens: The University of Georgia Press, 2019.</bibl>
                 <bibl>Stieber, Chelsea.  <title>Haiti’s Paper War: Post-Independence Writing, Civil War, and the Making of the Republic, 1804-1954</title> . New York: New York University Press, 2020.</bibl>
+            </note>
+        </place>
+        <place xml:id="PtP">
+            <placeName xml:lang="en"> Port-au-Prince</placeName>
+            <placeName xml:lang="fr"> Port-au-Prince</placeName>
+            <note xml:lang="en" type="Place" resp="#chelsea">
+                <p>
+                    <span style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none;">Port-au-Prince is the capital of Haiti. The port city sits deep in the Gulf of Gonâve, between the northern mountains and southern peninsula. It was not always the capital: during the colonial period, the northern port city of Cap Français (now Cap-Haïtien) served as the colony’s center of power until 1770. It was not always called Port-au-Prince, either: during the first French Republic in Saint-Domingue it was renamed “Port Républicain,” and returned briefly to that name once again after the 1843 revolution in Haiti. It earned another nickname “Port-aux-Crimes,” after a republican faction assassinated Jean-Jacques Dessalines in 1806. Indeed, Dessalines had not kept the seat of power in the port capital but rather in Marchand-Dessalines, located north and inland in the Artibonite Valley. Alexandre Pétion returned the capital of the Haitian Republic to Port-au-Prince during the civil war with Henry Christophe’s state-turned-monarchy in the north. Jean-Pierre Boyer unified the two regions under his republic in Port-au-Prince after Christophe’s death in 1820, though separatist regimes and even presidencies challenged the dominance of Port-au-Prince throughout the nineteenth century. </span>
+                </p>
+                <bibl>Corvington, Georges,  <title>Port-au-Prince au cours des ans</title>  , vols. 1–3. Impr. H. Deschamps, 1972.</bibl>
+                <bibl>Anglade, Georges,  <title>Atlas critique d’Haïti</title>  . ERCE and CRC, 1982. </bibl>
+            </note>
+            <note xml:lang="fr" type="Place" resp="#chelsea">
+                <p>Port-au-Prince est la capitale d’Haïti. Nichée au fond du golfe de la Gonâve, entre les montagnes du nord et la péninsule sud, cette ville portuaire n’a pas toujours occupé cette position. Durant la période coloniale, le centre du pouvoir se trouvait au nord, à Cap-Français (aujourd’hui Cap-Haïtien), jusqu’en 1770. Son nom a également changé au fil des régimes : sous la première République française à Saint-Domingue, elle devient Port-Républicain, un nom qu’elle reprend brièvement après la révolution de 1843. Elle est aussi surnommée « Port-aux-Crimes » après l’assassinat de Jean-Jacques Dessalines en 1806 par une faction républicaine.  </p>
+                <p>Dessalines lui-même n’y installe pas le siège du pouvoir, lui préférant Marchand-Dessalines, une ville située plus au nord, dans la vallée de l’Artibonite. Alexandre Pétion ramène la capitale à Port-au-Prince durant la guerre civile contre le royaume d’Henri Christophe dans le nord. Après la mort de Christophe en 1820, Jean-Pierre Boyer unifie les deux régions sous une seule république, avec Port-au-Prince pour capitale. Tout au long du XIXe siècle, des régimes séparatistes et plusieurs présidences contestent cependant cette centralité.</p>
+            </note>
+        </place>
+        <place xml:id="FJ">
+            <placeName xml:lang="en">Fort de Joux</placeName>
+            <placeName xml:lang="fr">Fort de Joux</placeName>
+            <note xml:lang="en" type="Place" resp="#chelsea #chelsea">
+                <p>
+                    <span style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none;">Located in what is today the Doubs department in Bourgogne-France-Comté region, the Fort de Joux is situated high in the Jura Mountains on the border with Switzerland. It was originally built as a 12<hi rend="superscript">th</hi>-century castle. From 1678–1815, it was used by various regimes as a state prison. It was here that Toussaint Louverture was imprisoned after his unlawful arrest and deportation from Saint-Domingue. Many other deportees from the Antilles were held in the fort during the French Revolution. </span>
+                </p>
+                <p>
+                    <span style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none;">
+                    </span>
+                </p>
+                <p>
+                </p>
+            </note>
+            <note xml:lang="fr" type="Place" resp="#chelsea #chelsea">
+                <p>Situé dans l’actuel département du Doubs, en région Bourgogne-Franche-Comté, le Fort de Joux domine les montagnes du Jura, à la frontière suisse. À l’origine, il s’agit d’un château du XIIe siècle. De 1678 à 1815, plusieurs régimes l’utilisent comme prison d’État. C’est dans ce fort que Toussaint Louverture est détenu après son arrestation arbitraire et sa déportation depuis Saint-Domingue. Durant la Révolution française, de nombreux autres déportés venus des Antilles y sont également emprisonnés.</p>
+            </note>
+        </place>
+        <place xml:id="TRI">
+            <placeName xml:lang="en">La Trinité</placeName>
+            <placeName xml:lang="fr">La Trinité</placeName>
+            <note xml:lang="en" type="Place" resp="#jessica">
+                <p>The commune of La Trinité is situated on the Atlantic coast of the island of Martinique. Within its territory lie Tartane and the Caravelle Peninsula, at the tip of which stands Château Dubuc, a sugar plantation established in the 18th century, overlooking the mangrove. This powerful family made the commune’s port a key hub for the island’s trade. The town is, after those of Saint-Pierre and Fort Royal, one of the island’s most active commercial centers (along with those of Le Marin, Le Lamentin, and Rivière Salée).</p>
+                <p>The remainder of the island consists of around twenty villages or small towns. These generally include a church and the parish presbytery, a landing stage for essential trade relations with ports open to commerce, a few warehouses for storing the produce of nearby plantations, and shops selling a variety of goods for local consumption.</p>
+            </note>
+            <note xml:lang="fr" type="Place" resp="#jessica">
+                <p>
+                    <span lang="FR" style="font-family: 'Times',serif; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Calibri Light'; mso-bidi-theme-font: major-latin; color: black; mso-font-kerning: 0pt; mso-ligatures: none; mso-fareast-language: FR;">La commune de la Trinité est située sur la côte atlantique de l’île de la Martinique. Elle compte sur son territoire Tartane et la presqu’île de la Caravelle, au bout de laquelle se trouve le château Dubuc, habitation sucrière fondée au XVIIIe siècle qui surplombe la mangrove. Cette puissante famille a fait du port de la commune un point prépondérant pour le commerce de l’île. Le bourg est, après ceux de Saint Pierre et de Fort Royal, l’un des points les plus commerçants de l’île (avec ceux du Marin, du Lamentin, et de Rivière Salée).<span style="mso-spacerun: yes;">  </span>Le reste de l’ile est composé d’une vingtaine de villages ou de petits bourgs. S’y trouvent généralement une église et le presbytère de la paroisse, un embarcadère pour les relations indispensables avec les ports ouverts au commerce, quelques magasins pour l’entrepôt des produits des habitations voisines, et des boutiques pour la vente en détail de divers objets de consommation. </span>
+                </p>
+                <bibl>Taffin, Dominique, « De la paroisse à la commune : la difficile genèse de l’institution communale à la Martinique (1815-1839) », dans  <title>Bulletin de la Société d’Histoire de la Guadeloupe</title>  , n°150-161, 2008, pp. 5-28.</bibl>
+                <bibl>« Tableaux de population, de culture, de commerce et de navigation » dans  <title>Notice statistique sur les colonies françaises</title>  , Paris, Imprimerie Nationale, 1837, p.42. </bibl>
+            </note>
+        </place>
+        <place xml:id="SEN">
+            <placeName xml:lang="en">Senegal</placeName>
+            <placeName xml:lang="fr">Sénégal</placeName>
+            <note xml:lang="en" type="Place" resp="#kelly">
+                <p>At the time of the <title>Revue</title> , the French colony of Senegal consisted of the island trading towns of Saint-Louis and Gorée and a few outposts, some fortified, along the Senegal River and south of Gorée. French presence in the region dated to the early seventeenth century, though wars in Europe led to British takeover and occupation of Saint-Louis from 1759 to 1779 and 1807-1817, and of Gorée from 1758 to 1763, 1779-1783, and 1800-1817. Negotiations with the British at the end of the Napoleonic Wars allowed the French to reclaim control of Senegal in 1817. After 1817, French authorities began to broaden their aims beyond maritime trade to include a wider range of activities. This was evident in the creation of Senegal's first French public schools and hospital, often with assistance from Catholic missionary orders, in the 1810s and 1820s, and perhaps most clearly in agricultural colonization projects. Signing a treaty with the ruler of the Waalo kingdom in 1819, Governor Julien Schmaltz gained land use rights to a parcel along the Senegal River and the right to build a fort at Dagana. During Baron Jacques-François Roger’s tenure as governor (1822-1827), the agricultural project on this parcel, known as Richard Toll, received a lot of attention. Though the Ministry of the Marine and French administration in Senegal admitted by the early 1830s that Richard Toll had failed, it signaled an increasing and ongoing interest in affairs along the Senegal River, which continued into the 1830s and 1840s, and found a place in the pages of Bissette's publication. Bissette also included articles critical of Governor Germain's decision to involve French troops in a war in Waalo from 1833 to 1835, aimed at preventing Waalo from securing an alliance with the Trarzas Moors to the north, and articles on the aftermath of this conflict.</p>
+                <p>Populations of both Saint-Louis and Gorée included a very small community of metropolitan French people (officials, traders and representatives of merchant firms, missionaries, and others), free Africans who worked as traders, fishermen, sailors, craftsmen, or day laborers; métis or mixed-race people (born to African or mixed women known as signares and French fathers, and their descendants), and--until 1848--a large population of enslaved Africans. Efforts to develop agriculture notwithstanding, commerce dominated the economy, with gum Arabic as the primary export during the period immediately after France’s abolition of the transatlantic slave trade (1815). Later in the nineteenth century, groundnuts or peanuts would come to dominate Senegal’s export trade.</p>
+            </note>
+            <note xml:lang="fr" type="Place" resp="#kelly">
+                <p>À l’époque de la <emph>Revue</emph>, la colonie française du Sénégal se limite aux villes marchandes insulaires de Saint-Louis et Gorée, ainsi qu’à quelques avant-postes, certains fortifiés, le long du fleuve Sénégal et au sud de Gorée. La présence française dans la région remonte au début du XVIIe siècle, bien que les guerres en Europe entraînent l’occupation et le contrôle de Saint-Louis par les Britanniques de 1759 à 1779 et de 1807 à 1817, et de Gorée de 1758 à 1763, de 1779 à 1783, et de 1800 à 1817. Les négociations avec les Britanniques à la fin des guerres napoléoniennes permettent à la France de reprendre le contrôle du Sénégal en 1817.</p>
+                <p>Après 1817, les autorités françaises élargissent leurs ambitions au-delà du commerce maritime, en s’engageant dans une gamme d’activités plus variées. Cela se manifeste notamment par la création des premières écoles publiques françaises et d’un hôpital au Sénégal, souvent avec l’aide des ordres missionnaires catholiques, dans les années 1810 et 1820. Ces efforts sont particulièrement visibles dans les projets de colonisation agricole. En signant un traité avec le souverain du royaume du Waalo en 1819, le gouverneur Julien Schmaltz obtient des droits d’usage foncier sur une parcelle le long du fleuve Sénégal ainsi que le droit de construire un fort à Dagana. Sous le mandat du baron Jacques-François Roger, gouverneur de 1822 à 1827, le projet agricole sur cette parcelle, connue sous le nom de Richard Toll, reçoit une attention particulière. Bien que le ministère de la Marine et l’administration française au Sénégal admettent dès le début des années 1830 l’échec de Richard Toll, ce projet marque un intérêt croissant et continu pour les affaires le long du fleuve Sénégal, qui se poursuit dans les années 1830 et 1840 et trouve écho dans les pages de la publication de Bissette. Ce dernier inclut également des articles critiques sur la décision du gouverneur Germain d’impliquer les troupes françaises dans une guerre au Waalo entre 1833 et 1835, visant à empêcher le Waalo de conclure une alliance avec les Maures Trarzas au nord, ainsi que des articles sur les conséquences de ce conflit.</p>
+                <p>Les populations de Saint-Louis et de Gorée comprennent une très petite communauté de Français métropolitains (fonctionnaires, commerçants, représentants de maisons de commerce, missionnaires, et autres), des Africains libres travaillant comme commerçants, pêcheurs, marins, artisans ou journaliers, des métis (nés de femmes africaines ou métisses connues sous le nom de signares et de pères français, ainsi que leurs descendants), et – jusqu’en 1848 – une importante population d’Africains réduits en esclavage. Malgré les efforts de développement agricole, le commerce domine l’économie, avec la gomme arabique comme principal produit d’exportation dans la période suivant immédiatement l’abolition par la France de la traite transatlantique (1815). Plus tard au XIXe siècle, les arachides deviennent le principal produit d’exportation du Sénégal.</p>
             </note>
         </place>
         <place xml:id="DOM">
@@ -580,7 +1206,7 @@
                 <p>Each colony has 30 members, elected for five-year terms through a censitary voting system. Article 21 of the Legislative Regime of the Colonies, dated April 24, 1833, stipulates: “Eligible for the position of a member of the colonial council is any voter aged 30 or older, paying 600 francs in direct contributions in Martinique and Guadeloupe, or 400 francs in Bourbon Island and Guyana, and proving ownership of movable or immovable property in the colony valued at 60,000 francs in Martinique and Guadeloupe, and 40,000 francs in Bourbon Island and Guyana.”  </p>
                 <p>Free people of color in the colonies, particularly in Martinique, deem this property and tax requirement excessively high. Nevertheless, Eugène Clavier, a sugar planter of color, manages to join the council in 1845. This triggers a controversy within the colony. Tradition dictates that the governor formally invites all representatives of the colony to a dinner at the opening of the session. Governor Mathieu, “yielding,” according to Bissette, “to the suggestions of certain council members” who allegedly stated that they “did not wish to dine at the same table, side by side with a mulatto,” decides not to invite Clavier.  </p>
                 <bibl/>
-                <bibl/>
+                <bibl>Abel Louis,  <title>Jean Pierre Eugène Clavier,Premier homme de couleur membre du conseil colonial et de la cour d’appel de la Martinique</title>   <emph> (1810-1863), </emph> Paris, L’Harmattan, 2016.</bibl>
                 <bibl/>
             </note>
             <note xml:lang="fr" type="Organization" resp="#jessica">
@@ -591,6 +1217,99 @@
         </org>
     </listOrg>
     <listBibl>
+        <bibl xml:id="Cd1814" type="legal">
+            <title xml:lang="en">Charter of 1814</title>
+            <title xml:lang="fr">Charte de 1814</title>
+            <note xml:lang="en" type="Publication" resp="#chelsea">
+                <p>
+                    <span style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none;">The Charter of 1814 was the written constitution of the Restoration government. The Bourbon Monarchy’s return under Louis XVIII was not a return to absolutism, but rather a constitutional monarchy with an elected legislature in the lower house of parliament (suffrage was highly restricted) and appointed nobles in the upper house. Other aspects of the revolution remained, including civil liberties, religious tolerance, the administrative organization of the state, among others. </span>
+                </p>
+            </note>
+            <note xml:lang="fr" type="Publication" resp="#chelsea">
+                <p>La Charte de 1814 est le texte constitutionnel du régime de la Restauration. Avec le retour des Bourbons sous Louis XVIII, la monarchie absolue ne renaît pas pour autant : elle devient une monarchie constitutionnelle. Le parlement se compose d’une chambre basse élue (avec un suffrage très restreint) et d’une chambre haute formée de nobles nommés. Certains acquis de la Révolution sont préservés, notamment les libertés civiles, la tolérance religieuse et l’organisation administrative de l’État.</p>
+                <bibl>Müssig, Ulrike, “La Concentration monarchique du pouvoir et la diffusion des modèles constitutionnels français en Europe après 1800,”  <title>Revue Historique de Droit Français et Étranger</title>   88, no. 2 (2010). </bibl>
+                <bibl>Stovall, Tyler,  <title>Transnational France: The Modern History of A Universal Nation</title>  . Avalon, 2015.</bibl>
+            </note>
+        </bibl>
+        <bibl xml:id="lNDEM" type="legal">
+            <title xml:lang="en">Ordinance of 1825</title>
+            <title xml:lang="fr">Ordonnance de 1825</title>
+            <note xml:lang="en" type="Publication" resp="#chelsea">
+                <p>
+                    <span style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none;">One of the Haiti’s main goals after independence, aside from preventing French reinvasion, was securing its economic well-being through formal recognition from the foreign governments it traded with. Negotiations for recognition failed under Dessalines, Pétion and Christophe, as various early independence governments balked at France’s terms and French agents’ continued designs on the land they continue to refer to under the colonial name of Saint-Domingue. President Jean-Pierre Boyer (1818–1843) attempted his own negotiations with France but his hand was ultimately forced when Charles X’s emissary, Baron Mackau, arrived with a military squadron in the harbor of Port-au-Prince with a new ordonnance from the king (dated April 17, 1825). The order stated that Haiti would give France preferential trade status via a reduced customs duty and pay a staggering 150 million francs to compensate French property owners for their “loss.” Boyer signed, under the threat of gunboats, on July 11, 1825.</span>
+                </p>
+                <p>
+                    <span style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none;">Boyer’s government immediately took out a loan to make their first payment—borrowing 30 million francs from French banks in order to repay the French government for recognition of their independence. The indemnity agreement and the loans had disastrous consequences for the economic and political autonomy of the nation. Economists have estimated the total cost of the indemnity to Haiti over the last 200 years to be at least $21 billion dollars, perhaps as much as $115 billion.</span>
+                </p>
+                <p>
+                    <ref target="https://memoire-esclavage.org/lordonnance-de-charles-x-sur-lindemnite-dhaiti">
+                        <span style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none;">https://memoire-esclavage.org/lordonnance-de-charles-x-sur-lindemnite-dhaiti</span>
+                    </ref>
+                </p>
+                <p>
+                    <span style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none;">
+                        <ref target="https://esclavage-indemnites.fr/public/Base/1">https://esclavage-indemnites.fr/public/Base/1</ref>
+                    </span>
+                </p>
+            </note>
+            <note xml:lang="fr" type="Publication" resp="#chelsea">
+                <p>L’un des principaux objectifs d’Haïti après son indépendance, en plus de prévenir une éventuelle réinvasion française, est d’assurer sa stabilité économique en obtenant une reconnaissance officielle des gouvernements étrangers avec lesquels elle commerce. Sous Dessalines, Pétion et Christophe, les négociations en ce sens échouent, les premiers gouvernements haïtiens refusant d’accepter les conditions imposées par la France, tandis que les agents français continuent à revendiquer le territoire sous son nom colonial de Saint-Domingue.</p>
+                <p>Le président Jean-Pierre Boyer (1818–1843) entreprend à son tour des négociations avec la France, mais la situation prend un tournant décisif lorsque l’émissaire de Charles X, le baron Mackau, arrive dans le port de Port-au-Prince à la tête d’une escadre militaire, porteur d’une ordonnance royale datée du 17 avril 1825. Celle-ci stipule qu’Haïti doit accorder à la France un statut commercial préférentiel, par le biais d’une réduction des droits de douane, et verser une indemnité de 150 millions de francs pour compenser les propriétaires français de la « perte » de leurs biens. Sous la pression militaire, Boyer signe l’accord le 11 juillet 1825.</p>
+                <p>Afin de s’acquitter du premier paiement, son gouvernement contracte immédiatement un emprunt de 30 millions de francs auprès de banques françaises, destiné à financer la somme exigée par le gouvernement français en échange de la reconnaissance officielle de l’indépendance haïtienne. L'accord d'indemnité et les emprunts contractés ont des conséquences désastreuses sur l'autonomie économique et politique de la nation. Les économistes estiment que le coût total de l'indemnité pour Haïti au cours des 200 dernières années s'élève à au moins 21 milliards de dollars (environ 19,11 milliards d'euros), voire jusqu'à 115 milliards de dollars (environ 104,65 milliards d'euros).</p>
+                <bibl>Blancpain, François,  <title>Un siècle de relations financières entre Haïti et la France (1825-1922)</title>  . L’Harmattan, 2001. </bibl>
+                <bibl>Brière, Jean-François, “L'Emprunt de 1825 dans la dette de l'indépendance haïtienne envers la France,”  <title>Journal of Haitian Studies</title>   12, no. 2 (2006). </bibl>
+                <bibl>Daut, Marlene, “When France Extorted Haiti—The Greatest Heist in History,”  <title>The Conversation</title>  , 30 Juin 2020, </bibl>
+                <bibl>Dorigny, Marcel; Bruffaerts, Jean-Claude; Gaillard, Gusti-Klara; et Théodat, Jean-Marie, eds.,  <title>Haïti-France. Les chaînes de la dette. Le rapport Mackau (1825)</title>  . Hémisphères Éditions, 2022.</bibl>
+                <bibl>Gaffield, Julia, “The Racialization of International Law after the Haitian Revolution: The Holy See and National Sovereignty,”  <title>The American Historical Review</title>   125, no. 3 (2020). 841–868. https://doi.org/10.1093/ahr/rhz1226</bibl>
+                <bibl>Porter, Catherine; Méhout, Constan; Apuzzo, Matt; and Gebrekidan, Selam, “The Ransom,”  <title>The New York Times</title>  , May 20, 2022.</bibl>
+            </note>
+        </bibl>
+        <bibl xml:id="ldf10" type="legal">
+            <title xml:lang="en">Law of Floréal, Year 10</title>
+            <title xml:lang="fr">Loi de floréal, an 10</title>
+            <note xml:lang="en" type="Publication" resp="#chelsea">
+                <p>
+                    <span style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none;">The <emph>loi de floréal an 10 </emph>refers to the decree-law (or statuary law) authorizing the slave trade and slavery in the colonies restored by the Treaty of Amiens (<emph>Décret-loi autorisant la traite et l'esclavage dans les colonies restituées par le traité d’Amiens</emph>). The law, proposed by First Consul Bonaparte and debated by the assemblies, was adopted on May 20, 1802 (30 floréal an 10).</span>
+                </p>
+                <p>
+                    <span style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none;">The pertinent text of the law is as follows:</span>
+                </p>
+                <p>
+                    <span style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none;">Article 1: “</span>
+                    <span lang="FR" style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none; mso-ansi-language: FR;">Dans les colonies restituées à la France en exécution du traité d’Amiens, du 6 germinal an X, l’esclavage sera maintenu conformément aux lois et réglemens antérieures à 1789.</span>
+                    <span style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none;">”<br/>Article 3: “</span>
+                    <span lang="FR" style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none; mso-ansi-language: FR;">La traite des noirs et leur importation des lesdites colonies, auront lieu, conformément aux lois et règlemens existans avant ladite époque de 1789.</span>
+                    <span style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none;">”</span>
+                </p>
+                <p>
+                    <span style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none;">Slavery had been abolished first in Saint Domingue in 1793 by civil commissioners Leger-Félicité Sonthonax and Étienne Polverel. A committee from Saint-Domingue then sailed to France to urge the government to ratify the 1793 proclamations for all French colonies. On February 4, 1794 the Convention proclaimed slavery abolished throughout the Republic. Though applied in Guadeloupe and, eventually, Guyana, the 1794 decree was not applied in Martinique, Saint Lucia or Tobago (then under British occupation) or in the Indian Ocean colonies (which essentially delayed and refused). The Treaty of Amiens signed March 15, 1802 with Great Britain thus restored to France those colonies that had maintained slavery and the slave trade throughout the period of occupation. The May 20 law did not reestablish slavery throughout the French colonies but was nevertheless a stark retreat from the values of 1789: slavery and the slave trade was now legal in the French Republic. A consular order from July 16, 1802 (27 messidor an X) reestablished slavery in Guadeloupe. </span>
+                </p>
+                <p>
+                    <span style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none;">There is a lack of clarity, both in contemporary scholarship and in the <emph>Revue</emph>, on the nature of the May 20 decree-law. Scholars often incorrectly cite the law as the date that marks Bonaparte’s reestablishment of slavery throughout the French colonies. Bissette’s exaggerated claim, “</span>
+                    <span lang="FR" style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none; mso-ansi-language: FR;">Tout le monde sait que la loi de floréal an 10, qui rétablit l’esclavage dans les colonies, fut le signal de la défection de tous les chefs de Saint-Domingue</span>
+                    <span style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none;">” reveals that this confusion was in place even in 1830s. It also confirms the effectiveness of Bonaparte’s attempts to reestablish slavery under the radar and without fanfare. Nevertheless, Bissette is correct about the consequences of Bonaparte and the Consulate’s pro-slavery machinations in contributing to the anticolonial, antislavery act of Haitian independence. </span>
+                </p>
+                <bibl>Niort, Jean-François and Richard, Jérémie, “</bibl>
+                <bibl>Bénot, Yves and Dorigny, Marcel, eds.,  <span lang="FR" style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none; mso-ansi-language: FR;"><emph>Rétablissement de l’esclavage dans les colonies françaises. </emph></span> <emph><span style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none;">Aux origines de Haïti</span></emph></bibl>
+            </note>
+            <note xml:lang="fr" type="Publication" resp="#chelsea">
+                <p>La loi de floréal an 10 désigne le décret rétablissant officiellement la traite et l’esclavage dans les colonies restituées à la France par le traité d’Amiens. Proposée par le Premier Consul Bonaparte et débattue par les assemblées, elle fut adoptée le 20 mai 1802 (30 floréal an 10).</p>
+                <p>Les articles les plus significatifs en sont les suivants :</p>
+                <ul>
+                    <li>Article 1 : « Dans les colonies restituées à la France en exécution du traité d’Amiens, du 6 germinal an X, l’esclavage sera maintenu conformément aux lois et réglemens antérieurs à 1789. »</li>
+                    <li>Article 3 : « La traite des Noirs et leur importation dans lesdites colonies auront lieu, conformément aux lois et réglemens existants avant ladite époque de 1789. »</li>
+                </ul>
+                <p>L’abolition de l’esclavage avait été proclamée pour la première fois à Saint-Domingue en 1793 par les commissaires civils Léger-Félicité Sonthonax et Étienne Polverel. Un comité mandaté par la colonie s’était alors rendu en France pour plaider en faveur d’une généralisation de cette mesure. Le 4 février 1794, la Convention nationale décréta l’abolition de l’esclavage dans l’ensemble de la République. Ce décret fut appliqué en Guadeloupe et, plus tard, en Guyane, mais resta sans effet en Martinique, à Sainte-Lucie et à Tobago, alors sous occupation britannique, ainsi que dans les colonies de l’océan Indien, où son application fut délibérément différée.</p>
+                <p>Le traité d’Amiens, signé avec la Grande-Bretagne le 15 mars 1802, permit à la France de récupérer plusieurs colonies où l’esclavage et la traite avaient été maintenus sous administration britannique. La loi du 20 mai 1802 ne rétablissait pas formellement l’esclavage dans l’ensemble des territoires français, mais elle marquait une rupture avec les principes de 1789 en entérinant la légalité de l’esclavage et de la traite dans certaines colonies. Quelques mois plus tard, un arrêté consulaire du 16 juillet 1802 (27 messidor an X) confirma explicitement le rétablissement de l’esclavage en Guadeloupe.</p>
+                <p>Tant l’historiographie contemporaine que la <emph>Revue des Colonies</emph> entretiennent une certaine confusion quant à la portée exacte du décret du 20 mai. Nombre d’historiens citent à tort cette loi comme l’acte fondateur du rétablissement de l’esclavage dans toutes les colonies françaises. L’affirmation de Cyrille Bissette—« Tout le monde sait que la loi de floréal an 10, qui rétablit l’esclavage dans les colonies, fut le signal de la défection de tous les chefs de Saint-Domingue »—illustre bien que cette lecture erronée existait déjà dans les années 1830. Elle témoigne également du succès de la stratégie de Bonaparte, qui chercha à rétablir l’esclavage de manière discrète, sans déclaration officielle retentissante. Pourtant, Bissette ne se trompe pas sur les effets des politiques du Consulat : les manœuvres pro-esclavagistes de Bonaparte contribuèrent directement à l’acte d’indépendance haïtien, dont la portée fut à la fois anticoloniale et antiesclavagiste.</p>
+                <p>
+                </p>
+                <p>https://memoire-esclavage.org/napoleon-et-le-retablissement-de-lesclavage/lessentiel-dossier-<br/>napoleon-et-le-retablissement-de</p>
+                <p><br/>https://www.portail-esclavage-reunion.fr/documentaires/abolition-de-l-esclavage/l-abolition-de-l-<br/>esclavage-a-la-reunion/la-premiere-abolition-de-lesclavage-par-la-france-et-sa-non-application-<br/>a-la-reunion/</p>
+                <bibl>Niort, Jean-François et Richard, Jérémie, “</bibl>
+                <bibl>Bénot, Yves et Dorigny, Marcel, eds.,  <span lang="FR" style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none; mso-ansi-language: FR;"><emph>Rétablissement de l’esclavage dans les colonies françaises. </emph></span> <emph><span style="font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none;">Aux origines de Haïti</span></emph></bibl>
+            </note>
+        </bibl>
         <bibl xml:id="RC" type="periodical">
             <title xml:lang="en">Revue Coloniale</title>
             <title xml:lang="fr">Revue Coloniale</title>

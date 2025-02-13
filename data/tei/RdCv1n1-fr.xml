@@ -505,13 +505,13 @@
                             <orig>plaignans</orig>
                             <reg>plaignants</reg>
                         </choice> sont, entre autres, les héritiers de l'infortuné
-                                <persName><emph>Lorville</emph></persName>, qui tomba percé de sept
+                                <persName ref="#LorFrej"><emph>Lorville</emph></persName>, qui tomba percé de sept
                         balles sous une décharge de mousqueterie commandée pour arrêter sa fuite ;
-                        les héritiers de <persName><emph>Fréjus</emph></persName>, laissé pour mort
-                        sous les coups d'un <persName>Lasserre</persName> et depuis décédé par suite
+                        les héritiers de <persName ref="#LorFrej"><emph>Fréjus</emph></persName>, laissé pour mort
+                        sous les coups d'un <persName ref="#Lass">Lasserre</persName> et depuis décédé par suite
                         des violences exercées contre lui ; les héritiers de
                                 <persName><emph>Maurice</emph></persName><pb n="14" facs="v1n1p14"/>tué avec sa femme, et sa fille assassinée par une fusillade exécutée sur
-                        eux à travers leur case ; <persName><emph>Joseph Albert</emph></persName>,
+                        eux à travers leur case ; <persName ref="#JosA"><emph>Joseph Albert</emph></persName>,
                         déporté de <date>1823</date>, blessé dans cette autre fusillade exécutée sur
                         les prisonniers de <placeName>la purgerie Bonafon</placeName>, à travers le
                         grillage des fenêtres, etc., etc.</p>

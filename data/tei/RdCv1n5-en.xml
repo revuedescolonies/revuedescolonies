@@ -2,12 +2,14 @@
 <?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n5-en">
-   <teiHeader>
+      <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>REVUE DES COLONIES.</title>
+            <title>Revue des Colonies V.1 N°5 (selection in English translation)</title>
+            <editor>Maria Beliaeva Solomon</editor>
+            <editor>Charlotte Joublot Ferré</editor>
          </titleStmt>
-         <!-- <xi:include href="shared/editionStmt.xml"/> -->
+         <xi:include href="shared/editionStmt.xml"/>
          <publicationStmt>
             <p/>
          </publicationStmt>
@@ -17,10 +19,575 @@
       </fileDesc>
    </teiHeader>
    <text>
+   <front>
+         <pb facs="v1n5f1" n="1"/>
+         <titlePage>
+            <titlePart type="main">REVUE<lb/>DES<lb/>COLONIES,</titlePart>
+                        <titlePart type="sub">MONTHLY COMPENDIUM<lb/> OF POLITICS,
+               ADMINISTRATION, JUSTICE, INSTRUCTION AND COLONIAL CUSTOMS,</titlePart>
+            <byline>BY A <orgName ref="#SHC">SOCIETY OF MEN OF COLOR</orgName></byline>
+            <byline>DIRECTED BY <persName ref="#CB">C.-A. BISSETTE</persName>.<lb/></byline>
+            <docEdition>N°3<lb/>September.</docEdition>
+            <docImprint><pubPlace><settlement>PARIS</settlement>,<lb/> AT THE OFFICE OF THE
+                  REVUE DES COLONIES,<lb/>46, RUE NEUVE-SAINT-EUSTACHE</pubPlace>
+               <lb/>
+               <date>1834</date>.</docImprint>
+         </titlePage>
+         <pb facs="v1n5f2" n="2"/>
+      </front>
       <body>
-         <div>
-            
-         </div>
+         <pb facs="v1n5f3" n="3"/>
+         <div xml:id="social-condition">        
+    <head>REVIEW OF THE COLONIES. THE COLONIES' SOCIAL CONDITION.</head>
+
+    <p>The present state of society in the French colonies, particularly in <placeName ref="#MQ">Martinique</placeName> and <placeName ref="#GP">Guadeloupe</placeName>, presents a most lamentable spectacle to the friends of humanity. On one side, the white planter, rapacious and cruel, holding men in bondage; on the other, the Black man, the slave, not only forming part, body and soul, of his master’s wealth but daily increasing that wealth with the sweat of his brow. These are the two great divisions, the two fundamental elements of the social order in our colonies. Beside these dominant interests—the dominion of the master and the bondage of the slave—all others seem but trifling. The free man of color, at least, suffers only the yoke of prejudice and the injustice of those wielding civil and judicial power. The slave, however, is a slave—and that word alone conveys the full measure of his suffering. He is subjected to a system of discipline that is dictated, not by justice, but by the caprice of his master. The government has barely curtailed the planter’s right of life and death over this human chattel—this property in flesh and blood—which only metropolitan iniquity or cowardice continues to uphold. Slavery—it is that above all that we seek to abolish. To us, slavery is the disgrace and the festering wound of our colonies; it is the foundation of a social order where humanity is trampled underfoot and from which all the sacred principles for which the French Revolution was fought are necessarily excluded—principles whose ultimate and glorious aim is the universal fraternity of mankind through liberty and equality.</p>
+
+    <p>The principle of this detestable system, assailed on all sides by the moral forces of the age, weakens with each passing day. The time cannot be far off when the privileged caste must yield before the advancing spirit of progress and the demands of humanity. Emancipation will come, whatever obstacles may be thrown in its path; it will come through the law or through force—but come it must. To doubt this would be to close our eyes to the signs of the times. The universal sympathy aroused by the cause of the enslaved, the horror with which, <pb facs="v1n5f4" n="4"/> on this side of the Atlantic, men regard that infamous traffic in human flesh, and above all, the social revolution unfolding in <placeName ref="#EUR">Europe</placeName>, which tends to elevate man above mere property—all these are the surest pledges of the future.</p>
+
+    <p>Whether the slave attains his freedom through the progress of civilization, the gradual erosion of prejudice, or the decisive intervention of the mother country—or whether he seizes it by his own determination and strength—matters little. The monstrous selfishness of the planter class will soon be overthrown. Of this, we have no doubt. Yet, for the honor of our native land, we would that progress be, at least in part, the peaceful work of all, and that the privileged caste might not await the hand of force before restoring to the slave his natural right. We have said it before: there is here a noble role to be played by the master. No longer can he plead ignorance; the path forward is clear. A few leagues from you, in <placeName ref="#DOM">Dominica</placeName>, <placeName ref="#STL">Saint Lucia</placeName>, <placeName ref="#ANT">Antigua</placeName>, <placeName ref="#StV">Saint Vincent</placeName>, <placeName ref="#GR">Grenada</placeName>, <placeName ref="#TA">Tobago</placeName>, <placeName ref="#TR">Trinidad</placeName>—throughout the British colonies—emancipation has been accomplished. There were, as in all great transformations, disturbances; but none of those frightful calamities that the enemies of abolition had delighted to predict. From every quarter, documents come forth in support of the cause of humanity. What excuse remains? What sophistries are left to be opposed to freedom? To those tired objections—“What shall become of our fortunes, our very existence? What shall become of the colonies themselves?”—the voice of justice and the testimony of facts now answer decisively. Recent experience proves, beyond a doubt, that such arguments are but the miserable complaints of those who profit from the suffering of others. The British colonies have not perished—on the contrary, some now seem poised to achieve, under the new system, a prosperity far surpassing that which they knew under the old.</p>
+
+    <p>What, then, is at stake? It is, in truth, a simple matter: to restore liberty and happiness to a vast multitude of men, at the cost of just and necessary sacrifices from a handful of privileged families—families that have hoarded all wealth and freedom <pb facs="v1n5f5" n="5"/> for themselves, while countless others have been condemned to servitude. It is to strip, by a reparative law, these traders in human flesh of their unjust and atrocious prerogatives—or, if it be possible, to obtain such a renunciation by their own voluntary surrender.</p>
+
+    <p>This is at once the means and the end.</p>
+
+    <p>With the abolition of slavery, and with the reunion of men of all races under the sacred principle of fraternity, the very politics of the colonies will be transformed. No longer shall we hear the odious designations of ‘masters’ and ‘slaves.’ There will be but citizens of a common country—men laboring, under the protection of equal laws, in those necessary tasks without which no society can flourish. Only then may the colonies hope to attain, and that with rapid strides, a civilization equal to that of the mother country.</p>
+</div>
+
+<div xml:id="guadeloupe-plantations">
+    <head>A GLANCE AT THE PLANTATIONS OF GUADELOUPE.</head>
+
+    <p>The very appearance of the plantations at once reveals to the philosophical observer the spirit in which they are administered. The huts of the enslaved, constructed of wooden planks nailed to posts or of woven reeds covered in a thick mud plaster, are arranged in rows within easy reach of the master's surveillance. There, one finds neither furniture nor provisions. A few calabash or coconut-shell vessels, a mat upon which to stretch limbs stiffened by labor and bruised by blows, a single broken stool—such is the wretched inventory of these miserable dwellings.</p>
+
+    <p>The master’s house, at a short distance from those of the enslaved, is the seat of his vanity, the indulgence of his whims, and the theater of his cruel caprices. It is the loathsome abode of ignorance, base prejudices, and violent passions. The arrogance of the Creole aristocracy, in particular, is absurd to the highest degree. A former gamekeeper passes himself off as a grand huntsman; the son of a barber or an acrobat speaks of his lineage, of his noble parchments, and of the battles fought by his <pb facs="v1n5f6" n="6"/> ancestors. I have seen the grandson of a humble peasant from <placeName ref="#BaA">Basses-Alpes</placeName>, whose father had amassed a fortune as a petty lawyer—this alone suffices to indicate the nature of his wealth—assume the airs of a nobleman, imitate the great lords of the land, and even go so far as to adorn himself with the cross of Malta, until an official order compelled him to remove it. Having purchased a small estate named <placeName ref="#Beau">Beauvoisin</placeName>, he fancied the name sufficiently grand and appended it to his own. Yet such was the ridicule inspired by the contrast between this imposing title and the character of its bearer that he was forced to abandon it and revert to his original plebeian name.</p>
+    <p>The colonists boast of their ridiculous notability, yet they are so burdened with debt that they would be stripped of everything if the long-awaited and long-desired process of expropriation were finally enacted. They display luxury but do not pay even the most legitimate wages. Before the establishment of judicial organization, they would greet workers who came to demand the money owed for their painful labor—not with payment, but with blows—though that money was essential for the survival of their families.</p>
+
+<p>I have seen notable inhabitants—if the name suits them—decorate their apartments with the letters of their creditors or with the summonses they received. At their tables, as they drained their champagne glasses, these merry convives, protected by laws that favor bad faith, would toast to patience and to the number of their creditors. They would compete to see who had received the most importunate demands in the week—summonses, notifications, and seizures; each tried to outdo the other. The tricks played on bailiffs and the falsehoods used to deceive note-bearers or other creditors were inexhaustible sources of conversation. Has such reckless debauchery ever been seen?</p>
+
+<p>On every plantation, narrow, dark, and damp dungeons are built where, one after another, the negroes languish for having incurred the displeasure of their masters. It is a prison so cramped that the body can neither stand upright nor stretch out on the ground—a hideous torment, worthy only of cannibals, devised to break the human spirit and deliver its victims to suffering and death at the mere whim of a tyrant.</p>
+
+<p>The negroes in the fields are even more wretched than those in the town. The latter, at times, find means to obtain a little money with which they dress more decently—for vanity <pb facs="v1n5f7" n="7"/>is their true weakness. They may also afford some small pleasures, such as tafia or other indulgences. But in the countryside, they can scarcely procure what is necessary to live, and it is rare indeed to find any who have enough to meet their needs. They are in such dire poverty that their rags barely cover half their bodies. Nothing is more indecent than these little negro children of both sexes, who remain, until the age of twelve and beyond, entirely naked, even under the eyes of the planter’s daughters.</p>
+
+<p>Negro men and women smoke with great passion, satisfying this habit at little cost, since they cultivate their own tobacco. It is a singular sight to see the clouds of smoke swirling around a woman’s face.</p>
+
+<p>There, one does not hear love songs or patriotic airs like those sung by our peasants, and especially by our Dauphinois, which echo through their valleys. Instead, one hears laments, a few allegorical songs about their fate—not joy, not happiness, but suffering poured into melody. The silence of the countryside is broken only by the mournful cracks of the whip and the groans of the sufferers whom their tormentors tear apart. One can travel for miles without escaping that terrible and barbarous sound.</p>
+
+<p>The period of <emph>roulaisons</emph>, the sugar harvest, is so named as we call our own the wheat harvest or the grape vintage. But for the negroes, it is a season of suffering. They remain on their feet night and day, without a moment’s rest. In the boiling houses, thick clouds of smoke escape from five cauldrons in constant turmoil, filling a vast windowless room, while the negroes, barely visible in the pale glow of the flames, stand beside the furnace, tirelessly transferring the boiling cane juice, vesou, from one vat to another with enormous ladles. Nearby, the sharp and monotonous cry of the mill, whose heavy iron cylinders crush the cane, reminds the negresses feeding it that, should sleep overtake them, a single moment would be enough for them to lose an arm—or even their life. Alas! Such tragic accidents occur only too often in these deadly tasks that sustain European luxury.</p>
+
+<note>(1) The term vesou refers to the juice extracted from sugarcane.</note> <pb facs="v1n5f8" n="8"/>
+
+<p>People complain about the high cost of colonial sugar—what would they say if they had to pay for it at the price of the blood it spills?</p>
+
+<p>This season of the roulaisons brings the masters' severity to a new extreme. They are constantly on their feet, marking their nightly rounds with multiplied punishments. Sometimes, the entire <emph>quart</emph> of the mill is flogged; other times, it is the <emph>équipage</emph>. I recall with horror one of my first nights in the colonies: I was awakened three different times by the moans of negroes being lashed without mercy. The next morning, I learned that the master had flown into a rage against his workshop because a tooth in the mill had broken, and the negroes had been unable to produce as much sugar as usual.</p>
+
+<p>The avarice and pride of the Creoles do not permit the negroes to wear shoes or any other footwear; thus, frequent accidents cause severe foot injuries, leading to agonizing afflictions. Sometimes, it is thorns or nails embedded in their flesh; other times, it is chiggers, nearly imperceptible parasites that burrow under the skin, penetrating deeper, nesting, laying eggs, and at first causing only a slight irritation, but soon excruciating pain, at times requiring painful operations. The poor quality of their food and the lack of footwear are the primary causes of the dreadful swelling of the legs that so often afflicts the negroes, known as elephantiasis.</p>
+
+<p>The master’s greed even exploits the short sleep of these unfortunates. The bell has tolled an hour—often two—before dawn, and the sharp crack of the overseer’s whip has sounded three times. The negroes emerge from their huts, still exhausted from the beatings and fatigue of the previous day; they are counted, then led to the fields. Others, leaving the dungeons, are bound together in heavy chains and driven to their labor.</p>
+
+<p>The latecomers are punished with anywhere from four to fifteen lashes. Once in the fields, where they must weed, dig, or plant, they are lined up. The overseers place themselves a short distance behind them; at the slightest sign of fatigue, they strike a negro with several lashes, or pull him from the line, force him to lie down, and flog him even longer. Should a rainstorm or heavy downpour arise, the work does not cease, and they do not return until the very last moment. Without spare clothes, they are left soaked to the bone.</p>
+
+<p>In the evening, after the labor, the negroes gather once more, each carrying a bundle of grass for the livestock. Before they may return to their huts, the overseer delivers his report to the master or the estate manager, who, depending on the reports and on his ill temper—sometimes stirred by an excess of tafia or by a visit from the bailiff—inflicts lashes without restraint, condemns some to the dungeon, others to iron fetters, or sentences them to additional labor on Saturday or Sunday, the only days given to these wretches to cultivate the gardens that provide the food denied to them by the avarice of their masters.</p>
+<p>European civilization, in breaking the feudal yoke, freed us from many humiliating tributes once insolently exacted by the lords; above all, the right of prelibation must have roused the fierce indignation of our fathers, whose honor was so deeply wounded by that abominable privilege. The master’s right of property over his slaves grants him a prerogative of position that he abuses to excess. From the age of eleven or twelve, as a rule, the daughters of the negroes are defiled by these men, married under Christian law, esteemed good fathers and faithful husbands among their peers.</p>
+
+<p>The fairest among the young negresses are set apart for them, entrusted to a duenna of the plantation, who must watch over them and guard them well for the master; but otherwise, the ranks of the negresses are traversed at will, and it is solely the fear of punishment and of their tyrants’ wrath that compels them to submit to their will.</p>
+
+<p>One of the most odious abuses of slavery is the deliberate brutalization in which the negroes are kept, for the sake of their masters’ interests. Nothing that could awaken them to their own dignity, or to that equality to which all the children of nature have a right, is tolerated. Marriage among negroes is proscribed, as it runs counter to the colonial system; if one ever sees any such unions, it is only among creole negroes, whom their masters do not wish to drive to despair.</p>
+
+<p>The planters insist that the slaves have only animalistic relations, that they form unions that can be dissolved at will. The more they are assimilated to beasts, the more they are degraded, the less they will conceive of breaking their chains and shattering them upon the heads of their oppressors. It is in accordance with this principle that teaching negroes to read and write is strictly forbidden under severe penalties.</p>
+
+<p>To weaken family bonds and parental affection, children are taken from their mothers as soon as they are weaned and placed in the care of an old negress who, by her severity, molds them early to the harsh and painful life for which they are destined.</p>
+
+<p>Since very few among them live to an advanced age, the masters have few elderly dependents in their charge. And God alone knows how they acquit themselves of the debt of gratitude they owe! That rare longevity is a burden, filled with anguish and bitter suffering. It would be better for them not to have extended the boundaries of life so far. Yet, as I repeat, such cases are rare: by killing them young, one is spared the trouble of feeding them in old age.</p>
+
+<p><persName ref="#XaT">X. TANC</persName>,</p>
+<p>former magistrate in <placeName ref="#GP">Guadeloupe</placeName>.</p>
+</div>
+
+<div xml:id="martinique-1831">
+<head>MARTINIQUE IN 1831.</head>
+
+<epigraph>
+    <cit>
+        <quote>The wolf and the fox are ill neighbors; I will not build my home beside theirs.<persName ref="#JdF">LA FONTAINE</persName></quote>
+    </cit>
+</epigraph>
+
+<p>The July Revolution had reverberated in <placeName ref="#MQ">Martinique</placeName>; <title>La Parisienne</title> and <title>La Marseillaise</title> made African hearts vibrate. Posters appeared, letters were thrown at the doors of taverns, calling the slaves to follow the example of their brethren in <placeName ref="#StD">Saint-Domingue</placeName>. The negroes forgot that they stood unarmed against a strong and disciplined garrison, against a numerous National Guard ready to fight for its <emph>lares</emph> and <emph>hearths</emph>. They rebelled.</p><pb facs="v1n5f9" n="9"/>
+
+<p>On the evening of <date>February 9, 1831</date>, at seven o’clock, fire broke out in several places at once. In the town, it was quickly mastered. In the countryside, driven by a violent northeast wind, flames devoured the sugar plantations and the vast fields of cane that surrounded them.</p>
+
+<p>Only one plantation was spared from the terrible disaster: that of Madame <persName>Dariste</persName>, the owner, who was then in <placeName>France</placeName>. Her overseer had armed himself with a rifle and had given the negroes their machetes to guard the roads and prevent the approach of incendiaries who were said to be roaming the countryside, torch in hand.</p>
+
+<p>At nine in the evening, a patrol from the 45th Line Regiment arrived. The sergeant in command was astonished to find the negroes armed. The plantation’s overseer reassured him: <q>"They are all negroes of the estate," he said. "I vouch for them."</q></p>
+
+<p>At eleven, a second patrol arrived. This time, it was not a sergeant unshaken by fear; it was the National Guard, commanded by the son of the president of the royal court. He ordered his men to fire on the negroes, for they had refused to let the patrol enter the plantation before the overseer arrived—precisely as they had been instructed. Four were killed, and many more were wounded.</p>
+
+<p>At the sound of gunfire, the overseer ran to the scene. He met Captain Gorce of the 45th Regiment, who had also rushed toward the shots. <q>"You may stand down," the overseer told him. "These are the negroes of the plantation; I vouch for them. I vouch for the entire workshop."</q></p>
+
+<p>But the son of the president of the royal court, leading the patrol, leapt upon Bosc (the overseer’s name). Bosc had been found armed among armed negroes; therefore, he was the leader of a vast conspiracy, and the slaves were his accomplices. He was bound, shackled, and taken to the city prison.</p>
+
+<p>This was the signal for the invasion of the Dariste plantation. Two hundred men spread in all directions, forcing their way into the negro huts. Men, women, and children, half-naked, were dragged from their cabins and driven in the middle of the night to the jail in Saint-Pierre, herded like cattle before the muzzles of their captors’ weapons.</p><pb facs="v1n5f10" n="10"/>
+
+<p>So great was the despair of these wretched slaves, believing themselves doomed to a massacre, that several killed their own children rather than leave them behind. The negro Hyacinthe, holding his infant in one hand and a machete raised in the other, was seized in time by soldiers who overpowered him. He was later brought before the assizes, but never stood trial—he died in the hospital from the wounds he had suffered, the same wounds that had driven him to such desperation.</p>
+
+<p>A lengthy investigation saw 500 slaves arrested, yet only twenty-four were sent before the assizes in <placeName ref="#StP">Saint-Pierre</placeName>. That alone foretold their fate: all were sentenced to death. Twenty-two went to the scaffold; one miraculously escaped; the last was recommended for royal clemency and was granted a pardon.</p>
+
+<p>Of what were they convicted? Arson? <emph>No</emph>, replied the court. Conspiracy? <emph>No</emph>, replied the court once more. But rebellion against armed force? <emph>Yes</emph>.</p>
+
+<p>In what legal code is the death penalty prescribed for such a crime, even setting aside the fact that their alleged resistance was attested only by their assailants—none of whom were killed or even wounded? The old <bibl type="legal"><title ref="#CPen">Penal Code</title></bibl>, barbarous as it was before its revision in 1851, prescribed no more than forced labor for such offenses, even in their most aggravated form.</p>
+
+<p>Yet, there exists Article 54 in the <bibl type="legal"><title ref="#CN">Code Noir</title></bibl>, issued in March 1685. It does not mention rebellion against armed force; it merely states that <emph>a slave</emph> guilty of violence against a free person shall be punished <quote>most severely, even with death, if necessary.</quote></p>
+<p>In Martinique, a law so vague, leaving such vast latitude to the judges, has sent many a corpse to the <placeName ref="#CGR">cemetery of <emph>Grosse-Roche</emph></placeName>. It was this very article that was applied to the slaves of Madame Dariste.</p>
+
+<p>The white overseer, found armed in the midst of armed negroes, and crying out at the top of his lungs that he was responsible for their actions, was <emph>acquitted</emph>!</p>
+
+<p>Now, if one asks what business the armed force had on a plantation where there was neither conspiracy nor arson, the Attorney General, <persName ref="#ANog">Nogues</persName>, will enlighten us: <q>"The Dariste plantation," says the prosecution, "is near the town of Saint-Pierre. It produces little, though the slaves there are numerous. These slaves, frequently going into town, enjoy a liberty which <emph>is a source of alarm to the neighboring plantations.</emph>"</q></p>
+
+<p>The Dariste plantation borders that of the president of the royal court of Martinique, as well as that of one of the members of the same court. It was the son of the president of the royal court who commanded the armed force. One overseer was held in prison for four months. Thirteen of the plantation’s head workers—the commandeur, the sugar refiner, and the principal laborers—were legally put to death. A workshop, once so content, composed mostly of creole negroes legally married, is now shattered and terror-stricken. Has not the source of alarm to Madame Dariste’s powerful neighbors now disappeared?</p>
+
+<p>What a sword, my God, is that of the law when wielded by certain hands! The negroes of the Dariste plantation walked to the scaffold with dreadful resignation and in mournful silence. They would have called upon their master, so kind to them, who, out of humanity, allowed them that liberty which had become a <emph>source of alarm to their neighbors</emph>. But their master, their protector, was too far away. They appealed instead to divine justice—a justice even more halting than that of the Ministry of the Navy, which was invoked by Monsieur Dariste’s son, but which, at least, arrives in the end.</p>
+
+<p>The <emph>white</emph> overseer was acquitted. He escaped condemnation only because he might have carried the case to the Court of Cassation, where France would have learned of it. That SOURCE OF ALARM was as pressing to eliminate as the others.</p>
+
+<p>To deny an appeal to men condemned to death, simply because they are <emph>slaves</emph>, when their judges are their masters!… To carry out hasty executions, eighteen hundred leagues from the mother country, putting twenty-two men to death without granting the king his right of pardon!… And the King of the French, <persName ref="#LP">Louis-Philippe</persName>, the advocate of the abolition of capital punishment, was stripped of his noblest prerogative—simply because the condemned were unfortunate slaves!… For nearly three centuries, appalling deeds have been committed with impunity in our colonies. When will the Minister of the Navy finally say, “ENOUGH”?</p>
+</div>
+<div xml:id="high-police">
+
+<head>MEASURES OF HIGH POLICE AGAINST MEN OF COLOR – ADMINISTRATIVE DEPORTATIONS.</head>
+
+<p>During the long period of legislative chaos that preceded the organic ordinances of <date>1828</date>, the colonial governors arrogated to themselves the right, nowhere written, to <emph>deport men without trial</emph>. <persName ref="#EH">M. Halgan</persName> exercises the same right; yet he no doubt wishes to act within the law, citing, for example, Article 75 of the ordinance of <date when="1827-02-09">February 9, 1827</date>. By an order invoking this article, the governor has just decreed that <q>"Monsieur <persName ref="#VAg">Valéry-Agathe</persName>, domiciled in <placeName ref="#Va">Vauclin</placeName>, is expelled from that commune and must immediately proceed to <placeName>Fort-Royal</placeName>, where he will remain for one year UNDER THE SURVEILLANCE OF HIGH POLICE."</q></p>
+
+<p>Such is the insulting and vexatious measure that has been taken against a free man, a father, a property owner, and a settled resident.</p>
+
+<p>And on what pretext?</p>
+
+<p>In view of the private council’s deliberation stating that <q>"there is <emph>sufficient grounds</emph> to suspect that Monsieur Valéry-Agathe, domiciled in Vauclin, without profession, has gravely and repeatedly disturbed public order through provocations to duel, insults, and threats against several <reg>inhabitants</reg> of his commune and neighboring communities, etc."</q></p>
+
+<p>What an enormous crime! Is it not closely related to the offense of another citizen, <persName ref="#Wi">Monsieur William</persName>, who, by virtue of a previous decree issued on <date when="1835-03-05">March 5, 1835</date>, was likewise summoned before the governor in council under the charge: <q> "<emph>1° Of having provoked a white man, <persName ref="#Ha">Monsieur Hardy</persName>; 2° Of having attempted to settle their dispute through a duel; 3° Finally, of later having LOOKED AT Monsieur Hardy IN AN OFFENSIVE MANNER as he passed by in the street.</emph>"</q> We quote verbatim.</p>
+
+<p>However, let us hasten to say that the summons of Monsieur William led to no further action. <persName ref="#JHD">M. Dupotet</persName>, the governor at the time, no doubt hesitated before such a measure—whether because it was illegal, which likely troubled him little, or because it was ridiculous, which perhaps troubled him more. But Monsieur Valéry-Agathe, not a professional duelist, not a man of disorder, <emph>without profession</emph> (though we should not take the decree as gospel), but rather a father, married, domiciled, a master mason by trade, and owner of a coffee plantation—this citizen has just been, under no less frivolous a pretext than that faced by Monsieur Dupotet, confined by the present governor within the city of <placeName ref="#FdF">Fort-Royal</placeName>, placed there under high police surveillance for a year!</p>
+
+<p>It is abundantly clear to anyone familiar with the colonies that such a measure would never be taken against a white man. This is a <reg>privilege</reg> reserved for men of color, one which they are meant to enjoy exclusively—just as Attorney General <persName ref="#ANog">Nogues</persName> so felicitously declared regarding the perpetual banishment from the colony imposed in the <eventName>Grand’Anse trial</eventName> on those among the condemned who were not sent to the gallows or the prison hulks. It is therefore for men of color to sound the alarm. Since their persecutors triumphed in the Grand’Anse trial, passions have grown bolder; they translate now into acts of violence, extorted from the weakness or complicity of the governor. After decimation by the gallows and the hulks, through trials for conspiracy, a law of suspects is now being imposed and enforced through administrative deportation. Monsieur Valéry-Agathe is its first victim. Where will this dreadful course of arbitrariness end?</p>
+
+<p>Surely, many of the governor’s so-called <emph>extraordinary</emph> powers were thought to be abolished—particularly the one he now wields against Monsieur Valéry-Agathe. <emph>Measures of high police and general security</emph> enacted under extraordinary powers must be regulated by <emph>a law</emph>. Such is the requirement of the <bibl type="legal">Constitution of <date when="1833-04-24">April 24, 1833</date></bibl>. Yet Governor Halgan still invokes Article 73 of <emph>an ordinance</emph>, that of <date>February 1827</date>, to justify his supposed authority. One may, no doubt, argue from political or governmental necessity that, until new laws are enacted, the ordinances must continue to be enforced. But while such reasoning might perhaps be admissible for provisions of <emph>absolute necessity</emph>—those without which administration itself would be impossible—can it possibly apply to measures that are obsolete the moment they are enacted, measures that ought to have no place in the <emph>legislative</emph> revision of the colonies’ organic regime? Chief among these is the governor’s arbitrary power to confine citizens to a designated location under the most futile pretexts, to subject them there to the surveillance of high police, and even to tear them from their families, from their homelands, by exiling them beyond the colony’s borders. Yet this, precisely, is what Article 75 prescribes.</p>
+
+<p>It establishes <emph>punishments</emph> without defining the offenses. Nothing clear, nothing precise—everything is left to whim and arbitrariness. Any act, whether in public or private life, even by the most peaceable citizen, <emph>if one wishes to rid oneself of him</emph>, may suffice to justify the vague accusation of <emph>having compromised or disturbed public tranquility</emph>. <q>"They call me a <emph>firebrand of hell</emph>; what answer can I possibly give them?" said Pascal</q>. And what answer can be given by a man who is simply told that he has compromised public tranquility and that there exists against him sufficient grounds for suspicion—in other words, a <emph>vehement presumption</emph>?</p>
+
+<p>Legislators, will you give your vote to such monstrosities?</p>
+
+<p>At last, it is the <emph>placement under high police surveillance</emph> that this ordinance would authorize—that is to say, an infamous penalty, defined by <bibl type="legal"><title ref="#CPen">the Penal Code</title></bibl>, an obligatory accessory to the most disgraceful sentences, compelling the <emph>suspect</emph> under surveillance to present himself periodically at the police bureau in an act of ignominy.</p>
+<p>This punishment is inflicted by the governor, who stands in place of the natural judges of the accused. In vain do repressive laws and criminal codes exist to reach and regularly punish the specified offenses that the accused may have committed. The governor prefers rather to strike him administratively and proceed with deportation without trial!</p>
+
+<p>Legislators, shall you sanction such monstrosities?</p>
+
+<p>No, public conscience assures us otherwise. How then could the ordinance be executed as a provisional measure of a law that shall never exist?</p>
+
+<p>Mr. Valéry-Agathe has duly appealed to the Minister of the Navy to have the decree revoked which assimilates him to freed convicts. It is our hope that the full extent of the danger and the manifold abuses inseparable from a dictatorial authority serving the passions and hatreds of caste or individuals shall be understood.</p>
+
+<p>It is well known how alive such passions and hatreds remain in the hearts of certain colonists, and how reluctant they are to abandon the victims they have marked. All metropolitan magistrates suspected<pb facs="v1n5f11" n="11"/> in the eyes of the oft-cited anti-social faction have likewise been driven out, expelled with <emph>pitchforks</emph> and pursued even to France by the resentments of their persecutors! Several of the deported from <date>1824</date> were involved, or compromised, in the trial of Grand’Anse. Mr. William, of whom we have spoken, suffered imprisonment for the disturbances occasioned by the arrest of <persName ref="#LTelem">Mr. Léonce</persName> in <placeName ref="#StP">Saint-Pierre</placeName>. Finally, Mr. Valéry-Agathe, who miraculously escaped his assassins on <date>December 12, 1851</date>(1), among whom was the police clerk of Vauclin, and who, by three deep wounds, was rendered incapable of work for more than twenty days, was undoubtedly expected to atone for his unexpected salvation by new persecutions, while his three assassins suffered but a light punishment. His last recourse is the protection of the mother country.</p>
+
+<p><persName ref="#Gatine">AD. GATINE.</persName></p>
+
+<p>Lawyer at the Court of Cassation.</p>
+
+</div>
+
+<div xml:id="appeals-algiers">
+
+<head>APPEALS TO THE COURT OF CASSATION AND THE COUNCIL OF STATE RELATING TO THE COLONY OF ALGIERS.</head>
+
+<p>The Court of Cassation and the Council of State have recently rendered opposing decisions regarding appeals from this colony.</p>
+
+<p>First, the Court of Cassation had to rule upon two cases, different in subject but both raising the question of whether, prior to the ordinance of <date>August 10, 1834</date>, which organized the judicial system of this colony, an appeal to the Court of Cassation was admissible.</p>
+
+<p>The first appeal was filed by a Frenchman sentenced to five years' imprisonment for the theft of four cows from the government’s park.</p>
+
+<p>The public prosecutor, the Minister of War, and <persName ref="#Vig">Mr. Advocate-General Viger</persName> maintained that the appeal was inadmissible, on the grounds that the criminal court of the Regency derived its authority from neither law nor ordinance, but from decrees of the Commander-in-Chief of the occupying army and the Civil Intendant: “Before the ordinance of 1854,” they said, “the territory of <placeName ref="#AF">Africa</placeName> was but temporarily occupied, all was subject to military authority; that authority, by its regulations, had not authorized appeals to the Court of Cassation. Moreover, Article 15, Title 1 of the <bibl type="legal">Military Code of <date when="1791-10-19">October 19, 1791</date></bibl>, forbids appeals against decisions rendered by tribunals established by commanders of armies or detached corps, who have merely applied the penalties laid down in their decrees.”</p>
+
+<p>It was argued in response that <bibl type="legal">the law of 1791</bibl> applied only in cases where military authority alone had ruled, where its regulations concerned solely the security of the army, where the tribunals whose decisions were challenged were military councils, and where they had applied only military penalties. However, in the present instance, the case was judged by a court of justice, purely on a matter unrelated to army security, concerning a French cultivator, in application of the ordinary penal code, following the procedures established by the criminal procedure code, and under regulations to which military authority alone had not contributed, since the Civil Intendant was also involved. Furthermore, <bibl type="legal">the royal ordinance of December 1, 1851</bibl>, signed by <persName ref="#CPe">Casimir Périer</persName>, then President of the Council of Ministers, had put an end to powers associated with purely military occupation. The right to appeal to the Court of Cassation is a constitutional safeguard for all French citizens and exists by default unless expressly prohibited, as it has been for certain colonies, such as <placeName ref="#BrB">the Isle of Bourbon</placeName>.</p>
+
+<p>The plea of inadmissibility was thus dismissed; and the court, by a <bibl type="legal">ruling of October 16</bibl>, reported by <persName ref="#FI"><!--François Isambert ?-->Mr. Counsellor Isambert</persName>, proceeded to examine the appeal of <emph>Raboille</emph>, which it rejected on procedural grounds derived from the Code of Criminal Instruction.</p>
+
+<p>The case files for this matter had been withheld for an entire year.</p>
+
+<p>The second case was a petition presented to the court by <persName ref="#SHK">Sidi Hamdan Khodja</persName>, a Muslim domiciled in <placeName ref="#Alg">Algiers</placeName>, prosecuted for defamation before the Regency’s courts, at the suit of <persName ref="#BC">Marshal<pb facs="v1n5f12" n="12"/> Clauzel</persName>, following the publication in <placeName ref="#Par">Paris</placeName> of a book concerning the administration of the conquered territory.</p>
+
+<p>Sidi Hamdan vehemently protested that the Marshal, residing in <placeName ref="#FR">France</placeName>, had not sought reparation before the tribunals of Paris, where he, Sidi, also resided, and where the book had been published. He rejected the jurisdiction of the judges in Algiers, whom he alleged to be the creatures of the Marshal, and stated that one of them had even coerced Sidi Hamdan into leasing him a vast house in Algiers for sixty years.</p>
+
+<p>The plaintiff, whose grievances were eloquently laid forth by Mr. Counsellor Bresson, contended that neither generosity nor justice could be found in requiring that the alleged offense be judged by special magistrates. Yet, if he were to complain in turn of the injustices he had suffered, he could only bring Marshal <persName ref="#BCl">Clauzel</persName> before the courts in France.</p>
+<p>Mr. Advocate-General Viger stated that in the other colonies, cases of suspicion are judged by the private council of each, and not by the Court of Cassation; that it is a matter of administration; that under the ordinance of August 10, 1834, which refers, in cases where appeals are admissible in Algiers, to the judicial laws of the other colonies, it would be the same; that a fortiori, the appeal was inadmissible, considering that the case between Marshal Clauzel and Sidi Hamdan had arisen earlier.</p>
+
+<p>Despite these reasons, the court, by a second ruling on October 16, admitted the petition of Sidi Hamdan and ordered its communication both to Marshal Clauzel and to the Attorney General of the new court of justice established in Algiers on September 1. This was ordered with the <emph>clause toutes choses demeurant en l'état</emph>, which nullifies all judgments that may have intervened since the filing of the petition for recusal.</p>
+
+<p>The Council of State, in turn, was seized of three appeals: one from <persName ref="#JMC">Mr. Cappé</persName>, an advocate; another from the same Sidi Hamdan; and the third from a contractor who claimed to have been wronged by decisions of the Regency's administrative council. <persName ref="#JMG">Mr. Baron de Gerando</persName> was the rapporteur of these three appeals, which were joined together. At the hearing of Saturday, October 18, a royal ordinance was read, rejecting all three appeals on the sole ground that, prior to the ordinance of <pb facs="v1n5f13" n="13"/>August 10, 1834, the possession of Algiers had not yet reached the status of a colony, and consequently, no appeals against acts of local authorities could be admitted.</p>
+
+<p>From these decisions of the Court of Cassation and the Council of State, one perceives the difference between immovable justice and that rendered by men appointed by ministers and dismissible at their pleasure.</p>
+
+<p>If, in 1824, the appeal of the men of color from Martinique had been required to be brought before the Council of State rather than the Court of Cassation, it is quite likely that those gentlemen of the Council would have had little more difficulty in finding plausible reasons to reject it without deliberation.</p>
+
+</div>
+
+<div xml:id="haiti-affair">
+<head>THE HAITI AFFAIR.</head>
+
+<p>The internal situation of Haiti remains satisfactory in terms of the population’s respect for the laws and the good harmony between the branches of the state; yet its prosperity is hindered by its ambiguous position towards France, which compels it to maintain a large military establishment.</p>
+
+<p>It is well known that the <bibl type="legal"><title ref="#ldf10">law of Floréal, Year 10</title></bibl>, which reinstated slavery in the colonies, was the signal for the defection of all the leaders of Saint-Domingue. The men of color, hitherto ardent supporters of the mother country, for which they had sacrificed everything since the beginning of the troubles, united with the blacks—who had waged such a disastrous war against them—under the command of <persName ref="#TLOUV">Toussaint Louverture</persName>. <persName ref="#CVEL">Captain-General Leclerc</persName>, brother-in-law of <persName ref="#NB">Napoleon</persName>, through the valor of his troops and the personal guarantees he offered regarding the freedom of the blacks, after the ambiguous proclamations of the First Consul, succeeded in rallying several black generals and forcing Toussaint Louverture to capitulate. The latter appeared so formidable within the estate where he had retired that he was arrested and deported to France, where he miserably perished in <placeName ref="#FJ">Fort de Joux</placeName>, just as Napoleon himself would later perish at <placeName ref="#SteH">Saint Helena</placeName>.</p>
+
+<p>The news of the sanctioning of the liberty-destroying law of Floréal <pb facs="v1n5f14" n="14"/>coincided with the general disarmament ordered by Captain-General Leclerc. <emph><persName ref="#AP">Pétion</persName></emph>, one of the most esteemed among the leaders of color, spokesperson for the discontent of his class, who had witnessed with indignation the deportation of General <emph><persName ref="#ARi">Rigaud</persName></emph>, his rival and friend, was among the first to signal defection. He was followed by Generals <emph><persName ref="#CBe">Belair</persName>, <persName ref="#HC">Christophe</persName>, <persName ref="#JJD">Dessalines</persName></emph>. The army of Saint-Domingue, nearly annihilated by yellow fever, could not withstand this general uprising, and the remaining French troops, following the death of their captain, evacuated Cap-Français, the last place still under their control, on <date when="1803-11-28">November 28, 1803</date>.</p>
+
+<p>At this juncture, the leaders of both the black and mulatto factions united to declare the independence of Saint-Domingue under its ancient name of Haiti, establishing a government with <emph>Dessalines</emph> as its head. The cruelty and ambition of this general cost him his life. He was succeeded by <emph>Christophe</emph>, who established a monarchy in the north, and by <emph>Pétion</emph>, who maintained a republican regime in the west and south.</p>
+
+<p><persName ref="#JPB"><emph>Boyer</emph></persName>, Pétion’s successor, upon the death of <emph>Christophe</emph>, unified the small northern kingdom under the banner of the Republic, and, with the remainder of the island—namely, the Spanish section ceded to France by the <bibl type="legal">Treaty of Basel of 1795</bibl>—formed a homogeneous Haiti.</p>
+
+<p>France had not recognized these governments, but as early as <date>1814</date>, <persName ref="#LXVIII">Louis XVIII</persName> had sought to create difficulties for them in order to prepare the means to reclaim this former colony, and the circumstances were favorable. However, the peaceful successes of President <emph>Boyer</emph> and the unity of the Haitians thwarted all such covert maneuvers.</p>
+
+<p>Upon the accession of <persName ref="#CX">Charles X</persName>, the <emph>Villèle</emph> ministry resolved to use the leisure of peace to attempt an expedition. In <date>1825</date>, a small squadron, commanded by Captain <persName ref="#MACK">Mackau</persName>, arrived in the harbor of <placeName ref="#PtP">Port-au-Prince</placeName>, bearing an ordinance dated April 18, by which the King of France recognized Haitian independence, in exchange for a payment of 150 million francs—an independence that had been uncontested for twenty-one years, and whose contested possession had nonetheless remained real from <date>1793</date> to <date>1804</date>, under the rule of Toussaint Louverture.</p>
+
+<p>This ordinance was modeled after the <bibl type="legal"><title ref="#Cd1814">Charter of 1814</title></bibl>. It granted the Haitian nation <pb facs="v1n5f15" n="15"/>its independence in the same manner that the French of Europe had been conceded the rights secured for them by the Revolution.</p>
+
+<p>The government of Haiti proudly rejected these pretensions of suzerainty and initially refused the ordinance. Mr. de Mackau provided formal written guarantees that there was no hidden intent behind the concession of independence. Haiti accepted the ordinance, just as France had accepted the <bibl type="legal">Charter of 1814</bibl>, with the firm intent of asserting as an absolute right what had merely been granted.</p>
+<p>The government of Haiti proudly rejected these claims of suzerainty and at first refused the ordinance. Mr. de Mackau provided written guarantees in the most formal terms that there was no ulterior motive in the concession of independence. Haiti accepted the ordinance, just as France accepted the <bibl type="legal">Charter of 1814</bibl>, with the firm resolve to uphold as an absolute right that which was granted as a mere concession.</p>
+
+<p>While it was admitted that it was fair to compensate the former white proprietors, who had been violently dispossessed and who, under the Haitian constitution, were prohibited from owning any real estate on the land they had once held in slavery along with its inhabitants, Haiti acknowledged the principle but contested the amount. President Boyer wrote to Charles X a letter, which has not been published, containing a formal request for a reduction.</p>
+
+<p>A third clause of the ordinance provided for a commercial treaty by which the French nation would be granted the same advantages as the most favored nations.</p>
+
+<p>There was even a clause favorable to the commerce of other nations, which seemed incompatible with the privilege claimed by France and which had undoubtedly been inserted in the ordinance to avoid obstruction in its execution by <placeName ref="#GB">Great Britain</placeName>.</p>
+
+<p>Haiti was perhaps wrong, as an independent state, to deliberate upon an ordinance rather than insisting on the form of a treaty; but its position in relation to France was exceptional: memories in Haiti remain French, and everything suggests that the country will make great efforts to maintain good relations with France.</p>
+
+<p>The commercial treaty was negotiated in France by three commissioners with the French ministry. The resulting convention, <date when="1825-10-31">October 31, 1825</date>, was not published because President Boyer refused to ratify it, deeming it to contain clauses contrary to the sovereignty of Haiti.</p>
+
+<p>Since that time, all negotiations have failed. In order to pay the indemnity, Haiti took out a loan of 24 million, which, together with 6 million paid to the treasury, covered the first fifth <pb facs="v1n5f16" n="16"/>of the payment. It has not since repaid the subsequent installments due, and has not paid bondholders of the 24-million loan either the matured annuities or the interest.</p>
+
+<p>Haiti attributes its inability to meet these obligations to a financial crisis that erupted at the end of <date>1825</date>, forcing it to issue paper money, with Haitian currency depreciating by 60 to 40 percent of its nominal value.</p>
+
+<p>It had hoped that the exploitation of gold and silver mines, believed to exist in the eastern and northeastern parts of the island, would yield great resources. The British company that had offered to undertake the venture failed to obtain anything.</p>
+
+<p>Finally, it had hoped to find markets for its agricultural products comparable to the former prosperity of Saint-Domingue. However, it cannot compete with the privileges that France grants to its colonies, and its goods can only appear at a disadvantage in our markets if they remain subject to customs duties.</p>
+
+<p>In <date>1825</date>, rumors circulated that the Haitian government possessed hidden treasures. History does, in fact, record that before his downfall, Toussaint Louverture concealed treasures in the mountains, which Americans estimated at 200 million, while the most moderate assessments reduced the figure to 35 million. Toussaint always denied the existence of such treasures during his stay in France, and perhaps he died a victim of this belief.</p>
+
+<p>The truth is that Haiti's finances are in a dire state. The land yields little in comparison to common expectations because its cultivators, content with little, are not eager to subject themselves like slaves to arduous labor merely to satisfy European greed. Furthermore, the lack of market access stifles production.</p>
+
+<p>The Haitian government today requests a reduction of its debt from 120 million to 45 million, payable in 43 annuities, or a lump sum of 10 million. The central committee of former colonists would seemingly be satisfied with a quarter of that amount in cash, meaning 30 million.</p>
+
+<p>Meanwhile, negotiations are suspended; relations between the two nations are on the verge of rupture; and Haiti is even quietly being threatened with the dispatch of a new fleet to demand, by force of arms, satisfaction for its nine-year deferred debt.<pb facs="v1n5f17" n="17"/>The Haitians, on the other hand, seem prepared for any sacrifice, even to the extent of setting their cities ablaze rather than yielding to force.</p>
+
+<p>In such circumstances, should not the government provide an explanation? In the <date>1854</date> session, a deputy requested clarification on the status of negotiations; the matter was deferred to the naval budget. These explanations were not subsequently pursued, and the ministry has remained silent.</p>
+
+<p>It is likely that the coming session will not pass without the issue being seriously addressed. For our part, we believe that Haiti's demand is justified; that its accession to the ordinance of <date>1855</date> was undertaken with good faith and a spirit of conciliation, but that it was poorly calculated in light of the country's resources. Without leading to ruin, it is impossible for the Republic to sustain what was imposed upon it by politics. Whether it suffers from the excessive depletion of its resources or from war, it is difficult to say which of these two courses would be the lesser evil.</p>
+</div>
+<div xml:id="british-abolition-society">
+<head>BRITISH AND FOREIGN SOCIETY FOR THE UNIVERSAL ABOLITION OF SLAVERY.</head>
+
+<p>The spirit of association is, above all, an irresistible force when it is driven by a social or political principle. The moment it takes such a direction, it purifies and elevates the soul, develops in it the most profound sympathies and the most generous sentiments. It is no longer through selfish calculation or personal interest that one contributes one’s share of intelligence, activity, and wealth to the collective enterprise: one forgets oneself, one sacrifices personal advantages, wholly absorbed by the desire to be of service to mankind. There is no attempt to extract new riches from the soil or to exploit recent scientific discoveries for mere speculation: rather, it is the minds and passions of peoples that are stirred and guided toward moral progress and political emancipation. And in the midst of the difficulties and perils that fill this <pb facs="v1n5f18" n="18"/>sacred mission, one is sustained by a deep faith in the future of humanity.</p>
+
+<p>These reflections have been suggested to us by the work of the renowned <emph>British Anti-Slavery Society</emph>. For more than three centuries, the use of African slaves for the exploitation of the colonies had received legal sanction from all maritime nations of <placeName ref="#EUR">Europe</placeName>; and, as a peculiar consequence of this abuse, the practice of the slave trade, meant to supply colonial markets, had become a common principle in the law of nations. How many profits, privileges, prejudices, and habits were tied to the practice and maintenance of this odious tyranny of industrial selfishness? Who could hope, through the mere power of reason, to bring minds back to more just ideas, and to find enough wealth to purchase, as one would a commodity, the freedom of the disinherited class? Who, finally, could aspire to reconcile, through the necessities of a common cause, men invincibly divided by the memory of the past, by opposing interests, differing conditions, and racial antipathy?</p>
+
+<p>Yet, the <emph>Anti-Slavery Society</emph> undertook to carry out this arduous task across the vast expanse of the <placeName>British Empire</placeName>, so rich in colonial possessions. It did not delude itself about the challenges ahead: it knew it would have to contend with so-called acquired rights, with hateful passions, and with obstacles of every kind; but it relied on the support of numerous honorable men who had rallied to the cause of emancipation. The numerous contributions it received daily enabled it to wield against its formidable opponents all the means of publicity, remonstrance, denunciation, and condemnation that the press could offer. Since several of its members held high positions in government, administration, the church, and literature, the society could add the influence of a vast moral authority to the power of public debate. It therefore proceeded resolutely toward its goal with zeal, energy, and courage that nothing could shake. At first, it may have doubted its success, as opinions wavered or were divided; but soon, the English people, stirred by powerful sermons and moved by the force of undeniable facts, declared themselves with an irresistible will for the abolition of slavery.<pb facs="v1n5f19" n="19"/> And the reformed Parliament, the worthy interpreter of the nation’s high and generous sentiments, voted for a national loan to purchase the freedom of black slaves (1).</p>
+
+<p>It seemed that the dissolution of the association should have followed the completion of the work it had undertaken. Its conscience told it that it had done enough for humanity. After the fatigues of such a long struggle, it should have felt the need for rest. The financial sacrifices it had undertaken may, moreover, have depleted its resources. Indeed, some of its members withdrew, citing these reasons; but the most devoted believed that they would do well to remain united, since the Emancipation Bill still left much to be done. They felt that they must follow the great measure of liberation through all its transformations, enlighten the conduct of the masters in their new relations with the freed slaves, and protect the latter in their still-fragile and inexperienced exercise of liberty.</p>
+
+<p>Besides, should they not extend to black slaves in foreign colonies the same interest they had initially reserved for those in British possessions? "Look around the world," they said; "in the provinces of <placeName ref="#BR">Brazil</placeName> and the <placeName ref="#USA">United States</placeName> alone, there are more than four million blacks condemned to servitude; another million slaves are scattered throughout Spanish, French, Portuguese, Danish, and Dutch possessions. Wherever they are, do these unfortunate people not have the same right as their freed brethren to political and social equality? The odious tyranny under which they bend—wherever it may be exercised—is it not equally condemned by the laws of nature and morality? Can we deny them our compassion when we see them sold, exploited, and worked to exhaustion like beasts of burden? Shall we close our ears to the cries that escape from their lips or from their wounds, when cruel and capricious masters have them torn apart by the whip or smothered in the dreadful darkness of a dungeon? Will it be said that the universal abolition of slavery is a mere utopia, a foolish endeavor? What does it matter if we are called enthusiasts and visionaries; these are accusations to which
+
+<note>(1) See what the society itself says about the obstacles it has encountered in its journal <bibl type="periodical"><title ref="#Abol">The Abolitionist</title></bibl>, vol. 1, no. 1.</note> <pb facs="v1n5f20" n="20"/> we have long been accustomed. With the help of generous men, and above all with divine assistance, once again we shall not doubt our success (1).</p>
+
+<p>Such were the resolutions of the agency committee (<emph>the agency committee</emph>) when an unexpected event lent new weight to these considerations. A message was sent to them from across the <placeName ref="#OA">Atlantic Ocean</placeName>, by Americans moved by the same spirit and devoted to the same cause. In the northern provinces of the <orgName ref="#Un">Union</orgName>, citizens had gathered to seek the abolition of exceptional laws that held the black race, and all those descended from it who bore its distinguishing features, in a state of servitude or degradation. They had just established in <placeName ref="#Phd">Philadelphia</placeName> the <emph>National Anti-Slavery Society</emph>; but they had not found among their compatriots, chilled by self-interest or prejudice, the support and assistance necessary to carry out so vast an enterprise. In this difficulty, they resolved to call for aid from the <emph>British Anti-Slavery Society</emph>, whose great influence and vast resources were well known to them.</p>
+
+<p>The agency committee presented to the members of the association so many and such powerful reasons. Nearly all concluded that they must continue, or rather, resume their work. They reconstituted themselves under the name of the <emph>British and Foreign Society for the Abolition of Slavery and the Slave Trade in All Parts of the World</emph> (2). Since its reorganization, the agency committee has learned with joy that the Provincial Auxiliary Societies (<emph>auxiliary societies</emph>) are in the best of dispositions. Some, still unaware of the central society’s sudden resolution, had already declared themselves permanent: all are ready, as before, to assist with their contributions and strengthen its influence. Among the cities where it already counts such allies are <placeName ref="#Ed">Edinburgh</placeName>, <placeName ref="#Gl">Glasgow</placeName>, <placeName ref="#Da">Dalkeith</placeName>, <placeName ref="#Bi">Birmingham</placeName>, <placeName ref="#Br">Bristol</placeName>, <placeName ref="#Bos">Boston</placeName>, <placeName ref="#Ba">Bath</placeName>, <placeName ref="#Wi">Wis
+
+<note>(1) These sentiments are expressed in several addresses of the <emph>society</emph>, which we have before us. We cite, among others, that of <date>March 11, 1834</date>: <emph>to the anti-slavery associations and the friends of negro emancipation throughout the United Kingdom.</emph> (2) <emph>British and Foreign Society for the Universal Abolition of Negro Slavery and the Slave Trade.</emph></note><pb facs="v1n5f21" n="21"/>
+
+bech</placeName>, <placeName ref="#lon">Longsutton</placeName>, <placeName ref="#ChD">Chelmsford</placeName>, <placeName ref="#Wa">Warrington</placeName>, <placeName ref="#Bou">Bourn</placeName>, <placeName ref="#ex">Exeter</placeName>, <placeName ref="#bra">Braintree</placeName>, etc.</p>
+
+<p>The Society informs us of the measures it deems most suitable for ensuring the universal triumph of the cause of emancipation. Men of recognized ability, subsidized by the Society, will be sent to foreign countries where they will strive, through the power of speech, to engage the public conscience and awareness in the liberation of the oppressed race. It will promote the creation of continental associations that will correspond with it and work towards the same goal. A series of authentic facts and documents relating to slavery and the slave trade will be collected by the Society and disseminated through the press; to reinforce its impact, it will also send out addresses and memoranda based on the eternal principles of religion and morality. Finally, it will urge the various religious sects of England to call upon their co-religionists in foreign countries to focus on this issue with energy and interest (1).</p>
+
+<p>In the United States, the efforts of the Society will respond to the obstacles it will have to overcome. It will act in concert with the <emph>National Anti-Slavery Society</emph> established in Philadelphia. A small number of experienced men (<emph>lecturers</emph>), whose eloquence and zeal have already proven useful in England and in Scotland, will be tasked with visiting the principal cities of the northern states of the Union to conduct a veritable <emph>course on humanity</emph>: their speeches (<emph>lectures</emph>) will aim to foster active cooperation among enlightened minds, combat caste prejudices and the sophisms of bad faith, and demonstrate that, even from a political and industrial perspective, the emancipation of black people would yield beneficial results for men of all conditions and races. The Society estimates the annual cost of maintaining these missionaries of philanthropy at fifteen hundred pounds sterling (just over 37,000 francs). It hopes that after three years, their preaching will have produced sufficiently widespread results to render further efforts unnecessary. In the meantime,</p>
+
+<note><bibl><title ref="#Abol">The Abolitionist</title></bibl>, no. 1, pages 1-4 and 34-37.(1)</note><pb facs="v1n5f22" n="22"/>
+
+<p>as we write, Mr. <persName ref="#GT">George Thompson</persName> is crossing the Atlantic Ocean, honorably chosen among all by the Society, to be the first to plead the cause of several million oppressed individuals.</p>
+
+<p>One final observation should be made here. The French islands, as we see, are among the countries to which the Society intends to extend its influence. Foreigners will thus embrace the interests and defend the rights of black slaves living under the colonial laws of France: they pledge to contribute financially, to use all means at their disposal, and to activate every lever necessary to secure their emancipation. Will the French, who are at the forefront of civilization and the liberation of humanity, allow themselves to be outdone by the English in this matter? Will they show themselves less progressive and less generous than the English regarding a cause that directly concerns them? What would the world think if, when it comes to deciding between the master and the slave, that is, between justice and usurpation, they were to remain in guilty neutrality? But no, we are convinced that they will hasten to perform an act of justice, to fulfill a duty of humanity: they will be the ones who take the deepest interest and play the most active role in abolishing slavery in the national colonies. They will be led inevitably by their sense of justice, their warmth of heart, and their passion for equality.</p>
+
+<p>A. G.</p>
+</div>
+<div xml:id="france">
+<head>France.</head>
+<head>Paris</head>
+<head>CASE <persName ref="#ART">Artaud</persName> AGAINST <persName ref="#CB">BISSETTE</persName></head>
+<head>CORRECTIONAL POLICE COURT - 6th CHAMBER.</head>
+<head>PRESIDED BY <persName ref="#POR">Mr. Portalis</persName>.</head>
+
+<p>On August 30, the last day of the past judicial year, Mr. Bissette appeared at the Palace of Justice, in response to the summons <pb facs="v1n5f23" n="23"/> issued to him by Mr. Artaud from <placeName ref="#MQ">Martinique</placeName>. We owe our readers some details about this unusual case.</p>
+
+<p>A debate had arisen between Mr. Bissette and the defenders of colonial legislation regarding the reforms that were discussed and voted on during the <date>1833</date> session. It was, moreover, a purely historical and philosophical discussion, free of any personal attacks. Armed with documents and undeniable authorities, Mr. Bissette, seeking to moderate the claims of white colonists, their hatred for people of color, and to turn their sense of superiority into a salutary humility, presented a truthful account of the origins of the colonies. These origins are not so ancient as to be beyond our knowledge, nor do they disappear, like the sources of the <placeName ref="#Nil">Nile</placeName>, into the mountains and clouds. The buccaneers, privateers, and other no less remarkable characters who settled in <placeName ref="#StD">Saint-Domingue</placeName> and the <placeName ref="#ANTE">Antilles</placeName> about 200 years ago are the noble ancestors of the colonial aristocracy. Undoubtedly, as the poet says:</p>
+
+<quote>One does not choose one's father.</quote>
+
+<p>But in that case, one should at least refrain from casting stones at others and, as much as possible, avoid looking down on anyone.</p>
+
+<p>This debate was proceeding peacefully when it attracted a formidable adversary to Mr. Bissette: Mr. <persName ref="#CIC">Cicéron</persName>, a lawyer from Martinique. This gentleman, after extensively discussing the new organic law of the colonies in a rather substantial pamphlet, condescended to come down from his lofty heights and temper the severity of the subject with notes filled with wit, in which he liberally sprinkled, in place of humor and jovial remarks, insults and defamation. Here are a few examples:</p>
+
+<q><p><emph>Decidedly and at all costs, Mr. Bissette wants to be</emph> NOTICED!</p>
+<p>Finally, Mr. Bissette, whom we accidentally caught by the tail while flipping through his treatise, as if we were handling a venomous creature, etc...</p>
+<p>But look how far the naïve malice of Mr. Bissette goes! <emph>He is a mulatto, he is illegitimate</emph>; by these qualities, he shares with us the descent of vagabonds; and yet that does not stop him <pb facs="v1n5f24" n="24"/> from speaking his mind… Shame! The nasty bird that soils its own nest!... the nest where the Black woman, mother or grandmother of Mr. Bissette, laid the precious egg that was fertilized by the most libertine and depraved, no doubt, of the highway robbers he speaks of!... And might he not even have an advantage over us in this respect?… that of descending, perhaps, all by himself, from all the vagabonds put together!…</p></q>
+
+<p>Provoked in such a brutal manner, Mr. Bissette owed Mr. Cicéron a few words in reply, and he did so on <date when="1833-05-15">May 15, 1833</date>:</p>
+
+<p>His <emph>Letter to Mr. Cicéron</emph> had been in circulation for more than a year without any complaint. A new edition was printed in July of this year, and suddenly Mr. Artaud, apparently the uncle of Mr. Cicéron, claimed to be defamed in this publication and summoned Mr. Bissette before the sixth chamber of the court of first instance in <placeName ref="#Par">Paris</placeName>.</p>
+
+<p>Thus, on August 5, Mr. Artaud, through his attorney <persName ref="#Be">Mr. Bethmont</persName>, came to seek redress for the slander he claimed to have suffered, demanding in addition the suppression and seizure, wherever found, of the <emph>Letter by Mr. Bissette</emph>, as well as the posting of the judgment in Paris and Martinique, in an unspecified number of thousands of copies.</p>
+
+<p>Mr. Bethmont then took the floor and, after a <emph>Ciceronian</emph> exordium, launched into a long, well-structured, and highly dramatic eulogy of his client. His grandiloquent tone, his emphatic and tearful delivery, and his glowing rhetoric are but part of his attributes. His passion often carries over into his gestures and oratory; he writhes, drowns himself in incredible melancholies, sways like a reed in the wind, or rather like a palm tree shaken by the hurricane of the Antilles; then, majestically hovering above the bench, he addresses the court, the public prosecutor, Mr. Bissette, his opponent, the audience, everyone and everything. Always with the same elegance, he attacks Mr. Bissette violently; after his grandiloquent outburst, he quotes the following passage from Mr. Bissette’s letter to Mr. Cicéron:</p>
+
+<q><p>That is truly splendid defamation, admit it. How courageous you are against me, Master Cicéron, when eighteen hundred leagues separate us! But, in the absence of other means to confront you in person, I challenge you to prove that a single charge of immorality could be leveled against my honorable mother. Ah! Sir, I would not fear a public appeal to the opinion of our country regarding my mother, even though you seek to reproach me for her skin color. If the shade of one’s skin is a measure of virtue, then bow before her memory! <pb facs="v1n5f25" n="25"/> For it was not she, mulatto though she was, who presented to society the scandalous example of a wife living in disgraceful concubinage with her brother, offering all the spectacle of immoral incestuous relations; raising the offspring of her <emph>precious egg</emph> in the habit of insult and slander; turning her accomplice’s establishment into the public theater of her disorder, and carrying her cynicism so far as to defy the opinion, the memories, and the gaze of society! I do not ask you, sir, to respect the memory and ashes of the dead… that is a virtue still unknown to you, but I do urge you, in your own interest, to tread carefully with the blood that runs twice in your veins.</p></q>
+
+<p>Mr. Bethmont read this passage with a superb expression of pain and indignation, which does great credit to his sensitivity. He attempted to demonstrate that there was indeed defamation against Mr. Artaud, even though his name did not appear in the incriminated passage; he relied on a note on the following page to prove that there could be no doubt about the individuals concerned. Finally, in a rather peculiar move that no one had requested, Mr. Bethmont presented several documents and certificates of notoriety to demonstrate, according to him, the absolute and material impossibility of the immorality charge against Mr. Artaud.</p>
+<p>Mstr. <persName ref="#JM">JULES MAUREL</persName>, speaking on behalf of Mr. Bissette, declared that his client had never harbored the intent to defame Mr. Artaud; that he knew him not, nor bore him any animosity; but that Mr. Bissette, unjustly provoked by Mr. Cicéron—provoked in the most violent manner—had merely responded to such a challenge under the impulse of just indignation. As for the allegations that Mr. Artaud claims to be directed against him, they contain no specific mention of persons, and thus, it is Mr. Artaud himself who has assumed their application and, in so doing, defamed his own name.</p><pb facs="v1n5f26" n="26"/>
+
+<p>Following the replies of both attorneys and the conclusions of the public prosecutor—who deferred to the wisdom of the tribunal—Mr. Bissette rose and addressed the court in these words:</p>
+
+<q><p>Gentlemen, placing my trust in your discernment to adopt the just conclusions presented by my advocate, I nevertheless feel bound to add a few words, that the moral import of this case may be the better understood.</p>
+
+<p>Men of color in the colonies, as you well know, gentlemen, have long suffered the yoke of oppression under the dominion of the white colonists. The abuse of power and a judicial system perverted by exceptional privileges have weighed heavily upon them. Among the many victims of this cruel colonial order, I bear an indelible mark—a testimony to the depths of iniquity that caste prejudice may descend to in those distant lands. Yes, gentlemen, I WAS BRANDED—branded for the mere act of reading a pamphlet, and for sharing it with two of my brethren. And it is this very BRAND that stirred the righteous indignation of <placeName ref="#EUR">Europe</placeName> against that magistrate who, with unholy eagerness, hastened to have the executioner imprint it upon my flesh, though a legal appeal was yet pending—an appeal that, in the hands of impartial judges, would assuredly have wrought an emphatic reversal. This BRAND, which some would make an ignominious reproach against me, I hold rather as a badge of honor—a symbol of my sufferings, my cause, and my convictions. You know, gentlemen, what this reproach has inspired in me. When confronted with an adversary so wholly devoid of noble <choice><orig>sentimens</orig><reg>sentiments</reg></choice>, and who, as a white colonist, deemed himself entitled to all liberties against a <emph>mulatto</emph>—stooping, as he did, to heap the foulest calumny upon me and mine—I deemed it best not to seek redress through the courts, as I am brought before you today. Rather, I took up my pen and wrote the <bibl type="monogr">Letter to Mstr. Cicéron</bibl>, in which, after fifteen months of silence, Mr. Artaud has suddenly chosen to discern an offense, a crime of defamation, against himself.</p>
+
+<p>I shall say but one thing more.</p>
+
+<p>That letter, gentlemen, was addressed solely and explicitly to Mstr. Cicéron. If he considers himself aggrieved, let him come forward—let him make his complaint after fifteen months<choice><sic>.</sic><reg>,</reg></choice> let him summon me before this tribunal! It is to him, and to him alone, that I shall respond. As for Mr. Artaud, he stands in no way concerned in this matter, and I know not what claim he seeks to advance. I shall not, in any manner, enter into the discussion of his grievance. To my eyes, this pretense of defamation is naught but a veiled attempt at caste vengeance, and Mr. Artaud will find that I do not consider his accusations worthy of reply.</p><pb facs="v1n5f27" n="27"/>
+
+<p>Unfortunate indeed is the man of color when he must contend with the justice of the dominant caste in the colonies—a caste to which Mr. Artaud belongs! Yet those who have pursued me with their malice there, now hope that I shall meet the same fate before the impartial judges of Europe. In those miserable colonies, gentlemen, there are men who, for lesser words than those I have written, would have been <emph>hanged and strangled until death ensued</emph>, at the decree of men like Mr. Artaud. Such men flatter themselves with the expectation that they shall find here a tribunal as ready to condemn a <emph>mulatto insolent enough to contradict a white man</emph>, as the court of Martinique once did. Yet they forget that before your enlightened judgment, such a qualification, which they would make my crime, and the recollection of the blows they have dealt me, would serve, were I indeed guilty, not as an argument for my condemnation, but rather as a title to your indulgence.</p>
+
+<p>But such apprehension is foreign to my mind, for before judges such as you, gentlemen, and in a case such as this, I cannot but have full confidence in the outcome. Indeed, had I chosen to remain silent, I could well have left the full weight of my defense in the able hands of my counsel. But the few words I have spoken, I trust, may cast additional light upon the moral truths at the heart of this trial.</p>
+
+<p>Gentlemen, in closing the letter which has become the subject of this prosecution, I wrote to my adversary that <emph>it was impossible that, in a cause of pure morality and reason, the white men of Martinique would acknowledge him as their representative</emph>. And today, I declare with even greater assurance: it is unthinkable that the advocates of the French Bar should acknowledge as their colleague a man who has so far forgotten the dignity of his station as to put into writing these words:</p>
+
+<p>..... The nest where the Black woman, mother or grandmother of Mr. Bissette, laid the precious egg, fertilized, no doubt, by the most libertine and depraved of highwaymen!..... And indeed, has he not an advantage over us in this?..... That he alone, perhaps, descends from all the vagabonds together!</p>
+
+<p>I have spoken.</p></q>
+
+<p>The tribunal, after a lengthy deliberation, applying to Mr. Bissette the provisions of Articles 15 and 18 of the law of <date when="1819-05-17">May 17, 1819</date>, yet acknowledging in his favor numerous extenuating circumstances, has sentenced him only to a fine of twenty-five francs, declining to order the destruction of the document or the public posting of the judgment, as had been so insistently demanded by the prosecution.</p>
+
+<p>Mstr. BETHMONT. – I readily concede the <emph>extenuating circumstances</emph><pb facs="v1n5f28" n="28"/> in favor of Mr. Bissette, for they arise from the gross provocation under which he wrote; but as these do not negate the falsity of the accusations made, I desire that the judgment be amended to state: <emph>“but independent of that which concerns Mr. Artaud.”</emph></p>
+
+<p>MR. PRESIDENT. – The tribunal has <emph>deliberated at length</emph> upon this matter; yet, though it considers your arguments, it cannot alter its ruling.</p>
+
+<p>Mstr. Bethmont, with great fervor, persisted in urging the tribunal to modify the wording of its judgment. The president, in reply, declared that the tribunal, in drafting its decision as it had, had sought to make explicit its favorable view of Mr. Bissette’s position, in light of the provocation he had suffered.</p>
+
+<p>Mr. Bissette bowed before the tribunal and withdrew, leaving Mstr. Bethmont to gesticulate and expostulate before a crowded audience.</p>
+
+<p>Among those who gathered to offer Mr. Bissette their congratulations were men of letters, journalists, and a considerable number of men of color from many lands. Meanwhile, Mstr. Bethmont continued to harangue the court, though the usher had already called forth another case.</p>
+</div>
+<div xml:id="civil-tribunal">
+<head>CIVIL TRIBUNAL OF THE SEINE (Chamber of Vacations)</head>
+<head>PRESIDED OVER BY M. FOUQUET.</head>
+<head>CASE OF <persName ref="#BOI">BOITEL</persName> VERSUS <persName ref="#CIC">CICÉRON</persName></head>
+
+<p>Having failed in both the Correctional Police Court and the Royal Court in his complaint concerning a certain publication against him by Sieur <persName ref="#CIC">Cicéron</persName>, an attorney at <placeName ref="#MQ">Martinique</placeName>, Mr. Boitel, former secretary-archivist of that colony, who had before the lower courts suffered the effects of an interpretative ruling invoking the statute of limitations, sought, as a last resort, to bring his case before the Civil Tribunal of the Seine. Through the representation of Mstr. <persName ref="#RAB">Rabou</persName>, his attorney, he invoked the provisions of Article 42 of the law of May 26, 1819, which stipulates that, in all cases, a legal action undertaken at the request of the plaintiff may be brought before the courts of his domicile, provided that the publication in question has occurred there. He stated that there was no dispute that said publication had indeed taken place in <placeName ref="#Par">Paris</placeName>, the place of residence of Mr. Boitel.<pb facs="v1n5f29" n="29"/> Thus, by seizing jurisdiction of the Civil Tribunal of the Seine, he had properly submitted his case before the judges of his domicile.</p>
+
+<p>Mstr. <persName ref="#MORE">MORET</persName>, attorney for Sieur Cicéron, contended that Mr. Boitel was bound to plead his case in Martinique; that his client could not be deprived of his natural judges; and that it fell within the jurisdiction of that colonial tribunal, where the accused resided, to determine the merits of the case.</p>
+
+<p>Mstr. RABOU, in response, argued that Mr. Boitel had been expelled from the colony in <date>1831</date> by a resolution of the Privy Council of Martinique, for the crime of having received men of color at his table. He asserted that the publication against which Mr. Boitel now complained was but one of many <choice><orig>incidens</orig><reg>incidents</reg></choice> which had arisen as a result of his unwavering stand for justice and his open declaration of principles in favor of the colored population and the enslaved.</p>
+
+<p>Mr. <persName ref="#POI">POINSOT</persName>, advocate for the King, impartially analyzed the arguments put forth by both parties and, relying on the plain text of the law, concluded by recommending that the court uphold the claims of the plaintiff and reject the defendant’s objections.</p>
+
+<p>The following judgment was rendered on October 29, after hearing both the parties and the public prosecutor:</p>
+
+<p>Considering the explicit provisions of the law of May 26, 1829, the tribunal declares itself competent to hear the case and retains it for adjudication after the vacation period. It condemns Mr. Cicéron to bear the costs.</p>
+</div>
+
+<div xml:id="bissette-cicéron">
+<head>ENCOUNTER BETWEEN BISSETTE AND CICÉRON.</head>
+
+<p>Having been grossly offended by a pamphlet published by <persName ref="#CIC">Mr. Cicéron</persName>, an attorney at Martinique, Mr. Bissette had, in a printed letter responding to that pamphlet, expressed deep regret that he was unable to exact immediate satisfaction.</p>
+
+<p>Eighteen months later, Mr. Cicéron saw fit to travel eighteen hundred leagues, as he was fond of repeating, for the sole purpose of placing himself at Mr. Bissette’s disposal; which he did. <persName ref="#CB">Mr. Bissette</persName> thereupon issued his challenge, and a duel with sabers ensued in the <placeName>Bois de Vincennes</placeName>, during which Mr. Cicéron was wounded in the right arm,<pb facs="v1n5f30" n="30"/> rendering him incapable of further use of the limb. Upon this, the adversaries and their witnesses parted ways.</p>
+
+<p>Some time afterward, having recovered from his injury, Mr. Cicéron, prompted by reasons which we shall not presume to judge, dispatched two of his witnesses to Mr. Bissette, requesting that the combat be resumed. This request may have suited Mr. Cicéron’s interests, but Mr. Bissette had no obligation to gratify him. Accordingly, Mr. Bissette firmly rejected the colonial lawyer’s demand, declaring to these gentlemen that, having already rendered Mr. Cicéron unfit for combat, he was entirely satisfied with the result and was determined to pursue the matter no further.</p>
+
+<p>Upon receiving this response, Mr. Cicéron deemed it necessary to appeal to public opinion. A correspondence was thus initiated between these two gentlemen in the only newspaper of the capital that had granted Mr. Cicéron its columns. Mr. Bissette, however, steadfastly maintained in writing the same position he had previously stated in person—that in matters of honor, all had been conducted as befitted men of heart and dignity, and that none but himself had the right to judge whether he was satisfied, seeing that he himself declared it so.</p>
+
+<p>Here follows the letter published in the <bibl type="periodical"><title ref="#Fig">Figaro</title></bibl> on October 11, by which Mr. Bissette put an end to the strange pretensions of his adversary:</p>
+
+<q><p><emph>To the Editor of the Figaro</emph>.</p>
+
+<p>Paris, <date when="1834-10-10">October 10, 1834</date>.</p>
+
+<p>Sir,</p>
+
+<p>One final word regarding the latest letter from Mr. Cicéron, published in today’s issue of your paper: it shall be my last.</p>
+
+<p>I shall not here undertake to expose the numerous contradictions between Mr. Cicéron’s first letter and his second. That question, as far as I am concerned, is settled. Whatever his future claims or declarations on this matter may be, they shall be to me as though they never were. I am resolved, sir, to leave entirely to him the field which you have so generously offered us, should he still desire to appear upon it.</p>
+
+<p>I state it once again: I shall not pursue this matter further, on<pb facs="v1n5f31" n="31"/> any ground whatsoever, save only that of legitimate self-defense, should circumstances demand it. Whether Mr. Cicéron is my adversary or my enemy, I know not which.</p>
+
+<p>In all else, I refer to my previous written and spoken replies. And though I do not presume that the public is a competent judge in a matter so personal as this, where the claims of both sides cannot always be taken at face value, I see no reason why I should not leave it to them to judge this dispute, however difficult it may be to furnish them with all the facts.</p>
+
+<p>Accept, sir, etc.  
+BISSETTE.</p></q>
+
+<p>The editor of this publication would not have troubled the public with an affair so purely personal, had it not been Mr. Cicéron himself who first invoked the press in an attempt to give it notoriety. It may be observed, moreover, that in the latest issue of the <bibl type="periodical">Revue des Colonies</bibl>, no mention was made of the duel in which Mr. Cicéron was wounded, so unimportant did Mr. Bissette deem the matter to his readers.</p>
+</div>
+<div xml:id="miscellaneous-news">
+<head>MISCELLANEOUS NEWS.</head>
+
+<p>The <bibl type="periodical">Moniteur</bibl> publishes the following ordinance, dated October 29:</p>
+
+<quote><p>"The resignation tendered by M. <persName ref="#EMG">Marshal Gérard</persName>, President of the Council and Minister Secretary of State for the Department of War, is accepted.</p>
+
+<p>The interim administration of the War Ministry shall be entrusted to <persName ref="#HR">M. de Rigny</persName>, Minister of Foreign Affairs."</p></quote>
+
+<p>- M. <persName ref="#JDI">Joseph Duton-Inginac</persName>, captain and aide-de-camp to the Haitian General <persName ref="#JBI">Inginac</persName>, his father, and secretary to the cabinet of President <persName ref="#JPB">Boyer</persName>, has unexpectedly passed away at <placeName ref="#Hav">Le Havre</placeName>, just as he was preparing to return to his homeland. M. Duton-Inginac was but twenty years of age. We had seen him, on the very day of his departure from Paris, full of health and vigor. His premature death shall be a cause of deep sorrow and mourning, not only for his family but also for his country. The Haitian Republic had placed its highest hopes upon this honorable citizen. His remains, currently resting at Le Havre in the <placeName ref="#CSR">Saint-Roch Chapel</placeName>, shall soon be <pb facs="v1n5f32" n="32"/> transported to <placeName ref="#HT">Haiti</placeName>, a feeble consolation for his grieving family, who had never foreseen that they would see him again only as a lifeless form.</p>
+
+<p>- A foundation stone has recently been laid in <placeName ref="#Lo">London</placeName> for an edifice erected in memory of the abolition of colonial slavery. The selected site is in Fischer Street, <placeName ref="#RLS">Red Lion Square</placeName>. The lower floor shall serve as a Sunday school and a regular school for children of both sexes, while the upper floor will house twelve <emph>alms-rooms</emph>. The institution is affiliated with the Baptist church and congregation of Eagle Street, under the ministry of MM. J. <persName ref="#JI">Ivimey</persName> and <persName ref="#Ov">Overbury</persName>. A large assembly gathered in the temple, where, after the singing of hymns by <persName ref="#IW">Watts</persName>, the Reverend <persName ref="#FP">F. Price</persName>, of Devonshire Square, commenced the solemnity by reading <bibl type="monogr">Psalm 126</bibl> and offering a prayer of thanksgiving. The Reverend J. Ivimey then introduced the Reverend <persName ref="#WK">W. Knibb</persName>, who has traveled extensively and made extraordinary efforts for the cause of liberty among the poor Negroes, covering, in these pilgrimages of charity, more than nine hundred miles. Following the discourse of this zealous missionary, the procession formed and proceeded to the site; there, the session’s president, <persName ref="#MHP">M. H. Pownal</persName>, in a lively and compelling address, traced the history of efforts toward the abolition of the slave trade from its introduction by the Spaniards in <date>1503</date> to the endeavors of <persName ref="#TCL">Clarkson</persName> and <persName ref="#WW">Wilberforce</persName>. Then, a man of color, M. <persName ref="#RSm">Robert Smith</persName>, was presented before the vast assembly; he shattered an iron slave chain and one of those dreadful cartwhips, the customary instrument of suffering for the unfortunate blacks. These melancholy <emph>monuments</emph> of a scourge now ending were placed within a cavity of the foundation stone, while the assembly intoned the following hymn:</p>
+
+<p><q>
+Unfortunate children of Africa’s shores,  
+Behold these fragments of your last chains;  
+Join your free voices to our sacred hymns,  
+And bless the Lord who has delivered you.
+</q></p>
+
+<p>The stone was then sealed by the architect. When completed, the edifice shall present a noble façade, and an inscription above its main entrance shall commemorate the great event which a benevolent charity has thus sought to immortalize.</p><pb facs="v1n5f33" n="33"/>
+
+<p>- In <placeName ref="#ANG">England</placeName>, a medal has been struck in commemoration of the abolition of Negro slavery. It would be impossible to conceive of a more ingenious and striking representation, simultaneously depicting both the horrid condition of negroes in their state of bondage and the profound emotions they experience upon, at last, treading underfoot the instruments of their torture and raising their eyes heavenward in devout gratitude. The obverse of this medal portrays a Negro gazing at the sun, arms outstretched, holding a broken chain; beneath his feet lies the murderous whip, its blood-stained lashes torn from the shattered handle. The legend reads: <quote> "This was the Lord’s doing, and it is marvelous in our eyes. Psalm CXVIII, v. 25. – <date when="1834-08-01">August 1, 1834</date>."</quote> The reverse bears the inscription: <quote>"In commemoration of the abolition of slavery in the colonial possessions of Great Britain, under the reign of <persName ref="#GIV">William IV</persName>." (The Semeur.)"</quote></p>
+
+<p>- We are pleased to report an act of rare generosity, one that does honor to humanity, by the <emph>British and Foreign Bible Society</emph>.</p>
+
+<p>This Society has just voted the sum of 20,000 pounds sterling (500,000 francs) to contribute to the religious education of the negroes. A copy of the <bibl type="monogr">New Testament</bibl> and a collection of psalms will be distributed to all emancipated slaves who can read as of <date>August 1854</date>. Those lacking this initial knowledge shall not, however, be deprived of the same benefit, provided they are heads of families with children who can read or are learning to do so.</p>
+
+<p>With a similarly laudable intent, the <emph>Society for the Distribution of Religious Publications</emph> (<emph>The Religious Tracts Society</emph>) had, last year, allocated 400 pounds sterling (10,000 francs) for various books intended to form small libraries for the use of negroes. We now learn that this philanthropic society has recently resolved to distribute numerous additional publications throughout the English colonies, wherein the freed blacks may acquire the knowledge befitting their newfound condition.</p>
+
+<p>- Letters from <placeName ref="#BAR">Barbados</placeName>, dated September 10, announce that the most perfect tranquility reigns in that colony and the neighboring islands, including <placeName ref="#StC">Saint Christopher</placeName>, where disturbances had been feared. <placeName ref="#BER">Berbice</placeName> was also in a satisfactory state as of September 1.</p>
+
+<p>- <persName ref="#SC">M. de Scholten</persName>, governor of the Danish possessions in the <placeName ref="#InO">West Indies</placeName>, has presented to the government of <placeName ref="#DAN">Denmark</placeName> a most extensive memorandum concerning the measures to be adopted for effecting the complete emancipation of the blacks still held in bondage therein. A commission was immediately appointed to examine the governor's plan and to issue, with all possible haste, its report, so that M. de Scholten, before his departure for the colony of <placeName ref="#StT">Saint-Thomas</placeName>, the seat of his government, might receive the necessary instructions, or at the very least, that the principles by which he is to be guided may be firmly established.</p>
+
+<p>- The papers of <placeName ref="#NY">New York</placeName> announce that on September 24, during the occasion of a balloon ascension, several Negroes were maltreated and forced to flee from the unprovoked fury of the whites. The newspapers denounce such barbarous acts with great indignation.</p>
+
+<p>- The journals of <placeName ref="#CARA">Caracas</placeName> report a dreadful catastrophe that is said to have nearly annihilated the <placeName ref="#StMa">island of Santa Marta</placeName>. In the last days of May, an appalling volcanic eruption, preceded and followed by forty-five shocks of a terrible earthquake, is alleged to have engulfed part of the city. Nearly all the buildings, both great and small, are reported to have been reduced to ruins. Only a few casualties are noted, as the entire population had time to seek refuge in the wooded highlands. Scarcely a handful of houses remain standing amidst the wreckage.</p>
+
+<p>This island now presents nothing but the most complete scene of desolation, and its unfortunate inhabitants can place their hopes only in the compassion they inspire and the benevolence of their neighbors.</p>
+
+<p>- <persName>Dupetit-Thouars</persName>, a naval captain, has been entrusted with a mission from the government to the <placeName ref="#HT">Republic of Haiti</placeName>. This officer is set to assume command of the corvette <emph>La Créole</emph>, already anchored in the roadstead of <placeName ref="#BRE">Brest</placeName>. The brig <emph>Le Cuirassier</emph> is also attached to this expedition.</p>
+
+<p>- <persName ref="#APe">Auguste Périnon</persName>, a man of color from <placeName ref="#MQ">Martinique</placeName>,<pb n="34"/> having distinguished himself over two years at the École Polytechnique, has recently entered, at his own request, as an officer in the marine artillery. M. Périnon has obtained his rank through competitive examination. We announce this news with joy to our young compatriots of color. Let them, through honorable exertions and by demonstrating ability in all careers, dispel the unworthy prejudices of their oppressors.</p>
+
+<p>Another laurel is to be added to the crown of <persName ref="#ANog">M. Arsène Nogues</persName>. This attorney general has carried out, prior to any appeal for cassation or clemency, the execution of a ruling by the so-called assize court of Martinique, condemning two slaves to death for homicide. Guilty or not, it matters little to us: their appeal was a right. These condemned men were hanged and strangled until death ensued.</p>
+
+<p>I have given an account, in the latest issue of the <bibl type="periodical">Revue des Colonies</bibl>, of a conversation I had with the former attorney general of Martinique, who branded me, in defiance of my appeal to the court of cassation.</p>
+
+<p>A circular letter, signed by <persName ref="#RL">De Lucy</persName>, has just been published; the signatory declares <emph>that what he did, he was bound to do</emph>.</p>
+
+<p>I reproached the former attorney general for his conduct in hastening the execution of the ruling that condemned me, and for the ignoble act of wresting, through threats, from my wife a letter of solace that I had sent her as I descended from the scaffold, a letter which he read and then burned. These deeds, I have confronted him with them face to face; and he calls them <emph>duties fulfilled without passion, as without weakness!</emph> Such is the character of this man; he fails to perceive that these are acts of infamy; he lacks even the awareness of his own atrocity and cowardice in <date>1824</date>. And yet, he dares to stand before a civilized people and proclaim, <emph>that what he did, he was bound to do</emph>. Let there be scorn and execration upon this man! Execration and scorn!</p>
+<p><persName ref="#CB">BISSETTE</persName></p><pb facs="v1n5f34" n="35"/>
+</div>
+<div xml:id="french-colonies">
+<head>FRENCH COLONIES.</head>
+<head><placeName ref="#MQ">MARTINIQUE</placeName></head>
+
+<p>We have received a letter from <placeName ref="#StP">Saint-Pierre</placeName>, dated August 29:</p>
+
+<p>For some days now, a troupe of dramatic artists has arrived at Fort-Royal and has been offering performances twice a week. Would you believe that entrance to this spectacle is forbidden to men of color? Take note: this is not a private society. Twelve grenadiers of the 1st Marine Regiment are stationed around the theater hall to keep out Negroes and mulattoes. Such, my dear friend, is the outcome of the July Revolution in the colonies…</p>
+
+<p>- Another letter from Fort-Royal, dated September 1, reports:</p>
+
+<p>There now exists here a theater, the proprietors of which, in order to exclude men of color, have devised the scheme of establishing a subscription-only society, open to whites alone. The advertisements are delivered to homes bearing this title: "THEATER BY PRIVATE SUBSCRIPTION." Military personnel, of whatever rank, are admitted, along with anyone who claims to be white. It must be noted that the governor has never attended, but neither has he made any effort to prevent such disgraceful practices; indeed, he tacitly condones them by his silence.</p>
+
+<p>Yesterday, a solemn musical mass was held; it was likely in honor of <persName ref="#HeV">Henri V</persName>, though disguised as a celebration of Saint Louis, the patron of the parish. The bourgeois musicians of the white class, who largely constituted the orchestra, took care to ensure that no men of color were present at the ceremony. The parish beadle was instructed to forcibly expel any who attempted to enter the church, and those who had already entered were thrown out. <persName ref="#ND">M. Nelson Didier</persName>, a man of color, approached the priest after mass to complain of this treatment, only to receive a harsh and dismissive response, insulting his entire class. Among other things, the priest declared that he "cared nothing for the opinion of men of color, that he trampled them underfoot, and that their feelings were of no concern to him." After such an event, judge for yourself how fearfully the hatred of our enemies is advancing, when even the church—where all ranks, distinctions, and prejudices ought to be erased—is not exempt from such odious oppression.<pb facs="v1n5f35" n="36"/></p>
+</div>
+
+<div xml:id="guiana">
+<head><placeName ref="#GF">GUIANA.</placeName></head>
+
+<p>The letters we receive from <placeName ref="#Cay">Cayenne</placeName> all concur in praising the wise and just administration of <persName ref="#Pa">M. Parizet</persName>, interim governor of French Guiana. It seems that no one mourns the departure of Governor <persName ref="#Ju">Jubelin</persName>.</p>
+
+<q><p>Our subscribers may perhaps appreciate the faithful portrait of this governor, which one of our correspondents has furnished. He writes as follows:</p>
+
+<p>“M. Jubelin has surrounded himself with a clique of favorites; he has found means to violate the law in order to appoint his own creatures. It is a strange and scandalous fact, yet undeniable, that every single officer of the judiciary, including the justice of the peace, belongs to his coterie. This very justice of the peace, in violation of all legal principles, simultaneously serves as the head of the militia. A devoted reactionary and an ardent Carlist, the mere sight of a tricolor flag fills him with horror.</p>
+
+<p>Perhaps in <placeName ref="#FR">France</placeName> one imagines that the laws declaring all citizens equally eligible for public office are enforced in this colony? This is a grave error.</p>
+
+<p>Governor Jubelin has systematically excluded men of color from positions in the administration, under the false pretense that they do not meet the legal qualifications. Thus, men of integrity and ability are cast aside—solely because they are men of color. Yet, while M. Jubelin has applied the strictest interpretation of regulations to disqualify men of color, he has not been so scrupulous when appointing his white favorites.</p>
+
+<p>For instance, the young <persName ref="#SQ">Saint-Quantin</persName> served as King’s Prosecutor despite not meeting the age requirement, never obtaining an age exemption, nor even taking the required oath. This violation of the law has caused great scandal and unrest in the colony. Similarly, <persName ref="#Rev">M. Revoil</persName>, a former solicitor, was appointed judge-auditor, and within months was promoted to provisional counselor-auditor—a flagrant violation of the very laws and ordinances that explicitly exclude him from holding these positions, as M. Revoil does not even hold a degree in law.</p>
+
+<p>But M. Revoil belongs to the Jubelin-Gibelin-Vidal triumvirate, and he has the honor of playing reversi with the governor every Friday. A wit has remarked that in a year’s time, he will surely be President of the Court! Indeed, nothing seems impossible under this system. Appointments are made without scrutiny; the minister is deceived into believing that no qualified candidates exist within the colony, and thus the governor's cronies must be appointed. However, we shall cite <persName ref="#Mo">M. Mosse</persName>, a lawyer of the colony, who for nearly ten years has frequently been called upon to sit as a judge whenever the court was incomplete. He is the most senior lawyer on the registry, and he is highly learned. Yet, strangely enough, he has been entirely overlooked—for the simple reason that he is not part of the coterie.”<pb facs="v1n5f36" n="37"/></p>
+
+<p>We trust that M. the Minister <persName ref="#JAC">Jacob</persName> will reject such intrigues and that he will appoint, to the critical position of President of the Court, an impartial metropolitan magistrate—one independent of colonial cliques, whose conduct will embody the integrity and justice that distinguished <persName ref="#PERS">M. Persegol</persName>.</p>
+
+<p>P.S.—M. Parizet, who has been in office but three months, has already restored men of color to their rightful places on the list of assessors. Furthermore, he has just secured a scholarship in <placeName ref="#Par">Paris</placeName> for a child of color. No commentary is needed; compare his brief tenure with the five years of M. Jubelin.</p></q>
+</div>
+<div xml:id="foreign-colonies">
+<head>FOREIGN COLONIES.</head>
+<head><placeName ref="#JA">JAMAICA</placeName></head>
+
+<p>Order and tranquility continue to prevail in the colony; however, frequent disputes arise between the planters and the newly apprenticed laborers. It appears that these misunderstandings stem largely from the proclamation issued by the Governor-General, <persName ref="#Sligo">the Marquis of Sligo</persName>, which led the apprentices to believe that every Friday, half the day was rightfully their own. In several districts, the planters had reached an agreement among themselves to establish uniform working hours.</p>
+
+<p>The city of <placeName ref="#K">Kingston</placeName> experienced, on the night of September 7, <pb facs="v1n5f37" n="38"/> a rather severe earthquake. For several days prior, the heat had been excessive, and the thermometer had risen considerably. At half past two in the morning, the ground began to undulate slightly; the first tremors were weak and seemed to diminish gradually. However, all at once, a violent shock was felt. This terrifying phenomenon lasted for half a minute. The city suffered little damage.</p>
+</div>
+
+<div xml:id="antigua">
+<head><placeName ref="#ANT">ANTIGUA</placeName>.</head>
+
+<p>In one of the chapels of this island, religious services commenced on the evening of July 31, at nine o’clock. Sermons and hymns followed one another until nearly midnight. A few minutes before that solemn hour, the minister invited the Christian slaves to kneel and, in silent prayer, to receive as if from the hand of God Himself the blessing of liberty, which the next instant would place in their possession. All fell upon their knees, their hands and hearts raised toward Heaven; on all sides, suppressed sobs could be heard, which they strove in vain to restrain. It became impossible to hold them back when the bell tolled: each of its twelve strokes heightened their emotion. The minister then announced a hymn to keep their minds fixed upon the holy thoughts that had occupied them until that moment; and when it had been sung, the congregation dispersed slowly.</p>
+
+<p>All the chapels in Antigua were full. Nowhere on the island was there quarreling, nor revelry, nor any form of excess. The harmony reigning between the planters and their former slaves will powerfully aid, under the guiding hand of Christian conviction, in rendering easy the immense transformation introduced into the social order.</p>
+</div>
+
+<div xml:id="saint-lucia">
+<head><placeName ref="#STL">SAINT LUCIA</placeName></head>
+
+<p>We receive word from <placeName ref="#Cas">Castries</placeName>:</p>
+
+<p>On August 1, the proclamation and enforcement of the Emancipation Bill took place on this island. In honor of this great act of regeneration, a grand mass was celebrated in the parish church. The governor attended, accompanied by a detachment of 23 soldiers and the military band—the only force necessary to effect so profound a transformation in the social order of this colony. <emph>Hurrahs</emph> and <emph>vivats</emph> <pb facs="v1n5f38" n="39"/> bore witness to the joy of the free population and the newly emancipated. The day passed in the utmost tranquility; not a single disturbance occurred. That evening, the town was illuminated.</p>
+</div>
+
+<div xml:id="bibliography">
+<head>BIBLIOGRAPHY.</head>
+<head>TRIAL OF THE GRAND'ANSE (MARTINIQUE).</head>
+
+<p><emph>Memoir</emph> on behalf of the ninety-three condemned, submitted to the Court of Cassation, before which their appeal is now pending, by <persName ref="#Gatine">M. AD. GATINE</persName>, advocate at the Court of Cassation. <placeName ref="#Par">Paris</placeName>, printed by Dezauche, 14, rue du Faubourg-Montmartre.</p>
+
+<p><quote>Unfortunate <placeName ref="#MQ">Martinique</placeName>! Land consecrated to suffering! In <date>1831</date>, TWENTY-SIX <emph>conspirators</emph> hanged in a single day! Today, FORTY-ONE condemned to death in a single day <emph>for conspiracy</emph>! Colonists, <choice>
+   <orig>imprudens</orig>
+   <reg>imprudent</reg>
+</choice> 
+as much as inhumane, you dishonor the scaffold. (Page 25.)</quote></p>
+
+<p>Such is the epigraph of the excellent preparatory <emph>Memoir</emph> composed by M. Gatine for the condemned of Grand'Anse. This dreadful affair is therein illuminated with such historical clarity that none but the most hardened apologist of colonial privilege could fail to recognize the innocence of the so-called conspirators. It is impossible, after reading M. Gatine’s <emph>Memoir</emph>, not to be overwhelmed with indignation and scorn for the wretched policy of that handful of Machiavellian oppressors for whom atrocity seems to be a principle of public law. No, not a single one of our brethren shall suffer the punishment to which he has been condemned—despite the presence in Paris of two of their most implacable enemies. We do not call them judges: men of color have no judges in Martinique.</p>
+
+<p>M. Gatine casts broad and brilliant light upon this supposed conspiracy, to the everlasting shame of the white aristocracy of that island! "We write for history, even as we write in defense of the condemned," M. Gatine declares at the outset; "for such a trial is an immense social fact, which shall not pass unremarked in the annals of a people. We shall maintain the solemnity befitting profound sorrow, the moderation that is not incompatible with a keen and righteous resentment for so many sacrifices—but also the firmness demanded in this, the posthumous defense of so many men condemned to <pb facs="v1n5f39" n="40"/> perish upon the scaffold, in the galleys, or in exile; and of whom several, already dead in prison, shall never witness the final outcome of this trial."</p>
+
+<p>We shall not follow M. Gatine through his lucid exposition of the facts; nor shall we recount again the history of this affair, already well known to our readers. We shall confine ourselves to expressing our deepest gratitude to this worthy advocate for the fervent eloquence with which he has undertaken the defense of men and causes so dear to us in every way. Honor to M. Gatine! He has well understood the mission of this age! Justice and equality for all—this is the first need, the first cry of the nations of our day.</p>
+
+<p>Oppression cannot long endure in Martinique, organized as it is at present. More, perhaps, than anywhere else on the globe, it is exercised against the disinherited races with an incredible contempt for right and reason; but such a state of affairs is itself the herald of its own impending fall. The colonial aristocracy nears its final hour; for to survive, it must take more heads than the world will allow it to sever, and spill more blood than it has the power to shed.</p>
+
+<p>In an upcoming memoir, M. Gatine will present the grounds for cassation, which are numerous and give every reason to expect the fair admission of the appeal. The judgment of <emph>these self-appointed judges and executioners</emph> shall be overturned by metropolitan justice. But when, at last, shall there be a judiciary to protect the colonies?</p>
+</div>
+<div xml:id="postscript">
+<head>POSTSCRIPT.</head>
+<head>NEW MINISTRY.</head>
+
+<p><persName ref="#HBM">The Duke of Bassano</persName>, Minister of the Interior and President of the Council.</p>
+
+<p><persName ref="#CBr">M. Bresson</persName>, Minister of Foreign Affairs.</p>
+
+<p><persName ref="#SBe">Lieutenant-General Bernard</persName>, Minister of War.</p>
+
+<p><persName ref="#CDup">M. Charles Dupin</persName>, Minister of the Navy and Colonies.</p>
+
+<p><persName ref="#JBT">M. Teste</persName>, Minister of Commerce, temporarily in charge of Public Instruction.</p>
+
+<p><persName ref="#HPa">M. Passy</persName>, Minister of Finance.</p>
+
+<p><persName ref="#JCP">M. Persil</persName> retains the portfolio of Justice.</p>
+
+<p>PRINTED BY HERHAN, 580, RUE SAINT-DENIS.</p>
+</div>
       </body>
+      <back>
+         <xi:include href="shared/entities.xml"/>
+      </back>
    </text>
 </TEI>

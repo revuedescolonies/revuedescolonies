@@ -5,7 +5,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Revue des Colonies N°2</title>
+            <title>Revue des Colonies V.1 N°2</title>
+            <editor>Maria Beliaeva Solomon</editor>
             <editor>Charlotte Joublot Ferré</editor>
          </titleStmt>
          <!-- <xi:include href="shared/editionStmt.xml"/> -->
@@ -998,7 +999,7 @@
                <p>PRESIDENCE DE <persName ref="#Bosqu">M. BOSQUILLON DE FONTENAY</persName>.</p>
                <p>Audience du <date>26 juillet.</date></p>
 
-               <p><persName>M Cicéron</persName>, avocat-avoué à <placeName ref="#MQ">la
+               <p><persName ref="#CIC">M. Cicéron</persName>, avocat-avoué à <placeName ref="#MQ">la
                      Martinique</placeName>, a publié une brochure portant la date de
                      <date>1832</date> et intitulée : <emph>Pétition au roi, à la nation et aux
                      chambres, sur l'inconstitutionnalité de la forme actuelle de la représentation
@@ -1153,7 +1154,7 @@
                   l'aristocratie de <placeName ref="#MQ">la Martinique</placeName>, était <persName ref="#Berr">M.
                      Berryer</persName>. Ce député légitimiste était porté par <persName>MM.
                      Villarson</persName>, <persName>Feuardent-Desculleville</persName>,
-                     <persName>Perrinelle fils</persName>, <persName>Mauny</persName> et autres
+                     <persName ref="#PER">Perrinelle fils</persName>, <persName>Mauny</persName> et autres
                   hommes à idées rétrogrades, tous membres du conseil colonial de <placeName ref="#MQ">la
                      Martinique</placeName>. <persName ref="#CDup">M. Ch. Dupin</persName> a été nommé par le
                   parti aristocratique, qui qualifie d'oligarques ceux du parti
@@ -1241,7 +1242,7 @@
 
             <div type="article">
                <head><placeName ref="#MQ">MARTINIQUE.</placeName></head>
-               <p>On nous écrit de la commune de <placeName>la Trinité</placeName> :</p>
+               <p>On nous écrit de la commune de <placeName ref="#TRI">la Trinité</placeName> :</p>
                <q><p><persName>Le sieur Bardel</persName>, capitaine d'une compagnie de miliciens,
                      à <placeName ref="#MQ">la Martinique</placeName>, rencontre dans la rue <persName>M.
                         Igout</persName>, colon, ancien négociant à <placeName>la
@@ -1270,7 +1271,7 @@
                      un ordre de <persName><roleName>M. le capitaine</roleName> Bardel</persName>
                      qui lui enjoint d'aller passer 48 heures à la salle de police ; cet ordre est
                      approuvé par une lettre de <roleName>M. le commissaire-commandant</roleName>,
-                        <persName>le sieur Caffie</persName>, qui avait également un sujet
+                        <persName ref="#SebPC">le sieur Caffié</persName>, qui avait également un sujet
                      d'animosité personnelle contre M. Sugnin. (Nous regrettons que le défaut
                      d'espace ne nous permette pas de reproduire cette pièce vraiment curieuse.)
                      Notez que le tiers au moins de la compagnie commandée par <persName>le sieur
@@ -1332,7 +1333,7 @@
                      expatriant l'autre, selon que le bon plaisir leur dicte leurs arrêts. Il suffit
                      du plus léger soupçon pour qu'un citoyen soit traqué, enlevé, déporté.</p>
                   <p>Quelques discussions ayant eu lieu entre un jeune blanc, nommé
-                           <persName>Romager-<emph>l'Inregigible</emph></persName>, et
+                           <persName ref="#ROMA">Romager-<emph>l'Inregigible</emph></persName>, et
                         <persName>Santz</persName>, jeune homme de couleur, le maire de la ville et
                      le directeur de l'intérieur ont intimé à <persName>Mme Santz</persName> l'ordre
                      de faire partir son fils sur-le-champ de la colonie, si elle ne voulait pas
