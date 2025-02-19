@@ -5,10 +5,10 @@ author: Maria Beliaeva Solomon
 
 <div style="display:flex; gap:10px">
   <span style="width: 50%">
-    <img src="../../../images/news/expo1.jpg" alt="Collage of the conference poster and attendees walking through the exhibition." /> 
+    <img src="../../../images/news/expo1.jpg" alt="Collage de l'affiche de la conférence et des participants se promenant dans l'exposition." /> 
   </span>
   <span style="width: 50%">
-    <img src="../../../images/news/expo2.jpg" alt="Posters and original documents on display." /> 
+    <img src="../../../images/news/expo2.jpg" alt="Affiches et documents originaux exposés." /> 
   </span>
 </div>
 
@@ -32,9 +32,14 @@ L’exposition est accessible librement aux Archives nationales d’outre-mer à
 
 Cette initiative est le fruit de la collaboration d’un commissariat scientifique comprenant Jessica Balguy (Carnegie Mellon University), Maria Beliaeva Solomon (University of Maryland), Laure Demougin (Université Paul-Valéry Montpellier 3), Valérie-Ann Edmond Mariette (Université des Antilles PHEEAC-CIRESC), Grégory Pierrot (University of Connecticut), Michaël Roy (Université Paris Cité) et Chelsea Stieber (Tulane University).
 
-<div style="width: 50%; margin: 0 auto">  
-  <img src="../../../images/news/expo4.jpg" alt="Attendants looking at an original document." />  
-</div> 
+<div style="display:flex; gap:10px">
+  <span style="width: 50%">
+    <img src="../../../images/news/expo3.jpg" alt="Les organisateurs." />  
+  </span>
+  <span style="width: 50%">
+    <img src="../../../images/news/expo4.jpg" alt="Des agents examinent un document original." />  
+  </span>
+</div>
 
 L'exposition bénéficie également du soutien d’un comité scientifique composé d'Audrey Célestine (New York University), Myriam Cottias (CNRS PHEEAC-CIRESC), Marlene Daut (Yale University), Brent H. Edwards (Columbia University), Sara K. Johnson (University of California San Diego), Claire Parfait (Université Sorbonne Paris Nord), Marie-Jeanne Rossignol (Université Paris Cité) et Marie-Ève Thérenty (Université Paul-Valéry Montpellier 3).
 
