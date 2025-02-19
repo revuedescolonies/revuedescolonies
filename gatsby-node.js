@@ -268,7 +268,7 @@ async function makeNewsIndex(createPage, reporter, graphql) {
 
   const result = await graphql(`
     query NewsIndex {
-      allFile(filter: {sourceInstanceName: {eq: "news"}}) {
+      allFile(filter: {sourceInstanceName: {eq: "news"}}, sort: {birthtime: DESC}) {
         group(field: {dir: SELECT}) {
           nodes {
             birthTime
