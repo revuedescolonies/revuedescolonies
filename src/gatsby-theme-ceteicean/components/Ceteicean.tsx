@@ -91,7 +91,7 @@ const EditionCeteicean = ({pageContext}: Props) => {
       if (el.parentElement?.tagName.toLocaleLowerCase() !== "tei-listbibl") {
         return <SafeUnchangedNode {...props}/>
       }
-      return renderEntity(Object.assign({}, props, {entityType: "tei-persName"}))
+      return renderEntity(Object.assign({}, props, {entityType: "tei-title"}))
     },
     "tei-persname": EntityLink,
     "tei-placename": EntityLink,

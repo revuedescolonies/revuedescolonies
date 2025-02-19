@@ -324,12 +324,12 @@ async function makeIndices(createPage, reporter, graphql, publishedTei) {
         const entities = lists.querySelectorAll(entityName)
         let entityArr = []
         entities.forEach((entity)=> {
-            let name = entity.querySelector(nameAttr).textContent
+            let name = entity.querySelector(nameAttr)
             let id = entity.getAttribute(idAttr)
             if(name && id) {
                 entityArr.push({
                     id,
-                    name,
+                    name: name.textContent,
                     occurrences:[]
                 })
             }
@@ -406,6 +406,13 @@ async function makeIndices(createPage, reporter, graphql, publishedTei) {
   indexObj.org = parseEntityTag(entityDoc, "listOrg", "org", "orgName", "xml:id")
   indexObj.bibl = parseEntityTag(entityDoc, "listBibl", "bibl", "title", "xml:id")
 
+  const editionStmtNode = result.data.allCetei.nodes.find(n => n.original.includes(`<editionStmt`));
+  const editionStmtDoc = new JSDOM(editionStmtNode.original, {contentType:'text/xml'}).window.document;
+  const authors = {}
+  editionStmtDoc.querySelectorAll("name").forEach(n => {
+    authors[n.getAttribute("xml:id")] = n.textContent
+  })
+
   for (const document of result.data.allCetei.nodes.filter(n => publishedTei.includes(n.parent.name.split("-")[0]))) {
     if (document.original.includes(`xml:id="RdC`)) {
       const tei = new JSDOM(document.original, {contentType:'text/xml'}).window.document;
@@ -430,7 +437,8 @@ async function makeIndices(createPage, reporter, graphql, publishedTei) {
         language: "en",
         data: entity,
         elements: entitiesNode.elements,
-        prefixed: serialize(entityEl)
+        prefixed: serialize(entityEl),
+        authors
       }
     })
     createPage({
@@ -440,7 +448,8 @@ async function makeIndices(createPage, reporter, graphql, publishedTei) {
         language: "fr",
         data: entity,
         elements: entitiesNode.elements,
-        prefixed: serialize(entityEl)
+        prefixed: serialize(entityEl),
+        authors
       }
     })
   }
