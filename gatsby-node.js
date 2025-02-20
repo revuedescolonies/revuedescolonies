@@ -159,11 +159,11 @@ async function makePages(createPage, reporter, graphql) {
               path
               title
               author
+              date
               }
               parent {
               ... on File {
                 sourceInstanceName
-                birthTime
                 dir
               }
             }
@@ -185,29 +185,29 @@ async function makePages(createPage, reporter, graphql) {
       lastFr: allFile(
         filter: {sourceInstanceName: {eq: "news"}, dir: {regex: "/news\\/fr/"}}
         limit: 1
-        sort: {birthTime: DESC}
+        sort: {childMarkdownRemark: {frontmatter: {date: DESC}}}
       ) {
         nodes {
           childrenMarkdownRemark {
             frontmatter {
               title
+              date
             }
           }
-          birthTime
         }
       }
       lastEn: allFile(
         filter: {sourceInstanceName: {eq: "news"}, dir: {regex: "/news\\/en/"}}
         limit: 1
-        sort: {birthTime: DESC}
+        sort: {childMarkdownRemark: {frontmatter: {date: DESC}}}
       ) {
         nodes {
           childrenMarkdownRemark {
             frontmatter {
               title
+              date
             }
           }
-          birthTime
         }
       }
     }
@@ -253,7 +253,7 @@ async function makePages(createPage, reporter, graphql) {
         context: {
           content: node.html,
           title: node.frontmatter.title,
-          createdTime: node.parent.birthTime,
+          createdTime: node.frontmatter.date,
           author: node.frontmatter.author,
           lang
         }
@@ -268,15 +268,15 @@ async function makeNewsIndex(createPage, reporter, graphql) {
 
   const result = await graphql(`
     query NewsIndex {
-      allFile(filter: {sourceInstanceName: {eq: "news"}}, sort: {birthtime: DESC}) {
+      allFile(filter: {sourceInstanceName: {eq: "news"}}, sort: {childMarkdownRemark: {frontmatter: {date: DESC}}}) {
         group(field: {dir: SELECT}) {
           nodes {
-            birthTime
             childMarkdownRemark {
               excerpt
               frontmatter {
                 title
                 author
+                date
               }
             }
           }
@@ -294,7 +294,7 @@ async function makeNewsIndex(createPage, reporter, graphql) {
 
     const posts = group.nodes.map(n => {
       return {
-        createdTime: n.birthTime,
+        createdTime: n.childMarkdownRemark.frontmatter.date,
         excerpt: n.childMarkdownRemark.excerpt,
         title: n.childMarkdownRemark.frontmatter.title,
         author: n.childMarkdownRemark.frontmatter.author

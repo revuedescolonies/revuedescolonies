@@ -1,6 +1,7 @@
 ---
 title: "Colloquium — The <em>Revue des Colonies</em>: Diasporic Networks and the Struggle for Abolition"
 author: Maria Beliaeva Solomon
+date: 2025-01-21
 ---
 
 <div style="width: 33%; float: left; margin-right: 1em">

@@ -1,6 +1,7 @@
 ---
 title: "Opening of the Traveling Exhibition <em>La Revue des Colonies: Diaspora + Abolition</em>"
 author: Maria Beliaeva Solomon 
+date: 2025-02-18
 ---
 
 <div style="display:flex; gap:10px">
