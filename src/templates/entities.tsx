@@ -11,10 +11,16 @@ import { Ref, SafeUnchangedNode } from "gatsby-theme-ceteicean/src/components/De
 import { slugify } from "../utils/slugify";
 import Birth from "./tei/Birth";
 
+interface repeatCount {
+  section: string
+  count: number
+}
+
 interface occurenceObj {
     pageName: string
     pageLink: string
     repeats: number
+    sections: repeatCount
 }
 
 interface Props {
@@ -38,6 +44,10 @@ type TEIProps = {
 
 
 const renderRefrences = (references:occurenceObj[], id: string) => {
+
+  const sectionStyle = {
+    paddingLeft: '30px',  // Note: "paddingLeft" is camelCase
+  };
     
     return (
       <List>
@@ -45,6 +55,13 @@ const renderRefrences = (references:occurenceObj[], id: string) => {
           <ListItem>
             <ListItemText>
               <Link to={`/${refObj.pageLink}?showEntities=${id}`}>{refObj.pageName} ({refObj.repeats})</Link>
+              {Object.entries(refObj.sections).map(([index, sectionData]) => (
+                <div>
+                  <p style={sectionStyle}>
+                  <Link to={`/${refObj.pageLink}#${sectionData.sectionId}`}>{sectionData.section} ({sectionData.count})</Link>
+                  </p>
+                </div>
+              ))}
             </ListItemText>
           </ListItem>
         ))}
