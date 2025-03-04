@@ -110,6 +110,16 @@ module.exports = {
           name:'index',
           link:'/fr/index'
         }
+      },
+      {
+        en: {
+          name: 'map',
+          link: '/en/map'
+        },
+        fr:{
+          name:'carte',
+          link:'/fr/carte'
+        }
       }
     ]
   },
