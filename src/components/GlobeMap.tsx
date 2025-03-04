@@ -8,10 +8,8 @@ import { Grid2, Box, Typography, Grid, useTheme } from "@mui/material";
 import Renderer from "gatsby-theme-ceteicean/src/components/Renderer";
 import Q from "../gatsby-theme-ceteicean/components/Q";
 import { DisplayContext, EntityContext, IOptions, TEntity } from "../gatsby-theme-ceteicean/components/Context";
-import Entity from "../gatsby-theme-ceteicean/components/Entity";
-import { Lang } from "./nav";
+import EntitySimple from "../gatsby-theme-ceteicean/components/EntitySimple";
 import useMediaQuery from "@mui/material/useMediaQuery"
-import theme from "../theme";
 
 interface GlobeMapProps {
   geojson: any; 
@@ -459,10 +457,8 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
     //   }
     //   return null
     // },
-    "tei-place": (props) => <Entity isSynoptic={false} entityType={"tei-placeName"} {...props} />,
+    "tei-place": (props) => <EntitySimple isSynoptic={false} entityType={"tei-placeName"} {...props} />,
   }
-  
-  
 
   return (
 
