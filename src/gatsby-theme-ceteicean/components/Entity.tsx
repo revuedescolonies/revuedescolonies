@@ -174,19 +174,11 @@ const Entity: EntityBehavior = (props: TEIProps) => {
         <CloseIcon />
       </IconButton>)
 
-<<<<<<< HEAD
     const resp = entityContent?.getAttribute("resp")
     const authors = resp?.split(" ") || []
     const authorsData = authors.reduce<string[]>((acc, a) => {
       if (a && a !== "#other") {
         const authorEl = entityContent.ownerDocument.getElementById(a.replace("#", ""))
-=======
-      const entityContent = Array.from(el.children).filter(c => c.getAttribute('lang') === (cardLang))[0]
-      const resp = entityContent.getAttribute("resp")
-      let author: JSX.Element | undefined = undefined 
-      if (resp) {
-        const authorEl = entityContent.ownerDocument.getElementById(resp.replace("#", ""))
->>>>>>> cf6e1d79f1d1c8da585b1c79262c4bf5b6b1557e
         if (authorEl) {
           acc.push(authorEl.textContent || "")
         }
