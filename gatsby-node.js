@@ -445,7 +445,7 @@ async function makeIndices(createPage, reporter, graphql, publishedTei) {
         // for each entity found
         entities.forEach((entity)=> {
             // the name and id is extracted from the entity
-            let name = entity.querySelector(nameAttr).textContent
+            let name = entity.querySelector(nameAttr)
             let id = entity.getAttribute(idAttr)
             // the name and id values are added for each entity with an empty
             // list of occurences that will be populated later
