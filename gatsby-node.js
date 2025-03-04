@@ -63,6 +63,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   let search_index = await makeSearchIndex(reporter, graphql, publishedTei)
   await makeSearchPage(createPage, JSON.stringify(search_index))
+
+  await makeMap(createPage, reporter, graphql)
 }
 
 async function makeCeteiceanPages(createPage, reporter, graphql, publishedTei) {
@@ -311,6 +313,84 @@ async function makeNewsIndex(createPage, reporter, graphql) {
     })
 
   })
+}
+
+async function makeMap(createPage, reporter, graphql) {
+  const component = require.resolve(`./src/templates/map.tsx`)
+
+  const result = await graphql(`
+    query EntityDataQuery { 
+      allFile(filter: {name: {eq: "entities"}}) {
+        nodes {
+          childCetei {
+            prefixed
+            elements
+          }
+        } 
+      } 
+    }  
+  `)
+
+  if (result.errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query.`)
+    return
+  }
+  const entitiesNode = result.data.allFile.nodes[0].childCetei;
+
+  // JSDOM
+  const prefixedDoc = new JSDOM(entitiesNode.prefixed, { contentType: 'text/xml' }).window.document;
+
+  const placeData = [];
+  const geoData = [];
+  // Get place from original 
+  const placeElements = prefixedDoc.querySelectorAll('tei-place');
+  const container = prefixedDoc.createElement("tei-div")
+
+  placeElements.forEach((placeElement) => {
+    // For each place in original 
+    const xmlId = placeElement.getAttribute('xml:id'); 
+    // parse geojson data 
+    const geoElement = placeElement.querySelector('tei-geo[decls="#geojson"]');
+    if (geoElement) {
+      
+      const snippet = JSON.parse(geoElement.textContent);
+      // Add xml:id to the properties of the geojson snippet
+      snippet.properties.id = xmlId;
+      geoData.push(snippet)
+      // Find the places with geodata in prefixed XML 
+      container.appendChild(placeElement)
+    }  
+  });
+
+  const contextGeoJSON = {
+    type: "FeatureCollection",
+    features: geoData.flatMap(snippet => snippet.features || [snippet]),
+  };
+  
+  createPage({
+    path: '/en/map',
+    component,
+    context: {
+      geojson: contextGeoJSON, 
+      language: 'en',
+      
+      elements: entitiesNode.elements,
+      prefixed: serialize(container)
+    }
+  }) 
+
+  createPage({
+    path: '/fr/carte',
+    component,
+    context: {
+      geojson: contextGeoJSON, 
+      language: 'fr',
+
+      elements: entitiesNode.elements,
+      prefixed: serialize(container)
+    }
+  })
+  
 }
 
 async function makeIndices(createPage, reporter, graphql, publishedTei) {
