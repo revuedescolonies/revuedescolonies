@@ -3,6 +3,9 @@ const { JSDOM } = jsdom;
 const serialize = require("w3c-xmlserializer");
 const MiniSearch = require("minisearch");
 
+// slugify(text) aims to convert the input string to all lowercase
+// and remove html tags, replace spaces with '-', and remove
+// special characters
 function slugify(text) {
   return text.toLowerCase()
     .replace(/<[^>]+>/g, '') // remove html tags
@@ -11,13 +14,36 @@ function slugify(text) {
     .replace(/[^\p{L}-]+/gu,'') // remove all non word or - characters. 
 }
 
+// customizing new schemas for the program
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions;
+  // developing types
+
+  // RepeatCount stores the section and instances
+  // of each index value 
+
+  // Occurence stores the name of the document, 
+  // the total times an index value is repeated and 
+  // and the breakdown of sections
+
+  // index stores the id of the index value, the name
+  // of it, and the number of occurences it has in 
+  // the documents
+
+  // indexData stores the index type of all the index 
+  // values in 4 categories: person, place, places, bibl
   createTypes(`
+    type RepeatCount {
+      sectionId: String!
+      section: String!
+      count: Int!
+    }
+
     type Occurence {
         pageName: String!
         pageLink: String!
-        repeats: Int! 
+        repeats: Int!
+        sections: [RepeatCount!]! 
     }
 
     type index {
@@ -35,6 +61,9 @@ exports.createSchemaCustomization = ({ actions }) => {
     `)
 }
 
+// getPublishedTEI(graphql) sends a graphql query where 
+// data is requested from the collection of documents
+// and maps the data with base path values
 async function getPublishedTEI(graphql) {
   const result = await graphql(`
     query allPublishedTEI {
@@ -48,6 +77,7 @@ async function getPublishedTEI(graphql) {
 
   return result.data.allTocJson.nodes.map(node => node.teiBasePath);
 } 
+
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
@@ -123,6 +153,8 @@ async function makeCeteiceanPages(createPage, reporter, graphql, publishedTei) {
   }
 }
 
+// makeSearchPage() creates the search page that allows for users to search
+// for values based on if the language of the site is english or french
 async function makeSearchPage(createPage, search_index) {
   const component = require.resolve(`./src/templates/search.tsx`)
 
@@ -393,19 +425,30 @@ async function makeMap(createPage, reporter, graphql) {
   
 }
 
+// makeIndices(create Page, reporter, graphql, publishedTei) creates the 
+// index page
 async function makeIndices(createPage, reporter, graphql, publishedTei) {
+  // stores absolute paths of the indices.tsx and entities.tsx file
   const component = require.resolve(`./src/templates/indices.tsx`)
   const entityComponent = require.resolve(`./src/templates/entities.tsx`)
 
+  // each entity tag is parsed in the entity list for the index
   const parseEntityTag = (entityDoc, tagName, entityName, nameAttr, idAttr) => {
+    // finds the locations of the html tag passed in tagName in the document
     const lists = entityDoc.querySelector(tagName);
 
+    // if the tag is located in the document
     if(lists) {
+      // the instances of the html tag storing the entityName is found and stored
         const entities = lists.querySelectorAll(entityName)
         let entityArr = []
+        // for each entity found
         entities.forEach((entity)=> {
-            let name = entity.querySelector(nameAttr)
+            // the name and id is extracted from the entity
+            let name = entity.querySelector(nameAttr).textContent
             let id = entity.getAttribute(idAttr)
+            // the name and id values are added for each entity with an empty
+            // list of occurences that will be populated later
             if(name && id) {
                 entityArr.push({
                     id,
@@ -421,6 +464,7 @@ async function makeIndices(createPage, reporter, graphql, publishedTei) {
 
   //for parsing tei xml files 
   const findOccurences = (teiXMLDoc, entities, tagName, ref, docName) => {
+    // stores the name of the document 
     const teiHeader = teiXMLDoc.querySelector("teiHeader")
     let pageName = "pagename"
     if(teiHeader) {
@@ -428,21 +472,75 @@ async function makeIndices(createPage, reporter, graphql, publishedTei) {
       pageName = titleSmt.querySelector("title").textContent
     }
     
+    //entityEls = stores nodeList of all instances of the tagName (persName, placeName, etc)
     const entityEls = teiXMLDoc.querySelectorAll(tagName);
     
+    // goes through each instance in the nodeList
     entityEls.forEach((tag) => {
+      //stores value for the ref in the instance
       const refValue = tag.getAttribute(ref)
       if (refValue) {
+        // if the ref exists, checks to see if the id of an entity matches the ref Value in the XML
         const entity = entities.find((entity)=>entity.id === refValue.substring(1))
+        // use .filter() on this Array to find the current tag (use getAttribute to find the id)
+        // if the entity does match
         if (entity) {
+          const closestDiv = tag.closest("div")
+
+          let section;
+          let sectionId;
+          if (closestDiv ) {
+            if (closestDiv.getAttribute("xml:id")){
+              sectionId = closestDiv.getAttribute("xml:id")
+            }
+            section = closestDiv.querySelector("head")
+          }
+
+          let sectionText;
+          if (section) {
+            const nVal = section.getAttribute("n")
+            if (nVal) {
+              sectionText = nVal
+            } else {
+              sectionText = section.textContent
+            }
+          };
+          
+          
+          // the name of the section the index value is located in is stored
+          // for each occurence of the index, checks to see if the name of the 
+          // document is the same as the link of the page of the reference
           const sameDocOccurrence = entity.occurrences.find(o => o.pageLink === docName.name)
-          if (sameDocOccurrence) {
-            sameDocOccurrence.repeats++
+
+          if (sameDocOccurrence && sectionText) {
+        
+            // checks to see if the section is found in the sections subtype
+            
+            const sectionRepeat = sameDocOccurrence.sections.find((repeat) => repeat.section === sectionText);
+            if (sectionRepeat) {
+              // If the section is found, increase the count of repeats in that section
+              sectionRepeat.count++;
+              sameDocOccurrence.repeats = sameDocOccurrence.sections.reduce((total, section) => total + section.count, 0);
+            } else {
+              // If the section is not found, add a new RepeatCount for the section
+              sameDocOccurrence.sections.push({ "sectionId": sectionId, "section": sectionText, "count": 1 });
+              sameDocOccurrence.repeats = sameDocOccurrence.sections.reduce((total, section) => total + section.count, 0);
+            }
+            
+
           } else {
+            // if the sameDocOccurrence is null, the occurences list is updated, 
+            // to specfiy data of each occurence, storing the name of the document,
+            // name of the parent node, and that the occurence is once
             entity.occurrences.push({
               "pageName": pageName,
               "pageLink": docName.name,
-              "repeats": 1
+              "repeats": 1,
+              "sections": [{
+                "sectionId": sectionId,
+                "section": sectionText,
+                "count": 1
+              }]
             })
           }
         }
@@ -467,11 +565,14 @@ async function makeIndices(createPage, reporter, graphql, publishedTei) {
       }
     }
   `)
+  // if the graphql query runs into errors, an error message is passed
   if (result.errors) {
     reporter.panicOnBuild(`Error while running GraphQL query.`)
     return
   }
 
+  // fragment looks at entities stored in an xml document and then parses through all
+  // other documents to locate instances of the entities 
   const indexObj = {
     "persons":[],
     "org":[],
@@ -506,9 +607,11 @@ async function makeIndices(createPage, reporter, graphql, publishedTei) {
     }
   }
 
-  // Create entity pages
+  // entityDocPrefixed creates a new document for the entities
   const entityDocPrefixed = new JSDOM(entitiesNode.prefixed, {contentType:'text/xml'}).window.document;
+  // for each entity
   for (const entity of Object.values(indexObj).flat()) {
+    // get the name of the element 
     const entityEl = entityDocPrefixed.getElementById(entity.id);
     createPage({
       path: `/en/${slugify(entity.name)}`,
@@ -534,9 +637,7 @@ async function makeIndices(createPage, reporter, graphql, publishedTei) {
     })
   }
 
-  // Create index page
-
-  // en
+  // create index page in english
   createPage({
     path: `/en/index`,
     component,
@@ -545,7 +646,7 @@ async function makeIndices(createPage, reporter, graphql, publishedTei) {
       data: indexObj
     }
   })
-  // fr
+  // create index page in french
   createPage({
     path: `/fr/index`,
     component,
@@ -576,6 +677,7 @@ async function makeSynoptic(createPage, reporter, graphql, publishedTei) {
     }
   `)
 
+  // If there is an error while running the graphql, alerts user
   if (result.errors) {
     reporter.panicOnBuild(`Error while running GraphQL query.`)
     return
@@ -824,6 +926,7 @@ async function makeSearchIndex(reporter, graphql, publishedTei){
     return heading
   }
 
+  // builds table of contents regarding the name of the documents 
   function indexDocument(document) {
     const {title, headings} = document
   
