@@ -372,7 +372,6 @@ async function makeMap(createPage, reporter, graphql) {
   // JSDOM
   const prefixedDoc = new JSDOM(entitiesNode.prefixed, { contentType: 'text/xml' }).window.document;
 
-  const placeData = [];
   const geoData = [];
   // Get place from original 
   const placeElements = prefixedDoc.querySelectorAll('tei-place');

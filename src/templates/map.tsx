@@ -17,8 +17,9 @@ interface Props {
 
 export default function MapPage({pageContext}: Props) {
   const { geojson, language, elements, prefixed} = pageContext; 
+  const loc = `/${language}/${language === "en" ? "map" : "carte"}`
   return (
-      <Layout location={location.pathname}>
+      <Layout location={loc}>
           <SEO title={'map'} lang={language}/>
           <Container component="main">
             <GlobeMap geojson={geojson} elements={elements} prefixed={prefixed} language={language}/> {}
