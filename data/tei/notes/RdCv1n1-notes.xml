@@ -223,24 +223,8 @@
             <p>Mésence, le tyran étrusque dans l'<title>Énéide</title> de Virgile, Caligula, l’empereur romain connu pour sa cruauté et sa débauche, et Louis XI, emblème du despotisme médiéval dans la littérature romantique, sont ici évoqués pour sous-entendre que la cruauté et la corruption des planteurs et administrateurs coloniaux surpassent celle des personnages historiques ou mythologiques les plus infâmes.</p>
         </note>
     </noteGrp>
-    <noteGrp xml:id="n3E34">
-        <note xml:lang="en" type="translation_note">
-            <p>The <title>Revue</title>’s use of “man” or “men” to refer to humanity is conventional for the time.</p>
-        </note>
-    </noteGrp>
-    <noteGrp xml:id="n2F0A">
-        <note xml:lang="en" type="translation_note">
-            <p>The following is the official English translation of the Declaration, referenced in the Preamble of the French Constitution, made available by the Conseil constitutionnel at <ref target="">http://www.conseil-constitutionnel.fr/</ref>.</p>
-        </note>
-    </noteGrp>
-    <noteGrp xml:id="n5F16">
-        <note xml:lang="en" type="translation_note">
-            <p><title>Métropole</title> or Metropolitan France refers to the part of the country located geographically in Europe, as distinct from France’s overseas territories and, at the time of the <title>Revue</title>, its colonies.</p>
-        </note>
-    </noteGrp>
-    <noteGrp xml:id="n3701">
-        <note xml:lang="en" type="translation_note">
-            <p>“Worthless” is a translation of the word “vil,” from which the English word “vile” is derived, but which here indicates lack of value rather than moral or physical offensiveness.</p>
-        </note>
-    </noteGrp>
+    <noteGrp xml:id="n3E34"/>
+    <noteGrp xml:id="n2F0A"/>
+    <noteGrp xml:id="n5F16"/>
+    <noteGrp xml:id="n3701"/>
 </noteGrp>

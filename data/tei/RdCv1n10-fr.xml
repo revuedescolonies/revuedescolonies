@@ -1034,9 +1034,10 @@
             <!--How to do a painting ref? Create tag --> 
                   <persName ref="#FAB">M. Biard</persName>, 
                   excite au salon de cette année une sympathie non équivoque et qui se renouvelle incessamment pour ces malheureuses victimes de la cupidité. Le même sujet va être exposé au théâtre sous quelques jours avec son hideux cortège de chaînes et de carcans. Les organes les plus estimés de la presse ne font pas non plus défaut à cette noble cause. Indépendamment de nos grands journaux politiques, nos publications populaires à bon marché, ces répertoires de science et d’instruction, tirés à cent cinquante 
+                  <note><bibl type="monogr"><emph>Marie</emph>, ou l'esclavage aux États-Unis</bibl>, par <persName ref="#GdB">M. Gustave de Beaumont</persName>. Voyez notre article <emph>Bibliographie</emph>, page 45.</note>
             <!--Comment encoder les notes de bas de page? Demander -->
                   <pb n="24" facs="v1n10p24"/>
-                  mille exemplaires : 
+                  mille exemplaires: 
                   <bibl type ="periodical"><emph>le Magasin Pittoresque</emph></bibl>, 
                   <bibl type ="periodical"><emph>le Musée des Familles</emph></bibl>, 
                   <bibl type ="periodical"><emph>la Mosaïque</emph></bibl>, 
@@ -1769,7 +1770,7 @@
                   , député, 
                   <persName ref="#RESC">de Sainte-Croix</persName> 
                   et 
-                  <persName ref="#GdB">G. de Beaumont</persName>.
+                  <persName>G. de Beaumont</persName>.
                </p>
                <p>
                   — Une autre commission, composée de MM. 
@@ -1849,9 +1850,9 @@
                   a cru devoir publier à l’occasion de la formation de la 
                   <orgName ref="#SAE">société pour l’abolition de l’esclavage.</orgName> 
                   Notre impartialité nous fait un devoir de publier la missive de 
-                  <persName ref="#AFoi">M. Foignet</persName>
+                  <persName>M. Foignet</persName>
                   ; toutefois nous l’accompagnerons de quelques remarques, et de la réplique de 
-                  <persName ref="#RESC"> M. de Sainte-Croix.</persName>
+                  <persName> M. de Sainte-Croix.</persName>
                </p>
                <p>
                   Paris, le 25 mars 1835
@@ -1869,21 +1870,240 @@
             <!--Check formatting-->
                <p>
                   « Votre numéro du mois de mars contient un rapport que 
-                  <persName ref="#RESC"> M. de Sainte-Croix</persName> 
+                  <persName>M. de Sainte-Croix</persName> 
                   aurait fait à la 
-                  <orgName ref="#SAE">société pour l’abolition de l’esclavage</orgName>
+                  <orgName>société pour l’abolition de l’esclavage</orgName>
                   , sur une note que j’ai eu l’occasion de lui fournir. Je ne sais s’il a obtenu l’assentiment général de la société ; il me permettra d’en douter: car ayant écrit à l’un de ses membres, au sujet de suppositions injurieuses de certain journal (1), qui du reste s’empressa de rétracter ce qu’il avait si légèrement avancé, voici la réponse qui me fut faite. « Je ne crois pas, monsieur, que vous puissiez être blessé des articles de journaux, pas plus que nous, députés, qui sommes chaque jour violemment attaqués. Quant aux mem- 
                </p>
-               <p>
-                  (1) <emph>De certain journal….</emph> 
-                  Il s’agit, croyons-nous, du 
-                  <emph><bibl type="periodical">Courrier français.</bibl></emph> 
-                  C’est là, comme on voit, une expression quelque peu superbe, et qui témoigne bien du peu de cas que 
-                  <persName ref="#AFoi">M. Foignet</persName> 
-                  fait de la presse et des journaux. Fi! (Note du Directeur. )
+               <note>(1) <emph>De certain journal….</emph> Il s’agit, croyons-nous, du <emph><bibl type="periodical">Courrier français.</bibl></emph> C’est là, comme on voit, une expression quelque peu superbe, et qui témoigne bien du peu de cas que <persName ref="#AFoi">M. Foignet</persName> fait de la presse et des journaux. Fi! (<emph>Note du Directeur</emph>.)</note>
                <!--Check formatting for note en bas de page-->
-               </p>
                <pb n="41" facs="v1n10p41"/>
+               <p>
+                  bres de la société, ils ont tous dit qu'ils vous regardaient comme un des hommes les moins éloignés de leur opinion parmi les colons, et qu'ils rendaient la plus entière justice à l'acte de franchise et de conscience que vous avez faits en leur présentant la note que vous avez écrite. Je puis vous assurer que non seulement
+                  <persName ref="#PAS">M. Passy</persName>
+                  , mais nous tous, nous serons très 
+                  <choice>
+                     <orig>contens</orig>
+                     <reg>contents</reg>
+                  </choice>
+                  d'avoir de vous 
+                  <emph>un rapport plus détaillé sur les moyens d'exécution des 
+                  <choice>
+                     <orig>établissemens</orig>
+                     <reg>établissements</reg>
+                  </choice> 
+                  que vous proposez</emph>.
+                  J'ai l'honneur de vous répéter que nous avons été tous sensibles à votre démarche, de venir parmi nous causer avec nous de si graves intérêts, et que l'estime que vous portaient tous ceux d'entre nous qui vous connaissaient déjà de réputation en a été augmentée. J'espère avoir occasion de vous consulter encore à ce sujet, et je serais heureux d'avoir de nouvelles relations avec vous, etc. (1)
+               </p>
+               <p>
+                  « Le ton tout tranchant et doctoral de 
+                  <persName>M. le marquis de Sainte-Croix</persName>
+                  , contraste singulièrement avec le langage circonspect, calme et digne des rapports qui ont précédé le sien. Je ne trouve dans celui-ci rien qui ait pu détruire l'accueil favorable fait aux mesures préparatoires que j'ai indiquées, ce qui me console, je l'avoue, du malheur de sa désapprobation.
+               </p>
+               <p>
+                 «<persName>M. de Sainte-Croix</persName> 
+                 se plaint(2) de ce que je conteste timidement, de ce que j'accorde, puis ensuite que j'abonde en objections, en embarras, en difficultés. C'est qu'en effet la question n'est pas aussi facile qu'elle apparaît à certains esprits 
+                 <choice>
+                     <orig>impatiens</orig>
+                     <reg>impatients</reg>
+                  </choice>
+                  , qui jugeraient volontiers sans entendre; mais s'il règne de l'incertitude dans la discussion, d'où cela provient-il? si ce n'est de l'incertitude et des embarras de la <orgName>société pour l'abolition de l'esclavage</orgName> elle-même? Elle n'a pu encore adopter aucun plan d'exécution; semblable à
+               </p>
+               <note>(1) Cette lettre fait beaucoup d'honneur à <persName>M. Foignet</persName>. Nous prêtons avec plaisir nos colonnes à la publicité de semblables choses. Assurément il est agréable, quelque modeste que l'on soit, de recevoir de pareils 
+               <choice>
+                  <orig>complimens</orig>
+                  <reg>compliments</reg>
+               </choice>
+               . (<emph>Note du Directeur</emph>.)
+               </note>
+               <note><persName>M. de Sainte-Croix</persName> ne se plaint de rien. Il analyse tout simplement dans son rapport la note de <persName>M. Foignet</persName>; il démontre tout ce que cette note a d'embarrassé, d'obscur, de contradictoire. Il ne prétend <emph>détruire</emph> aucun <emph>accueil favorable</emph>; il ne sait même pas ce que peut être que <emph>la destruction d'un accueil favorable</emph>. Mais, en revanche, son lumineux rapport, d'une logique serrée et puissante, détruit parfaitement les mauvais 
+               <choice>
+                  <orig>raisonnemens</orig> 
+                  <reg>raisonnements</reg> 
+               </choice>
+               et assertions erronnées de <persName>M. Foignet</persName>. (<emph>N du D·</emph>)
+               </note>
+               <pb n="42" facs="v1n10p42"/>
+               <p>
+                  un architecte qui proposerait d'élever un vaste monument sans pouvoir s'expliquer sur le temps et l'argent nécessaires, ni sur ce qu'il faudra abattre et détruire pour trouver un emplacement convenable. Elle a probablement de fortes raisons pour se taire: ces raisons, on ne s'en contente pas; il est plus que temps de s'expliquer.
+               </p>
+               <p>
+                  «J'ai eu l'honneur de voir plusieurs membres de cette société: voici ce que j'ai recueilli. Les uns pensent que pour 
+                  <choice>
+                     <orig>long-temps</orig> 
+                     <reg>longtemps</reg> 
+                  </choice>
+                  encore l'émancipation est impraticable; d'autres se contenteraient du <emph>statu quo</emph> sur la question, sauf des améliorations progressives; ceux-ci admettent l'affranchissement avec une préalable indemnité; ceux-là la veulent sans indemnité aucune (1). A travers toutes ces opinions contradictoires on parle d'emprunt, avec une réserve d'une portion d'intérêts qui, dans un temps plus ou moins long, permettrait l'amortissement du capital.
+               </p>
+               <p>
+                  «Au risque de mécontenter encore, je dirai à la <orgName>société d'émancipation</orgName>: si vous avez la conviction profonde de la possibilité de l'affranchissement des noirs, il n'y a que deux partis à prendre.
+               </p>
+               <p>
+                  «1⁰ L'émancipation du <bibl type="legal">bill d'Angleterre</bibl> avec une large et préalable indemnité, le gouvernement assumant sur lui toutes les chances du travail libre. (2)
+               </p>
+               <p>
+                  « Si on n'ose pas engager sa responsabilité en provoquant cette mesure législative, si l'état de nos finances la rend impossible; alors 2⁰ le maintien de la possession des cultivateurs, dans les mains des colons, et avec leur concours des améliorations progressives.
+               </p>
+               <note> (1) Toute cette partie de la lettre de <persName>M. Foignet</persName> concernant la <orgName>Société pour l'abolition de l'esclavage</orgName> sera réfutée, nous le pensons, par les actes même de cette société. Elle fera comme le philosophe devant qui on niait le mouvement: elle marchera. Quant à ceux de ses membres <emph>qui pensent</emph>, comme prétend <persName>M. Foignet</persName> l'avoir ouï de leur propre bouche, <emph>que pour 
+               <choice>
+                  <orig>long-temps</orig> 
+                  <reg>longtemps</reg> 
+               </choice> 
+               <choice>
+                  <orig>encor</orig> 
+                  <reg>encore</reg> 
+               </choice>
+               l'émancipation est impraticable</emph>, nous ne pensons pas qu'ils soient fort nombreux, si tant est qu'il y en ait réellement. Nous comprendrions mal, à vrai dire, pourquoi ces messieurs feraient partie de cette société. <quote>Que diable seraient-ils venu faire dans cette galère!</quote> (<emph>Note du Directeur.</emph>)</note>
+               <note>(2) C'est là aussi tout ce que nous voulons, tout ce que voudra probablement <orgName>la société pour l'abolition de l'esclavage</orgName>. Seulement nous ne voyons pas la nécessité que l'émancipation ait lieu avec une <emph>large</emph> et préalable indemnité. Le mot <emph>large</emph> nous paraît curieux là. (<emph>N du D.</emph>)</note>
+               <pb n="43" facs="v1n10p43"/>
+               <p>
+                  « Je m'explique clairement, je pense, et je crois autant qu'un autre servir la cause de l'humanité en posant franchement ce dilemme. Cela fait, ce ne sera pas ma faute si l'opinion publique choisit ce qui conviendra le moins à <orgName>la société d'émancipation</orgName> : nous sommes dans un siècle positif, qui se contente peu de phrases pompeusement arrondies, qui n'a pas fois aux utopies (1), où l'on veut être juste avant d'être libéral, et où l'on se méfie tant <emph>soi</emph> peu de ceux qui veulent faire de la philanthropie sans danger et aux dépens d'autrui.
+               </p>
+               <p>
+                  « Que la <orgName>société</orgName> adopte donc une bannière, elle connaîtra bientôt ses partisans et ses antagonistes; jusque là toute discussion est au moins inutile. (2)
+               </p>
+               <p>
+                  « <persName>M. le marquis de Sainte-Croix</persName>, qui a eu raison de douter s'il me comprenait (3), parle d'intérêts, de positions contraires aux
+                  <choice>
+                     <orig>sentimens</orig> 
+                     <reg>sentiments</reg> 
+                  </choice>
+                  philanthropiques. Je ne sais ce qu'il veut dire; je n'ai pas comme lui, Dieu merci, des motifs personnels de haine contre quelques créoles; je n'attends rien des colons, je n'ai rien à <emph>craindre ni à espérer</emph> de l'abolition de l'esclavage (4); ma position est donc parfaitement indépendante.
+               </p>
+               <p>
+                  « Quant à votre citation d'Homère, monsieur le rédacteur, il ne suffit pas toujours d'être plaisant, il faut encore être exact; votre comparaison ne l'est pas; je ne fuis point (5), je reste calme au
+               </p>
+               <note>(1) <emph>Utopies, phrases pompeusement arrondies</emph>, toutes choses qui ne plaisent point à <persName>M. Foignet</persName>. La liberté de la presse est encore une bien abominable chose: nous sommes surpris que <persName>M. Foignet</persName> n'ait pas parlé de ses <emph>violences, des excès</emph>, de la <emph>licence effrénée de la presse</emph>. Cela aurait merveilleusement fait avec le reste.(<emph>Note du Directeur.</emph>)</note>
+               <note>(2) C'est pourquoi <persName>M. Foignet</persName> prend soin de se livrer à une petite discussiion avec elle, <emph>sans phrases</emph>. (<emph>N. du D.</emph>)</note>
+               <note>(3) <persName>M. Foignet</persName> s'est déclaré l'ennemi des <emph>phrases pompeusement arrondies</emph> en plus d'un endroit de sa lettre, et ici notamment il ne se montre guère plus ami de la langue française. Pressez-le un peu, et vous verrez que <persName>M. Foignet</persName> soutiendra que nous sommes dans un siècle tout positif où l'on se soucie fort peu d'écrire bien ou mal. (<emph>N. du D.</emph>)</note>
+               <note>(4) Nous laissons à <persName>M. de Sainte-Croix</persName> à repondre à ces insinuations. (<emph>N. du D.</emph>)</note>
+               <note>(5) <emph>Le lièvre dont parle Homère</emph> n'excite point le rire en fuyant, mais en se mettant à courir entre les deux armées. Nous disons ceci pour l'honneur de notre logique. Que <persName>M. Foignet</persName> y réflechisse: il verra que notre comparaison ne manque poitn d'exactitude. Qu'a fait effectivement <persName>M. Foignet</persName>, sinon se mettre à courir, comme le lièvre d'Homère, entre les planteurs qui veulent garder les noirs esclaves et les philanthropes qui les veulent affranchir? (<emph>Note du Directeur.</emph>)</note>
+               <pb n="44" facs="v1n10p44"/>
+               <p>
+                  milieu des deux armées en présence, espérant encore que le langage de l'expérience et de la vérité pourra amenener la conviction et un rapprochement, sans m'inquiéter du reste des attaques qui peuvent être faites d'un côté ou de l'autre. Cette position n'est nullement équivoque, elle vaut bien celle plus adroite peut-être, et moins dangereuse, d'un service occulture dans les deux camps. (1)
+               </p>
+               <p>
+                  « Cherchez dans vos souvenirs, monsieur le rédacteur, et peut-être pourrez vous apprendre à <persName>M. le marquis de Sainte-Croix</persName> que ce n'est pas la première fois que je fais acte de franchise, d'indépendance et de désintéressement. (2)
+               </p>
+               <p>
+                  « Je ne puis croire, monsieur, que vous refusiez d'insérer ma réponse dans votre prochain numéro.
+               </p>
+               <p>
+                  « J'ai l'honneur d'être, etc. 
+               </p>
+               <p>
+                  <persName>« A. FOIGNET.»</persName>
+               </p>
+               <p>
+                  A M. le rédacteur de <bibl type ="periodical">la Revue des Colonies</bibl>.
+               </p>
+               <p>
+                  Paris, ce 27 mars 1835.
+               </p>
+               <p>
+                  « Monsieur, 
+               </p>
+               <p>
+                  « Je n'ai qu'un mot à dire sur la réponse de <persName>M. Foignet</persName>, que vous avez bien voulu me communiquer. Mes honorables amis de la <orgName>société pour l'abolition de l'esclavage</orgName> et moi sommes animés d'un même sentiment, et n'avons qu'un seul but, celui d'arriver par tous les moyens légaux et moraux à l'abolition de l'esclavage.
+               </p>
+               <p>
+                  « Appelé à donner mon opinion sur une note imprimée de <persName>M. Foignet</persName>, où il ne présente rien qui ne soit en arrière des besoins de l'époque, et que ne démentent d'ailleurs les récentes expériences de
+               </p>
+               <note> (1) Ici la finesse de la pensée de <persName>M. Foignet</persName> échappe à notre persipacité. Assurément il a voulu dire une malice; malhereusement nous ne le comprenons pas.(N. du D.)</note>
+               <note> (2) <persName>M. le marquis de Sainte-Croix</persName> n'a eu nullement à s'occuper de <emph>la franchise</emph>, non plus que de <emph>l'indépendance</emph> et du <emph>désintéressement</emph> de <persName>M. Foignet</persName>, auxquels nous nous plaisons d'ailleurs à rendre personnellement hommage. <persName>M. de Sainte-Croix</persName> n'a vu et n'a dû voir dans <persName>M. Foignet</persName> que l'adversaire de l'abolition de l'esclavage. (N. du D.)</note>
+               <pb n="45" facs="v1n10p45"/>
+               <p>
+                  l'émancipation dans les colonies anglaises, j'ai dû nécessairement détruire pas mes 
+                  <choice>
+                     <orig>raisonnemens</orig> 
+                     <reg>raisonnements</reg> 
+                  </choice>
+                  les assertions de <persName>M. Foignet</persName>. Je suis fâché qu'il ait vu dans ma réfutation autre chose que ce qui y est. En tout cas, je n'ai donné à personne le droit d'attribuer à des motifs étrangers à la gravité de la question ce qui n'est que l'expression simple et sincère de mes convictions.
+               </p>
+               <p>
+                  « Trop au dessus des soupçons que laissent planer quelques tours amphibologiques et les phrases à double entente qu'on remarque çà et là dans la lettre de <persName>M. Foignet</persName>, il ne saurait me convenir de repousser de semblables insinuations.
+               </p>
+               <p>
+                  « Agréez, etc. 
+               </p>
+               <p>
+                  « Marquis DE SAINTE-CROIX.»
+               </p>
+            </div>
+            <div xml:id="Necro">
+               <head>NÉCROLOGIE.</head>
+               <p>
+                  Dans le courant du mois de mars il est mort à <placeName>Paris</placeName> deux hommes de couleur. L'un, <persName ref="#EBel">Eustache Belin</persName>, noir, était né à <placeName>Saint-Domingue</placeName>. Ce citoyen avait obtenu en 1832 le premier prix de vertu Monthyon (5,000 f.), décerné par <orgName>l'Académie française</orgName>. L'autre, <persName ref="#CBor">Charles Borno</persName>, étudiant en droit, était né à la <placeName>Pointe-à-Pitre, Guadeloupe</placeName>. Ce jeune homme avait fait de fort bonnes études, et faisait concevoir les plus belles espérances à sa famille. A son convoi funèbre assistait un grand nombre d'hommes de couleur de toutes les colonies. On y remarquait une députation de ses compatriotes du collège de Henri IV, et un professeur de ce collège, désignés par le proviseur; cette députation était ainsi composée: MM. Desbarest et Verlas, de la Guadeloupe, et MM. Eyma et <persName ref="#CJB">Charles Bissette</persName>, de <placeName>la Martinique</placeName>.
+         <!--Looking up the non-Bissette men will take some time-->
+               </p>
+            </div>
+            <div xml:id="Biblio">
+               <head>BIBLIOGRAPHIE.</head>
+               <p>
+                  <bibl type="monogr"><title ref="#Mar">MARIE OU L'ESCLAVAGE AUX ÉTATS-UNIS</title></bibl>, par <persName>M. Gustave de Beaumont</persName>. Paris, chez Charles Gosselin, libraire, rue Saint-Germain des Prés, n. 9; 2 vol. in-8⁰. Prix: 15 fr.
+               </p>
+               <p>
+                  C'est une chose bien affligeante pour l'ami des larges et belles institutions de <placeName>l'Amérique du nord</placeName> que le contraste qu'offrent les
+               </p>
+               <pb n="46" facs="v1n10p46"/>
+               <p>
+                  mœurs de l'Union avec son admirable constitution politique. C'est pitié en effet, dans ce pays où la liberté et l'égalité sont la base de toute hiérarchie, où les droits de l'homme sont hautement reconnus et mis en pratique, où l'élection est le grand ressort du gouvernement du peuple par lui-même, de rencontrer encore chez une grande partie de la population des préjugés stupides, tout à fait indignes d'un peuple libéral et éclairé comme a la réputation de l'être le peuple américain. Tel est, par exemple, jusque dans les états du nord, où l'esclavage des noirs a été aboli depuis
+                  <choice>
+                     <orig>long-temps</orig> 
+                     <reg>longtemps</reg> 
+                  </choice>
+                  sous la généreuse influence des premiers fondateurs de la liberté américaine, le préjugé barbare qui poursuit encore de nos jours les hommes dans les veines desquels coule le sang africain. En si petite quantité que ce soit, et fussiez-vous même, malgré ce mélange, plus blanc de teint qu'un Espagnol, quelques gouttes de ce sang suffisent là pour vous entacher d'une ignominie indélébile. C'est un péché originel que rien ne rachète, ni les vertus, ni le talent, ni même la richesse toute puissante et souveraine chez ces hommes de commerce et d'argent, avides et sordides; triste espèce qui forme malhereusement le fond de la nation américaine. Emancipés en droit et en fait, toute participation à l'œuvre nationale est cependant interdite par le préjugé aux hommes de race africaine; toutes les voies leur sont inexorablement fermées. La race de couleur est bien, d'après la loi, l'égale en tout de la race blanche, mais non dans la pratique sociale, non selon les mœurs; celles-ci la repoussent; l'égalité, quant à elle, chose monstrueuse, est encore un vain mot. 
+               </p>
+               <p>
+                  Cet incompréhensible préjugé, ce sentiment anormal, cet esprit d'iniquité, si étranges en un tel pays, et qui ont soulevé contre eux au sein même des villes où ils subsistent avec le plus d'intensité l'élite des hommes de cœur, ont révolté <persName>M.Gustave de Beaumont</persName> qui les a vus de près dans un assez long séjour en <placeName>Amérique</placeName>, et il a pris la plume. C'est à l'indignation qu'ils lui ont inspirée que nous devons l'excellent ouvrage dont le titre est en tête de cet article. <bibl type ="monogr">Marie, ou l'esclavage aux États-Unis</bibl>, est un tableau animé des douloureux effets de ces mœurs; une éloquente protestation contre cette étrange anomalie d'un peuple, tenu pour civilisé, dont les institutions sont en effet d'un mécanisme merveilleux, qui n'est pas sans sympathies élevées, où la religion compte des temples par 
+               </p>
+               <pb n="47" facs="v1n10p47"/>
+               <p>
+                  milliers et l'instruction d'innombrables écoles, et où il y a cependant encore des parias. Triste contraste d'une civilisation poussée jusqu'à ses dernières limites en quelques parties, et d'un préjugé grossier qui ne se retrouve au même degré que chez un des peuples les plus stationnaires de l'Inde! Contradiction flagrante entre les mœurs et les lois, qui s'effacera sans doute devant la double et incessante action de la philosophie et de la religion, mais qui subsiste dans toute sa force encore au sein d'une société républicaine et égalitaire! <foreign xml:lang="la">O vanas hominum mentes, ô pectora cœca!</foreign>
+               </p>
+               <p>
+                  <persName>M. Gustave de Beaumont</persName> fait ressortir d'une manière vive et sympathique, sous la forme du roman, tout ce que cet état social renferme de douleurs et de secrètes souffrances. Sa Marie est une jeune fille d'une nature supérieure et choisie, belle, douce, pleine de 
+                  <choice>
+                     <orig>talens</orig>
+                     <reg>talents</reg>
+                  </choice>
+                  , d'un admirable caractère, mais de sang mêlé, et par conséquent frappée de réprobation par la société américaine. De là tous ses malheurs; de là aussi ceux de Ludovic, jeune Français qui a conçu pour elle une de ces sérieuses passions qui dominent toute la vie d'un homme. Ce Français, ce philosophe, cet homme de cœur, inaccessible à toute considération de naissance ou de race, est vaincu pourtant dans sa lutte avec la société dont il méprise le sot esprit et les démarcations arbitraires; et c'est cette situation, c'est le développement de cet amour vrai et profond de Ludovic et de Marie, ce sont ces phrases diverses, c'est la raison et l'élevation de cœur aux prises avec la triste réalité, c'est tout cela qui fait le haut intérêt du livre de <persName>M. de Beaumont</persName>; c'est aussi ce qu'il faut voir dans le livre même; l'analyse ne saurait le rendre: tout au plus peut-elle donner une faible idée du sujet. Quant à la contexture du drame ou du roman, si elle veut la dire, elle s'y perd, s'y embrouille et la dit mal: elle est d'ailleurs impuissante à peindre, et chez <persName>M. de Beaumont</persName> tout est peinture. Sa manière large et élevée a quelque chose de grandiose, à la 
+                  <choice>
+                     <orig>Chateaubriant.</orig>
+                     <reg>Chateaubriand.</reg>
+                  </choice>
+                  Il procède volontiers à grands traits. Fin d'ailleurs, ingénieux aux endroits qui le comportent, c'est un écrivain d'un rare mérite, qui joint à l'élevation de l'esprit je ne sais quelle philosophie du cœur qui lui appartient en propre, grave à la fois et affectueuse, procédant tout ensemble de la charité religieuse et du principe révolutionnaire de la fraternité des hommes.
+               </p>
+               <pb n="48" facs="v1n10p48"/>
+               <p>
+                  <bibl type="monogr"><title ref="#Hai">HAITI, ou renseignemens authentiques sur l'abolition de l'esclavage, et ses résultats à Saint-Domingue et à la Guadeloupe, avec des détails sur l'état actuel d'Haïti et des noirs qui forment sa population</title></bibl>; traduit de l'anglais. Paris 1835, chez Hachette, libraire, rue Pierre Sarrazin, n. 12. 1 vol. in-8⁰ de 208 pages. 
+               </p>
+               <p>
+                  Voici un livre d'un haut intérêt et d'une incalculable portée pour la réhabilitation complète des noirs. Plein de faits, d'irrécusables 
+                  <choice>
+                     <orig>documens</orig>
+                     <reg>documents</reg>
+                  </choice>
+                  , d'
+                  <choice>
+                     <orig>argumens</orig> 
+                     <reg>arguments</reg> 
+                  </choice>
+                  irréfragables, cet ouvrage, que nous devons au zèle et aux soins de l'honorable <persName ref="#ZM">M. Z. Macaulay</persName>, si connu dans les deux mondes par ses généreux travaux en faveur des noirs, sera d'un poids décisif dans la balance. La conclusion sort des faits d'elle-même, d'une manière péremptoire, irrésistible. Il est impossible en effet, après avoir lu ces deux cent pages, de conserver encore de bonne foi le moindre doute sur les avantages de l'émancipation, la moindre appréhension de ses résultats: l'esprit est étonné et convaincu, en même temps que le cœur est frappé et entraîné. C'est ainsi qu'il faut écrire pour cete belle cause: c'est de la sorte qu'il faut approfondir la question. L'auteur ne procède point par de vagues déclamations, ce n'est pas un plaidoyer qu'il essaie en faveur des noirs: il expose les faits, rassemble les témoignages, il raconte sans exagération aucune comment l'émancipation eut lieu de fait à <placeName>Saint-Domingue</placeName>, comment elle fut sanctionnée et régularisée par le <bibl type ="legal">décret de la <orgName ref="#CNat">Convention Nationale</orgName> du 11 février 1793</bibl>; l'état de l'île avant et après l'invasion du <persName ref="#CVEL">général Leclerc</persName>, jusqu'à nos jours; pareillement l'état de la <placeName>Guadeloupe</placeName> dans la période où les noirs y furent libres; il raconte pièces en main, pour ainsi dire, au moyen des 
+                  <choice>
+                     <orig>documens</orig> 
+                     <reg>documents</reg> 
+                  </choice>
+                  les plus authentiques, et son récit est une démonstration.
+               </p>
+               <p>
+                  Nous reviendrons sur cet excellent travail, qui eût pu donner matière à une analyse pleine de susbtance et d'
+                  <choice>
+                     <orig>enseignemens</orig> 
+                     <reg>enseignements</reg> 
+                  </choice>
+                  précieux, mais que nous avons reçu trop tard pour lui consacrer un article de plus d'étendue. Nous parlerons dans notre prochain numéro, avec tout le détail qu'elle exige, de cette publication, que nous considérons comme un bienfait dans les circonstances actuelles.
+               </p>
             </div>
          </div>
       </body>

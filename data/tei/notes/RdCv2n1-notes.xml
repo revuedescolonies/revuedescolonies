@@ -216,34 +216,10 @@
             <p>Bissainthe, Max. <title>Dictionnaire De Bibliographie Haitienne</title>. Washington: The Scarecrow Press, 1951. p. 32.</p>
         </note>
     </noteGrp>
-    <noteGrp xml:id="n2B16">
-        <note xml:lang="en" type="translation_note">
-            <p>The territories under French authority in the Caribbean, which at the time of the <title>Revue</title>’s publication included the colonies of Martinique and Guadeloupe.</p>
-        </note>
-    </noteGrp>
-    <noteGrp xml:id="n17AB">
-        <note xml:lang="en" type="translation_note">
-            <p>The original uses the word “century” rather than “age,” referring to the eighteenth century, which is generally associated, in France, with the spread of concepts such as natural rights and natural law.</p>
-        </note>
-    </noteGrp>
-    <noteGrp xml:id="n4F06">
-        <note xml:lang="en" type="translation_note">
-            <p>The <title>Revue</title> uses the term “noir” (“black”) more frequently than the derogatory term “nègre” (“negro”), a distinction that closely parallels contemporary English. In cases where the substantive adjective “les noirs,” or “blacks”/“the blacks” is used, I have preserved this form both for the sake of accuracy and because these terms do not carry the same derogatory connotations in contemporary French as in contemporary English.</p>
-        </note>
-    </noteGrp>
-    <noteGrp xml:id="n1542">
-        <note xml:lang="en" type="translation_note">
-            <p>The term used throughout this issue is “cultivateurs,” that is to say, emancipated people performing agricultural labor.</p>
-        </note>
-    </noteGrp>
-    <noteGrp xml:id="n09EC">
-        <note xml:lang="en" type="translation_note">
-            <p>In context, the French term “restauration” also calls to mind the restoration of the monarchy (following the fall of Napoleon) in 1814, and the failure of Revolutionary ideals to take hold.</p>
-        </note>
-    </noteGrp>
-    <noteGrp xml:id="n07F3">
-        <note xml:lang="en" type="translation_note">
-            <p>The French term here is “denrée,” literally commodity or merchandise, a deliberately degrading way of referring to enslaved people that ventriloquizes the thinking of the plantation owner.</p>
-        </note>
-    </noteGrp>
+    <noteGrp xml:id="n2B16"/>
+    <noteGrp xml:id="n17AB"/>
+    <noteGrp xml:id="n4F06"/>
+    <noteGrp xml:id="n1542"/>
+    <noteGrp xml:id="n09EC"/>
+    <noteGrp xml:id="n07F3"/>
 </noteGrp>
