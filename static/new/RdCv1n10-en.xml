@@ -1,0 +1,23 @@
+<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n10-en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>REVUE DES COLONIES.</title>
+         </titleStmt>
+         <!-- <xi:include href="shared/editionStmt.xml"/> -->
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            
+         </div>
+      </body>
+   </text>
+</TEI>
