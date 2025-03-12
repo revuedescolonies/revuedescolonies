@@ -4,35 +4,37 @@ const fs = require("fs")
 const path = require("path")
 
 // filePaths stores the file paths of all the documents
+
+
 const filePaths = [
-    "static/data/tei/RdCv1n1-en.xml",
-    "static/data/tei/RdCv1n1-fr.xml",
-    "static/data/tei/RdCv1n2-en.xml",
-    "static/data/tei/RdCv1n2-fr.xml",
-    "static/data/tei/RdCv1n3-en.xml",
-    "static/data/tei/RdCv1n3-fr.xml",
-    "static/data/tei/RdCv1n4-en.xml",
-    "static/data/tei/RdCv1n4-fr.xml",
-    "static/data/tei/RdCv1n5-en.xml",
-    "static/data/tei/RdCv1n5-fr.xml",
-    "static/data/tei/RdCv1n6-en.xml",
-    "static/data/tei/RdCv1n6-fr.xml",
-    "static/data/tei/RdCv1n7-en.xml",
-    "static/data/tei/RdCv1n7-fr.xml",
-    "static/data/tei/RdCv1n8-en.xml",
-    "static/data/tei/RdCv1n8-fr.xml",
-    "static/data/tei/RdCv1n9-en.xml",
-    "static/data/tei/RdCv1n9-fr.xml",
-    "static/data/tei/RdCv1n10-en.xml",
-    "static/data/tei/RdCv1n10-fr.xml",
-    "static/data/tei/RdCv1n11-en.xml",
-    "static/data/tei/RdCv1n11-fr.xml",
-    "static/data/tei/RdCv1n12-en.xml",
-    "static/data/tei/RdCv1n12-fr.xml",
-    "static/data/tei/RdCv2n1-en.xml",
-    "static/data/tei/RdCv2n1-fr.xml",
-    "static/data/tei/RdCv5n6-en.xml",
-    "static/data/tei/RdCv5n6-fr.xml"
+    path.resolve(__dirname, "../static/data/tei/RdCv1n1-en.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv1n1-fr.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv1n2-en.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv1n2-fr.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv1n3-en.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv1n3-fr.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv1n4-en.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv1n4-fr.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv1n5-en.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv1n5-fr.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv1n6-en.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv1n6-fr.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv1n7-en.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv1n7-fr.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv1n8-en.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv1n8-fr.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv1n9-en.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv1n9-fr.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv1n10-en.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv1n10-fr.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv1n11-en.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv1n11-fr.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv1n12-en.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv1n12-fr.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv2n1-en.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv2n1-fr.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv5n6-en.xml"),
+    path.resolve(__dirname, "../static/data/tei/RdCv5n6-fr.xml")
 ];
 
 // now we loop through each of the filepath stored
@@ -120,13 +122,16 @@ filePaths.forEach((filepath) =>{
         })
     }
     
-    
     // sterialize document into a string
+    // "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + 
     const serializedDocument = serialize(document)
+    const dirPath = path.resolve(__dirname, "../static/new")
+    const outputPath = path.join(dirPath, path.basename(filepath))
 
     //make a new file path to store the changes
-    //const outputPath = path.join(path), "new_" + path.basename(filepath))
-    fs.writeFileSync("static/data/new/" + path.basename(filepath), serializedDocument, "utf-8")
+    fs.writeFileSync(outputPath, serializedDocument, "utf-8")
+    
+   
 
 
 })
