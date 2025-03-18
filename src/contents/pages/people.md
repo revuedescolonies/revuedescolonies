@@ -30,6 +30,9 @@ Yasmine Najm, doctorante, Universität Leipzig
 Noëlle Romney, Sorbonne Nouvelle University  
 Tasnîm Tirkawi, Tulane University  
 
+#### Cultural Events Coordinator
+Valérie-Ann Edmond-Mariette, Université des Antilles  
+
 #### Advisory Board
 Chris Bongie, Professor of English, Queen’s University  
 Audrey Célestine, Associate Professor of History, New York University   

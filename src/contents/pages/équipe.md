@@ -29,6 +29,9 @@ Yasmine Najm, doctorante, Universität Leipzig
 Noëlle Romney, doctorante, Université Sorbonne Nouvelle  
 Tasnîm Tirkawi, doctorante, Tulane University  
 
+#### Coordinatrice des manifestations culturelles
+Valérie-Ann Edmond-Mariette, Université des Antilles  
+
 #### Conseil scientifique
 Chris Bongie, Professor of English, Queen’s University  
 Audrey Célestine, Associate Professor of History, New York University   
