@@ -1,9 +1,12 @@
-```markdown
 ---
 title: "Recording of the Colloquium — The <em>Revue des Colonies</em>: Diasporic Networks and the Struggle for Abolition"
 author: Maria Beliaeva Solomon
 date: 2025-03-18
 ---
+
+<div style="text-align: center; margin: 2em 0; width: 100%">  
+  <iframe style="width: 100%; height: 30vh" src="https://www.youtube.com/embed/q_jGZZXbYpg?si=Ugv22Gnl2Aq648b5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 <div style="width: 33%; float: left; margin-right: 1em">
 
@@ -12,12 +15,6 @@ date: 2025-03-18
 </div>
 
 The recording of the colloquium *The Revue des Colonies: Diasporic Networks and the Struggle for Abolition*, held on Friday, February 14, 2025, is now available on YouTube!
-
-<div style="text-align: center">  
-  <video controls preload="none" poster="/video/expo2-thumb.png">
-    <source src="https://www.youtube.com/watch?v=q_jGZZXbYpg" type="video/mp4">
-  </video>  
-</div>
 
 This event provided an opportunity to explore *La Revue des Colonies* from multiple perspectives, shedding light on its role in abolitionist struggles and nineteenth-century intellectual dynamics.  
 

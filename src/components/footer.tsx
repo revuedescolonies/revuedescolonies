@@ -115,6 +115,7 @@ const Footer = ({repository, version} : Props) => (
       <Box sx={{display: "flex"}}><EmailIcon sx={{marginRight: ".5em"}}/> <Link sx={{display: "inline !important"}} href="mailto:revuedescolonies@gmail.com">revuedescolonies@gmail.com</Link></Box>
       <Box sx={{display: "flex"}}><MiscellaneousServicesIcon sx={{marginRight: ".5em"}}/> v{version}</Box>
       <Box sx={{display: "flex"}}><CodeIcon sx={{marginRight: ".5em"}}/> <Link href={repository} sx={{display: "inline !important"}}>GitHub</Link></Box>
+      <Box sx={{display: "flex"}}>ISSN 3067-1280</Box>
     </Box>
     </Container>
   </Box>
