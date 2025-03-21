@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n1-fr">
+<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n1-fr">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -37,9 +34,9 @@
         <body>
             <div>
                 <pb n="3" facs="v1n1p3"/>
-                <head><seg>REVUE</seg><lb/>DES <lb/><seg>COLONIES</seg></head>
+                <head n="Revuedes colonies"><seg>REVUE</seg><lb/>DES <lb/><seg>COLONIES</seg></head>
                 <div xml:id="prospectus">
-                    <head rend="bold">Prospectus.</head>
+                    <head rend="bold" n="Prospectus.">Prospectus.</head>
                     <p> Les colonies en général ne connaissent encore que la théorie des grands
                         principes de philantropie ; de la liberté en action, point. </p>
                     <p> Les classes souffrantes et opprimées réclament et combattent sans cesse,
@@ -106,7 +103,7 @@
                 <pb/>
                 <div xml:id="declaration">
                     <pb n="5" facs="v1n1p5"/>
-                    <head>DÉCLARATION DE PRINCIPES.</head>
+                    <head n="Déclaration de principes.">DÉCLARATION DE PRINCIPES.</head>
                     <p> La <title ref="#RdC">Revue des Colonies</title> croit devoir, avant tout, indiquer
                         d'après quels principes elle jugera les hommes et les choses.<ptr target="#n6ED7"/> Selon elle, 89, dans l'immortelle <bibl type="legal"><title ref="#DDH">Déclaration des Droits</title></bibl> que vota
                             <orgName ref="#AN">l'Assemblée Nationale</orgName>, posa les bases à
@@ -127,10 +124,10 @@
                 </div>
                 <div>
                     <div>
-                        <head rend="bold">Extrait</head>
-                        <head>DES PROCES-VERBAUX DE <orgName ref="#AN">L'ASSEMBLÉE NATIONALE</orgName> DES 20,
+                        <head rend="bold" n="Extrait">Extrait</head>
+                        <head n="Des proces-verbaux de l'assemblée nationale des 20, 21, 22, 23, 24, 26 aout et 1er octobre 1789.">DES PROCES-VERBAUX DE <orgName ref="#AN">L'ASSEMBLÉE NATIONALE</orgName> DES 20,
                             21, 22, 23, 24, 26 AOUT ET 1er OCTOBRE 1789.</head>
-                        <head>DÉCLARATION DES DROITS DE L'HOMME EN SOCIÉTÉ<ptr target="#n7767"/>.</head>
+                        <head n="Déclaration des droits de l'homme en société.">DÉCLARATION DES DROITS DE L'HOMME EN SOCIÉTÉ<ptr target="#n7767"/>.</head>
                         <p> Les <choice>
                                 <orig>représentans</orig>
                                 <reg>représentants</reg>
@@ -272,7 +269,7 @@
                     </div>
                 </div>
                 <div xml:id="regime">
-                    <head>COUP D'OEIL SUR LE RÉGIME COLONIAL ET SES EFFETS.</head>
+                    <head n="Coup d'oeil sur le régime colonial et ses effets.">COUP D'OEIL SUR LE RÉGIME COLONIAL ET SES EFFETS.</head>
                     <p>Tous les journaux ont retenti des déplorables <choice>
                             <orig>événemens</orig>
                             <reg>évènements</reg>
@@ -492,7 +489,7 @@
                         l'histoire.</p>
                 </div>
                 <div xml:id="affaire">
-                    <head>AFFAIRE DE LA GRAND'ANSE</head>
+                    <head n="Affaire de la grand'anse">AFFAIRE DE LA GRAND'ANSE</head>
                     <p>Pendant que le parquet de <placeName ref="#MQ">la Martinique</placeName>
                         enfante laborieusement ce qu'il appelle <rs type="event"><emph>l'insurrection de la Grand'Anse</emph></rs>, l'attention du
                         gouvernement métropolitain est appelée sur ces déplorables <choice>
@@ -646,7 +643,7 @@
                         </choice> daignent au moins les sonder de leur doigt !</p>
                 </div>
                 <div xml:id="discours">
-                    <head>UN MOT SUR LE DISCOURS PRONONCÉ PAR M. ISAMBERT DANS LA SÉANCE DU 8 MAI
+                    <head n="Un mot sur le discours prononcé par m. isambert dans la séance du 8 mai dernier.">UN MOT SUR LE DISCOURS PRONONCÉ PAR M. ISAMBERT DANS LA SÉANCE DU 8 MAI
                         DERNIER.</head>
                     <p> Si l'expérience est la pierre de touche de toute législation, on ne saurait
                         disconvenir que la loi organique promulguée en 1833, pour les colonies, ne
@@ -755,7 +752,7 @@
                         poids d'une accusation capitale. </p>
                 </div>
                 <div xml:id="instruction">
-                    <head>NÉCESSITÉ DE L'INSTRUCTION AUX COLONIES</head>
+                    <head n="Nécessité de l'instruction aux colonies">NÉCESSITÉ DE L'INSTRUCTION AUX COLONIES</head>
                     <p>Les hommes de couleur ont dû aux progrès de l'opinion publi que des
                         améliorations dans leur condition. Ils ont enfin obtenu depuis 1830 ces
                         droits politiques qui leur ont été si
@@ -855,7 +852,7 @@
                 </div>
 
                 <div xml:id="question">
-                    <head>QUESTION ÉLECTORALE.</head>
+                    <head n="Question électorale.">QUESTION ÉLECTORALE.</head>
 
                     <p>Une question neuve, en matière électorale, vient de se présenter dans les
                         colonies, celle de savoir si une femme non mariée peut déléguer ses
@@ -947,7 +944,7 @@
             </div>
 
             <div xml:id="pourvoi">
-                <head>POURVOI D'UN PATRONÉ.</head>
+                <head n="Pourvoi d'un patroné.">POURVOI D'UN PATRONÉ.</head>
 
                 <p>Il s'est présenté devant la <orgName ref="#CDC">cour de cassation</orgName> une
                     question grave en matière d'esclavage.</p>
@@ -1056,7 +1053,7 @@
             </div>
 
             <div xml:id="traits">
-                <head>TRAITS DE CRUAUTÉ.</head>
+                <head n="Traits de cruauté.">TRAITS DE CRUAUTÉ.</head>
 
                 <p>Ce serait une longue histoire que de raconter les actes de révoltante barbarie
                     auxquels certains possesseurs d'hommes de nos colonies se livrent envers les
@@ -1124,9 +1121,9 @@
             </div>
 
             <div xml:id="france">
-                <head>FRANCE.</head>
-                <head>PARIS.</head>
-                <head>CONVOCATION DES CHAMBRES.</head>
+                <head n="France.">FRANCE.</head>
+                <head n="Paris.">PARIS.</head>
+                <head n="Convocation des chambres.">CONVOCATION DES CHAMBRES.</head>
 
                 <p>L'ordonnance suivante est publiée par le <bibl type="periodical"><title ref="#MU">Moniteur</title></bibl> du <date>1 juillet</date>, avec la date du
                         <date>30 juin</date> et le contre-seing de <persName ref="#THI">M.
@@ -1169,7 +1166,7 @@
             </div>
 
             <div>
-                <head>NOUVELLES ÉLECTORALES.</head>
+                <head n="Nouvelles électorales.">NOUVELLES ÉLECTORALES.</head>
 
                 <p>Nous croyons devoir faire connaître les élections de députés à la nouvelle
                     législature, qui se sont de tout temps intéressés particulièrement à la question
@@ -1214,7 +1211,7 @@
             </div>
 
             <div>
-                <head>NOUVELLES DIVERSES.</head>
+                <head n="Nouvelles diverses.">NOUVELLES DIVERSES.</head>
                 <q>
                         <p>L'article suivant, publié par le <bibl type="periodical"><title ref="#MU">Moniteur</title></bibl> du <date>2 juillet</date>, est sans
                             doute une réponse indirecte aux nouvelles données sur l'état de la
@@ -1286,8 +1283,8 @@
             </div>
 
             <div xml:id="coloniesfr">
-                <head>COLONIES FRANÇAISES.</head>
-                <head><placeName ref="#Cay">CAYENNE.</placeName></head>
+                <head n="Colonies françaises.">COLONIES FRANÇAISES.</head>
+                <head n="Cayenne."><placeName ref="#Cay">CAYENNE.</placeName></head>
 
                 <p>Nous recevons de <placeName ref="#Cay">Cayenne</placeName> la lettre suivante,
                     contenant sur la loi électorale des considérations dont nos lecteurs
@@ -1364,7 +1361,7 @@
                 </q>
             </div>
             <div>
-                <head><placeName ref="#MQ">MARTINIQUE.</placeName></head>
+                <head n="Martinique."><placeName ref="#MQ">MARTINIQUE.</placeName></head>
 
                 <p>Les magistrats qui doivent composer la cour d'assises dans l'affaire de la
                         <placeName>Grand'Anse</placeName> sont : <persName ref="#PER">M.
@@ -1432,7 +1429,7 @@
             </div>
 
             <div>
-                <head><placeName ref="#GP">GUADELOUPE.</placeName></head>
+                <head n="Guadeloupe."><placeName ref="#GP">GUADELOUPE.</placeName></head>
 
                 <p>La situation politique est toujours la même ; il y règne cependant plus de
                     tranquillité, ce qui provient moins, sans doute, de la satisfaction des partis,
@@ -1452,7 +1449,7 @@
             </div>
 
             <div>
-                <head><placeName ref="#BrB">BOURBON.</placeName></head>
+                <head n="Bourbon."><placeName ref="#BrB">BOURBON.</placeName></head>
                 <p>La position de cette colonie commence à se ressentir des quelques améliorations
                     apportées au régime colonial depuis la révolution de juillet. Les préjugés de
                     castes diminuent et finiront par disparaître lorsque les institutions auront
@@ -1472,7 +1469,7 @@
             </div>
 
             <div>
-                <head><placeName ref="#Alg">ALGER.</placeName></head>
+                <head n="Alger."><placeName ref="#Alg">ALGER.</placeName></head>
 
                 <p>Cette importante possession, dont il faut espérer que la colonisation ne se fera
                     plus attendre longtemps, commence à jouir de quelques avantages ; inévitables
@@ -1507,8 +1504,8 @@
             </div>
 
             <div xml:id="coloniesetr">
-                <head>COLONIES ÉTRANGÈRES.</head>
-                <head><placeName ref="#StT">SAINT-THOMAS.</placeName></head>
+                <head n="Colonies étrangères.">COLONIES ÉTRANGÈRES.</head>
+                <head n="Saint-thomas."><placeName ref="#StT">SAINT-THOMAS.</placeName></head>
 
                 <p>Si l'aristocratie coloniale se bornait à persécuter les hommes de couleur qu'elle
                     croit dangereux, elle manquerait en partie à sa mission ; il faut aussi qu'elle
@@ -1544,7 +1541,7 @@
             </div>
 
             <div>
-                <head><placeName ref="#STL">SAINTE-LUCIE.</placeName></head>
+                <head n="Sainte-lucie."><placeName ref="#STL">SAINTE-LUCIE.</placeName></head>
 
                 <p>Avant son départ de la <placeName ref="#MQ">Martinique</placeName>,
                     l'ex-gouverneur <persName ref="#JHD">Dupotet</persName> sollicita du gouverneur
@@ -1569,7 +1566,7 @@
             </div>
 
             <div>
-                <head><placeName ref="#DOM">DOMINIQUE.</placeName></head>
+                <head n="Dominique."><placeName ref="#DOM">DOMINIQUE.</placeName></head>
 
                 <p>La <placeName ref="#DOM">Dominique</placeName>, ancienne colonie française,
                     aujourd'hui à la <placeName ref="#GB">Grande-Bretagne</placeName>, est de toutes
@@ -1585,8 +1582,8 @@
             </div>
 
             <div xml:id="necrologie">
-                <head>NÉCROLOGIE.</head>
-                <head><persName ref="#LaF">LE GÉNÉRAL LAFAYETTE</persName></head>
+                <head n="Nécrologie.">NÉCROLOGIE.</head>
+                <head n="Le général lafayette"><persName ref="#LaF">LE GÉNÉRAL LAFAYETTE</persName></head>
 
                 <p>Parmi les défenseurs de l'humanité, le plus constant, sans contredit, le plus
                     vertueux, le plus dévoué, ce fut <persName ref="#LaF">Lafayette</persName>. Il

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n8-fr">
+<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n8-fr">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -41,8 +38,8 @@
       <body>
          <div>
             <pb n="3" facs="v1n8p3"/>
-            <head><seg>REVUE</seg><lb/>DES <lb/><seg>COLONIES</seg></head>
-            <div xml:id="presse-aux-colonies"><head>DE LA PRESSE AUX COLONIES</head>
+            <head n="Revuedes colonies"><seg>REVUE</seg><lb/>DES <lb/><seg>COLONIES</seg></head>
+            <div xml:id="presse-aux-colonies"><head n="De la presse aux colonies">DE LA PRESSE AUX COLONIES</head>
                <p>
                   Partout où la liberté de la presse n'est pas chose pratique, on peut dire hardiment qu'il y a quelque vice radical dans l'organisation de l'état. Partout où le droit commun est méconnu, où la société est fondée sur des exceptions et des priviléges, des distinctions de races ou de castes, où le vingtième de la population vit aux dépens du reste, il n'y a pas, il ne peut y avoir de liberté de la presse. II faut là des lois restrictives de l'usage même de l'imprimerie, sous la surveillance permanente de l'autorité. Car il ne faut pas qu'on y puisse le moins du monde appeler les esclaves et les opprimés à ce que les maîtres et les oppresseurs appellent, dans leur étrange langage, les bienfaits d'une liberté illusoire: sans quoi tout serait perdu; sans quoi les vices de cet état de choses profitable et sacré à ceux qui en vivent, étant mis à nu, il pourrait se trouver des gens qui voudraient y changer quelque chose, et alors adieu l'ordre, adieu nos doux priviléges et notre opulence, adieu la fortune et la domination, adieu toutes ces belles et heureuses prérogatives dont le hasard de la naissance nous a investis!
                </p>
@@ -183,7 +180,7 @@
                   même d’une révision ; il faudra procéder à l’égard de la législation des colonies à une réforme complète et radicale qui assure à tous leurs droits, à une réorganisation politique et sociale selon l’esprit nouveau ; et, en fait et en droit, la presse y devra prendre place largement, comme elle l’a fait partout où la civilisation est en progrès.
                </p>
             </div>
-            <div xml:id="lois-autorité-des-maîtres-aux-colonies"><head>DES LOIS ET RÉGLEMENS QUI ÉTABLISSENT L'AUTORITÉ DES MAITRES AUX COLONIES. </head>
+            <div xml:id="lois-autorité-des-maîtres-aux-colonies"><head n="Des lois et réglemens qui établissent l'autorité des maitres aux colonies.">DES LOIS ET RÉGLEMENS QUI ÉTABLISSENT L'AUTORITÉ DES MAITRES AUX COLONIES. </head>
                <p>
                   L’histoire des souffrances des esclaves est tout entière dans les lois qui ont établi cette fatale autorité , source de tant de douleurs et de si monstrueux outrages à l'humanité. Rappelons seulement quelques-unes de ces dispositions atroces, sanguinaires, qui sont consignées dans le 
                   <bibl type="legal">
@@ -426,7 +423,7 @@
                   <persName>X. TANC</persName>, ancien <roleName>magistrat</roleName> à la <placeName>Guadeloupe</placeName>.
                </p>
             </div>
-            <div xml:id="justice-criminelle"><head><seg>DE LA JUSTICE CRIMINELLE.</seg>(Premier article.)<seg></seg></head>
+            <div xml:id="justice-criminelle"><head n="De la justice criminelle.(premier article.)"><seg>DE LA JUSTICE CRIMINELLE.</seg>(Premier article.)<seg/></head>
                <p>
                   <q>
                      Les lois criminelles qui nous régissent ont été faites sous I inspiration et au profit de la monarchie absolue. Nous sommes la nation sociable par excellence, et la législation nous traite comme
@@ -569,7 +566,7 @@
                   <persName>Ad. GATINE</persName> , <roleName>avocat</roleName> à la <orgName>cour de cassation</orgName>.
                </p>
             </div>
-            <div xml:id="quatorze-janvier-vingt-quatre"><head><seg>LE 14 JANVIER 1824 ! </seg><seg>Laissez passer la justice des colons!.. (I) </seg></head>
+            <div xml:id="quatorze-janvier-vingt-quatre"><head n="Le 14 janvier 1824 ! laissez passer la justice des colons!.. (i)"><seg>LE 14 JANVIER 1824 ! </seg><seg>Laissez passer la justice des colons!.. (I) </seg></head>
                <p>   
                   Il y a quelque chose de pire que les mauvaises lois ; ce sont les mauvais magistrats. Il y a quelque chose de plus effroyable qu’une loi de mort; c’est un juge sanguinaire. Il y a quelque chose de plus hideux que le bourreau; c’est l’homme qui le fait travailler illégalement. C’est un grand malheur que les lois n’aient jamais été que de pures fictions ; qu’elles soient revêtues au nom du consentement universel, d’une majesté et d’une vérité qu’elles n’ont point; qu’elles soient réputées justes et conservatrices, lorsqu’elles sont faites par un seul 
                </p>
@@ -639,7 +636,7 @@
             </div>
             <pb n="21" facs="v1n8p21"/>
             <div xml:id="commutation-peines-procès-grand-anse">
-               <head>
+               <head n="Reflexions sur la commutation des peines dans le procès de la grand’anse.">
                   REFLEXIONS SUR LA COMMUTATION DES PEINES DANS LE 
                   <rs type="event">PROCÈS DE LA GRAND’ANSE</rs>. 
                </head>
@@ -664,8 +661,8 @@
                </p>
             </div>
          <div>
-            <head>FRANCE</head>
-            <div xml:id="convention-danemark-abolition-traite"><head>CONVENTION DU GOUVERNEMENT DANOIS AVEC LA FRANCE ET L'ANGLETEERE POUR L’ABOLITION DE LA TRAITE DES NOIRS.</head>
+            <head n="France">FRANCE</head>
+            <div xml:id="convention-danemark-abolition-traite"><head n="Convention du gouvernement danois avec la france et l'angleteere pour l’abolition de la traite des noirs.">CONVENTION DU GOUVERNEMENT DANOIS AVEC LA FRANCE ET L'ANGLETEERE POUR L’ABOLITION DE LA TRAITE DES NOIRS.</head>
                <p>
                    La convention conclue à Copenhague le 26 juillet 1834, par la- quelle le Danemarck accède au traité de la France et de l’Angleterre pour l’abolition de la traite des noirs , a été rédigée ainsi qu’il suit par M. Napoléon Lannes, duc de Montebello, représentant la France, M. Huns de Krabbe Carisius, représentant le Danemarck, et sir Henri Walkins, William Wynn, représentant l’Angleterre. 
                </p>
@@ -725,7 +722,7 @@
                   </body>
                </floatingText>
             </div>
-            <div xml:id="clémence-royale"><head>CLÉMENCE ROYALE.</head>
+            <div xml:id="clémence-royale"><head n="Clémence royale.">CLÉMENCE ROYALE.</head>
                <p>
                   Conformément au rapport rédigé par M. Saint-Hilaire, directeur des colonies, et présenté par le ministre de la marine, le roi a accordé la commutation des peines suivantes aux hommes de couleur libres et esclaves condamnés par arrêt de la cour dite d’assises de
                   <pb n="26" facs="v1n8p26"/>
@@ -786,10 +783,10 @@
                </p>
             </div> 
             <div>
-               <head>
+               <head n="Opinion des journaux sur la commutation des peines, accordée aux condamnés dans l'affaire de la grand'anse">
                   OPINION DES JOURNAUX SUR LA COMMUTATION DES PEINES, ACCORDÉE AUX CONDAMNÉS DANS L'AFFAIRE DE LA GRAND'ANSE
                </head>
-               <div xml:id="courrier-français"><head>LE COURRIER FRANÇAIS. </head>
+               <div xml:id="courrier-français"><head n="Le courrier français.">LE COURRIER FRANÇAIS. </head>
                   <p>
                      Quelques personnes ont cru que la tardive et incomplète ordonnance rendue en faveur des vingt-neuf détenus du Mont-Saint-Michel était un moyen imaginé par le ministère pour montrer que le gouvernement pouvait au besoin se décider à faire grâce, et n’avait point pour l’amnistie une irrévocable antipathie ; nous n’avons pas eu le bonheur de partager cette conviction. Le style âpre et sec de M. Persil, la parcimonie apportée dans le nombre des remises de peine, l’omission de prisonniers assez nombreux, qui avaient comme leurs compagnons d’infortune exposé courageusement leur vie pour arrêter les progrès de l’incendie, omission qui, dans des circonstances semblables, peut être regardée comme un déni de justice, la publication de celte ordonnance la veille même du jour où l’on venait soutenir à la tribune l’impossibilité de l’amnistie ; tous ces motifs et d’autres encore nous avaient fait regarder l’ordonnance du 27 décembre comme une preuve de persistance dans la politique impitoyable, et de la résolution bien arrêtée de ne se laisser arracher par la nécessité que ce qu’il serait impossible de lui disputer. Si quelques personnes avaient pu se tromper sur la valeur de cette ordonnance personne du moins ne se méprendra sur le caractère de celle qui figure au Moniteur de ce jour. L’arrêt de la cour d’assises de la Martinique, qui ne prononçait pas moins de quinze condamnations capitales et de neuf condamnations infaman
                   </p>
@@ -801,7 +798,7 @@
                      tes, avait produit à Paris un sentiment d’horreur et d'effroi, qui n’a pas permis au public de l’oublier. C’est avec surprise et douleur qu’on avait vu la Cour de cassation rejeter le pourvoi des condamnés; mais un recours restait et on y comptait. Comment croire en effet que ces infortunés qui, réunis et armés, avaient à la première sommation déposé leurs armes sans songer à en faire usage, ne trouveraient pas accès devant la clémence royale ! Ils l’ont trouvé en effet, mais la grâce est presque aussi terrible que l’arrêt. Onze des condamnés, presque tous jeunes gens , n’échappent à la mort que pour subir vingt ans de travaux forcés; quatre autres en subiront quinze années ; les mieux traités dans cette redoutable commutation ne peuvent échapper à une peine infamante et à la flétrissure de l’exposition. Touchante miséricorde! L’infamie comme grâce à des gens dont la conduite, avec quelque rigueur qu’on l’envisage, ne peut être imputée à un sentiment bas ni infâme! Voilà donc la clémence comme on la comprend aujourd’hui! Espérez après cela que l’éloquence et la raison feront triompher à la tribune la cause de l'humanité ! 
                   </p>
                </div>
-               <div xml:id="national"><head>LE NATIONAL</head>
+               <div xml:id="national"><head n="Le national">LE NATIONAL</head>
                   <p>
                      On n’a point oublié le jugement de la cour d’assises de la Martinique dans l’affaire de la Grand’Anse : quinze des accusés avaient été condamnés à mort ; le pourvoi a été rejeté par la Cour de cassation, et la couronne, faisant usage du droit de grâce qu’elle possède, a commué la peine de mort en celle de vingt, quinze et dix années de galère. 
                   </p>
@@ -817,7 +814,7 @@
                      tée aux colonies et en ont fait sortir de terribles représailles ; mais ces passions-là ne devaient pas trouver d’écho ni d’appui dans la mère-patrie. Aussi ne peut-on considérer l’amnistie présente que comme un acheminement à une remise complète de supplices affreusement exagérés. 
                   </p>
                </div>
-               <div xml:id="journal-de-la-marine"><head>LE JOURNAL DE LA MARINE.</head>
+               <div xml:id="journal-de-la-marine"><head n="Le journal de la marine.">LE JOURNAL DE LA MARINE.</head>
                   <p>
                      Nous ne ferons qu’une seule réflexion sur l’ordonnance qui commue en quinze et vingt ans de travaux forcés la peine de mort prononcée contre les condamnés pour l’affaire de la Grand’Anse, c’est qu’aucun exporté des Antilles ne vit plus de 12 ou 15 mois aux bagnes. M. le duc Decazes a lui-même reconnu ce fait lorsqu’il inspecta les prisons de France. La grâce consiste donc à avoir prolongé le supplice et substitué une longue et cruelle agonie à une exécution plus rapide. 
                   </p>
@@ -826,7 +823,7 @@
                   </p>
                </div>
             </div>
-            <div xml:id="société-fr-pour-abolition-esclavage"><head>SOCIÉTÉ FRANCAISE POUR L'ABOLITION DE L'ESCLAVAGE. </head>   
+            <div xml:id="société-fr-pour-abolition-esclavage"><head n="Société francaise pour l'abolition de l'esclavage.">SOCIÉTÉ FRANCAISE POUR L'ABOLITION DE L'ESCLAVAGE. </head>   
                <p>
                   Quelle que soit la distance qui sépare la métropole de ses colonies, et bien qu’elles lui soient plutôt, dans l’état actuel des choses, une charge qu’un avantage, la France n’en éprouve pas moins une sympathie réelle pour ces portions d'elle-mème ; elle se préoccupe et s’émeut de leurs intérêts et des maux qui les affligent ; elle les voudrait voir en tout dignes d’elle, et justifie bien, malgré tout, ce nom de mère-patrie qui lui appartient à tant de titres. Avec ses nobles instincts d’humanité, avec ce large et puissant esprit philosophique et social qui la caractérise, la France devait prendre en considération la grande question de l’esclavage , qui déshonore ses possessions d'outre-mer. Aussi, avant que des voix éloquentes plai
                   <pb n="30" facs="v1n8p30"/>
@@ -841,7 +838,7 @@
                <p>
                   Nous reproduisons avec un inexprimable sentiment de confiance [ sollicite dans l’avenir et de gratitude envers les honorables philanthropes, I la servi fondateurs de la Société française pour l’abolition de l’esclavage, le I étonne prospectus qu’ils viennent de publier au nom de cette société; ex- I Cét posé lucide et complet des motifs d’humanité, de logique et d’hon • donna neur, qui font de l’abolition de l’esclavage une des nécessités politi- I dont i ques de ce temps.
                </p>
-               <div xml:id="prospectus"><head>Prospectus</head>
+               <div xml:id="prospectus"><head n="Prospectus">Prospectus</head>
                   <p>
                       Au moment d’instituer une société pour l’abolition de l’esclavage,  il nous importe que nos motifs soient bien compris, nos vues net- tement expliquées, nos intentions à l’abri de toute interprétation | du pa erronée ou malveillante. 
                   </p>
@@ -951,7 +948,7 @@
                </div>
             </div>
             <pb n="36" facs="v1n8p36"/>
-            <div xml:id="cours-économie-industrielle-arts-et-métiers-Blanqui"><head>COURS D’ECONOMIE INDUSTRIELLE AU CONSERVATOIRE des arts et MÉTIERS, par M. Blanqui aîné.</head>
+            <div xml:id="cours-économie-industrielle-arts-et-métiers-Blanqui"><head n="Cours d’economie industrielle au conservatoire des arts et métiers, par m. blanqui aîné.">COURS D’ECONOMIE INDUSTRIELLE AU CONSERVATOIRE des arts et MÉTIERS, par M. Blanqui aîné.</head>
                <p>
                   Nous avons promis à nos lecteurs de réunir la suite des études de M. Blanqui sur les colonies, éludes suspendues par quelques jours de repos, et reprises le 9 janvier. 
                </p>
@@ -1001,8 +998,8 @@
                </p>  
             </div>
             <div xml:id="colonies-françaises">
-               <head>COLONIES FRANÇAISES.</head>  
-               <div xml:id="guadeloupe"><head>GUADELOUPE.</head>
+               <head n="Colonies françaises.">COLONIES FRANÇAISES.</head>  
+               <div xml:id="guadeloupe"><head n="Guadeloupe.">GUADELOUPE.</head>
                   <p>
                      Un de nos correspondans de la Pointe-à-Pitre nous écrit sous la date du 15 novembre : 
                   </p>
@@ -1033,7 +1030,7 @@
                      </body>
                   </floatingText>
                </div>
-               <div xml:id="martinique"><head>MARTINIQUE.</head>
+               <div xml:id="martinique"><head n="Martinique.">MARTINIQUE.</head>
                   <p>
                      Notre correspondant de Saint-Pierre nous écrit sous la date du 19 novembre. 
                   </p>
@@ -1051,8 +1048,8 @@
                </div>
             </div>
             <div xml:id="colonies-etrangeres">
-               <head>COLONIES ÉTRANGÈRES.</head>
-               <div xml:id="jamaïque"><head>JAMAÏQUE.</head>
+               <head n="Colonies étrangères.">COLONIES ÉTRANGÈRES.</head>
+               <div xml:id="jamaïque"><head n="Jamaïque.">JAMAÏQUE.</head>
                   <p>
                      Comme nos lecteurs seront désireux de savoir ce qu’on doit espérer du système adopté, et que la question importante qui vient d’être résolue ici et dans les autres colonies britanniques intéresse au plus haut point nos compatriotes d’Europe, nous ne croyons pas pouvoir employer un meilleur moyen de contenter les deux parties que de mettre sous leurs yeux l’analyse des lettres qui nous parviennent de tous les points del’ile; elles prouveront aisément qu’à l’exception de la paroisse de Sainte-Anne, et d’un léger entêtement manifesté sur quelques propriétés, dans la paroisse de Saint-Thomas, in the vale , la colonie jouit d'une parfaite tranquillité; les apprentis se conduisent aussi bien que possible, et même beaucoup mieux qu’on n’était en droit de l’espérer. Nous avons dit bien souvent que nous étions convaincus que le changement se ferait sans secousse, et que les jours déjà écoulés se passeraient sans toutes les horreurs que beaucoup de gens intéressés au maintien de l'esclavage se plaisaient à prédire; aussi n’est-ce pas de l’étonnement, mais bien de la satisfaction que nous éprouvons à toutes les nouvelles qui nous parviennent, et que nous communiquons au public avec un sentiment d’allégresse, comme une preuve de la justesse de nos prévisions à ce sujet. Nous répéterons encore l’opinion d’un personnage dont l’autorité est grande : « Que « tout dépend des maîtres ou de ceux qui sont chargés desappren- a lis ; s’ils veulent allier la douceur à la fermeté, ne pas empiéter « sur les droits de leurs subordonnés, tout en faisant respecter les « leurs; en un mot s’ils veulent suivre cette loi divine, de ne faire
                      <pb n="42" facs="v1n8p42"/>
@@ -1067,7 +1064,7 @@
                </div>
             </div>
             <div xml:id="nouvelles-diverses">
-               <head>NOUVELLES DIVERSES</head>
+               <head n="Nouvelles diverses">NOUVELLES DIVERSES</head>
                <p>
                   M. Perrinelle-Dumay, président de la cour royale de la Martinique, a donné sa démission. On nous assure que l’ancien procureur-général de 1824, Richard Lucy, présentement à Paris, est un des candidats à cette première magistrature coloniale. Moyennant un pot-de-vin de 10,000 fr., une dame de Paris , qui exerce une grande influence sur M. le directeur des colonies, s’est chargée de faire nommer à ces fonctions celui des candidats qn'elle protégé. —M. Saint-Hilaire, directeur des colonies, a dit à un député très connu par le vif intérêt qu’il porte aux noirs et aux mulâtres, que c’est à l’exigence et aux démarches deM. Amédée Cools-Desnoyers, délégué de l’aristocratie de la Martinique, que les malheureux condamnés politiques dans l’affaire de la Grand’Anse doivent l’étrange grâce qui vient de leur être faite.
                </p>
@@ -1099,7 +1096,7 @@
                   —M. Foignet, exdélégué des colons de la Guadeloupe, a présenté à la Société française pour l’abolition de l’esclavage une protestation contre l’existence de cette société. On nous assure que la lecture dece factum a excité une grande hilarité parmi les membres de ladite société.
                </p>
             </div>
-            <div xml:id="polémique"><head>POLÉMIQUE.</head>
+            <div xml:id="polémique"><head n="Polémique.">POLÉMIQUE.</head>
                <p>
                   Une chose nous a toujours étonné, c’est que là où l’édifice social repose sur le bourreau, où le bourreau est la clé de voûte de la société, sans laquelle tout s’écroulerait et irait à la malheure, on n’ait pas pour le bourreau des honneurs et des récompenses conformes à l’importance sociale dont il est. Dans certaines de nos colonies notamment, cet éminent fonctionnaire, ce bras droit du pouvoir exécutif, cet indispensable auxiliaire de la justice comme on l’y entend, ce pilier de l'ordre civil, devrait être entouré d’hommages et de respects; c'est au fond, à le bien prendre, le premier magistrat du pays. 
                </p>
@@ -1126,8 +1123,8 @@
                </p>
             </div>   
             <div xml:id="bibliographie">
-               <head>BIBLIOGRAPHIE.</head>
-               <div xml:id="émancipation-marquis-de-sainte-croix"><head>ÉMANCIPATION DES ESCLAVES AUX COLONIES FRANÇAISES, mémoire présenté au gouvernement par M. le marquis de Sainte-Croix. Brochure in-8. Avec cette épigraphe : l’homme est né libre, l’esclavage est l’exception. WILBERFORCE.</head>
+               <head n="Bibliographie.">BIBLIOGRAPHIE.</head>
+               <div xml:id="émancipation-marquis-de-sainte-croix"><head n="Émancipation des esclaves aux colonies françaises, mémoire présenté au gouvernement par m. le marquis de sainte-croix. brochure in-8. avec cette épigraphe : l’homme est né libre, l’esclavage est l’exception. wilberforce.">ÉMANCIPATION DES ESCLAVES AUX COLONIES FRANÇAISES, mémoire présenté au gouvernement par M. le marquis de Sainte-Croix. Brochure in-8. Avec cette épigraphe : l’homme est né libre, l’esclavage est l’exception. WILBERFORCE.</head>
                   <p>
                      Voici un singulier phénomène ; voici un colon ou du moins un propriétaire de plantations et de nègres qui plaide l’émancipation des esclaves et qui tient pour usé et absurde l’ancien système colonial; il va jusqu’à déclarer courageux les écrivains qui ont appelé l'attention du gouvernement sur ces questions importantes , jusqu’à avancer que ces écrivains se sont vus en batte aux persécutions et aux clameurs. Quel scandale aux Antilles françaises! hommes de couleur et noirs esclaves qui vivez là-bas, tenez-vous sur vos gardes ! et si le fouet, la marque, etc., etc., vous inspirent quelque répugnance, ne lisez pas la brochure incendiaire de M. de Sainte-Croix ! Cependant, pour fuir le danger, il faut le connaître : je vais donc vous en dire quelque chose , moi qui, de ce côté de l’Atlantique, n’ai point à redouter les férules des colons. 
                   </p>

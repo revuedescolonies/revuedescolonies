@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n2-en">
+<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n2-en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -36,10 +33,10 @@
       <body>
          <div>
             <pb n="3" facs="v1n2p3"/>
-            <head>REVUE<lb/>DES <lb/>COLONIES</head>
+            <head n="Revuedes Colonies">REVUE<lb/>DES <lb/>COLONIES</head>
             <pb/>
                <div xml:id="abolition">
-               <head>ABOLITION OF SLAVERY.</head>
+               <head n="Abolition of Slavery.">ABOLITION OF SLAVERY.</head>
 
                <p>
                   At this time, the emancipation of slaves has been proclaimed in all the colonies of the British Empire. The admirable bill, the implementation of which was set for the First of August, 1834, will change the face of the colonies. All around, these populations freed from the yoke and finally admitted to the sharing of common freedom are moved and rejoice. The bill has planned everything, regulated everything, as much as possible, both in the interest of the masters, whom the law compensates, and in the interest of the slaves, to whom it guarantees existence and honorable work. Nearly 500 million francs will be employed in this work of philanthropy and justice, conciliation and freedom! There are two great nations not yet close to imitating the fine example given by British parliament. The legislatures of France and the United States have so far only broached these questions in a meticulous manner; nothing great, no overarching principles have yet triumphed, and yet in the colonies, the question is pressing: man suffers and only adapts to the yoke reluctantly, we can say this literally. The day is not far off when, one way or another, a solution will have to be found. Colonists may pretend otherwise, but they are walking on a volcano!</p>
@@ -53,7 +50,7 @@
             </div>
 
             <div xml:id="education">
-               <head>NECESSITY OF EDUCATION IN THE COLONIES</head>
+               <head n="Necessity of Education in the Colonies">NECESSITY OF EDUCATION IN THE COLONIES</head>
                <p>At all times and in all countries ignorance has been the most powerful auxiliary of tyranny. Every government that has allowed slavery in its public law was careful to proscribe instruction as a dangerous foe. But in the colonies, this proscription, brutally enforced, has had consequences fatal to the progress of civilization. The colonial aristocracy, in its cunning and barbaric foresight, fought the development of instruction with all its might; lately it has barely allowed for the institution of a few primary schools for free men of color; but these schools, where pupils only learn basic, obtained neither the favors nor the encouragements of local authorities, fully disposed as they are to please the privileged. Men of color must not forget that, in 1803, an Attorney General to Martinique had all the schools closed to their children; and more recently yet, in 1829, the Guadeloupe administration deported without judgment Mr. Eugène Pol, a young, meritorious European teacher who devoted himself to the education of young people of color. Mr. Ballin, named educational inspector to the colonies by minister d’Argout, faced so much persecution, and was so overcome with disgust that he was forced to abandon Martinique and Guadeloupe to return <pb n="6" facs="v1n2p6"/>  to France, where he died of the sorrows and difficulties showered upon him. </p>
                <p>Yet the new charter has proclaimed and consecrated new rights for men of color! Let us not despair, however; and if the charter is powerless against the ill will of the white aristocracy, if we can enjoy at home the benefits of instruction but with difficulty, let us arm ourselves with patience and courage. Instruction is withheld from us in our homes; let us learn, if need be, to find it elsewhere. May those who can give their children a rich education, and may they remember that it is in France, at the heart of the capital, that such education must be obtained. There only will they find the immense benefit of the manners of an elegant and polite world, the knowledge specific to what vocation they deem fit to embrace; there, they will be able to foster relations useful to their future and get in touch with the best representatives of all countries. 
                Thus brought up, they will become the stalwarts of our freedom and secure titles in the recognition of the black and colored race whose rights they will conquer and defend. It is from the bosom of Paris that the Bolivars, Pétions, Boyers and their most illustrious companions in glory drew noble and generous ideas, for the triumph of which they fought with such bravery and success. It is to their knowledge and education that they owed the holy enthusiasm that led them to victory and which conquered for all of their compatriots the freedom they now enjoy. </p>
@@ -66,7 +63,7 @@
             </div>
 
             <div xml:id="national-duty">
-               <head>NATIONAL DUTY TO MAKE FOREIGN POWERS RESPECT THE FRENCH CITIZENSHIP WHICH FREE MEN OF COLOR ENJOY.</head>
+               <head n="National Duty To Make Foreign Powers Respect the French Citizenship Which Free Men of Color Enjoy.">NATIONAL DUTY TO MAKE FOREIGN POWERS RESPECT THE FRENCH CITIZENSHIP WHICH FREE MEN OF COLOR ENJOY.</head>
                <p>The July revolution, which should have been more fruitful, which will be later, we can only hope, was however not entirely sterile for our colonies. Among the blessings we owe it, we must count the law of April 24, 1833, which granted the rights of French citizens to free men of color, and placed them, without distinction, in the great family. This first step calls for others; this is the beginning of reparation  that must be completed frankly and without restriction. The legislative decision that gives free men of color political rights adds: “under the conditions prescribed by law.” But for rights to have real effects and not be mere lures, legal conditions arranged for their exercise must not be combined so as to make them essentially illusory; yet, this is what has happened to electoral rights, in which only a small number of men of color can partake, because of the creation of a poll and eligibility tax. Election law for the colonies must therefore be reformed; but this is not what we mean to discuss here. </p>
                <p>Our goal today is not to demand the extension of a political right to men of color, rather it is their very right as French citizens that we mean to maintain and preserve from grievous infringement, infringement whose damage <pb n="9" facs="v1n2p9"/> would bear not only on them, but on the entire nation, which must take for itself the insult levied by a foreign nation to each of its members. </p>
                <p>The privilege of color having survived every other privilege felled by the justice of the Constituent assembly and the revolution of 89; this last privilege finally fell in its turn in the revolution of 1830. France desired that every free man born in its bosom or its colonies be a citizen, no matter his color. The nation recognizes this title; it must ensure that every other nation recognize it too; none should have the leisure to distinguish between us when we make no such distinction ourselves, to create categories where we do not seek to have any, and to deny the title of Frenchman to anyone granted it by France. Yet this is what happens in the Spanish possession of Cuba, and in the meridional provinces of the United States. A Frenchman, if he happens to be a man of color, will be excluded from these two countries, and if he ventures there, will be jailed like a criminal. </p>
@@ -83,7 +80,7 @@
                <pb n="12" facs="v1n2p12"/>
 
             <div xml:id="delegates">
-               <head>OF THE DELEGATES OF THE COLONIAL ARISTOCRACY AND THE AGENTS OF THE MEN OF COLOR</head>
+               <head n="Of the Delegates of the Colonial Aristocracy and the Agents of the Men of Color">OF THE DELEGATES OF THE COLONIAL ARISTOCRACY AND THE AGENTS OF THE MEN OF COLOR</head>
 
                <p>The law of April 1833 that institutes an assembly in the colonies under the name of <emph>colonial council</emph>, which is composed of those colonists who pay a 600 francs tax, and which nominates delegates supposedly to represent general interest in the metropole, cannot and will never have, in the terms by which it was conceived, any result of a nature to satisfy the majority of the population of the colonies. Indeed, the obligation to pay a tax as high as 600 francs only allows access to the colonial council to the wealthiest owners of plantations and slaves, those we call the colonial aristocracy, and not at all to the mass of black, mulatto and even white workers who make up the majority of the population. The delegates nominated by this council therefore only represent the interests of the great landowners; their views are exclusive, aristocratic, entirely opposed to the betterment of the fate of those classes which they fear or hate. Nominated thus, chosen by deciders truly interested in making sure that nothing is done in favor of the colored classes, they are in France only to support and defend the privileges of white people. </p>
                <p>This law has only brought to the colonies the organization of a new monopoly. How could men nominated by a majority in which the colored element could only ever participate as a minimal portion pretend to represent men of color? This is a mockery. So this law remedied nothing: as a law of privilege and monopoly, it is powerless to produce results favorable to general emancipation. We can therefore conclude that those who call themselves delegates of the colonies are in fact only the agents of the privileged, the advocates of owners of land and slaves; never in any way the representatives of our interests, we, owners of small properties and owners, one might say, of small freedom, who demand for ourselves and others not to be excluded from common law, we who do more and want abolition not only of slavery among all men no matter their
@@ -95,7 +92,7 @@
             </div>
 
             <div xml:id="grandanse">
-               <head><rs type="event">THE GRAND’ANSE AFFAIR</rs></head>
+               <head n="The Grand’anse Affair"><rs type="event">THE GRAND’ANSE AFFAIR</rs></head>
 
                <p><bibl type="periodical"><title ref="#LT">Le Temps</title></bibl> having published a letter in which the events that took place at Grand’Anse were strangely misrepresented, Mr. Gatine, attorney at the court of cassation, highlighted the erroneous assertions made by this newspaper’s correspondent. We cannot explain why Mr. Gatine’s letter was refused insertion into this newspaper unless we accept as true what we were told by some people whom we have every reason to believe well informed, which is that <bibl type="periodical"><title ref="#LT">Le Temps</title></bibl>, for a variety of reasons, is more devoted to the interests of colonial aristocracy than to the rights of man so indignantly outraged in the treatment meted to men of color. We publish with pleasure and haste Mr. Gatine’s remarkable refutation. 
 </p>
@@ -120,7 +117,7 @@
             <pb n="17" facs="v1n2p17"/>
 
             <div xml:id="society">
-               <head>SOCIETY FOR THE ABOLITION OF SLAVERY</head>
+               <head n="Society for the Abolition of Slavery">SOCIETY FOR THE ABOLITION OF SLAVERY</head>
 
                <p>In 1789, when the Estates General were summoned, a society was constituted in Paris that has since served as a model for the English; its goal was to convince people not only of the inhumanity of slavery, characterized by the privations of all sorts imposed to the unfortunate under its yoke and the atrocious punishments to which summary justice exposes them, but also to demonstrate how it corrupts moral sentiment in masters; overall, it was meant to look into the possibility of replacing slavery, in our colonies, with domesticity, by changing the agricultural system.</p>
                <p>The illustrious Lafayette, the abbé Grégoire, as representative for the bailiwick of Nancy at the Estates General, were at the head of this philanthropic association that found many supporters in the assembly. When the Estates General opened, public opinion had already so far progressed that minister Necker, in his May 5, 1789 address, told representatives of the nation, after evoking the abolition of tallage: 
@@ -144,7 +141,7 @@
             </div>
 
             <div xml:id="guadeloupe-council">
-               <head>OF GUADELOUPE’S COLONIAL COUNCIL</head>
+               <head n="Of Guadeloupe’s Colonial Council">OF GUADELOUPE’S COLONIAL COUNCIL</head>
                <p>The law of April 24, 1833 has begun to be enforced in our colonies, and already we have under our eyes the minutes of Guadeloupe’s colonial council’s meetings. Reading them
                <pb n="20" facs="v1n2p20"/>
                attentively gives us evidence of the fulfillment of our predictions regarding the results of this new law. Indeed, after studying it, there could remain no doubt in our minds about its perfidious combinations: we warned about them, called them out without hesitation.</p>
@@ -159,7 +156,7 @@
             </div>
 
             <div xml:id="installation">
-               <head>ON THE INSTALLATION SPEECHES OF MARTINIQUE’S COLONIAL COUNCIL</head>
+               <head n="On the Installation Speeches of Martinique’s Colonial Council">ON THE INSTALLATION SPEECHES OF MARTINIQUE’S COLONIAL COUNCIL</head>
 
                <p>Opening addresses at deliberating assemblies generally express the spirit that animates them; in this way only do they deserve public attention, when they do not confine themselves to flatly paraphrasing the words of power. In the latter circumstances, it is very difficult not to thoughtlessly let out a sentence that will betray the true sympathies of the majority in these assemblies. </p>
                <pb n="22" facs="v1n2p22"/>
@@ -174,7 +171,7 @@
             </div>
 
             <div xml:id="men-of-color-address">
-               <head>ON THE MEN OF COLOR’S ADDRESS TO THE GOVERNOR OF MARTINIQUE</head>
+               <head n="On the Men of Color’s Address To the Governor of Martinique">ON THE MEN OF COLOR’S ADDRESS TO THE GOVERNOR OF MARTINIQUE</head>
 
                <p>The men of color of Martinique, on the occasion of the events at Grand’Anse and the colonial council’s response to Governor Dupotet’s opening speech, have felt it their duty to protest, in a letter to Mr. Halgan, the accusations levied against them regarding said events. We must tell our brethren frankly, in this they have made a mistake; and counter-admiral Halgan, who refused to receive their address, indeed could not have acted otherwise. Though we do not disapprove of its thinking nor of its foundation, we do however find the general tone of this address to be too servile. Counter-admiral Halgan was far from being one of the lights of the state council, in which he barely ever sat. Everybody in France knows that the title of state counsellor most often does not compel one to do any actual work, and that it is but a reward to a civil servant for his devotion to the ministerial system. </p>
                <p>In any case, besides, we can only watch with sorrow our brethren in Martinique adopt this overhumble tone which, in our view, so ill becomes free men. What is it that you wanted? That justice be rendered to you? Well! Then you should have demanded it loud and clear from public opinion, as we did for you in the Paris newspapers, not in the courtesan-like style you adopted in your address. What did you expect
@@ -184,7 +181,7 @@
             </div>
 
             <div xml:id="first-of-august">
-               <head>FIRST OF AUGUST 1834</head>
+               <head n="First of August 1834">FIRST OF AUGUST 1834</head>
 
                <p>Let us salute in advance this great day, for fear it goes unnoticed by some when it should fill hearts with joy and gratitude. </p>
                <p>What is the First of August 1834, that we should pay it such attention and on that day surrender to joy and acts of thanksgiving?
@@ -212,9 +209,9 @@
             <pb n="27" facs="v1n2p27"/>
 
             <div xml:id="France">
-               <head>France.</head>
-               <head>PARIS.</head>
-               <head>CASE OF MR. BOITEL VS MR. CICERON</head>
+               <head n="France.">France.</head>
+               <head n="Paris.">PARIS.</head>
+               <head n="Case of Mr. Boitel Vs Mr. Ciceron">CASE OF MR. BOITEL VS MR. CICERON</head>
 
                <p>MAGISTRATE’S COURT–SIXTH CHAMBER, JUSTICE BOSQUILLON DE FONTENAY</p>
                <p>Hearing of July 26</p>
@@ -243,7 +240,7 @@
             </div>
 
             <div xml:id="miscellaneous">
-               <head>MISCELLANEOUS</head>
+               <head n="Miscellaneous">MISCELLANEOUS</head>
 
                <p><persName>M. de Saint-Simon</persName>,  peer of France, was named governor of the French establishments in India.</p>
                <p>– <persName><roleName>M. le général Drouet d'Erlon</roleName></persName> was named governor of <placeName ref="#Alg">Algiers</placeName>.</p>
@@ -282,7 +279,7 @@
                <p>– <persName ref="#CDup">Mr. Ch. Dupin</persName>’s competition in the election of a delegate for the aristocracy of <placeName ref="#MQ">Martinique</placeName>, was <persName ref="#Berr">Mr.
                      Berryer</persName>. This Legitimist deputy was supported by <persName>Messrs.
                      Villarson</persName>, <persName>Feuardent-Desculleville</persName>,
-                     <persName  ref="#PER">Perrinelle fils</persName>, <persName>Mauny</persName> and other men with retrograde ideas,  all members of the colonial council of <placeName ref="#MQ">
+                     <persName ref="#PER">Perrinelle fils</persName>, <persName>Mauny</persName> and other men with retrograde ideas,  all members of the colonial council of <placeName ref="#MQ">
                      Martinique</placeName>. <persName ref="#CDup">Mr. Ch. Dupin</persName> was named by the aristocratic party, who call the followers of Villarson et al. oligarchs.</p>
                <p>– On the topic of <placeName ref="#HT">Haiti</placeName> and the path taken by its government, we expect to receive authentic and positive documents that we will rush to the printing press. It is important to know where civilization, freedom and the Enlightenment stand in this Republic of men of color. Everything concerning this country is of the greatest interest to us; this is why we quote the following letter:</p>
                <q><p>To The Editor of the <title type="periodical">Courrier français</title>.</p>
@@ -314,14 +311,14 @@
             </div>
 
             <div>
-               <head>(SUPPLEMENT)</head>
+               <head n="(supplement)">(SUPPLEMENT)</head>
                </div><div xml:id="colonies-francaises">
-<head>
+<head n="Colonies Françaises.">
 COLONIES FRANÇAISES.</head>
             </div>
 
             <div type="article">
-               <head><placeName ref="#MQ">MARTINIQUE.</placeName></head>
+               <head n="Martinique."><placeName ref="#MQ">MARTINIQUE.</placeName></head>
                <p>We receive this letter from the town of <placeName ref="#TRI">La Trinité</placeName> :</p>
                <q><persName>Mr. Bardel</persName>,  captain of a militia company in <placeName ref="#MQ"> Martinique</placeName>,  encounters <persName>Mr.
                         Igout</persName>, colonist, formerly a merchant at <placeName>
@@ -356,7 +353,7 @@ A review of the national guard takes place, which Mr. Sugnin does not attend.
             </div>
 
             <div type="article">
-               <head><placeName ref="#GP">GUADELOUPE.</placeName></head>
+               <head n="Guadeloupe."><placeName ref="#GP">GUADELOUPE.</placeName></head>
 
                <p>We receive the following from <placeName>la Pointe-à-Pitre</placeName> :</p>
                <q><p>Arbitrariness remains the order of the day in our colony; local authorities act as if in a conquered land, allowing one to stay and exiling the other, according to their whim. At the slightest suspicion, a citizen will be hunted down, abducted, deported. 
@@ -372,7 +369,7 @@ A review of the national guard takes place, which Mr. Sugnin does not attend.
             </div>
 
             <div type="article">
-               <head><placeName ref="#BrB">BOURBON.</placeName></head>
+               <head n="Bourbon."><placeName ref="#BrB">BOURBON.</placeName></head>
 
                <p>While in <placeName ref="#MQ">Martinique</placeName> and <placeName ref="#GP">
                      Guadeloupe</placeName> the colonial aristocracy removes the funds allocated to the budget for public instruction, votes for the removal of mutual schools created by the government, under <persName ref="#AA">Mr. d'Argout</persName>’s tenure at the ministry of the Navy, and demands the status quo on the condition for slaves be maintained, in <placeName ref="#BrB">Bourbon</placeName> a colonist of the class we call aristocratic published a pamphlet entitled: 
@@ -387,7 +384,7 @@ A review of the national guard takes place, which Mr. Sugnin does not attend.
             </div>
 
             <div type="article">
-               <head><placeName>GUIANA.</placeName></head>
+               <head n="Guiana."><placeName>GUIANA.</placeName></head>
 
                <p><persName>Mr. Persegol</persName>, <roleName>president of the royal court of 
                         <placeName>Guiana</placeName></roleName>, has just received the wages of the noble independence he demonstrated in his report to the Minister of the Navy on the case of <persName>Mr. Vidal de Lingendes</persName> et
@@ -397,14 +394,14 @@ A review of the national guard takes place, which Mr. Sugnin does not attend.
             </div>
 
             <div type="article">
-               <head><placeName>SENEGAL.</placeName></head>
+               <head n="Senegal."><placeName>SENEGAL.</placeName></head>
                <p>the presence of English and French cruisers, the slave trade is still practiced all along the coast of <placeName>Guinea</placeName>. The Portuguese and the Spaniards engage in this odious traffic more than any others. Two slave traders from these nations were recently captured, but it will be very difficult to prevent cupidity from eluding the law if other governments do not sincerely second 
 <placeName ref="#FR">France</placeName>
                   and <placeName>l'Angleterre</placeName>.</p>
             </div>
 
             <div type="article">
-               <head><placeName ref="#Alg">ALGIERS.</placeName></head>
+               <head n="Algiers."><placeName ref="#Alg">ALGIERS.</placeName></head>
 
                <p>The following is written about this colony:</p>
                <q><p>The tribe of <persName>Beni-Moussa</persName>, who live in the mountains, request that their neighbors relinquish the murderer of 
@@ -444,20 +441,20 @@ A review of the national guard takes place, which Mr. Sugnin does not attend.
             </div>
 
             <div type="article">
-               <head><placeName>GRENADA.</placeName></head>
+               <head n="Grenada."><placeName>GRENADA.</placeName></head>
 
                <p> A letter from <placeName>Saint-Georges</placeName> tells us:</p>
                <q><p>"Everyone is making preparations for the big change that must occur on the First of August. Even those who until now had shown themselves the warmest supporters of slavery, seeing their cupidity satisfied in the part they shall receive of the twenty million pounds sterling of indemnity allocated them by England, now seem delighted to no longer bear the title of slave owners."</p></q>
             </div>
 
             <div type="article">
-               <head><placeName>TORTOLA.</placeName></head>
+               <head n="Tortola."><placeName>TORTOLA.</placeName></head>
 
                <p>In this English possession, they did not wait for the date fixed by the bill to proclaim the freedom of negroes. The inhabitants, understanding all that this law contains of high morality, hastened to enforce it.</p>
             </div>
 
             <div type="article">
-               <head><placeName>DEMERARA</placeName></head>
+               <head n="Demerara"><placeName>DEMERARA</placeName></head>
 
                <p>In the English colonies, reason triumphs more every day over the odious and ridiculous skin prejudice. In <placeName>Demerara</placeName>,
                   an establishment neighboring <placeName ref="#GF">French Guiana</placeName>, the bill
@@ -467,14 +464,14 @@ A review of the national guard takes place, which Mr. Sugnin does not attend.
             </div>
 
             <div type="article">
-               <head><placeName ref="#CUB">CUBA</placeName></head>
+               <head n="Cuba"><placeName ref="#CUB">CUBA</placeName></head>
 
                <p>Acts of piracy have been committed in the vicinity of Honduras and Nicaragua (New Spain). Two suspicious ships of Spanish make were recently spotted sailing near Carthagena, along a ship believed to be French, which they probably captured. The government of Jamaica sent a few war sloops in pursuit.</p>
                <p>The slave trade occurs in the open in Havana, despite the dangers those who engage in it should face. Last April, a slaver having dropped sail on the West coast of Saint Domingue, some of the slaves broke their fetters, seized weapons, and after a terrible melee during which the crew was beaten, they took over the ship, which soon sunk. Those negroes who did not drown were welcome in Saint-Domingue. Five or six sailors escaped to Cuba.</p>
             </div>
 
             <div type="article">
-               <head><placeName>CANADA</placeName></head>
+               <head n="Canada"><placeName>CANADA</placeName></head>
 
                <p>We read the following observations on Canada’s political customs in the <bibl type="periodical">Journal de la Marine</bibl>:</p>
                <q><p>n Canada, women have the privilege to vote in elections the same as men. In the last elections, where <persName>
@@ -486,7 +483,7 @@ A review of the national guard takes place, which Mr. Sugnin does not attend.
             </div>
 
             <div type="article">
-               <head>CPROCESSION FOR THE YOUNG PAVILLON.</head>
+               <head n="Cprocession for the Young Pavillon.">CPROCESSION FOR THE YOUNG PAVILLON.</head>
 
                <p>On July 25, we attended the funeral service for <persName>Sainte-Cour
                      Pavillon</persName>, of <placeName ref="#GP">Guadeloupe</placeName>, Sainte-Cour Pavillon of Guadeloupe, a student at Henri IV high school who gave much promise. A great number of people of color attended this ceremony. The presence of a delegation of young European schoolmates of <persName>Pavillon</persName>.
@@ -502,8 +499,8 @@ A review of the national guard takes place, which Mr. Sugnin does not attend.
             </div>
 
             <div xml:id="biography">
-               <head>BIOGRAPHY.</head>
-               <head>M. CABASSE.</head>
+               <head n="Biography.">BIOGRAPHY.</head>
+               <head n="M. Cabasse.">M. CABASSE.</head>
 
                <p><persName>Mr. Prosper Cabasse</persName>, former attorney general to the royal court of <placeName ref="#GP">Guadeloupe</placeName>, n'intéresse les colonies que
                   s of interest to the colonies solely for the role he played there during the Restoration, notably in the infamous trial of the men of color from <placeName ref="#MQ"> Martinique.</placeName></p>

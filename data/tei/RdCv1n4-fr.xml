@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n4-fr">
+<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n4-fr">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -34,14 +31,14 @@
       </front>
       <body>
          <div>
-            <head>REVUE<lb/>DES <lb/>COLONIES</head>
+            <head n="Revuedes colonies">REVUE<lb/>DES <lb/>COLONIES</head>
 
 <div>
             <pb facs="v1n4f2" n="2"/>
             </div>
             <pb facs="v1n4f3" n="3"/>
      <div xml:id="bill-émancipation">
-     <head>DU <foreign>BILL</foreign> D'ÉMANCIPATION ET DES PREMIERS RÉSULTATS DE SA MISE EN PRATIQUE</head>
+     <head n="Du bill d'émancipation et des premiers résultats de sa mise en pratique">DU <foreign>BILL</foreign> D'ÉMANCIPATION ET DES PREMIERS RÉSULTATS DE SA MISE EN PRATIQUE</head>
      
    <p>Nous avons promis de signaler à l'attention de nos lecteurs tous les 
    <choice>
@@ -188,7 +185,7 @@
 <pb facs="v1n4f9" n="9"/>
 à l'assemblée générale qu'il lui soumettrait bientôt un projet de loi pour l'émancipation immédiate des noirs. Mais la motion de l'honorable membre n'eut point le succès qu'il en attendait: après avoir provoqué une forte opposition et de longs débats, elle fut repoussée par la majorité. On allégua les raisons les plus futiles pour fausser le vote de la chambre dans cette circonstance. L'abolition totale de l'esclavage une fois décrétée, disait-on, le gouver nement britannique retirera l'indemnité promise aux planteurs. En définitif, l'assemblée s'est prononcée pour l'adoption de l'apprentissage. Nous souhaitons que cette mesure impolitique ne compromette point la tranquillité ni la prospérité publique; elle nous parait impraticable, et les planteurs en reconnaîtront peut-être eux-mêmes les inconvéniens, lors des prochaines récoltes des can nes à sucre. Usant d'un pouvoir qui vous est délégué, vous avez voulu que l'esclave arrivät à une liberté entière par l'état de probavation, observait lord Mulgrave à l'assemblée, le 12 décembre 1835; je n'hésite pas toutefois à vous le dire, si l'expérience des hommes et des choses vous engageait à revenir sur cette pre mière résolution et à rapprocher le terme de l'apprentissage, déjà fixé par la loi, aucune mesure ne pourrait être plus agréable à la nation anglaise et à son gouvernement. J'éprouverais moi-même une bien grande satisfaction, en voyant disparaitre les derniers vestiges d'un état de choses dont j'ai remarqué personnellement les funestes résultats (1). »
 La glorieuse prééminence que la Jamaïque a laissé échapper, l'ile d'Antigues se l'est assurée. Un acte émané de l'assemblée législative de cette colonie abolit complétement l'esclavage, à partir du 1 août 1854. Une dépêche de sir E. Murray M' Grégor annonça au gouvernement de sa majesté la résolution libérale que la chambre venait de prendre. Cependant une difficulté qui survint fut sur le point d'amener l'annullation de la loi. Dans un des articles, l'assemblée avait inséré une clause portant la suppression d'un impôt colonial contre lequel toutes les îles anglaises des Indes Occidentales réclament depuis long-temps. La clause fut rejetée, et l'assemblée cédant alors à un mouvement d'irritation, se déclara pour l'application du mode d'apprentissage. Mais la seconde cham
-<p><note>(1)(1) Aux nouvelles diverses, on trouvera d'autres détails relatifs à la Jamaique.</note></p>>
+<p><note>(1)(1) Aux nouvelles diverses, on trouvera d'autres détails relatifs à la Jamaique.</note></p>&gt;
 <pb facs="v1n4f10" n="10"/>
 bre du conseil refusa de sanctionner une loi de colère. Une lutte s'engagea entre les deux corps, et alarma beaucoup les amis de la liberté et de l'ordre. Heureusement, elle se termina de la ma nière la plus favorable. L'acte pour l'affranchissement immédiat, soumis une seconde fois à la discussion de l'assemblée générale, passa à la majorité d'une voix, et fut aussitôt confirmé par le conseil.</p>
 <p>Ici, comme à la Jamaique, la situation morale et intellectuelle des noirs est satisfaisante. Au témoignage de lord Mulgrave, nous pouvons en ajouter un autre non moins précieux. Voici un extrait d'une lettre écrite par M. Stanley, alors ministre secrétaire d'état des colonies, en réponse à la première dépêche que lui avait envoyée sir E. Murray M' Grégor. L'idée avantageuse que les hommes du pays le plus capables de bien la juger ont conçue de la classe des noirs me cause un sensible plaisir. Il est d'autant plus heureux qu'elle soit, comme vous me l'apprenez, dans un état de civilisation et d'instruction assez avancé pour jouir d'une liberté prochaine et entière, que la législature d'Antigues et les planteurs vivant sur leurs terres sont à la veille de lui conférer ce bienfait qu'appellent sur tous ses enfans les voeux de la mère-patrie.</p>
@@ -211,7 +208,7 @@ A. G.
 </p></div>
 
      <div xml:id="violation-du-droit">
-     <head>VIOLATION DU DROIT DES GENS DANS LA PERSONNE DES HOMMES DE COULEUR FRANÇAIS.</head>
+     <head n="Violation du droit des gens dans la personne des hommes de couleur français.">VIOLATION DU DROIT DES GENS DANS LA PERSONNE DES HOMMES DE COULEUR FRANÇAIS.</head>
    <p>La <bibl type="periodical"><title ref="#RdC"><emph>Revue des Colonies</emph></title></bibl> a signalé à ses lecteurs un fait de la plus haute gravité, l'interdiction aux hommes de couleur, sous peine de séquestration de leurs personnes, d'entrer dans certaines provinces des États-Unis et dans l'ile de Cuba. La <emph>Revue</emph> a fait connaître les mesures prises à cet égard par les 
    <choice>
    <orig>gouvernemens</orig>
@@ -298,7 +295,7 @@ Avocat à la Cour de cassation.</p></div>
 
    </div>
     <div xml:id="nécessité">
-   <head>NÉCESSITÉ D'UNE NOUVELLE ORGANISATION DES MILICES
+   <head n="Nécessité d'une nouvelle organisation des milicescoloniales.">NÉCESSITÉ D'UNE NOUVELLE ORGANISATION DES MILICES
 COLONIALES.</head>
 <p>La loi d'<date>avril 1833</date> s'est reposée sur le pouvoir royal du soin d'organiser les milices coloniales. Cette promesse législative, comme tant d'autres, n'a pas reçu d'exécution, de sorte que les milices subissent aujourd'hui les dispositions surannées des 
 <choice>
@@ -374,8 +371,8 @@ COLONIALES.</head>
    </div>
    
     <div xml:id="états-unis">
-   <head>ÉTATS-UNIS.</head>
-   <head>TROUBLES À PHILADELPHIE ET À CHARLESTOWN.</head>
+   <head n="États-unis.">ÉTATS-UNIS.</head>
+   <head n="Troubles à philadelphie et à charlestown.">TROUBLES À PHILADELPHIE ET À CHARLESTOWN.</head>
    <p>La ville de <placeName>Philadelphie</placeName> et celle de <placeName>Charlestown</placeName>, dans le Massachussets, viennent d'être le théâtre de scènes tumultueuses d'une nature grave. A Philadelphie, la populace, ameutée contre de malheureux noirs, renouvelle tous les excès dont on a été dernièrement témoin à New-York, et saccage et détruit les maisons, les églises, les propriétés de ces nouveaux parias. A Charlestown, sous le prétexte, tout-à-fait dénué de fondement, que le rent, qu'une religieuse avait disparu d'un couvent catholique, le peuple s'est porté vers la paisible demeure de femmes dont tous les 
    <choice>
    <orig>instans</orig>
@@ -417,9 +414,9 @@ COLONIALES.</head>
        </choice>
         seront le partage de quelques-uns, à l'exclusion du grand nombre, nous serons contre l'ordre établi, de quelque nom qu'il se décore. Sans doute, nous ne croyons pas que les grossières violences exercées par une portion du peuple américain contre les noirs et leurs amis tiennent à la nature de la constitution politique des <placeName>Etats-Unis</placeName>, mais toujours est-il que ce sont là des faits fâcheux pour l'honneur de la civilisation transatlantique, et qu'il importe de flétrir dans l'intérêt de l'humanité, sans se laisser préoccuper aucunement de l'excellence des lois fondamentales de ce pays.</p></div><pb facs="v1n4f23" n="23"/>
 
-        <div xml:id="angleterre">">
-        <head>ANGLETERRE.</head>
-        <head>LONDRES.</head>
+        <div xml:id="angleterre">"&gt;
+        <head n="Angleterre.">ANGLETERRE.</head>
+        <head n="Londres.">LONDRES.</head>
         <p>Le passage suivant, extrait d'un discours prononcé par le <persName ref="#Mul">comte Mulgrave</persName>, en réponse à une adresse que lui a présenté dernièrement la <orgName ref="#SEU"><emph>Société de l'émancipation universelle</emph></orgName>, contient une juste appréciation de l'esprit et des 
         <choice>
         <orig>sentimens</orig>
@@ -456,12 +453,12 @@ COLONIALES.</head>
             (<bibl type="periodical"><title><emph>Standard</emph></title></bibl>.)</p></div>
 
              <div xml:id="France">
-            <head>FRANCE.</head>
-            <head>PARIS.</head>
-            <head><orgName ref="#CDC">COUR DE CASSATION</orgName>.</head>
-            <head>Audience du <date>12 septembre</date>. Présidence de <persName ref="#Bast">M. Bastard</persName>.</head>
+            <head n="France.">FRANCE.</head>
+            <head n="Paris.">PARIS.</head>
+            <head n="Cour de cassation."><orgName ref="#CDC">COUR DE CASSATION</orgName>.</head>
+            <head n="Audience du 12 septembre. présidence de m. bastard.">Audience du <date>12 septembre</date>. Présidence de <persName ref="#Bast">M. Bastard</persName>.</head>
 
-            <head>POURVOI DE <persName ref="#Ces">CÉSAIRE</persName> (DE LA GRAND'ANSE).</head>
+            <head n="Pourvoi de césaire (de la grand'anse).">POURVOI DE <persName ref="#Ces">CÉSAIRE</persName> (DE LA GRAND'ANSE).</head>
             <p>Les journaux quotidiens ont rendu compte de cette affaire. La <bibl type="periodical"><title ref="#RdC">Revue des Colonies</title></bibl> en doit à ses lecteurs un récit plus étendu. Elle enregistre avec soin tous les faits par lesquels on peut apprécier en <placeName ref="#FR">France</placeName> l'état social des colonies. Le procès de <persName ref="#Ces">Césaire</persName> a sous ce point de vue une haute signification.</p>
             <p>Un différend s'élève sur la voie publique, entre deux 
             <choice>
@@ -541,7 +538,7 @@ COLONIALES.</head>
                  <p>C'est avec joie que nous portons cet arrêt à la connaissance de nos compatriotes. Il fera luire un rayon d'espoir au cœur des con damnés de la <placeName ref="#GdA">Grand'Anse</placeName> et de tant de familles désolées.</p></q><pb facs="v1n4f31" n="31"/></div>
 
                   <div xml:id="conversation">
-                 <head>CONVERSATION DE <persName ref="#CB">M. BISSETTE</persName> AVEC <persName ref="#RL">M. LUCY</persName> (<date>15 SEPTEMBRE 1834</date>) SOUS LA PORTE COCHÈRE DU MINISTÈRE DE LA MARINE.</head>
+                 <head n="Conversation de m. bissette avec m. lucy (15 septembre 1834) sous la porte cochère du ministère de la marine.">CONVERSATION DE <persName ref="#CB">M. BISSETTE</persName> AVEC <persName ref="#RL">M. LUCY</persName> (<date>15 SEPTEMBRE 1834</date>) SOUS LA PORTE COCHÈRE DU MINISTÈRE DE LA MARINE.</head>
 
                  <p><q>Eh bien ? nous pouvons nous dire bonjour ici et nous saluer ; me reconnaissez-vous ? - Certainement, c'est  <persName ref="#CB">M. Bissette</persName>. Et vous ne rougissez pas ! mais non, vous pâlissez, et je le conçois. N'ayez aucune crainte, mon intention n'est pas de me porter à des actes de violence, à des voies de fait sur votre personne ; je veux que vous me disiez si vous croyez avoir fait votre devoir en me faisant appliquer le fer chaud au mépris de mon pourvoi en cassation. M. Bissette, oubliez le passé ; il y a dix ans que vous (me poursuivez, je n'ai répondu à aucun de vos écrits, parce que le magistrat est exposé à ce que l'on critique ses actes ; ne m'en voulez pas, n'ayez pas de haine ; je me suis trompé ; qui ne se trompe pas ? Voyez ici en France si les magistrats ne se trompent pas tous les jours. -Le juge peut se tromper, oui, mais le magistrat chargé de faire exécuter l'arrêt ne le doit pas ; le pourvoi était suspensif, vous avez mis un acharnement impardonnable, vous l'avez fait exécuter malgré notre recours en cassation, malgré les larmes de nos familles qui vous demandaient un sursis. Mais, M.Bissette, oubliez le passé, je vous en conjure : j'ai été bien malheureux ; n'attaquez pas mon cœur comme homme, plaignez plutôt le magistrat qui s'est trompé. N'avez-vous pas été plus que vengé ? l'arrêt a été cassé, que pouviez-vous désirer de mieux ? l'opinion publique vous a entouré, elle vous a fait justice ; ce sont des consolations, M. Bissette. -Oui, c'en sont, et c'est cette compensation qui fait taire le ressentiment que j'aurais pu conserver justement contre vous. -<persName ref="#CJB">Mon fils</persName> a rencontré votre fils hier dans le <placeName>parc de Saint-Cloud</placeName>, il l'a salué, Je le sais ! et que m'importe, il s'agit bien ici de votre fils et du mien ; mon fils n'ignore pas les persécutions que vous m'avez fait éprouver ; il sait tout ; mais je ne l'élève pas dans la haine de ses semblables, il est camarade de collège de votre jeune fils, et jamais il ne lui a fait un reproche de vos cruautés ; nos 
                  <choice>
@@ -553,7 +550,7 @@ COLONIALES.</head>
                   <orig>enfans</orig>
                   <reg>enfants</reg>
                   </choice>
-                   de manière à ce qu'ils ne soient pas ennemis les uns des autres. C'est mon fils aîné qui a salué votre fils. Je suis venu en <placeName ref="#FR">France</placeName> pour lui faire faire son droit. Je ne désespère pas de voir<pb facs="v1n4f32" n="32"/>notre pays heureux et tranquille, la fusion se fait tous les jours. Oui, avec les échafauds et des condamnations à mort de quarante et un individus à la fois. Vous avez été juge dans l'affaire de la Grand'Anse. -Oui, mais <persName ref="#LTelem">M. Léonce</persName> a été acquitté à l'unanimité. Vos amis ont dû vous écrire que j'étais un modéré, les blancs disent que je ne suis plus partisan de leur système politique ; j'ai eu des voix des hommes de couleur dans les élections. Je n'ai pas voulu être membre du conseil-général, j'ai refusé d'être porté dans cinq collèges à la fois ; au Fort-Royal, je fus porté comme président du collège, en opposition à <persName ref="#RA">M. Rainouard</persName>, et M. Rainouard était le candidat de <persName ref="#JHD">M. Dupotet</persName> ; je ne veux plus être homme politique, je suis dégoûté des affaires, je me retire de la magistrature, et dans un an je ne serai plus rien, je prendrai ma retraite. Vous avez beaucoup d'esprit, <persName ref="#RL">M. Lucy</persName>, et vous en faites preuve en ce moment ; mais ne sortons pas, je vous prie, de la question. Dites-moi si vous avez la conscience nette de m'avoir fait <emph>marquer !</emph> Ce n'est pas que je rougisse de cette marque, qui fait aujourd'hui ma gloire, mais je veux connaître à fond votre opinion. <persName ref="#CB">M. Bissette</persName>, ne revenez pas sur cela, je vous ai toujours rendu justice dans tout ce que vous avez écrit ; depuis cette affaire, vous m'avez souvent attaqué, et jamais je n'ai voulu répondre. Mais vous sortez de la question : répondez sur cette <emph>marque</emph> infligée au mépris du pourvoi en cassation ; allons, n'ayez point peur. Le pourvoi en cassation est une institution révolutionnaire. La <orgName ref="#CDC">cour de cassation</orgName> date de <date>1791</date>, et les anciens tribunaux pouvaient faire exécuter les arrêts, nonobstant tout recours ; les colonies étaient régies par ces anciens usages. <bibl type="legal"><title>L'article 29 de l'édit de 1758</title></bibl> autorisait l'exécution malgré le pourvoi. Oui, mais <bibl type="legal"><title>l'ordonnance de 1755</title></bibl> a abrogé cette disposition ; vous la connaissiez et vous avez passé outre. Je ne pouvais pas faire autrement ; mais le général <persName ref="#FXD">Donzelot</persName>  aurait pu tout arrêter, il a refusé d'écouter les pleurs de <persName ref="#MmeB">votre femme</persName> et de <persName ref="#MmeF">madame Fabien</persName> qui se sont jetées à ses genoux. J'ai été bien malheureux de voir mon nom rattaché à cette affaire. Je suis venu en France en <date>1824</date>, je n'ai rien fait pour empêcher la réussite de votre pourvoi en cassation. -Vous rejetez la faute sur <persName >Donzelot</persName> ; Donzelot, lui, dit que c'est vous ; moi, je dis c'est tous les deux. Et ce Donzelot, la providence a voulu que dans une attaque, une faiblesse, que sais-je, il soit tombé à mes pieds, dans<pb facs="v1n4f33" n="33"/>le passage Vivienne ; je vis un vieillard tomber de tout son poids, je le relève et je reconnais le général Donzelot. C'est la main de Dieu qui a dirigé tout cela, et c'est encore une satisfaction pour moi d'avoir donné la main, une main secourable, à celui qui, avec vous, m'a fait tant de mal. C'est un acte d'humanité, M. Bissette, et cela prouve en votre faveur. Je suis partisan des hommes de couleur ; ils peuvent vous le dire, les choses ont changé. Dans les premiers 
+                   de manière à ce qu'ils ne soient pas ennemis les uns des autres. C'est mon fils aîné qui a salué votre fils. Je suis venu en <placeName ref="#FR">France</placeName> pour lui faire faire son droit. Je ne désespère pas de voir<pb facs="v1n4f32" n="32"/>notre pays heureux et tranquille, la fusion se fait tous les jours. Oui, avec les échafauds et des condamnations à mort de quarante et un individus à la fois. Vous avez été juge dans l'affaire de la Grand'Anse. -Oui, mais <persName ref="#LTelem">M. Léonce</persName> a été acquitté à l'unanimité. Vos amis ont dû vous écrire que j'étais un modéré, les blancs disent que je ne suis plus partisan de leur système politique ; j'ai eu des voix des hommes de couleur dans les élections. Je n'ai pas voulu être membre du conseil-général, j'ai refusé d'être porté dans cinq collèges à la fois ; au Fort-Royal, je fus porté comme président du collège, en opposition à <persName ref="#RA">M. Rainouard</persName>, et M. Rainouard était le candidat de <persName ref="#JHD">M. Dupotet</persName> ; je ne veux plus être homme politique, je suis dégoûté des affaires, je me retire de la magistrature, et dans un an je ne serai plus rien, je prendrai ma retraite. Vous avez beaucoup d'esprit, <persName ref="#RL">M. Lucy</persName>, et vous en faites preuve en ce moment ; mais ne sortons pas, je vous prie, de la question. Dites-moi si vous avez la conscience nette de m'avoir fait <emph>marquer !</emph> Ce n'est pas que je rougisse de cette marque, qui fait aujourd'hui ma gloire, mais je veux connaître à fond votre opinion. <persName ref="#CB">M. Bissette</persName>, ne revenez pas sur cela, je vous ai toujours rendu justice dans tout ce que vous avez écrit ; depuis cette affaire, vous m'avez souvent attaqué, et jamais je n'ai voulu répondre. Mais vous sortez de la question : répondez sur cette <emph>marque</emph> infligée au mépris du pourvoi en cassation ; allons, n'ayez point peur. Le pourvoi en cassation est une institution révolutionnaire. La <orgName ref="#CDC">cour de cassation</orgName> date de <date>1791</date>, et les anciens tribunaux pouvaient faire exécuter les arrêts, nonobstant tout recours ; les colonies étaient régies par ces anciens usages. <bibl type="legal"><title>L'article 29 de l'édit de 1758</title></bibl> autorisait l'exécution malgré le pourvoi. Oui, mais <bibl type="legal"><title>l'ordonnance de 1755</title></bibl> a abrogé cette disposition ; vous la connaissiez et vous avez passé outre. Je ne pouvais pas faire autrement ; mais le général <persName ref="#FXD">Donzelot</persName>  aurait pu tout arrêter, il a refusé d'écouter les pleurs de <persName ref="#MmeB">votre femme</persName> et de <persName ref="#MmeF">madame Fabien</persName> qui se sont jetées à ses genoux. J'ai été bien malheureux de voir mon nom rattaché à cette affaire. Je suis venu en France en <date>1824</date>, je n'ai rien fait pour empêcher la réussite de votre pourvoi en cassation. -Vous rejetez la faute sur <persName>Donzelot</persName> ; Donzelot, lui, dit que c'est vous ; moi, je dis c'est tous les deux. Et ce Donzelot, la providence a voulu que dans une attaque, une faiblesse, que sais-je, il soit tombé à mes pieds, dans<pb facs="v1n4f33" n="33"/>le passage Vivienne ; je vis un vieillard tomber de tout son poids, je le relève et je reconnais le général Donzelot. C'est la main de Dieu qui a dirigé tout cela, et c'est encore une satisfaction pour moi d'avoir donné la main, une main secourable, à celui qui, avec vous, m'a fait tant de mal. C'est un acte d'humanité, M. Bissette, et cela prouve en votre faveur. Je suis partisan des hommes de couleur ; ils peuvent vous le dire, les choses ont changé. Dans les premiers 
                    <choice>
                    <orig>momens</orig>
                    <reg>moments</reg>
@@ -622,7 +619,7 @@ COLONIALES.</head>
                            <p>M. Bissette a écrit cette conversation telle qu'on vient de la lire, en rentrant chez lui, le soir même du jour où elle a eu lieu, <emph>ne varietur</emph>. M. Bissette ne croit pas même s'être mal souvenu du tour des phrases, quelque peu oiseuses, de M. le procureur-général. Mais en tout cas, il est certain d'en avoir rendu le sens avec la plus complète fidélité. Toute autre version qui pourrait encourir, peut être en toute vérité arguée de fausse et de mensongère.</p></div>
 
                             <div xml:id="nouvelles-diverses">
-                           <head>NOUVELLES DIVERSES.</head>
+                           <head n="Nouvelles diverses.">NOUVELLES DIVERSES.</head>
                            
                            <p><persName ref="#DU">M. Henri Dutrône</persName>, conseiller à la cour royale d'<placeName ref="#Ami">Amiens</placeName>, vient d'être chargé par le gouvernement d'aller étudier à <placeName ref="#Alg">Alger</placeName> ce qu'il est possible de faire pour organiser et répandre l'instruction dans cette colonie.</p>
                            <p>-<persName ref="#BA">M. Babe</persName>, conseiller-auditeur à la cour royale de la <placeName ref="#GP">Guadeloupe</placeName>, a été nommé conseiller titulaire à la <placeName ref="#MQ">Martinique</placeName>, en remplacement de <persName ref="#Pé">M. Pécoul</persName>.</p>
@@ -646,8 +643,8 @@ COLONIALES.</head>
                             de <placeName>Londres</placeName>, assure-t-on, ont placé leurs capitaux dans les entreprises formées pour l'exploitation des mines de l'Amérique méridionale, où sont enfouis tous les jours sans pitié dos nègres enlevés sur la côte d'Afrique. <q>“Il en est de même au <placeName ref="#BR">Brésil</placeName>, ajoute l'Abolitioniste : des Anglais intéressés, en qualité d'actionnaires, à des entreprises du même genre, ont avancé les fonds qui ont servi à acheter environ cinq cents esclaves employés dans les mines du pays.”</q></p></div>
 
                              <div xml:id="colonies-françaises">
-                            <head>COLONIES FRANÇAISES.</head>
-                            <head>MARTINIQUE</head>
+                            <head n="Colonies françaises.">COLONIES FRANÇAISES.</head>
+                            <head n="Martinique">MARTINIQUE</head>
 
                             <p>On nous écrit de Saint-Pierre :
 <q>La réaction est si complète ici depuis le fameux arrêt dans l'affaire de la <placeName ref="#GdA">Grand'Anse</placeName>, que nos fonctionnaires privilégiés ne se font aucun scrupule de violer toutes les lois ; ils marchent à grands pas dela persécution à l'arbitraire le plus révoltant. Le procureur du roi, <persName ref="#AuA">M. Aubert-Armand</persName>, fait payer au jeune <persName ref="#Louisy">Louisy</persName> (ce <emph>patroné</emph> dont<pb facs="v1n4f38" n="38"/>le procès fit tant de bruit, et qui obtint la cassation de l'arrêt qui le condamnait aux galères) le <emph>tort grave qu'il a eu d'indisposer ses juges contre lui en se pourvoyant contre leur arrêt</emph>. <persName ref="#Louisy">Louisy</persName>, désirant faire régulariser ses titres de liberté, sollicita l'autorisation du procureur du roi pour se faire inscrire sur les registres de l'état civil ; ce fonctionnaire refusa cette autorisation, disant que Louisy est un <emph>mauvais</emph> sujet, qui d'ailleurs n'a aucun titre qui pût justifier de sa condition d'homme libre de fait. Nous répondîmes que la longue procédure devant les tribunaux de la colonie et devant la cour de cassation suffisait pour prouver sa condition de <emph>patroné</emph>, qu'il n'y avait d'autre titre à exiger que l'identité de l'individu. <persName ref="#AuA">M. Aubert-Armand</persName> ayant demandé l'acte d'enrôlement dans la milice qu'avait obtenu Louisy, nous répondîmes que cette pièce avait été jointe au dossier qui fut envoyé à la cour de cassation, lequel doit se trouver aujourd'hui au greffe de la cour royale de la colo nie. Pétition fut adressée au procureur-général, <persName ref="#ANog">Arsène Nogues</persName>, pour avoir cette pièce, mais le pétitionnaire fut éconduit d'une manière abominable par ce magistrat : “Tu viens, dit-il, me réclamer tes pièces, te crois-tu libre ?” Louisy eut le bon esprit de répondre que la cour de cassation l'avait reconnu tel : “Non, reprit M. Nogues, tu n'es qu'un esclave. As-tu pris une permission de ton maître pour venir ici ? Tu as eu l'insolence de frapper un blanc, les <emph>mulâtres</emph> t'ont fait passer dans ta prison un faux enrôlement, et tu viens aujourd'hui porter ton audace jusqu'à me réclamer ce titre ; f...-moi le camp bien vite ou je t'envoie en prison.”</q></p>
@@ -670,7 +667,7 @@ Le procureur-général Nogues est d'une sévérité extrême pour les détenus d
 <p>Un des condamnés de la Grand'Anse qui depuis huit jours était à l'hôpital vient de mourir, c'est le <persName>sieur Sainte-Rose-Barthel</persName>, il était condamné à cinq ans de réclusion. Sa famille a fait par notre entremise des démarches auprès de l'autorité pour avoir le corps afin de le faire inhumer : cette triste consolation lui a été refusée. On l'a fait enterrer par la chaîne des condamnés ! ....</p></div>
 
 <div>
-<head>
+<head n="Guianeguyane.">
 <choice>
 <orig>GUIANE</orig>
 <reg>GUYANE</reg>
@@ -719,7 +716,7 @@ Depuis près de deux mois, on connaît à Cayenne le résultat des discussions q
     et les discussions qui ont eu lieu ou auront lieu à la suite de l'affaire qui amène M. Persegol à Paris, serviront du moins à éclairer l'opinion du gouvernement et soulèveront cette grande question devant les chambres.</p></div>
 
     <div>
-    <head>BOURBON.</head>
+    <head n="Bourbon.">BOURBON.</head>
     <p><q>“..... Au moment où je vous écris, la plus grande agitation règne dans toute la ville. 
       Il s'agit de dénouer cette question qui depuis 
 <choice>
@@ -737,8 +734,8 @@ Deux navires seulement ont été démâtés ; l'un des deux (<emph>la Lise de Bo
 P. S. – Au moment où j'allais clore ma lettre, on est venu m'annoncer l'élection de <persName>MM. Sully-Brunet</persName> et <persName ref="#C">Conil</persName>.”</q></p></div>
 
  <div xml:id="colonies-étrangères">
-<head>COLONIES ÉTRANGÈRES.</head>
-<head>JAMAÏQUE.</head>
+<head n="Colonies étrangères.">COLONIES ÉTRANGÈRES.</head>
+<head n="Jamaïque.">JAMAÏQUE.</head>
 <p>La proclamation suivante a été adressée par le nouveau gouverneur, le <persName ref="#Sligo">marquis de Sligo</persName>, aux nègres de l'île, emancipés par la loi :
    <q>“Mes amis, notre bon roi, qui, il y a bien des années, a visité la Jamaïque, pense encore à notre île et en parle sans cesse. Il m'a envoyé ici pour prendre soin de vous et pour protéger vos droits. Mais en même temps il m'a ordonné de faire rendre justice à vos anciens maîtres et de punir ceux qui se conduisent mal. Suivez<pb facs="v1n4f43" n="43"/>mes conseils, car je suis votre ami. Soyez sobres, honnêtes, et travaillez avec assiduité lorsque commencera le temps de votre apprentissage ; car si vous vous comportez mal et si vous refusez de travailler parce que vous ne serez plus esclaves, soyez bien convaincus que vous vous exposerez à être punis.
    Le peuple anglais est votre ami, et sujet du même monarque : il s'est montré tel en adoptant le <foreign>bill</foreign> qui vous rend libres. Vos maîtres enfin sont vos amis, ils l'ont bien prouvé en adoptant le même <foreign>bill</foreign> dans la chambre d'assemblée. Il dépend de vous de montrer que vous êtes dignes de ces bons procédés et des avantages dont vous dote la loi nouvelle en travaillant diligemment durant le cours de votre apprentissage.
@@ -787,32 +784,32 @@ P. S. – Au moment où j'allais clore ma lettre, on est venu m'annoncer l'élec
      que les autres ; quelques-uns donnent plus de temps pour déjeuner. En général, d'avril à septembre, le travail commencera à six heures du matin et à sept heures de septembre à avril. On n'a pu déterminer la vacance du milieu du jour, parce que les nègres préfèrent généralement avoir plus de temps dans l'après-midi. Les nègres travaille ront huit heures pour leurs maîtres, et le reste du temps ils pour ront s'occuper pour leur propre compte ; le travail qu'ils feraient alors pour leurs maîtres serait l'objet d'un prix à forfait. Un respectable colon a déclaré qu'il était déjà convenu d'accorder 5 livres <foreign>sterling</foreign> par an à chacun des nègres de première classe pour le travail extraordinaire, et qu'il devait payer les autres proportionnellement. Dans cette seule plantation, cet arrangement conférerait aux nègres pour leurs bénéfices particuliers 650 livres <foreign>sterling</foreign> par an. Le gouverneur a rendu une ordonnance pour l'établissement d'une nouvelle police dans la ville de <placeName ref="#K">Kingston</placeName> ; cette police devait être étendue à l'île entière. Une garde de nuit a été instituée dans presque toutes les localités pour protéger les propriétés contre toute brusque interruption de la paix. A <placeName ref="#Vé">Vérez</placeName>, les magistrats se sont réunis pour établir des réglemens uniformes pour le salaire des apprentis à partir du <date>1er août</date>. Toutes les nouvelles s'accordent à dire que la journée du 1er août s'est passée sans aucun désordre.</p></div>
 
      <div>
-     <head><placeName ref="#GR">GRENADE</placeName>.</head>
+     <head n="Grenade."><placeName ref="#GR">GRENADE</placeName>.</head>
      
      <p>On nous écrit de <placeName ref="#StG">Saint-Georges</placeName>, le <date>3 août</date>.
 La liberté des esclaves a été proclamée dans cette île le 1er de ce mois. Il se trouve dans deux habitations un petit nombre d'ouvriers qui déclarèrent ne vouloir pas travailler, à moins d'être payés comme leurs frères de l'<placeName ref="#ANT">île d'Antigues</placeName> : mais la police s'empara bientôt d'eux. Depuis ce moment tout est tranquille, et personne De suppose qu'il en soit autrement dorénavant.</p>
 <p>Je n'essaierai point de vous décrire la joie qui brillait sur le visage de chacun de ceux qui hier étaient esclaves et sont libres<pb facs="v1n4f46" n="46"/>aujourd'hui ; je vous la laisse imaginer. Ceux qui avaient prédit une insurrection et mille autres désastres dans les <placeName ref="#InO">Indes occidentales</placeName>, par suite de l'émancipation des esclaves, seront certainement désappointés.</p></div>
 
 <div>
-<head><placeName ref="#StV">SAINT-VINCENT</placeName>.</head>
+<head n="Saint-vincent."><placeName ref="#StV">SAINT-VINCENT</placeName>.</head>
 
 <p>On nous écrit de Saint-Vincent, <date>2 août</date> : 
 Je vous annonce avec un plaisir extrême qu'ici tout est tranquille. Les nègres affranchis se sont conduits d'une manière admi rable dans la journée d'hier.</p></div>
 
 <div>
-<head><placeName ref="#ANT">ANTIGUES</placeName>.</head>
+<head n="Antigues."><placeName ref="#ANT">ANTIGUES</placeName>.</head>
 <p>Nous attendons avec impatience l'arrivée du jour marqué pour l'émancipation entière des esclaves. On a pris des mesures pour que rien ne vint troubler, dans ce mémorable jour, l'heureux accord qui subsiste entre les maîtres et les esclaves. Les portes de toutes les églises et de toutes les chapelles devront être ouvertes à la piété reconnaissante de la grande famille insulaire. En remplissant tous les cœurs d'un sentiment de fraternité et d'alliance, la religion devra tempérer chez les noirs l'exaltation causée par la possession d'une liberté si ardemment désirée.</p>
 </div>
 
 <div>
-<head><placeName ref="#StC">SAINT-CRISTHOPHE</placeName>.</head>
+<head n="Saint-cristhophe."><placeName ref="#StC">SAINT-CRISTHOPHE</placeName>.</head>
 
 <p>Les nouvelles de cette île ne confirment nullement ce qu'on avait dit des troubles dont elle aurait souffert. On peut regarder les <emph>on dit</emph> comme dénués de fondement.
 Le <date>1er août</date> s'y est passé comme l'espéraient les amis et les promoteurs de l'émancipation.
 </p></div>
 
 <div>
-<head><placeName ref="#TR">TRINIDAD</placeName>.</head>
+<head n="Trinidad."><placeName ref="#TR">TRINIDAD</placeName>.</head>
 
 <p>Le 1er août, les noirs émancipés descendirent dans la ville du <placeName ref="#PE">Port-d'Espagne</placeName> et se dirigèrent vers le palais du gouvernement. A son arrivée, le gouverneur trouva la foule assemblée, et il sut que le motif de cette démarche des nouveaux émancipés était de faire une trêve au travail. Dans la soirée l'attroupement se dissipa et la nuit se passa tranquillement.
 Le lendemain matin, les émancipés s'assemblèrent de nouveau et ne semblaient pas redouter la conséquence des arrestations nombreuses, que fit la milice, des plus 
@@ -823,12 +820,12 @@ Le lendemain matin, les émancipés s'assemblèrent de nouveau et ne semblaient 
  d'entre eux. Les colons demandaient avec instance la proclamation de la loi mar<pb facs="v1n4f47" n="47"/>tiale, mais aucune mesure de ce genre ne fut prise contre la population noire. Aucun de ceux qui sont venus en ville n'avait un bâton, aucun d'eux n'était ivre ; aucun vol, aucune violence ne furent commis envers les individus. Les femmes seules, qui sans doute ignoraient les motifs de modération de leurs maris, semblent dans une excitation extraordinaire. Les nouvelles des autres quartiers de la colonie sont très satisfaisantes : partout les émancipés sont restés à leur travail.</p></div>
 
  <div>
- <head><placeName ref="#HO">HONDURAS</placeName>.</head>
+ <head n="Honduras."><placeName ref="#HO">HONDURAS</placeName>.</head>
  
  <p>Le <foreign>schooner</foreign> <emph>Pincher</emph>, <persName ref="#BO">lieutenant Bolton</persName>, parti de la <placeName ref="#JA">Jamaïque</placeName> le <date>15 août</date>, a rencontré à la hauteur du <placeName ref="#CapM">cap Mase</placeName> un négrier qui se rendait à la <placeName ref="#LA">Havane</placeName>. Après un léger combat, dans lequel le négrier perdit son mât, le bâtiment, contenant 190 esclaves, a été capturé et conduit à <placeName ref="#NP"><emph>New-Providence</emph></placeName>.</p></div>
 
  <div>                           
- <head><placeName ref="#SL">SIERRA-LÉONE</placeName>.</head>
+ <head n="Sierra-léone."><placeName ref="#SL">SIERRA-LÉONE</placeName>.</head>
  
  <p>Il est de notoriété publique que les négriers ont ici plusieurs 
  <choice>     
@@ -861,9 +858,9 @@ Le lendemain matin, les émancipés s'assemblèrent de nouveau et ne semblaient 
    <p>Les autres colonies anglaises (<foreign><emph>the crown colonies</emph></foreign>), la <placeName ref="#TR">Trinidad</placeName>, <placeName ref="#STL">Sainte-Lucie</placeName>, <placeName ref="#DE">Démérari</placeName>, <placeName ref="#BER">Berbice</placeName>, <placeName ref="#HO">Honduras</placeName> et l'<placeName ref="#IM">île Maurice</placeName>, sont soumises au régime des ordonnances.</p></div>
 
  <div xml:id="bibliographie">
-   <head>BIBLIOGRAPHIE</head>
+   <head n="Bibliographie">BIBLIOGRAPHIE</head>
 
-   <head>APPEL AUX AMIS DE L'HUMANITÉ, CONTRE UN ÉPOUVANTABLE ARRET, brochure in-8, par M. <persName ref="#LFab">FABIEN</persName>.</head>
+   <head n="Appel aux amis de l'humanité, contre un épouvantable arret, brochure in-8, par m. fabien.">APPEL AUX AMIS DE L'HUMANITÉ, CONTRE UN ÉPOUVANTABLE ARRET, brochure in-8, par M. <persName ref="#LFab">FABIEN</persName>.</head>
 
    <p>Il y a tant de sortes d'humanité et elle est souvent si soumise aux circonstances que, malgré le sentiment de stupeur excité par le dernier arrêt de la cour royale de la <placeName ref="#MQ">Martinique</placeName> dans l'affaire de la <placeName ref="#GdA">Grand' Anse</placeName>, sentiment général et profond, on doit savoir gré à M. Fabien de son chaleureux plaidoyer en faveur de ses frères. Cet écrit est vif et passionné ; mais il est vif sans amertume et passionné sans exaltation. C'est une protestation contre quarante condamnations capitales ; et lorsqu'on réfléchit qu'une immense révolution s'est accomplie en <placeName ref="#FR">France</placeName> sans qu'un seul homme ait porté sa tête sur l'échafaud, on se demande à quelles exigences sociales doivent satisfaire ces saturnales judiciaires qui se renouvellent ainsi de loin en loin par delà les mers. Quarante têtes pour expier une émeute indéfinissable, il y a là, selon l'expression énergique d'un orateur fameux, il y a là de quoi démoraliser le supplice.</p>
    <p>Louer M. Fabien de la mesure et de la convenance qu'il a su garder dans une question si irritante, c'est lui reconnaître, outre le mérite de sa généreuse défense, celui d'avoir fait abnégation de tout ressentiment personnel. Il a été dans sa destinée de lutter victorieusement contre des violences illégales ; c'est donc avec l'autorité de son nom et de ses succès qu'il élève la voix en faveur des condamnés de <emph>la Grand' Anse</emph>. Nous en appelons avec lui à l'humanité, mais à l'humanité de tous les temps et de tous les lieux, et non à celle de certaines gens qui ont trouvé une honnête proportion entre le nombre des condamnés et celui des accusés. En un mot, ce qui n'est pas moins remarquable que l'arrêt lui-même, c'est qu'un organe de la presse (un seul, dévoué à l'aristocratie coloniale) a trouvé l'arrêt <emph>rempli d'humanité</emph>.</p>

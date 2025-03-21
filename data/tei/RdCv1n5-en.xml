@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n5-en">
+<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n5-en">
       <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -38,7 +35,7 @@
       <body>
          <pb facs="v1n5f3" n="3"/>
          <div xml:id="social-condition">        
-    <head>REVIEW OF THE COLONIES. THE COLONIES' SOCIAL CONDITION.</head>
+    <head n="Review of the Colonies. the Colonies' Social Condition.">REVIEW OF THE COLONIES. THE COLONIES' SOCIAL CONDITION.</head>
 
     <p>The present state of society in the French colonies, particularly in <placeName ref="#MQ">Martinique</placeName> and <placeName ref="#GP">Guadeloupe</placeName>, presents a most lamentable spectacle to the friends of humanity. On one side, the white planter, rapacious and cruel, holding men in bondage; on the other, the Black man, the slave, not only forming part, body and soul, of his master’s wealth but daily increasing that wealth with the sweat of his brow. These are the two great divisions, the two fundamental elements of the social order in our colonies. Beside these dominant interests—the dominion of the master and the bondage of the slave—all others seem but trifling. The free man of color, at least, suffers only the yoke of prejudice and the injustice of those wielding civil and judicial power. The slave, however, is a slave—and that word alone conveys the full measure of his suffering. He is subjected to a system of discipline that is dictated, not by justice, but by the caprice of his master. The government has barely curtailed the planter’s right of life and death over this human chattel—this property in flesh and blood—which only metropolitan iniquity or cowardice continues to uphold. Slavery—it is that above all that we seek to abolish. To us, slavery is the disgrace and the festering wound of our colonies; it is the foundation of a social order where humanity is trampled underfoot and from which all the sacred principles for which the French Revolution was fought are necessarily excluded—principles whose ultimate and glorious aim is the universal fraternity of mankind through liberty and equality.</p>
 
@@ -54,7 +51,7 @@
 </div>
 
 <div xml:id="guadeloupe-plantations">
-    <head>A GLANCE AT THE PLANTATIONS OF GUADELOUPE.</head>
+    <head n="A Glance at the Plantations of Guadeloupe.">A GLANCE AT THE PLANTATIONS OF GUADELOUPE.</head>
 
     <p>The very appearance of the plantations at once reveals to the philosophical observer the spirit in which they are administered. The huts of the enslaved, constructed of wooden planks nailed to posts or of woven reeds covered in a thick mud plaster, are arranged in rows within easy reach of the master's surveillance. There, one finds neither furniture nor provisions. A few calabash or coconut-shell vessels, a mat upon which to stretch limbs stiffened by labor and bruised by blows, a single broken stool—such is the wretched inventory of these miserable dwellings.</p>
 
@@ -103,7 +100,7 @@
 </div>
 
 <div xml:id="martinique-1831">
-<head>MARTINIQUE IN 1831.</head>
+<head n="Martinique in 1831.">MARTINIQUE IN 1831.</head>
 
 <epigraph>
     <cit>
@@ -152,7 +149,7 @@
 </div>
 <div xml:id="high-police">
 
-<head>MEASURES OF HIGH POLICE AGAINST MEN OF COLOR – ADMINISTRATIVE DEPORTATIONS.</head>
+<head n="Measures of High Police Against Men of Color – Administrative Deportations.">MEASURES OF HIGH POLICE AGAINST MEN OF COLOR – ADMINISTRATIVE DEPORTATIONS.</head>
 
 <p>During the long period of legislative chaos that preceded the organic ordinances of <date>1828</date>, the colonial governors arrogated to themselves the right, nowhere written, to <emph>deport men without trial</emph>. <persName ref="#EH">M. Halgan</persName> exercises the same right; yet he no doubt wishes to act within the law, citing, for example, Article 75 of the ordinance of <date when="1827-02-09">February 9, 1827</date>. By an order invoking this article, the governor has just decreed that <q>"Monsieur <persName ref="#VAg">Valéry-Agathe</persName>, domiciled in <placeName ref="#Va">Vauclin</placeName>, is expelled from that commune and must immediately proceed to <placeName>Fort-Royal</placeName>, where he will remain for one year UNDER THE SURVEILLANCE OF HIGH POLICE."</q></p>
 
@@ -193,7 +190,7 @@
 
 <div xml:id="appeals-algiers">
 
-<head>APPEALS TO THE COURT OF CASSATION AND THE COUNCIL OF STATE RELATING TO THE COLONY OF ALGIERS.</head>
+<head n="Appeals To the Court of Cassation and the Council of State Relating To the Colony of Algiers.">APPEALS TO THE COURT OF CASSATION AND THE COUNCIL OF STATE RELATING TO THE COLONY OF ALGIERS.</head>
 
 <p>The Court of Cassation and the Council of State have recently rendered opposing decisions regarding appeals from this colony.</p>
 
@@ -227,7 +224,7 @@
 </div>
 
 <div xml:id="haiti-affair">
-<head>THE HAITI AFFAIR.</head>
+<head n="The Haiti Affair.">THE HAITI AFFAIR.</head>
 
 <p>The internal situation of Haiti remains satisfactory in terms of the population’s respect for the laws and the good harmony between the branches of the state; yet its prosperity is hindered by its ambiguous position towards France, which compels it to maintain a large military establishment.</p>
 
@@ -279,7 +276,7 @@
 <p>It is likely that the coming session will not pass without the issue being seriously addressed. For our part, we believe that Haiti's demand is justified; that its accession to the ordinance of <date>1855</date> was undertaken with good faith and a spirit of conciliation, but that it was poorly calculated in light of the country's resources. Without leading to ruin, it is impossible for the Republic to sustain what was imposed upon it by politics. Whether it suffers from the excessive depletion of its resources or from war, it is difficult to say which of these two courses would be the lesser evil.</p>
 </div>
 <div xml:id="british-abolition-society">
-<head>BRITISH AND FOREIGN SOCIETY FOR THE UNIVERSAL ABOLITION OF SLAVERY.</head>
+<head n="British and Foreign Society for the Universal Abolition of Slavery.">BRITISH AND FOREIGN SOCIETY FOR THE UNIVERSAL ABOLITION OF SLAVERY.</head>
 
 <p>The spirit of association is, above all, an irresistible force when it is driven by a social or political principle. The moment it takes such a direction, it purifies and elevates the soul, develops in it the most profound sympathies and the most generous sentiments. It is no longer through selfish calculation or personal interest that one contributes one’s share of intelligence, activity, and wealth to the collective enterprise: one forgets oneself, one sacrifices personal advantages, wholly absorbed by the desire to be of service to mankind. There is no attempt to extract new riches from the soil or to exploit recent scientific discoveries for mere speculation: rather, it is the minds and passions of peoples that are stirred and guided toward moral progress and political emancipation. And in the midst of the difficulties and perils that fill this <pb facs="v1n5f18" n="18"/>sacred mission, one is sustained by a deep faith in the future of humanity.</p>
 
@@ -314,11 +311,11 @@ bech</placeName>, <placeName ref="#lon">Longsutton</placeName>, <placeName ref="
 <p>A. G.</p>
 </div>
 <div xml:id="france">
-<head>France.</head>
-<head>Paris</head>
-<head>CASE <persName ref="#ART">Artaud</persName> AGAINST <persName ref="#CB">BISSETTE</persName></head>
-<head>CORRECTIONAL POLICE COURT - 6th CHAMBER.</head>
-<head>PRESIDED BY <persName ref="#POR">Mr. Portalis</persName>.</head>
+<head n="France.">France.</head>
+<head n="Paris">Paris</head>
+<head n="Case Artaud Against Bissette">CASE <persName ref="#ART">Artaud</persName> AGAINST <persName ref="#CB">BISSETTE</persName></head>
+<head n="Correctional Police Court - 6th Chamber.">CORRECTIONAL POLICE COURT - 6th CHAMBER.</head>
+<head n="Presided by Mr. Portalis.">PRESIDED BY <persName ref="#POR">Mr. Portalis</persName>.</head>
 
 <p>On August 30, the last day of the past judicial year, Mr. Bissette appeared at the Palace of Justice, in response to the summons <pb facs="v1n5f23" n="23"/> issued to him by Mr. Artaud from <placeName ref="#MQ">Martinique</placeName>. We owe our readers some details about this unusual case.</p>
 
@@ -380,9 +377,9 @@ bech</placeName>, <placeName ref="#lon">Longsutton</placeName>, <placeName ref="
 <p>Among those who gathered to offer Mr. Bissette their congratulations were men of letters, journalists, and a considerable number of men of color from many lands. Meanwhile, Mstr. Bethmont continued to harangue the court, though the usher had already called forth another case.</p>
 </div>
 <div xml:id="civil-tribunal">
-<head>CIVIL TRIBUNAL OF THE SEINE (Chamber of Vacations)</head>
-<head>PRESIDED OVER BY M. FOUQUET.</head>
-<head>CASE OF <persName ref="#BOI">BOITEL</persName> VERSUS <persName ref="#CIC">CICÉRON</persName></head>
+<head n="Civil Tribunal of the Seine (chamber of Vacations)">CIVIL TRIBUNAL OF THE SEINE (Chamber of Vacations)</head>
+<head n="Presided Over by M. Fouquet.">PRESIDED OVER BY M. FOUQUET.</head>
+<head n="Case of Boitel Versus Cicéron">CASE OF <persName ref="#BOI">BOITEL</persName> VERSUS <persName ref="#CIC">CICÉRON</persName></head>
 
 <p>Having failed in both the Correctional Police Court and the Royal Court in his complaint concerning a certain publication against him by Sieur <persName ref="#CIC">Cicéron</persName>, an attorney at <placeName ref="#MQ">Martinique</placeName>, Mr. Boitel, former secretary-archivist of that colony, who had before the lower courts suffered the effects of an interpretative ruling invoking the statute of limitations, sought, as a last resort, to bring his case before the Civil Tribunal of the Seine. Through the representation of Mstr. <persName ref="#RAB">Rabou</persName>, his attorney, he invoked the provisions of Article 42 of the law of May 26, 1819, which stipulates that, in all cases, a legal action undertaken at the request of the plaintiff may be brought before the courts of his domicile, provided that the publication in question has occurred there. He stated that there was no dispute that said publication had indeed taken place in <placeName ref="#Par">Paris</placeName>, the place of residence of Mr. Boitel.<pb facs="v1n5f29" n="29"/> Thus, by seizing jurisdiction of the Civil Tribunal of the Seine, he had properly submitted his case before the judges of his domicile.</p>
 
@@ -398,7 +395,7 @@ bech</placeName>, <placeName ref="#lon">Longsutton</placeName>, <placeName ref="
 </div>
 
 <div xml:id="bissette-cicéron">
-<head>ENCOUNTER BETWEEN BISSETTE AND CICÉRON.</head>
+<head n="Encounter Between Bissette and Cicéron.">ENCOUNTER BETWEEN BISSETTE AND CICÉRON.</head>
 
 <p>Having been grossly offended by a pamphlet published by <persName ref="#CIC">Mr. Cicéron</persName>, an attorney at Martinique, Mr. Bissette had, in a printed letter responding to that pamphlet, expressed deep regret that he was unable to exact immediate satisfaction.</p>
 
@@ -430,7 +427,7 @@ BISSETTE.</p></q>
 <p>The editor of this publication would not have troubled the public with an affair so purely personal, had it not been Mr. Cicéron himself who first invoked the press in an attempt to give it notoriety. It may be observed, moreover, that in the latest issue of the <bibl type="periodical">Revue des Colonies</bibl>, no mention was made of the duel in which Mr. Cicéron was wounded, so unimportant did Mr. Bissette deem the matter to his readers.</p>
 </div>
 <div xml:id="miscellaneous-news">
-<head>MISCELLANEOUS NEWS.</head>
+<head n="Miscellaneous News.">MISCELLANEOUS NEWS.</head>
 
 <p>The <bibl type="periodical">Moniteur</bibl> publishes the following ordinance, dated October 29:</p>
 
@@ -483,8 +480,8 @@ And bless the Lord who has delivered you.
 <p><persName ref="#CB">BISSETTE</persName></p><pb facs="v1n5f34" n="35"/>
 </div>
 <div xml:id="french-colonies">
-<head>FRENCH COLONIES.</head>
-<head><placeName ref="#MQ">MARTINIQUE</placeName></head>
+<head n="French Colonies.">FRENCH COLONIES.</head>
+<head n="Martinique"><placeName ref="#MQ">MARTINIQUE</placeName></head>
 
 <p>We have received a letter from <placeName ref="#StP">Saint-Pierre</placeName>, dated August 29:</p>
 
@@ -498,7 +495,7 @@ And bless the Lord who has delivered you.
 </div>
 
 <div xml:id="guiana">
-<head><placeName ref="#GF">GUIANA.</placeName></head>
+<head n="Guiana."><placeName ref="#GF">GUIANA.</placeName></head>
 
 <p>The letters we receive from <placeName ref="#Cay">Cayenne</placeName> all concur in praising the wise and just administration of <persName ref="#Pa">M. Parizet</persName>, interim governor of French Guiana. It seems that no one mourns the departure of Governor <persName ref="#Ju">Jubelin</persName>.</p>
 
@@ -519,8 +516,8 @@ And bless the Lord who has delivered you.
 <p>P.S.—M. Parizet, who has been in office but three months, has already restored men of color to their rightful places on the list of assessors. Furthermore, he has just secured a scholarship in <placeName ref="#Par">Paris</placeName> for a child of color. No commentary is needed; compare his brief tenure with the five years of M. Jubelin.</p></q>
 </div>
 <div xml:id="foreign-colonies">
-<head>FOREIGN COLONIES.</head>
-<head><placeName ref="#JA">JAMAICA</placeName></head>
+<head n="Foreign Colonies.">FOREIGN COLONIES.</head>
+<head n="Jamaica"><placeName ref="#JA">JAMAICA</placeName></head>
 
 <p>Order and tranquility continue to prevail in the colony; however, frequent disputes arise between the planters and the newly apprenticed laborers. It appears that these misunderstandings stem largely from the proclamation issued by the Governor-General, <persName ref="#Sligo">the Marquis of Sligo</persName>, which led the apprentices to believe that every Friday, half the day was rightfully their own. In several districts, the planters had reached an agreement among themselves to establish uniform working hours.</p>
 
@@ -528,7 +525,7 @@ And bless the Lord who has delivered you.
 </div>
 
 <div xml:id="antigua">
-<head><placeName ref="#ANT">ANTIGUA</placeName>.</head>
+<head n="Antigua."><placeName ref="#ANT">ANTIGUA</placeName>.</head>
 
 <p>In one of the chapels of this island, religious services commenced on the evening of July 31, at nine o’clock. Sermons and hymns followed one another until nearly midnight. A few minutes before that solemn hour, the minister invited the Christian slaves to kneel and, in silent prayer, to receive as if from the hand of God Himself the blessing of liberty, which the next instant would place in their possession. All fell upon their knees, their hands and hearts raised toward Heaven; on all sides, suppressed sobs could be heard, which they strove in vain to restrain. It became impossible to hold them back when the bell tolled: each of its twelve strokes heightened their emotion. The minister then announced a hymn to keep their minds fixed upon the holy thoughts that had occupied them until that moment; and when it had been sung, the congregation dispersed slowly.</p>
 
@@ -536,7 +533,7 @@ And bless the Lord who has delivered you.
 </div>
 
 <div xml:id="saint-lucia">
-<head><placeName ref="#STL">SAINT LUCIA</placeName></head>
+<head n="Saint Lucia"><placeName ref="#STL">SAINT LUCIA</placeName></head>
 
 <p>We receive word from <placeName ref="#Cas">Castries</placeName>:</p>
 
@@ -544,8 +541,8 @@ And bless the Lord who has delivered you.
 </div>
 
 <div xml:id="bibliography">
-<head>BIBLIOGRAPHY.</head>
-<head>TRIAL OF THE GRAND'ANSE (MARTINIQUE).</head>
+<head n="Bibliography.">BIBLIOGRAPHY.</head>
+<head n="Trial of the Grand'anse (martinique).">TRIAL OF THE GRAND'ANSE (MARTINIQUE).</head>
 
 <p><emph>Memoir</emph> on behalf of the ninety-three condemned, submitted to the Court of Cassation, before which their appeal is now pending, by <persName ref="#Gatine">M. AD. GATINE</persName>, advocate at the Court of Cassation. <placeName ref="#Par">Paris</placeName>, printed by Dezauche, 14, rue du Faubourg-Montmartre.</p>
 
@@ -566,8 +563,8 @@ as much as inhumane, you dishonor the scaffold. (Page 25.)</quote></p>
 <p>In an upcoming memoir, M. Gatine will present the grounds for cassation, which are numerous and give every reason to expect the fair admission of the appeal. The judgment of <emph>these self-appointed judges and executioners</emph> shall be overturned by metropolitan justice. But when, at last, shall there be a judiciary to protect the colonies?</p>
 </div>
 <div xml:id="postscript">
-<head>POSTSCRIPT.</head>
-<head>NEW MINISTRY.</head>
+<head n="Postscript.">POSTSCRIPT.</head>
+<head n="New Ministry.">NEW MINISTRY.</head>
 
 <p><persName ref="#HBM">The Duke of Bassano</persName>, Minister of the Interior and President of the Council.</p>
 

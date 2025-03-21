@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv2n1-fr">
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv2n1-fr">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -36,8 +33,8 @@
       <body>
          <div>
           <pb n="3" facs="v2n1p3"/>
-            <head>REVUE DES COLONIES</head>
-            <head>2e ANNÉE. JUILLET 1835. N° 1.</head>
+            <head n="Revue des colonies">REVUE DES COLONIES</head>
+            <head n="2e année. juillet 1835. n° 1.">2e ANNÉE. JUILLET 1835. N° 1.</head>
             <div>
                <list>
                   <item>De l'abolition de l'esclavage par la Convention nationale.</item>
@@ -62,7 +59,7 @@
                </list>
             </div>
             <div xml:id="abolition">
-               <head>DE L'ABOLITION DE L'ESCLAVAGE PAR LA CONVENTION NATIONALE. — PROJET DE LOI DE LA
+               <head n="De l'abolition de l'esclavage par la convention nationale. — projet de loi de la revue des colonies.">DE L'ABOLITION DE L'ESCLAVAGE PAR LA CONVENTION NATIONALE. — PROJET DE LOI DE LA
                   REVUE DES COLONIES.</head>
                <p> L'esclavage, qui tend à s'effacer complétement et sous toutes ses formes des
                   sociétés humaines, et dont l'abolition par voie législative dans nos colonies ne
@@ -190,7 +187,7 @@
             </div>
             <pb n="7" facs="v2n1p7"/>
             <div xml:id="bill">
-               <head>PROJET DE LOI POUR L'ABOLITION DE L'ESCLAVAGE DANS LES COLONIES
+               <head n="Projet de loi pour l'abolition de l'esclavage dans les colonies francaises.">PROJET DE LOI POUR L'ABOLITION DE L'ESCLAVAGE DANS LES COLONIES
                   FRANCAISES.</head>
                <p> Considérant que l'esclavage est contraire à toutes les lois divines et humaines ;
                   qu'il n'a pu être établi que par la violence, l'injustice et l'oubli du plus

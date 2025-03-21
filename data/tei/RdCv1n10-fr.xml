@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n10-fr">
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n10-fr">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -50,9 +47,9 @@
       <body>
          <div>
             <pb n="3" facs="v1n10p3"/>
-            <head>REVUE DES COLONIES.</head>
+            <head n="Revue des colonies.">REVUE DES COLONIES.</head>
             <div xml:id="émancipation">
-               <head> DE L'ÉMANCIPATION IMMÉDIATE.</head>
+               <head n="De l'émancipation immédiate."> DE L'ÉMANCIPATION IMMÉDIATE.</head>
                <p>
                   La question de l’émancipation a marché à pas de géant. La libération des noirs est maintenant le vœu de tous les hommes d’état dignes de ce nom. Il n’est pas un esprit sérieux et élevé qui ne comprenne que la nécessité et la politique, non moins que la religion et l’humanité, commandent aujourd’hui cette grande mesure.
                </p>
@@ -95,7 +92,7 @@
                   Voilà ce qu’il faut proclamer bien haut en même temps que l’affranchissement absolu. Point d’entraves, point d’exceptions. Dites hardiment que 
                   <cit>
                      <quote><emph>les Hommes naissent libres et égaux en droits,</emph></quote> 
-                     <bibl type="legal"><title ref="#DDH"></title></bibl>
+                     <bibl type="legal"><title ref="#DDH"/></bibl>
                   </cit>
                   et en 
                   <pb n="4" facs="v1n10p4"/>
@@ -127,7 +124,7 @@
                <p>
                   <cit>
                      <quote>La liberté est le pouvoir qui appartient à l’homme d’exercer à son gré toutes ses facultés; elle a la justice pour règle, les droits d’autrui pour limites, la nature pour principe, et la loi pour sauvegarde. La liberté consiste donc à pouvoir faire tout ce qui ne nuit pas à autrui ; ainsi l’exercice des droits naturels de chaque homme n’a de bornes que celles qui assurent aux autres membres de la société la jouissance de ces mêmes droits.</quote> 
-                     <bibl type="legal"><title ref="#DDH"></title></bibl>
+                     <bibl type="legal"><title ref="#DDH"/></bibl>
                   </cit>
                </p>
                <p>
@@ -140,7 +137,7 @@
                </p>
             </div>
             <div xml:id="marrons">
-               <head>NÈGRES MARRONS A <placeName ref="#GP">LA GUADELOUPE.</placeName></head>
+               <head n="Nègres marrons a la guadeloupe.">NÈGRES MARRONS A <placeName ref="#GP">LA GUADELOUPE.</placeName></head>
                <p>
                   Cet 
                   <choice>
@@ -326,7 +323,7 @@
                <closer><persName ref="#XT">X. TANC</persName>, ancien magistrat à la <placeName ref="#GP">Guadeloupe</placeName>.</closer>
             </div>
             <div xml:id="blancs">
-               <head>DES BLANCS JUGÉS PAS UN BLANC.</head>
+               <head n="Des blancs jugés pas un blanc.">DES BLANCS JUGÉS PAS UN BLANC.</head>
                <p>(<emph>Extrait des mémoires d’une créole de <placeName ref="#MQ">la Martinique</placeName>, publiés en</emph> <date>1831</date>.)</p>
                <floatingText>
                   <body>
@@ -408,7 +405,7 @@
                </floatingText>
             </div>
             <div xml:id="esclaves">
-               <head>DES ESCLAVES.</head>
+               <head n="Des esclaves.">DES ESCLAVES.</head>
                <p> (<emph>Extrait des mêmes mémoires.</emph>)</p>
                <floatingText>
                   <body>
@@ -476,7 +473,7 @@
             </div>
             <pb n="13" facs="v1n10p13"/>
             <div xml:id="GAnse">
-               <head>POURSUITES CONTRE <persName ref="#JHD">MONSIEUR DUPOTET</persName>, 
+               <head n="Poursuites contre monsieur dupotet, ex-gouverneur de la martinique, et contre d’autres agens, a l’occasion des événemens de la grand’ anse.">POURSUITES CONTRE <persName ref="#JHD">MONSIEUR DUPOTET</persName>, 
                EX-GOUVERNEUR DE <placeName ref="#MQ">LA MARTINIQUE</placeName>, 
                ET CONTRE D’AUTRES AGENS, A L’OCCASION DES ÉVÉNEMENS DE LA <placeName ref="#GdA">GRAND’ ANSE</placeName>.</head>
                <p>
@@ -676,7 +673,7 @@
                   <emph>mensonge</emph> et de <emph>libelle</emph>.
                </p>
                <p>
-                 Non certes, le <orgName ref ="#CE">conseil d’état</orgName> 
+                 Non certes, le <orgName ref="#CE">conseil d’état</orgName> 
                  n’a pas voulu s’associer à ce système de qualifications gratuitement injurieuses pour des hommes qui subissent le plus grand malheur dont l’histoire des colonies, si féconde en calamités publiques et privées, puisse peut-être fournir l’exemple. 
                  La requête au roi est rejetée <emph>uniquement</emph> 
                  <choice>
@@ -709,7 +706,7 @@
                  mais seulement à son niveau.
                </p>
                <p>
-                  <orgName ref ="#CHD">La chambre des députés</orgName> 
+                  <orgName ref="#CHD">La chambre des députés</orgName> 
                   s’occupe en ce moment d’une loi sur la responsabilité des ministres et des autres dépositaires du pouvoir; elle peut trouver dans les tristes 
                   <choice>
                      <orig>évenemens</orig> 
@@ -718,10 +715,10 @@
                   de <placeName ref="#GdA">la Grand’ Anse</placeName> 
                   une immense leçon. Sachons du moins en profiter en séchant nos plaies.
                </p>
-               <closer><persName ref="#Gatine">AD. GATINE</persName>, avocat au <orgName ref ="#CE">conseil d’état</orgName> et à la <orgName ref ="#CDC">Cour de Cassation</orgName>.</closer>
+               <closer><persName ref="#Gatine">AD. GATINE</persName>, avocat au <orgName ref="#CE">conseil d’état</orgName> et à la <orgName ref="#CDC">Cour de Cassation</orgName>.</closer>
             </div>
             <div xml:id="gouvangl">
-               <head>DU GOUVERNEMENT ANGLAIS ET DU GOUVERNEMENT FRANÇAIS DANS LA QUESTION DES COLONIES.</head> 
+               <head n="Du gouvernement anglais et du gouvernement français dans la question des colonies.">DU GOUVERNEMENT ANGLAIS ET DU GOUVERNEMENT FRANÇAIS DANS LA QUESTION DES COLONIES.</head> 
                <p>
                   <quote>« Les nouvelles reçues des gouverneurs de nos colonies ainsi que les actes adoptés en exécution de la 
                   <bibl type="legal"><title ref="#SAA">loi d’abolition de l’esclavage</title></bibl>  
@@ -849,7 +846,7 @@
                </p>
             </div>
             <div xml:id="parisien">
-               <head>PARISIEN ESCLAVE A LA MARTINIQUE.</head>
+               <head n="Parisien esclave a la martinique.">PARISIEN ESCLAVE A LA MARTINIQUE.</head>
                <epigraph xml:lang="fr">
                   <q><emph>« Donner et retenir ne vaut. »</emph></q>
                </epigraph>
@@ -867,7 +864,7 @@
                   <cit>
                      <quote>« 26 septembre 1830, à midi et demi : Acte de naissance de <persName>Louis</persName>, né rue du Faubourg-St-Honoré, n. 10, le 24 du présent à onze heures du soir, fils de <emph><persName>Rose-Anastasie Édouard</persName></emph>, femme de chambre, demeurant rue de Surène, n. 31, <emph>native de <placeName ref="#StP">St-Pierre (Martinique)</placeName></emph> ; enfant naturel, présenté, etc. Pour copie conforme, <emph>signé</emph> <persName>Lefort.</persName> »</quote> 
                <!--find bio info about Louis, Rose-Anastasie Édouard, Lefort  -->
-                     <bibl type="legal"></bibl>
+                     <bibl type="legal"/>
                   </cit>
                </p>
                <p>
@@ -1022,7 +1019,7 @@
                </p>
             </div>
             <div xml:id="libéralité">
-               <head>DE LA LIBÉRALITÉ FRANÇAISE.</head>
+               <head n="De la libéralité française.">DE LA LIBÉRALITÉ FRANÇAISE.</head>
                <p>
                   Tous les esprits généreux et élevés semblent être emportés par une sorte de silmultanéité vers un même but. La réprobation de l’esclavage, la sympathie pour les noirs se manifestent de toutes parts avec une logique et une véhémence qui sont un symptôme certain du prochain triomphe de la cause de l’abolition. En dépit de l'égoïsme et des mauvaises passions des privilégiés colons, tout concourt au grand œuvre de l’affranchissement. La question se popularise, et déjà les sophismes aussi stupides qu’inhumains à l’aide desquels on a soutenu jusqu’ici l’esclavage sont tombés dans tout le discrédit et le mépris qu’ils méritent.
                </p>
@@ -1038,9 +1035,9 @@
             <!--Comment encoder les notes de bas de page? Demander -->
                   <pb n="24" facs="v1n10p24"/>
                   mille exemplaires: 
-                  <bibl type ="periodical"><emph>le Magasin Pittoresque</emph></bibl>, 
-                  <bibl type ="periodical"><emph>le Musée des Familles</emph></bibl>, 
-                  <bibl type ="periodical"><emph>la Mosaïque</emph></bibl>, 
+                  <bibl type="periodical"><emph>le Magasin Pittoresque</emph></bibl>, 
+                  <bibl type="periodical"><emph>le Musée des Familles</emph></bibl>, 
+                  <bibl type="periodical"><emph>la Mosaïque</emph></bibl>, 
             <!--Create tags? -->
                   ont vivement manifesté leur horreur pour l’esclavage, leurs vœux pour l’émancipation, dans des articles fort remarquables accompagnés de gravures sur bois d’une grande vérité, et prêté ainsi le secours de leur immense publicité aux philanthropes qui poursuivent la régénération des colonies. Tout marche, tout se presse et tend à ce grand but.
                </p>
@@ -1068,9 +1065,9 @@
                   Pour nous, nous nous réjouissons dans notre cœur de ce concours actif des intelligences et de la bonne volonté de tous, comme devant singulièrement hâter les destinées nouvelles de notre pays, et nous en consignons avec plaisir ici notre sincère et patriotique gratitude.
                </p>
             </div>
-            <div xml:id ="SAE">
-               <head>FRANCE.</head>
-               <head>SOCIÉTÉ FRANÇAISE POUR L'ABOLITION DE L'ESCLAVAGE.</head>
+            <div xml:id="SAE">
+               <head n="France.">FRANCE.</head>
+               <head n="Société française pour l'abolition de l'esclavage.">SOCIÉTÉ FRANÇAISE POUR L'ABOLITION DE L'ESCLAVAGE.</head>
                <p>
                   <emph>Rapport de 
                   <persName ref="#GdL">M. de la Rochefoucauld-Liancourt</persName> 
@@ -1626,8 +1623,8 @@
                   d’une si belle œuvre.
                </p>
             </div>
-            <div xml:id ="CRP">
-               <head>
+            <div xml:id="CRP">
+               <head n="Cour royale de paris. (première chambre.) présidence de m. miller. audience du 34 mars.">
                   <orgName ref="#CR">COUR ROYALE DE PARIS.</orgName>
                   (Première chambre.)
                   PRÉSIDENCE DE M. MILLER.
@@ -1674,8 +1671,8 @@
                <closer><emph>(Extrait de tous les journaux.)</emph></closer>
             </div>
             <div xml:id="ColFR">
-               <head>COLONIES FRANÇAISES.</head>
-               <head><placeName ref="#MQ">MARTINIQUE.</placeName></head>
+               <head n="Colonies françaises.">COLONIES FRANÇAISES.</head>
+               <head n="Martinique."><placeName ref="#MQ">MARTINIQUE.</placeName></head>
                <p>
                   On nous écrit du 
                   <placeName ref="#FoR">Fort-Royal</placeName>:
@@ -1689,7 +1686,7 @@
                </p>
             </div>
             <div xml:id="ColEtr">
-               <head>COLONIES ÉTRANGÈRES.</head>
+               <head n="Colonies étrangères.">COLONIES ÉTRANGÈRES.</head>
                <p>
                   <placeName ref="#BAR">BARBADE.</placeName>
                 </p>
@@ -1753,7 +1750,7 @@
             </div>
             <div xml:id="NouvDiv">
                <pb n="39" facs="v1n10p39"/>
-               <head>NOUVELLES DIVERSES.</head>
+               <head n="Nouvelles diverses.">NOUVELLES DIVERSES.</head>
                <p>
                   Dans une de ses dernières réunions la 
                   <orgName ref="#SAE">société pour l’abolition de l'esclavage</orgName> 
@@ -1802,7 +1799,7 @@
                   <placeName ref="#MQ">la Martinique</placeName>
                   , avait fait citer en police correctionnelle 
                   <persName ref="#CB">le directeur</persName> de 
-                  <bibl type ="periodical">Revue des Colonies</bibl>
+                  <bibl type="periodical">Revue des Colonies</bibl>
                   , pour un article inséré dans le premier numéro de cette revue, et intitulé: 
                   Traits de cruautés.
                <!--How to tag article from earlier edition?-->
@@ -1820,9 +1817,9 @@
                <!--worth creating tag?-->
                   , avocat du 
                   directeur 
-                  de <bibl type ="periodical">la Revue</bibl>
+                  de <bibl type="periodical">la Revue</bibl>
                   , a, conformément aux dispositions de 
-                  <bibl type ="legal">l’article 29 de la loi du 26 mai 1819</bibl>
+                  <bibl type="legal">l’article 29 de la loi du 26 mai 1819</bibl>
                   , renvoyé 
                   <persName ref="#CB">M. Bissette</persName> 
                   de la plainte, et condamné 
@@ -1836,14 +1833,14 @@
                </p>
             </div>
             <div xml:id="Corr">
-               <head>CORRESPONDANCE.</head>
+               <head n="Correspondance.">CORRESPONDANCE.</head>
                <p>
                   Nous recevons de 
                   <persName ref="#AFoi">M. Foignet</persName> 
                   une réponse, ainsi qu’il prend soin de la qualifier lui-même, au rapport de 
                  <persName ref="#RESC"> M. de Sainte-Croix</persName>
                   , sur 
-                  <bibl type ="monogr">la brochure </bibl> 
+                  <bibl type="monogr">la brochure </bibl> 
             <!--Likely "Sur le prospecturs de la société pour l'abolition de l'esclavage", 1835 -available on Gallica-->
                   que l’ ex-délégué des colons de la 
                   <placeName ref="#GP">Guadeloupe</placeName> 
@@ -1995,7 +1992,7 @@
                   <persName>« A. FOIGNET.»</persName>
                </p>
                <p>
-                  A M. le rédacteur de <bibl type ="periodical">la Revue des Colonies</bibl>.
+                  A M. le rédacteur de <bibl type="periodical">la Revue des Colonies</bibl>.
                </p>
                <p>
                   Paris, ce 27 mars 1835.
@@ -2031,14 +2028,14 @@
                </p>
             </div>
             <div xml:id="Necro">
-               <head>NÉCROLOGIE.</head>
+               <head n="Nécrologie.">NÉCROLOGIE.</head>
                <p>
                   Dans le courant du mois de mars il est mort à <placeName>Paris</placeName> deux hommes de couleur. L'un, <persName ref="#EBel">Eustache Belin</persName>, noir, était né à <placeName>Saint-Domingue</placeName>. Ce citoyen avait obtenu en 1832 le premier prix de vertu Monthyon (5,000 f.), décerné par <orgName>l'Académie française</orgName>. L'autre, <persName ref="#CBor">Charles Borno</persName>, étudiant en droit, était né à la <placeName>Pointe-à-Pitre, Guadeloupe</placeName>. Ce jeune homme avait fait de fort bonnes études, et faisait concevoir les plus belles espérances à sa famille. A son convoi funèbre assistait un grand nombre d'hommes de couleur de toutes les colonies. On y remarquait une députation de ses compatriotes du collège de Henri IV, et un professeur de ce collège, désignés par le proviseur; cette députation était ainsi composée: MM. Desbarest et Verlas, de la Guadeloupe, et MM. Eyma et <persName ref="#CJB">Charles Bissette</persName>, de <placeName>la Martinique</placeName>.
          <!--Looking up the non-Bissette men will take some time-->
                </p>
             </div>
             <div xml:id="Biblio">
-               <head>BIBLIOGRAPHIE.</head>
+               <head n="Bibliographie.">BIBLIOGRAPHIE.</head>
                <p>
                   <bibl type="monogr"><title ref="#Mar">MARIE OU L'ESCLAVAGE AUX ÉTATS-UNIS</title></bibl>, par <persName>M. Gustave de Beaumont</persName>. Paris, chez Charles Gosselin, libraire, rue Saint-Germain des Prés, n. 9; 2 vol. in-8⁰. Prix: 15 fr.
                </p>
@@ -2055,7 +2052,7 @@
                   sous la généreuse influence des premiers fondateurs de la liberté américaine, le préjugé barbare qui poursuit encore de nos jours les hommes dans les veines desquels coule le sang africain. En si petite quantité que ce soit, et fussiez-vous même, malgré ce mélange, plus blanc de teint qu'un Espagnol, quelques gouttes de ce sang suffisent là pour vous entacher d'une ignominie indélébile. C'est un péché originel que rien ne rachète, ni les vertus, ni le talent, ni même la richesse toute puissante et souveraine chez ces hommes de commerce et d'argent, avides et sordides; triste espèce qui forme malhereusement le fond de la nation américaine. Emancipés en droit et en fait, toute participation à l'œuvre nationale est cependant interdite par le préjugé aux hommes de race africaine; toutes les voies leur sont inexorablement fermées. La race de couleur est bien, d'après la loi, l'égale en tout de la race blanche, mais non dans la pratique sociale, non selon les mœurs; celles-ci la repoussent; l'égalité, quant à elle, chose monstrueuse, est encore un vain mot. 
                </p>
                <p>
-                  Cet incompréhensible préjugé, ce sentiment anormal, cet esprit d'iniquité, si étranges en un tel pays, et qui ont soulevé contre eux au sein même des villes où ils subsistent avec le plus d'intensité l'élite des hommes de cœur, ont révolté <persName>M.Gustave de Beaumont</persName> qui les a vus de près dans un assez long séjour en <placeName>Amérique</placeName>, et il a pris la plume. C'est à l'indignation qu'ils lui ont inspirée que nous devons l'excellent ouvrage dont le titre est en tête de cet article. <bibl type ="monogr">Marie, ou l'esclavage aux États-Unis</bibl>, est un tableau animé des douloureux effets de ces mœurs; une éloquente protestation contre cette étrange anomalie d'un peuple, tenu pour civilisé, dont les institutions sont en effet d'un mécanisme merveilleux, qui n'est pas sans sympathies élevées, où la religion compte des temples par 
+                  Cet incompréhensible préjugé, ce sentiment anormal, cet esprit d'iniquité, si étranges en un tel pays, et qui ont soulevé contre eux au sein même des villes où ils subsistent avec le plus d'intensité l'élite des hommes de cœur, ont révolté <persName>M.Gustave de Beaumont</persName> qui les a vus de près dans un assez long séjour en <placeName>Amérique</placeName>, et il a pris la plume. C'est à l'indignation qu'ils lui ont inspirée que nous devons l'excellent ouvrage dont le titre est en tête de cet article. <bibl type="monogr">Marie, ou l'esclavage aux États-Unis</bibl>, est un tableau animé des douloureux effets de ces mœurs; une éloquente protestation contre cette étrange anomalie d'un peuple, tenu pour civilisé, dont les institutions sont en effet d'un mécanisme merveilleux, qui n'est pas sans sympathies élevées, où la religion compte des temples par 
                </p>
                <pb n="47" facs="v1n10p47"/>
                <p>
@@ -2089,7 +2086,7 @@
                      <orig>argumens</orig> 
                      <reg>arguments</reg> 
                   </choice>
-                  irréfragables, cet ouvrage, que nous devons au zèle et aux soins de l'honorable <persName ref="#ZM">M. Z. Macaulay</persName>, si connu dans les deux mondes par ses généreux travaux en faveur des noirs, sera d'un poids décisif dans la balance. La conclusion sort des faits d'elle-même, d'une manière péremptoire, irrésistible. Il est impossible en effet, après avoir lu ces deux cent pages, de conserver encore de bonne foi le moindre doute sur les avantages de l'émancipation, la moindre appréhension de ses résultats: l'esprit est étonné et convaincu, en même temps que le cœur est frappé et entraîné. C'est ainsi qu'il faut écrire pour cete belle cause: c'est de la sorte qu'il faut approfondir la question. L'auteur ne procède point par de vagues déclamations, ce n'est pas un plaidoyer qu'il essaie en faveur des noirs: il expose les faits, rassemble les témoignages, il raconte sans exagération aucune comment l'émancipation eut lieu de fait à <placeName>Saint-Domingue</placeName>, comment elle fut sanctionnée et régularisée par le <bibl type ="legal">décret de la <orgName ref="#CNat">Convention Nationale</orgName> du 11 février 1793</bibl>; l'état de l'île avant et après l'invasion du <persName ref="#CVEL">général Leclerc</persName>, jusqu'à nos jours; pareillement l'état de la <placeName>Guadeloupe</placeName> dans la période où les noirs y furent libres; il raconte pièces en main, pour ainsi dire, au moyen des 
+                  irréfragables, cet ouvrage, que nous devons au zèle et aux soins de l'honorable <persName ref="#ZM">M. Z. Macaulay</persName>, si connu dans les deux mondes par ses généreux travaux en faveur des noirs, sera d'un poids décisif dans la balance. La conclusion sort des faits d'elle-même, d'une manière péremptoire, irrésistible. Il est impossible en effet, après avoir lu ces deux cent pages, de conserver encore de bonne foi le moindre doute sur les avantages de l'émancipation, la moindre appréhension de ses résultats: l'esprit est étonné et convaincu, en même temps que le cœur est frappé et entraîné. C'est ainsi qu'il faut écrire pour cete belle cause: c'est de la sorte qu'il faut approfondir la question. L'auteur ne procède point par de vagues déclamations, ce n'est pas un plaidoyer qu'il essaie en faveur des noirs: il expose les faits, rassemble les témoignages, il raconte sans exagération aucune comment l'émancipation eut lieu de fait à <placeName>Saint-Domingue</placeName>, comment elle fut sanctionnée et régularisée par le <bibl type="legal">décret de la <orgName ref="#CNat">Convention Nationale</orgName> du 11 février 1793</bibl>; l'état de l'île avant et après l'invasion du <persName ref="#CVEL">général Leclerc</persName>, jusqu'à nos jours; pareillement l'état de la <placeName>Guadeloupe</placeName> dans la période où les noirs y furent libres; il raconte pièces en main, pour ainsi dire, au moyen des 
                   <choice>
                      <orig>documens</orig> 
                      <reg>documents</reg> 

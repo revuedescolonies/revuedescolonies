@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-   <?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-   <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -36,7 +33,7 @@
       <body>
       <pb facs="v1n5f3" n="3"/>
              <div xml:id="état-social">
-            <head>REVUE DES COLONIES. ÉTAT SOCIAL AUX COLONIES.</head>
+            <head n="Revue des colonies. état social aux colonies.">REVUE DES COLONIES. ÉTAT SOCIAL AUX COLONIES.</head>
 
 <p>L'état social actuel des colonies françaises, notamment de la <placeName ref="#MQ">Martinique</placeName> et de la <placeName ref="#GP">Guadeloupe</placeName>, présente un spectacle affligeant pour les amis de l'humanité. D'une part, le colon blanc, avide et cruel possesseur d'hommes ; de l'autre, le nègre, l'esclave, non seulement faisant partie, corps et 
 <choice>
@@ -77,7 +74,7 @@ ces banales raisons : Que deviendraient nos fortunes, nos existences ? que devie
 
 <div xml:id="habitations-guadeloupe">
 
-<head>COUP-D'OEIL SUR LES HABITATIONS A LA GUADELOUPE.</head>
+<head n="Coup-d'oeil sur les habitations a la guadeloupe.">COUP-D'OEIL SUR LES HABITATIONS A LA GUADELOUPE.</head>
 
 <p>L'aspect qu'offrent les habitations indique promptement à l'observateur philosophe le génie qui préside à leur administration. Les cases des nègres, construites en planches clouées sur des poteaux, ou composées de claies qui soutiennent un torchis de terre grasse, sont placées en ligne et à portée d'être surveillées par le propriétaire ou par le géreur. Là, point de meubles, point de provisions. Quelques couis, ou vases de calebasse et de coco, une natte pour y étendre des membres raidis par le travail et tout meurtris de coups, et un mauvais banc, telles sont les pièces dont se compose ce triste mobilier.</p>
 
@@ -200,7 +197,7 @@ sont enlevés à leurs mères dès qu'ils sont sevrés, et confiés à une vieil
 </div>
 
 <div xml:id="martinique-1831">
-<head>LA MARTINIQUE EN 1831.</head>
+<head n="La martinique en 1831.">LA MARTINIQUE EN 1831.</head>
 
 <epigraph>
     <cit>
@@ -279,7 +276,7 @@ voisins de la dame Dariste n'a-t-il pas disparu?</p>
 
 <div xml:id="haute-police">
 
-<head>MESURES DE HAUTE POLICE CONTRE LES HOMMES DE COULEUR DEPORTATIONS ADMINISTRATIVES.</head>
+<head n="Mesures de haute police contre les hommes de couleur deportations administratives.">MESURES DE HAUTE POLICE CONTRE LES HOMMES DE COULEUR DEPORTATIONS ADMINISTRATIVES.</head>
 
 <p>Pendant la longue période de chaos législatif qui précéda les ordonnances organiques de <date>1828</date>, les gouverneurs des colonies s'arrogèrent le droit, nulle part écrit, de <emph>départer sans jugement</emph>. <persName ref="#EH">M. Halgan</persName> exerce le même droit ; mais il prétend sans doute l'exercer légalement, par exemple, en vertu de l'article 75 de l'ordonnance du <date when="1827-02-09">9 février 1827</date>. Par un arrêté qui vise cet article, M. le gouverneur vient d'ordonner <q>"que <persName ref="#VAg">le sieur Valéry-Agathe</persName>, domicilié au <placeName ref="#Va">Vauclin</placeName>, est exclu de cette commune et qu'il se rendra immédiatement au <placeName>Fort-Royal</placeName> pour y demeurer pendant un an SOUS LA SURVEILLANCE DE LA HAUTE POLICE."</q> </p>
 
@@ -337,7 +334,7 @@ de leurs persécuteurs ! Plusieurs des déportés de <date>1824</date> ont été
 
 <div xml:id="pourvois-alger">
 
-<head>POURVOIS EN CASSATION ET AU CONSEIL-D'ÉTAT RELATIFS A LA COLONIE D'ALGER.</head>
+<head n="Pourvois en cassation et au conseil-d'état relatifs a la colonie d'alger.">POURVOIS EN CASSATION ET AU CONSEIL-D'ÉTAT RELATIFS A LA COLONIE D'ALGER.</head>
 
 <p>La cour de cassation et le conseil-d'état viennent de rendre des décisions opposées sur des recours venant de cette colonie.</p>
 
@@ -421,7 +418,7 @@ qui seraient intervenus depuis le dépôt de la requête en suspicion.</p>
 </div>
 
 <div xml:id="affaire-haiti">
-<head>AFFAIRE D'HAITI.</head>
+<head n="Affaire d'haiti.">AFFAIRE D'HAITI.</head>
 
 <p>La situation intérieure d'<placeName ref="#HT">Haïti</placeName> est toujours satisfaisante sous le rapport du respect de la population pour les lois et de la bonne harmonie des pouvoirs de l'état ; mais sa prospérité reste en souffrance par sa position équivoque vis-à-vis de la <placeName ref="#FR">France</placeName>, qui l'oblige à conserver un grand état militaire.</p>
 
@@ -509,7 +506,7 @@ dans l'exécution par la <placeName ref="#GB">Grande-Bretagne</placeName>.</p>
 </div>
 
 <div xml:id="société-britannique-abolition">
-<head>SOCIÉTÉ BRITANNIQUE ET ÉTRANGÈRE POUR L'ABOLITION UNIVERSELLE DE L'ESGLAVAGE.</head>
+<head n="Société britannique et étrangère pour l'abolition universelle de l'esglavage.">SOCIÉTÉ BRITANNIQUE ET ÉTRANGÈRE POUR L'ABOLITION UNIVERSELLE DE L'ESGLAVAGE.</head>
 
 <p>L'esprit d'association est surtout d'une irrésistible puissance quand il a pour mobile un principe social ou politique. Du moment qu'il prend cette direction, il purifie et exalte l'
 <choice>
@@ -562,7 +559,7 @@ nous sommes accoutumés depuis
    <orig>puissans</orig>
    <reg>puissants</reg>
 </choice>
- motifs. Presque tous ont pensé qu'ils devaient continuer ou, pour mieux dire, reprendre leurs travaux. Ils se sont reconstitués sous le nom de <emph>Société anglaise et étrangère pour l'abolition de l'esclavage et de la traite des noirs dans toutes les parties du monde</emph> (2). Depuis sa réorganisation, le comité d'agence a appris avec joie que les Sociétés auxiliaires des provinces (<emph>auxiliary societies</emph>) sont dans les meilleures dispositions. Quelques-unes, ignorant encore la résolution que la Société centrale avait prise, par une inspiration soudaine, s'étaient déclarées permanentes : toutes sont prêtes, comme auparavant, à l'aider du produit de leurs cotisations et à l'appuyer de leur influence. Parmi les villes où elle compte déjà des alliées de ce genre, sont <placeName ref="#Ed">Edimbourg</placeName>, <placeName ref="#Gl">Glascow</placeName>, <placeName ref="#Da" >Dalkeith</placeName>, <placeName ref="#Bi">Birmingham</placeName>, <placeName ref="#Br">Bristol</placeName>, <placeName ref="#Bos">Boston</placeName>, <placeName ref="#Ba">Bath</placeName>, <placeName ref="#wi">Wis
+ motifs. Presque tous ont pensé qu'ils devaient continuer ou, pour mieux dire, reprendre leurs travaux. Ils se sont reconstitués sous le nom de <emph>Société anglaise et étrangère pour l'abolition de l'esclavage et de la traite des noirs dans toutes les parties du monde</emph> (2). Depuis sa réorganisation, le comité d'agence a appris avec joie que les Sociétés auxiliaires des provinces (<emph>auxiliary societies</emph>) sont dans les meilleures dispositions. Quelques-unes, ignorant encore la résolution que la Société centrale avait prise, par une inspiration soudaine, s'étaient déclarées permanentes : toutes sont prêtes, comme auparavant, à l'aider du produit de leurs cotisations et à l'appuyer de leur influence. Parmi les villes où elle compte déjà des alliées de ce genre, sont <placeName ref="#Ed">Edimbourg</placeName>, <placeName ref="#Gl">Glascow</placeName>, <placeName ref="#Da">Dalkeith</placeName>, <placeName ref="#Bi">Birmingham</placeName>, <placeName ref="#Br">Bristol</placeName>, <placeName ref="#Bos">Boston</placeName>, <placeName ref="#Ba">Bath</placeName>, <placeName ref="#wi">Wis
 
 <note>(1) Ces 
 <choice>
@@ -599,11 +596,11 @@ moment où nous écrivons, M. <persName ref="#GT">Georges Thompson</persName>  t
 </div>
 
 <div xml:id="france">
-<head>France.</head>
-<head>Paris</head>
-<head>AFFAIRE <persName ref="#ART">Artaud</persName> CONTRE <persName ref="#CB">BISSETTE</persName></head>
-<head>TRIBUNAL DE POLICE CORRECTIONNELLE. - 6e CHAMBRE.</head>
-<head>PRESIDENCE DE <persName ref="#POR">M. PORTALIS</persName>.</head>
+<head n="France.">France.</head>
+<head n="Paris">Paris</head>
+<head n="Affaire artaud contre bissette">AFFAIRE <persName ref="#ART">Artaud</persName> CONTRE <persName ref="#CB">BISSETTE</persName></head>
+<head n="Tribunal de police correctionnelle. - 6e chambre.">TRIBUNAL DE POLICE CORRECTIONNELLE. - 6e CHAMBRE.</head>
+<head n="Presidence de m. portalis.">PRESIDENCE DE <persName ref="#POR">M. PORTALIS</persName>.</head>
 
 <p>C'est le 30 août, le dernier jour de la défunte année judiciaire, que M. Bissette s'est rendu au palais de Justice, sur l'assignation<pb facs="v1n5f30" n="30"/> à lui donnée par M. Artaud, de la <placeName ref="#MQ">Martinique</placeName> Nous devons à nos lecteurs quelques détails sur ce singulier procès.</p>
 
@@ -696,9 +693,9 @@ va-nu-pieds ensemble!»</p>
 </div>
 
 <div xml:id="tribunal-civil">
-<head>TRIBUNAL CIVIL DE LA SEINE (chambre des vacations)</head>
-<head>PRESIDENCE DE M. FOUQUET.</head>
-<head>AFFAIRE <persName ref="#BOI">BOITEL</persName> CONTRE <persName ref="#CIC">CICÉRON</persName></head>
+<head n="Tribunal civil de la seine (chambre des vacations)">TRIBUNAL CIVIL DE LA SEINE (chambre des vacations)</head>
+<head n="Presidence de m. fouquet.">PRESIDENCE DE M. FOUQUET.</head>
+<head n="Affaire boitel contre cicéron">AFFAIRE <persName ref="#BOI">BOITEL</persName> CONTRE <persName ref="#CIC">CICÉRON</persName></head>
 
 <p>Après avoir échoué en police correctionnelle et en cour royale, dans sa plainte au sujet d'un écrit publié contre lui, par le sieur Cicéron, avocat à la <placeName ref="#MQ">Martinique</placeName>, M. Boitel, ancien secrétaire archiviste de cette colonie, qui avait eu à subir devant les premiers juges le bénéfice interprétatif de la prescription de l'action publique, invoquait en dernier ressort, devant le tribunal civil de la Seine, par l'organe de Me <persName ref="#RAB">Rabou</persName>, son avocat, l'application des dispositions de l'article 42 de la loi du 26 mai 1819, lequel porte que : dans tous les cas, la poursuite à la requête de la partie plaignante peut être intentée devant les juges de son domicile lors que la publication y a été effectuée. On ne conteste point, a-t-il dit, que la publication ait été effectuée à <placeName ref="#Par">Paris</placeName>, lieu du domicile<pb facs="v1n5f36" n="36"/> de M. Boitel. Or, la loi n'établit aucune distinction entre les tribunaux civils et les tribunaux correctionnels ; en saisissant le tribunal civil de la Seine, il a saisi les juges de son domicile.</p>
 
@@ -719,7 +716,7 @@ qu'a soulevés contre sa personne la manifestation de ses principes d'équité e
 </div>
 
 <div xml:id="bissette-cicéron">
-<head>RENCONTRE BISSETTE ET CICÉRON.</head>
+<head n="Rencontre bissette et cicéron.">RENCONTRE BISSETTE ET CICÉRON.</head>
 
 <p>Grossièrement offensé dans une brochure publiée par <persName ref="#CIC">M. Cicéron</persName>, avocat à la Martinique, M. Bissette avait, dans une lettre imprimée, en réponse à cette brochure, vivement exprimé le regret de ne pouvoir en tirer satisfaction immédiatement.</p>
 
@@ -751,7 +748,7 @@ qu'a soulevés contre sa personne la manifestation de ses principes d'équité e
 </div>
 
 <div xml:id="nouvelles-diverses">
-<head>NOUVELLES DIVERSES.</head>
+<head n="Nouvelles diverses.">NOUVELLES DIVERSES.</head>
 
 <p>Le <bibl type="periodical"><title ref="#MU">Moniteur</title></bibl> publie l'ordonnance suivante, en date du 29 octobre :</p>
 
@@ -759,7 +756,7 @@ qu'a soulevés contre sa personne la manifestation de ses principes d'équité e
 
 <p>L'intérim du ministère de la guerre sera rempli par <persName ref="#HR">M. de Rigny</persName>, ministre des affaires étrangères."</p></quote>
 
-<p>- M. <persName ref="#JDI">Joseph Duton-Inginac</persName>, capitaine aide-de-camp du général haitien <persName ref="#JBI">Inginac</persName>, son père, et secrétaire du cabinet du président <persName ref="#JPB">Boyer</persName>, vient de mourir inopinément au <placeName ref="#Hav">Havre</placeName>, au moment où il se disposait à retourner dans sa patrie. M. Duton-Inginae n'était âgé que de 20 ans. Nous l'avions vu, le jour même de son départ de Paris, plein de santé et de vie. Sa mort prématurée sera una sujet de regrets et de deuil, non seulement pour sa famille, mais encore pour son pays. La République Haitienne fondait les plus justes espérances sur cet honorable citoyen. Ses restes, déposés au Havre dans la <placeName  ref="#CSR">chapelle Saint-Roch</placeName> , seront prochainement <pb facs="v1n5f39" n="39"/>transportés à <placeName ref="#HT">Haïti</placeName>, faible consolation pour sa famille, dont il était tendrement aimé et qui ne s'attend pas sans doute à ne revoir de lui que sa dépouille inanimée.</p>
+<p>- M. <persName ref="#JDI">Joseph Duton-Inginac</persName>, capitaine aide-de-camp du général haitien <persName ref="#JBI">Inginac</persName>, son père, et secrétaire du cabinet du président <persName ref="#JPB">Boyer</persName>, vient de mourir inopinément au <placeName ref="#Hav">Havre</placeName>, au moment où il se disposait à retourner dans sa patrie. M. Duton-Inginae n'était âgé que de 20 ans. Nous l'avions vu, le jour même de son départ de Paris, plein de santé et de vie. Sa mort prématurée sera una sujet de regrets et de deuil, non seulement pour sa famille, mais encore pour son pays. La République Haitienne fondait les plus justes espérances sur cet honorable citoyen. Ses restes, déposés au Havre dans la <placeName ref="#CSR">chapelle Saint-Roch</placeName> , seront prochainement <pb facs="v1n5f39" n="39"/>transportés à <placeName ref="#HT">Haïti</placeName>, faible consolation pour sa famille, dont il était tendrement aimé et qui ne s'attend pas sans doute à ne revoir de lui que sa dépouille inanimée.</p>
 
 <p>- Naguère a été posée, à <placeName ref="#Lo">Londres</placeName>, la première pierre d'un édifice érigé en mémoire de l'abolition de l'esclavage colonial. L'emplacement choisi est dans Fischer-Street, <placeName ref="#RLS">Red-Lion-Square</placeName> ; l'étage inférieur servira d'école du dimanche, et ordinaire pour les 
 <choice>
@@ -838,8 +835,8 @@ un mémoire très étendu sur les mesures à prendre pour opérer l'entière ém
 </div>
 
 <div xml:id="colonies-françaises">
-<head>COLONIES FRANÇAISES.</head>
-<head><placeName ref="#MQ">MARTINIQUE</placeName></head>
+<head n="Colonies françaises.">COLONIES FRANÇAISES.</head>
+<head n="Martinique"><placeName ref="#MQ">MARTINIQUE</placeName></head>
 
 <p>On nous écrit de <placeName ref="#StP">Saint-Pierre</placeName>, 29 août :</p>
 
@@ -858,7 +855,7 @@ que fait la haine de nos ennemis, puis<pb facs="v1n5f44" n="44"/>qu'elle gagne d
 </div>
 
 <div xml:id="guiane">
-<head><placeName ref="#GF">GUIANE</placeName>.</head>
+<head n="Guiane."><placeName ref="#GF">GUIANE</placeName>.</head>
 
 <p>Les lettres que nous recevons de <placeName ref="#Cay">Cayenne</placeName> s'accordent à donner des éloges à 
    la bonne administration de <persName ref="#Pa">M. Parizet</persName>, gouverneur de la Guyane française, 
@@ -916,8 +913,8 @@ Ainsi des hommes intègres et capables sont repoussés, parce qu'ils sont de cou
 </div>
 
 <div xml:id="colonies-étrangères">
-<head>COLONIES ÉTRANGÈRES.</head>
-<head><placeName ref="#JA">JAMAÏQUE</placeName></head>
+<head n="Colonies étrangères.">COLONIES ÉTRANGÈRES.</head>
+<head n="Jamaïque"><placeName ref="#JA">JAMAÏQUE</placeName></head>
 
 <p>L'ordre et la tranquillité continuent de régner dans la colonie ; mais il y a de fréquentes contestations entre les
    planteurs et les nouveaux apprentis. Il parait que les malentendus ont été causés en grande partie par la proclamation
@@ -934,7 +931,7 @@ Ainsi des hommes intègres et capables sont repoussés, parce qu'ils sont de cou
 </div>
 
 <div xml:id="antigue">
-<head><placeName ref="#ANT">ANTIGUE</placeName>.</head>
+<head n="Antigue."><placeName ref="#ANT">ANTIGUE</placeName>.</head>
 <p>Dans l'une des chapelles de cette île, le service religieux commença, le 31 juillet, à neuf heures du soir. 
    Des prédications et des chants religieux se succédèrent jusqu'à près de minuit. Quelques minutes avant cette 
    heure solennelle, le ministre engagea les esclaves chrétiens à s'agenouiller et à recevoir en silence, comme de 
@@ -949,15 +946,15 @@ Ainsi des hommes intègres et capables sont repoussés, parce qu'ils sont de cou
 </div>
 
 <div xml:id="sainte-lucie">
-<head><placeName ref="#STL">SAINTE-LUCIE</placeName></head>
+<head n="Sainte-lucie"><placeName ref="#STL">SAINTE-LUCIE</placeName></head>
 
 <p>On nous écrit de <placeName ref="#Cas">Castries</placeName> : </p>
 <p>Le 1er août, la publication et la mise à exécution du bill d'emancipation ont eu lieu dans cette ile. A l'occasion de cet acte de régénération, une grande messe a été célébrée à l'église paroissiale. Le gouverneur y assistait, accompagné d'un détachement de 23 hommes de troupe et de la musique militaire, seul déploiement de force nécessaire pour opérer un si grand changement dans l'ordre social de cette colonie. Des <emph>hourras</emph> et des <emph>vivats</emph> 
    témoi-<pb facs="v1n5f47" n="47"/>gnaient l'allégresse de la population libre et des nouveaux affranchis. Cette journée s'est passée au milieu de la plus grande tranquillité ; il n'y a pas eu une seule rixe. Le soir la ville était illuminée.</p></div>
 
 <div xml:id="bibliographie">
-<head>BIBLIOGRAPHIE.</head>
-<head>PROCÈS DE LA GRAND'ANSE (MARTINIQUE).</head>
+<head n="Bibliographie.">BIBLIOGRAPHIE.</head>
+<head n="Procès de la grand'anse (martinique).">PROCÈS DE LA GRAND'ANSE (MARTINIQUE).</head>
 
 <p><emph>Mémoire</emph> pour les quatre-vingt-treize condamnés, soumis à la cour de cassation, saisie de leur pourvoi, par <persName ref="#Gatine">M. AD. GATINE</persName> , avocat à la cour de cassation. <placeName ref="#Par">Paris</placeName> , imprimerie de Dezauche, 14, rue du Faubourg-Montmartre,</p>
 
@@ -982,8 +979,8 @@ encore organisée comme elle l'est à la Martinique. Plus peut-être qu'en tout 
 <p>Dans un prochain mémoire, M. Gatine exposera les moyens de cassation, qui sont nombreux et font concevoir l'espoir certain d'une juste admission du pourvoi : l'arrêt <emph>des juges et parties</emph> sera cassé par la justice métropolitaine. Mais quand y aura-t-il une magistrature protectrice aux colonies?</p>
 </div>
 
-<div xml:id="postscriptum"><head>POST-SCRIPTUM.</head>
-<head>NOUVEAU MINISTÈRE. </head>
+<div xml:id="postscriptum"><head n="Post-scriptum.">POST-SCRIPTUM.</head>
+<head n="Nouveau ministère.">NOUVEAU MINISTÈRE. </head>
 
 <p> <persName ref="#HBM">M. le duc de Bassano</persName> , ministre de l'intérieur et président du conseil.</p>
 

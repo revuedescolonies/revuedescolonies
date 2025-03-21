@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n2-fr">
+<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n2-fr">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -37,10 +34,10 @@
       <body>
          <div>
             <pb n="3" facs="v1n2p3"/>
-            <head>REVUE<lb/>DES <lb/>COLONIES</head>
+            <head n="Revuedes colonies">REVUE<lb/>DES <lb/>COLONIES</head>
             <pb/>
             <div xml:id="abolition">
-               <head>DE L'ABOLITION DE L'ESCLAVAGE.</head>
+               <head n="De l'abolition de l'esclavage.">DE L'ABOLITION DE L'ESCLAVAGE.</head>
 
                <p>
                   <choice>
@@ -139,7 +136,7 @@
             </div>
 
             <div>
-               <head>NÉCESSITÉ DE L'INSTRUCTION AUX COLONIES.</head>
+               <head n="Nécessité de l'instruction aux colonies.">NÉCESSITÉ DE L'INSTRUCTION AUX COLONIES.</head>
                <p>L'ignorance a été dans tous les temps et dans tous les pays le plus puissant
                   auxiliaire de la tyrannie. Tous les <choice>
                      <orig>gouvernemens</orig>
@@ -270,7 +267,7 @@
             </div>
 
             <div xml:id="devoir-national">
-               <head>DEVOIR NATIONAL DE FAIRE RESPECTER PAR LES PUISSANCES ÉTRANGÈRES LA QUALITÉ DE
+               <head n="Devoir national de faire respecter par les puissances étrangères la qualité de citoyen français dont jouissent les hommes de couleur libres.">DEVOIR NATIONAL DE FAIRE RESPECTER PAR LES PUISSANCES ÉTRANGÈRES LA QUALITÉ DE
                   CITOYEN FRANÇAIS DONT JOUISSENT LES HOMMES DE COULEUR LIBRES.</head>
                <p>La <rs type="event">révolution de juillet</rs>, qui aurait dû être plus féconde,
                   qui le sera plus tard, on n'en saurait douter, n'a pourtant pas été si <choice>
@@ -422,7 +419,7 @@
             </div>
 
             <div xml:id="délégués-coloniaux">
-               <head>DES DÉLÉGUÉS DE L'ARISTOCRATIE COLONIALE ET DES MANDATAIRES DES HOMMES DE
+               <head n="Des délégués de l'aristocratie coloniale et des mandataires des hommes de couleur.">DES DÉLÉGUÉS DE L'ARISTOCRATIE COLONIALE ET DES MANDATAIRES DES HOMMES DE
                   COULEUR.</head>
 
                <p>La loi d'<date>avril 1833</date>, qui institue aux colonies une assemblée sous la
@@ -524,7 +521,7 @@
             </div>
 
             <div xml:id="affaire-grandanse">
-               <head><rs type="event">AFFAIRE DE LA GRAND'ANSE.</rs></head>
+               <head n="Affaire de la grand'anse."><rs type="event">AFFAIRE DE LA GRAND'ANSE.</rs></head>
 
                <p><bibl type="periodical"><title ref="#LT">Le Temps</title></bibl> ayant publié une
                   lettre où les<rs type="event">
@@ -632,7 +629,7 @@
             </div>
 
             <div xml:id="société-abolition">
-               <head>SOCIÉTÉ POUR L'ABOLITION DE L'ESCLAVAGE.</head>
+               <head n="Société pour l'abolition de l'esclavage.">SOCIÉTÉ POUR L'ABOLITION DE L'ESCLAVAGE.</head>
 
                <p>En 1789, au moment de la convocation des états-généraux, il se forma dans <placeName>Paris</placeName> une société qui depuis a servi de modèle aux Anglais ; elle avait pour but de convaincre les esprits non seulement de l'inhumanité de l'esclavage, par les privations de toute nature imposées aux malheureux qui y sont soumis et par les peines atroces auxquelles ils sont exposés de la part d'une justice toute prévotale, mais encore de démontrer la reguption des 
                <choice>
@@ -693,7 +690,7 @@
             </div>
 
             <div xml:id="du-conseil-colonial">
-               <head>DU CONSEIL COLONIAL DE LA GUADELOUPE.</head>
+               <head n="Du conseil colonial de la guadeloupe.">DU CONSEIL COLONIAL DE LA GUADELOUPE.</head>
                <p>La loi du <date>24 avril 1833</date> commence à recevoir son exécution dans nos
                   colonies, et déjà nous avons sous les yeux les procès-verbaux des séances du
                   conseil colonial de <placeName ref="#GP">la Guadeloupe</placeName>. En les
@@ -778,7 +775,7 @@
             </div>
 
              <div xml:id="discours-installation">
-               <head>DES DISCOURS D'INSTALLATION DU CONSEIL COLONIAL DE LA MARTINIQUE.</head>
+               <head n="Des discours d'installation du conseil colonial de la martinique.">DES DISCOURS D'INSTALLATION DU CONSEIL COLONIAL DE LA MARTINIQUE.</head>
 
                <p>Les discours d'ouverture des assemblées délibérantes sont assez généralement
                   l'expression de l'esprit dont elles sont animées ; c'est en ce sens seulement
@@ -840,7 +837,7 @@
             </div>
 
             <div xml:id="adresse-hommes-de-couleur">
-               <head>SUR L'ADRESSE DES HOMMES DE COULEUR AU GOUVERNEUR DE LA MARTINIQUE.</head>
+               <head n="Sur l'adresse des hommes de couleur au gouverneur de la martinique.">SUR L'ADRESSE DES HOMMES DE COULEUR AU GOUVERNEUR DE LA MARTINIQUE.</head>
 
                <p>Les hommes de couleur de <placeName ref="#MQ">la Martinique</placeName>, à
                   l'occasion des <rs type="event">
@@ -888,7 +885,7 @@
             </div>
 
             <div xml:id="le-1er-aout">
-               <head>LE 1er AOUT 1834.</head>
+               <head n="Le 1er aout 1834.">LE 1er AOUT 1834.</head>
 
                <p>Saluons d'avance ce grand jour, de peur que pour plusieurs il ne passe inaperçu,
                   tandis qu'il doit remplir les coeurs d'allégresse et de reconnaissance.</p>
@@ -990,9 +987,9 @@
             </div>
 
             <div xml:id="France">
-               <head>France.</head>
-               <head>PARIS.</head>
-               <head>AFFAIRE DE <persName ref="#BOI">M. BOITEL</persName> CONTRE <persName ref="#CIC">M.
+               <head n="France.">France.</head>
+               <head n="Paris.">PARIS.</head>
+               <head n="Affaire de m. boitel contre m. ciceron.">AFFAIRE DE <persName ref="#BOI">M. BOITEL</persName> CONTRE <persName ref="#CIC">M.
                      CICERON</persName>.</head>
 
                <p>TRIBUNAL DE POLICE regECTIONNELLE. - 6 CHAMBRE,</p>
@@ -1086,7 +1083,7 @@
             </div>
 
             <div xml:id="nouvelles-diverses">
-               <head>NOUVELLES DIVERSES.</head>
+               <head n="Nouvelles diverses.">NOUVELLES DIVERSES.</head>
 
                <p><persName>M. de Saint-Simon</persName>, pair de France, est nommé gouverneur des
                   établissemens français dans l'Inde.</p>
@@ -1237,11 +1234,11 @@
             </div>
 
            <div xml:id="colonies-francaises">
-               <head>COLONIES FRANÇAISES.</head>
+               <head n="Colonies françaises.">COLONIES FRANÇAISES.</head>
             </div>
 
             <div type="article">
-               <head><placeName ref="#MQ">MARTINIQUE.</placeName></head>
+               <head n="Martinique."><placeName ref="#MQ">MARTINIQUE.</placeName></head>
                <p>On nous écrit de la commune de <placeName ref="#TRI">la Trinité</placeName> :</p>
                <q><p><persName>Le sieur Bardel</persName>, capitaine d'une compagnie de miliciens,
                      à <placeName ref="#MQ">la Martinique</placeName>, rencontre dans la rue <persName>M.
@@ -1325,7 +1322,7 @@
             </div>
 
             <div type="article">
-               <head><placeName ref="#GP">GUADELOUPE.</placeName></head>
+               <head n="Guadeloupe."><placeName ref="#GP">GUADELOUPE.</placeName></head>
 
                <p>On nous écrit de <placeName>la Pointe-à-Pitre</placeName> :</p>
                <q><p>L'arbitraire est toujours à l'ordre du jour dans notre colonie ; les autorités
@@ -1354,7 +1351,7 @@
             </div>
 
             <div type="article">
-               <head><placeName ref="#BrB">BOURBON.</placeName></head>
+               <head n="Bourbon."><placeName ref="#BrB">BOURBON.</placeName></head>
 
                <p>Tandis qu'à <placeName ref="#MQ">la Martinique</placeName> et à <placeName ref="#GP">la
                      Guadeloupe</placeName> l'aristocratie coloniale supprime les fonds alloués au
@@ -1397,7 +1394,7 @@
             </div>
 
             <div type="article">
-               <head><placeName>GUIANE.</placeName></head>
+               <head n="Guiane."><placeName>GUIANE.</placeName></head>
 
                <p><persName>M. Persegol</persName>, <roleName>président de la cour royale de
                         <placeName>la Guiane</placeName></roleName>, vient de recevoir le prix de la
@@ -1411,7 +1408,7 @@
             </div>
 
             <div type="article">
-               <head><placeName>SÉNÉGAL.</placeName></head>
+               <head n="Sénégal."><placeName>SÉNÉGAL.</placeName></head>
                <p>La traite continue à s'exercer sur toute la côte de <placeName>Guinée</placeName>,
                   malgré les croiseurs anglais et français. Les Portugais et les Espagnols se
                   livrent plus que tous autres à ce trafic odieux. Deux négriers de ces nations ont
@@ -1424,7 +1421,7 @@
             </div>
 
             <div type="article">
-               <head><placeName ref="#Alg">ALGER.</placeName></head>
+               <head n="Alger."><placeName ref="#Alg">ALGER.</placeName></head>
 
                <p>On écrit de cette colonie :</p>
                <q><p>La partie de la tribu de <persName>Beni-Moussa</persName>, qui habite la
@@ -1470,10 +1467,10 @@
             </div>
 
             <div xml:id="colonies-étrangères">
-               <head>COLONIES ÉTRANGÈRES </head>
+               <head n="Colonies étrangères">COLONIES ÉTRANGÈRES </head>
             </div>
                               <div>
-               <head>MAURICE. </head>
+               <head n="Maurice.">MAURICE. </head>
                <p>On lit dans <bibl type="periodical"><emph>le Cernéen</emph></bibl>, journal qui
                   s'imprime au <placeName>Port-Louis</placeName> (<placeName>île
                   Maurice</placeName>) :</p>
@@ -1630,7 +1627,7 @@
             </div>
 
             <div type="article">
-               <head><placeName>GRENADE.</placeName></head>
+               <head n="Grenade."><placeName>GRENADE.</placeName></head>
 
                <p> On nous écrit de <placeName>Saint-Georges</placeName> :</p>
                <q><p>"Chacun fait ses préparatifs ici pour le grand changement qui doit s'opérer le
@@ -1642,7 +1639,7 @@
             </div>
 
             <div type="article">
-               <head><placeName>TORTOLL.</placeName></head>
+               <head n="Tortoll."><placeName>TORTOLL.</placeName></head>
 
                <p>Dans cette possession anglaise, on n'a pas attendu le terme fixé par le bill pour
                   proclamer par la liberté des nègres. Les <choice>
@@ -1653,7 +1650,7 @@
             </div>
 
             <div type="article">
-               <head><placeName>DÉMÉRARI</placeName></head>
+               <head n="Démérari"><placeName>DÉMÉRARI</placeName></head>
 
                <p>Dans les colonies anglaises, la saine raison triomphe chaque jour de plus en plus
                   de l'odieux et ridicule préjugé de la peau. A <placeName>Démérari</placeName>,
@@ -1683,7 +1680,7 @@
             </div>
 
             <div type="article">
-               <head><placeName ref="#CUB">CUBA</placeName></head>
+               <head n="Cuba"><placeName ref="#CUB">CUBA</placeName></head>
 
                <p>Des actes de piraterie ont été commis dans les environs de
                      <placeName>Honduras</placeName> et <placeName>Nicaragua</placeName>
@@ -1704,7 +1701,7 @@
             </div>
 
             <div type="article">
-               <head><placeName>CANADA</placeName></head>
+               <head n="Canada"><placeName>CANADA</placeName></head>
 
                <p>On lit dans <bibl type="periodical">le Journal de la Marine</bibl> les
                   observations suivantes sur les moeurs politiques du
@@ -1736,7 +1733,7 @@
             </div>
 
             <div type="article">
-               <head>CONVOI DU JEUNE PAVILLON.</head>
+               <head n="Convoi du jeune pavillon.">CONVOI DU JEUNE PAVILLON.</head>
 
                <p>Le 25 juillet, nous avons assisté aux funérailles de <persName>Sainte-Cour
                      Pavillon</persName>, de <placeName ref="#GP">la Guadeloupe</placeName>, élève
@@ -1773,8 +1770,8 @@
             </div>
 
             <div xml:id="biographie">
-               <head>BIOGRAPHIE.</head>
-               <head>M. CABASSE.</head>
+               <head n="Biographie.">BIOGRAPHIE.</head>
+               <head n="M. cabasse.">M. CABASSE.</head>
 
                <p><persName>M. Prosper Cabasse</persName>, ex-procureur-général près la cour royale
                   de <placeName ref="#GP">la Guadeloupe</placeName>, n'intéresse les colonies que

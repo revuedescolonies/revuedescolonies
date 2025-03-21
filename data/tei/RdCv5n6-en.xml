@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv5n6-en">
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv5n6-en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,17 +19,17 @@
         <body>
             <div>
                 <pb n="193" facs="v5n6p13"/>
-                <head>REVUE DES COLONIES.</head>
+                <head n="Revue Des Colonies.">REVUE DES COLONIES.</head>
                 <div>
-                    <head>CORRESPONDENCE</head>
-                    <head>LETTER FROM Mr. ALEXANDRE DUMAS.</head>
+                    <head n="Correspondence">CORRESPONDENCE</head>
+                    <head n="Letter From Mr. Alexandre Dumas.">LETTER FROM Mr. ALEXANDRE DUMAS.</head>
                     <p>There is a <bibl><title ref="#RC">Revue Coloniale</title></bibl> which differs from the <bibl><title ref="#RdC">Revue des Colonies</title></bibl>, not only in its title, but in its principles and the purpose of its publication. In mentioning this opposition; we do not mean to blame our adversaries. Everyone is perfectly free to write for or against the spirit of reform; but the following letter, which is addressed to us by one of the century’s greatest literary figures, compels us to acknowledge that an opinion contrary to ours publishes this <title ref="#RC">Revue Coloniale</title>, and that this Review has cited <persName ref="#ADp">M. Alexandre Dumas</persName> among its collaborators.</p>
                 </div>
                 <div>
                     <floatingText>
                         <body>
                             <div>
-                                <head>Mr. Editor of the <title ref="#RdC">Revue des Colonies.</title></head>
+                                <head n="Mr. Editor of the Revue Des Colonies.">Mr. Editor of the <title ref="#RdC">Revue des Colonies.</title></head>
                                 <p>“Would you mind correcting in one of your next issues an error which I see committed in my regard on the cover of the <title ref="#RC">Revue Coloniale</title>; they announce that they will be publishing poems by me in one of their upcoming issues. First of all, I write little poetry, except for the theater; and I did not promise anything to the <title ref="#RC">Revue Coloniale</title>, which did not ask me for anything. All my sympathies, on the contrary, are instinctively and nationally for the adversaries of the principles defended by the Gentlemen of the <title ref="#RC">Revue Coloniale</title>; this is what I wish to be made perfectly clear, not only in France, but wherever I have brothers in race and friends of color.<ptr target="#mock1"/></p>
                                 <lb/>
                                 <closer>Please accept, etc. <lb/> <signed>A. DUMAS</signed>
@@ -42,9 +39,9 @@
                     </floatingText>
                 </div>
                 <div>
-                <head>BIOGRAPHY.
+                <head n="Biography.">BIOGRAPHY.
                 </head>
-                <head>VASSA<ptr target="#mock2"/></head>
+                <head n="Vassa">VASSA<ptr target="#mock2"/></head>
                 <p><persName ref="#Equ">Olaudad-Equiano, or Gustave Vassa</persName> (better known by that name), was born in <placeName ref="#Esk">Essaka</placeName>, a charming and fertile valley, a great distance from the coast and the capital of Bénier<ptr target="#mock3"/>. At the age of</p>
                 </div>
             </div>

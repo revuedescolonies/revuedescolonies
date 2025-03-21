@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n9-fr">
+<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n9-fr">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -50,18 +47,17 @@
         <body>
             <div>
                 <pb n="3" facs="v1n9p3"/>
-                <head>REVUE DES COLONIES.</head>
+                <head n="Revue des colonies.">REVUE DES COLONIES.</head>
                 <!--syntaxe pour le trait de séparation?-->
                 <div xml:id="budget">
-                    <head>
+                    <head n="Du budget de la marine et des colonies.">
                         DU BUDGET DE LA MARINE ET DES COLONIES.
                     </head>
                  <p>
                         Le budget de la marine pour 1856, service des colonies, contient la demande d'une somme de 598,600 fr. en sus de la somme votée pour 1835, afin de pouvoir augmenter le personnel des troupes dans les colonies, se fondant sur les demandes réitérées, des gouverneurs et des conseils coloniaux, <emph> lesquels représentent</emph> dit le rapport du ministre au roi: <quote> <emph>que la mise à exécution, dans les colonies britanniques, du bil d'émancipation des esclaves sera probablement pour les agitateurs des colonies française le signal de nombreuses entreprises contre la paix publique, et que ces entreprises seront effectuées avec d'autant plus d'audace que les moyens de répression seraient reconnus plus faible (1).</emph> </quote> Le ministre ajoute <q>Je dois déclarer à votre majesté que je considérerais nos colonies comme étant exposées de toutes parts, si ces diverses représenatations restaient sans effet.</q>
                 </p>
                  <p>
-                     En consequence le ministre demande cent gendarmes pour la <placeName ref="#MQ"
-                     >Martinique</placeName> et de la <placeName>Guadeloupe</placeName>. Il y a actuellement dans chaque colonie une compagnie de cinquante gendarme environ.
+                     En consequence le ministre demande cent gendarmes pour la <placeName ref="#MQ">Martinique</placeName> et de la <placeName>Guadeloupe</placeName>. Il y a actuellement dans chaque colonie une compagnie de cinquante gendarme environ.
                 </p> 
                 <p>
                     <q>La gendarmerie, dit le ministre, est aux <placeName>Antille</placeName> d'une telle utitlité que cet accroissement permettra d’ajourner l'augmentation de l’effectif des régimens d’infanterie qui y tiennent garnison.
@@ -126,4 +122,3 @@
     </body>
 </text>
 </TEI>
-

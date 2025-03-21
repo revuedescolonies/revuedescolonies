@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv2n1-en">
+<?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv2n1-en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -36,8 +33,8 @@
       <body>
          <div>
          <pb n="3" facs="v2n1p3"/>
-            <head>REVUE DES COLONIES</head>
-            <head>2nd YEAR. JULY 1835. N° 1.</head>
+            <head n="Revue Des Colonies">REVUE DES COLONIES</head>
+            <head n="2nd Year. July 1835. N° 1.">2nd YEAR. JULY 1835. N° 1.</head>
             <div>
                <list>
                   <item>On the abolition of slavery by the National Convention.</item> 
@@ -59,7 +56,7 @@
                </list>
             </div>
             <div xml:id="abolition">
-               <head>ON THE ABOLITION OF SLAVERY BY THE NATIONAL CONVENTION. — REVUE DES COLONIES
+               <head n="On the Abolition of Slavery by the National Convention. — Revue Des Colonies Bill.">ON THE ABOLITION OF SLAVERY BY THE NATIONAL CONVENTION. — REVUE DES COLONIES
                   BILL.</head>
                <p> Slavery, which is tending to disappear completely and in all its forms from human
                   societies, and the abolition of which by legislative means in our colonies cannot
@@ -168,7 +165,7 @@
             </div>
             <pb n="7" facs="v2n1p7"/>
             <div xml:id="bill">
-               <head>BILL FOR THE ABOLITION OF SLAVERY IN THE FRENCH COLONIES.</head>
+               <head n="Bill for the Abolition of Slavery in the French Colonies.">BILL FOR THE ABOLITION OF SLAVERY IN THE FRENCH COLONIES.</head>
                <p> Considering that slavery is contrary to all divine and human laws; that it could
                   only have been established through violence, injustice and contempt for the most
                   imprescriptible of human rights, the right to dispose of one's person and one's

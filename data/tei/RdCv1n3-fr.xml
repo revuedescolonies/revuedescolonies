@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n3-fr">
+<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n3-fr">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,13 +36,13 @@
                   </div>
          <div xml:id="chatiments">
                   <pb facs="v1n3f3" n="3"/>
-            <head>
+            <head n="Chatimens châtiments et punitions disciplinaires des esclaves.">
                <choice>
                   <orig>CHATIMENS</orig>
                   <reg>CHÂTIMENTS</reg>
                </choice> ET PUNITIONS DISCIPLINAIRES DES ESCLAVES.</head>
 
-            <head>DE LA PEINE DU FOUET ET DE LA CHAÎNE DE POLICE.</head>
+            <head n="De la peine du fouet et de la chaîne de police.">DE LA PEINE DU FOUET ET DE LA CHAÎNE DE POLICE.</head>
 
             <p>Pendant que <placeName ref="#ANG">l'Angleterre</placeName> abolit l'esclavage et organise le travail dans ses
                colonies, le gouvernement français n'a pas même l'air de songer que l'esclavage
@@ -163,7 +160,7 @@
          </div>
 
 <div xml:id="émancipation">
-<head>SUR L'ÉMANCIPATION DES ESCLAVES AUX COLONIES FRANCAISES.</head>
+<head n="Sur l'émancipation des esclaves aux colonies francaises.">SUR L'ÉMANCIPATION DES ESCLAVES AUX COLONIES FRANCAISES.</head>
 
 <epigraph><p>L'homme est né libre ; l'esclavage est l'exception.</p>
 <p><persName ref="#WW">WILBERFORCE</persName>.</p>
@@ -220,7 +217,7 @@ qui se<pb facs="v1n3f8" n="8"/> sont succédés en France, dans ces derniers tem
 <p>propriétaire à la Martinique.</p>
 
 <div xml:id="insurrections">
-<head>INSURRECTIONS ET LEUR CAUSE 
+<head n="Insurrections et leur cause aà la martinique.">INSURRECTIONS ET LEUR CAUSE 
 <choice>
 <orig>A</orig>
 <reg>À</reg>
@@ -328,7 +325,7 @@ et futurs, que le succès seul est l'excuse, et qu'au
 </div>
 
 <div xml:id="droit-dénié">
-<head>DU DROIT 
+<head n="Du droit deniédénié aux esclaves de se pourvoir en cassation.">DU DROIT 
 <choice>
 <orig>DENIÉ</orig>
 <reg>DÉNIÉ</reg>
@@ -397,7 +394,7 @@ cet attentat contre la loi, ce serait de sa part forfaire à ses
 </div>
 
 <div xml:id="magistrature-coloniale">
-<head>DE LA MAGISTRATURE COLONIALE ; CE QU'ELLE FUT, CE QU'ELLE EST, CE QU'ELLE DEVRAIT ÊTRE.</head>
+<head n="De la magistrature coloniale ; ce qu'elle fut, ce qu'elle est, ce qu'elle devrait être.">DE LA MAGISTRATURE COLONIALE ; CE QU'ELLE FUT, CE QU'ELLE EST, CE QU'ELLE DEVRAIT ÊTRE.</head>
 
 <p>En montant sur son 
 <choice>
@@ -494,7 +491,7 @@ des assesseurs fût composé mi-partie de blancs et d'hommes de couleur. Ainsi s
 </div>
 
 <div xml:id="abus-de-pouvoir">
-<head>ABUS DE POUVOIR D'UN GOUVERNEUR</head>
+<head n="Abus de pouvoir d'un gouverneur">ABUS DE POUVOIR D'UN GOUVERNEUR</head>
 
 <p>M. le <roleName>contre-amiral</roleName> <persName ref="#JHD">Dupotet</persName>, à l'occasion de <rs type="event">l'affaire de la Grand'Anse</rs> (<placeName ref="#MQ">Martinique</placeName>), a rendu deux arrêtés sur les milices de la colonie. Les dispositions de ces deux arrêtés nous fournissent l'occasion d'examiner l'étendue des pouvoirs des gouverneurs sur les milices coloniales, depuis la <bibl type="legal">loi organique du <date>24 avril 1833</date></bibl>.</p>
 
@@ -531,7 +528,7 @@ toutes dispositions de lois, édits, déclarations du roi, ordonnances royales e
 
 <div xml:id="machiavelisme-colonial">
 
-<head>MACHIAVÉLISME COLONIAL.</head>
+<head n="Machiavélisme colonial.">MACHIAVÉLISME COLONIAL.</head>
 
 <p>L'aristocratie coloniale, habile comme toutes les aristocraties à couvrir ses actes d'apparences spécieuses, et sachant dissimuler et mentir quand il le faut, vient de présenter, dans les rares journaux d'<placeName ref="#EUR">Europe</placeName> auxquels elle a accès, le jugement qui vient d'être rendu dans l'<rs type="event">affaire de la Grand'Ans</rs>&gt; sous un jour favorable et doux, sans s'expliquer au fond, sans donner nuls détails : la mansuétude de la cour royale de la <placeName ref="#MQ">Martinique</placeName> a été grande, sa modération s'est hautement manifestée dans ce jugement ; c'est une bonne et douce personne que la cour royale de la Martinique, et à qui le cœur saigne quand elle est contrainte à condamner les gens à être pendus. Si bien qu'elle n'ose en rien dire, et ne vous fait parler d'abord que de sa rare douceur.</p>
 
@@ -577,7 +574,7 @@ touchante ces toutes bénignes paroles : <q>"Nous ne connaissons rien du reste d
 </div>
 
 <div xml:id="affaire-de-la-grandanse">
-<head><rs type="event">AFFAIRE DE LA GRAND'ANSE.</rs></head>
+<head n="Affaire de la grand'anse."><rs type="event">AFFAIRE DE LA GRAND'ANSE.</rs></head>
 
 <p>La cour de la <placeName ref="#MQ">Martinique</placeName> a enfin rendu son arrêt dans le grand procès qui occupait tous les esprits ; après un mois de débats, les juges de la Martinique ont prononcé 15 condamnations capitales, 10 aux galères à perpétuité, aux galères à temps et à la réclusion, et 25 à la déportation. Indépendamment de tout ce luxe de condamnations, tous les contumaces, au nombre de 26, ont été comdamnés à la peine capitale.</p>
 
@@ -604,8 +601,8 @@ l'ouverture de ce procès-monstre, le journal officiel de la colonie avait comme
 </div>
 
 <div xml:id="états-unis">
-<head><placeName ref="#USA">États-Unis</placeName></head>
-<head>ÉMEUTES DE <placeName ref="#NY">NEW-YORK</placeName></head>
+<head n="États-unis"><placeName ref="#USA">États-Unis</placeName></head>
+<head n="Émeutes de new-york">ÉMEUTES DE <placeName ref="#NY">NEW-YORK</placeName></head>
 
 <p>Des désordres très graves ont eu lieu à New-York. Voici ce que nous lisons dans les journaux anglais :</p>
 
@@ -710,10 +707,10 @@ peu près à la même heure, un autre rassemblement attaqua l’église africain
 
 <div xml:id="angleterre">
 
-<head><placeName ref="#AN">ANGLETERRE</placeName></head>
-<head><placeName ref="#Lo">LONDRES</placeName></head>
+<head n="Angleterre"><placeName ref="#AN">ANGLETERRE</placeName></head>
+<head n="Londres"><placeName ref="#Lo">LONDRES</placeName></head>
 
-<head>BANQUET À L'OCCASION DE L'ABOLITION DE L'ESCLAVAGE</head>
+<head n="Banquet à l'occasion de l'abolition de l'esclavage">BANQUET À L'OCCASION DE L'ABOLITION DE L'ESCLAVAGE</head>
 
 <p>Le 1er août a eu lieu un banquet public à la taverne des Francs Maçons pour célébrer l'abolition de l'esclavage, opérée ce jour-là dans toute l'étendue des possessions coloniales de la Grande-Bretaqne. Le très honorable <persName ref="#Mul"><roleName>lord </roleName>comte Mulgrave (1)</persName> occupait le fauteuil. Peu après six heures et demie, 132 personnes se sont mises à table. Parmi celles qui étaient présentes, nous avons remarqué <persName ref="#SR"><roleName>M. le secrétaire</roleName> Rice</persName>, <persName ref="#MOR">le vicomte Morpeth</persName>, <persName ref="#LUS">le docteur Lushington</persName>, <persName ref="#HV">sir H. Varney</persName>, <persName ref="#WH">M. Whitmore</persName>, <persName ref="#OC">M. O'Connel</persName>, <persName ref="#WA">M. H.-G. Ward</persName>, <persName ref="#BUC">M. T.-S. Buckingham</persName>, tous membres du parlement, et plusieurs autres qui ont pris une part active dans la grande question de l'émancipation des nègres, laquelle est maintenant heureusement terminée.</p>
 
@@ -814,11 +811,11 @@ la prospérité politique et sociale des colonies !"</p>
 
 <div xml:id="France">
 
-<head>FRANCE</head>
+<head n="France">FRANCE</head>
 
-<head>PARIS</head>
+<head n="Paris">PARIS</head>
 
-<head>ORGANISATION DE LA COLONIE D'ALGER</head>
+<head n="Organisation de la colonie d'alger">ORGANISATION DE LA COLONIE D'ALGER</head>
 
 <p><bibl type="periodical"><title ref="#MU">Le Moniteur</title></bibl> du <date>15 août</date> publie diverses ordonnances relatives à nos possessions dans le nord de l'<placeName>Afrique</placeName>.</p>
 
@@ -851,7 +848,7 @@ la prospérité politique et sociale des colonies !"</p>
 </div>
 
 <div xml:id="nouvelles-diverses">
-<head>NOUVELLES DIVERSES</head>
+<head n="Nouvelles diverses">NOUVELLES DIVERSES</head>
 
 <p>On nous assure que <persName ref="#CT">M. Charles Télèphe</persName>, <roleName>officier de la garde nationale de la <placeName ref="#MQ">Martinique</placeName></roleName>, présentement à <placeName ref="#Par">Paris</placeName>, vient d'écrire une lettre au ministre de la marine et des colonies pour éclairer la religion de ce ministre sur l'épouvantable <rs type="event">affaire de la Grand'Anse</rs>. On sait que M. Télèphe a joué un rôle dans cette affaire : en sa qualité d'officier de la garde nationale, il fut investi de la confiance du gouverneur, dans un moment où l'on avait à craindre le parti que prendrait la masse des hommes de couleur en présence de leurs frères armés, qui, à l'imitation des blancs, s'étaient retranchés aussi dans le <placeName ref="#FC">camp du Fond-Capot</placeName>. M. Télèphe fut porteur de paroles d'amnistie pour les hommes de couleur. M. Télèphe explique, dit-on, dans sa lettre, toutes ces particularités au ministre. Nous ne pouvons qu'applaudir au sentiment de justice et de patriotisme qui a dicté cette lettre à cet officier.</p>
 
@@ -923,9 +920,9 @@ et de précieuses garanties. MM. <persName ref="#PAS">Passy</persName> et <persN
 
 <div xml:id="colonies-francaises">
 
-<head>COLONIES FRANÇAISES</head>
+<head n="Colonies françaises">COLONIES FRANÇAISES</head>
 
-<head><placeName ref="#MQ">MARTINIQUE</placeName></head>
+<head n="Martinique"><placeName ref="#MQ">MARTINIQUE</placeName></head>
 
 <p>On nous écrit de <placeName ref="#StP">Saint-Pierre</placeName> :</p>
 
@@ -954,7 +951,7 @@ Non, il ne sera pas dit qu'on laisse conduire tant de victimes à l'échafaud. L
 
 <div>
 
-<head><placeName ref="#GP">GUADELOUPE</placeName></head>
+<head n="Guadeloupe"><placeName ref="#GP">GUADELOUPE</placeName></head>
 
 <p>Les nommés <persName ref="#MDP">Marianne</persName> et <persName ref="#SFDP">Sébastiano-Francisco de Paula</persName> ont, dans la nuit du 11 juin, assassiné le malheureux <persName ref="#FV">Francisque Vaille</persName>, maitre du port, à la Pointe-à-Pitre.</p>
 
@@ -983,7 +980,7 @@ dans les gabarres de la ville et passait pour être l'ami intime de Vaille ; cel
 
 <div>
 
-<head><placeName ref="#GF">GUIANE</placeName></head>
+<head n="Guiane"><placeName ref="#GF">GUIANE</placeName></head>
 
 <p>On nous mande de <placeName ref="#Cay">Cayenne</placeName> :</p>
 
@@ -1023,7 +1020,7 @@ en témoignage de leur gratitude profonde pour ces honorables défenseurs de leu
 
 <div>
 
-<head><placeName ref="#SEN">SÉNÉGAL</placeName></head>
+<head n="Sénégal"><placeName ref="#SEN">SÉNÉGAL</placeName></head>
 
 <p>Les plus récentes dépêches portent la date du <date>29 juin</date>.</p>
 
@@ -1039,7 +1036,7 @@ en témoignage de leur gratitude profonde pour ces honorables défenseurs de leu
 
 <div>
 
-<head><placeName ref="#Alg">ALGER</placeName>.</head>
+<head n="Alger."><placeName ref="#Alg">ALGER</placeName>.</head>
 
 <p>Les travaux continuent avec activité. Le nombre des malades est beaucoup moindre que dans les années précédentes. Nos rela<pb facs="v1n3f43" n="43"/>tions avec les Arabes n'ont en ce moment rien d'hostile, mais elles sont bien loin d'être aussi amicales et aussi sûres que l'on se plaisait à le publier dans les rapports officiels. Cependant si quelques tribus se montrent hostiles, il n'y a pas le moindre symptôme de conflagration générale, et nos 
 <choice>
@@ -1052,9 +1049,9 @@ n'auront rien à craindre tant qu'ils n'auront à supporter que quelques attaque
 
 <div xml:id="colonies-étrangères">
 
-<head>COLONIES ÉTRANGÈRES.</head>
+<head n="Colonies étrangères.">COLONIES ÉTRANGÈRES.</head>
 
-<head>MAURICE.</head>
+<head n="Maurice.">MAURICE.</head>
 
 <p>On lit dans <bibl type="periodical"><title ref="#LC">le Cernéen</title></bibl> l'article suivant sur les colonies :</p>
 
@@ -1077,7 +1074,7 @@ des métropoles. Or, si on leur accordait cette somme, les colons seraient à la
 
 <div xml:id="bibliographie">
 
-<head>BIBLIOGRAPHIE</head>
+<head n="Bibliographie">BIBLIOGRAPHIE</head>
 
 <p>La <bibl type="periodical"><title ref="#RdC">Revue des Colonies</title></bibl> ne restera pas étrangère au mouvement des esprits et tiendra registre fidèle de toutes les publications qu'elle jugera de quelque intérêt pour la cause de la liberté et de la civilisation universelles.</p>
 

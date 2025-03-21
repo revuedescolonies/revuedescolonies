@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n6-fr">
+<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n6-fr">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -33,9 +30,9 @@
 
       <body>
          <div>
-         <head>REVUE<lb/>DES <lb/>COLONIES</head>
+         <head n="Revuedes colonies">REVUE<lb/>DES <lb/>COLONIES</head>
             <div>
-            <head>DE LA FUSION DES DEUX RACES AUX COLONIES ET DES CAUSES QUI LA RETARDENT.</head>
+            <head n="De la fusion des deux races aux colonies et des causes qui la retardent.">DE LA FUSION DES DEUX RACES AUX COLONIES ET DES CAUSES QUI LA RETARDENT.</head>
             
             <p>La fusion si désirable des deux races aux colonies ne saurait y avoir lieu sérieusement dans l'état peu avancé de leur civilisation. Il est évident que, jusqu'à ce que soient tombés, d'une part, les préjugés de caste, et que, de l'autre, se soit éteint le ressentiment naturel d'une longue oppression, la nécessité seule y réglera les rapports sociaux des hommes de couleur et des blancs. Toutefois, la philosophie et la raison, par l'action incessante de quelques hommes de cœur et de 
             <choice>
@@ -125,7 +122,7 @@ ouvre des écoles pour les classes opprimées : les directeurs envoyés de <plac
 </div>
 
 <div>
-<head>L'ESCLAVAGE DE NOS COLONIES EST PLUS DUR ET PLES INHUMAIN QUE CELUI D'AUCUN PEUPLE DE L'ANTIQUITÉ.</head>
+<head n="L'esclavage de nos colonies est plus dur et ples inhumain que celui d'aucun peuple de l'antiquité.">L'ESCLAVAGE DE NOS COLONIES EST PLUS DUR ET PLES INHUMAIN QUE CELUI D'AUCUN PEUPLE DE L'ANTIQUITÉ.</head>
 
 <p>La cause la plus générale et la plus ordinaire de l'esclavage chez les peuples anciens était la guerre. Le droit des gens de cette époque permettait au vainqueur de disposer de ses prisonniers. Au lieu de leur arracher la vie, il la leur conservait sous la condition de le servir. L'esclavage n'était donc que la rançon de la vie. Les chances ayant été égales, et le sort des armes ayant seul décidé, le vaincu se soumettait à sa position avec moins de répugnance ; c'était une consolation pour son malheur : son maître, par le même motif, allégeait le poids de sa servitude.</p>
 
@@ -254,8 +251,8 @@ ancien magistrat à la <placeName ref="#GP">Guadeloupe</placeName>.<pb n="13"/><
  </div>
 
     <div>
-            <head>DOCUMENT HISTORIQUE.</head>
-            <head>LES TROIS DERNIERS COMPLOTS DE LA GUADELOUPE</head>
+            <head n="Document historique.">DOCUMENT HISTORIQUE.</head>
+            <head n="Les trois derniers complots de la guadeloupe">LES TROIS DERNIERS COMPLOTS DE LA GUADELOUPE</head>
             
             <p>Au moment où, à la <placeName ref="#MQ">Martinique</placeName>, les sanguinaires passions des dominateurs blancs, qui s'intitulent magistrats, viennent de se montrer dans toute leur avidité de vengeance, qu'il nous soit per mis de rappeler l'esprit de prudence, si ce n'est de justice, qui, dans une colonie voisine, a présidé dans l'espace de quelques années au jugement de trois prétendus complots, dans lesquels ont été impliqués d'abord des hommes de couleur, ensuite des esclaves, enfin en dernier lieu des blancs.</p>
             <p>Raconter l'histoire des trois derniers complots de la <placeName ref="#GP">Guadeloupe</placeName>, c'est faire celle de la plupart de ceux qui ont éclaté dans toutes les colonies. Heureuses celles qui n'ont renfermé dans leur sein que des magistrats et des assesseurs intelligemment impartiaux, comme ceux de la <placeName ref="#GP">Guadeloupe</placeName>, et qui n'ont pas voulu ajouter au ridicule de l'accusation l'atrocité du châtiment !</p>
@@ -319,7 +316,7 @@ ancien magistrat à la <placeName ref="#GP">Guadeloupe</placeName>.<pb n="13"/><
                     <p>De tels faits parlent avec éloquence, ils portent avec eux leur enseignement. Là du moins, quelle qu'ait été l'opinion des juges, ils ont reculé devant la monstruosité de l'accusation ; ils n'ont pas osé donner au monde le spectacle hideux de ces scandaleuses con damnations où l'intérêt des juges domine évidemment la cause tout entière. Les juges et les assesseurs de la <placeName ref="#GP">Guadeloupe</placeName> ont fait preuve, en ces trois graves circonstances, de quelque loyauté judiciaire. A la <placeName ref="#MQ">Martinique</placeName>, il n'en est pas ainsi ; loin de là. On s'y pique de moins de scrupule : les échafauds s'y dressent avec une merveilleuse facilité, et les oppresseurs y marchent le front levé, toujours escortés du bourreau. Aussi le croyons-nous, bien que les colons de la première de ces îles soient, peut-être au même degré que leurs voisins, imbus des préjugés contre lesquels nous avons levé notre étendard, quand sera venu le jour où le droit et l'usurpation devront régler leurs comptes aux colonies, là du moins la voix du sang d'innombrables martyrs ne s'élèvera pas pour accuser, maudire et appeler le sang !</p></div>
 
                     <div>
-                    <head>DU MAINTIEN DE CERTAINS JUGES AUX COLONIES.</head>
+                    <head n="Du maintien de certains juges aux colonies.">DU MAINTIEN DE CERTAINS JUGES AUX COLONIES.</head>
 
       <p>C'est un sujet de considération bien triste que le maintien obstiné, comme juges aux colonies, de certains hommes qui ont depuis 
       <choice>
@@ -356,20 +353,20 @@ ancien magistrat à la <placeName ref="#GP">Guadeloupe</placeName>.<pb n="13"/><
 
 <div>
 
-   <head>TRISTE RESULTAT DU PROCÈS DE LA <placeName ref="#GdA">GRAND'ANSE</placeName>.</head>
+   <head n="Triste resultat du procès de la grand'anse.">TRISTE RESULTAT DU PROCÈS DE LA <placeName ref="#GdA">GRAND'ANSE</placeName>.</head>
    
    <p>Le récent arrêt de la cour de cassation qui rejette le pourvoi de nos malheureux compatriotes de la <placeName ref="#GdA">Grand'Anse</placeName>, et qui va porter l'effroi et la douleur dans les familles de ces infortunés, est fondé seulement sur ce que toutes les formalités légales ont été observées par les juges de la <placeName ref="#MQ">Martinique</placeName> dans les débats qui ont amené leur épouvantable arrêt ; la décision de la cour prouve d'une manière éclatante tout ce qu'il y a de malheureux dans le régime exceptionnel auquel sont soumises les colonies. Ainsi, voilà la cour de cassation entraînée à sanctionner la monstrueuse iniquité de la cour dite d'assises de <placeName ref="#StP">Saint-Pierre</placeName>, parce que juges, assesseurs et témoins n'ont pas violé d'une manière suffisamment établie les formes imposées par l'ordonnance du 24 septembre 1828 ! La forme l'a emporté sur le fond, dont la cour suprême ne pouvait être appelée à connaître, et voilà des hommes dont le sang va couler parce que, cette fois, les juges martiniquais ont su se renfermer dans le cercle des formalités obligatoires !</p>
    <p>Ceci fait le procès à cette prétendue organisation qui investit en quelque sorte du droit de vie et de mort des hommes qui ne sont pas les pairs, mais les ennemis de la plupart de leurs justiciables. C'est là un motif de cassation qui peut échouer devant la cour suprême, mais qui n'échouera pas au tribunal de la raison. Pour nous, c'est à la prétendue organisation en vertu de laquelle tout ceci s'est fait que nous nous attaquons. Ce n'est pas en effet une loi respectable pour les populations des colonies qu'une organisation judiciaire qui n'est pas l'expression de leur volonté, qui a été faite sans elles et contre elles par une ordonnance de la restauration. Ce doit être là aussi l'objet constant de notre opposition. Nous voulons la liberté et l'égalité pour les colonies comme les veulent en Europe les partis auxquels l'avenir appartient. Nous les voulons pleines et entières, se corrigeant et se contenant l'une l'autre, résultant de la mise en pratique de droits égaux, parce que de ces principes seuls naîtra pour nous une ère de justice et de bonheur. Si tous les opprimés de notre race étaient bien pénétrés de cette vérité et réunissaient leurs efforts pour avancer cette époque ; si, en présence des malheurs qui affligent si cruellement quelques-unes de nos colonies, les intéressés songeaient que ces malheurs mêmes<pb n="21"/>viennent de leur exclusion de droits, imprescriptibles pour eux, et réclamaient incessamment, avec intelligence, persévérance et fermeté, l'exercice de ces droits, l'obstination de leurs oppresseurs ne tarderait pas à être vaincue, et nous aurions à l'avenir moins d'infortunes à déplorer ! C'est au bon droit et à la raison qu'il faut avoir foi ; c'est par eux que nous vaincrons. Que si nos frères meurent, ce qu'à Dieu ne plaise (toute espérance n'est pas perdue de les sauver), pleurons sur eux, et ne nous décourageons pas ! Reprenons avec plus d'énergie et de chaleur que jamais la défense d'une cause qui a de tels martyrs. Que chacun ait confiance en sa force et en sa volonté, et fasse tout ce qui est en lui pour triompher par l'intelligence et la philosophie, à défaut d'autres armes, de l'oppression d'une race dont notre peu d'union et notre inertie morale font seules la puissance. L'avenir est à nous !</p>
    <p>Que nos frères infortunés espèrent cependant ; tout n'est pas encore fini pour eux !</p></div>
 
    <div>
-   <head><placeName>ANGLETERRE</placeName>.</head>
+   <head n="Angleterre."><placeName>ANGLETERRE</placeName>.</head>
 
    <p>La <emph>Revue des Colonies</emph>, dans un de ses derniers numéros, a fait connaitre la vive sympathie que ses publications ont inspirée à la <emph>Société de l'émancipation universelle</emph> de <placeName>Londres</placeName> ; nous sommes heureux de publier aujourd'hui le programe de cette honorable Société, ainsi que les noms des membres qui la composent.</p>
    </div>
 
    <div>
-   <head>LA SOCIÉTÉ BRITANNIQUE ET ÉTRANGÈRE POUR L'ABOLITION UNIVERSELLE DE L'ESCLAVAGE DES NEGRES ET DE LA TRAITE DES ESCLAVES.</head>
+   <head n="La société britannique et étrangère pour l'abolition universelle de l'esclavage des negres et de la traite des esclaves.">LA SOCIÉTÉ BRITANNIQUE ET ÉTRANGÈRE POUR L'ABOLITION UNIVERSELLE DE L'ESCLAVAGE DES NEGRES ET DE LA TRAITE DES ESCLAVES.</head>
    
    <p>Le comité, présidé par le Révérend George STEPHEN, est com
 posé de MM.</p>
@@ -388,7 +385,7 @@ CARLILE, REV. JAMES, Belfast. Moonson (Richard), esq., Whit by.
 </p><pb n="22"/></div>
 
 <div>
-   <head>AUX SOCIÉTÉS AYANT POUR BUT L'ABOLITION DE L'ESCLAVAGE, ET AUX AMIS DE L'EMANCIPATION DES NOIRS.</head>
+   <head n="Aux sociétés ayant pour but l'abolition de l'esclavage, et aux amis de l'emancipation des noirs.">AUX SOCIÉTÉS AYANT POUR BUT L'ABOLITION DE L'ESCLAVAGE, ET AUX AMIS DE L'EMANCIPATION DES NOIRS.</head>
 
    <p>Plusieurs amis de l'humanité ont jugé nécessaire de prolonger l'existence des Sociétés établies pour la défense et l'émancipation des noirs.</p>
 
@@ -448,9 +445,9 @@ CARLILE, REV. JAMES, Belfast. Moonson (Richard), esq., Whit by.
       <p>Les personnes qui désirent aider <orgName ref="#Soc">la Société</orgName> sont priées d'envoyer leurs souscriptions à <emph>M. Scoble</emph>, 18, <emph>Aldermanbury, Londres</emph> ; ou à Paris, franc de port, à M. le président de la Société de la mo rale chrétienne, 12, rue Taranne.</p>
 </div>
 
-<div><head>FRANCE.</head>
-<head>PARIS.</head>
-<head>COUR DE CASSATION.</head>
+<div><head n="France.">FRANCE.</head>
+<head n="Paris.">PARIS.</head>
+<head n="Cour de cassation.">COUR DE CASSATION.</head>
 
 <p><emph>Audience du <date>22 novembre</date>. Présidence de <persName ref="#Bstd">M. de Bastard</persName>.</emph></p>
 
@@ -506,7 +503,7 @@ CARLILE, REV. JAMES, Belfast. Moonson (Richard), esq., Whit by.
   <p><q>« Vous le savez, messieurs, les colonies ne jouissent pas de l'institution du jury. Là on adjoint seulement aux magistrats com posant la cour d'assises <emph>des assesseurs</emph> pris dans un 
   <choice>
   <orig>collége</orig>
-  <reg>collège></reg>
+  <reg>collège&gt;</reg>
   </choice>
    ou corps de juges criminels existant dans le ressort de chaque cour d'as sises. Je dis juges criminels, car c'est le titre qui leur convient : ils sont en même temps juges du fait et applicateurs de la peine, ils ont, à peu d'attributions près, les mêmes pouvoirs que les magistrats eux-mêmes. »</q></p>
 
@@ -628,7 +625,7 @@ CARLILE, REV. JAMES, Belfast. Moonson (Richard), esq., Whit by.
         </choice>
          a été immédiatement déposé par <persName>Me Gatine</persName>, Nous ferons connaître cette pièce, qui complète la défense de nos compatriotes.<pb n="35"/></p></div>
          
-        <div><head>OPINION DES JOURNAUX SUR LE MINISTRE DE LA MARINE ET DES COLONIES, DU MINISTÈRE DES TROIS JOURS.</head>
+        <div><head n="Opinion des journaux sur le ministre de la marine et des colonies, du ministère des trois jours.">OPINION DES JOURNAUX SUR LE MINISTRE DE LA MARINE ET DES COLONIES, DU MINISTÈRE DES TROIS JOURS.</head>
 
 
          <p>Bien que le ministère des trois jours soit maintenant comme s'il n'avait jamais été, nous croyons convenable de donner ici l'opinion des journaux sur l'un des hommes les plus 
