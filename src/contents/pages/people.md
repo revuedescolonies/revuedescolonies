@@ -28,7 +28,6 @@ Charlotte Joublot Ferré, University of Maryland
 Apolline Lagarde, University of Maryland  
 Yasmine Najm, doctorante, Universität Leipzig  
 Noëlle Romney, Sorbonne Nouvelle University  
-Tasnîm Tirkawi, Tulane University  
 
 #### Cultural Events Coordinator
 Valérie-Ann Edmond-Mariette, Université des Antilles  

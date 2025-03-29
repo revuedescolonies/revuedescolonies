@@ -36,7 +36,7 @@ A second panel focused on the literary content of the periodical and its discurs
 
 <div style="display:flex; gap:10px">
   <span style="width: 50%">
-    <img src="../../../images/news/anom4.jpeg" alt="Maria Beliaeva Solomon and Michaël Roy" />  
+    <img src="../../../images/news/anom4.jpeg" alt="Maria Beliaeva Solomon and Jessica Balguy" />  
   </span>
   <span style="width: 50%">
     <img src="../../../images/news/anom5.jpg" alt="Yasmine Najm" />  

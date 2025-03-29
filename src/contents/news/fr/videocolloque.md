@@ -36,7 +36,7 @@ Un second panel a porté sur les contenus littéraires du périodique et ses str
 
 <div style="display:flex; gap:10px">
   <span style="width: 50%">
-    <img src="../../../images/news/anom4.jpeg" alt="Maria Beliaeva Solomon et Michaël Roy" />  
+    <img src="../../../images/news/anom4.jpeg" alt="Maria Beliaeva Solomon et Jessica Balguy" />  
   </span>
   <span style="width: 50%">
     <img src="../../../images/news/anom5.jpg" alt="Yasmine Najm" />  

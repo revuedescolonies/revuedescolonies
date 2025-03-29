@@ -26,8 +26,7 @@ Emilie Hautemont, doctorante, Tulane University
 Charlotte Joublot Ferré, doctorante, University of Maryland  
 Apolline Lagarde, doctorante, University of Maryland  
 Yasmine Najm, doctorante, Universität Leipzig  
-Noëlle Romney, doctorante, Université Sorbonne Nouvelle  
-Tasnîm Tirkawi, doctorante, Tulane University  
+Noëlle Romney, doctorante, Université Sorbonne Nouvelle   
 
 #### Coordinatrice des manifestations culturelles
 Valérie-Ann Edmond-Mariette, Université des Antilles  
