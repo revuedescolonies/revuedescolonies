@@ -4,6 +4,10 @@ author: Maria Beliaeva Solomon
 date: 2025-03-18
 ---
 
+<div style="text-align: center; margin: 2em 0; width: 100%">  
+<iframe style="width: 100%; height: 30vh" src="https://www.youtube.com/embed/q_jGZZXbYpg?si=Ugv22Gnl2Aq648b5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 <div style="width: 33%; float: left; margin-right: 1em">
 
   <img src="../../../images/news/anom1.jpg" alt="L'équipe du projet aux ANOM" />
@@ -11,13 +15,6 @@ date: 2025-03-18
 </div>
 
 L’enregistrement du colloque *La Revue des Colonies : Réseaux diasporiques et combats abolitionnistes*, qui s’est tenu le vendredi 14 février 2025, est désormais disponible sur YouTube !
-
-
-<div style="text-align: center">  
-  <video controls preload="none" poster="/video/expo2-thumb.png">
-    <source src="https://www.youtube.com/watch?v=q_jGZZXbYpg" type="video/mp4">
-  </video>  
-</div>
 
 Cette rencontre a permis d’explorer la *Revue des Colonies* sous différents angles, en mettant en lumière son rôle dans les luttes abolitionnistes et les dynamiques intellectuelles du XIXe siècle.  
 
