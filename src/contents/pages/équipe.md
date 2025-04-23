@@ -26,13 +26,15 @@ Emilie Hautemont, doctorante, Tulane University
 Charlotte Joublot Ferré, doctorante, University of Maryland  
 Apolline Lagarde, doctorante, University of Maryland  
 Yasmine Najm, doctorante, Universität Leipzig  
-Noëlle Romney, doctorante, Université Sorbonne Nouvelle  
-Tasnîm Tirkawi, doctorante, Tulane University  
+Noëlle Romney, doctorante, Université Sorbonne Nouvelle   
+
+#### Coordinatrice des manifestations culturelles
+Valérie-Ann Edmond-Mariette, Université des Antilles  
 
 #### Conseil scientifique
 Chris Bongie, Professor of English, Queen’s University  
 Audrey Célestine, Associate Professor of History, New York University   
-Myriam Cottias, Directrice de recherche au CNRS, CIRESC-PHEEAC
+Myriam Cottias, Directrice de recherche au CNRS, CIRESC-PHEEAC  
 Brent Hayes Edwards, Peng Family Professor of English and Comparative Literature, Columbia University  
 Marisa Parham, Professor of English, University of Maryland; Associate Director of MITH  
 Guillaume Pinson, Professor of Literature, Theater and Film, Laval University  

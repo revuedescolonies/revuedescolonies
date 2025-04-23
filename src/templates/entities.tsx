@@ -10,6 +10,7 @@ import Graphic from "../gatsby-theme-ceteicean/components/Graphic";
 import { Ref, SafeUnchangedNode } from "gatsby-theme-ceteicean/src/components/DefaultBehaviors";
 import { slugify } from "../utils/slugify";
 import Birth from "./tei/Birth";
+import Entity from "./tei/Entity";
 
 interface repeatCount {
   section: string
@@ -33,6 +34,7 @@ interface Props {
     }
     elements: string[]
     prefixed: string
+    authors: {[key: string]: string}
   }
 }
 
@@ -79,9 +81,20 @@ const Title = (props: TEIProps) => {
 }
 
 export default function ReferencesPage({pageContext}: Props) {
-  const {language, prefixed, elements, data} = pageContext;
+  const {language, prefixed, elements, data, authors} = pageContext;
 
   const routes: Routes = {
+    "tei-person": (props) => <Entity lang={language} authors={authors} {...props}/>,
+    "tei-place": (props) => <Entity lang={language} authors={authors} {...props}/>,
+    "tei-org": (props) => <Entity lang={language} authors={authors} {...props}/>,
+    "tei-bibl": (props) => {
+      const el = props.teiNode as Element
+      // Only deal with bibliography bibls.
+      if (el.parentElement?.tagName.toLocaleLowerCase() === "tei-note") {
+        return <SafeUnchangedNode {...props}/>
+      }
+      return <Entity lang={language} authors={authors} {...props}/>
+    },
     "tei-graphic": (props) => <Box sx={{textAlign: "center"}}><Graphic {...props}/></Box>,
     "tei-ref": Ref,
     "tei-q": (props) => <Q {...props} curLang={language}/>,
@@ -90,7 +103,7 @@ export default function ReferencesPage({pageContext}: Props) {
     "tei-placename": (props) => <Title {...props} curLang={language}/>,
     "tei-title": (props) => {
       const el = props.teiNode as Element
-      return el.parentElement?.getAttribute("type") === "periodical" ? <Title {...props} curLang={language}/>
+      return ["periodical", "legal"].includes(el.parentElement?.getAttribute("type") || "") ? <Title {...props} curLang={language}/>
       : <SafeUnchangedNode {...props}/>
     },
     "tei-birth": Birth,

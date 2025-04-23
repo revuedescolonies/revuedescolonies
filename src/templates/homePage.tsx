@@ -13,9 +13,9 @@ interface PostInfo {
     excerpt: string
     frontmatter: {
       title: string
+      date: string
     }
   }[]
-  birthTime: string
 }
 
 interface Props {
@@ -84,7 +84,7 @@ export default function HomePageTemplate({ pageContext }: Props) {
                   dangerouslySetInnerHTML={{ __html: postTitle }}
                 />
                 <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                  {makeDate(latestPost.birthTime, curLang)}
+                  {makeDate(latestPost.childrenMarkdownRemark[0].frontmatter.date, curLang)}
                 </Typography>
               </CardContent>
               <CardActions>

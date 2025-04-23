@@ -29,6 +29,13 @@
     }
   },
   {
+    "teiBasePath": "RdCv1n5",
+    "title": {
+      "en": "Volume 1, Issue 5",
+      "fr": "Volume 1, numéro 5"
+    }
+  },
+  {
     "teiBasePath": "RdCv2n1",
     "title": {
       "en": "Selections of Volume 2, Issue 1",

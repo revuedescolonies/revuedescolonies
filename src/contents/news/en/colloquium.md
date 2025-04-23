@@ -1,6 +1,7 @@
 ---
 title: "Colloquium — The <em>Revue des Colonies</em>: Diasporic Networks and the Struggle for Abolition"
 author: Maria Beliaeva Solomon
+date: 2025-01-21
 ---
 
 <div style="width: 33%; float: left; margin-right: 1em">
@@ -13,7 +14,7 @@ Friday, February 14, 2025
 
 2:00 PM - 6:00 PM (Paris Time) | 9:00 AM - 1:00 PM (Fort-de-France Time) | 8:00 AM - 12:00 PM (EST)
 
-Aix-en-Provence, Archives nationales d’outre-mer (ANOM) | Fort-de-France, Archives territoriales de Martinique (ATM) | Live on YouTube
+Aix-en-Provence, Archives nationales d’outre-mer (ANOM) | Fort-de-France, Archives territoriales de Martinique (ATM) | Live on Microsoft Teams
 
 Organized in partnership with the Archives nationales d’outre-mer and the Archives territoriales de Martinique, this conference accompanies the launch of the traveling exhibition _The Revue des Colonies: Diaspora + Abolition_, which will travel from Aix-en-Provence (February 2025) to Fort-de-France (May 2026).
 

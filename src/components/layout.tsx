@@ -53,6 +53,7 @@ function Layout({ location, appbar, children }: Props): JSX.Element {
     query SiteTitleQuery {
       site {
         siteMetadata {
+          version
           menuLinks {
             en {
               link

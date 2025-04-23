@@ -174,9 +174,19 @@ const Entity: EntityBehavior = (props: TEIProps) => {
         <CloseIcon />
       </IconButton>)
 
-    const resp = entityContent.getAttribute("resp")
-    const authorEl = resp ? entityContent.ownerDocument.getElementById(resp.replace("#", "")) : null
-    const author = authorEl ? <Box sx={{ fontStyle: "italic", textAlign: "right", fontSize: "1rem" }}>{authorEl.textContent}</Box> : null
+    const resp = entityContent?.getAttribute("resp")
+    const authors = resp?.split(" ") || []
+    const authorsData = authors.reduce<string[]>((acc, a) => {
+      if (a && a !== "#other") {
+        const authorEl = entityContent.ownerDocument.getElementById(a.replace("#", ""))
+        if (authorEl) {
+          acc.push(authorEl.textContent || "")
+        }
+      }
+      return acc
+    }, [])
+    const author = authorsData.length > 0 ? <Box sx={{ fontStyle: "italic", textAlign: "right", fontSize: "1rem" }}>{authorsData.join(", ")}</Box> : null
+
     const chip = entityType ? <><br /><Chip size="small" label={entityType} /></> : null
 
     if(isScreenSmall || props.isSynoptic){

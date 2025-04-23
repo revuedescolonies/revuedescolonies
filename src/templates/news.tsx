@@ -4,6 +4,8 @@ import SEO from "../components/seo"
 import { Container, Grid2, Typography } from "@mui/material"
 import { slugify } from "../utils/slugify"
 import { makeDate } from "../utils/makeDate"
+import useMediaQuery from "@mui/material/useMediaQuery"
+import theme from "../theme"
 
 interface NewsProps {
   pageContext: {
@@ -15,8 +17,23 @@ interface NewsProps {
   }
 }
 
+const newsStyles = {
+  textAlign: "justify",
+  "& video": {
+    width: "33%"
+  },
+}
+
+const newStyleSmall = {
+  "& video": {
+    width: "100%"
+  }
+}
+
 export default function NewsTemplate({ pageContext }: NewsProps) {
   const { createdTime, title, content, lang, author } = pageContext
+
+  const isScreenSmall = useMediaQuery(theme.breakpoints.down('sm'))
 
   const date = makeDate(createdTime, lang)
 
@@ -43,7 +60,7 @@ export default function NewsTemplate({ pageContext }: NewsProps) {
           variant="body1"
           gutterBottom={true}
           component="div"
-          sx={{textAlign: "justify"}}
+          sx={Object.assign({}, newsStyles, isScreenSmall ? newStyleSmall : {})}
           dangerouslySetInnerHTML={{ __html: content }}
         />
       </Container>

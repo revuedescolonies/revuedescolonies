@@ -11,6 +11,10 @@ import Gallica from "../images/Gallica.png"
 import nhprc from "../images/nhprc-logo.png"
 import acls from "../images/acls.png"
 
+import EmailIcon from '@mui/icons-material/Email';
+import MiscellaneousServicesIcon from '@mui/icons-material/MiscellaneousServices';
+import CodeIcon from '@mui/icons-material/Code';
+
 const styles = {
   footer: {
     backgroundColor: "#fff",
@@ -108,8 +112,10 @@ const Footer = ({repository, version} : Props) => (
               />
           </a>  
     <Box>
-      Site version: {version}<br/>
-      Project code on <Link href={repository} sx={{display: "inline !important"}}>GitHub</Link>
+      <Box sx={{display: "flex"}}><EmailIcon sx={{marginRight: ".5em"}}/> <Link sx={{display: "inline !important"}} href="mailto:revuedescolonies@gmail.com">revuedescolonies@gmail.com</Link></Box>
+      <Box sx={{display: "flex"}}><MiscellaneousServicesIcon sx={{marginRight: ".5em"}}/> v{version}</Box>
+      <Box sx={{display: "flex"}}><CodeIcon sx={{marginRight: ".5em"}}/> <Link href={repository} sx={{display: "inline !important"}}>GitHub</Link></Box>
+      <Box sx={{display: "flex"}}>ISSN 3067-1280</Box>
     </Box>
     </Container>
   </Box>

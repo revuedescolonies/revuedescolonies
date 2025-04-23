@@ -28,12 +28,14 @@ Charlotte Joublot Ferré, University of Maryland
 Apolline Lagarde, University of Maryland  
 Yasmine Najm, doctorante, Universität Leipzig  
 Noëlle Romney, Sorbonne Nouvelle University  
-Tasnîm Tirkawi, Tulane University  
+
+#### Cultural Events Coordinator
+Valérie-Ann Edmond-Mariette, Université des Antilles  
 
 #### Advisory Board
 Chris Bongie, Professor of English, Queen’s University  
 Audrey Célestine, Associate Professor of History, New York University   
-Myriam Cottias, Directrice de recherche au CNRS, CIRESC-PHEEAC    
+Myriam Cottias, Directrice de recherche au CNRS, CIRESC-PHEEAC     
 Brent Hayes Edwards, Peng Family Professor of English and Comparative Literature, Columbia University  
 Marisa Parham, Professor of English, University of Maryland; Associate Director of MITH  
 Guillaume Pinson, Professor of Literature, Theater and Film, Laval University  
