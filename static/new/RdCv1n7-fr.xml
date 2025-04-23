@@ -1,0 +1,2047 @@
+<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n7-fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Revue des Colonies V.1 N°7</title>
+                <editor>Noëlle Romney</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="fr">
+        <front>
+            <pb n="1" facs="v1n7p1"/>
+            <titlePage>
+                <titlePart type="main">
+                    <seg>REVUE</seg><lb/>DES<lb/><seg>COLONIES,</seg>
+                </titlePart>
+                <titlePart type="sub">
+                    RECUEIL MENSUEL<ptr target="#n13FA"/><lb/>DE LA
+                    POLITIQUE, DE L'ADMINISTRATION, DE LA JUSTICE, DE<lb/>L'INSTRUCTION ET DES MOEURS COLONIALES,
+                </titlePart>
+                <byline>
+                    DIRIGÉ PAR 
+                    <persName ref="#CB">C.-A. BISSETTE</persName>.
+                </byline>
+                <docEdition>N°7. — Janvier.</docEdition>
+                <!-- confirmer la syntaxe pour insérer une image + confirmer qu'on insère de nouveau la note. -->
+                <figure>
+                    <graphic url="v2n1-vignette.jpg"/>
+                    <figDesc rend="bold">
+                        Ne suis-je pas un homme et votre frère?....
+                        <ptr target="#n6D92"/>
+                    </figDesc>
+                 </figure>
+                <docImprint>
+                    <pubPlace><settlement>PARIS</settlement>,<lb/> AU BUREAU DE LA REVUE DES COLONIES, <lb/>46, RUE NEUVE-SAINT-EUSTACHE
+                    </pubPlace> <lb/> 
+                    <date>1835</date>.
+                </docImprint>
+            </titlePage>
+        </front>
+        <body>
+            <div>
+                <pb n="3" facs="v1n7p3"/>
+                <head n="Revue des colonies.">REVUE DES COLONIES.</head>
+                <!--syntaxe pour le trait de séparation?-->
+                <div xml:id="émancipation">
+                    <head n="De l'emancipation des esclaves, considérée comme premier élément du progres social aux colonies.">
+                        DE L'EMANCIPATION DES ESCLAVES, CONSIDÉRÉE COMME PREMIER ÉLÉMENT DU PROGRES SOCIAL AUX COLONIES.
+                    </head>
+                    <p>
+                        Partout, en tout pays, il s'élève aujourd'hui un admirable concert de preuves et de protestations contre l'esclavage<ptr target="#"/>. Ce n'est pas seulement la voix de l'humanité, le génie du christianisme, le principe de la fraternité des hommes qui en sollicitent universellement l'abolition, c'est l'intérêt même de la société, de la civilisation et de l'industrie; c'est l'esprit philanthropique dans la plus large acception du mot, qui plaide en tout pays aujourd'hui, pour cette belle et noble cause que nous avons embrassée avec tout le zèle et tout le courage qui peuvent être en nous<ptr target="#"/>.
+                        <!-- réf de la note?  -->
+                    </p>
+                    <p>
+                        Aussi, dans notre sollicitude philanthropique, ne nous inquiétons-nous pas seulement des esclaves de race africaine, nos compatriotes, nos frères; mais encore de tous les esclaves. 
+                        <placeName ref="#EUR">Europe</placeName>, <placeName>Afrique</placeName>, <placeName>Asie</placeName>, 
+                        <placeName>Amérique</placeName>, <placeName> Océanie</placeName>, 
+                        il n'importe! Nous voulons des hommes libres, des travailleurs heureux sur toute la surface de la terre. Nous en voulons à l'esclavage, non seulement 
+                        <choice>
+                            <orig>parcequ'</orig>
+                            <reg>parce qu'</reg>
+                        </choice>
+                        il est atroce et abominable en tout état de cause, mais aussi et encore 
+                        <choice>
+                            <orig>parcequ'</orig>
+                            <reg>parce qu'</reg>
+                        </choice>
+                        il est un obstacle au progrès, un empêchement à l'accroissement des richesses sociales, et par conséquent au développement du bien-être humain
+                        <ptr target="#"/>.<!-- réf de la note?  -->
+                    </p>
+                    <p>
+                        Aussi est-ce maintenant une opinion qui a perdu tout crédit sur le grand nombre, que celle qui faisait croire naguère presque universellement que le sol des colonies ne pouvait être cultivé que par des nègres esclaves, et que le travail de la servitude était plus fécond que le travail de l'homme libre.
+                    </p>
+                    <p>
+                        De toutes les nouvelles reçues récemment des colonies anglaises, il résulte ce fait, que la production et la prospérité matérielle y sont en voie progressive, et que, dans un nombre d'années fort limité, la fusion des races noire et blanche fera de ces contrées si 
+                        <choice>
+                            <orig>long-temps</orig>
+                            <reg>longtemps</reg>
+                        </choice> 
+                        malheureuses un pays jouissant de la liberté et de l'égalité civiles et politiques, ayant ses moeurs et sa civilisation propres, et 
+                        <pb n="4" facs="v1n7p4"/> 
+                        ne gardant plus trace de la hideuse servitude dont il fut si cruellement affligé pendant des siècles. Les premières expériences de l'affranchissement ont confondu tous les prophètes de malheur qui ne voyaient que désordres et désolation dans la mise en liberté des esclaves. A entendre les sinistres prédictions de quelques hommes, la proclamation du <foreign>bill</foreign>, obtenue à si grand'peine des préjugés du 
+                        <orgName ref="#PA">parlement anglais</orgName>, et malgré même ses nombreuses restrictions anti-libérales, la proclamation du 
+                        <foreign>bill</foreign> devait avoir pour premier effet, dans les 
+                        <placeName>colonies de la Grande-Bretagne</placeName>, 
+                        la révolte des nouveaux affranchis contre toute espèce de lois et d'autorité, et avoir pour résultat, en définitive, la cessation de tout travail, la misère et toutes ses horreurs. Rien de tout cela n'a été même un instant à craindre: loin de là; d'innombrables 
+                        <choice>
+                            <orig>documens</orig>
+                            <reg>documents</reg>
+                        </choice> 
+                        qui nous ont été adressés des lieux mêmes témoignent d'une manière irrécusable que le travail libre a déjà porté les plus heureux fruits aux <placeName ref="#CA">colonies anglaises</placeName>.
+                    </p>
+                    <p>
+                        S'il est besoin cependant de montrer encore aux incrédules de nos colonies tout ce que la culture et l'industrie ont à gagner à n'être pratiquées que par des mains libres, nous pouvons facilement invoquer le témoignage de tous ceux qui ont approfondi consciencieusement la question; et certes les preuves et les 
+                        <choice>
+                            <orig>argumens</orig>
+                            <reg>arguments</reg>
+                        </choice>
+                        ne nous manqueront pas!
+                    </p>
+                    <p>
+                        Essayons cet utile examen. Voyons ce qu'ont pensé sur cette matière importante les sages et les philosophes de tous les pays. 
+                    </p>
+                    <p>
+                        <quote>
+                            L'esclave, dit 
+                            <persName>M. Storch</persName>, célèbre économiste russe, qui avait soigneusement étudié le système d'esclavage de <placeName>ce vaste empire</placeName>, travaille toujours pour un autre et jamais pour lui; il se borne tout simplement à la vie matérielle, et, comme il désespère de pouvoir jamais améliorer sa position, il n'a rien qui le stimule; il devient une pure machine, souvent très dispendieuse et toujours très difficile à mettre en mouvement. Tout homme qui n'est point rétribué en proportion de son travail, travaillera aussi peu que possible; c'est une règle peut-être sans exception. Qu'un travailleur libre soit loué à la journée, il fera peu de chose; mais payez-le à la pièce, et souvent il travaillera avec tant d'ardeur que sa santé en souffrira. Si cette observation est vraie pour le producteur libre, combien plus doit-elle l'être pour le producteur esclave.
+                        </quote>
+                    </p>
+                    <p>
+                        <quote>
+                            La supériorité des travailleurs libres, même sur des serfs, est <pb n="5" facs="v1n7p5"/> partout attestée par leurs maîtres, quand ils sont assez 
+                            <choice>
+                                <orig>intelligens</orig>
+                                <reg>intelligents</reg>
+                            </choice> 
+                            pour apprécier cette différence et assez consciencieux pour l'avouer.<ptr target=""/> On doit consulter sur ce point un passage de <persName ref="#Col">Columelle</persName>, où il raconte des traits inouïs de la perversité et de la négligence des esclaves travailleurs, et où il établit comme principe incontestable que, quelle que soit la nature du travail, la production libre est toujours supérieure à celle qui ne l'est pas.
+                        </quote>
+                    </p>
+                    <p> 
+                        <quote>
+                            Et il est très remarquable qu'un témoignage aussi positif en faveur de ma thèse, continue <persName>M. Storch</persName>, vienne d'écrivains romains, qui possédaient eux-mêmes des esclaves et des terres, et qui par conséquent étaient très bien placés pour juger l'état de l'agriculture.
+                            <ptr target=""/> 
+                            Assurément ce ne sera pas un sentiment philanthropique qui leur aura fait tenir ce langage; car on sait le peu de respect qu'avaient en général les plus beaux génies de l'antiquité, pour les droits et la dignité de l'espèce humaine.
+                            <ptr target=""/> 
+                            Dans l'industrie manufacturière, la supériorité du travail libre est encore plus incontestable. A mesure que les manufactures s'étendent en Russie, les occasions de se convaincre de cette vérité se multiplient. En 1805, <persName>M. Panteleyef</persName>, manufacturier à Moscou, affranchit lui même tous ses ouvriers serfs, au nombre de quatre-vingt-quatre, et la même année <persName>M. Milioutin</persName> imita ce généreux exemple.
+                        </quote> 
+                    </p>
+                    <p>
+                        <persName>M. Brougham</persName>, dans sa 
+                        <bibl type="monogr">
+                            <title> Politique coloniale</title>
+                        </bibl>
+                        , adopte aussi la même théorie: 
+                        <quote>
+                            Si le travailleur est esclave, dit-il, le seul motif qui peut agir sur lui c'est la crainte. Il faudra donc constamment le surveiller. La douleur et les coups pourront seuls l'empêcher d'être paresseux. Mais cette puissance du fouet est limitée par sa nature. Par cet odieux moyen vous pourrez obliger l'esclave à se donner du mouvement, à agir, parce qu'il existe une différence marquée entre le repos absolu et l'exercice du corps; mais aucun châtiment, ni aucune punition ne peuvent obliger un malheureux ouvrier à être toujours adroit, vigilant, attentif. D'ailleurs, lorsque le corps souffre, l'esprit n'est pas plus propre à commander que lui-même ne l'est à obéir. Les 
+                            <choice>
+                                <orig>châtimens</orig>
+                                <reg>châtiments</reg>
+                            </choice> 
+                            sévères amènent bientôt le désespoir à leur suite, et la répétition des mêmes cruautés finit par engendrer une insensibilité physique, qui rend nulle la sévérité des punitions.
+                        </quote> 
+                    </p>
+                    <p>
+                        <persName>Hume</persName>
+                        fait à ce sujet la réflexion suivante:
+                        <quote>
+                            Je dois ajouter, d'après l'expérience de nos planteurs, que l'esclavage est aussi
+                            <pb n="6" facs="v1n7p6"/>
+                            nuisible au maître qu'à l'esclave. La crainte d'un châtiment, quelque cruel qu'il soit, n'arrachera jamais à un esclave un travail égal à celui que fait un homme libre, par la seule crainte d'être renvoyé. 
+                        </quote>
+                    </p> 
+                    <p>
+                        <persName>Burke</persName> est du même avis. Il dit dans son
+                        <bibl type="monogr">
+                            <title>
+                            Histoire des Etablissemens européens
+                            <!-- je ne corrige pas Etablissemens ici dans la mesure où il s'agit d'un titre traduit qui suit probablement l'usage de l'époque.-->
+                            </title>
+                        </bibl>
+                        :
+                        <quote>
+                            Il n'est pas dans la nature des choses que des esclaves fassent autant d'ouvrage que des hommes libres. L'esprit a une très grande part à toutes espèces de productions, et quand un homme sait que ce qu'il fait est pour lui, et que plus il fera, plus il gagnera, cette conviction le détermine à entreprendre ce à quoi il n'aurait jamais songé sans elle, et le soutient dans des travaux dont autrement il n'aurait pu supporter le poids.
+                        </quote>
+                    </p>
+                    <p>
+                        <quote>
+                            La terre, elle-même, semble devenir plus fertile
+                        </quote>
+                        , dit un ingénieux écrivain français, 
+                        <persName>M. Poivre</persName>
+                        , en attribuant la supériorité des produits de la <placeName>
+                            Cochinchine
+                        </placeName>
+                        sur ceux de certaines parties de l'
+                        <placeName ref="#IN">Inde</placeName>
+                        où la matière première est la même, mais où il y a des esclaves, à la liberté des travailleurs de ce pays.
+                        <quote>
+                            La terre, ajoute-t-il, qui multiplie les productions sous la main d'un laboureur de race libre, semble frappée d'une incurable stérilité par les sueurs de l'esclave!
+                        </quote>
+                    </p>
+                    <p>
+                        Le grand et bon 
+                        <persName>Franklin</persName>
+                        n'a pas d'autre avis sur la question: 
+                        <quote>
+                            C'est une opinion sans fondement, dit-il dans son 
+                            <bibl type="monogr">
+                                <title>Essai sur les moyens de peupler un état</title>
+                            </bibl>
+                            , de croire que les colonies, avec leurs esclaves, pourront jamais lutter pour le bas prix de leurs produits avec les manufacturiers libres de l'
+                            <placeName ref="#ANG">Angleterre</placeName>. 
+                            Jamais le travail de la servitude n'est aussi bon marché que l'autre; il est facile de s'en rendre raison. Que l'on calcule l'intérêt du prix d'achat d'un noir; le taux d'assurance de sa vie ou les risques de sa perte; son entretien complet; les frais de ses journées de maladie ou de repos; les pertes qui résultent de sa paresse, d'autant plus naturelle qu'il n'est nullement intéressé à ce que son travail soit productif; ce que coûte l'intendant, dont la présence et le fouet sont toujours nécessaires; qu'on ajoute à cela les pertes occasionnées par le gaspillage ou même les vols de l'esclave (car tout esclave, par la nature même de l'esclavage, est et doit être voleur, lui à qui l'on a volé sa chair et ses os); et qu'on compare ensuite ces frais avec le salaire d'un mineur ou d'un fileur anglais, et l'on se convaincra que le travail en 
+                            <placeName ref="#ANG">Angleterre</placeName> 
+                            est infiniment meilleur marché que dans les <placeName ref="#ANTE">Antilles</placeName>.
+                        </quote>
+                    </p>
+                    <pb n="7" facs="v1n7p7"/>
+                    <p>
+                        M. 
+                        <persName>J.-B. Say</persName>, 
+                        le célèbre économiste, avait aussi partagé sans passion l'erreur de ceux qui soutiennent que les colonies des 
+                        <placeName ref="#ANTE">Antilles</placeName>  
+                        ne peuvent être cultivées avec succès que par des esclaves; il avait avancé cette assertion comme un fait dans les premières éditions de son 
+                        <bibl type="monogr">
+                            <title>Traité d'Economie politique</title>
+                        </bibl>. 
+                        Un anglais, 
+                        <persName>M. Hodgson</persName>, 
+                        qui s'est signalé par les nombreux services qu'il a rendus à la cause des noirs, un des plus 
+                        <choice>
+                            <orig>ardens</orig>
+                            <reg>ardents</reg>
+                        </choice>
+                        tout ensemble et des plus judicieux promoteurs de l'émancipation, composa tout exprès un écrit (1), dont cet article résume les principaux traits, pour 
+                        <choice>
+                            <orig>refuter</orig>
+                            <reg>réfuter</reg>
+                        </choice>
+                        cette allégation. L'honorable 
+                        <persName>M. Say</persName> 
+                        donna à cette occasion un bel exemple; il s'empressa de reconnaître et de confesser son erreur; il écrivit à 
+                        <persName>M. Hodgson</persName> 
+                        une lettre à cet effet. 
+                        <quote>
+                            J'ai reçu de 
+                            <persName>M. le baron de Staël</persName>, 
+                            lui mandait-il, 
+                            <choice>
+                                <orig>entr'autres</orig>
+                                <reg>entre autres</reg>
+                            </choice> 
+                            choses, la lettre que vous m'avez fait l'honneur de m'écrire en m'adressant votre lettre imprimée. Je vous remercie de ce que l'une et l'autre contiennent d'obligeant pour moi, et je partage votre avis sur le fond de la question. Vous avez rassemblé, dans un petit espace, des faits et des 
+                            <choice>
+                                <orig>argumens</orig>
+                                <reg>arguments</reg>
+                            </choice>
+                            auxquels il ne me semble pas qu'on puisse résister.
+                         </quote>
+                    </p>
+                    <p>
+                        <quote>
+                            Vous n'avez probablement lu qu'une des premières éditions de mon 
+                            <bibl type="monogr">
+                                <title>Traité d'Economie Politique </title>
+                            </bibl>; 
+                            car, dans les dernières, j'ai beaucoup amendé ce que je disais du travail des esclaves, au point d'en venir à peu près à la même conclusion que vous; mais n'étant pas borné à une seule question, et ne voulant pas grossir le livre, je n'ai pu qu'effleurer le sujet. Je me rapproche encore plus de votre opinion dans les ouvrages que je prépare.
+                        </quote>
+                    </p>
+                    <p>
+                        <quote>
+                            L'esclavage est incompatible avec une industrie un peu avancée; il touche à son terme chez tous les peuples d'origine européenne; et comme l'inquiétude et l'intelligence de l'
+                            <placeName ref="#EUR">Europe</placeName> finiront par envahir le monde, on peut affirmer qu'un jour l'esclavage aura cessé partout.
+                        </quote>
+                    </p>
+                    <p>
+                        Les témoignages se pressent. Nous ne disons pas tout ce qui a un coeur, mais tout ce qui a quelque justesse et quelque portée dans l'esprit est du même avis. 
+                        <quote>La traite des nègres</quote>, 
+                        dit <persName>Koster</persName>,
+                    </p>
+                    <note>
+                        (1) 
+                        <bibl type="monogr">
+                            <title>
+                                Lettre à M. J-B. Say sur le produit comparé du travailleur libre et de l'esclave
+                            </title>
+                        </bibl>
+                        , par 
+                        <persName>Adam Hodgson</persName>, 
+                        <placeName>Liverpool</placeName>, 
+                        in-8
+                        <ptr target="#"/>
+                        <!-- réf de la note?  --> 
+                        de 60 pages. Cette brochure a eu d'innombrables éditions en 
+                        <placeName ref="#ANG">Angleterre</placeName>.
+                    </note>
+                    <pb n="8" facs="v1n7p8"/>
+                    <p>
+                        dans son 
+                        <bibl type="monogr">
+                            <title>Voyage au Brésil</title>
+                        </bibl>
+                        , 
+                        <quote>
+                            devrait être proscrite, par cette seule raison, qu'un homme réduit à l'esclavage ne peut pas être aussi utile à la société qu'un homme qui conserve tonte la liberté de ses actions. Il faut que la possibilité de faire fortune dépende de l'individu, et ce n'est qu'ainsi que l'état social s'améliore et tend à la perfection. Cette vérité indubitable est plus claire encore pour tous ceux qui ont eu occasion de voir par eux-mêmes la manière dont se fait le travail des esclaves. L'indifférence de ce genre de travailleurs, leur insouciance, l'extrême apathie de leurs mouvemens, prouvent d'une manière péremptoire qu'ils ne prennent aucun intérêt à leur travail. J'ai eu moi-même occasion de remarquer, sur la même plantation, deux bandes de travailleurs, l'une d'esclaves, l'autre d'hommes libres: mélange qui est assez rare; je fus frappé de la différence de leur travail: les travailleurs libres chantaient en travaillant, leurs 
+                            <choice>
+                                <orig>mouvemens</orig>
+                                <reg>mouvements</reg>
+                            </choice>
+                            étaient vifs et animés, mais les pauvres esclaves s'acquittaient de leur tâche dans un morne silence, et leurs 
+                            <choice>
+                                <orig>mouvemens</orig>
+                                <reg>mouvements</reg>
+                            </choice>
+                            , vus d'un peu loin, étaient à peine perceptibles.
+                        </quote>
+                    </p>
+                    <p>
+                        Tout le monde sait que dans l'
+                        <placeName>Indostan</placeName> 
+                        on fabrique à moins de frais du sucre supérieur à celui des 
+                        <placeName ref="#ANTE">Antilles</placeName>
+                        ; la 
+                        <placeName>Chine</placeName>
+                        , le 
+                        <placeName>Bengale</placeName>
+                        , les côtes du 
+                        <placeName>Malabar</placeName> 
+                        produisent de grandes quantités de sucres et d'esprits, mais ce genre de productions prospère surtout à 
+                        <placeName>Batavia</placeName>
+                        . Dans cette dernière colonie, au rapport d'un savant économiste, le propriétaire hollandais loue à une espèce de métayer chinois ses champs, ordinairement d'une superficie de trois cents 
+                        <choice>
+                            <orig>arpens</orig>
+                            <reg>arpents</reg>
+                        </choice>
+                        ; ce métayer a la surveillance de tout, et sous-loue la terre, en parties de cinquante à soixante 
+                        <choice>
+                            <orig>arpens</orig>
+                            <reg>arpents</reg>
+                        </choice>
+                        , à des travailleurs libres, qui paient une certaine somme par pécul (153 kil.) de sucre fabriqué
+                        <ptr/>
+                        . 
+                        Tous ces travailleurs se divisent l'ouvrage; les uns récoltent les cannes et les portent au moulin; les autres font cuire le sirop; d'autres sont chargés de la clarification: tous ces travaux sont exécutés par une répartition volontaire. Quand la saison de la fabrication est passée, les travailleurs quittent la plantation, se livrent à des occupations diverses pendant les pluies, et il n'en reste sur les lieux que le nombre nécessaire à l'entretien des pieds de cannes
+                        <ptr/>
+                        .
+                        <quote>
+                            Après avoir passé deux ans aux 
+                            <placeName>Antilles françaises</placeName> 
+                            je me suis établi dans l'
+                            <placeName ref="#IN">Inde</placeName>
+                        </quote> 
+                        , dit 
+                        <persName>M. Botham</persName>
+                        , 
+                        <quote>
+                            en 1776, à 
+                            <placeName>Bencoulen</placeName>
+                            , où j'ai organisé une fabri-
+                            <pb n="9" facs="v1n7p9"/>
+                            cation libre de sucre. J'ai éprouvé alors combien ce nouveau genre de travail est utile au propriétaire; je suis même persuadé, d'après mon expérience personnelle, que si l'on adoptait dans nos îles à sucre le mode de culture libre usité dans l'
+                            <placeName ref="#IN">Inde</placeName>
+                            , la moitié des travailleurs actuels suffiraient pour obtenir la même production
+                            <ptr/>.
+                        </quote>
+                        <persName>M.Marsden</persName>
+                        , dans son 
+                        <bibl type="monogr">
+                            <title>Histoire de Sumatra</title>
+                        </bibl>
+                        , parle avec les plus grands éloges de la méthode de 
+                        <persName>M. Botham</persName>
+                        . D'après le témoignage de 
+                        <persName>M.Marsden</persName>
+                        , plusieurs établissemens rivaux de celui de 
+                        <persName>M. Botham</persName>
+                        , à 
+                        <placeName>Bencoulen</placeName>
+                        , furent entièrement ruinés, ce qu'il attribue principalement aux frais énormes de la culture des esclaves. 
+                    </p>
+                    <p>
+                        Dans les temps féodaux, c'est l'intérêt même des maîtres qui a préparé les voies à l'affranchissement des esclaves et des serfs.
+                    </p>
+                    <p>
+                        <persName>M. Brougham</persName>
+                        a tracé, de la marche et des transformations de l'esclavage, de ses 
+                        <choice>
+                            <orig>décroissemens</orig>
+                            <reg>décroissements</reg>
+                        </choice>
+                        successifs, des nécessités sociales qui chaque jour en affaiblissent l'intensité et en pressent l'abolition absolue, un tableau plein de force et d'une grande vérité.
+                    </p>
+                    <p>
+                        <quote>Dans l'antiquité</quote>
+                        , dit 
+                        <persName>M. Brougham</persName>
+                        ,
+                        <quote>
+                            une grande partie de la population de chaque état se trouvait dans la dépendance de l'autre. Ces esclaves étaient ou des captifs pris à la guerre, ou des esclaves achetés. Dans les premiers temps d'
+                            <placeName>Athènes</placeName>
+                            et de 
+                            <placeName>Rome</placeName>
+                            , lorsque la capitale était entourée de nations avec lesquelles elle était perpétuellement en guerre, les 
+                            <emph>marchés d'hommes</emph> 
+                            furent toujours abondamment pourvus. La cruauté du traitement qu'on leur faisait subir, était en raison directe de la facilité avec laquelle on se les procurait, et l'histoire nous montre combien leur sort fut à plaindre chez ces peuples qui flétrissaient tous les étrangers du nom de barbares. Dès que les guerres devinrent moins fréquentes et qu'on s'adonna davantage aux arts de la paix, il ne fut plus aussi facile d'avoir des esclaves; et enfin, quand le colosse de l'empire romain s'affaissa sous son propre poids, il fut impossible d'enlever des esclaves. Un système plus doux de gouvernement domestique, un peu plus d'humanité envers les esclaves que l'on possédait, et un peu plus de soins à en perpétuer la race, furent la suite nécessaire de cet état de choses; car l'intérêt obligeait le maître de mieux traiter des esclaves qu'il était fort difficile de remplacer. Les lois finirent par donner leur sanction à ce changement qu'elles n'avaient pas provoqué. On reconnut que les esclaves avaient aussi des droits, et leur émancipation fut ouver-
+                            <pb n="10" facs="v1n7p10"/>
+                            tement encouragée; peu à peu, par degrés insensibles, les esclaves furent incorporés dans la famille de leurs maitres, et formèrent la majeure partie de cette énorme masse de population libre, avec laquelle les peuples du nord se mêlèrent plutôt qu'ils ne la soumirent.
+                        </quote>    
+                    </p>
+                    <p>
+                        <quote>
+                            A l'esclavage des anciens, succéda le servage et le 
+                            <emph>
+                                <choice>
+                                    <sic>vilainage </sic>
+                                    <corr>villainage</corr>
+                                </choice>
+                            </emph>
+                            des 
+                            <placeName>nations gothiques</placeName>
+                            ; mais ces deux genres de servitude different pas des nuances très prononcées. Les esclaves des 
+                            <placeName ref="#GR">Grecs</placeName>
+                            et des 
+                            <placeName>Romains</placeName>
+                            étaient marchandise importée, au lieu que les esclaves des 
+                            <placeName>Goths</placeName> 
+                            étaient nés sur la terre même qu'ils occupaient, sauf quelques rares exceptions; dans ces premières guerres de la conquête, des vainqueurs barbares trainaient quelquefois leurs prisonniers à leur suite. Aussi il n'y a aucune comparaison à faire entre la rigueur de ces deux espèces d'esclavage. C'est à cette différence qu'il faut attribuer les prodigieux progrès de la civilisation. L'esclave fut d'abord attaché à son maître, non comme sa propriété personnelle, mais comme 
+                            <emph>faisant partie de son bien</emph>
+                            , suivant l'expression des temps féodaux. Par degrés, les intérêts 
+                            <emph>du seigneur et des serfs</emph> 
+                            se rapprochèrent et s'unirent, et par leur mélange ils amenèrent ces immenses 
+                            <choice>
+                                <orig>changemens</orig>
+                                <reg>changements</reg>
+                            </choice>
+                            , dont il est résulté la formation de la bourgeoisie, qui depuis à renouvelé entièrement la face de l'Europe. Voici par quels degrés s'opéra cette grande révolution: d'abord le 
+                            <emph>villain</emph> 
+                            obtint la faculté de cultiver la terre pour son compte, sauf une certaine redevance; ce grand et signalé bienfait, l'un de ceux qui ont assuré le bonheur des temps modernes, s'est opéré après une longue série d'améliorations progressives, dont la suite échappe presque aux recherches de l'historien, et la race humaine en est redevable à la découverte que firent plusieurs possesseurs de serfs, de l'avantage que pouvait avoir pour eux la libération de leurs esclaves, moyennant de certaines conditions. Ils crurent que l'intérêt des esclaves était identique avec le leur, et qu'il était pour eux de la plus haute importance de mieux traiter à l'avenir ceux qui les faisaient vivre et qu'il n'était plus possible de remplacer. Ils se convainquirent qu'il était bien plus avantageux de partager avec leurs vassaux le fruit d'un travail énergique et volontaire, que de leur ravir honteusement le triste produit d'une industrie forcée et servile. Aussitôt que le droit de propriété et la tranquille jouissance de son travail furent garantis au serf, la 
+                            <pb n="11" facs="v1n7p11"/>
+                            civilisation prit une allure constante et progressive. Les paysans obtinrent le droit de changer de lieu et de disposer de leur pécule. Par degrés on paya la rente en argent, et le prix en fut fixé par la concurrence; et ceux qui ne purent obtenir de ferme à cultiver vendirent leur travail, moyennant un salaire déterminé. Enfin les lois assurèrent à tous les fermiers la liberté de leur fermage, comme elles garantirent au seigneur ses droits sur la terre affermée. 
+                        </quote>
+                    </p>
+                    <p>
+                        <quote>
+                            Il y a une analogie très singulière entre l'amélioration progressive des nègres, dans l'
+                            <placeName>Amérique méridionale</placeName>
+                            , et l'affranchissement des 
+                            <emph>
+                                <choice>
+                                    <sic>vilains</sic>
+                                    <corr>villains</corr>
+                                </choice>
+                            </emph>
+                            et des serfs de l'
+                            <placeName ref="#EUR">Europe</placeName>
+                            , dans les temps féodaux. Depuis très 
+                            <choice>
+                                <orig>long-temps</orig>
+                                <corr>longtemps</corr>
+                            </choice> 
+                            on ne recueille l'or et les 
+                            <choice>
+                                <orig>diamans</orig>
+                                <reg>diamants</reg>
+                            </choice> 
+                            au 
+                            <placeName ref="#BR">Brésil</placeName> 
+                            que d'après un mode d'exploitation tout à fait pareil à celui que les nobles féodaux avaient imaginé pour stimuler l'activité de leurs paysans. Le maître fournit aux esclaves des provisions et des outils, et l'esclave est tenu de lui fournir une certaine quantité d'or ou de pierres précieuses en échange. Tout ce que l'esclave peut trouver de surplus, lui appartient. Les mines d'or de 
+                            <placeName>Popayan</placeName> 
+                            et de 
+                            <placeName>Choco</placeName> 
+                            ont été exploitées d'après un système semblable. Les pêcheries de perles fines les plus productives de l'
+                            <placeName>Amérique</placeName>
+                            , celles de 
+                            <placeName>Panama</placeName>
+                            , sont exploitées par des esclaves 
+                            <emph>francs-tenanciers</emph>
+                            , si l'on peut s'exprimer ainsi. En général, dans toute l'étendue de ce vaste continent, il était permis aux nègres de se louer pour le travail, à charge de donner une certaine somme à leurs maîtres.
+                        </quote>
+                    </p>
+                    <p>
+                        <quote>
+                            Dans ces divers pays, quand un noir a réussi à acquérir un peu de bien, il cherche à acheter sa liberté. Si le maître s'obstine à vouloir la lui faire payer trop cher, il peut le traduire en justice, et souvent le maître se voit condamné à se contenter d'un prix raisonnable. Cette législation bienfaisante a exercé la plus heureuse influence dans cette partie de l'
+                            <placeName>Amérique</placeName>
+                            ; les noirs affranchis y sont plus nombreux, plus laborieux et plus moraux que partout ailleurs. Une foule d'artisans sont sortis de cette dernière classe, et on a vu des 
+                            <choice>
+                                <orig>régimens</orig>
+                                <reg>régiments</reg>
+                            </choice> 
+                            entiers formés de noirs qui avaient acheté leur liberté de leurs propres deniers. Dans plusieurs parties de l'
+                            Amérique du Sud 
+                            les noirs sont, à certains égards, dans la position des 
+                            <foreign>coloni partiarii</foreign>
+                            , ou métayers des temps féodaux; mais leur 
+                            <foreign>reddendo</foreign> 
+                            est fixe; tout le surplus leur appartient, tandis qu'un métayer partage tous ses profits quelconques avec son maître. Cet adoucissement graduel de la servitude, consistant à
+                            <pb n="12" facs="v1n7p12"/>
+                            donner à l'esclave la faculté de travailler à son compte, moyennant une redevance, a été suivi des plus grands avantages.
+                        </quote>
+                    </p>
+                    <p>
+                        L'expérience a prouvé que partout l'émancipation des esclaves ou des serfs augmente la valeur des terres; voici ce que rapporte à ce sujet le voyageur 
+                        Coxe: 
+                            <quote>
+                                Plusieurs seigneurs polonais, humains et éclairés, ont essayé d'affranchir leurs serfs; l'évènement a fait voir que cette mesure, qui fait honneur à leur humanité, leur était de plus fort avantageuse, car les districts affranchis ont rapidement augmenté de population et ont triplé leurs revenus. Le seigneur qui donna le premier la liberté à ses serfs fut 
+                                <persName>Jamoiski</persName>
+                                , ancien chancelier de la diète, qui affranchit six villages, dans le 
+                                <placeName>
+                                    palatinat de Masovie
+                                </placeName>
+                                . En examinant le registre des naissances de 1750 à 1760, pendant les dix années qui précédèrent l'affranchissement, on trouve quatre cent trente-quatre naissances, et dans les dix premières années de liberté, de 1760 à 1770, cinq cent vingt-huit, et de 1770 à 1777, cinq cent quatre vingt-cinq; d'où il résulte que la moyenne proportionnelle des naissances de chaque année a été comme il suit:
+                                <table>
+                                    <row>
+                                        <cell>
+                                            Première période, (esclavage)
+                                        </cell>
+                                        <cell>43 naissances</cell>
+                                    </row>
+                                    <row>
+                                        <cell>
+                                            Deuxième période, (liberté)
+                                        </cell>
+                                        <cell>62 naissances</cell>
+                                    </row>
+                                    <row>
+                                        <cell>
+                                            Troisième période, (liberté)
+                                        </cell>
+                                        <cell>77 naissances</cell>
+                                    </row>
+                                </table>
+                            </quote>
+                    </p>
+                    <p>
+                        C'est l'intérêt des maîtres aussi, soutenu d'ailleurs énergiquement par les 
+                        <choice>
+                            <orig>sentimens</orig>
+                            <reg>sentiments</reg>
+                        </choice> 
+                        philanthropiques et chrétiens, qui a déterminé l'abolition de l'esclavage dans les 
+                        <placeName ref="#CA">colonies anglaises</placeName>
+                        ; c'est ce même intérêt qui en amènera l'abolition dans 
+                        <placeName>nos colonies</placeName>.
+                    </p>
+                    <p>
+                        La 
+                        <placeName ref="#FR">France</placeName>
+                        et l'
+                        <placeName ref="#ANG">Angleterre</placeName>
+                        , au premier rang des nations d'
+                        <placeName ref="#EUR">Europe</placeName>
+                        , telles que les principes de la civilisation moderne les ont faites, avec leur admirable organisation industrielle, leur belle démocratie de travailleurs libres et égaux devant la loi, leurs usines, leurs ateliers, leur confortable en toutes choses, puissamment lancées dans la carrière indéfinie de la perfectibilité, témoignent hautement et disent assez à tous ce que savent et peuvent faire les peuples affranchis de toute servitude et de tout servage, et quelle est leur supériorité sur les peuples à esclaves, principalement dans les arts de la paix. 
+                    </p>
+                    <p>
+                        Dira-t-on qu'un avenir pareil est un rêve pour nous; que, quoi que nous fassions, ce sera pour les hommes de race africaine, la terre promise, vers laquelle ils aspireront toujours sans y atteindre jamais ?
+                        <pb n="13" facs="v1n7p13"/>
+                        <choice>
+                            <sic>que</sic>
+                            <corr>Que</corr>
+                        </choice>
+                        c'est un point culminant hors de notre portée, qui restera inaccessible à tous nos efforts? Mais que de choses qu'on appelait, il n'y a pas encore cinquante ans, rêves et utopies sans application possible à l'immense majorité des hommes, qui sont maintenant réalisées, consenties de tous aujourd'hui et passées dans la pratique sociale, c'est-à-dire dans les moeurs non moins que dans les lois!
+                    </p>
+                    <p>
+                        Voudra-t-on arguer de l'infériorité intellectuelle de la race noire? Mais les faits sont là pour démentir cette pitoyable assertion. La race noire n'est inférieure à la race blanche que 
+                        <corr>
+                            <orig>parceque</orig>
+                            <reg>parce que</reg>
+                        </corr> 
+                        celle-ci est admise depuis des siècles au grand banquet de la civilisation, dont elle a centuplé les forces par l'intelligence, tandis que l'autre en a toujours été tenue soigneusement éloignée. D'elle-même cependant la race noire a su se faire une place de vive force et se créer une patrie là où quelques années auparavant le fouet des commandeurs et la geôle ignominieuse étaient son seul partage. Mais sans parler même de la république d'
+                        <placeName ref="#HT">Haiti</placeName>
+                        , la race noire n'a-t-elle pas présenté de nombreux et grands exemples de sociabilité? Les 
+                        <choice>
+                            <orig>régimens</orig>
+                            <reg>régiments</reg>
+                        </choice> 
+                        noirs à 
+                        <placeName>Halifax</placeName>
+                        , les travailleurs libres de 
+                        <placeName ref="#TRI">la Trinité</placeName>
+                        , bien avant qu'il fut même question du 
+                        <foreign>bill</foreign>
+                        d'émancipation, les 
+                        <foreign>west-indian black regiments</foreign>
+                        , les colonies noires de 
+                        <placeName ref="#SL">Sierra Leone</placeName>
+                        , les noirs de la 
+                        <placeName>Colombie </placeName>
+                        affranchis par 
+                        <persName>Bolivar</persName>
+                        , ne sont-ce pas là de péremptoires et irrécusables réponses à ceux qui nient les preuves de l'aptitude et de la valeur intellectuelle de cette race si méprisée de ceux qui en étouffent le développement dans l'intérêt seul de leur fortune du moment? Les faits sont donc ici du côté du bon droit et de la raison, et il n'est rien aujourd'hui de plus évidemment démontré que cette proposition admirablement soutenue dans un 
+                        <bibl type="monogr">
+                            <title>mémoire sur la sociabilité de la race noire</title>
+                        </bibl>
+                        , inséré au v volume, p. 557, du 
+                        <bibl type="periodical">
+                            <title>Journal de la société de la morale chrétienne</title>
+                        </bibl>
+                        , à savoir que: 
+                        Toutes les fois que le despotisme du plus fort a bien voulu permettre à la race noire de se développer, elle s'est développée aussi rapidement sous tous les rapports que la race blanche.
+                    </p>
+                    <p>
+                        Si donc les noirs esclaves sont de très mauvais travailleurs, c'est qu'il est naturel qu'ils soient ainsi; c'est qu'avilis, méprisés, battus, traités plus mal que des bêtes de somme, une seule chose doit étonner de leur part, c'est qu'ils se laissent faire avec tant de longanimité; c'est qu'ils ne montrent pas plus souvent, le fer et feu à la main, comme à 
+                        <placeName ref="#HT">Saint-Domingue</placeName>
+                        , le caractère féroce et cruel
+                        <pb n="14" facs="v1n7p14"/>
+                        que l'oppression 
+                        <choice>
+                            <orig>long-temps</orig>
+                            <reg>longtemps</reg>
+                        </choice>
+                        soufferte fait naturellement aux hommes; c'est que privés de toutes notions morales et véritablement religieuses, ils souffrent sans vengeance les maux et les affronts de toutes sortes dont ils sont journellement accablés.
+                    </p>
+                    <p>
+                        Quelque chose qu'on pût dire de l'immoralité, de la férocité même des noirs esclaves, il n'est pas un vrai philosophe qui s'en étonnât, et si, même dans l'esclavage, les noirs montrent, comme il est vrai, d'admirables qualités et des facultés remarquables, qui peut douter de tout ce dont il seront capables une fois rendus à la la liberté? 
+                    </p>
+                    <p>
+                        Voyez 
+                        <placeName ref="#HT">Haiti</placeName>
+                        , où l'instruction et les livres d'
+                        <placeName ref="#EUR">Europe</placeName> 
+                        ont fertilisé l'intelligence et moralisé le cœur du grand nombre. Sans doute ce n'est pas encore une république de tout point libre et heureuse; mais quelle nation d'
+                        <placeName ref="#EUR">Europe</placeName> 
+                        peut se prétendre 
+                        <choice>
+                            <orig>complétement</orig>
+                            <reg>complètement</reg>
+                        </choice>
+                         l'une et l'autre? 
+                        <placeName ref="#HT">Haiti</placeName> 
+                        est une nation nouvelle, peu avancée encore sur quelques points, qui souffre des nécessités fâcheuses de son passé, mais qui chaque jour voit s'accomplir quelque progrès en son sein, et qui marche d'un pas ferme et hardi vers l'avenir. 
+                        <placeName ref="#HT">Haiti</placeName>
+                        , telle qu'elle est, et malgré les préventions européennes, est encore un des pays les plus tranquilles et les mieux gouvernés.
+                    </p>
+                    <p>
+                        Si donc nous n'étions profondément pénétrés de la vérité de ce principe religieux, si éloquemment exprimé par la 
+                        <orgName>
+                            société britannique et étrangère pour l'abolition universelle de l'esclavage et de la traite des nègres
+                        </orgName>
+                        , à savoir, que L'ESCLAVAGE EST UN CRIME DEVANT DIEU, ET DOIT ETRE ABOLI COMME TEL, nous en poursuivrions encore l’abolition comme économistes, comme amis de l'humanité, convaincus que nous sommes qu'il n'y a pas de développement possible pour l'industrie, le commerce, les sciences et les arts, en un mot pour tout ce qui constitue la véritable civilisation, là où la hideuse servitude n'aura pas 
+                        <choice>
+                            <orig>complétement</orig>
+                            <reg>complètement</reg>
+                        </choice> 
+                        disparu.
+                    </p>
+                    <p>
+                        L'émancipation des esclaves est ce que nous demanderons, ce que nous provoquerons de toutes nos forces, avant toute chose et surtout, comme premier et indispensable élément du progrès social aux colonies.
+                    </p>
+                </div>
+                <div xml:id="abus">
+                    <pb n="15" facs="v1n7p15"/>
+                    <head n="Abus d'autorité de la part des maitres aux colonies">
+                        ABUS D'AUTORITÉ DE LA PART DES MAITRES AUX COLONIES
+                    </head>
+                    <p>
+                        Les lois coloniales sont trop favorables aux planteurs pour qu'ils n'abusent pas des 
+                        <choice>
+                            <orig>priviléges </orig>
+                            <reg>privilèges</reg>
+                        </choice>
+                        qu'elles attachent à leur despotisme. Voyons comment ils se sont servis de cet instrument du pouvoir arbitraire, si dangereux dans toutes les mains, mais surtout dans celles d'un simple citoyen.
+                    </p>
+                    <p>
+                        Il est notoire, à la
+                            <placeName ref="#GP">Guadeloupe</placeName> 
+                        , que grand nombre d'habitants
+                            <choice>
+                            <orig>outre-passent</orig>
+                            <reg>outrepassent</reg>
+                            </choice> 
+                        sans mesure les peines fixées par les ordonnances. Habitants et géreurs sont loin de dissimuler les exécutions qu'ils ordonnent de temps en temps, et dans lesquelles ils font appliquer depuis trente jusqu'à cent coups de fouet et même plus. Un de ces planteurs voulant, se débarrasser d'une vieille négresse, la fit tailler successivement par trois commandeurs, et la laissa ensuite terminer ses jours dans un cachot.
+                    </p>
+                    <p>
+                        Le poison fait-il des ravages sur une habitation? Aussitôt on fait arrêter les noirs qui paraissent les plus suspects. Au lieu de les remettre entre les mains de la justice avec les indices de leur culpabilité, l'habitant se constitue chez lui un tribunal souverain, fait enfermer dans un cachot le nègre soupçonné; son arrêt est porté, il faut qu'il y meure de faim ou sous les coups. On m'a affirmé que ces exemples étaient nombreux. On lit dans la 
+                            <bibl type="periodical">
+                            <title>Gazette des Tribunaux </title>
+                            </bibl>
+                        du 26 octobre 1831:
+                            <quote>
+                                Une commission d'enquête, dont M. 
+                                <persName>Duquesne</persName>
+                                était président, a constaté en mars dernier, au quartier de 
+                                <placeName ref="#TRI">la Trinité </placeName>
+                                <placeName ref="#MQ">(Martinique)</placeName>
+                                des crimes horribles. Un esclave est mort après avoir reçu deux cents coups de fouet sur les reins, avoir été exposé toute une journée à l'ardeur du soleil, et enfin avoir passé une nuit attaché à terre sur une échelle, temps pendant lequel le ventre de cet infortuné fut mangé par des crabes… Un autre esclave fut renfermé dans un cachot avec huit autres; la seule fenêtre qui donnait un peu d'air fut bouchée avec des briques, et dans cet état ces malheureux sont restés trois jours privés de nourriture et d'air: lorsque la porte fut ouverte, et que la nommée 
+                                <persName>Emilienne</persName>
+                                fut portée au dehors, elle expira aussitôt. Ces cruautés étaient
+                                <pb n="16" facs="v1n7p16"/>
+                                commises par un géreur, contre lequel, à la suite de l'enquête, une instruction fut ordonnée; mais le mandat d'arrêt resta sans exécution, 
+                                <choice>
+                                <orig>parcequ</orig>
+                                <reg>parce qu</reg>
+                                </choice>
+                                'on favorisa la fuite du coupable.
+                            </quote>
+                    </p>
+                    <p>
+                        Que dire de ces monstres qui, dans des accès de fureur, se sont précipités sur des nègres, les ont tout meurtris, et qui, poussant le délire et la rage à son dernier point, ont arraché eux-mêmes des dents à leurs esclaves! Cela ne les empêchera pas, disaient-ils avec une ironie infernale, de manger leur morue et leur farine de manioc.
+                    </p>
+                    <p>
+                        Un habitant de
+                        <placeName>la Capesterre </placeName> 
+                        a été accusé deux fois d'avoir tué de sa main un de ses nègres, avec une atrocité inouïe, en le dépeçant comme une pièce de gibier. Le procureur-général en fut informé, ordonna une descente sur les lieux et une instruction. J'ignore quel motif a pu empêcher la poursuite; mais le crime passait pour manifeste, c'était la rumeur publique. Ce fait est antérieur à l'organisation judiciaire.
+                    </p>
+                    <p>
+                        Voici la discipline établie par un habitant de
+                         <placeName>la Capesterre </placeName>
+                        pour contenir ses esclaves.
+                    </p>
+                    <p>
+                        Le preneur de rats, nègre tout infirme, est obligé de prendre tous les jours douze rats dans les cannes à sucre. Quand il n'a pas complété le nombre prescrit, il reçoit douze coups de fouet, s'il lui en manque peu; mais s'il en manque la moitié, il reçoit de vingt-cinq à trente coups. Les autres habitants n'exigent ordinairement que sept et même six rats, souvent ils se contentent de moins: qu'on juge donc du nombre de coups que doit recevoir tous les jours le pauvre nègre de ce monstre!
+                    </p>
+                    <p>
+                        Les gardiens de ses troupeaux en ont la responsabilité absolue Si un veau, un boeuf, un agneau, etc., viennent à mourir, le nègre qui en est chargé reçoit un trois piquets sans rémission: vice de conformation en naissant, accident bien avéré, maladie, etc., rien ne peut mitiger cet arrêt inexorable, c'est un ordre établi; et cependant point de récompense, pas un sou de gratification pour le croît ou l'amélioration des animaux.
+                    </p>
+                    <p>
+                        Les enfants de huit ans sont obligés, chez lui, de garder les troupeaux et sont soumis à la discipline des grands nègres; il sont taillés comme eux, et j'ai vu sur ces petits êtres, si intéressants par leur malheur, des stigmates qui ne laissaient aucun doute sur la férocité de leur tyran!
+                    </p>
+                    <pb n="17" facs="v1n7p17"/>
+                    <p>
+                        S'il craint que, par suite d'un châtiment, une de ses négresses parte marronne, ou bien si elle est prise en marronnage, il lui fait mettre au cou ou au pied une énorme chaîne à laquelle on attache un de ses enfants. J'ai vu une petite fille de six ans trainer avec peine ce lourd et pénible fardeau; comme si le crime (le crime!!) de la mère pouvait autoriser à punir cette jeune enfant d'une manière si barbare! Son corps, si faible à cet âge, et ses chairs délicates en étaient tout meurtris. Innocente créature, combien la vue de tes douleurs a fortement ému mon
+                        <choice>
+                            <orig>ame</orig>
+                            <reg>âme</reg>
+                        </choice>
+                        ! Comme je t'ai plaint, et comme j'ai maudit ton vil bourreau! Que ne puis-je mettre sous les yeux de nos sensibles Françaises le tableau réel de pareils excès! Que de 
+                        <choice>
+                            <orig>puissans</orig>
+                            <reg>puissants</reg>
+                        </choice>
+                        auxiliaires je gagnerais à la sainte cause de l'affranchissement des noirs!
+                    </p>
+                    <p>
+                        Je me trouvai un jour près de l'embarcadère où ce planteur faisait charger ses sucres dans une pirogue; trois nègres roulaient un boucaut; le pavé était mauvais, inégal, et présentait beaucoup d’aspérités: un cercle casse dans une chute du boucaut. 
+                        <quote>
+                            Commandeur, s'écrie aussitôt ce barbare, appliquez-moi ce soir trente coups de fouet soignés à ce scélérat de tonnelier, pour lui apprendre à me faire de si mauvais cercles; et soignés, entendez-vous?
+                        </quote>
+                        Trente coups de fouet pour un cercle cassé par un accident de terrain!
+                    </p>
+                    <p>
+                        C'est un fait notoire que sur quarante-quatre nègres nouveaux qu'il avait achetés à la fois dans une cargaison, tous avant six mois avaient cessé de vivre. Quelle horreur ! quelle épouvantable boucherie!
+                    </p>
+                    <p>
+                        Cet homme est si connu par son humeur féroce, que deux ateliers se sont révoltés pour ne pas lui être vendus. Quand on veut effrayer un nègre dont on est mécontent, on le menace de le vendre à cet habitant; cela suffit pour le corriger.
+                    </p>
+                    <p>
+                        Les journaux ont raconté les forfaits de 
+                        <persName>Sommabert</persName>
+                        , ce vampire créole, qui, dans ses
+                        <choice>
+                            <orig>emportemens</orig>
+                            <reg>remportements</reg>
+                        </choice>
+                        , se faisait un jeu de mutiler ses esclaves et de leur arracher la vie.
+                    </p>
+                    <p>
+                        J'ai vu trois nègres redouter tellement les 
+                        <choice>
+                            <orig>tourmens</orig>
+                            <reg>tourments</reg>
+                        </choice>
+                        dont les menaçait le courroux de leurs maîtres que, pour s'y soustraire, ils se sont jetés dans la mer, deux du haut d'une falaise, et le troisième s’y est lancé d'une pirogue pendant qu'on le ramenait à l'habitation.
+                    </p>
+                    <pb n="18" facs="v1n7p18"/>
+                    <p>
+                        Un habitant, sur le compte personnel duquel je me tairai, m'a raconté devant plusieurs personnes le trait suivant de son père, fameux par sa sévérité et ses richesses.
+                        <quote>
+                            Mon père, se trouvant à
+                            <placeName ref="#MQ">la Martinique</placeName> 
+                            , où il avait des propriétés, fut invité à dîner par le gouverneur. Pendant le repas, le gouverneur, qui devait bientôt partir pour la
+                            <placeName ref="#FR">France</placeName> 
+                            , lui proposa de lui vendre un des nègres qui les servaient à table, excellent domestique, dont il lui vanta les précieuses qualités. Mon père se tournant vers cet esclave, lui demanda s'il voulait le servir. Sa réputation de sévérité était si bien établie, que le nègre, qui redoutait de lui être vendu, lui répondit franchement que non, et fit un geste négatif. Mon père feignit de ne l'avoir pas compris, et dit au gouverneur que le marché était conclu et qu'il lui en donnerait le prix qu'il désirerait. Il emmena le nègre avec lui à la 
+                            <placeName ref="#GP">Guadeloupe</placeName>
+                            . Tu as déclaré que tu ne voulais pas me servir, lui dit-il, j'y consens; tu n'auras rien à faire : voici ta case. On lui met par son ordre une grosse chaîne au pied; puis on l'enferme dans une petite hutte grillée, ou loge à chien, placée sur la terrasse attenante à la maison. En vain ce malheureux lui demanda pardon les larmes aux yeux, en vain lui assura-t-il qu'il le servirait en nègre fidèle; mon père fut inexorable. Ce noir vécut trente ans dans ce réduit, et quoique pendant ce long laps de temps mon père passât mille fois le jour près de cet infortuné, quoique souvent des étrangers s'apitoyassent sur son sort, implorassent l’oubli de sa faute, jamais il ne se laissa fléchir. Cet esclave mourut dans cette dure prison.
+                        </quote>
+                    </p>
+                    <p>
+                        Si l'on avait le moindre doute sur la véracité de mes récits, qu'on aille consulter les stigmates qui couvrent les corps de tant de victimes: ces cicatrices seront éloquentes, elles respirent une affreuse vérité. Qu'on interroge toutes ces fosses qu'a creusées clandestine ment un reste de pudeur, le long des ravines qui coupent les habitations; elles recèlent de nombreux cadavres dont on a voulu dérober la connaissance au public, de peur de terribles commentaires.
+                    </p>
+                    <closer>
+                        <signed>X. TANC,</signed>
+                        <lb/> ancien magistrat, à la Guadeloupe.
+                    </closer>
+                </div>
+                <div xml:id="cassation">
+                    <pb n="19" facs="v1n7p19"/>
+                    <head n="Dernier mot sur le pourvoi en cassation des condamnés de la grand'anse.">DERNIER MOT SUR LE POURVOI EN CASSATION DES CONDAMNÉS DE LA GRAND'ANSE.</head>
+                    <p>
+                        Il est dans la vie publique des époques de découragement où les citoyens se prennent à désespérer profondément des institutions, où l'on peut voir avec dépit combien sont vaines les garanties du contrat social tel qu'il est aujourd'hui en France, même replacé sur sa grande base de la prétendue souveraineté nationale. Nous pourrons montrer mille applications de cette pénible vérité, mais nous ne faisons pas ici l'inventaire de toutes ces misères humaines. Un seul fait doit être cité pour exemple; fait immense, d'où notre observation philosophique ressort effrayante de réalité. 
+                        <emph>
+                        Le pourvoi des condamnés de la Grand Anse a été rejeté !
+                        </emph>
+                    </p>
+                    <p>
+                        Ainsi donc, sept colons de la Martinique réunis en tribunal criminel, imbus des préjugés de caste, ont pu mettre à mort quarante de leurs compatriotes? Ils auraient pu jeter au bourreau les 
+                        <emph>cent soixante têtes</emph> 
+                        que le procureur-général 
+                        <persName ref="#ANog">Nogues</persName> 
+                        a demandées... Et la métropole aurait tout approuvé!
+                    </p>
+                    <p>
+                        Qu'est-ce donc que cette cour suprême placée comme clé de voûte au sommet de l'ordre judiciaire, exerçant la puissance souveraine sur les cours et tribunaux? N'a-t-elle pas été instituée pour casser les mauvais arrêts, pour ramener à la loi, à la raison, à l'humanité les juges
+                        <choice>
+                            <orig>ignorans</orig>
+                            <reg>ignorants</reg>
+                        </choice> 
+                        ou prévaricateurs? Ceux-la sur tout que des vertiges de sang agitent sur leur
+                        <choice>
+                            <orig>siége</orig>
+                            <reg>siège</reg>
+                        </choice>  
+                        , et qui ont érigé en principe de gouvernement les sacrifices humains, les supplices de cent têtes, ces 
+                        <emph>hécatombes</emph>
+                        que les anciens offraient aux dieux, en bétail, non pas en hommes.
+                    </p>
+                    <p>
+                        Telle est bien la mission de la cour suprême. Mais ce haut tribunal, placé hors les orages et les passions des hommes, n'intervient trop souvent dans leurs affaires que comme une sorte de fantôme de la justice, étranger aux tristes réalités de ce monde, inintelligent des crimes de la terre, porté à l'optimisme, ne voyant pas facilement le mal, 
+                        <choice>
+                            <orig>parceque</orig>
+                            <reg>parce que</reg>
+                        </choice>
+                        l'homme placé dans certaines conditions aime à supposer le bien. Peut-être, ô vénérables magistrats! n'avez-vous pas compris tant de perversité, tant d'insouciance pour tout ce qui est saint et sacré. Peut-être n'avez-vous pas compris
+                        <pb n="20" facs="v1n7p20"/>
+                        tant de cruauté machiavelique dans des Français, dans ceux, enfin, qui comme vous et au dessous de vous, exercent le sacerdoce de la justice. La cour de cassation, créée en 1790, est une grande pensée, grande comme toutes les pensées de cette époque; mais c'est peut-être une petite institution qui fonctionne étroitement dans les liens d'une organisation mesquine et timorée. Elle ne connaît que de la 
+                        <emph>forme</emph> 
+                        et point du 
+                        <emph>fond</emph> 
+                        des affaires; elle juge l'arrêt, non le procès; elle juge 
+                        <emph>comme oeuvre de logique judiciaire</emph> 
+                        l'opération intellectuelle du tribunal inférieur qui consiste à faire application de la loi aux faits ou aux hommes; elle ne la juge pas 
+                        <emph>comme oeuvre de justice</emph>
+                        . Là, tout se réduit à l'exactitude mathématique, et si l'homme est tué 
+                        <emph>par raison démonstrative</emph>
+                        , l'arrêt est bon; il est maintenu. On doit même remarquer cette anomalie bizarre et choquante que l'influence de la cour de cassation sur le fond des affaires est bien plus dans les procès civils que dans les procès criminels.Pour les premiers où il ne s'agit que d'intérêts pécuniaires et matériels, elle enchaîne les juges du fond par la puissance de la raison et l'autorité de ses doctrines sur les questions controversées qui sont souvent tout le procès. Pour les seconds, au contraire, où il s'agit de l'honneur, de la liberté, de la vie des citoyens, réduite à vérifier la régularité de la procédure et l'exacte application de la peine, elle n'a de censure que pour les formalités; elle n'en a pas pour les condamnations en elles-mêmes, pour celles qui frapperaient des
+                        <choice>
+                            <orig>innocens</orig>
+                            <reg>innocents</reg>
+                        </choice>  
+                        , pour les 
+                        <emph>verdicts</emph> 
+                        qui seraient des 
+                        <emph>mensonges</emph>
+                        , pour les
+                        <choice>
+                            <orig>jugemens</orig>
+                            <reg>jugements</reg>
+                        </choice> 
+                        qu'auraient dictés la haine ou l'esprit de persécution, ou la politique, cette reine changeante des temps actuels, qui introduit dans les arrêts de justice toute la mobilité des passions et des systèmes.
+                    </p>
+                    <p>
+                        Eh bien ! dans une île des 
+                        <placeName ref="#ANTE">Antilles</placeName>
+                        , à la 
+                        <placeName ref="#MQ">Martinique</placeName>
+                        , au milieu d'une faible population, pour cause uniquement politique, quarante accusés ont été condamnés à la peine capitale! cinquante-trois autres aux travaux forcés, à la déportation perpétuelle, etc.! Cent familles sont frappées! toute une commune est dépeuplée! Toute une colonie française est terrifiée par l'action meurtrière de cette justice plus que prévotale! Qu'importe ! La métropole fera justice et réparation; elle cassera l'abominable arrêt dénoncé à la cour de cassation par les condamnés. Non; tombent toutes les têtes que l'arrêt a frappées ! Le procès-verbal des séances de la cour
+                        <pb n="21" facs="v1n7p21"/>
+                        d'assises constate l'accomplissement minutieux de toutes les formalités. Aucune n'est oubliée, du moins dans la rédaction descriptive du procès-verbal. C'en est assez; la cour suprême est impuissante à
+                        <choice>
+                            <orig>reviser</orig>
+                            <reg>réviser</reg>
+                        </choice> 
+                        autrement le procès des condamnés, et leur pourvoi doit être rejeté.
+                    </p>
+                    <p>
+                        C'est ainsi que devant la cour de cassation il a fallu traîner sur des nullités de procédure, la plus grande monstruosité judiciaire qui ait jamais désolé les colonies. Tous, avocats et juges, sophistiquaient sur des questions de forme, et la hideuse potence dressée sur le rivage de la Martinique attend, avec le bourreau, les quarante têtes sollicitées et obtenues par le 
+                        <roleName>procureur général</roleName> 
+                        <persName ref="#ANog"/>Nogues
+                        ! 
+                    </p>
+                    <p>
+                        <choice>
+                            <orig>O</orig>
+                            <reg>Ô</reg>
+                        </choice> 
+                        noirs et mulâtres, nos compatriotes, avec quelle amertume vous devez désespérer des lois et des institutions! 
+                    </p>
+                    <p>
+                        Cependant ne désespérez pas des hommes. Vos malheurs ont été vivement sentis par nos concitoyens d'
+                        <placeName ref="#EUR">Europe</placeName>
+                        , par les magistrats eux-mêmes qui ont rejeté votre pourvoi. Bonne procédure ont-ils dit, mais mauvais procès; procès infâme, procès exécrable! Et de suite reculant devant l'omnipotence que peut-être ils auraient pu s'arroger aux acclamations du pays tout entier, solliciteur du recours en grâce, ils ont eux-mêmes arraché son voile hypocrite à l'œuvre de passion et d'iniquité cachée sous l'appareil des formes. Et vous, lâches persécuteurs, qui préparez des ovations, sachez-le bien, votre infâme procès a été maudit de tous en France, et tout en lui donnant une approbation apparente par le rejet du pourvoi, on n'a su ce qu'on doit détester le plus, ou de votre soif de sang, ou de votre habileté à faire des arrêts de mort que la cour suprême soit obligée de maintenir.
+                    </p>
+                </div>
+                <div xml:id="FRANCE">
+                    <head n="France."><placeName ref="#FR">FRANCE</placeName>.</head>
+                    <div xml:id="Pétition">
+                        <head n="Pétition relative a l'abolition de l'esclavage, adressée aux deux chambres.">
+                            PÉTITION RELATIVE A L'ABOLITION DE L'ESCLAVAGE, ADRESSÉE AUX DEUX <orgName>CHAMBRES</orgName>.
+                        </head>
+                        <p>
+                            Plusieurs citoyens, à
+                            <placeName ref="#Par">Paris</placeName> 
+                            , viennent d'adresser aux <orgName>chambres</orgName> la pétition suivante, que nous nous empressons d'accueillir dans notre feuille. Nous apprenons que dans les 
+                            <choice>
+                                <orig>départemens</orig>
+                                <reg>départements</reg>
+                            </choice>
+                            , la question de l'abolition de
+                            <pb n="22" facs="v1n7p22"/>
+                            l'esclavage excite le plus vif intérêt, et que le bel exemple donné par les citoyens de
+                            <placeName ref="#Par">Paris</placeName>
+                            , ne tardera pas à être imité.
+                        </p>
+                        <floatingText>
+                            <body>
+                                <div>
+                                    <head n="Messieurs,">MESSIEURS,</head>
+                                    <p>
+                                        Permettez-nous d'appeler votre attention sur le sort des esclaves des 
+                                        <placeName>colonies françaises</placeName>
+                                        . Plus d'une fois les chambres ont exprimé la compassion que ces malheureux leur inspirent, en renvoyant à
+                                        <roleName>M. le ministre de la Marine</roleName>
+                                        les pétitions qui leur ont été adressées pour réclamer leur intervention en faveur des esclaves; mais rien, absolument rien n'a été fait pour alléger leurs souffrances; et, il faut le dire, rien ou presque rien ne pouvait être fait, si l'on voulait s'arrêter dans la voie des améliorations, et si l'on ne se proposait pas d'arriver, par des mesures sagement progressives, à la cessation de l'esclavage et à l'affranchissement des noirs. Les colons ont senti que tout se tient dans le système colonial; ils savent qu'une concession renferme le germe d'une autre concession, et c'est pour éviter d'être entraînés par un mouvement irrésistible au grand changement social qu'ils redoutent, qu'ils ont opposé la résistance la plus absolue aux efforts tentés par les amis des noirs. Le gouvernement a adopté leurs vues,
+                                            <choice>
+                                                <orig>parcequ</orig>
+                                                <reg>parce qu</reg>
+                                            </choice>
+                                        'il partageait leurs craintes, et c'est à cause de cela que nous n'avons vu introduire dans les colonies françaises aucune des mesures par lesquelles les législateurs de la 
+                                        <placeName ref="#GB">Grande-Bretagne</placeName>
+                                        ont préparé une ère nouvelle pour leurs colonies.
+                                    </p>
+                                    <p>
+                                        L'
+                                        <placeName ref="#ANG">Angleterre</placeName>
+                                        a favorisé, depuis beaucoup d'années, tout ce qui pouvait augmenter le bien-être de la population esclave. Elle a, en particulier, sinon encouragé, du moins pleinement toléré l'instruction religieuse et l'instruction élémentaire des noirs; elle a par une loi obligé les propriétaires à affranchir leurs esclaves, lorsque ceux-ci leur offriraient le montant de leur valeur; enfin elle a établi dans ses colonies des protecteurs et des gardiens des esclaves, leur reconnaissant ainsi par anticipation certains droits, 
+                                        <choice>
+                                            <orig>parcequ</orig>
+                                            <reg>parce qu</reg>
+                                        </choice>
+                                        'elle voulait finir par leur reconnaître tous les droits. 
+                                    </p>
+                                    <p>
+                                        La
+                                        <placeName ref="#FR">France</placeName> 
+                                        , au contraire, regardant
+                                        <choice>
+                                            <orig>long-temps</orig>
+                                            <reg>longtemps</reg>
+                                        </choice> 
+                                        l'émancipation des noirs comme une utopie, bien que l'essai qu'elle-même a autrefois tenté eût dû lui apprendre qu'elle est possible, n'a pas voulu marcher vers un but dont elle se croyait séparée par d'in
+                                        <pb n="23" facs="v1n7p23"/>
+                                        surmontables obstacles. Les rapports de la métropole avec les colonies étant limités à une faible minorité, intéressée d'ailleurs à entretenir les craintes que les colons ont toujours cherché à répandre sur les conséquences de l'affranchissement, si l'on osait jamais le tenter, il en est résulté qu'on n'a eu jusqu'ici parmi nous que des idées confuses et erronées sur leur état. On a cru à des dangers réels, tandis qu'il n'y avait à redouter que des difficultés. Les plus impatients ont pensé qu'il fallait laisser à une nation voisine, au sein de laquelle cette question avait eu le temps de devenir populaire, les périls et la gloire d'une hasardeuse initiative.
+                                    </p>
+                                    <p>
+                                        Eh bien! Messieurs, cette initiative a été prise. Le grand fait social que des hommes politiques, appartenant à des partis contraires, ont réclamé comme une mesure de sagesse, tandis que des chrétiens de toutes les dénominations l'appelaient de leurs voeux comme un acte de justice et d'humanité, est aujourd'hui accompli dans les colonies de la 
+                                        <placeName ref="#GB">Grande-Bretagne</placeName>
+                                        . La classe des esclaves a cessé d'exister, 
+                                        parcequ
+                                        'une loi généreuse lui a donné des lettres de liberté.
+                                        <choice>
+                                            <orig>A</orig>
+                                            <reg>À</reg>
+                                        </choice> 
+                                        en croire les adversaires de l'affranchissement, les navires chargés de transmettre la nouvelle de l'exécution du 
+                                        <foreign>bill</foreign> 
+                                        du parlement ne pouvaient manquer d'apporter aussi le récit des excès les plus terribles. Le 
+                                        <foreign>bill</foreign> 
+                                        équivaudrait, disait-on, à une provocation au meurtre et à l'incendie; mais ces sinistres prévisions ne se sont pas réalisées. Loin de refuser de travailler et de se livrer aux excès qu'on représentait comme imminents, les noirs ont, en général, donné des preuves du désir qu'ils ont de se montrer dignes de la liberté par leur activité et leur esprit de subordination. Dans la plupart des colonies, ils ont voulu consacrer publiquement le jour de leur affranchissement par des prières et des actions de grâces. Chaque jour consolide la transformation qui s'est opérée sans résistance et sans secousse, et l'
+                                        <placeName ref="#ANG">Angleterre</placeName> 
+                                        se prépare, au lieu d'une caste misérable, au sein de laquelle la servitude entretenait une continuelle irritation, une population intelligente et paisible. 
+                                    </p>
+                                    <p>
+                                        Après avoir laissé à d'autres le soin de faire une expérience si heureuse dans ses résultats, serait-il permis à la 
+                                        <placeName ref="#FR">France</placeName> 
+                                        de ne pas en profiter? Non, Messieurs, ce qu'on appelait naguère une impossibilité, une utopie, apparaît aujourd'hui comme une nécessité
+                                        <pb n="23" facs="v1n7p23"/>
+                                        prochaine. Il ne se peut pas, en effet, lorsqu’il n’y a plus d’esclaves dans les 
+                                        <placeName ref="#CA">colonies anglaises</placeName>
+                                        , qu’il y en ait 
+                                        <choice>
+                                            <orig>long-temps</orig>
+                                            <reg>longtemps</reg>
+                                        </choice>  
+                                        encore dans 
+                                        <placeName>nos îles</placeName>
+                                        , situées dans les mêmes mers. En présence du nouvel ordre des choses établi dans les 
+                                        <placeName>Antilles britanniques</placeName>
+                                        , le péril pour nous n’est plus dans l’abolition, il est dans le maintien de l’esclavage. D’ailleurs les nations civilisées se touchent de trop près pour que les grandes pensées, les idées généreuses ne se communiquent pas rapidement de l’une à l’autre. Ce que l’
+                                        <placeName ref="#ANG">Angleterre</placeName> 
+                                        a voulu et a pu, la 
+                                        <placeName ref="#FR">France</placeName> 
+                                        ne le voudra-t-elle, ne le pourra-t-elle pas? Nous aimons à croire, au contraire, que c’est la volonté de la nation qui constituera surtout la nécessité que nous prévoyons; car comment supposer qu’elle veuille tolérer dans ses codes la page honteuse qu’un autre peuple a arrachée du livre de ses lois? Et à qui appartiendrait-il à plus juste titre qu’à vous, Messieurs, d’être les organes de la nation? Consentez donc à signaler la première session des chambres françaises qui se tient après l’émancipation des esclaves des colonies anglaises, par un vote solennel, qui, en témoignant qu’elles sont pénétrées de la pensée d’un grand devoir, serve de garantie à un grand bienfait!
+                                    </p>
+                                    <p>
+                                        Nous ne venons pas vous demander, Messieurs, de recommander au gouvernement telle mesure plutôt que telle autre; nous ne disons pas que celles adoptées successivement par l’
+                                        <placeName ref="#ANG">Angleterre</placeName> 
+                                        soient les meilleures ni les seules qu’il convienne d’adopter; nous ne prétendons pas, en un mot, tracer un plan pour l’affranchissement des noirs. Ce que nous désirons seulement, c’est que les chambres, c’est que le gouvernement avouent le principe que nous invoquons; qu’ils reconnaissent dès à présent qu’il faut, n’importe pour l’instant par quelle route, atteindre, dans un temps aussi court que possible, le grand but de l’abolition complète de l’esclavage. Si ce projet est avoué, les plus grands avantages résulteront de cet aveu même. Les colons travailleront, en facilitant l’instruction des esclaves, à diminuer les dangers qui leur paraissent inséparables de l’émancipation et ils se prépareront dès à présent, avec une sage prévoyance, au nouvel ordre de choses qu’on leur aura annoncé. Les législateurs, au lieu d’avancer sur le terrain mouvant, et d’être forcés de faire des lois qui se ressentent de leurs incertitudes, concilieront d’avance leurs mesures législatives avec celle qu’ils sauront devoir les couronner toutes. Le peuple
+                                        <pb n="25" facs="v1n7p25"/>
+                                        tout entier, s'habituant à attacher des pensées d'espérance et de gloire à la réalisation d'un plan que la justice et l'humanité réclament, s'y associera par ses sympathies. La conscience nationale enfin pourra se rendre le témoignage que la 
+                                        <placeName ref="#FR">France</placeName> 
+                                        ne recule pas devant un devoir, dont l'évidence lui est démontrée, mais qu'elle veut l'accomplir, aussitôt qu'elle en a reconnu l'accomplissement possible.
+                                    </p>
+                                    <p>
+                                        Nous avons l'honneur d'être, etc. 
+                                    </p>
+                                    <p>
+                                        Paris, le 17 décembre 1831.
+                                    </p>
+                                    <closer>(Suivent les signatures.)</closer>
+                                </div>
+                            </body>
+                        </floatingText>
+                        <p>
+                            Nous tiendrons nos lecteurs au courant des discussions que cette pétition pourra soulever au sein des deux chambres.
+                        </p>
+                    </div>
+                    <div xml:id="coursBlanqui">
+                        <head n="Cours d'économie industrielle au conservatoire des arts et métiers , par m. blanqui aine aîné .">
+                            COURS D'ÉCONOMIE INDUSTRIELLE AU 
+                            <orgName>CONSERVATOIRE DES ARTS ET MÉTIERS</orgName>
+                            , PAR M. 
+                            <persName>BLANQUI</persName>
+                            <choice>
+                                <orig>AINE</orig>
+                                <reg>AÎNÉ</reg>
+                            </choice> 
+                            .
+                        </head>
+                        <p>
+                            Il est peu de cours publics suivis avec autant de faveur et qui attirent un plus grand nombre d'auditeurs que celui dont nous nous occuperons aujourd'hui. Un vif intérêt s'attache aux questions d'économie politique, qu'il faut éclaircir du moins, si le temps de leur immédiate solution n'est pas arrivé; nous ne parlerons donc point du talent remarquable du professeur, connu par les services que, jeune encore, il a déjà rendus à la science et à la liberté, soit comme publiciste, soit comme chef du bel établissement qu'il dirige, soit enfin dans ses leçons au Conservatoire, où il occupe la chaire de son illustre maître, 
+                            <persName>J. B. Say</persName>
+                            .
+                        </p>
+                        <p>
+                            M. 
+                            <persName>BLANQUI</persName> 
+                            est un ardent antagoniste du système prohibitif; la guerre qu'il fait aux privilèges commerciaux et industriels devait le conduire à l'examen de notre régime colonial, qu'il a attaqué dans sa leçon du 26 décembre avec une verve d'indignation et une puissance de logique dont nous ne pourrions donner qu'une faible idée.
+                        </p>
+                        <p>
+                            La législation des sucres a été d'abord analysée par le professeur, dans toutes ses phases depuis la 
+                            <rs type="event">Restauration<date>1815</date>restauration</rs>
+                            ; il l'a suivie pas à pas, date par date, chiffre par chiffre, le 
+                            <bibl type="periodical">
+                                <title ref="#MU">Moniteur</title>
+                            </bibl>
+                            à la
+                            <pb n="26" facs="v1n7p26"/>
+                            main, expliquant la double taxe et ses effets sur la consommation intérieure, développant les abus infâmes auxquels la prime d'importation a donné naissance, depuis le
+                            <rs type="event">
+                                loi du 17 mai 1826<date>1826</date> 17 mai 1826
+                            </rs> 
+                            , date de la loi, jusqu'en 1833. On sait les scandales de cette prime et le concert unanime de réprobation qu'elle souleva, quand M. 
+                            <persName>Gauthier</persName>
+                            vint révéler à la tribune et l'improbité patente des calculs de rendement à l'époque où la loi fut votée, et les charges intolérables que cette prime imposait à la 
+                            <placeName ref="#FR">France</placeName>
+                            , forcée de solder le plus inique brigandange, puisque, a dit M. 
+                            <persName>Blanqui</persName>
+                            , il est prouvé maintenant que des voitures chargées de sucre sortaient du territoire, puis rentraient par un autre point de la frontière, pour ressortir encore et recevoir un nouveau tribut.
+                        </p>
+                        <p>
+                            Jamais les funestes effets du système protecteur n'ont été plus visibles que dans les efforts tentés en faveur de nos colonies; loin de rétablir leurs affaires, la protection a accéléré leur décadence; elle active la fabrication du sucre indigène, qui, de jour en jour, prend une extension menaçante. Les habitations de sucreries aux colonies sont grevées, l'intérêt que payent les planteurs est à un taux excessif: à
+                            <placeName ref="#BrB">Bourbon</placeName>  
+                            l'argent ne se prête pas au-dessous de douze pour cent; à la
+                            <placeName ref="#GP">Guadeloupe</placeName> 
+                            , à la 
+                            <placeName ref="#MQ">Martinique</placeName>
+                            , à 
+                            <placeName ref="#Cay">Cayenne</placeName>
+                            , l'usure est vraiment effroyable. Les moyens de transport sont excessivement onéreux: de la plantation au rivage, il en coûte souvent une somme équivalente au frêt de la colonie à la métropole.
+                        </p>
+                        <p>
+                            Les profits illicites données par la prime d'exportation des raffinés forcèrent les colonies à produire à tout prix; cette fièvre de production fit songer beaucoup plus 
+                            <emph>à la quantité</emph>
+                            qu'aux moyens
+                            <choice>
+                                <sic>conomiques</sic>
+                                <corr>économiques</corr>
+                            </choice>
+                            de fabrication. Ne pouvant suffire aux demandes des raffineurs de la métropole, les colons faisaient entrer secrètement des sucres de 
+                            <placeName ref="#CUB">Cuba</placeName>
+                            , et nous les expédiaient sans prendre peine de déguiser la forme des colis. 
+                            <placeName ref="#CUB">Cuba</placeName>
+                            donne à vingt centimes, le
+                            <placeName ref="#BR">Brésil</placeName> 
+                            et l'
+                            <placeName ref="#IN">Inde</placeName>
+                            à quinze centimes, des sucres supérieurs, et les procédés de travail perfectionnés dans toutes les
+                            <placeName ref="#ANTE">Antilles</placeName> 
+                            ne peuvent pénétrer dans nos îles, parce qu'on manque de capitaux indispensables aux premiers frais qu'ils nécessitent; et pour comble de détresse, voilà que loi politique dans laquelle ont enfin pénétré les principes humains contre la traite vient paralyser la loi fiscale, 
+                            <choice>
+                                <sic>déja</sic>
+                                <corr>déjà</corr>
+                            </choice>
+                            radicalement impuissante. Celle-ci voudrait encourager, protéger la fabrication du sucre dans nos îles, celle-là leur enlève les 
+                            <choice>
+                                <orig>instrumens</orig>
+                                <reg>instruments</reg>
+                            </choice>
+                            de
+                            <pb n="27" facs="v1n7p27"/>
+                            travail dont elles déclarent ne pouvoir se passer. La plus infâme des contrebandes, celle qui s'exerce sur la vente des infortunés créatures faites à l'image de Dieu, élève incessamment le prix des nègres, qui se paient de 1,800 fr. à 2,000 fr. (1)
+                            . La mortalité fait des ravages terribles parmi ces malheureux; leur nombre décroit si sensiblement et dans une proportion telle, qu'avant trente ans tout sera fini. En 1825, sur une habitation de 
+                            <placeName ref="#BrB">Bourbon</placeName>
+                            , dont les esclaves sont appelés nègres du roi, 925 noirs ont donné naissance à 37
+                            <choice>
+                                <orig>enfans</orig>
+                                <reg>enfants</reg>
+                            </choice> 
+                            , et ont été frappés de 65 décès; en 1826, on a compté 2,475 décès à la 
+                            <placeName ref="#MQ">Martinique</placeName>
+                            , contre 1,499 naissances; la 
+                            <placeName ref="#GP">Guadeloupe</placeName>
+                            a refusé de donner ses chiffres; elle a caché ses morts! Quelle situation! quel système! quel avenir ! 
+                        </p>
+                        <p>
+                            Et avec tout cela le plus intolérable orgueil, la haine la plus intraitable contre toute manifestation de la vérité; des catégories calculées sur les nuances de la peau; des persécutions odieuses, des flétrissures pour des crimes prétendus, commis par de si honnêtes gens, qu'en France il n'est personne qui ne s'honorât de les faire entrer dans sa famille. De ce côté de l'Atlantique, on ne peut nous fustiger, mais on nous travestit en brouillons, en tribuns, si nous élevons notre voix en faveur de la vérité; les faits les plus authentiques, ce sont de vaines déclamations; les principes les plus incontestables, ce sont d'absurdes théories; on nous prête des 
+                            <choice>
+                                <orig>sentimens</orig>
+                                <reg>sentiments</reg>
+                            </choice>
+                            haineux que nous n'avons pas, des motifs que nous ne pouvons avoir. Le mal s'éternise aux grand dommage des colons eux-mêmes, et il se fait en dernier résultat, que, pendant la guerre, il n'y a plus de colonies pour nous, que, pendant la paix, la cherté de leurs produit nous les rend onéreuses à l'excès.
+                        </p>
+                        <p>
+                            Nous terminerons l'analyse trop imparfaite de cette belle leçon par la citation textuelle de deux passages fort remarquables lus par M. 
+                            <persName>BLANQUI</persName> 
+                            à l'appui de ses calculs économiques et de son exposition des faits coloniaux; l'un appartient à M. 
+                            <persName>Ch. Comte</persName>
+                            , l'autre à l'illustre et malheureux voyageur 
+                            <persName>Victor Jacquemont</persName>
+                            . 
+                        </p>
+                        <p>
+                            <quote>
+                                Pour obtenir le travail d'un esclave, dit le savant jurisconsulte, un maître lui en paie une petite partie en denrées ou en vêtemens, et l'autre partie en coups de fouet. Nous ne pouvons considérer
+                            </quote>
+                        </p>
+                        <note>
+                            (1) Il y a erreur de chiffre ; à la Martinique à peine trouve-t-on aujourd'hui 1000 f. pour un esclave. (Note du rédacteur.)
+                        </note>
+                        <pb n="28" facs="v1n7p28"/>
+                        <p>
+                            <quote>
+                                ce qui est acquis avec ce dernier genre de monnaie autrement que nous considérons les bénéfices faits par les individus qui vont rançonner les voyageurs sur les grands chemins. Ainsi, quand nous accordons un monopole aux denrées vendues par des possesseurs d'hommes, au préjudice des propriétaires qui vendent les mêmes denrées, mais qui ne font cultiver leurs terres que par des personnes libres, nous sommes dans le même cas qu'un homme qui refuserait d'acheter des marchandises de ceux qui les ont produites, et qui ne voudrait acheter que des marchandises volées. Un tel commerce fait par un malhonnête homme serait naturel, si les marchandises volées étaient livrée à un prix beaucoup plus bas que le prix courant du commerce; mais si les voleurs, considérant les dangers de leur profession, demandaient un prix plus haut, que penserions-nous de celui qui leur donnerait la préférence? nous penserions que cet homme-là porte l'improbité jusqu'à l'extravagance.
+                                (1)
+                            </quote>
+                        </p>
+                        <p>
+                            Le 12 janvier 1829, Jacquemont écrivait à son ami M. de Tracy, membre de la chambre des députés: 
+                            <quote>
+                                J'ai vu de près, à
+                                <placeName>Rio</placeName> 
+                                , cet horrible trafic qui s'y fait sur une échelle immense. J'ai gardé de la vue de ces misères humaines un sentiment d'horreur qui s'efface avec peine de mon esprit épouvanté. Cependant qui veut la fin veut le moyen. Dites bien que l'esclavage des noirs est la condition
+                                <foreign>
+                                    sine
+                                    <choice>
+                                        <orig>quâ</orig>
+                                        <reg>qua</reg>
+                                    </choice> 
+                                    non
+                                </foreign> 
+                                de l'existence du 
+                                <placeName ref="#BR">Brésil</placeName>
+                                , comme de la domination européenne dans toutes les terres de l'
+                                <placeName>Amérique</placeName>
+                                 situées entre les tropiques, sans être fort élevées au dessus du niveau de la mer.
+                            </quote>
+                        </p>
+                        <p>
+                            <quote>
+                                Pour nous en particulier, si 
+                                <placeName ref="#Cay">Cayenne</placeName>
+                                et 
+                                <placeName ref="#BrB">Bourbon</placeName>
+                                éprouvent depuis quelques années un mouvement de prospérité, il est dû seulement à ce que la connivence des administrateurs de ces colonies, pour ne pas dire leur protection éclatante, y a laissé débarquer plus de cargaisons d'esclaves... Dites donc que le cri général de l'opinion accuse d'une connivence criminelle dans la traite l'administration des colonies. Dites que vous êtes convaincu qu'elles ne peuvent prospérer que par la traite, qu'elles ne peuvent même se soutenir que par de continuelles importations de
+                            </quote>
+                        </p>
+                        <note>
+                            (1) 
+                            <persName>Ch. Comte</persName>
+                            , 
+                            <bibl type="monogr">
+                                <title>Traité de législation</title>
+                            </bibl>
+                            , liv. 5, chap. xix.
+                        </note>
+                        <pb n="29" facs="v1n7p29"/>
+                        <p>
+                            <quote>
+                                noirs, et que leur prospérité actuelle est la plus haute condamnation de leur administration.» (1)
+                            </quote>
+                        </p>
+                        <p>
+                            M. 
+                            <persName>Blanqui</persName>
+                            pense qu'il existe des moyens de concilier autant que possible les principes de propriété, que le désordre colonial ne doit point faire perdre de vue, avec la question de con sommation intérieure, celle d'humanité plus haute, plus sacrée. Il annonce qu'il s'en occupera le vendredi 9 janvier dans une leçon prochaine.
+                        </p>
+                        <p>
+                            Dans son prochain numéro, la
+                            <bibl type="periodical">
+                                <title>Revue des colonies </title>
+                            </bibl> 
+                            donnera l'analyse fidèle de cette leçon.
+                        </p>
+                    </div>
+                </div>
+                <div xml:id="USA">
+                    <head n="États-unis."> <placeName>ÉTATS-UNIS</placeName>.</head>
+                    <div xml:id="SocUSesclavage">
+                        <head n="Société américaine contre l'esclavage."><orgName>SOCIÉTÉ AMÉRICAINE CONTRE L'ESCLAVAGE</orgName>.</head>
+                        <p>
+                            Nous avons sous les yeux le premier rapport annuel de la 
+                            <orgName>Société américaine contre l'esclavage</orgName>
+                            , et les discours prononcés dans la réunion anniversaire, à 
+                            <placeName>Chatham Street Chapel</placeName>
+                            , dans la ville de 
+                            <placeName>New-York</placeName>
+                            , ainsi que les pièces officielles constatant les travaux de la 
+                            <orgName>Société</orgName> 
+                            dans ses diverses réunions.
+                        </p>
+                        <p>
+                            Cette 
+                            <orgName>Société</orgName>
+                            , qui s'est constituée à 
+                            <placeName>Philadelphie</placeName>
+                            , le 4 décembre 1833, dans une réunion composée de soixante-trois délégués, représentant les diverses sociétés des Etats du 
+                            <placeName>Maine</placeName>
+                            , 
+                            <placeName>Vermont</placeName>
+                            , 
+                            <placeName>New Hampshire</placeName>
+                            , 
+                            <placeName>Massachusetts</placeName>
+                            , 
+                            <placeName>Rhode-Island</placeName>
+                            , 
+                            <placeName>Connecticut</placeName>
+                            , 
+                            <placeName>New-York</placeName>
+                            , 
+                            <placeName>New-Jersey</placeName>
+                            , 
+                            <placeName>
+                                <choice>
+                                    <sic>Pensylvanie</sic>
+                                    <corr>Pennsylvanie</corr>
+                                </choice>
+                            </placeName>
+                            , 
+                            <placeName>Ohio</placeName>
+                            , 
+                            <placeName>Maryland</placeName>
+                            , 
+                            <placeName>Delaware</placeName>
+                            , dans le 
+                            <placeName>district de Columbia</placeName>
+                            et le 
+                            <placeName>territoire de Michigan</placeName>
+                            , a publié, après une solennelle délibération qui dura trois jours, une déclaration de principes où respire le plus grand esprit religieux et de philosophie.
+                        </p>
+                        <p>
+                            Dans la séance anniversaire, tenue en 1834, assistait un auditoire nombreux et distingué. Beaucoup de personnes d'un grand talent y ont prononcé des discours très remarquables. 
+                        </p>
+                        <p>
+                            Le comité est composé de:
+                            MM
+                            <list>
+                                <item> <persName>ARTHUR TAPPAN</persName>, président.</item>
+                                <item> <persName>JOHN RANKIN</persName>, vice-président.</item>
+                            </list>
+                        </p>
+                        <note>(1) Correspondance, p. 51.</note>
+                        <pb n="30" facs="v1n7p30"/>
+                        <p>
+                            <list>
+                                <item> 
+                                    <persName>SAMUEL H. Cox</persName>, secrétaire pour la correspondance étrangère. 
+                                </item>
+                                <item> <persName>SAMUEL E. CORNISH. </persName> </item>
+                                <item> <persName>JOSHUA LAEWITT,</persName></item>
+                                <item> <persName>WILLIAM GREEN</persName>, trésorier,</item>
+                                <item> <persName>PETER WILLIAMS </persName>(homme de couleur).</item>
+                                <item><persName>THEODORE WRIGHT</persName>.</item>
+                                <item><persName>LEWIS TAPPAN</persName>.</item>
+                                <item><persName>WILLIAM GOODELL</persName>.</item>
+                                <item>
+                                    <persName>ABRAHAM SCox</persName>, secrétaire-rapporteur.
+                                </item>
+                                <item>
+                                    <persName>ELIZAR WRIGHT, JUN.</persName>, secrétaire pour la correspondance intérieure.
+                                </item>
+                            </list>
+                        </p>
+                        <p>
+                            Dans nos prochaines livraisons nous ferons connaître les travaux de cette honorable société.
+                        </p>
+                    </div>
+                </div>
+                <div xml:id="ColFr">
+                    <head n="Colonies françaises."><placeName>COLONIES FRANÇAISES.</placeName></head>
+                    <div xml:id="Martinique.">
+                        <head n="Martinique."><placeName ref="#MQ">MARTINIQUE</placeName>.</head>
+                        <p>
+                            Notre correspondant de Saint-Pierre nous écrit sous la date du 2 octobre:
+                        </p>
+                        <p>
+                            <quote>
+                                «Le 
+                                <orgName>gouvernement colonial </orgName>
+                                a fait publiquement la traite, d'une nouvelle espèce, dans la journée du 10 septembre dernier. La goëlette 
+                                <emph>la Charte</emph>
+                                , 
+                                <roleName>capitaine </roleName>
+                                <persName>Coulin</persName>
+                                , 
+                                <roleName>armateur </roleName>
+                                <persName>T. P. Ferry</persName>
+                                , a reçu à son bord huit esclaves des deux sexes, pour être conduit à 
+                                <placeName>
+                                    <choice>
+                                        <orig>Porto-Ricco</orig>
+                                        <reg>Porto Rico</reg>
+                                    </choice>
+                                </placeName>
+                                , pour le compte d'un habitant de cette colonie, qui les avait achetés. La barque qui les a amenés à bord de la goëlette la Charte était sous la garde de deux 
+                                <roleName>gendarmes royaux</roleName>
+                                , et un 
+                                <roleName>chasseur des montagnes</roleName>
+                                , que j'ai reconnu être le 
+                                <roleName>planton </roleName>
+                                de 
+                                <persName>M. Rosily</persName>
+                                , 
+                                <roleName>directeur-général de l'intérieur</roleName>
+                                . La Charte est restée deux jours sur rade, après l'embarquement desdits esclaves; et durant ce temps les deux gendarmes ont stationné à son bord. Ce fait est patent, tout le monde l'a vu ici, et l'on se demande pour quel compte cette opération commerciale a été faite.»
+                            </quote>
+                        </p>
+                        <pb n="31" facs="v1n7p31"/>
+                        <p>
+                            Une autre lettre du 3 novembre, s'exprime ainsi :
+                        </p>
+                        <p>
+                            <quote>
+                                Depuis que le gouvernement de la colonie, au mépris des lois, a vendu, à 
+                                <persName>un sieur Maréchal</persName>
+                                , des esclaves qui ont été embarqués sur la goëlette la Charte, ainsi que je vous l'ai déjà écrit, cette infâme trafic se continue d'une manière épouvantable par les particuliers qui achètent des propriétés à 
+                                <placeName>
+                                    <choice>
+                                        <orig>Porto-Ricco</orig>
+                                        <reg>Porto Rico</reg>
+                                    </choice>
+                                </placeName>
+                                . Dès qu'un esclave déplaît, le maître n'a d'autre moyen de s'en défaire que de le vendre à ces nouveaux 
+                                <choice>
+                                    <orig>trafiquans </orig>
+                                    <reg>trafiquants</reg>
+                                </choice>
+                                de chair humaine, qui les importent à 
+                                <placeName>
+                                    <choice>
+                                        <orig>Porto-Ricco</orig>
+                                        <reg>Porto Rico</reg>
+                                    </choice>
+                                </placeName>
+                                sur des bateaux caboteurs, que l'on ne se donne pas la peine de surveiller. On compte ici, depuis un mois, plus de vingt esclaves qui sont allés recruter les ateliers de 
+                                <placeName>Bigue</placeName>
+                                et 
+                                <placeName>Mayagônes</placeName>
+                                . Il y a trois jours qu'un bateau devait en prendre dix, qui déjà étaient renfermés dans les cachots d'une habitation de la 
+                                <placeName>Rivière-Blanche</placeName>
+                                ; les manoeuvres de ce caboteur ayant éveillé la surveillance d'une goëlette de la douane, le bateau n'a pu en recevoir que trois; un autre allait être embarqué, qui se trouvait menotté, dans une pirogue, accompagné de son maitre; mais, à la vue du navire qui devait l'éloigner pour toujours de la terre natale, des cris de désespoir lui échappent; une lutte de résistance s'engage entre le maître et l'esclave; la frêle pirogue, peu lestée, ne peut résister au choc, chavire et entraîne le malheureux esclave menotté dans les profondeurs de la mer. Les uns prétendent qu'on réussit à le sauver et à le mettre à bord du navire; d'autres assurent qu'il a été noyé. Si je ne puis, aujourd'hui, vous donner plus de 
+                                <choice>
+                                    <orig>renseignemens </orig>
+                                    <reg>renseignements</reg>
+                                </choice>
+                                sur ce fait, c'est que ce maître misérable, d'accord avec ceux qui ont trafiqué avec lui, a su envelopper ses actions d'un voile mystérieux, que je parviendrai peut-être à soulever. 
+                            </quote>
+                        </p>
+                        <p>
+                            <quote>
+                                Il y a tumulte et désaccord au 
+                                <orgName>conseil colonial</orgName>
+                                , réuni depuis le 15 octobre. Les conseillers ne veulent pas admettre les chefs d'administration à leur délibération, et ceux-ci prétendent, à tort, y être appelés de droit, quand ceux-là persistent à ne leur reconnaitre cette prérogative qu'alors qu'ils sont porteurs de projets de décrets du 
+                                <orgName>gouvernement</orgName>
+                                . Le 
+                                <roleName>gouverneur </roleName>
+                                s'étant rangé du parti de ses hauts 
+                                <choice>
+                                    <orig>agens</orig>
+                                    <reg>agents</reg>
+                                </choice>
+                                , le 
+                                <orgName>conseil colonial</orgName>
+                                , plutôt que de se laisser dissoudre, a mieux aimé céder, mais forcément et avec la sérieuse intention de mentionner cette contrainte dans ses procès-verbaux. Deux 
+                                <roleName>conseillers </roleName>
+                                ont donné leur démission, MM. 
+                                <persName>Maillet </persName>
+                                et 
+                                <persName>Vergeron</persName>
+                                .
+                            </quote>
+                        </p>
+                        <pb n="32" facs="v1n7p32"/>
+                    </div>
+                    <div xml:id="Alger">
+                        <head n="Alger."><placeName>ALGER</placeName>.</head>
+                        <p>
+                            Un arrêté du 
+                            <roleName>lieutenant-général</roleName>
+                            , 
+                            <persName>comte d'Erlon</persName>
+                            , 
+                            <roleName>gouverneur-général</roleName> 
+                            des 
+                            <placeName>possessions françaises dans le nord de l'Afrique</placeName>
+                            , décide que le 
+                            <orgName>conseil municipal</orgName> 
+                            de la ville d'
+                            <placeName>Alger </placeName>
+                            sera composée du 
+                            <roleName>maire </roleName>
+                            et de dix-neuf membres appartenant aux populations française, musulmane et juive, dans la proportion suivante:
+                            <list>
+                                <item>Français ..... 10</item>
+                                <item>Musulmans ......6</item>
+                                <item>Juifs ..........3</item>
+                            </list>
+                        </p>
+                        <p>
+                            Sont nommés membres dudit conseil, MM. Alphandery, négociant; 
+                            <persName>Bonneville</persName>
+                            , président de la 
+                            <orgName>société de Colonisation</orgName>
+                            ; Bournichon, négociant; Carantène, négociant; Conput, négociant; Duchassaing, propriétaire; 
+                            <persName>Girot</persName>, président de la 
+                            <orgName>chambre du Commerce</orgName>
+                            ; Martin, notaire; Vialard, propriétaire; Urtis, avocat; Achmed-abou-Darla, Ali-ben-Elbahhar, Mohammed-Madani, Kadji-ben-Otsman-Khodja, Ibrahim-ben-Moustapha-Pacha, Joseph-Bacri, propriétaire; Léon Durant, négociant; Moise et David Narboni, 
+                            <choice>
+                                <orig>négocians</orig>
+                                <reg>négociants</reg>
+                            </choice>
+                            .
+                        </p>
+                        <p>
+                            Les membres de ce conseil sont nommés pour un an, et peuvent rentrer en exercice à l'expiration de ce terme.
+                        </p>
+                    </div>
+                </div>
+                <div xml:id="ColÉtr">
+                    <head n="Colonies étrangères.">COLONIES ÉTRANGÈRES.</head>
+                    <div xml:id="Antigue">
+                        <head n="Antigue."><placeName>ANTIGUE.</placeName></head>
+                        <p>
+                            Nous lisons dans le journal d'<placeName>Antigue</placeName>:
+                        </p>
+                        <p>
+                            <quote>
+                                «Les nouvelles qui parviennent chaque jour de toutes parts confirment l'admirable conduite des hommes nouvellement émancipés. Nous nous sentirions heureux de n'avoir que des louanges à donner, mais il y aurait de l'injustice à ne pas avouer que la patience d'un grand nombre de ces émancipés a été mise à une bien rude épreuve: épreuve qu'ils ont jusqu'à présent supportée avec une admirable résignation. On a rapporté une foule de traits peu honorables pour certains colons planteurs: nous ne citerons qu'un petit nombre de ces traits inhumains et peu généreux, qui ne font pas l'éloge de la conduite de ces colons.
+                            </quote>
+                        </p>
+                        <pb n="33" facs="v1n7p33"/>
+                        <p>
+                            <quote>
+                                Sur une habitation, le 
+                                <roleName>commandeur</roleName> 
+                                a fait renfermer sous clé toutes les provisions arrachées dans les coins de terres cultivées par les noirs émancipés. 
+                            </quote>
+                        </p>
+                        <p>
+                            <quote>
+                                «Dans d'autres propriétés on a refusé aux vieillards la subsistance que leur accorde la loi. Un propriétaire a fait arrêter, comme vagabond, et renfermer dans la maison d'arrêt un pauvre homme, 
+                                <choice>
+                                    <orig>parcequ</orig>
+                                    <reg>parce qu</reg>
+                                </choice>
+                               'il avait passé la nuit dans la maison de sa femme attachée à ladite plantation. Ce même propriétaire, quoique magistrat, a ordonné à son garde d'arrêter, s'il paraissait sur l'habitation, un noir qu'il avait chassé 
+                               <choice>
+                                    <orig>parcequ</orig>
+                                    <reg>parce qu</reg>
+                                </choice>
+                               'il refusait de se louer, n'étant pas capable de manier la houe. Et cependant ce malheureux avait tout ce qu'il possédait renfermé dans sa case.
+                            </quote>
+                        </p>
+                        <p>
+                            <quote>
+                                «Il serait par trop injuste de laisser peser sur tous les colons anciens propriétaires d'esclaves les reproches que nous venons d'adresser à quelques-uns, et c'est avec un bien vif plaisir que nous rendons hommage à la bonté, aux manières conciliantes dont un grand nombre de propriétaires ont usé vis-à-vis de leurs laboureurs.
+                            </quote>
+                        </p>
+                        <p>
+                            <quote>
+                                «Après avoir parlé de ces méchantes tracasseries des planteurs, qui ne proviennent que d'un violent regret d'avoir perdu un pou voir sans bornes, et d'une intention malveillante de pousser les malheureux noirs à la révolte, nous signalerons la nécessité d'opérer un changement complet dans la magistrature, ou plutôt de faire intervenir entre les maîtres et les noirs émancipés des hommes nouveaux qui ne sont pas habitués à exploiter des habitations et des esclaves.»
+                            </quote>
+                        </p>
+                    </div>
+                    <div xml:id="Saint-Christophe">
+                        <head n="Saint-christophe"><placeName>Saint-Christophe</placeName></head>
+                        <p>
+                            Voici dans quels termes le journal d'<placeName>Antigue</placeName> rapporte ce qui s'est passé à <placeName>Saint-Christophe</placeName>, à l'occasion de l'abolition de l'esclavage:
+                        </p>
+                        <p>
+                            <quote>
+                                «Les noirs, détrompés de leurs espérances d'une entière liberté, et ayant appris que leurs frères d'<placeName>Antigue</placeName> devaient, le premier août, jouir de tous les droits de citoyen, formèrent la résolution de travailler seulement comme des hommes vraiment libres, c'est à dire pour un salaire et avec la faculté de choisir ceux qui devaient les employer. Ils persévèrent dans cette disposition malgré deux proclamations que le 
+                                <roleName>gouverneur</roleName> 
+                                <persName>Mac-Grégor</persName> publia pour
+                            </quote>
+                            <pb n="34" facs="v1n7p34"/>
+                            <quote>
+                                les rappeler à l'ordre et les éclairer sur les conséquences de leur désobéissance à la loi. Il faut avouer cependant en faveur des noirs qu'au milieu de leur égarement ils ne commirent aucun acte de violence et de révolte, excepté dans une seule circonstance, lors que le 
+                                <roleName>lieutenant-gouverneur</roleName> 
+                                fut insulté par un petit nombre; mais comme il était à craindre que cet état d'entêtement, d'oisiveté, en se prolongeant, ne se changeât en révolte ouverte, le 
+                                <roleName>gouverneur général</roleName> 
+                                remplaça les formes lentes de la justice civile par l'action rapide et énergique de la loi militaire. A peine sut-on que la milice était sous les armes et les troupes prêtes à marcher qu'on apprit le retour d'une foule d'apprentis à leurs travaux, et la soumission graduelle de la totalité des émancipés. Le gouverneur, voyant l'ordre rétabli parmi la population travaillante, jugea à propos de délivrer le pays des devoirs
+                                <choice>
+                                    <orig>fatigans</orig>
+                                    <reg>fatigants</reg>
+                                </choice> 
+                                de la loi martiale. La proclamation qu'il publia alors renferma des avis pour les maîtres et les serviteurs.
+                            </quote>
+                        </p>
+                        <p>
+                            <quote>
+                                «Après avoir annoncé la soumission des rebelles, le 
+                                <roleName>gouverneur</roleName>
+                                engagea les maîtres à oublier les fautes de ces hommes égarés; il accorda, au nom de 
+                                <roleName>son souverain</roleName>
+                                , une amnistie à tous ceux qui ne sont pas sous la main de la justice: il espère, dit-il, que les apprentis se montreront reconnaissans de cette clémence en obéissant au 
+                                <roleName>lieutenant-général </roleName>
+                                et aux autorités de la colonie, et qu'en outre les propriétaires et la première classe de la société donneront l'exemple de cette soumission aux lois, dans leur propre intérêt et comme obligation imposée à tous les sujets de 
+                                <roleName>S. M.</roleName>
+                            </quote>
+                        </p>
+                        <p>
+                            <quote>
+                                «Une des causes qui ont le plus contribué à irriter les apprentis de <placeName>St-Christophe</placeName> 
+                                est, sans doute, la générosité de cinq propriétaires: lords <persName>Combermère</persName>
+                                et 
+                                <persName>Rodney</persName>, 
+                                <persName>Mme Biscon</persName>
+                                , et deux autres personnes qui n'ont pas exigé de leurs laboureurs l'apprentissage, et leur ont accordé des salaires, tandis que leurs compagnons, hommes libres, gémissent dans les liens de l'esclavage, anoblis d'un titre nouveau et faux.
+                            </quote>
+                        </p>
+                        <p>
+                            <quote>
+                                «Dans ces troubles momentanés cinq des nouveaux émancipés ont été transportés à l'établissement de correction, aux 
+                                <orgName>Bernardins</orgName>, et on déplore la mort de trois de ces infortunés tués dans la nuit pour n'avoir pas répondu aux cris des sentinelles. 
+                            </quote>
+                        </p>
+                        <p>
+                            <quote>
+                                «Les noirs de 
+                                <placeName>St-Christophe</placeName> ne considèrent pas le <roleName>gouverneur</roleName> actuel comme ses prédécesseurs, ils se figurent que le roi l'a en-
+                            </quote>
+                            <pb n="35" facs="v1n7p35"/>
+                            <quote>
+                                -voyé non seulement pour gouverner la colonie, mais particulière ment pour les protéger; et il les a, en quelque sorte, confirmés dans cette pensée par le soin généreux qu'il a pris de recommander à tous une conduite convenable envers cette population, et son empressement à écouter leurs griefs. Nous sommes convaincus que ce simple déploiement de forces et ces mesures énergiques ordonnées par celui qu'ils considèrent comme leur ami, ont imprimé une crainte beaucoup plus salutaire aux apprentis de 
+                                <placeName>St-Christophe</placeName> que le carnage de quelques centaines par celui qui n'aurait pas la même qualité à leurs yeux.
+                            </quote>
+                        </p>
+                        <p>
+                            <quote>
+                                «Le <roleName>gouverneur</roleName> a fait reviser plusieurs des 
+                                <choice>
+                                    <orig>jugemens</orig>
+                                    <reg>jugements</reg>
+                                </choice>
+                                 prononcés contre quelques-uns de ces malheureux, les peines lui ont paru beaucoup trop fortes; il paraîtrait que par suite de la ferme résolution manifestée par lui de ne tolérer aucune sévérité excessive, la somme des punitions infligées s'est trouvée réduite de beaucoup. Quelques-uns des plus exaltés partisans de l'esclavage en ont manifesté leur déplaisir; mais l'opinion de tels hommes ne mérite aucune attention.»
+                            </quote>
+                        </p>
+                        <p>
+                            Le journal termine ainsi :
+                        </p>
+                        <p>
+                            <quote> 
+                                «Quoique nous soyons persuadés de déplaire à beaucoup de colons de <placeName>St-Christophe</placeName>, en publiant ce qui précède, nous n'avons pas dû manquer à notre devoir, tout en regrettant que l'occasion s'en fût présentée. Il n'a pas été dans notre intention d'insinuer que nos voisins sont plus injustes que nous-mêmes et que les 
+                                <choice>
+                                    <orig>habitans</orig>
+                                    <reg>habitants</reg>
+                                </choice>
+                                des autres colonies: non, certainement; mais nous croyons qu'ils sont encore sous le joug de ces préjugés absurdes et barbares et qu'ils agissent sous l'influence de cet esprit de haine et d'orgueil enfanté par le système de l'esclavage. L'on frémit vraiment rien qu'à l'idée d'un tribunal composé d'hommes sous l'empire de passions toutes créoles, et dont le plus grand nombre sont partie intéressée et jugent ceux qui naguère étaient leurs esclaves.
+                            </quote>
+                        </p>
+                        <p>
+                            <quote>
+                                «On assure que deux personnes qui sont arrivées dernièrement de <placeName>St-Christophe</placeName> à <placeName>Antigue</placeName> sont chargées, dans l'intérêt de leurs concitoyens, d'étudier notre mode de liberté pleine et entière. C'est d'un bon augure, et nous désirons sincèrement que leur rapport fasse remplacer l'apprentissage par la liberté entière.»
+                            </quote>
+                        </p>
+                    </div>
+                    <pb n="36" facs="v1n7p36"/>
+                    <div xml:id="Maurice">
+                        <head n="Maurice."><placeName>MAURICE</placeName>.</head>
+                        <p>
+                            On nous écrit de <placeName>Port-Louis</placeName>, 12 septembre:
+                        </p>
+                        <p>
+                            <quote>
+                                «L'ordre de rappel de <persName>M. Jérémie</persName>, <roleName>procureur-général</roleName>, est arrivé le 27 août, et lui a été signifié le 29. Le <roleName>gouverneur</roleName>, chargé de faire des nominations provisoires, a offert la place de procureur et <roleName>avocat-général</roleName> à M. <persName>Prosper d'Epinay</persName>, qui n'a accepté que celle d'avocat-général; mais c'est l'avocat-général qui, pour le moment, 
+                                <choice>
+                                    <orig>siége</orig>
+                                    <reg>siège</reg>
+                                </choice>
+                                <choice>
+                                    <sic>aux</sic>
+                                    <corr>au</corr>
+                                </choice>
+                                <orgName>Conseil législatif de la colonie</orgName> et à la 
+                                <orgName>
+                                    commission chargée de régler l'indemnité pour les esclaves
+                                </orgName>
+                                . M. <persName>D'Epinay</persName> a refusé d'accepter les fonctions de <roleName>procureur-général</roleName> avant de savoir si on n'enverrait pas un magistrat d'<placeName ref="#ANG">Angleterre</placeName>. Ce cas excepté, c'est lui qui sera nommé à cette place, que M. <persName>Williams</persName>, substitut de M. <persName>Jérémie</persName>, occupe provisoirement.
+                            </quote>
+                        </p>
+                        <p>
+                            <quote>
+                                «M. <persName>Jérémie</persName> qui avait de suite pris son parti et arrêté son passage sur un navire partant pour <placeName>Londres</placeName>, s'est décidé à rester pour attendre l'effet de ses lettres de justification. Il s'occupe en ce moment de faire courir une adresse au <roleName>roi</roleName> pour demander qu'il soit réintégré dans ses fonctions, comme le seul homme, dans la colonie, capable de les remplir.»
+                            </quote>
+                        </p>
+                    </div>
+                    <div xml:id="Sainte-Lucie">
+                        <head n="Sainte-lucie."><placeName>SAINTE-LUCIE</placeName>.</head>
+                        <p>
+                            On nous écrit de <placeName>Castries</placeName>, à la date du 1" novembre: 
+                        </p>
+                        <p>
+                            <quote>
+                                «Les premiers mois qui suivirent l'affranchissement des esclaves, les apprentis paraissaient vouloir négliger leur travail, y voyant le type de leur ancienne condition; mais aujourd'hui ils sont revenus de leur erreur, et le travail prospère. Les ateliers sont bien; tout ici est dans la plus grande tranquillité; les propriétaires sont 
+                                <choice>
+                                    <orig>contens</orig>
+                                    <reg>contents</reg>
+                                </choice>
+                                , et je ne désespère pas que la colonie fasse plus de revenu qu'elle n'en a jamais fait.»
+                            </quote>
+                        </p>
+                    </div>
+                    <div xml:id="Jamaïque">
+                        <head n="Jamaïque."><placeName>JAMAÏQUE</placeName>.</head>
+                        <p>
+                            Nous lisons dans le 
+                            <bibl type="periodical">
+                                <title>Watchman</title>
+                            </bibl>
+                            , journal qui s'imprime à la <placeName>Jamaïque</placeName>, le passage suivant sur l'effet qu'a produit dans cette colonie la grande mesure d'abolition de l'esclavage:
+                        </p>
+                        <pb n="37" facs="v1n7p37"/>
+                        <p>
+                            <quote>
+                                «Nous sommes heureux d'avoir à annoncer que les apprentis nouvellement émancipés se livrent paisiblement à leurs travaux ordinaires dans toutes les paroisses de la colonie.»
+                            </quote>
+                        </p>
+                    </div>
+                </div>
+                <div xml:id="NvellesDiverses">
+                    <head n="Nouvelles diverses.">NOUVELLES DIVERSES.</head>
+                    <p>
+                        Le ministère en Angleterre est définitivement constitué. Les membres de ce nouveau cabinet ont été choisis parmi les adversaires les plus décidés de toute espèce de réforme. C'est tout ce qu'il y a de plus rétrograde dans la vieille aristocratie anglaise. En voici les noms:
+                        <list>
+                            <item>
+                                <persName>Sir Robert Peel</persName>, <roleName>premier lord de la trésorerie</roleName> et <roleName>chancelier de l'échiquier</roleName>. 
+                            </item>
+                            <item>
+                                Le <persName>duc de Wellington</persName>, <roleName>secrétaire-d'état des affaires étrangères</roleName>.
+                            </item>
+                            <item>
+                                <persName>M. Goulburn</persName>, <roleName>secrétaire-d'état au département de l'intérieur</roleName>.
+                            </item>
+                            <item><persName>Lord Warncliffe</persName>, <roleName>lord du sceau privé</roleName>.</item>
+                            <item>
+                                <persName>M. Alex. Baring</persName>, président du <orgName>bureau du commerce</orgName>.
+                            </item>
+                            <item>
+                                <persName>Le comte de Rosslyn</persName>, président du <orgName>conseil</orgName>.
+                            </item>
+                            <item>
+                                <persName>Sir George Murray</persName>, <roleName>grand-maitre de l'artillerie</roleName>.
+                            </item>
+                            <item>
+                                <persName>Sir Edouard Knatchbull</persName>, <roleName>payeur-général des forces</roleName>.
+                            </item>
+                            <item>
+                                <persName>Lord Ellenborough</persName>, président du <orgName>bureau du contrôle</orgName>.
+                            </item>
+                            <item>
+                                <persName>M. Herries</persName>, <roleName>secrétaire de la guerre</roleName>.
+                            </item>
+                            <item>
+                                <persName>Lord Lyndhurst</persName>, <roleName>lord chancelier</roleName>.
+                            </item>
+                            <item>
+                                <persName>Sir James Scarlett</persName>, <roleName>premier baron de l'échiquier</roleName>.
+                            </item>
+                            <item>
+                                <persName>Sir Edouard Sugdon</persName>, <roleName>lord chancelier d'Irlande</roleName>.
+                            </item>
+                            <item>
+                                <persName>Sir Henri Hardinge</persName>, premier secrétaire du lord lieutenant. 
+                            </item>
+                            <item>
+                                <persName>Le comte d'Aberdeen</persName>, <roleName>secrétaire d'état pour les colonies</roleName>.
+                            </item>
+                        </list>
+                    </p>
+                    <p>
+                        — Nous lisons dans l'
+                        <bibl type="periodical">
+                            <title>Abolitionist</title>
+                        </bibl> 
+                        l'extrait suivant d'un rapport des commissaires anglais à leur gouvernement:
+                    </p>
+                    <p>
+                        <quote>
+                            «C'est avec beaucoup de regret que nous annonçons de nouveau la continuation, sur une grande échelle, de la traite des noirs aux <placeName>Galinas</placeName>, <persName>Jozé de Inza</persName>, capitaine de la <emph>Segunda Socorro</emph>, négrier dernièrement capturé, a avoué au greffier, M. Lewis, qui le questionnait sur la traite, que trois négriers espagnols avaient pris des noirs dans le même lieu, et qu'un quatrième, de la même na-
+                        </quote>
+                    </p>
+                    <pb n="38" facs="v1n7p38"/>
+                    <p>
+                        <quote>
+                            tion, devait faire voile avec son chargement complet, peu après le départ de la <emph>Segunda Socorro</emph>.
+                        </quote>
+                    </p>
+                    <p>
+                        <quote>
+                            «Voici les noms des trois premiers navires: 
+                            <list>
+                                <item>
+                                    Le brick <emph>el Temerario</emph> emportait…………….600 noirs.
+                                </item>
+                                <item>
+                                    Le brick <emph>la Imperice</emph>......………………………….450
+                                </item>
+                                <item>
+                                    La goëlette <emph>Segunda Socorro</emph> ……………....507
+                                </item>
+                                <item>Un navire à trois mâts, inconnu ………….....450</item>
+                                <item>Total…….807</item>
+                            </list>
+                        </quote>
+                    </p>
+                    <p>
+                        <quote>
+                            «Inza n'a pas hésité d'avouer qu'il se livrait depuis 
+                            <choice>
+                                <orig>long-temps</orig>
+                                <reg>longtemps</reg>
+                            </choice>
+                            à la traite des noirs, qu'il avait déjà fait quatorze voyages, les quatre derniers aux <placeName>Galinas</placeName>, et que c'était la première fois qu'il avait été capturé.
+                        </quote>
+                    </p>
+                    <p>
+                        <quote>
+                            «Le nombre des navires négriers pris dans le cours de l'année 1833, et conduit à <placeName>la Havane</placeName>, est de quatre, tous espagnols; ils avaient à leur bord, au moment de leur capture, 1,519 noirs; il en mourut 63, les 1,456 restant furent affranchis et rendus à la liberté.»
+                        </quote>
+                    </p>
+                    <p>
+                        —— Afin de prouver avec quelle activité la traite se fait encore à <placeName>la Havane</placeName>, les commissaires délégués en ce port établissent dans leur rapport que dans l'année 1831 trente navires négriers y ont débarqué leur cargaison; qu'en 1832 vingt-sept négriers, dont deux <placeName>portugais</placeName>, ont également réussi dans leur voyage, et qu'un peu avant le mois d'octobre, date de leur dernière dépêche, il partait et arrivait à chaque instant des navires négriers que les autorités <placeName>espagnoles</placeName> protégaient sous main. Dans une communication qu'ils adressaient au <orgName>gouvernement anglais</orgName> en 1833, ils signalaient la goëlette <emph>Printa</emph>, capitaine Capo, et le brick <emph>Plinio</emph>, capitaine Ignacio-Calbert, comme faisant habituellement le traite des noirs. Ce dernier navire était entré dans le port de <placeName>Santiago de Cuba</placeName> après avoir débarqué des noirs de traite sur la côte. Le brick la <emph>Ninsa</emph>, capitaine José-Salval en avait débarqué plus de 600.
+                    </p>
+                    <p>
+                        Dans une dépêche du 12 septembre 1834, après avoir annoncé que 760 noirs avaient été débarqués à quatorze lieues de la ville de <placeName>la Havane</placeName>, ils ajoutent que la déclaration du <orgName>gouvernement espagnol</orgName>, touchant le trafic des noirs, a été faite d'une manière si imparfaite, et que les précautions de surveillance sont tellement insuffisantes, que les navires négriers s'expédient ouvertement pour les
+                    </p>
+                    <pb n="39" facs="v1n7p39"/>
+                    <p>
+                        ports d'<placeName>Afrique</placeName> où l'on sait qu'ils ne peuvent faire aucun commerce légitime. Ils signalent plusieurs points de l'île, et même le voisinage de la <placeName>capitale</placeName>, où des baraques y sont construites à l'usage des noirs nouvellement débarqués.
+                    </p>
+                    <p>
+                        —— Le <roleName>correspondant </roleName> de <placeName>Hambourg</placeName> publie une lettre de <placeName>Copenhague</placeName>, annonçant que le <roleName>roi de Danemark</roleName> a rendu une ordonnance par laquelle il est expressément recommandé d'observer la plus parfaite égalité à l'égard de la population libre des colonies dannoises; toutes distinctions entre les blancs et les hommes de couleur sont pour toujours abolies par cette ordonnance; tous les hommes de couleur qui produiront des preuves d'une conduite irréprochable pendant trois années successives seront rendus à la liberté et appelés à jouir des mêmes droits civils et politiques que la population blanche. Cette dernière disposition est applicable aussi aux hommes de couleur nés hors des colonies.
+                    </p>
+                    <p>
+                        —— Le 
+                        <bibl type="periodical">
+                            <title ref="#MU">Moniteur</title>
+                        </bibl>
+                        publie le relevé des 
+                        <choice>
+                            <orig>affranchissemens</orig>
+                            <reg>affranchissements</reg>
+                        </choice>
+                        d'esclaves dont la connaissance officielle est parvenue au <orgName>département de la marine</orgName> depuis le 13 août 1834. Le nombre des nouveaux 
+                        <choice>
+                            <orig>affranchissemens</orig>
+                            <reg>affranchissements</reg>
+                        </choice>
+                        accordés dans les quatre colonies, la <placeName ref="#MQ">Martinique</placeName>, la <placeName ref="#GP">Guadeloupe</placeName>, la 
+                        <placeName>
+                            <choice>
+                                <orig>Guiane-Française</orig>
+                                <reg>Guyane Française</reg>
+                            </choice>
+                        </placeName> et <placeName ref="#BrB">Bourbon</placeName>, s'élève à 2,051. Et le nombre total depuis la fin de 1850 s'élève à :
+                        <list>
+                            <item>14,919, pour la <placeName ref="#MQ">Martinique</placeName>.</item>
+                            <item>6,251, pour la <placeName ref="#GP">Guadeloupe</placeName>.</item>
+                            <item>
+                                957, pour la 
+                                <choice>
+                                <orig>Guiane-Française</orig>
+                                <reg>Guyane Française</reg>
+                            </choice>
+                            </item>
+                            <item>1,144, pour <placeName ref="#BrB">Bourbon</placeName>.</item>
+                            <item>TOTAL....... 25,268, pour les quatre colonies.</item>
+                        </list>
+                    </p>
+                    <p>
+                        —— L'un des plus beaux caractères de l'opposition, M. <persName>Eusèbe Salverte</persName>, l'homme intègre par excellence, l'ami dévoué de toutes les bonnes causes, auquel les électeurs parisiens, dans un moment de vertige monarchique avaient préféré <persName>M. Thiers</persName> en juin dernier, vient d'être élu député malgré les intrigues ministérielles, à une très grande majorité dans le <orgName>collège</orgName> du cinquième arrondissement de Paris. La cause des noirs et des mulâtres, grâce au progrès, peut compter sur un zélé défenseur de plus à la <orgName>chambre</orgName>.
+                    </p>
+                </div>
+                <pb n="40" facs="v1n7p40"/>
+                <div xml:id="Variétés">
+                    <head n="Variétés.">VARIÉTÉS.</head>
+                    <div xml:id="chapeau-Halgan">
+                        <head n="De m. le gouverneur halgan et de son chapeau, l'un portant l'autre.">
+                            DE M. LE GOUVERNEUR HALGAN ET DE SON CHAPEAU, L'UN PORTANT L'AUTRE.
+                        </head>
+                        <epigraph>
+                            <!-- je ne sais pas comment encoder des répliques de théâtre-->
+                        </epigraph>
+                        <p>
+                            Tout l'univers sait que M. <persName>Halgan</persName> est <roleName>gouverneur</roleName> de la <placeName ref="#MQ">Martinique</placeName>; mais ce que l'univers ne sait pas encore, c'est que M. <persName>Halgan</persName> a profondément réfléchi sur le système représentatif et notamment sur l'usage du chapeau comme moyen gouvernemental. Heureusement il existe à la <placeName ref="#MQ">Martinique</placeName> un véritable
+                            <bibl type="periodical">
+                                <title ref="#MU">Moniteur</title>
+                            </bibl>
+                            qui a toute la grâce et l'exactitude de celui de <emph>madame veuve Agasse</emph>. Heureusement aussi nous avons lu ce journal, ce qui n'est pas commun, et nous lui avons emprunté les détails
+                            <choice>
+                                <orig>intéressans</orig>
+                                <reg>intéressants</reg>
+                            </choice>
+                            que voici:
+                        </p>
+                        <p>
+                            OUVERTURE DU CONSEIL COLONIAL.
+                        </p>
+                        <p>
+                            <quote>
+                                «Conformément à la proclamation du 1er octobre 1834, les membres du conseil colonial,
+                                <choice>
+                                    <orig>présens</orig>
+                                    <reg>présents</reg>
+                                </choice>
+                                dans la colonie, étaient réunis un peu avant midi, dans le local affecté aux séances...... etc.
+                            </quote>
+                        </p>
+                        <p>
+                            <quote>
+                                M. le <roleName>gouverneur</roleName>, après avoir invité MM. les <roleName>conseillers</roleName> à s'asseoir, a prononcé, assis et couvert, le discours d'ouverture.»
+                            </quote>
+                        </p>
+                        <p>
+                            Nous ne connaissions encore que les rois constitutionnels qui eussent jugé décent et convenable de venir communiquer aux
+                            <choice>
+                                <orig>représentans</orig>
+                                <reg>représentants</reg>
+                            </choice>
+                            de la nation leurs petites volontés, leurs tendres 
+                            <choice>
+                                <orig>sentimens</orig>
+                                <reg>sentiments</reg>
+                            </choice>
+                            , leurs joies et satisfactions personnelles, leurs besoins d'argent et leurs voeux pour la prospérité du pays, et de débiter le chapelet monarchique en s'étendant dans un bon fauteuil, les mains appuyées sur le fémur et un énorme chapeau sur la tête. Et que n'a-t-on pas dit sur ce chapeau? Les uns prétendaient qu'il était vieux et râpé; d'autres que sa majesté l'avait mis de travers: ceux-ci ont dit que c'était un chapeau à plumes, ceux-là un cha
+                        </p>
+                        <pb n="41" facs="v1n7p41"/>
+                        <p>
+                            peau à trois cornes, à deux cornes..... ainsi de suite. Tel est le sort de monde. Quant à nous, nous ne ferons pas tant de réflexions sur le chapeau de M. <persName>Halgan</persName>, et nous dirons tout simplement que la seule chose qui nous ait paru digne de remarque dans le chapeau, c'est que M. <persName>Halgan</persName> le portait sur sa tête.
+                        </p>
+                        <p>
+                            On ne s'aurait trop admirer ici la force des grands exemples. M. <persName>Halgan</persName> s'est dit: La politesse des rois consiste à parler le chapeau sur la tête : je suis ici un petit souverain : donc, lorsque j'irai communiquer à MM. les <roleName>conseillers coloniaux</roleName> les idées que je suis censé avoir eues pour le bonheur public, il faudra leur découvrir mon cœur et me couvrir la tête. Il me semble que si j'avais eu l'honneur d'être conseiller colonial, j'aurais dit à M. <persName>Halgan</persName> ce que <emph>Sganarelle</emph> dit à <emph>Géronte</emph> dans le <emph>Médecin malgré lui</emph>: 
+                            <quote>
+                                «Hypocrate dit, M. le <roleName>gouverneur</roleName>, que nous nous couvrions tous deux.» 
+                            </quote>
+                            Et si M. <persName>Halgan</persName> eût fait la plus petite observation je l'aurais bien vite renvoyé au chapitre des chapeaux: mais non, l'aristocratie coloniale n'est point si susceptible, du moins pour les choses venues d'en haut; elle accepte la supériorité du chef à condition qu'elle-même fera sentir la sienne à ceux que le plus misérable préjugé maintient ses inférieurs. Ce pacte de servitude compose à peu près toute la morale de la société, et c'est ce que nous avons vu admirablement caractérisé dans une ancienne caricature anglaise qui représente le <roleName>roi</roleName> d'<placeName ref="#ANG">Angleterre</placeName> donnant un coup de pied à son <roleName>premier ministre</roleName>, qui le rend à un membre des <orgName>communes</orgName>, qui le rend à <persName>John Bull</persName>, lequel pour le coup ne le rend à personne. Nous croyons donc que le <orgName>conseil colonial</orgName> s'est consolé du coup de pied, nous voulons dire du coup de chapeau de M. le <roleName>gouverneur</roleName>, en pensant qu'il pourrait bien le rendre à d'autres.
+                        </p>
+                        <p>
+                            M. <persName>Halgan</persName> et son chapeau ont prononcé un discours où nous avons admiré ce passage:
+                            <q>
+                                «La tranquillité règne dans toutes les parties de la <placeName>colonie</placeName>: j'apporterai mes soins à y maintenir l'ordre, la fidélité des ateliers dans des circonstances difficiles, leur affection pour leurs maîtres, seront aujourd'hui, surtout pour la métropole, des garanties du système de modération qui les régit.»
+                            </q>
+                            La fidélité des ateliers... Oh! oh! oh! il n'y a plus d'esclaves à la <placeName ref="#MQ">Martinique</placeName>. Il n'y a plus que des ouvriers, comme nous en voyons tous les jours, qui travaillent dans des ateliers! Mais c'est admirable! Quelle révolution!
+                        </p>
+                        <pb n="42" facs="v1n7p42"/>
+                        <p>
+                            Vive la 
+                            <bibl type="legal">
+                                <title>charte</title>
+                            </bibl>
+                            ! Vive l'humanité! Nos cœurs de citoyens se sont épanouis au son de ce langage officiel. Il en est même qui ont été tentés d'envier déjà le sort de ces ouvriers qui travaillent dans les ateliers de la <placeName ref="#MQ">Martinique</placeName>. Malheureusement le 
+                            <bibl type="legal">
+                                <title><emph>journal officiel</emph></title>
+                            </bibl>
+                            renferme une certaine quantité de demandes d'<emph>affranchissement</emph>, et après avoir lu et relu le discours et comparé ensemble la première et la seconde page du journal, nous nous sommes convaincus que les prétendus <emph>ouvriers</emph> pourraient bien être des <emph>esclaves</emph> ou plutôt, selon le mot-convenu aujourd'hui, des personnes <emph>non-libres</emph>. Cependant, comme il faut toujours admirer quelque chose, nous avons admiré la délicatesse de langage des races civilisées et la pudeur gouvernementale de M. <persName>Halgan</persName>.
+                        </p>
+                        <p>
+                            Ce qui n'est pas moins curieux, c'est le dialogue qui s'établit entre le <roleName>gouverneur</roleName>, dans son discours d'ouverture, et les <roleName>conseillers coloniaux</roleName> dans l'adresse en réponse au susdit discours. Vous allez voir que ceux-ci y mettent un peu moins de façon. 
+                            <q>
+                                «Les pertes du commerce (<emph>du commerce!</emph>) se répareront facilement, si la <emph>fidélité des ateliers</emph> (encore) <emph>n'est plus ébranlée par la contagion de funestes doctrines, l'appât d'une liberté illusoire</emph> (ceci est trop fort, même pour des colons) et les déceptions d'un embauchage organisé, que favorise encore l'absence de toute disposition pénale.»
+                            </q> 
+                            Non, depuis qu'il existe des langues, on n'a jamais fait un usage aussi extraordinaire des mots. <emph>Les esclaves ébranlés par la contagion de funestes doctrines qui les poussent à une liberté illusoire..... et les déceptions d'un embauchage organisé, qui portent atteinte à leur fidélité....</emph> Voilà qui peut donner une idée de la confusion qui régnait à la <emph>tour de Babel</emph>. Les anciens qui ont établi l'esclavage avaient au moins de la logique, ils s'appuyaient sur la loi du plus fort, et ils l'appliquaient sans miséricorde à ceux qui se révoltaient; mais ils ne se plaignaient pas de la révolte. Ils n'ont jamais fait de syllogismes aux esclaves pour leur prouver qu'en brisant leurs fers ils couraient après une liberté illusoire. Il est des gens qui prétendent que ces douces façons de parler pour exprimer d'aussi tristes abus annoncent une grande amélioration. Nous le souhaitons de tout notre coeur; mais pour nous, nous n'y voyons que l'envie de conserver, sous des noms moins étranges, un pouvoir qu'on ne dépouille jamais volontairement, et non la honte de l'exercer encore.
+                        </p>
+                        <pb n="43" facs="v1n7p43"/>
+                        <p>
+                            Si vous voulez savoir ce que M. <persName>Halgan</persName> a répondu à ce dur démenti du <orgName>conseil colonial</orgName>, il a dit: 
+                            <q>
+                                «Je suis reconnaissant, et je vous remercie des
+                                <choice>
+                                    <orig>sentimens</orig>
+                                    <reg>sentiments</reg>
+                                </choice>  
+                                que vous m'exprimez.»
+                            </q> 
+                            Il n'y a pas de quoi, vraiment: M. le <roleName>gouverneur</roleName> n'est pas difficile. Et, décidément, malgré son redoutable tricorne, M. <persName>Halgan</persName> est au fond un bonhomme, qui sait prendre les choses comme il faut. Nous ne serions même pas étonnés qu'à la fin de son remerciement il ne se fût levé de son fauteuil, et n'eût porté la main à son chapeau, pour saluer messieurs les conseillers.
+                        </p>
+                    </div>
+                    <div xml:id="Chronique">
+                        <head n="Chronique.">CHRONIQUE.</head>
+                        <div xml:id="politique-euro">
+                            <head n="Politique européenne.—situation.">POLITIQUE EUROPÉENNE.—SITUATION.</head>
+                            <p>
+                                <choice>
+                                    <orig>A</orig>
+                                    <reg>À</reg>
+                                </choice> 
+                                Monsieur le <roleName>directeur </roleName> de la 
+                                <bibl type="periodical">
+                                    <title>Revue des Colonies</title>
+                                </bibl>.
+                            </p>
+                            <p>
+                                <quote>
+                                    « Les peuples cheminent lentement, il est vrai, mais enfin ils cheminent, a dit <persName>d'Alembert</persName>, et tôt ou tard ils arrivent. » 
+                                </quote>
+                                — Quoi qu'on fasse nous arriverons.
+                            </p>
+                            <p>
+                                Le symptôme le plus éclatant de ce temps-ci, au milieu même de la confusion des doctrines et des principes, c'est que, bon gré mal malgré, les peuples veulent se gouverner eux-mêmes. Là est le point culminant vers lequel tendent aujourd'hui tous leurs efforts, et tout nous dit qu'ils sauront bien en venir là.
+                            </p>
+                            <p>
+                                Quelques apparences semblent vainement indiquer le contraire. Cà et là le mouvement 
+                                <choice>
+                                    <orig>retrograde</orig>
+                                    <reg>rétrograde</reg>
+                                </choice>
+                                paraît triompher. N'importe, les 
+                                <choice>
+                                    <orig>élémens</orig>
+                                    <reg>éléments</reg>
+                                </choice>
+                                du progrès social sont si nombreux, ils agissent de toutes parts avec tant de puissance, la presse est un si formidable auxiliaire de l'avenir, qu'il n'y a rien à craindre des efforts contre-révolutionnaires qui vont être sérieusement continués.
+                            </p>
+                            <p>
+                                Pour vous, mon ami, les affaires d'<placeName ref="#EUR">Europe</placeName> ont un double intérêt: vous vivez parmi nous, vous avez à cœur nos affaires parce que vous êtes éclairé et généreux, et que, à tout prendre, ce sont les vôtres aujourd'hui; mais aussi, en premier lieu, parceque vous savez que tout ce qui se fait ici d'heureux pour notre liberté
+                                <pb n="44" facs="v1n7p44"/>
+                                profite en définitive à la liberté universelle, à l'humanité tout entière, dont un des rameaux les plus chers pour vous est la race de couleur opprimée dans toutes ses nuances. De là surtout votre sollicitude; de là le haut intérêt que vous inspire le parti qui en <placeName ref="#EUR">Europe</placeName> est pour la liberté et le droit commun contre tous les genres de 
+                                <choice>
+                                    <orig>priviléges</orig>
+                                    <reg>privilèges</reg>
+                                </choice>
+                                , et qui s'appelle le parti du mouvement par opposition au parti du <emph>statu quo</emph>, lequel veut à tout prix le maintien de ce qui est, parceque ce qui est lui profite.
+                            </p>
+                            <p>
+                                Vous le savez, ma politique est bien simple: je ne vois dans notre Europe, comme dans vos chères colonies, que des esclaves et des maîtres, des oppresseurs et des opprimés. C'est à faire cesser partout cet état de choses que s'emploient les efforts du mouvement; à le maintenir, ceux de la résistance. En présence de ces deux grands principes qui se disputent le monde, je l'avoue, je suis pour le plus fort, c'est à dire, non pour celui qui triomphe aujourd'hui presque partout, mais pour celui qui triomphera inévitable ment et définitivement demain. Notre cause est la cause sainte des majorités; et si nous voulions traduire notre pensée en une maxime qui la résumât, nous la formulerions volontiers ainsi qu'il suit: 
+                            </p>
+                            <p>
+                                <emph>
+                                    En politique, ce qui profite au plus grand nombre possible est bon; ce qui ne profite qu'à quelques-uns, au détriment du plus grand nombre, de quelque nom qu'on l'appelle, est mauvais.
+                                </emph>
+                            </p>
+                            <p>
+                                Je me suis laissé aller, mon ami, à vous parler principes quand je vous avais promis de ne faire que de l'histoire : c'est qu'il est bon de ne pas marcher au hasard et de bien montrer pourquoi et par quels motifs on va dans un sens plutôt que dans un autre.
+                            </p>
+                            <p>
+                                Décidément nous sommes révolutionnaires. Ne nous effrayons pas des mots. Souvenons-nous que <persName>Jésus-Christ</persName> aussi fut appelé révolutionnaire quand il apporta au monde sa doctrine de liberté et d'égalité, et, de plus, crucifié comme tel (1). L'intérêt des faux
+                            </p>
+                            <note>
+                                <p>
+                                    (1) Il choisit ses disciples entre la plus vile populace; il préfère l'esclave au maître, le pauvre au riche, le lépreux à l'homme sain; tout ce qui pleure, tout ce qui a des plaies, tout ce qui est abandonné du monde, fait ses délices: la puissance, la fortune et le bonheur sont au contraire éternellement menacés par lui; il renverse toutes les notions communes de la morale; il établit des relations nouvelles entre les hommes, un nouveau droit des gens, une nouvelle foi publique.
+                                </p>
+                                <p>
+                                    <persName>CHATEAUBRIANT</persName>, 
+                                    <bibl type="monogr"><title>Génie du christianisme</title></bibl>.
+                                </p>
+                            </note>
+                            <pb n="45" facs="v1n7p45"/>
+                            <p>
+                                dieux n'était qu'un prétexte dont les dominateurs romains couvraient leur propre intérêt. Ils n'eussent pas crucifié <persName>le Galiléen</persName> s'il n'eût prêché que des nouveautés sans portée; mais il le fut parcequ'il disait au maître devant l'esclave: <emph>Toute chair est vile</emph>, et à l'esclave devant le maître : <emph>Tout esprit est divin</emph>, abaissant l'un par la chair et élevant l'autre par l'esprit ; ce qu'il achevait de formuler par ces mots : <emph>Tous les hommes sont les enfans de Dieu; ils sont tous égaux devant lui.</emph> A quoi l'homme de paix ajoutait : <emph>Aimez-vous les uns les autres; c'est la loi.</emph> Tout cela parut monstrueux aux dompteurs d'hommes, aux aristocrates romains, qui vivaient glorieusement du sang et de la sueur des autres. On s'émut. Il y avait des hommes qui pensaient alors ce qui a été dit de nos jours, que rien n'était plus dangereux qu'un prolétaire éloquent. On crucifia <persName>Jésus</persName>, le prolétaire. En vérité, je vous le dis, <persName>Jésus</persName> fut au fond plus révolutionnaire que <persName>Spartacus</persName> lui même.
+                            </p>
+                            <p>
+                                Donc, comme révolutionnaires, nous avons à nous réjouir de plus d'un symptôme heureux dans les affaires générales du monde. 
+                            </p>
+                            <p>
+                                En <placeName ref="#ANG">Angleterre</placeName> la réforme s'établit lentement, le travail se fait en dessous. Chez ce peuple patient, laborieux il y a beaucoup à faire sans doute, surtout pour l'égalité; mais il est dans le bon chemin, et avec la liberté de la presse l'<placeName ref="#ANG">Angleterre</placeName> saura bien conquérir aussi ce qui lui manque, c'est à dire l'égalité sociale, l'égalité de mœurs, premier élément des sociétés démocratiques.
+                            </p>
+                            <p>
+                                Le ministère <persName>Wellington</persName> ne pourra rien contre le progrès, il faudra qu'il suive et seconde le mouvement, où il sera vaincu par lui. Tel est la marche constante des choses. Quand il est écrit qu'un progrès s'accomplira, les hommes les plus opposés aux améliorations sont conduits par la Providence à y prêter les mains. Une fois déjà <persName>Wellington</persName> a été l'instrument de l'esprit de justice; ce fut sous son ministère que fut obtenue et promulguée l'émancipation des catholiques d'<placeName>Irlande</placeName>, cette grande réintégration de toute une population privée de ses droits politique parcequ'elle avait sa foi à elle. Il adviendra comme alors peut-être quant à la reforme, et il importe peu au peuple qu'elle lui vienne de <persName>Wellington</persName> ou de <persName>Grey</persName>, pourvu qu'il l'obtienne bien et entière. Du reste la lutte sera rude, et le vieil esprit <orgName>tory</orgName>, qui ne cède que par égoïsme, se montrera récalcitrant aux concessions jusqu'à ce qu'il
+                                <pb n="46" facs="v1n7p46"/>
+                                soit contraint et forcé; mais nous nous en fions à <persName>John Bull</persName> pour l’y forcer et contraindre.
+                            </p>
+                            <p>
+                                Quant à la politique officielle de la <placeName ref="#FR">France</placeName>, je n'ai rien à vous en dire: vous avez vu quelle singulière comédie ministérielle a été jouée dernièrement, vous avez vu à l'oeuvre ce parti d'eunuques politiques qui ne sait ni contrôler ni exercer le pouvoir. La victoire est restée aux doctrinaires. Ils ont le présent; mais c'est le parti national et patriote, qui chaque jour acquiert de nouvelles forces, à qui l'avenir appartient; et les <placeName>colonies françaises</placeName> sont intéressées au plus haut degré à son succès; car c'est par lui seul que s'accomplira le plus cher de vos voeux et des miens, l'abolition complète et sans réserve de l'esclavage, et l'organisation du travail sur des bases nouvelles dans nos divers
+                                <choice>
+                                    <orig>établissemens</orig>
+                                    <reg>établissements</reg>
+                                </choice> 
+                                d'outre-mer.
+                            </p>
+                            <p>
+                                L'<placeName>Espagne</placeName>, l'un des pays les plus retardés de l'<placeName ref="#EUR">Europe</placeName>, vient d'entrer dans son ère révolutionnaire. l'
+                                <emph>
+                                    <bibl type="legal"><title>Estatuto real</title></bibl>
+                                </emph>
+                                , arraché par les nécessités du temps à la <roleName>reine Christine</roleName>, a donné l'éveil à l'esprit nouveau; de toutes parts les provinces ont envoyé à <placeName>Madrid</placeName> des députés du mouvement, et les <orgName>cortès</orgName> espagnoles, formant deux chambres sous la dénomination de <emph><orgName>chambres des procuradores</orgName></emph> et des <emph><orgName>proceres</orgName></emph>, se livrent à la réorganisation radicale du pays. La réforme des esprits est accomplie en <placeName>Espagne</placeName>; reste à la faire passer dans les lois et dans les institutions. La présence de <persName>don Carlos</persName>, qui fait le roi en <placeName>Navarre</placeName>, poursuivi et tenu en échec par <persName>Mina</persName>, ne fait que donner plus de force, nous ne dirons pas au parti de la <roleName>reine</roleName>, mais au <orgName>parti national</orgName>, qui est maintenant contre la légitimité.
+                            </p>
+                            <p>
+                                Cette pauvre légitimité tombe presque partout devant la raison et la volonté du siècle. En <placeName>Portugal</placeName>, cependant, elle a triomphé par les efforts de <persName>don Pedro</persName>, dans la personne de sa fille, la jeune reine <persName>dona Maria</persName>. <persName>Miguel</persName> a été définitivement chassé du pays, et les mesures les plus rigoureuses ont été prises par <orgName>les chambres</orgName> pour empêcher à jamais son retour.
+                            </p>
+                            <p>
+                                L'ex-<roleName>roi</roleName> voyage maintenant comme tant d'autres, et il n'est bruit en <placeName>Italie</placeName>, où il fait le légitime et le fat, que de son mauvais ton et de ses manières de matador. A <placeName>Gênes</placeName> il a fait des frasques et des pasquinades dans les rues qui indiquent chez lui une lésion cérébrale.
+                            </p>
+                            <pb n="47" facs="v1n7p47"/>
+                            <p>
+                                Quels qu'aient pu être les 
+                                <choice>
+                                    <orig>sentimens</orig>
+                                    <reg>sentiments</reg>
+                                </choice>
+                                 personnels de <persName>don Pedro</persName>, ayant été obligé de s'appuyer sur les libéraux pour vaincre l'obstination absolutiste de son <roleName>frère</roleName>, il a nécessairement dû favoriser les lumières, et le <placeName>Portugal</placeName> y a beaucoup gagné. N'y eût-il que l'avantage d'être passé de la tyrannie de <persName>don Miguel</persName> sous le pouvoir de <persName>dona Maria</persName>, ce serait déjà beaucoup. Qu'importe après cela ce qu'était en réalité <persName>don Pedro</persName>. Ainsi va le monde. Les moins sincères amis de la liberté sont quelquefois obligés par position de s'en porter les défenseurs dans leur propre intérêt, et lorsqu'ils ont vaincu, et qu'ils veulent se tourner contre elle, qui les a faits ce qu'ils sont, elle a pris sa place, bonne ou mauvaise, à côté d'eux, et ils ne peuvent plus l'en chasser entièrement.
+                            </p>
+                            <p>
+                                Et la <placeName ref="#FR">France</placeName>, malgré le mauvais vouloir de ses 
+                                <choice>
+                                    <orig>gouvernans</orig>
+                                    <reg>gouvernants</reg>
+                                </choice>
+                                , préside au mouvement qui emporte le monde vers la liberté ! C'est que telle est la volonté de l'immense majorité de la population. C'est que la <placeName ref="#FR">France</placeName> est la première démocratie du monde, et que le principe d'égalité et de liberté y est plus ou moins dans l'esprit, sinon dans le coeur de tous. La presse, d'ailleurs, par ses mille organes soumet tout incessamment à l'esprit d'examen; les préjugés s'effacent par son action, et le contrôle public s'exerce sur tous les pouvoirs et sur tous les actes, au grand avantage du pays.
+                            </p>
+                            <p>
+                                La presse bat impitoyablement en 
+                                <choice>
+                                    <orig>brêche</orig>
+                                    <reg>brèche</reg>
+                                </choice>
+                                 tout ce qui tend à contrarier la marche du siècle, et prépare au monde ses destinées nouvelles. Aussi, voyez comme on la traite ! Mais les persécutions n'y feront rien. La presse est aujourd'hui nécessaire aux transactions sociales non moins qu'à celles de la politique; elle fait partie intégrante de nos institutions; elle est elle-même une institution, la plus vitale de toutes. Le journalisme surtout, malgré les rigueurs dont il est l'objet, poursuit sa marche ascendante et salutaire. Ce n'est pas à vous qu'il faut peindre les merveilleux effets de ces communications intellectuelles, qui portent en quelques jours les mêmes faits à la connaissance de tout un pays, et font simultanément penser, sur un même objet, des milliers d'esprits qui s'en tendent malgré les distances, et finissent par s'unir, après mûr examen, dans une communauté d'idées justes et de nobles 
+                                 <choice>
+                                    <orig>sentimens</orig>
+                                    <reg>sentiments</reg>
+                                </choice>
+                                 . Admirable création des temps modernes, qui rend à jamais impossible le retour de la barbarie, et assure, en les étendant
+                                 <pb n="48" facs="v1n7p48"/>
+                                 chaque jour davantage, les conquêtes de la civilisation, dont nous sommes si loin encore, malgré notre orgueil, d'avoir atteint le dernier terme possible. Laissez faire la presse et la liberté, et vous verrez tout ce qu'elles sauront enfanter de miracles !
+                            </p>
+                            <p>
+                                Que vous dirai-je aussi du <placeName>Nord</placeName>, que vous ne sachiez? Il y a de ce côté bien des têtes couronnées qui s'inquiètent de nous voir libres, et qui aimeraient mieux nous voir pendus.
+                            </p>
+                            <p>
+                                A franchement parler, rien ne nous parait fini. Aussi avons-nous tous au fond du cœur je ne sais quoi d'inquiet; chacun l'éprouve: c'est comme un effroi vague, un pressentiment de lutte qui nous domine. L'ordre règne, il est vrai; c'est toujours comme par le passé, et partout encore en <placeName ref="#EUR">Europe</placeName>, le vingtième des populations qui vit aux dépens du reste; car c'est là ce qu'on appelle l'ordre. Mais c'est précisément 
+                                <choice>
+                                    <orig>parceque</orig>
+                                    <reg>parce que</reg>
+                                </choice>
+                                 cet ordre règne et ne saurait durer, que l'on vit dans l'appréhension perpétuelle du grand jour révolutionnaire qui y mettra fin.
+                            </p>
+                            <p>
+                                Entre la <placeName ref="#FR">France</placeName>, l'<placeName ref="#ANG">Angleterre</placeName> et tous pays de liberté ou même de demi-liberté, l'alliance est formée, elle est secrètement secondée par tous les peuples qui souffrent: reste donc à savoir qui des peuples ou de leurs oppresseurs l'emportera, et si le champ du monde restera à la révolution française ou aux têtes couronnées. <persName>Nicolas de Russie</persName>, <persName>Guillaume de Prusse</persName>, <persName>Charles-Jean</persName>, l'ex-jacobin français qui porte gravé, avec de la poudre, sur son bras gauche, cette légende: Vive la république ! Le misérable renégat ose être roi! <persName>François d'Autriche</persName>, et je ne sais quels autres qui ne valent pas l'honneur d'être nommés, se flattent qu'ils vaincront la révolution française, la grande alliée naturelle des peuples: nous tenons le pari contre eux; il y a peu de mérite du reste, c'est parier cent mille contre un.
+                            </p>
+                            <p>
+                                Si maintenant vous me posiez cette question: <emph>Que sera l'avenir du monde?</emph> je vous répondrais, sans doute, un peu de temps en core, la lutte et les combats nécessaires, l'ordre avec l'égalité, et la réconciliation universelle des hommes dans quelques années.
+                            </p>
+                            <p>
+                                C.B.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

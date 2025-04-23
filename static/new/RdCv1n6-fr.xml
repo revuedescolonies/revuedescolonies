@@ -1,0 +1,653 @@
+<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n6-fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Revue des Colonies N°6.</title>
+            <editor> Apolline Camille Floriane Lagarde </editor>
+         </titleStmt>
+         <!-- <xi:include href="shared/editionStmt.xml"/> -->
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <titlePart type="main">REVUE<lb/>DES<lb/>COLONIES,</titlePart>
+            <titlePart type="sub"><lb/>RECUEIL MENSUEL<lb/> DE LA POLITIQUE, DE L'ADMINISTRATION, DE
+               LA JUSTICE, DE L'INSTRUCTION ET DES MOEURS COLONIALES,</titlePart>
+            <byline><lb/>PAR UNE <orgName ref="#SHC">SOCIÉTÉ D'HOMMES DE COULEUR</orgName>
+               <lb/> DIRIGÉE PAR <persName ref="#CB">C.-A. BISSETTE</persName>.<lb/></byline>
+            <docEdition><lb/>N°6<lb/>Décembre.<lb/>
+               <lb/> PARIS,<lb/> AU BUREAU DE LA REVUE DES COLONIES,</docEdition>
+            <docImprint><lb/>46, RUE NEUVE-SAINT-EUSTACHE <lb/> 1834.</docImprint>
+         </titlePage>
+      </front>
+
+      <body>
+         <div>
+         <head n="Revuedes colonies">REVUE<lb/>DES <lb/>COLONIES</head>
+            <div>
+            <head n="De la fusion des deux races aux colonies et des causes qui la retardent.">DE LA FUSION DES DEUX RACES AUX COLONIES ET DES CAUSES QUI LA RETARDENT.</head>
+            
+            <p>La fusion si désirable des deux races aux colonies ne saurait y avoir lieu sérieusement dans l'état peu avancé de leur civilisation. Il est évident que, jusqu'à ce que soient tombés, d'une part, les préjugés de caste, et que, de l'autre, se soit éteint le ressentiment naturel d'une longue oppression, la nécessité seule y réglera les rapports sociaux des hommes de couleur et des blancs. Toutefois, la philosophie et la raison, par l'action incessante de quelques hommes de cœur et de 
+            <choice>
+   <orig>dévoùment</orig>
+   <reg>dévouement</reg>
+            </choice>
+, finiront par démontrer à tous où est le mal et l'erreur, où est la vérité et le remède ; et, dans un espace de temps assurément moins éloigné que ne l'espèrent les tis et que ne le craignent les autres, l'œuvre sera devenue telle ment facile que la seule impulsion toute-puissante et maternelle de la métropole suffira pour la mener à fin. Il est impossible en effet que, quand les justes griefs auront été satisfaits, les 
+<choice>
+<orig>ressentimens</orig>
+<reg>ressentiments</reg>
+</choice>
+ <choice>
+ <sic>appaisés</sic>
+ <corr>apaisés</corr>
+ </choice>
+ , les intérêts nivelés, les oppresseurs désarmés et punis, en un mot les droits proclamés égaux et convenablement protégés par l'autorité publique ; il est impossible, disons-nous, que les populations blanches et noires des colonies ne fraternisent pas et ne s'unissent pas pour exploiter en commun, au plus grand avantage de tous, cette terre, leur commune patrie aujourd'hui, dont une meilleure organisation du travail et le développement du sentiment éminemment social de la fraternité des hommes feront pour eux une patrie aussi chère que libre, industrieuse et prospère. Une fois l'esclavage aboli, tous ces hommes rendus à la liberté, initiés par l'éducation aux lumières et aux sciences d'Europe, si fécondes en résultats heureux, chercheront, n'en doutez point, dans un travail intelligent et libre des sources de prospérité et de bien-être qui peuvent dépasser tous les calculs de la prévoyance humaine. La liberté fera de ces noirs, que leur condition seule fait ce que nous les voyons, de laborieux ouvriers, d'infatigables cultivateurs, des citoyens utiles dans toutes les branches des travaux<pb n="4"/> humains. Que leur manque-t-il ? la liberté et les 
+ <choice>
+ <orig>instrumens</orig>
+ <reg>instruments</reg>
+ </choice>
+  du travail, qu'on finit toujours par acquérir lorsqu'on la possède ; la liberté, première condition de toute société heureuse ; la liberté, qui se corrige elle-même, éclaire ses propres fautes et guérit, comme la lance d'Achille, les blessures qu'elle fait, et qui, avec l'égalité, impose à l'homme la vertu. Là est pour les colonies la source de leurs destinées futures et de prospérités peut-être 
+  <choice>
+  <orig>inouie</orig>
+  <reg>inouïe</reg>
+  </choice>. L'esclave est partout indolent, vicieux et abject ; l'homme libre est actif, vertueux et entreprenant, a dit un célèbre américain, l'un des plus illustres écrivains de notre âge. C'est là tout le secret de l'immobilité des sociétés à esclaves, et de l'immense activité des sociétés fondées sur la mise en pratique des droits de tous. Dans les premières, l'esclave est indolent, vicieux et abject, en effet, et il n'en saurait être autrement : il n'y a pour lui ni honneur ni avantage à être autre chose. L'esclavage est pour lui comme l'enfer du Dante, il a laissé toute espérance en y entrant. Le maître est dur, hautain, cruel et non moins vicieux, aussi par position, outre qu'il est la première et la fatale cause de la dégradation et de tous les vices du premier. Détesté d'ailleurs de celui qu'il exploite sans pitié, sa vie est une appréhension continuelle. Ge n'est pas là un homme libre ; c'est un esclave aussi, coupable puisqu'il est forcément tyran, en lutte perpétuelle avec sa conscience ou avec les nécessités périlleuses de sa situation, éternellement menacé, par conséquent sans sécurité ni véritable liberté. Un tel état social est intolérable, dans ce siècle surtout, où la liberté et l'égalité sont les bases du droit public chez tous les peuples civilisés ; c'est une détestable exception qui ne saurait durer. 
+</p>
+
+   <p>Quant à la fusion actuelle des deux classes libres, premier acheminement vers un meilleur avenir, comme nous l'avons déjà dit, elle ne saurait avoir lieu en réalité aux colonies des Antilles, jusqu'à ce que le gouvernement de la métropole veuille sérieusement 
+<choice>
+<sic>applanir</sic>
+<corr>aplanir</corr>
+</choice> les obstacles qui s'y opposent, ce qu'aujourd'hui, on ne peut le nier, il paraît n'avoir que fort médiocrement à cœur.
+   </p>
+
+   <p>Nous allons signaler quelques-uns de ces obstacles, persuadés
+que la publicité ne peut être, en ceci comme en tout, que salutaire. Le premier et le plus grand est la composition des cours royales.Les membres de ces cours exercent une influence malheureuse sur la masse de la classe privilégiée. En ne prenant pour exemple que<pb n="5"/>la composition de la cour royale de la <placeName ref="#MQ">Martinique</placeName>, on demeure convaincu qu'il n'y aura jamais accord possible entre les deux classes rivales. Tant que cette cour ne sera pas complètement renouvelée selon l'esprit nouveau, tant que l'on y conservera des magistrats dont l'intérêt évident est de condamner dans toutes les accusations politiques, et dont le mauvais vouloir et les passions haineuses sont de notoriété publique, il n'y aura ni paix ni trève à espérer entre les partis opposés.
+   </p>
+
+   <p>Le mauvais choix des gouverneurs et des principales autorités, qui, pour la plupart, vont chercher fortune aux colonies, est aussi une des causes qui empêchent la fusion. Pour se maintenir le plus 
+   <choice>
+   <orig>long-temps</orig>
+   <reg>longtemps</reg>
+   </choice>
+    possible à leur poste, les gouverneurs se mettent ordinairement à la dévotion du parti aristocratique, appelé par les blancs eux-mêmes l'<emph>oligarchie</emph> du pays. Ces gouverneurs, la plupart faibles, timides ou peu instruits, manquant souvent des connaissances les plus simples en matière d'administration et de gouvernement, sont obligés de se confier à des faiseurs vendus au parti aristocratique ou choisis dans cette <emph>oligarchie</emph> ; en réalité ils ne sont que les éditeurs responsables de quelques hommes 
+    <choice>
+    <orig>influens</orig>
+    <reg>influents</reg>
+    </choice>
+     qui gouvernent à leur guise et au gré de leur passion.</p>
+
+     <p>Si le choix des gouverneurs se faisait dans des vues généreuses et d'avenir parmi des hommes dévoués au vrai principe de la révolution, la fusion s'opérerait insensiblement ; mais pour trouver ces hommes, il ne faut pas aller les chercher seulement dans le cadre étroit des officiers-généraux de la marine ; il ne faut pas que le ministère de la marine cède aux intrigues de la coterie coloniale qui siège à Paris, de cette coterie qui, toute-puissante dans les bureaux de la marine on ne sait par quelle étrange influence, fait, défait et refait à son gré les gouverneurs et tout ce qui tient à l'administration intérieure des colonies. Il conviendrait donc, dans le but que nous nous proposons, de ne choisir pour gouverneur que des administrateurs, des hommes éclairés et capables, voulant avant tout le bien, et imbus des principes politiques et de sociabilité dont la propagation est si nécessaire aux colonies. Si les gouverneurs des colonies n'affichaient pas eux-mêmes un sot et stupide préjugé contre les noirs et les hommes de couleur, l'aristocratie coloniale céderait peu à peu et ses répugnances disparaitraient.<pb n="6"/></p>
+
+     <p>Mais, qu'ont fait les gouverneurs depuis la <rs>révolution de juillet</rs> pour opérer la fusion? Rien. A la <placeName ref="#MQ">Martinique</placeName>, après 1830, le théâtre était devenu accessible aux hommes de couleur comme aux blancs ; mais, pour éviter le contact des blancs et des mulâtres, on paya au directeur une somme de 20,000 francs pour qu'il ne jouât pas. Cette somme fut prise sur la caisse du trésor, et cependant les hommes de couleur paient l'impôt comme les blancs. Au même moment on refusa formellement l'autorisation à des jeunes gens de couleur de jouer la comédie bourgeoise et d'avoir un théâtre de société, autorisation que quelques hommes de couleur eurent la simplicité de solliciter. Plus tard, des artistes dramatiques ouvrent un spectacle, mais l'entrée cette fois en est refusée aux hommes de couleur, sous prétexte que c'est un théâtre de société par souscription (1). Ils sont chassés de l'église à de certaines solennités où les blancs seuls sont admis.</p>
+
+     <p>A la <placeName ref="#GP">Guadeloupe</placeName>, les hommes de couleur ont été repoussés des cafés pour faire place aux seuls blancs, et l'autorité a converti ces 
+     <choice>
+     <orig>établissemens</orig>
+     <reg>établissements</reg>
+     </choice>
+      publics en réunions particulières afin d'écarter les mulâtres. Des rixes s'ensuivent, les jeunes gens de couleur sont repoussés avec brutalité par la force armée, ils sont arrêtés et emprisonnés.</p>
+
+      <p>Des ordonnances locales, qui empêchaient les 
+      hommes de couleur, à la <placeName ref="#MQ">Martinique</placeName>, de se trouver 
+      sur certaines promenades réservées aux blancs, furent abolies par la révolution 
+      de juillet. Mais l'aristocratie de cette colonie résista, et les hommes de 
+      couleur furent obligés d'en venir aux mains avec elle pour conquérir un pareil 
+      droit. N'est-ce pas incroyable ?</p>
+
+      <p>Malgré les ordonnances qui donnent la qualification de sieur et dame, refusée jusqu'ici aux hommes de couleur dans les actes publics, les autorités ont résisté 
+      <choice>
+      <orig>long-temps</orig>
+      <reg>longtemps</reg>
+      </choice>
+       à se soumettre à cette formule toute de politesse. Il a fallu des ordres exprès du ministre de la marine pour vaincre le mauvais vouloir des officiers ministériels et de l'état civil. </p>
+
+       <p>L'aristocratie a repoussé l'instruction primaire établie dans les colonies de la <placeName ref="#MQ">Martinique</placeName> et de la <placeName ref="#GP">Guadeloupe</placeName>. Les gouverneurs ont cédé à cette exigence des colons, qui ne veulent pas qu'on y<pb n="7"/>
+3) Voyez le n. 5 de la revue des colonies, page 43
+ouvre des écoles pour les classes opprimées : les directeurs envoyés de <placeName ref="#FR">France</placeName> par le ministre de la marine pour établir ces écoles ont été obligés de quitter les colonies.</p>
+
+   <p>Des fonctionnaires administratifs et des magistrats européens fraternisent avec les hommes de couleur, ils les reçoivent à dîner. Un gouverneur (il faut le nommer pour le flétrir), <persName ref="#JHD">M. Dupotet</persName>, fait déporter ces fonctionnaires sur la plainte d'un procureur général créole. Ce procureur-général avait fait exécuter, peu avant, un arrêt de la cour royale qui condamnait une pauvre femme esclave à la peine du fouet, pour avoir chanté <emph>la Parisienne</emph> (1), sans que le gouverneur y mît le moindre obstacle.</p>
+
+   <p>Les jeunes avocats créoles et les Européens qui veulent le progrès aux colonies sont paralysés dans leurs généreux efforts ; leur indépendance est nulle devant le parti rétrograde, dit <emph>oligarchie</emph>. Il n'y a pas d'avenir possible pour eux s'ils osent se montrer hommes de progrès. Dans leurs plaidoiries devant les tribunaux, ils sont constamment obligés d'être circonspects, de ne jamais plaider pour un homme de couleur ou un esclave avec cette chaleur et cet entrainement de conviction ; il faut qu'ils ne plaident que des moyens d'atténuation, parce que la cour royale, composée de magistrats qui ne veulent la fusion qu'avec les échafauds et le bourreau, rappellent à l'ordre ou réprimandent insolemment l'avocat courageux qui ose plaider avec une énergie consciencieuse. Dès lors plus d'avenir pour eux, mais ennuis, persécutions et dégoûts de toutes sortes.</p>
+
+   <p>Tels sont les obstacles principaux qui, dans celles des colonies françaises que nous connaissons le plus particulièrement, retardent cette fusion, que nous considérons à juste titre comme l'un des plus grands progrès qui s'y puissent accomplir. Voulant sincèrement l'union et la fraternité des deux races aux colonies, quelque haute confiance que nous ayons d'ailleurs dans le prochain et universel triomphe de la philosophie et de la raison, il nous est pénible et nous gémissons à bon droit de voir le gouvernement de la métropole faire si peu pour hâter ce triomphe dans des contrées où son action pourrait s'exercer d'une manière si directe et si péremptoire.
+(1) Cette exécution a été faite par le bourreau. Fustiger à nu une femme sur In place publique, voilà les mœurs de nos colonies.<pb n="8"/>
+</p>
+</div>
+
+<div>
+<head n="L'esclavage de nos colonies est plus dur et ples inhumain que celui d'aucun peuple de l'antiquité.">L'ESCLAVAGE DE NOS COLONIES EST PLUS DUR ET PLES INHUMAIN QUE CELUI D'AUCUN PEUPLE DE L'ANTIQUITÉ.</head>
+
+<p>La cause la plus générale et la plus ordinaire de l'esclavage chez les peuples anciens était la guerre. Le droit des gens de cette époque permettait au vainqueur de disposer de ses prisonniers. Au lieu de leur arracher la vie, il la leur conservait sous la condition de le servir. L'esclavage n'était donc que la rançon de la vie. Les chances ayant été égales, et le sort des armes ayant seul décidé, le vaincu se soumettait à sa position avec moins de répugnance ; c'était une consolation pour son malheur : son maître, par le même motif, allégeait le poids de sa servitude.</p>
+
+<p>Les esclaves étant soumis au plus dur despotisme, celui qui pèse d'un individu sur son semblable, ont dû de tous temps être condamnés à satisfaire tour à tour l'orgueil, l'avarice, l'insolence et la cruauté de leurs maîtres. Quelques-uns cependant out joui d'un sort plus doux, suivant le caractère de leurs maîtres ou la civilisation du peuple chez lequel ils vivaient.</p>
+
+<p>Chez les Égyptiens, par exemple, les lois interposaient leur salutaire médiation entre les fureurs du maître et l'esclave opprimé ; elles punissaient sévèrement les attentats contre sa vie. Le temple d'Hercule était constamment ouvert aux esclaves, qui y cherchaient un asile contre les persécutions de leurs maîtres.</p>
+
+<p>Le législateur des Juifs fut plus favorable encore aux esclaves. Il fit une obligation de la douceur à leur égard. Il ordonna que les mauvais 
+<choice>
+<orig>traitemens</orig>
+<reg>traitements</reg>
+</choice>
+ fussent une cause suffisante de l'affranchissement des esclaves. D'après la loi de ce peuple, l'esclavage d'un homme ne pouvait durer que jusqu'à l'année sabbatique, en sorte qu'il ne pouvait être esclave plus de six ans et souvent beaucoup moins,</p>
+ <p>Les mœurs douces des Athéniens, leur civilisation, leurs lumières les rendirent dignes de donner à l'Europe des exemples d'humanité envers les esclaves, comme ils lui livraient leurs chefs-d’œuvre dans les arts libéraux. La loi chez eux avait fixé le prix des 
+ <choice>
+ <orig>affranchissemens</orig>
+ <reg>affranchissements</reg>
+ </choice>
+  et donné aux esclaves des moyens de se faire des économies qui leur permissent de se racheter. L'affranchissement était encore leur récompense pour des services rendus à des particuliers ou à la république.<pb n="9"/></p>
+
+  <p>Un maître poussait-il son pouvoir jusqu'à la barbarie ; <placeName>Athènes</placeName> avait un temple dédié à Thésée, où les esclaves pouvaient se réfugier jusqu'à ce que le magistrat eût prononcé sur le délit dont ils se plaignaient. Les esclaves pouvaient encore poursuivre en leur nom les citoyens qui leur avaient causé quelque tort ; en un mot, ils jouissaient de tous les 
+  <choice>
+  <sic>priviléges</sic>
+  <corr>privilèges</corr>
+  </choice>
+   inséparables des bonnes lois dans un pays où la justice et l'amour de l'ordre étaient préférés au crédit et à l'opulence. Aussi n'y eut-il à <placeName>Athènes</placeName> qu'une seule révolte d'esclaves pendant toute la durée de la république ; tandis que les <persName>Spartiates</persName>, qu'une fausse politique engageait à maltraiter les ilotes, et qui les massacraient souvent, dans le seul but de s'accoutumer au sang, coururent plusieurs fois le plus grand danger par les efforts désespérés que faisaient les esclaves pour recouvrer leur liberté.</p>
+
+   <p>Tant que les Romains furent fidèles à la vertu, vrai principe et base de la république, ils traitèrent leurs esclaves avec douceur. Ils furent justes et modérés avec eux. S'ils découvraient en eux des germes de génie, loin d'en prendre ombrage, ils cherchaient à le développer, en les faisant instruire dans les belles lettres et les arts libéraux. Telle est l'éducation qui a produit Phèdre et Térence. Il était permis à ces esclaves de consacrer leurs loisirs à une profession lucrative, et quand ils avaient amassé une somme suffisante pour se racheter, on ne refusait jamais leur rançon.</p>
+
+   <p>Un gouvernement despotique ayant succédé à celui d'un peuple libre et généreux, l'asservissement des maîtres appesantit le joug des esclaves. C'est à cette époque que les combats de gladiateurs devinrent le spectacle favori des Romains, et que l'on vit sur leurs théâtres jusqu'à deux mille esclaves ou prisonniers de guerre expirer à la fois.</p>
+
+   <p>Il me répugne de parler de la servitude de nos pères. S'ils furent humiliés 
+   <choice>
+   <orig>long-temps</orig>
+   <reg>longtemps</reg>
+   </choice>
+   , ils ont légué aussi à tous les esclaves du monde un grand exemple à suivre : ils ont brisé leurs fers, et des débris de leurs chaines ils ont immolé leurs tyrans.</p>
+
+   <p>En rapprochant cette courte analyse, sur l'état des esclaves chez les 
+   <choice>
+   <orig>différens</orig>
+   <reg>différents</reg>
+   </choice>
+    peuples de l'antiquité, du récit que nous avons fait des 
+    <choice>
+    <orig>traitemens</orig>
+    <reg>traitements</reg>
+    </choice>
+     que subissent les noirs dans les colonies, il en résulte évidemment que ces derniers sont plus malheureux et traités avec moins d'humanité.<pb n="10"/></p>
+            
+    <p>Le climat de l'<placeName>Italie</placeName> et celui de la <placeName>Grèce</placeName> sont les plus beaux et les plus sains. Peut-on les comparer à ce soleil brûlant des tropiques, sous lequel sont condamnés à travailler les Africains ? La culture des colonies est bien plus difficile et plus pénible que celle d'Europe.</p>
+
+    <p>Admettons que les 
+    <choice>
+    <orig>châtimens</orig>
+    <reg>châtiments</reg>
+    </choice>
+     des anciens fussent aussi cruels, aussi terribles que ceux des colonies ; que le sang des esclaves coulât sous leurs coups, comme il est versé chaque jour par les planteurs ; au moins ils avaient l'espérance que leurs 
+     <choice>
+     <orig>tourmens</orig>
+     <reg>tourments</reg>
+     </choice>
+      auraient un terme, ils pouvaient se créer un pécule et obtenir leur manumission, tandis que le terrible jamais est prononcé pour les noirs. </p>
+            
+      <p>Chez les Romains, la seule déclaration du maître, faite dans les temples ou devant les préteurs, suffisait pour faire obtenir la liberté, et cette liberté n'était pas restreinte comme celle des hommes de couleur dans les colonies. Les affranchis passaient sur-le-champ à l'état de citoyens et participaient à tous les 
+      <choice>
+      <orig>priviléges</orig>
+      <reg>privilèges</reg>
+      </choice>
+       de la cité. La patente de liberté à la <placeName ref="#GP">Guadeloupe</placeName> est un certificat d'infamie, un titre qui entache l'origine des affranchis : La liberté de savane est un abus, un signe de la perfidie et de l'égoïsme des colons. Ils en ont fait une position mixte, vicieuse, incompatible avec un ordre public bien établi et avec de vraies idées libérales. C'est une nouvelle ligne de démarcation au profit de l'aristocratie coloniale, la plus ridicule et la plus absurde de toutes, car là, comme l'a dit <persName ref="#AD">M. de Laborde</persName>, elle n'a pour motifs que la différence dans les couleurs.</p>
+
+       <p>Les esclaves des anciens exerçaient les arts libéraux et pouvaient se livrer au commerce ; ils étaient secrétaires, commis, architectes et auteurs. <persName>Aleman</persName>, <persName>Épictète</persName>, <persName>Ésope</persName>, <persName>Phèdre</persName> et <persName>Térence</persName> n'ont point vu leur génie étouffé par le despotisme de leurs maîtres. Malheur à l'esclave qui, dans les colonies, saurait seulement lire et écrire ! toutes sortes de soupçons planeraient sur lui sans cesse : on redouterait des correspondances, des révélations de sa part ; la mort ou un cachot perpétuel seraient sa seule perspective.</p>
+
+       <p>Chez les Athéniens et chez les Égyptiens, les magistrats recevaient les plaintes des esclaves contre les excès et les fureurs de leurs maîtres ; des temples, comme nous l'avons dit, étaient toujours ouverts, et leur offraient un asile inviolable contre la bruta<pb n="11"/>lité et l'injustice. Dans nos colonies, les noirs sont des hommes frappés de mort civile ; inventoriés comme les bœufs, les chevaux et les 
+       <choice>
+       <orig>instrumens</orig>
+       <reg>instruments</reg>
+       </choice>
+        aratoires, <emph>ils sont la chose du maître</emph>, un automate agissant par ressorts, un agent qui reçoit l'impulsion et marche pressé par une force supérieure : c'est le dernier degré de l'abjection et de l'avilissement.</p>
+
+        <p>Ceci nous conduit à une objection qui se retrouve dans toutes les bouches et que les colons exploitent avec habileté. Chacun est intéressé, dit-on, à la conservation de sa propriété. Conçoit-on dès lors que, de gaîté de cœur, et pour satisfaire un caprice, on consentit à sacrifier sa fortune ? Les planteurs ne doivent pas plus maltraiter leurs esclaves que leurs bestiaux ; et s'ils cherchent à conserver un bœuf ou un cheval, pourquoi voulez-vous qu'ils soient 
+        <choice>
+        <orig>indifférens</orig>
+        <reg>indifférents</reg>
+        </choice>
+         à la perte d'un esclave, qui leur coûte plus cher et qu'ils remplacent plus difficilement ? </p>
+         <p>Cet argument paraît fort et il n'est que spécieux. Dans les colonies, la propriété n'a pas le caractère de stabilité qu'elle présente en France : les ouragans, les guerres, les maladies qui ravagent ces contrées, tous ces fléaux, sans cesse 
+         <choice>
+         <orig>menaçans</orig>
+         <reg>menaçants</reg>
+         </choice>
+         , donnent à tons le désir de n'en faire qu'un lieu de passage. Là, chacun cherche à réaliser pour regagner la France : il faut un travail opiniâtre pour amasser des capitaux ; il faut s'enrichir vite pour abréger le temps de l'exil. Les nègres sont précisément les 
+         <choice>
+         <orig>instrumens</orig>
+         <reg>instruments</reg>
+         </choice>
+          passifs de ce désir immodéré des richesses ; ce sont là les machines dont on se sert dans ce genre d'exploitation. Un travail modéré retarderait trop ; on le force, et les 
+          <choice>
+          <orig>expédiens</orig>
+          <reg>expédients</reg>
+          </choice>
+           sont la rigueur, une discipline rude et terrible. En quatre ans, le nègre paie ce qu'il a coûté, et, comme le surplus de sa vie est tout bénéfice pour le maître, on l'emploie sans relâche et sans ménagement. C'est un cheval de poste, qui doit arriver à l'heure, pressé par le fouet ! Qu'importe qu'il souffre, qu'importe qu'il meure au bout de la course, pourvu qu'il arrive.</p>
+           <p>Cette comparaison est accablante pour vous, messieurs les colons : vos animaux domestiques reçoivent de vos mains, moins avares pour eux, une nourriture suffisante pour leurs besoins, tandis que vos nègres sont obligés de la demander furtivement à la terre, dans les 
+           <choice>
+           <orig>instans</orig>
+           <reg>instants</reg>
+           </choice>
+            de repos et pendant les plus brûlantes chaleurs de la journée. D'ailleurs vos bœufs et vos chevaux sont-ils<pb n="12"/>déchirés à coups de fouet comme vos nègres ? Faites-vous jaillir leur sang avec la même férocité ? Il n'y a pour eux ni cachot étroit et infect, ni <emph>quatre piquets</emph>, ni chaînes, ni colliers de fer armés de pointes, ni tous ces 
+            <choice>
+            <orig>raffinemens</orig>
+            <reg>raffinements</reg>
+            </choice> qu'invente votre barbarie ! Vous ne craignez pas de leur part une révolte ou une revendication de leurs droits : ces animaux sont soumis parce qu'ils doivent l'être ; mais, pour vos esclaves, vous redouteriez de compromettre votre autorité, si l'indulgence faisait place un moment à votre humeur sévère. Vous savez qu'au fond de ces cœurs d'hommes germe toujours l'idée de la dignité humaine, qu'un noble espoir n'y est jamais éteint, une étincelle produirait un incendie capable de vous dévorer. Il faut donc qu'à force de 
+            <choice>
+            <orig>châtimens</orig>
+            <reg>châtiments</reg>
+            </choice>
+             vous les environniez d'une terreur permanente, et ils souffrent, et ils meurent sous vos coups.</p>
+             <p>Je ne m'abaisserai point à répondre à ceux qui ont eu assez peu de pudeur pour oser comparer les esclaves des colonies à nos paysans. Ils nous vantent le bonheur des esclaves ; je les croirais sur parole, malgré ce que j'ai vu, si, à l'exemple de plusieurs personnages de l'histoire, ils veulent partager le bonheur de cette position, <persName>Dioclétien</persName> et <persName>Cyrus-le-Jeune</persName> se firent jardiniers par sympathie pour les 
+             <choice>
+             <orig>habitans</orig>
+             <reg>habitants</reg>
+             </choice>
+              des champs ; <persName>Pierre-le-Grand</persName> se fit charpentier pour étudier la construction des vaisseaux. Que les partisans de l'esclavage suivent ces illustres exemples ; qu'ils passent en <placeName>Amérique</placeName> ; s'ils y sont, la chose sera plus facile ; et qu'ils partagent pendant quelque temps le sort de ceux qu'ils disent si heureux. Après cet essai, je m'en rapporterai à leurs assertions, s'ils persistent. Je les engage donc à éprouver la mansuétude des commandeurs, la volupté des coups de fouet, la saveur d'une morue infecte, la nudité, les ondées, la misère, les caprices de l'insolence, les fureurs de la brutalité, et puis, s'ils ont des femmes ou des filles, l'inexprimable charme de satisfaire à volonté les fantaisies de leurs tyrans.</p>
+              <p>X. TANC,
+ancien magistrat à la <placeName ref="#GP">Guadeloupe</placeName>.<pb n="13"/></p>
+ </div>
+
+    <div>
+            <head n="Document historique.">DOCUMENT HISTORIQUE.</head>
+            <head n="Les trois derniers complots de la guadeloupe">LES TROIS DERNIERS COMPLOTS DE LA GUADELOUPE</head>
+            
+            <p>Au moment où, à la <placeName ref="#MQ">Martinique</placeName>, les sanguinaires passions des dominateurs blancs, qui s'intitulent magistrats, viennent de se montrer dans toute leur avidité de vengeance, qu'il nous soit per mis de rappeler l'esprit de prudence, si ce n'est de justice, qui, dans une colonie voisine, a présidé dans l'espace de quelques années au jugement de trois prétendus complots, dans lesquels ont été impliqués d'abord des hommes de couleur, ensuite des esclaves, enfin en dernier lieu des blancs.</p>
+            <p>Raconter l'histoire des trois derniers complots de la <placeName ref="#GP">Guadeloupe</placeName>, c'est faire celle de la plupart de ceux qui ont éclaté dans toutes les colonies. Heureuses celles qui n'ont renfermé dans leur sein que des magistrats et des assesseurs intelligemment impartiaux, comme ceux de la <placeName ref="#GP">Guadeloupe</placeName>, et qui n'ont pas voulu ajouter au ridicule de l'accusation l'atrocité du châtiment !</p>
+            <p>En 1829, onze individus de couleur libres, de la commune de <placeName>Sainte-Anne</placeName>, sont traduits devant la cour d'assises de l'arrondissement de la <placeName>Pointe-à-Pitre</placeName>. Le titre de l'accusation était celui de complot tendant à porter le massacre dans la colonie et à la destruction de la classe blanche !</p>
+            <p>Quel était le crime ? Les faits tels qu'ils ont été révélés par les débats, qui, comme tous ceux de cette nature, présentèrent le spectacle hideux et dégoûtant de faux témoignages, d'arrestations arbitraires, de violation de domiciles, de chartres privées, ordonnées hors le cas de flagrant délit, par l'autorité militaire, vont nous l'apprendre.</p>
+            <p>Une revue des dragons de la milice, qui à cette époque étaient les soldats prétoriens de l'aristocratie créole, parmi lesquels les blancs seuls pouvaient être enrôlés, avait été ordonnée, non sur la place publique du bourg de <placeName>Sainte-Anne</placeName>, qui devait être le lieu de rassemblement, mais sur une habitation où, suivant l'usage, les dragons avaient bu comme des Suisses. Les vapeurs du vin et du tafia combinées ayant échauffé les têtes, le libre parler s'ensuivit,<pb n="14"/>et parmi les propos inconsidérés qui résultèrent de l'ivresse, plusieurs fanatiques proposèrent de faire au retour main-basse sur les hommes de couleur, qui depuis quelque temps étaient, disait-on, <emph>devenus bien 
+            <choice>
+            <orig>insolens</orig>
+            <reg>insolents</reg>
+            </choice>
+            .</emph>D'autres ayant fait chorus avec ceux-ci, un dragon, dont la tête était plus froide que celle de ses camarades et qui avait reçu des services de plusieurs personnes de cou leur, accourut à bride abattue à <placeName>Sainte-Anne</placeName> et donne avis de ces dispositions, qu'il n'était pas peut-être dans la pensée de ceux qui les avaient conçues d'exécuter. Les hommes de couleur s'alarment et prennent la résolution de se défendre s'ils sont attaqués. Ils s'arment, non pour être agresseurs, mais afin de pouvoir opposer la force à la violence. Quelques paroles imprudentes sont proférées ; un d'entre eux, récemment sorti d'esclavage, prévient à son tour les blancs de ce qui se passe. Les hommes de couleur sont arrêtés, emprisonnés et accusés de complot...... Ils étaient, ainsi que les blancs, coupables de terreur panique. Ils furent unanimement acquittés.</p>
+            <p>Lorsque, après les glorieuses journées de juillet 1830, l'espérance d'un meilleur avenir pénétra dans tous les esprits, les esclaves aussi révèrent la liberté, ou tout au moins un allégement à leurs souffrances. Des 
+            <choice>
+            <orig>agens</orig>
+            <reg>agents</reg>
+            </choice>
+             provocateurs, profitant de leurs dispositions naturelles à l'insurrection, leur persuadèrent que le gouvernement métropolitain leur avait accordé trois jours de repos dans la semaine, mais que l'aristocratie locale était parvenue à paralyser l'effet de cette concession en empêchant le gouverneur de promulguer l'ordonnance royale. Il fut facile d'exciter les esclaves à quelques expressions de mécontentement, à quelques exclamations d'indépendance. Ce fut là le fondement d'une accusation de com plot. Un procureur-général créole se rencontra qui, dans l'acte d'accusation, chef-d'oeuvre d'ignorance et d'ineptie, fit un crime à quelques esclaves traduits devant la cour d'assises d'avoir appris à lire et à écrire. Il est vrai, comme le dit énergiquement un poète national, que: 
+             
+             <q>On n'instruit pas celui qu'on vent garder esclave.
+               L'alphabet est mortel aux pouvoirs absolus, 
+               Et l'homme veut ses droits sitôt qu'il les a lus.</q> 
+               
+               Dans cette circonstance, comme dans la précédente, la cour<pb n="15"/>d'assises ne se laissa pas influencer par les préjugés coloniaux, et il y eut aussi acquittement.</p>
+               <p>Le troisième complot, le croirait-on ? fut l'ouvrage d'un gouverneur. Il est vrai que, bien que majeur, il agit sans discernement, et que dès lors l'opinion publique a dû l'absoudre comme les accusés l'ont été par le verdict du jury.</p>
+               <p>Écoutez, et riez ou plutôt frémissez !</p>
+               <p> Après que des incendies, qui avaient eu lieu à la <placeName ref="#MQ">Martinique</placeName> en 1851, eurent donné à la cour d'assises de cette colonie un aliment qu'elle ne dédaigna pas, on trouva à la <placeName ref="#GP">Guadeloupe</placeName> des 
+               <choice>
+               <orig>élémens</orig>
+               <reg>éléments</reg>
+               </choice>
+                combustibles auprès d'une vieille case abandonnée et isolée, à laquelle le feu avait été mis sans qu'il eût fait cependant aucun progrès. D'un autre côté, des hasiers furent brûlés, sans que l'on put savoir si la malveillance ou l'imprudence avaient présidé à cet événement.</p>
+                <p>Le gouverneur de cette colonie rendit alors un arrêté d'après lequel la liberté était promise à tout esclave et une somme de trois mille francs à toute personne de condition libre qui ferait connaître les auteurs des incendies qui éclateraient sur les divers points de la <placeName ref="#GP">Guadeloupe</placeName>. C'était accorder une prime d'encouragement à la délation : elle répondit à l'appel.</p>
+                <p>Le jeune Nelson est accusé d'avoir voulu incendier un atelier de menuiserie, dans lequel il avait travaillé en qualité d'apprenti. Le nègre Jean-Baptiste l'a vu au moment où, accroupi dans un coin du magasin, il battait le briquet pour éclairer des copeaux de bois destinés à l'incendie. La lueur des étincelles a éclairé sa figure et lui a permis d'en discerner les traits. Il s'est avancé sur lui afin de le saisir ; mais au même instant, il a été frappé par une balle qui a traversé les chairs de la cuisse. Il est tombé, et Nelson s'est enfui en ouvrant une des portes du magasin. La détonation de l'arme a été entendue par les voisins : le nègre est gisant sur le parquet, gravement blessé ; les préparatifs du feu existent dans l'angle de l'atelier d'où le coup serait parti. Jean-Baptiste désigne Nelson comme son meurtrier, et il persévère dans cette déclaration jusqu'à sa mort, qui suivit sa blessure. La balle extraite de la plaie était enveloppée de papier, ce papier contenait les trois premières lettres du nom de Nelson. L'accusation paraissait vraisemblable : elle n'était pas vraie. Les débats enseignent que Jean-Baptiste était<pb n="16"/>désireux de la liberté ; que depuis la promulgation de l'arrêté du gouverneur, il avait annoncé que très prochainement il ne serait plus esclave ; qu'il avait demandé à plusieurs individus si une balle dans les chairs ferait beaucoup de mal; que les trois lettres écrites sur le papier extrait de la blessure, et qui s'y trouvaient plusieurs fois répétées, étaient celles du mot n'<emph>était</emph> (le jage instructeur n'a vait pas remarqué le trait du <emph>t</emph>, qui cependant était bien marqué); que cette écriture n'était pas de la main de Nelson, qui ne savait même pas lire. Enfin celui-ci justifia d'un alibi. Il fut unanimement acquitté par la cour, qui resta convaincue que Jean-Baptiste s'était blessé lui-même afin d'obtenir sa liberté par un moyen infâme, en vouant Nelson à l'échafaud. Le malheureux porta la peine de son méfait. Vainement avait-il enveloppé de papier la très petite balle avec laquelle il chargea le pistolet, parce que, dans sa pensée brute, elle devait, ainsi dissimulée, faire moins de mal. La Providence voulut que cette balle coupa une artère. Il mourut.</p>
+                <p>Perdu de dettes et tourmenté par ses créanciers, un commis de marine, attaché au service de l'un des 
+                <choice>
+                <orig>bâtimens</orig>
+                <corr>bâtiments</corr>
+                </choice> 
+                de l'état, lit l'arrêté du gouverneur. Cet arrêté est pour lui l'ancre de salut : créer un complot d'incendie et en dénoncer ensuite les auteurs, au nombre de quatre, lui compris, recevoir pour prix de la dénonciation 1,200 francs, telle est son idée fixe. Il en poursuit l'exécution avec une maladroite persévérance.Il loue plusieurs 
+                <choice>
+                <orig>appartemens</orig>
+                <corr>appartements</corr>
+                </choice>
+                 dans 
+                 <choice>
+                 <orig>différens</orig>
+                 <corr>différents</corr>
+                 </choice>
+                  quartiers de la <placeName>Basse-Terre</placeName>, dépose dans ces appartemens des appareils incendiaires, donne à dîner à un matelot du navire sur lequel il est embarqué, à un sous-officier d'artillerie et à un soldat du 58 régiment, ses compatriotes. La réunion a été d'avance signalée à l'autorité, son but a été indiqué : c'est celui de se concerter sur le jour auquel le feu sera mis sur divers points de la ville, placée sous l'impression de l'effroi par l'embrasement de quelques 
+                  <choice>
+                  <orig>fragmens</orig>
+                  <corr>fragments</corr>
+                  </choice>
+                   de la toiture du greffe du tribunal de première instance, situé en face d'un poste d'infanterie, qui dès le premier moment a pu se rendre maître des progrès de la flamme. Les complices imaginaires du délateur, dont on avait altéré la raison par l'abus des liqueurs fortes dont on les avait préalablement gorgés, ne se souviennent de rien ; mais l'éclat du diner, commandé avec ostentation, les a compromis. Les préparatifs combustibles trouvés dans les divers 
+                   <choice>
+                   <orig>logemens</orig>
+                   <corr>logements</corr>
+                   </choice>
+                    du commis de marine servent<pb n="17"/>d'auxiliaires à son accusation, dans laquelle il ne craint pas de se comprendre comme le chef repentant du complot, en concluant à ce qu'il lui soit fait application du bénéfice de l'arrêté rémunératoire.</p>
+                    <p>Après trois jours de solennels débats, les juges et les assesseurs ne purent se résoudre à aucune condamnation, pas même à celle du misérable pris en flagrant délit de calomnie et de la plus infâme turpitude.</p>
+                    <p>De tels faits parlent avec éloquence, ils portent avec eux leur enseignement. Là du moins, quelle qu'ait été l'opinion des juges, ils ont reculé devant la monstruosité de l'accusation ; ils n'ont pas osé donner au monde le spectacle hideux de ces scandaleuses con damnations où l'intérêt des juges domine évidemment la cause tout entière. Les juges et les assesseurs de la <placeName ref="#GP">Guadeloupe</placeName> ont fait preuve, en ces trois graves circonstances, de quelque loyauté judiciaire. A la <placeName ref="#MQ">Martinique</placeName>, il n'en est pas ainsi ; loin de là. On s'y pique de moins de scrupule : les échafauds s'y dressent avec une merveilleuse facilité, et les oppresseurs y marchent le front levé, toujours escortés du bourreau. Aussi le croyons-nous, bien que les colons de la première de ces îles soient, peut-être au même degré que leurs voisins, imbus des préjugés contre lesquels nous avons levé notre étendard, quand sera venu le jour où le droit et l'usurpation devront régler leurs comptes aux colonies, là du moins la voix du sang d'innombrables martyrs ne s'élèvera pas pour accuser, maudire et appeler le sang !</p></div>
+
+                    <div>
+                    <head n="Du maintien de certains juges aux colonies.">DU MAINTIEN DE CERTAINS JUGES AUX COLONIES.</head>
+
+      <p>C'est un sujet de considération bien triste que le maintien obstiné, comme juges aux colonies, de certains hommes qui ont depuis 
+      <choice>
+      <orig>long-temps</orig>
+      <corr>longtemps</corr>
+      </choice> inscrits leurs noms en lettres de sang dans les annales judiciaires de ces malheureuses contrées. Aussi se demande-t-on par quelle étrange et toute-puissante influence on conserve dans leurs fonctions, en dépit des plus justes griefs et malgré leur amovibilité, ces hommes rétrogrades, dont l'opposition à l'esprit et à la lettre de la législation nouvelle ne prend pas même soin,<pb n="18"/>chez la plupart, de se dissimuler. On ne comprend pas que les bureaux de la marine, qui ne sauraient prétexter cause d'ignorance, n'aient pas fait justice depuis 
+      <choice>
+      <orig>long-temps</orig>
+      <corr>longtemps</corr>
+      </choice>
+       des juges prévaricateurs auxquels nous 
+       <choice>
+       <orig>fesons</orig>
+       <corr>faisons</corr>
+       </choice> allusion, et que la majorité de la population des colonies, blanche et de couleur, repousse avec mépris et signale comme l'une des causes les plus actives de la division et des haînes dont le pays est travaillé. De plusieurs côtés, il nous est venu à cet égard plus que des marques d'étonnement ; il nous est venu des assertions, fondées sur des 
+       <choice>
+       <orig>raisonnemens</orig>
+       <corr>raisonnements</corr>
+       </choice>
+        fort plausibles, qui ne tendraient à rien moins qu'à compromettre gravement l'honneur d'hommes haut placés pour exercer l'étrange influence qui maintient, contre toute raison, le pouvoir judiciaire aux mains de quelques hommes notoirement et exclusivement dévoués aux intérêts de la caste oppressive de la race africaine à laquelle nous appartenons, livrant ainsi entièrement à ces hommes les destinées de nombreuses populations.</p>
+        <p>Ces bruits, disons-nous, se répandent et s'accréditent chaque jour davantage dans le public, qui ne saurait évidemment attribuer qu'à des motifs peu honorables cette haute protection sous laquelle s'abritent en quelque sorte nos <emph>maîtres et seigneurs</emph> investis du pouvoir judiciaire aux colonies, pouvoir quasi-souverain, on peut le dire, et à l'aide duquel, en se renfermant dans certaines formalités légales qui échappent à la cassation, on fait pendre et étrangler jusqu'à ce que mort s'en suive ceux qu'on provoque comme ennemis. Dans cet état de choses, il est naturel de penser que les dominateurs ne reculent devant aucune espèce de sacrifices, et c'est là aussi ce qu'on nous assure qui a lieu. Ceux d'entre eux qui possèdent une grande fortune (et on a cite) feraient à propos, selon les bruits en question, un emploi de fonds considérable, à certaines époques, pour ne pas être dépossédés de ce pouvoir judiciaire dont ils sont par-dessus tout jaloux, nous avons dit précédemment pourquoi.</p>
+        <p>Du reste, plus est grande l'inculpation qui résulte de ces bruits, plus les hommes sur lesquels ils planent naturellement doivent chercher les moyens de les détruire. Ces moyens sont bien simples. Qu'ils cessent d'accorder aide et faveur à l'oligarchie coloniale et à certains magistrats amovibles qui n'ont pas la confiance du pays ; qu'ils renouvellent selon l'esprit de nos institutions actuelles les cours et tribunaux des colonies ; et alors ces bruits tomberont<pb n="19"/>Mais jusque-là, qu'ils ne s'étonnent pas d'être en état de suspicion permanente. Il est impossible en effet qu'il en soit autrement. Il est impossible que, lorsque des hommes atroces, mille fois signalés par des actes qui ont soulevé l'opinion publique contre eux, lorsque des hommes non seulement dépourvus de capacité progressive et d'esprit de conciliation, mais encore devenus presque fameux par leur cruauté, sont maintenus dans des fonctions où ils ne font que le mal et toujours le mal, ceux qui d'un mot pourraient faire disparaître ce mal ne soient pas soupçonnés d'agir, en matière si importante, sous la flétrissante influence de la corruption.</p>
+        <p>Ces graves soupçons sont bien puissamment corroborés par une considération d'un grand poids. Les juges dont nous voulons parler, colons et propriétaires d'esclaves, sont ainsi maintenus, disons-nous, malgré d'incroyables prévarications ; le ministère de la marine les couvre de son approbation et d'une faveur qui ne se dément point. Mais qu'un magistrat européen veuille remplir rigoureusement son devoir en 
+        <choice>
+        <sic>fesant</sic>
+        <corr>faisant</corr>
+        </choice>
+         observer la loi répressive de la traite des noirs ; qu'il protège les esclaves la loi à la main; qu'il signale des faits de concussion, déploie enfin quelque indépendance dans l'exercice de ses fonctions; qu'il se permette seulement de diner avec des hommes de couleur, (crime énorme!) il est aussitôt destitué, brutalement renvoyé de la colonie, et sa plainte expire dans ces mêmes bureaux qui n'ont qu'indulgence et protection pour les magistrats créoles. D'une part, la prévarication et l'injustice peuvent s'exercer impunément, on n'a pas même pour elle des paroles de blâme ; de l'autre, l'indépendance est punie comme un délit, et on frappe sans autre forme de procès l'homme qui s'en est rendu coupable :
+         <q>Convaincu seulement du crime détesté 
+         D'avoir aimé, servi, chanté la liberté.</q>
+         En présence de pareils faits, la conviction morale ne peut se commander. Tant pis pour les hommes que cette conviction atteint ! Nous n'avons pas dû, dans l'intérêt d'une cause qui domine pour nous toutes les considérations de détail, balancer un moment à livrer ces faits à la méditation de nos lecteurs.<pb n="19"/></p>
+</div>
+
+
+<div>
+
+   <head n="Triste resultat du procès de la grand'anse.">TRISTE RESULTAT DU PROCÈS DE LA <placeName ref="#GdA">GRAND'ANSE</placeName>.</head>
+   
+   <p>Le récent arrêt de la cour de cassation qui rejette le pourvoi de nos malheureux compatriotes de la <placeName ref="#GdA">Grand'Anse</placeName>, et qui va porter l'effroi et la douleur dans les familles de ces infortunés, est fondé seulement sur ce que toutes les formalités légales ont été observées par les juges de la <placeName ref="#MQ">Martinique</placeName> dans les débats qui ont amené leur épouvantable arrêt ; la décision de la cour prouve d'une manière éclatante tout ce qu'il y a de malheureux dans le régime exceptionnel auquel sont soumises les colonies. Ainsi, voilà la cour de cassation entraînée à sanctionner la monstrueuse iniquité de la cour dite d'assises de <placeName ref="#StP">Saint-Pierre</placeName>, parce que juges, assesseurs et témoins n'ont pas violé d'une manière suffisamment établie les formes imposées par l'ordonnance du 24 septembre 1828 ! La forme l'a emporté sur le fond, dont la cour suprême ne pouvait être appelée à connaître, et voilà des hommes dont le sang va couler parce que, cette fois, les juges martiniquais ont su se renfermer dans le cercle des formalités obligatoires !</p>
+   <p>Ceci fait le procès à cette prétendue organisation qui investit en quelque sorte du droit de vie et de mort des hommes qui ne sont pas les pairs, mais les ennemis de la plupart de leurs justiciables. C'est là un motif de cassation qui peut échouer devant la cour suprême, mais qui n'échouera pas au tribunal de la raison. Pour nous, c'est à la prétendue organisation en vertu de laquelle tout ceci s'est fait que nous nous attaquons. Ce n'est pas en effet une loi respectable pour les populations des colonies qu'une organisation judiciaire qui n'est pas l'expression de leur volonté, qui a été faite sans elles et contre elles par une ordonnance de la restauration. Ce doit être là aussi l'objet constant de notre opposition. Nous voulons la liberté et l'égalité pour les colonies comme les veulent en Europe les partis auxquels l'avenir appartient. Nous les voulons pleines et entières, se corrigeant et se contenant l'une l'autre, résultant de la mise en pratique de droits égaux, parce que de ces principes seuls naîtra pour nous une ère de justice et de bonheur. Si tous les opprimés de notre race étaient bien pénétrés de cette vérité et réunissaient leurs efforts pour avancer cette époque ; si, en présence des malheurs qui affligent si cruellement quelques-unes de nos colonies, les intéressés songeaient que ces malheurs mêmes<pb n="21"/>viennent de leur exclusion de droits, imprescriptibles pour eux, et réclamaient incessamment, avec intelligence, persévérance et fermeté, l'exercice de ces droits, l'obstination de leurs oppresseurs ne tarderait pas à être vaincue, et nous aurions à l'avenir moins d'infortunes à déplorer ! C'est au bon droit et à la raison qu'il faut avoir foi ; c'est par eux que nous vaincrons. Que si nos frères meurent, ce qu'à Dieu ne plaise (toute espérance n'est pas perdue de les sauver), pleurons sur eux, et ne nous décourageons pas ! Reprenons avec plus d'énergie et de chaleur que jamais la défense d'une cause qui a de tels martyrs. Que chacun ait confiance en sa force et en sa volonté, et fasse tout ce qui est en lui pour triompher par l'intelligence et la philosophie, à défaut d'autres armes, de l'oppression d'une race dont notre peu d'union et notre inertie morale font seules la puissance. L'avenir est à nous !</p>
+   <p>Que nos frères infortunés espèrent cependant ; tout n'est pas encore fini pour eux !</p></div>
+
+   <div>
+   <head n="Angleterre."><placeName>ANGLETERRE</placeName>.</head>
+
+   <p>La <emph>Revue des Colonies</emph>, dans un de ses derniers numéros, a fait connaitre la vive sympathie que ses publications ont inspirée à la <emph>Société de l'émancipation universelle</emph> de <placeName>Londres</placeName> ; nous sommes heureux de publier aujourd'hui le programe de cette honorable Société, ainsi que les noms des membres qui la composent.</p>
+   </div>
+
+   <div>
+   <head n="La société britannique et étrangère pour l'abolition universelle de l'esclavage des negres et de la traite des esclaves.">LA SOCIÉTÉ BRITANNIQUE ET ÉTRANGÈRE POUR L'ABOLITION UNIVERSELLE DE L'ESCLAVAGE DES NEGRES ET DE LA TRAITE DES ESCLAVES.</head>
+   
+   <p>Le comité, présidé par le Révérend George STEPHEN, est com
+posé de MM.</p>
+<p>AGGS (Henri), esq., London. 
+BARRETT (Richard), esq., ditto.  Cambridge. COOPER (Emanuel), esq., ditto. COOPER (Joseph), esq., ditto. Cox, REV. Dn., ditto.
+DIXON, REV. JAMES, ditto. ELLIOTT, J. S., ditto.. S., esq.,
+PRICE, REV. THOMAS, ditto. STEPHEN (George), esq., ditto. SEARS (Robert), esq., ditto. WILSON (Joseph), esq., ditto. STUART (Captain), London.
+EDWARDS (William), esq., ditto. WARDLAW, REV. DR., Glascow. HELGH, REV. DR., ditto.
+FARISH, the Reverend Professor,
+EATON (Joseph), esq., Bristol.
+WEST (Arthur), esq., Bath. BLAIR (William), esq., ditto.
+STURGE (Joseph), esq., Birmingham.
+EDMONDS (Cyrus), esq., ditto. JAMES, REV. JOHN ANGELL, ditto.
+JOHNSTON (James), esq., ditto.
+CARLILE, REV. JAMES, Belfast. Moonson (Richard), esq., Whit by.
+</p><pb n="22"/></div>
+
+<div>
+   <head n="Aux sociétés ayant pour but l'abolition de l'esclavage, et aux amis de l'emancipation des noirs.">AUX SOCIÉTÉS AYANT POUR BUT L'ABOLITION DE L'ESCLAVAGE, ET AUX AMIS DE L'EMANCIPATION DES NOIRS.</head>
+
+   <p>Plusieurs amis de l'humanité ont jugé nécessaire de prolonger l'existence des Sociétés établies pour la défense et l'émancipation des noirs.</p>
+
+   <p>Quoique l'esclavage soit aboli, et probablement pour toujours dans nos colonies, non seulement le mode d'application des mesures ordonnées doit être surveillé, mais on a besoin encore d'efforts soutenus, afin de protéger à l'avenir le nègre dans la jouissance des droits qui lui ont été reconnus. On a considéré aussi que, puisque l'esclavage n'est proscrit par aucune autre nation civilisée, il est nécessaire de faire agir l'influence morale de la <placeName ref="#GB">Grande-Bretagne</placeName> pour effectuer partout son abolition la plus immédiate et la plus complète possible. La conviction profonde de nos devoirs religieux, qui nous a fait obtenir tant de succès dans notre pays, doit nous inspirer le même zèle dans la recherche de tous les moyens légitimes pour atteindre le même but à l'étranger. <emph>L'esclavage, partout où il existe, est la même difformité morale ; c'est le même crime devant Dieu</emph> ; et il doit être envisagé avec exécration et réprouvé avec hardiesse par tout homme qui professe les principes du christianisme.</p>
+
+   <p>En outre, il s'élève en ce moment dans les États du Nord de l'<orgName>Union</orgName> un intérêt puissant et presque imprévu en faveur des esclaves.</p>
+
+   <p>Nous croyons devoir citer ici quelques faits peu connus du public.</p>
+
+   <p>Le nombre des esclaves en <placeName>Amérique</placeName> surpasse deux millions</p>
+
+   <p>En quelques endroits (comme par exemple dans la <placeName>Caroline du Sud</placeName>) l'éducation leur est défendue par la loi, et un homme libre de couleur n'a pas le droit de mettre le pied sur le territoire. Le témoignage d'un esclave n'a aucune valeur, si ce n'est quand il sert pour condamner un autre esclave. Le jugement par jury n'y est pas admis, même dans les affaires capitales. Enfin on a posé des obstacles tellement insurmontables à l'émancipation, que même si an possesseur d'esclaves, bon et consciencieux, veut se défaire de son inique propriété, il a la loi contre lui ; il n'ose pas, il ne peut<pb n="23"/>pas émanciper son esclave, à moins de le bannir de sa maison et de sa famille ; car pour l'émanciper, il doit auparavant le conduire à un autre état et l'exiler pour toujours. La condition des hommes de couleur libres en <placeName>Amérique</placeName>, dont le nombre dépasse 300,000, est aussi bien digne de pitié. Leurs 
+   <choice>
+   <sic>priviléges</sic>
+   <corr>privilèges</corr>
+   </choice> acquis sont peu considérables et peu considérés, leur dégradation est intolérable et leur bannissement progressif des États est généralement envisagé comme une maxime de politique nationale. Nous sommes encore obligés d'ajouter que le trafic des hommes se poursuit à l'intérieur avec tous les 
+   <choice>
+   <orig>incidens</orig>
+   <reg>incidents</reg>
+   </choice>
+    les plus abjects et les plus 
+    <choice>
+    <orig>dégoûtans</orig>
+    <reg>dégoûtants</reg>
+    </choice>. Les maris et les femmes, les mères et les 
+    <choice>
+    <orig>enfans</orig>
+    <reg>enfants</reg>
+    </choice> sont exposés publique ment à la vente, marchandés et examinés comme le bétail, et puis séparés l'un de l'autre à tout jamais, avec la même indifférence que s'il s'agissait des brebis ou des bœufs de nos marchés.</p>
+
+    <p>Il était facile de prévoir qu'un tel état de choses ne manquerait pas d'éveiller en Amérique la sympathie et l'indignation des amis de l'humanité. Mais malheureusement on y est tellement familiarisé avec l'esclavage, le mépris national des hommes de couleur a des racines si profondes, que jusqu'à ce jour cette indignation fait peu de progrès, même dans les États du Nord, malgré les efforts les plus énergiques des hommes de bien. Lorsqu'ils ont essayé de faire une révolution dans l'esprit public, ils n'ont rencontré nulle part ni encouragement ni secours.</p>
+
+    <p>Cependant, loin de se décourager, ils ont établi récemment à <placeName ref="#Phd">Philadelphie</placeName> une Société nationale pour l'abolition de l'esclavage ; malheureusement le nombre des membres est trop petit, en proportion de l'étendue immense du pays qui doit être l'objet des travaux de la Société, et la modicité des ressources pécuniaires fait craindre de grandes difficultés dans la poursuite de cette généreuse entreprise. Cette Société sollicite notre assistance. Plusieurs de ses membres ont été témoins 
+    <choice>
+    <sic>occulaires</sic>
+    <corr>oculaires</corr>
+    </choice>
+     des succès miraculeux que la bénédiction du Tout-Puissant nous a permis d'obtenir dans notre pays, et ils ont résolu de suivre notre exemple. Leur but est de propager dans tous les États leurs principes par les voies de la presse et de la prédication, d'exciter et de diriger les efforts de tous les hommes qui professent les mêmes principes, en créant des associations affiliées à la Société centrale ; ils ont décidé en outre d'adhérer consciencieusement au principe que <emph>l'esclavage étant un crime devant Dieu, doit être aboli comme tel</emph>, principe qui a toujours servi de base à nos actions.</p>
+
+     <p>Le comité ne pouvait rester insensible à l'appel de cette généreuse Société ; et lorsque l'espoir de nous associer à elle et de lui prêter aide nous décida à prolonger l'existence et l'action de la nôtre, des lettres nombreuses, arrivées de plusieurs points du pays, nous mirent à même de juger que notre opinion sur cette grande cause avait trouvé de l'écho dans tous les pays. En quelques endroits, le comité s'est trouvé surpassé même ; à <placeName ref="#Lvp">Liverpool</placeName> et en <placeName ref="#Ec">Ecosse</placeName> surtout, on a déjà souscrit pour des sommes considérables ; et le besoin d'un comité central pour coordonner et mettre en mouvement les opérations était évident et indispensable. Le comité s'est assemblé au milieu de ces circonstances, et, après un examen réfléchi sur ses travaux futurs, il s'est réorganisé, en adoptant le nom de <orgName><emph>Société britannique et étrangère pour l'abolition universelle de l'esclavage des nègres et de la traite des esclaves</emph></orgName>.</p>
+
+     <p>Ce titre expose clairement notre but, et nous espérons l'aide et l'assistance de tous les hommes de bien de notre pays. Nous regardons comme le premier de nos devoirs d'appuyer l'abolition de l'esclavage en <placeName>Amérique</placeName> par tous les moyens qui peuvent la faire triompher ; nous enverrons des prédicateurs distingués, et nous propagerons, par tous les moyens possibles, l'intérêt vif qui est profitable à une si digne cause.</p>
+
+     <p>La <orgName>Société</orgName> désire devenir l'organe de la voix de nos frères esclaves et 
+     <choice>
+     <orig>souffrans</orig>
+     <reg>souffrants</reg>
+     </choice>
+      sur toute la surface du monde. Elle cherchera à dévoiler et à mettre au jour les secrets des prisons et les cris de détresse du nègre exposé aux tortures du soleil du tropique ou enchaîné dans les abimes des mines du Pérou. Nous croyons fermement qu'en excitant constamment l'attention du public, nous aiderons l'influence protectrice que le parlement doit conserver sur l'observation rigoureuse de nos lois et de nos traités, dont les prévisions salutaires, ayant pour but d'empêcher la traite d'esclaves, restent souvent sans exécution dans les bureaux des ministres. Nous croyons encore que l'impulsion donnée par la <placeName ref="#GB">&gt;Grande-Bretagne</placeName> engagera les autres pays à suivre le noble exemple que nous leur offrons.</p>
+
+      <p>Nous sentons tout ce qu'il y a de difficile, de présomptueux même dans nos espérances ; mais est-il possible d'oublier que l'é<pb n="24"/>mancipation de nos colonies était regardée il y a quelques années comme un rêve de visionnaires enthousiastes ou tout au plus comme une utopie imaginaire et impraticable. Cependant Dieu a béni nos travaux, sans que nous eussions d'autres guides que les principes du christianisme, sans autres aides que quelques souscriptions. Encouragés par l'opinion populaire, nous avons réalisé ce rêve de l'imagination, et au bout de quelques années, l'esclavage colonial a disparu, si ce n'est pas partout et complétement, au moins pour toujours dans quelques contrées.</p>
+
+      <p>Pleins de confiance dans la protection divine, appuyés consciencieusement sur le même principe chrétien, nous ne chercherons pas d'autres moyens pour obtenir le triomphe bien plus grand et plus noble auquel nous aspirons maintenant ; et nous déclarons que nous sommes guidés par le livre saint de la Bible, en cherchant à amener L'ABOLITION COMPLÈTE DE L'ESCLAVAGE DANS LE MONDE, <q> <emph>« non par la force, non par la puissance, mais par mon esprit, » a dit le Seigneur des cieux</emph>.</q></p>
+
+      <p><emph>Le président</emph>, George STEPHEN. <emph>Le secrétaire</emph>, John SCOBLE.</p>
+
+      <p>Les personnes qui désirent aider <orgName ref="#Soc">la Société</orgName> sont priées d'envoyer leurs souscriptions à <emph>M. Scoble</emph>, 18, <emph>Aldermanbury, Londres</emph> ; ou à Paris, franc de port, à M. le président de la Société de la mo rale chrétienne, 12, rue Taranne.</p>
+</div>
+
+<div><head n="France.">FRANCE.</head>
+<head n="Paris.">PARIS.</head>
+<head n="Cour de cassation.">COUR DE CASSATION.</head>
+
+<p><emph>Audience du <date>22 novembre</date>. Présidence de <persName ref="#Bstd">M. de Bastard</persName>.</emph></p>
+
+<p>POURVOI DES CONDAMNÉS DE LA <placeName ref="#GdA">GRAND'ANSE</placeName> (MARTINIQUE.)</p>
+
+<p>Après plusieurs remises successives, l'examen de cette grande affaire avait été fixé au samedi 22 novembre. Durant ces retards,<pb n="25"/>M. le procureur-général Dupin s'était fait remettre les pièces. Le bruit courait qu'il devait porter la parole dans ce procès, qui peut être n'a pas d'exemple dans les annales de la cour suprême. À l'audience, définitivement indiquée, dont nous allons rendre compte à nos lecteurs, le banc du ministère public s'est trouvé occupé par <persName>M. Parant</persName>, avocat-général, la cour siégeant sous la présidence de <persName>M. de Bastard.</persName></p>
+
+<p>On y remarque l'absence de <persName>M. le conseiller Mérilhou</persName>, qu'une perte douloureuse et toute récente a empêché de se rendre à l'audience. <persName>M. le conseiller Isambert</persName> est aussi l'un des magistrats que l'on cherche avec anxiété dans le sein de la cour : son 
+<choice>
+<sic>siége</sic>
+<corr>siège</corr>
+</choice>
+ est vide. On apprend bientôt que cet honorable magistrat s'abstient, et que le garde-des-sceaux et le procureur-général ont provoqué sa récusation, fondée sur ce que, dans une lettre aux hommes de couleur de la <placeName>Martinique</placeName>, écrite en sa qualité de député, M. Isambert a émis à l'avance une opinion sur l'un des moyens du pourvoi, celui d'amnistie (1).</p>
+
+<p>Beaucoup d'hommes de couleur sont 
+<choice>
+<orig>présens</orig>
+<reg>présents</reg>
+</choice>
+ à la barre, parmi lesquels se remarquent deux de ces hommes, exemples vivans des fureurs d'une autre époque, qui viennent se reproduire à dix ans de date dans les 
+ <choice>
+ <orig>événemens</orig>
+ <reg>événements</reg>
+ </choice>
+  de la Grand'Anse. On voit aussi derrière le barreau <persName>M. Macaulay</persName>, de la Société de l'anti-esclavage de <placeName>Londres</placeName>, et <persName>MM. John Scoble</persName> et <persName>James Copper</persName>, membres de la <orgName>Société britannique et étrangère pour l'abolition de l'esclavage</orgName>. Sur le bureau du rapporteur est l'énorme dossier des pièces, portant en caractère géant ces mots : « Insurrection de la Grand' Anse ».</p>
+
+<p><persName>M. le conseiller de Ricard</persName> commence son rapport, dont la lecture dure environ trois heures. Nous ne suivrons pas ce magistrat dans l'exposé des faits généraux qu'il trace à grands traits, et des moyens du pourvoi qu'il analyse avec impartialité. Les faits sont aujourd'hui bien connus, après toutes les publications contradictoires auxquelles ils ont donné lieu ; nous ne pouvons mieux faire que de renvoyer à cet égard au Mémoire de <persName>Me Gatine</persName> que nous
+<note>(1) La publicité donnée à cette lettre n'est pas, comme le prétend M. Dupin, Pauvre de M. Isambert. M. Fabien, mandataire des hommes de couleur de la Marti nique, à qui la lettre fut remise, crut devoir la publier dans l'intérêt de ses 
+<choice>
+<orig>commettans</orig>
+<reg>commettants</reg>
+</choice>
+.</note><pb n="26"/>avons annoncé dans notre dernier numéro. Quant aux nombreux moyens de cassation, les plaidoiries que nous allons rapporter succinctement et l'arrêt les feront assez connaître. Sur le moyen d'amnistie, M. le rapporteur a donné lecture de plusieurs pièces transmises à la cour par le ministre de la marine, et qui sont notamment une lettre de l'ex-gouverneur <persName>Dupotet</persName>, déniant les ordres et les pleins pouvoirs par lui donnés au <persName>capitaine Montigny</persName>, envoyé au-devant <emph>de l'insurrection pour arranger cette affaire par tous les moyens convenables</emph> ; puis une autre lettre du <persName>contre-amiral Halgan</persName>, gouverneur actuel, qui n'était pas à la <placeName>Martinique</placeName> lors des 
+<choice>
+<orig>événemens</orig>
+<reg>événements</reg>
+</choice>
+ de <date>décembre 1833</date>, et qui n'en certifie pas moins que les insurgés ne furent aucunement amnistiés. La lecture de ces pièces, après celle des passages de l'arrêt de renvoi et de l'acte d'accusation lui-même, qui avouent positivement le fait de l'amnistie, est accueillie avec une sensation pénible.</p>
+
+ <p>Après le rapport et une courte suspension d'audience, la parole est aux avocats. Me Gatine, chargé de la défense par tous les condamnés, avec le pouvoir de s'adjoindre un autre défenseur si le besoin de la cause l'exigeait, partage avec M Crémieux le fardeau de cette affaire. Voici l'analyse rapide de la plaidoirie pleine de chaleur et de logique de Me Gatine :</p>
+
+ <p><q>« Messieurs, dit-il en commençant, le pourvoi des condamnés de la Grand'Anse s'appuie sur des moyens de cassation assez multipliés. Dans toute autre circonstance, nous aurions craint d'abuser des 
+ <choice>
+ <orig>momens</orig>
+ <reg>moments</reg>
+ </choice>
+  de la cour et de la religieuse attention qu'elle daigne nous prêter, surtout lorsque nous venons devant elle défendre des condamnés à mort. Mais ici, dans cette affaire à jamais déplorable, nos moyens, si nombreux qu'ils soient, restent encore au-dessous du nombre des seules condamnations capitales ! En présence de tous ces échafauds, nous aurons pu, fouillant cette longue procédure, vous signaler toutes les nullités qu'elle nous a paru présenter, et votre bienveillance, nous en sommes assurés, ne nous manquera pas pour le rapide développement des moyens proposés. »</q></p>
+
+  <p><q>« En suivant la série des opérations de la cour d'assises, nous avons dû nous attacher d'abord au tirage des assesseurs. Les cinq premiers moyens se rapportent à cette phase de la procédure. »</q></p>
+
+  <p><q>« Nous ferons d'abord une observation générale, sous l'im<pb n="27"/>pression de laquelle les moyens nous paraissent devoir être appréciés. »</q></p>
+
+  <p><q>« Vous le savez, messieurs, les colonies ne jouissent pas de l'institution du jury. Là on adjoint seulement aux magistrats com posant la cour d'assises <emph>des assesseurs</emph> pris dans un 
+  <choice>
+  <orig>collége</orig>
+  <reg>collège&gt;</reg>
+  </choice>
+   ou corps de juges criminels existant dans le ressort de chaque cour d'as sises. Je dis juges criminels, car c'est le titre qui leur convient : ils sont en même temps juges du fait et applicateurs de la peine, ils ont, à peu d'attributions près, les mêmes pouvoirs que les magistrats eux-mêmes. »</q></p>
+
+  <p><q>« Voilà pour l'importance de leurs fonctions. Elle fait concevoir toute celle qui s'attache aux opérations du tirage et de la formation du tableau des assesseurs. »</q></p>
+
+  <p><q>« Mais c'est peu. Ce qui doit être remarqué surtout par la cour, c'est la composition du collège des assesseurs. <emph>Ils se recrutent parmi les blancs exclusivement.</emph> Aucun homme de couleur n'y est compris, bien qu'un grand nombre réunisse les conditions requises. C'est là, messieurs, un fait de la plus haute gravité en présence de l'inimitié des classes, devant ces haines implacables qui s'attachent aux hommes de couleur et qu'on dit, naguère pour ce procès même, avoir traversé l'océan, poursuivant leurs victimes jusque dans votre enceinte (1) ! Messieurs, dans leurs souffrances, les hommes de couleur s'écrient souvent qu'ils n'ont pas de juges aux colonies. Au moins n'ont-ils pas le jugement <emph>par leurs pairs</emph>, ce droit commun des Français en matière criminelle. Demandez aux assesseurs blancs si les accusés mulâtres sont leurs pairs…. Oh ! oui, messieurs, ce sont d'importantes formalités que le tirage des assesseurs, les récusations, la formation du tableau des quatre pour le jugement ! »</q></p>
+
+  <p><q>«Que s'est-il passé ? nous l'allons voir.»</q></p>
+
+  <p>Ici l'avocat discute cinq moyens, portant entre autres sur la récusation du sieur <persName>Duval-Dugué</persName>, qui fut maintenu sur le tableau malgré les accusés, qui voulaient l'en faire retrancher : <q>Ils exer<note>(1) <persName>RICHARD-Lucy</persName> et <persName>M. Lepelletier-Duclary</persName>, qui ont condamné tant de malheureux à la <placeName>Martinique</placeName>, sont venus en <placeName>France</placeName> avec les pièces du procès. Ils ont été admis chez le garde-des-sceaux et chez <persName>M. Dupin</persName>, procureur général. C'est après leur visite que M. Dupin provoqua, à la cour de cassation, le déport de <persName>M. Isambert</persName>. <persName>M. Charles Dupin</persName>, frère du procureur-général, est l'agent des colons privilégiés de la <placeName>Martinique</placeName> <emph>aux gages</emph> de 20,000 francs <emph>par an</emph>.</note><pb n="28"/>çaient des récusations <emph>péremptoires</emph>, dit Me Gatine, c'est-à-dire absolues, sans examen ni discussion, car la loi n'en reconnaît pas d'autres. C'est un droit dont elle ne demande pas compte aux accusés, pas plus qu'elle ne demande compte aux juges de leurs convictions. Les accusés devaient aussi <emph>se concerter</emph> pour exercer leurs récusations ; autrement elles eussent été illusoires pour le plus grand nombre. N'étaient-ils pas là <emph>quatre-vingt-huit !</emph> Peut-on dire que chacun d'eux ait joui du droit de récusation si un concert ne s'est établi entre eux dans toute la latitude et toute la liberté qui doit appartenir à la défense !</q></p>
+
+  <p><q>«Ne doit-on pas s'étonner encore de l'incident qui a signalé la dernière opération du tirage ? Un seul nom restait dans l'urne après 
+  <choice>
+  <sic>toute</sic>
+  <corr>toutes</corr>
+  </choice>
+   les excuses successivement admises, car chacun reculait devant le rôle de juge dans cet épouvantable procès. Ce nom de l'unique assesseur qui restât a été extrait de l'urne ; il n'avait garde de n'en pas sortir. Est-ce le sort qui l'en a tiré ?  Le tirage au sort, c'est le choix du hasard dans un nombre d'individus plus grand que ceux qu'il faut choisir ; on le comprend sur un certain nombre d'assesseurs ou de jurés; on le comprend sur une <emph>pluralité</emph>, on ne le comprend pas sur une <emph>unité</emph>. Dira-t-on qu'il n'y a pas eu de récusation. Mais elle était impossible, car elle eût empêché la formation da tableau et aurait renvoyé forcément l'affaire à d'autres assises extraordinaires. En résultat, et ce ne sera pas le moins déplorable, quatre-vingt-huit accusés qui étaient là, plongés depuis six mois dans les cachots, ont dû forcément ou renoncer à l'exercice de leur droit de récusation ou prolonger encore, en l'exerçant, les souffrances de leur captivité, les angoisses de cent familles ; cependant le droit de récusation, c'est le droit même de la défense. Dès qu'il était impraticable, le procès lui-même était devenu impossible. On ne pouvait trouver des juges ; tous les assesseurs successivement désignés par le sort reculaient épouvantés ; des accusés, leur nombre, pour ainsi dire innombrable, était lui-même une impossibilité ; tout, dans les préliminaires du procès, aboutissait à l'impossible ! C'était peut-être un avertissement d'en haut ; que n'a-t-il été entendu !»</q></p>
+
+   <p>Arrivant aux débats, l'avocat s'arrête à la déposition du témoin Dieudonné Valmont, l'une des plus importantes, ainsi que la cour d'assises elle-même l'a déclaré : <q>« Ce témoin, dit Me Gatine, était<pb n="29"/>atteint d'aliénation mentale, suivant certificat de médecin qui est fait foi ; néanmoins sa déposition a été lue. Ce n'est pas une des moins étranges circonstances de cet affreux procès que l'introduction d'un pareil document dans les débats pour arriver à la découverte de la vérité. La raison, la morale, l'honneur public permettent-ils de se servir en matière quelconque de la déposition d'un fou contre des accusés ? Des magistrats haut placés, des assesseurs pris parmi l'élite des citoyens, des juges criminels enfin, ayant à décider de la vie ou de la mort de quatre-vingt-huit accusés, iront ils chercher leurs convictions dans les récits d'un cerveau malade ! Voilà ce qui ne se voit qu'aux colonies, là où l'abus règne, où la loi n'est rien.</q></p>
+
+   <p><q>La cour devra examiner encore si la publicité des débats a été suffisamment constatée. Cette garantie avait ici une importance plus haute encore que de coutume. Ce procès 
+   <choice>
+   <sic>inoui</sic>
+   <corr>inouï</corr>
+   </choice>
+   , ce grand drame au sanglant dénouement, qui durant un mois entier se dé ploya dans ses proportions monstrueuses, devait au moins s'agiter au grand jour. Si, à la 
+   <placeName>Martinique</placeName>, la justice, outre ses mille plaies, était encore <emph>occulte</emph>, il ne serait plus de frein aux abus. La publicité est encore une garatie pour ceux qui n'en ont plus d'autres.</q></p>
+
+   <p>Me Gatine signale ensuite de graves irrégularités dans la partie la plus importante du procès, la position des questions de fait et leur solution.</p>
+
+   <p>Les défenseurs avaient demandé que la question fût posée, de savoir si beaucoup des accusés n'avaient pas été entraînés dans les bandes <emph>par contrainte</emph> ; car, en pareil cas, les chefs commandent, la multitude les suit aveugle et intelligente. C'est un cas d'excuse prévu par la loi. La cour d'assises de <placeName>Saint-Pierre</placeName> ne pouvait se dispenser de poser la question réclamée. Là était le salut des accusés : <q>« Dans une circonstance solennelle, dit l'avocat, sur une 
+   <choice>
+   <sic>requisition</sic>
+   <corr>réquisition</corr>
+   </choice>
+    du procureur-général, dans l'intérêt de la loi, vous avez jugé par arrêt du <date>10 janvier 1834</date> que la loi n'était pas violée par la position <emph>d'une question de contrainte</emph>. Je m'empare de cet arrêt dicté par la raison et par l'humanité ; j'en conclu que la question est dans le droit des accusés, dans le droit de la défense, puisque la loi ne l'interdit pas. Ici encore, le droit de la défense fut méconnu ! »</q></p><pb n="30"/>
+
+   <p>Enfin aucune peine ne pouvait être prononcée dans l'état des faits tels qu'ils résultaient des réponses faites aux questions posées. L'avocat rappelle les questions et les réponses ; il les met en regard des dispositions de la loi ; il en conclut que ni le complot ni l'attentat imputés aux accusés ne sont régulièrement établis dans toutes leurs circonstances constitutives. Il fait remarquer aussi, après une discussion convaincante sur ce point, <emph>que le but et le caractère des bandes</emph> n'ont pas été déterminés. Il cite à l'appui de son observation plusieurs arrêts rendus dans les affaires de la <placeName>Vendée</placeName> et dans celle de la <placeName>rue des Prouvaires</placeName> en <date>1832</date>.</p>
+
+   <p><q>« Les conséquences sont palpables, ajoute Me Gatine. L'attentat commis en bandes, les emplois ou 
+   <choice>
+   <orig>commandemens</orig>
+   <reg>commandements</reg>
+   </choice>
+    dans ces bandes, tous faits dénués des circonstances qui les criminalisent, ne sont plus atteints par la loi pénale. Ceux qui ont subi la peine de mort pour ces 
+    <choice>
+    <orig>commandemens</orig>
+    <reg>commandements</reg>
+    </choice>
+     ou emplois n'en pouvaient être frappés. Ceux qui, pour avoir fait seulement partie des bandes, ont subi l'expulsion à perpétuité de la colonie ne pouvaient être arrachés à leurs familles, car l'article 100 du code pénal colonial, cette monstruosité législative, tout discrétionnaire qu'il soit, ne peut évidemment recevoir application qu'autant qu'il s'agit de bandes <emph>criminelles</emph>. »</q></p>
+
+     <p>Me Gatine termine à peu près en ces termes :</p>
+
+     <q><p>« Il resterait à développer un moyen qui dominerait tous les autres, celui d'amnistie. Mais pour apprécier ce moyen, il faudrait entrer dans l'examen des faits, afin que la cour vit comment l'amnistie fut proclamée comme seule issue possible d'un événement militaire ; comment le gouverneur lui-même, devant son immense responsabilité, dut avoir recours à cette amnistie ; s'il est vrai que l'<emph>insurrection de la Grand' Anse</emph> n'a été qu'une explosion des passions coloniales ; s'il est vrai enfin que des inimitiés aveugles et implacables ont fait tout le mal dans cette affaire.</p>
+     
+     <p>Il vous faudrait, messieurs, compter tous ces échafauds, mesurer avec douleur cette extension illimitée donnée à des accusations politiques ; car c'est ici œuvre de politique, et de la plus mauvaise, la plus intolérante, la plus meurtrière, la politique des colons !</p>
+
+     <p>Après cette longue et laborieuse discussion, le courage nous manquerait à replacer sous les yeux de la cour tant de désolations,<pb n="31"/>tant de larmes, tant de sang déjà versé par la force armée avant que l'action de la justice eût commencé ! »</p></q>
+
+     <p>L'amnistie était le seul remède à tous ces maux. Elle fut proclamée par un chef militaire investi des pouvoirs du gouverneur comme l'acte d'accusation lui-même l'a reconnu ; et en présence de cet aveu formel des accusateurs, nous ne comprenons guère que, avec les délégations du gouverneur actuel qui n'était pas à la <placeName>Martinique</placeName> au temps de la prétendue insurrection, on vienne chicaner l'amnistie à quatre-vingt-treize condamnés ! C'est au mépris de cette amnistie, au mépris de l'honneur national que tant d'hommes iraient périr misérablement dans l'exil ou dans les bagnes, que tant de familles seraient décimées, entassées pêle-mêle dans cette affreuse hécatombe !</p>
+
+     <p>Messieurs, ce moyen d'amnistie ne se recommande pas moins que les autres à la sollicitude de la cour. Mais, personnellement nous ne prolongerons pas plus 
+     <choice>
+     <orig>long-temps</orig>
+     <reg>longtemps</reg>
+     </choice>
+      ces longues observations auxquelles un confrère doit ajouter encore. Ce que nous demandons, nous pouvons maintenant le résumer et le dire en deux mots : c'est un acte de cette vigilance bienveillante que vous ne cessez d'exercer sur vos justiciables d'outre-mer, c'est la révision de ce procès, le plus déplorable qui ait depuis 
+      <choice>
+      <orig>long-temps</orig>
+      <reg>longtemps</reg>
+      </choice> 
+      désolé les colonies ; c'est un nouvel examen, de nouveaux juges. On peut y voir à deux fois quand il s'agit de quinze têtes !</p>
+
+      <q><p><persName>M Crémieux</persName> prend ensuite la parole :Messieurs, je prends la parole, après la plaidoirie que vous venez d'entendre ; ce n'est pas que je sente le besoin d'ajouter quelques 
+      <choice>
+      <orig>argumens</orig>
+      <reg>arguments</reg>
+      </choice>
+       nouveaux à ceux qui viennent d'être exposés, mais c'est pour remplir un devoir de conscience et d'humanité, c'est pour que ma voix ne manque pas dans cette enceinte à ces malheureux, qui, du fond de leurs cachots, l'ont réclamée comme une grâce, eux qui pouvaient l'exiger comme un droit. Oh ! quelle affreuse procédure ! messieurs, quelle désespérante condamnation ! Quoi donc ? La loi n'offrira par de moyens pour anéantir à jamais cette effroyable décision ! Quelle justice que celle des colonies ! Non que je veuille rechercher si les condamnés furent coupables, un tribunal compétant a prononcé ; mais, grand Dieu ! point de merci, point de pitié ! Quinze têtes promises à l'échafaud,<pb n="32"/>vingt-cinq malheureux destinés au bagne, trente, quarante, que sais-je, expulsés de la colonie à jamais, et une masse effrayante de condamnations à mort par coutumace! Vous vous rappelez, messieurs, la consternation qui vint glacer la métropole à cette annonce fatale ! Et pourtant, il était possible de ne pas poursuivre, de ne pas juger, de ne pas condamner ! C'était possible, et, je vais plus loin, condamnation, jugement, poursuites sont frappés d'illégalité. Je n'entrerai pas dans l'examen des quinze moyens qui vous ont été successivement présentés ; mais il en est deux qui sont à mes yeux d'une évidence palpable. L'un domine la cause, il abolit l'accusation, il la frappe et la ruine dans sa base, c'est l'<emph>amnistie</emph>. L'amnistie, gage de paix et de réconciliation, appui des trônes, gloire des princes, l'amnistie si douce à décréter, si favorablement accueillie par tout ce qui porte un cœur généreux.</p>
+       
+       <p>Vous l'avez jugé naguère, messieurs, avec ces hautes lumières qui recommandent votre suprême juridiction : quand l'amnistie a été promise par un chef ayant pouvoir, et que sur la foi de cette amnistie, des révoltés se sont rendus, les poursuites judiciaires sont nulles. Eh bien ! dans la cause, une amnistie a été promise, elle a été acceptée, elle a été violée ! Ce que j'avance, je le prouve par l'arrêt de renvoi. En voici des passages qui tranchent la question :</p>
+       
+       <p>Le capitaine Montigny fat chargé par le gouverneur d'
+       <choice>
+       <sic>appaiser</sic>
+       <corr>apaiser</corr>
+       </choice>
+        la sédition, et <emph>d'employer pour y parvenir tous les moyens qui lui paraîtraient les plus convenables.</emph></p>
+        
+        <p>Voilà donc tous les pouvoirs du gouverneur remis aux mains de Montigny. Nous dirait-on, par hasard, que les moyens convenables ne devaient être que des moyens de répression et de vengeance ? Malheur à qui dirait en <placeName>France</placeName> de telles paroles ! La répression après les promesses, après les menaces, après les sommations, après toutes les promesses d'humanité ; autrement la répression est un crime. Ainsi <persName>Montigny</persName> avait pouvoir d'amnistier, il amnistia, en voici la preuve, je lis l'arrêt de renvoi :</p>
+        
+        <p><persName>Montigny</persName> s'approche des insurgés avec vingt hommes armés, il leur fait sommation de se rendre, au nom du gouverneur, et sur ces premiers mots, un grand nombre jettent leurs armes. Alors <persName>Montigny</persName> s'approche seul au galop, <emph>il déclare, au dire des personnes qui ont été à portée de l'entendre :</emph> car pour lui il ne se rappelle pas bien ses<pb n="34"/>expressions, il déclare, au nom du gouverneur, que s'ils se rendent IL NE LEUR SERA RIEN FAIT ; aussitôt, un des chefs sort des rangs, et <emph>tous les insurgés déposent les armes !</emph></p>
+        
+       <p><emph>Il ne leur sera rien fait</emph>, et la mort, les galères, l'exposition les attendent ! Ils sont amnisties, et on les frappe avec fureur ! Amnisties, et de quelle amnistie ? non pas de celle qui va chercher l'inculpé dans la prison et le renvoie, après la prévention, sans jugement ; mais de l'amnistie des champs de bataille, de celle qui arrête l'effusion du sang le plus précieux ; celle qui dit : Mets bas les armes, ne te rougis pas du sang de tes frères, et le voile de l'oubli va tout couvrir. Cette amnistie, c'est le salut de tous, non pas de ceux-là seuls que vous pardonnez, mais de ceux qui venaient les combattre ; car, dans le combat, la mort moissonne des deux côtés. Et vous violez cette capitulation entre frères !</p>
+       
+       <p>Messieurs, vous ne le souffrirez pas, vous casserez un arrêt qui foule aux pieds ce qu'il y a de plus sacré au monde, la loi du pardon. Vous proclamerez les droits de l'amnistie ; et nous qui plaidons pour des Français d'une lointaine colonie, nous profiterons de cette audience solennelle pour dire encore : Amnistie ! amnistie ! que les cachots et les prisons s'ouvrent devant elle, que les citoyens oublient et pardonnent, et qu'une main fraternelle vienne serrer la main des amnisties ! (Mouvement général dans l'auditoire.)</p>
+       
+       <p>Messieurs, il est un second moyen qui entraîne encore la cassation de cette procédure, c'est la violation de l'article 64 du code pénal, combiné avec l'article 359 du code d'instruction criminelle. Après avoir rappelé quelques-uns des 
+       <choice>
+       <orig>argumens</orig>
+       <reg>arguments</reg>
+       </choice>
+        donnés par <persName>Me Gatine</persName>, <persName>Me Crémieux</persName> ajoute : Que disaient les accusés ? Nous demandons que l'on pose une question ainsi conçue : Les accusés ont-ils été contraints au crime par une force à laquelle ils n'ont pu résister ? Cette question résolue en leur faveur, il n'y avait plus de crime, et l'on se refuse à la poser ! Les assesseurs sauront qu'il n'y a pas crime s'il y a eu force, et ils ne déclareront pas la culpabilité. Messieurs, les assesseurs, ce sont les jurés des colonies, et les jurés n'ont pas de questions de droit à résoudre, mais des faits à juger. Et dans quelle circonstance refusez-vous de poser cette question ? Dans une cause où il s'agit d'une insurrection, d'une guerre civile. Et qui ne sait qu'en pareil cas la masse<pb n="34"/>suit et combat sans comprendre ? Sa volonté, c'est la volonté de quelques chefs. Hélas ! presque toujours les chefs échappent par la trahison, et la foudre va frapper le peuple obéissant à la voix des vrais coupables !</p>
+        
+        <p>Je m'arrête, messieurs, je ne voulais pas plaider, mais appeler votre haute sagesse sur ces deux points qui entrainent la cause. Tombent, tombent les échafauds et les chaînes, périssent les arrêts d'exil et d'expulsion ! Oh ! je sais bien que quinze têtes ne tomberont pas ; le roi, je le sais bien, ne souffrira pas cette <emph>boucherie judiciaire ;</emph> mais pourtant c'est à la mort que le jugement les destine ! La voix qui m'a imploré, c'est <emph>vox morituri</emph>. Prière sacrée que celle d'un condamné, surtout d'un condamné politique ; je l'ai exaucée autant qu'il a dépendu de moi ; le salut de tous ces infortunés est dans vos mains, ils seront sauvés ! »</p></q>
+
+        <p><persName>M. Parant</persName>, avocat-général, combat successivement tous les moyens du pourvoi. En ce qui touche l'amnistie, il s'attache à démontrer que, d'après les ordonnances coloniales, le gouverneur n'avait pas le droit de l'accorder.</p>
+
+        <p>Il est six heures du soir ; la cour renvoie le prononcé de son arrêt au <date>lundi 24</date>. Toute la journée du dimanche est employée à délibérer. A l'ouverture de l'audience du lundi, la cour renvoie de nouveau son arrêt au <date>jeudi 27</date>. Ce jour-là enfin la cour prenant séance, M. le président donne lecture d'un long arrêt qui rejette le pourvoi.</p>
+
+        <p>Une impression douloureuse suit ce résultat inattendu. Tous ceux qui avaient suivi avec anxiété les audiences de la cour se re tirent dans un morne silence.</p>
+
+        <p>On se demande ce que le gouverneur de la <placeName>Martinique</placeName> fera de ses quinze têtes.</p>
+
+        <p>Un recours en 
+        <choice>
+        <orig>grace</orig>
+        <reg>grâce</reg>
+        </choice>
+         a été immédiatement déposé par <persName>Me Gatine</persName>, Nous ferons connaître cette pièce, qui complète la défense de nos compatriotes.<pb n="35"/></p>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+            
+
+
+         </div>
+      </body>
+   </text>
+</TEI>
