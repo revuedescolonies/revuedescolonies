@@ -115,7 +115,6 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-emotion`,
-    `gatsby-plugin-material-ui`,
     `gatsby-transformer-json`,
     {
       resolve: `gatsby-plugin-google-gtag`,

@@ -93,6 +93,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   let search_index = await makeSearchIndex(reporter, graphql, publishedTei)
   await makeSearchPage(createPage, JSON.stringify(search_index))
+
+  await makeMap(createPage, reporter, graphql)
 }
 
 async function makeCeteiceanPages(createPage, reporter, graphql, publishedTei) {
@@ -191,11 +193,11 @@ async function makePages(createPage, reporter, graphql) {
               path
               title
               author
+              date
               }
               parent {
               ... on File {
                 sourceInstanceName
-                birthTime
                 dir
               }
             }
@@ -217,29 +219,29 @@ async function makePages(createPage, reporter, graphql) {
       lastFr: allFile(
         filter: {sourceInstanceName: {eq: "news"}, dir: {regex: "/news\\/fr/"}}
         limit: 1
-        sort: {birthTime: DESC}
+        sort: {childMarkdownRemark: {frontmatter: {date: DESC}}}
       ) {
         nodes {
           childrenMarkdownRemark {
             frontmatter {
               title
+              date
             }
           }
-          birthTime
         }
       }
       lastEn: allFile(
         filter: {sourceInstanceName: {eq: "news"}, dir: {regex: "/news\\/en/"}}
         limit: 1
-        sort: {birthTime: DESC}
+        sort: {childMarkdownRemark: {frontmatter: {date: DESC}}}
       ) {
         nodes {
           childrenMarkdownRemark {
             frontmatter {
               title
+              date
             }
           }
-          birthTime
         }
       }
     }
@@ -285,7 +287,7 @@ async function makePages(createPage, reporter, graphql) {
         context: {
           content: node.html,
           title: node.frontmatter.title,
-          createdTime: node.parent.birthTime,
+          createdTime: node.frontmatter.date,
           author: node.frontmatter.author,
           lang
         }
@@ -300,15 +302,15 @@ async function makeNewsIndex(createPage, reporter, graphql) {
 
   const result = await graphql(`
     query NewsIndex {
-      allFile(filter: {sourceInstanceName: {eq: "news"}}) {
+      allFile(filter: {sourceInstanceName: {eq: "news"}}, sort: {childMarkdownRemark: {frontmatter: {date: DESC}}}) {
         group(field: {dir: SELECT}) {
           nodes {
-            birthTime
             childMarkdownRemark {
               excerpt
               frontmatter {
                 title
                 author
+                date
               }
             }
           }
@@ -326,7 +328,7 @@ async function makeNewsIndex(createPage, reporter, graphql) {
 
     const posts = group.nodes.map(n => {
       return {
-        createdTime: n.birthTime,
+        createdTime: n.childMarkdownRemark.frontmatter.date,
         excerpt: n.childMarkdownRemark.excerpt,
         title: n.childMarkdownRemark.frontmatter.title,
         author: n.childMarkdownRemark.frontmatter.author
@@ -343,6 +345,83 @@ async function makeNewsIndex(createPage, reporter, graphql) {
     })
 
   })
+}
+
+async function makeMap(createPage, reporter, graphql) {
+  const component = require.resolve(`./src/templates/map.tsx`)
+
+  const result = await graphql(`
+    query EntityDataQuery { 
+      allFile(filter: {name: {eq: "entities"}}) {
+        nodes {
+          childCetei {
+            prefixed
+            elements
+          }
+        } 
+      } 
+    }  
+  `)
+
+  if (result.errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query.`)
+    return
+  }
+  const entitiesNode = result.data.allFile.nodes[0].childCetei;
+
+  // JSDOM
+  const prefixedDoc = new JSDOM(entitiesNode.prefixed, { contentType: 'text/xml' }).window.document;
+
+  const geoData = [];
+  // Get place from original 
+  const placeElements = prefixedDoc.querySelectorAll('tei-place');
+  const container = prefixedDoc.createElement("tei-div")
+
+  placeElements.forEach((placeElement) => {
+    // For each place in original 
+    const xmlId = placeElement.getAttribute('xml:id'); 
+    // parse geojson data 
+    const geoElement = placeElement.querySelector('tei-geo[decls="#geojson"]');
+    if (geoElement) {
+      
+      const snippet = JSON.parse(geoElement.textContent);
+      // Add xml:id to the properties of the geojson snippet
+      snippet.properties.id = xmlId;
+      geoData.push(snippet)
+      // Find the places with geodata in prefixed XML 
+      container.appendChild(placeElement)
+    }  
+  });
+
+  const contextGeoJSON = {
+    type: "FeatureCollection",
+    features: geoData.flatMap(snippet => snippet.features || [snippet]),
+  };
+  
+  createPage({
+    path: '/en/map',
+    component,
+    context: {
+      geojson: contextGeoJSON, 
+      language: 'en',
+      
+      elements: entitiesNode.elements,
+      prefixed: serialize(container)
+    }
+  }) 
+
+  createPage({
+    path: '/fr/carte',
+    component,
+    context: {
+      geojson: contextGeoJSON, 
+      language: 'fr',
+
+      elements: entitiesNode.elements,
+      prefixed: serialize(container)
+    }
+  })
+  
 }
 
 // makeIndices(create Page, reporter, graphql, publishedTei) creates the 
@@ -365,14 +444,14 @@ async function makeIndices(createPage, reporter, graphql, publishedTei) {
         // for each entity found
         entities.forEach((entity)=> {
             // the name and id is extracted from the entity
-            let name = entity.querySelector(nameAttr).textContent
+            let name = entity.querySelector(nameAttr)
             let id = entity.getAttribute(idAttr)
             // the name and id values are added for each entity with an empty
             // list of occurences that will be populated later
             if(name && id) {
                 entityArr.push({
                     id,
-                    name,
+                    name: name.textContent,
                     occurrences:[]
                 })
             }
@@ -507,6 +586,13 @@ async function makeIndices(createPage, reporter, graphql, publishedTei) {
   indexObj.org = parseEntityTag(entityDoc, "listOrg", "org", "orgName", "xml:id")
   indexObj.bibl = parseEntityTag(entityDoc, "listBibl", "bibl", "title", "xml:id")
 
+  const editionStmtNode = result.data.allCetei.nodes.find(n => n.original.includes(`<editionStmt`));
+  const editionStmtDoc = new JSDOM(editionStmtNode.original, {contentType:'text/xml'}).window.document;
+  const authors = {}
+  editionStmtDoc.querySelectorAll("name").forEach(n => {
+    authors[n.getAttribute("xml:id")] = n.textContent
+  })
+
   for (const document of result.data.allCetei.nodes.filter(n => publishedTei.includes(n.parent.name.split("-")[0]))) {
     if (document.original.includes(`xml:id="RdC`)) {
       const tei = new JSDOM(document.original, {contentType:'text/xml'}).window.document;
@@ -533,7 +619,8 @@ async function makeIndices(createPage, reporter, graphql, publishedTei) {
         language: "en",
         data: entity,
         elements: entitiesNode.elements,
-        prefixed: serialize(entityEl)
+        prefixed: serialize(entityEl),
+        authors
       }
     })
     createPage({
@@ -543,7 +630,8 @@ async function makeIndices(createPage, reporter, graphql, publishedTei) {
         language: "fr",
         data: entity,
         elements: entitiesNode.elements,
-        prefixed: serialize(entityEl)
+        prefixed: serialize(entityEl),
+        authors
       }
     })
   }

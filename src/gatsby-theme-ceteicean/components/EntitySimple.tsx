@@ -151,9 +151,6 @@ const EntitySimple: EntityBehavior = (props: TEIProps) => {
       )
     }
 
-  } else if (el.ownerDocument.getElementsByTagName("tei-text").length === 0) {
-    // Show entities on proofing page.
-    return <SafeUnchangedNode {...props}/>
   }
   return null
 }
