@@ -1,6 +1,7 @@
 import React, { useRef, useEffect, useState, useContext } from "react";
 import * as d3 from "d3";
 import './GlobeMap.css'; 
+import type { Feature } from "geojson";
 import { Routes } from "gatsby-theme-ceteicean/src/components/Ceteicean";
 import Graphic from "../gatsby-theme-ceteicean/components/Graphic";
 import { Ref, SafeUnchangedNode } from "gatsby-theme-ceteicean/src/components/DefaultBehaviors";
@@ -201,17 +202,6 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
         const polygons = geojson.features.filter((d: any) => d.geometry.type === "Polygon");
         const points = geojson.features.filter((d: any) => d.geometry.type === "Point");
 
-// Store initial viewBox for reset purposes
-let initialViewBox = null;
-let zoomLevel = 1; // Initial zoom level
-
-// Function to capture the initial viewBox state
-const captureInitialState = () => {
-  const svgElement = svgRef.current;
-  if (!svgElement) return;
-  initialViewBox = svgElement.getAttribute('viewBox');
-};
-
     // Add pins with keyboard accessibility
     svg.selectAll("image.point-pin")
       .data(points)
@@ -227,7 +217,7 @@ const captureInitialState = () => {
       .attr("role", "button")
       .attr("tabindex", "0")
       .attr("aria-label", (d: any) => `Location: ${d.properties.id || "Unknown"}`) 
-      .on("click", (e, d) => {
+      .on("click", function(event, d: any) {
         
         // identifying coordinates, current rotaton state, scale for zoom, 
         // and zoom-in factor when a pin is clicked
@@ -237,7 +227,7 @@ const captureInitialState = () => {
         const zoomLevel = 7; 
 
         // move current rotation to center pin in view for the user
-        const targetRotation = [-pinCoords[0], -pinCoords[1]];
+        const targetRotation: [number, number, number] = [-pinCoords[0], -pinCoords[1], 0];
         
         // add smooth transition from current view to zoomed-in pin view
         // duration of the transition, adding new zoomed-in rotation view,
@@ -255,14 +245,14 @@ const captureInitialState = () => {
             };
           });
 
-      setEntity({ id: d.properties.id });
+      setEntity({ id: d.properties.id, fromRelation: d.properties.fromRelation});
       
       // stopping rotation of the overall globe map
       isRotationStopped = true;
       })
-      .on("keydown", (event, d) => {
+      .on("keydown", (event, d: any) => {
         if (event.key === "Enter" || event.key === " ") {
-          setEntity({ id: d.properties.id });
+          setEntity({ id: d.properties.id, fromRelation: d.properties.fromRelation});
         }
       })
       .raise();        
@@ -282,7 +272,7 @@ const captureInitialState = () => {
       .attr("role", "button")
       .attr("tabindex", "0")
       .attr("aria-label", (d: any) => `Location: ${d.properties.id || "Unknown"}`)
-      .on("click", (event, d) => {
+      .on("click", (event, d: any) => {
         // calculting the center of the polygon
         const centroid = d3.polygonCentroid(d.geometry.coordinates[0]); // [x, y] — projected 2D coords
 
@@ -313,7 +303,7 @@ const captureInitialState = () => {
         const zoomLevel = computeZoomLevel(maxSpan);
 
         // setting new rotation state that places center of polygon in view
-        const targetRotation = [-centroid[0], -centroid[1]];
+        const targetRotation: [number, number, number] = [-centroid[0], -centroid[1], 0];
         
         // add smooth transition from current view to zoomed-in pin view
         // duration of the transition, adding new zoomed-in rotation view,
@@ -331,14 +321,14 @@ const captureInitialState = () => {
             };
           });
         
-        setEntity({ id: d.properties.id });
+        setEntity({ id: d.properties.id, fromRelation: d.properties.fromRelation});
         
         // stopping rotation of the overall globe map
         isRotationStopped = true;
       })
-      .on("keydown", (event, d) => {
+      .on("keydown", (event, d: any) => {
         if (event.key === "Enter" || event.key === " ") {
-          setEntity({ id: d.properties.id });
+          setEntity({ id: d.properties.id, fromRelation: d.properties.fromRelation});
         }
       }).raise(); 
   }
@@ -461,8 +451,14 @@ const captureInitialState = () => {
           const coords = projection(d.geometry.coordinates);
           
           // Hide pins on the far side of the globe
-          const visible = d3.geoDistance(projection.invert([width / 2, height / 2]), d.geometry.coordinates) < Math.PI / 2;
-          
+          let visible;
+          if (projection.invert) {
+            const center = projection.invert([width / 2, height / 2]);
+            visible = center && d.geometry.coordinates
+              ? d3.geoDistance(center, d.geometry.coordinates) < Math.PI / 2
+              : false;
+          }
+
           if (visible && coords) {
             // If visible, show the pin and place it correctly
             return `translate(${coords[0] - pinWidth / 2}, ${coords[1] - pinHeight})`;
@@ -477,8 +473,14 @@ const captureInitialState = () => {
           const coords = projection(d3.polygonCentroid(d.geometry.coordinates[0]));
           
           // Hide pins on the far side of the globe
-          const visible = d3.geoDistance(projection.invert([width / 2, height / 2]), d3.polygonCentroid(d.geometry.coordinates[0])) < Math.PI / 2;
-          
+          let visible;
+          if (projection.invert) {
+            const center = projection.invert([width / 2, height / 2])
+            visible = center && d.geometry.coordinates 
+            ? d3.geoDistance(center, d3.polygonCentroid(d.geometry.coordinates[0])) < Math.PI / 2
+            : false;
+          }
+
           if (visible && coords) {
             // If visible, show the pin and place it correctly
             return `translate(${coords[0] - pinWidth / 2}, ${coords[1] - pinHeight})`;
