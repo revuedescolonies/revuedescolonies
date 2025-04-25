@@ -11,6 +11,11 @@ import { DisplayContext, EntityContext, IOptions, TEntity } from "../gatsby-them
 import EntitySimple from "../gatsby-theme-ceteicean/components/EntitySimple";
 import useMediaQuery from "@mui/material/useMediaQuery"
 
+// props for the globe map
+// geojson - data used to render the map
+// language - language for the UI
+// elements - elements rendered on the map as list
+// prefized - string to prefix element names when rendering
 interface GlobeMapProps {
   geojson: any; 
   language: "en" | "fr";
@@ -19,12 +24,17 @@ interface GlobeMapProps {
 }
 
 const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, language }) => {
+  //svgRef - reference to <svg> where globe map is rendered
   const svgRef = useRef<SVGSVGElement | null>(null);
+  // determining rotation
   let isRotationStopped = false; 
+  // current entity
   const [entity, setEntity] = useState<TEntity | null>(null); 
   const theme = useTheme();
+  // checks screen size and add responsiveness
   const isScreenSmall = useMediaQuery(theme.breakpoints.down('lg'));
 
+  // set up globe with width, height, color, drag behavior, data
   useEffect(() => {
     if (!svgRef.current || !geojson) return;
 
@@ -105,6 +115,7 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
         updatePins();
       }
       
+      //keyboard functionality
       if (event.key === "ArrowLeft") {
           projection.rotate([rotate[0] - rotationStep, rotate[1]]);
           event.preventDefault();
@@ -178,16 +189,28 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
           .enter().append("path")
           .attr("d", (d: any) => path(d))
           .attr("fill", "none")
-          .attr("stroke", "blue")
+          .attr("stroke", "black")
           .style('stroke-width', 2)
           .attr("stroke-dasharray", "5,5")
           .style("opacity", 1);
       }
     };
+
     const renderPins = () => {
     if (geojson.features) {
         const polygons = geojson.features.filter((d: any) => d.geometry.type === "Polygon");
         const points = geojson.features.filter((d: any) => d.geometry.type === "Point");
+
+// Store initial viewBox for reset purposes
+let initialViewBox = null;
+let zoomLevel = 1; // Initial zoom level
+
+// Function to capture the initial viewBox state
+const captureInitialState = () => {
+  const svgElement = svgRef.current;
+  if (!svgElement) return;
+  initialViewBox = svgElement.getAttribute('viewBox');
+};
 
     // Add pins with keyboard accessibility
     svg.selectAll("image.point-pin")
@@ -204,8 +227,38 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
       .attr("role", "button")
       .attr("tabindex", "0")
       .attr("aria-label", (d: any) => `Location: ${d.properties.id || "Unknown"}`) 
-      .on("click", (event, d) => {
-        setEntity({ id: d.properties.id });
+      .on("click", (e, d) => {
+        
+        // identifying coordinates, current rotaton state, scale for zoom, 
+        // and zoom-in factor when a pin is clicked
+        const pinCoords = d.geometry.coordinates; // [longitude, latitude]
+        const currentRotation = projection.rotate();
+        const currentScale = projection.scale();
+        const zoomLevel = 7; 
+
+        // move current rotation to center pin in view for the user
+        const targetRotation = [-pinCoords[0], -pinCoords[1]];
+        
+        // add smooth transition from current view to zoomed-in pin view
+        // duration of the transition, adding new zoomed-in rotation view,
+        // updating pin locations
+        d3.transition()
+          .duration(1000)
+          .tween("rotate", () => {
+            const r = d3.interpolate(currentRotation, targetRotation);
+            const s = d3.interpolate(currentScale, initialScale * zoomLevel);
+            return (t) => {
+              projection.rotate(r(t)).scale(s(t));
+              svg.selectAll("path").attr("d", (d: any) => path(d));
+              svg.select(".globe").attr("r", projection.scale());
+              updatePins();
+            };
+          });
+
+      setEntity({ id: d.properties.id });
+      
+      // stopping rotation of the overall globe map
+      isRotationStopped = true;
       })
       .on("keydown", (event, d) => {
         if (event.key === "Enter" || event.key === " ") {
@@ -213,7 +266,7 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
         }
       })
       .raise();        
-
+    // polygons
     svg.selectAll("image.polygon-pin")
       .data(polygons)
       .enter()
@@ -230,7 +283,58 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
       .attr("tabindex", "0")
       .attr("aria-label", (d: any) => `Location: ${d.properties.id || "Unknown"}`)
       .on("click", (event, d) => {
+        // calculting the center of the polygon
+        const centroid = d3.polygonCentroid(d.geometry.coordinates[0]); // [x, y] — projected 2D coords
+
+        // getting current rotation state, zoom scale
+        const currentRotation = projection.rotate();
+        const currentScale = projection.scale();
+        
+        // getting the bounds of the polygon to help calculate the zoom factor
+        // depending on the size of the polygon
+        const bounds = d3.geoBounds(d)
+        // longitudinal and latitudinal span and finding max to get idea
+        // of zoom size
+        const lonSpan = Math.abs(bounds[1][0] - bounds[0][0]);
+        const latSpan = Math.abs(bounds[1][1] - bounds[0][1]);
+        const maxSpan = Math.max(lonSpan, latSpan);
+
+        // computing the zoom level based on the polygon size
+        const computeZoomLevel = (span: number) => {
+          const maxGlobeSpan = 180; // globe size
+          const baseZoom = 7;  // set up max zoom   
+          const minZoom = 1.2; // set up min zoom 
+        
+          // calculating the zoom using a formula
+          const zoom = baseZoom * (span / maxGlobeSpan) 
+          return Math.max(minZoom, zoom);
+        };
+        // setting computed zoom level
+        const zoomLevel = computeZoomLevel(maxSpan);
+
+        // setting new rotation state that places center of polygon in view
+        const targetRotation = [-centroid[0], -centroid[1]];
+        
+        // add smooth transition from current view to zoomed-in pin view
+        // duration of the transition, adding new zoomed-in rotation view,
+        // updating pin locations
+        d3.transition()
+          .duration(1000)
+          .tween("rotate", () => {
+            const r = d3.interpolate(currentRotation, targetRotation);
+            const s = d3.interpolate(currentScale, initialScale * zoomLevel);
+            return (t) => {
+              projection.rotate(r(t)).scale(s(t));
+              svg.selectAll("path").attr("d", (d: any) => path(d));
+              svg.select(".globe").attr("r", projection.scale());
+              updatePins();
+            };
+          });
+        
         setEntity({ id: d.properties.id });
+        
+        // stopping rotation of the overall globe map
+        isRotationStopped = true;
       })
       .on("keydown", (event, d) => {
         if (event.key === "Enter" || event.key === " ") {
