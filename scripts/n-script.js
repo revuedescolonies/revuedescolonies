@@ -4,8 +4,6 @@ const fs = require("fs")
 const path = require("path")
 
 // filePaths stores the file paths of all the documents
-
-
 const filePaths = [
     path.resolve(__dirname, "../static/data/tei/RdCv1n1-en.xml"),
     path.resolve(__dirname, "../static/data/tei/RdCv1n1-fr.xml"),

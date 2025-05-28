@@ -1,10 +1,11 @@
 import React, { useRef, useEffect, useState, useContext } from "react";
 import * as d3 from "d3";
 import './GlobeMap.css'; 
+import type { Feature } from "geojson";
 import { Routes } from "gatsby-theme-ceteicean/src/components/Ceteicean";
 import Graphic from "../gatsby-theme-ceteicean/components/Graphic";
 import { Ref, SafeUnchangedNode } from "gatsby-theme-ceteicean/src/components/DefaultBehaviors";
-import { Grid2, Box, Typography, Grid, useTheme } from "@mui/material";
+import { Grid2, Box, Typography, Grid, useTheme, svgIconClasses } from "@mui/material";
 import Renderer from "gatsby-theme-ceteicean/src/components/Renderer";
 import Q from "../gatsby-theme-ceteicean/components/Q";
 import { DisplayContext, EntityContext, IOptions, TEntity } from "../gatsby-theme-ceteicean/components/Context";
@@ -39,6 +40,7 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
     if (!svgRef.current || !geojson) return;
 
     const svg = d3.select(svgRef.current);
+    const mapLayer = svg.append("g").attr("class", "map-layer");
     const width = 800;
     const height = 800;
     const sensitivity = 75;
@@ -56,7 +58,7 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
     svg.attr("viewBox", `0 0 ${width} ${height}`).attr("preserveAspectRatio", "xMidYMid meet");
 
     // Light blue sea
-    svg.append("circle")
+    mapLayer.append("circle")
       .attr("fill", "#d0e7f9")
       .attr("stroke", "#000")
       .attr("stroke-width", 3)
@@ -80,7 +82,7 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
         ]);
 
         // Update map paths
-        svg.selectAll("path").attr("d", (d: any) => path(d));
+        mapLayer.selectAll("path").attr("d", (d: any) => path(d));
 
         updatePins();
       });
@@ -93,10 +95,10 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
           projection.scale(initialScale * event.transform.k);
 
           // Update map paths
-          svg.selectAll("path").attr("d", (d: any) => path(d));
+          mapLayer.selectAll("path").attr("d", (d: any) => path(d));
 
           // Update globe circle radius
-          svg.select(".globe").attr("r", projection.scale());
+          mapLayer.select(".globe").attr("r", projection.scale());
 
           // Update pin positions
           updatePins();
@@ -110,8 +112,8 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
       const zoomStep = 1.2; // Zoom multiplier
       
       const updateGlobe = () => {
-        svg.selectAll("path").attr("d", (d: any) => path(d));
-        svg.select(".globe").attr("r", projection.scale());
+        mapLayer.selectAll("path").attr("d", (d: any) => path(d));
+        mapLayer.select(".globe").attr("r", projection.scale());
         updatePins();
       }
       
@@ -155,6 +157,9 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
     };   
 
     svg.call(dragBehavior).call(zoomBehavior);
+    zoomBehavior.on("zoom", (event) => {
+      svg.attr("transform", event.transform); // Only move map layer
+    });
     document.addEventListener("keydown", handleKeyPress);
 
     // Load and render map data
@@ -162,7 +167,7 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
       const mapResponse = await fetch("/earth-coastlines-10km.geojson");
       const mapData = await mapResponse.json();
       const geometries = mapData.geometries.filter((d: any) => d.type === "MultiPolygon")
-      svg.append("g")
+      mapLayer.append("g")
         .attr("class", "multipolygons")
         .selectAll("path")
         .data(geometries)
@@ -182,7 +187,7 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
       if (geojson.features) {
         const polygons = geojson.features.filter((d: any) => d.geometry.type === "Polygon");
 
-        svg.append("g")
+        mapLayer.append("g")
           .attr("class", "polygons")
           .selectAll("path")
           .data(polygons)
@@ -201,19 +206,8 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
         const polygons = geojson.features.filter((d: any) => d.geometry.type === "Polygon");
         const points = geojson.features.filter((d: any) => d.geometry.type === "Point");
 
-// Store initial viewBox for reset purposes
-let initialViewBox = null;
-let zoomLevel = 1; // Initial zoom level
-
-// Function to capture the initial viewBox state
-const captureInitialState = () => {
-  const svgElement = svgRef.current;
-  if (!svgElement) return;
-  initialViewBox = svgElement.getAttribute('viewBox');
-};
-
     // Add pins with keyboard accessibility
-    svg.selectAll("image.point-pin")
+    mapLayer.selectAll("image.point-pin")
       .data(points)
       .enter()
       .append("image")
@@ -227,7 +221,7 @@ const captureInitialState = () => {
       .attr("role", "button")
       .attr("tabindex", "0")
       .attr("aria-label", (d: any) => `Location: ${d.properties.id || "Unknown"}`) 
-      .on("click", (e, d) => {
+      .on("click", function(event, d: any) {
         
         // identifying coordinates, current rotaton state, scale for zoom, 
         // and zoom-in factor when a pin is clicked
@@ -237,7 +231,7 @@ const captureInitialState = () => {
         const zoomLevel = 7; 
 
         // move current rotation to center pin in view for the user
-        const targetRotation = [-pinCoords[0], -pinCoords[1]];
+        const targetRotation: [number, number, number] = [-pinCoords[0], -pinCoords[1], 0];
         
         // add smooth transition from current view to zoomed-in pin view
         // duration of the transition, adding new zoomed-in rotation view,
@@ -249,25 +243,25 @@ const captureInitialState = () => {
             const s = d3.interpolate(currentScale, initialScale * zoomLevel);
             return (t) => {
               projection.rotate(r(t)).scale(s(t));
-              svg.selectAll("path").attr("d", (d: any) => path(d));
-              svg.select(".globe").attr("r", projection.scale());
+              mapLayer.selectAll("path").attr("d", (d: any) => path(d));
+              mapLayer.select(".globe").attr("r", projection.scale());
               updatePins();
             };
           });
 
-      setEntity({ id: d.properties.id });
+      setEntity({ id: d.properties.id, fromRelation: d.properties.fromRelation});
       
       // stopping rotation of the overall globe map
       isRotationStopped = true;
       })
-      .on("keydown", (event, d) => {
+      .on("keydown", (event, d: any) => {
         if (event.key === "Enter" || event.key === " ") {
-          setEntity({ id: d.properties.id });
+          setEntity({ id: d.properties.id, fromRelation: d.properties.fromRelation});
         }
       })
       .raise();        
     // polygons
-    svg.selectAll("image.polygon-pin")
+    mapLayer.selectAll("image.polygon-pin")
       .data(polygons)
       .enter()
       .append("image")
@@ -282,7 +276,7 @@ const captureInitialState = () => {
       .attr("role", "button")
       .attr("tabindex", "0")
       .attr("aria-label", (d: any) => `Location: ${d.properties.id || "Unknown"}`)
-      .on("click", (event, d) => {
+      .on("click", (event, d: any) => {
         // calculting the center of the polygon
         const centroid = d3.polygonCentroid(d.geometry.coordinates[0]); // [x, y] — projected 2D coords
 
@@ -313,7 +307,7 @@ const captureInitialState = () => {
         const zoomLevel = computeZoomLevel(maxSpan);
 
         // setting new rotation state that places center of polygon in view
-        const targetRotation = [-centroid[0], -centroid[1]];
+        const targetRotation: [number, number, number] = [-centroid[0], -centroid[1], 0];
         
         // add smooth transition from current view to zoomed-in pin view
         // duration of the transition, adding new zoomed-in rotation view,
@@ -325,20 +319,20 @@ const captureInitialState = () => {
             const s = d3.interpolate(currentScale, initialScale * zoomLevel);
             return (t) => {
               projection.rotate(r(t)).scale(s(t));
-              svg.selectAll("path").attr("d", (d: any) => path(d));
-              svg.select(".globe").attr("r", projection.scale());
+              mapLayer.selectAll("path").attr("d", (d: any) => path(d));
+              mapLayer.select(".globe").attr("r", projection.scale());
               updatePins();
             };
           });
         
-        setEntity({ id: d.properties.id });
+        setEntity({ id: d.properties.id, fromRelation: d.properties.fromRelation});
         
         // stopping rotation of the overall globe map
         isRotationStopped = true;
       })
-      .on("keydown", (event, d) => {
+      .on("keydown", (event, d: any) => {
         if (event.key === "Enter" || event.key === " ") {
-          setEntity({ id: d.properties.id });
+          setEntity({ id: d.properties.id, fromRelation: d.properties.fromRelation});
         }
       }).raise(); 
   }
@@ -346,6 +340,9 @@ const captureInitialState = () => {
     
     // Add zoom buttons rendering after renderPins()
     
+    const uiLayer = svg.append("g")
+    .attr("class", "ui-layer");
+
     const renderZoomButtons = () => {
       // Determine button size based on screen width
       const buttonWidth = isScreenSmall ? 70 : 40;
@@ -353,7 +350,7 @@ const captureInitialState = () => {
       const margin = isScreenSmall ? 25 : 10;
     
       // Reset View Button
-      svg.append("rect")
+      uiLayer.append("rect")
         .attr("class", "zoom-button reset-view")
         .attr("x", width - buttonWidth - margin)
         .attr("y", height - 3 * buttonHeight - 3 * margin)
@@ -367,20 +364,20 @@ const captureInitialState = () => {
             .scale(initialScale);
           
           // Update all elements
-          svg.selectAll("path").attr("d", (d: any) => path(d));
-          svg.select(".globe").attr("r", initialScale);
+          mapLayer.selectAll("path").attr("d", (d: any) => path(d));
+          mapLayer.select(".globe").attr("r", initialScale);
           updatePins();
           
           // Resume rotation
           isRotationStopped = false;
           
           // Raise buttons to keep them clickable
-          svg.selectAll(".zoom-button").raise();
-          svg.selectAll(".zoom-button-text").raise();
+          // svg.selectAll(".zoom-button").raise();
+          // svg.selectAll(".zoom-button-text").raise();
         }).raise();
     
       // Reset icon (↻)
-      svg.append("text")
+      uiLayer.append("text")
         .attr("class", "zoom-button-text")
         .attr("x", width - buttonWidth/2 - margin)
         .attr("y", height - 3 * buttonHeight - 3 * margin + buttonHeight/2 + (isScreenSmall ? 12 : 7))
@@ -389,7 +386,7 @@ const captureInitialState = () => {
         .text("↻").raise();
     
       // Zoom In Button
-      svg.append("rect")
+      uiLayer.append("rect")
         .attr("class", "zoom-button zoom-in")
         .attr("x", width - buttonWidth - margin)
         .attr("y", height - 2 * buttonHeight - 2 * margin)
@@ -402,14 +399,14 @@ const captureInitialState = () => {
           const newScale = Math.min(currentScale * 1.2, width);
           
           projection.scale(newScale);
-          svg.selectAll("path").attr("d", (d: any) => path(d));
-          svg.select(".globe").attr("r", newScale);
+          mapLayer.selectAll("path").attr("d", (d: any) => path(d));
+          mapLayer.select(".globe").attr("r", newScale);
           updatePins();
-          svg.selectAll(".zoom-button").raise();
-          svg.selectAll(".zoom-button-text").raise();
+          // svg.selectAll(".zoom-button").raise();
+          // svg.selectAll(".zoom-button-text").raise();
         });
     
-      svg.append("text")
+      uiLayer.append("text")
         .attr("class", "zoom-button-text")
         .attr("x", width - buttonWidth/2 - margin)
         .attr("y", height - 2 * buttonHeight - 2 * margin + buttonHeight/2 + (isScreenSmall ? 12 : 7))
@@ -418,7 +415,7 @@ const captureInitialState = () => {
         .text("+");
     
       // Zoom Out Button
-      svg.append("rect")
+      uiLayer.append("rect")
         .attr("class", "zoom-button zoom-out")
         .attr("x", width - buttonWidth - margin)
         .attr("y", height - buttonHeight - margin)
@@ -431,20 +428,22 @@ const captureInitialState = () => {
           const newScale = Math.max(currentScale / 1.2, initialScale * minZoom);
           
           projection.scale(newScale);
-          svg.selectAll("path").attr("d", (d: any) => path(d));
-          svg.select(".globe").attr("r", newScale);
+          mapLayer.selectAll("path").attr("d", (d: any) => path(d));
+          mapLayer.select(".globe").attr("r", newScale);
           updatePins();
-          svg.selectAll("rect").raise();
-          svg.selectAll("text").raise();
+          // svg.selectAll("rect").raise();
+          // svg.selectAll("text").raise();
         });
     
-      svg.append("text")
+      uiLayer.append("text")
         .attr("class", "zoom-button-text")
         .attr("x", width - buttonWidth/2 - margin)
         .attr("y", height - buttonHeight - margin + buttonHeight/2 + (isScreenSmall ? 12 : 7))
         .attr("text-anchor", "middle")
         .attr("font-size", isScreenSmall ? "24px" : "16px")
         .text("-");
+        
+      svg.select(".ui-layer").raise();
 
     };
   
@@ -456,13 +455,19 @@ const captureInitialState = () => {
     
     
     const updatePins = () => {
-      svg.selectAll("image.point-pin")
+      mapLayer.selectAll("image.point-pin")
         .attr("transform", (d: any) => {
           const coords = projection(d.geometry.coordinates);
           
           // Hide pins on the far side of the globe
-          const visible = d3.geoDistance(projection.invert([width / 2, height / 2]), d.geometry.coordinates) < Math.PI / 2;
-          
+          let visible;
+          if (projection.invert) {
+            const center = projection.invert([width / 2, height / 2]);
+            visible = center && d.geometry.coordinates
+              ? d3.geoDistance(center, d.geometry.coordinates) < Math.PI / 2
+              : false;
+          }
+
           if (visible && coords) {
             // If visible, show the pin and place it correctly
             return `translate(${coords[0] - pinWidth / 2}, ${coords[1] - pinHeight})`;
@@ -472,13 +477,19 @@ const captureInitialState = () => {
           }
         }).raise();
 
-        svg.selectAll("image.polygon-pin")
+        mapLayer.selectAll("image.polygon-pin")
         .attr("transform", (d: any) => {
           const coords = projection(d3.polygonCentroid(d.geometry.coordinates[0]));
           
           // Hide pins on the far side of the globe
-          const visible = d3.geoDistance(projection.invert([width / 2, height / 2]), d3.polygonCentroid(d.geometry.coordinates[0])) < Math.PI / 2;
-          
+          let visible;
+          if (projection.invert) {
+            const center = projection.invert([width / 2, height / 2])
+            visible = center && d.geometry.coordinates 
+            ? d3.geoDistance(center, d3.polygonCentroid(d.geometry.coordinates[0])) < Math.PI / 2
+            : false;
+          }
+
           if (visible && coords) {
             // If visible, show the pin and place it correctly
             return `translate(${coords[0] - pinWidth / 2}, ${coords[1] - pinHeight})`;
@@ -497,7 +508,7 @@ const captureInitialState = () => {
         projection.rotate([rotate[0] - 1 * k, rotate[1]]);
 
         // Update the map paths
-        svg.selectAll("path").attr("d", (d: any) => path(d));
+        mapLayer.selectAll("path").attr("d", (d: any) => path(d));
 
         updatePins();
       }
