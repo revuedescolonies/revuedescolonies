@@ -1,4 +1,4 @@
 [submodule "static/data"]
 	path = static/data
 	url = git@github.com:revuedescolonies/revuedescolonies-data.git
-  branch = published
+	branch = published
