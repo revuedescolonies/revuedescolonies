@@ -1,23 +1,1250 @@
 <?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n7-en">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>REVUE DES COLONIES.</title>
-         </titleStmt>
-         <!-- <xi:include href="shared/editionStmt.xml"/> -->
-         <publicationStmt>
-            <p/>
-         </publicationStmt>
-         <sourceDesc>
-            <p/>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Revue des Colonies V.1 N°7</title>
+                <editor>Noëlle Romney</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<text xml:lang="en">
+  <front>
+    <pb n="1" facs="v1n7p1"/>
+    <titlePage>
+      <titlePart type="main">
+        <seg>REVUE</seg><lb/>DES<lb/><seg>COLONIES,</seg>
+      </titlePart>
+      <titlePart type="sub">
+        MONTHLY COLLECTION<ptr target="#n13FA"/><lb/>OF
+        POLITICS, ADMINISTRATION, JUSTICE,<lb/>EDUCATION, AND COLONIAL MORES,
+      </titlePart>
+      <byline>
+        EDITED BY
+        <persName ref="#CB">C.-A. BISSETTE</persName>.
+      </byline>
+      <docEdition>No. 7. — January.</docEdition>
+      <figure>
+        <graphic url="v2n1-vignette.jpg"/>
+        <figDesc rend="bold">
+          Am I not a man and your brother?....
+          <ptr target="#n6D92"/>
+        </figDesc>
+      </figure>
+      <docImprint>
+        <pubPlace><settlement>PARIS</settlement>,<lb/> AT THE OFFICES OF THE REVUE DES COLONIES, <lb/>46, RUE NEUVE-SAINT-EUSTACHE
+        </pubPlace> <lb/>
+        <date>1835</date>.
+      </docImprint>
+    </titlePage>
+  </front>
+  <body>
+    <div>
+      <pb n="3" facs="v1n7p3"/>
+      <head n="Revue des colonies.">REVUE DES COLONIES.</head>
+<div xml:id="émancipation">
+  <head n="De l'emancipation des esclaves, considérée comme premier élément du progres social aux colonies.">
+    ON THE EMANCIPATION OF SLAVES, CONSIDERED AS THE FIRST ELEMENT OF SOCIAL PROGRESS IN THE COLONIES.
+  </head>
+
+  <p>
+    Everywhere, in every country, there rises to-day an admirable concert of proofs and protests against slavery<ptr target="#"/>. It is not merely the voice of humanity, the genius of Christianity, the principle of the brotherhood of men, that solicit, in all lands, its abolition; it is the very interest of society, of civilization, and of industry; it is the philanthropic spirit, in the widest acceptation of the word, which pleads to-day, in every country, for that fair and noble cause which we have embraced with all the zeal and all the courage that can be in us<ptr target="#"/>.
+    <!-- réf de la note?  -->
+  </p>
+
+  <p>
+    Thus, in our philanthropic solicitude, we do not concern ourselves only with slaves of African race, our compatriots, our brothers; but with all slaves.
+    <placeName ref="#EUR">Europe</placeName>, <placeName>Africa</placeName>, <placeName>Asia</placeName>,
+    <placeName>America</placeName>, <placeName>Oceania</placeName>,
+    what matter? We will have free men, happy labourers over the whole surface of the earth. We make war upon slavery, not only because it is atrocious and abominable in every case, but also because it is an obstacle to progress, a hindrance to the increase of social wealth, and consequently to the development of human well-being
+    <ptr target="#"/>.<!-- réf de la note?  -->
+  </p>
+
+  <p>
+    It is now, moreover, an opinion which has lost all credit with the multitude, that which led men, not long ago almost universally, to believe that the soil of the colonies could be cultivated only by Negro slaves, and that the labour of servitude was more fruitful than the labour of the free man.
+  </p>
+
+  <p>
+    From all the news lately received from the English colonies, this fact results, that production and material prosperity are advancing there, and that, within a very limited number of years, the fusion of the black and white races will make of those lands so long unhappy a country enjoying civil and political liberty and equality, having its own manners and its own civilization, and
+    <pb n="4" facs="v1n7p4"/>
+    preserving no longer a trace of the hideous servitude under which it was so cruelly afflicted for centuries. The first experiments of enfranchisement have confounded all the prophets of evil who saw nothing but disorder and desolation in the liberation of slaves. To hear the sinister predictions of certain men, the proclamation of the <foreign>bill</foreign>, obtained with so much difficulty from the prejudices of the <orgName ref="#PA">English Parliament</orgName>, and even in spite of its numerous anti-liberal restrictions, was to have for its first effect, in the <placeName>colonies of Great Britain</placeName>, the revolt of the newly enfranchised against every species of law and authority, and, in the end, the cessation of all labour, misery, and all its horrors. Nothing of all this has been, even for an instant, to be feared: far from it; innumerable documents which have been addressed to us from the very places themselves bear witness, in a manner not to be gainsaid, that free labour has already borne the happiest fruits in the <placeName ref="#CA">English colonies</placeName>.
+  </p>
+
+  <p>
+    If it be necessary, nevertheless, to show once more to the incredulous in our colonies all that culture and industry have to gain by being practised only by free hands, we can easily invoke the testimony of all who have conscientiously examined the question; and assuredly proofs and arguments will not fail us!
+  </p>
+
+  <p>
+    Let us attempt this useful examination. Let us see what the sages and philosophers of all countries have thought upon this important matter.
+  </p>
+
+  <p>
+    <quote>
+      The slave, says <persName>Mr. Storch</persName>, the celebrated Russian economist, who had carefully studied the system of slavery in <placeName>that vast empire</placeName>, always works for another and never for himself; he confines himself wholly to material life, and, as he despairs of ever being able to improve his condition, he has nothing that stimulates him; he becomes a mere machine, often very costly and always very difficult to set in motion. Every man who is not remunerated in proportion to his labour will labour as little as possible; it is perhaps a rule without exception. Let a free workman be hired by the day, he will do little; but pay him by the piece, and often he will work with such ardour that his health will suffer. If this observation is true of the free producer, how much more must it be so of the slave producer.
+    </quote>
+  </p>
+
+  <p>
+    <quote>
+      The superiority of free labourers, even over serfs, is
+      <pb n="5" facs="v1n7p5"/>
+      everywhere attested by their masters, when they are intelligent enough to appreciate the difference and conscientious enough to confess it. One must consult on this point a passage of <persName ref="#Col">Columella</persName>, where he relates unheard-of traits of the perversity and negligence of slave labourers, and where he lays down as an incontestable principle that, whatever the nature of the labour, free production is always superior to that which is not free.
+    </quote>
+  </p>
+
+  <p>
+    <quote>
+      And it is very remarkable that testimony so positive in favour of my thesis, continues <persName>Mr. Storch</persName>, comes from Roman writers, who themselves possessed slaves and lands, and who consequently were very well placed to judge of the state of agriculture.
+      <ptr target=""/>
+      Assuredly it was not a philanthropic sentiment which made them hold such language; for we know how little respect, in general, the finest geniuses of antiquity had for the rights and dignity of the human race.
+      <ptr target=""/>
+      In manufacturing industry, the superiority of free labour is still more incontestable. As manufactures extend in Russia, occasions of convincing oneself of this truth are multiplied. In 1805, <persName>Mr. Panteleyef</persName>, a manufacturer at Moscow, emancipated himself all his serf workmen, to the number of eighty-four, and in the same year <persName>Mr. Milioutin</persName> imitated this generous example.
+    </quote>
+  </p>
+
+  <p>
+    <persName>Mr. Brougham</persName>, in his
+    <bibl type="monogr">
+      <title>Colonial Policy</title>
+    </bibl>
+    , adopts the same theory:
+    <quote>
+      If the labourer is a slave, says he, the only motive which can act upon him is fear. He must therefore be constantly watched. Pain and blows alone can prevent him from being idle. But this power of the whip is limited by its nature. By this odious means you may compel the slave to bestir himself, to act, because there is a marked difference between absolute repose and bodily exertion; but no chastisement, no punishment, can compel an unhappy workman to be always skilful, vigilant, attentive. Besides, when the body suffers, the mind is no more fit to command than the body itself is fit to obey. Severe chastisements soon bring despair in their train, and the repetition of the same cruelties ends by engendering a physical insensibility which renders the severity of punishments vain.
+    </quote>
+  </p>
+
+  <p>
+    <persName>Hume</persName>
+    makes on this subject the following remark:
+    <quote>
+      I must add, from the experience of our planters, that slavery is as
+      <pb n="6" facs="v1n7p6"/>
+      injurious to the master as to the slave. The fear of chastisement, however cruel it may be, will never draw from a slave a labour equal to that which a free man performs by the sole fear of being dismissed.
+    </quote>
+  </p>
+
+  <p>
+    <persName>Burke</persName> is of the same opinion. He says, in his
+    <bibl type="monogr">
+      <title>History of the European Settlements</title>
+      <!-- je ne corrige pas Etablissemens ici dans la mesure où il s'agit d'un titre traduit qui suit probablement l'usage de l'époque.-->
+    </bibl>
+    :
+    <quote>
+      It is not in the nature of things that slaves should do as much work as free men. The mind has a very great share in all kinds of production; and when a man knows that what he does is for himself, and that the more he does the more he will gain, that conviction determines him to undertake what he would never have thought of without it, and sustains him in labours whose weight he could not otherwise have borne.
+    </quote>
+  </p>
+
+  <p>
+    <quote>
+      The earth itself seems to become more fertile
+    </quote>
+    , says an ingenious French writer, <persName>Mr. Poivre</persName>, attributing the superiority of the products of <placeName>Cochinchina</placeName> over those of certain parts of <placeName ref="#IN">India</placeName>, where the raw material is the same but where there are slaves, to the liberty of the labourers of that country.
+    <quote>
+      The earth, adds he, which multiplies its productions under the hand of a husbandman of free race, seems struck with an incurable sterility by the sweat of the slave!
+    </quote>
+  </p>
+
+  <p>
+    The great and good <persName>Franklin</persName> held no other opinion on the question:
+    <quote>
+      It is an unfounded opinion, says he in his
+      <bibl type="monogr">
+        <title>Essay on the Means of Peopling a State</title>
+      </bibl>
+      , to believe that the colonies, with their slaves, will ever be able to contend, by the low price of their products, with the free manufacturers of <placeName ref="#ANG">England</placeName>.
+      Never is the labour of servitude so cheap as the other; it is easy to give the reason. Let one calculate the interest on the purchase-money of a negro; the rate of insurance on his life, or the risks of losing him; his entire maintenance; the cost of his days of sickness or of repose; the losses resulting from his indolence, all the more natural because he has no interest whatever in his labour being productive; what the overseer costs, whose presence and whose whip are always necessary; add to this the losses occasioned by waste or even by thefts on the part of the slave (for every slave, by the very nature of slavery, is and must be a thief, he to whom flesh and bone have been stolen); and then compare these charges with the wages of an English miner or spinner, and one will be convinced that labour in <placeName ref="#ANG">England</placeName> is infinitely cheaper than in the <placeName ref="#ANTE">Antilles</placeName>.
+    </quote>
+  </p>
+
+  <pb n="7" facs="v1n7p7"/>
+
+  <p>
+    <persName>Mr. J.-B. Say</persName>, the celebrated economist, had also, without passion, shared the error of those who maintain that the colonies of the <placeName ref="#ANTE">Antilles</placeName> cannot be cultivated with success except by slaves; he had advanced this assertion as a fact in the first editions of his
+    <bibl type="monogr">
+      <title>Treatise on Political Economy</title>
+    </bibl>.
+    An Englishman, <persName>Mr. Hodgson</persName>, who has distinguished himself by the numerous services he rendered to the cause of the blacks, one of the most ardent and at once one of the most judicious promoters of emancipation, composed expressly a pamphlet (1), of which this article resumes the principal features, in order to refute this allegation. The honourable <persName>Mr. Say</persName> gave, on this occasion, a noble example; he hastened to acknowledge and to confess his error; he wrote to <persName>Mr. Hodgson</persName> a letter to that effect.
+    <quote>
+      I have received from <persName>Baron de Staël</persName>, he wrote to me, among other things, the letter you did me the honour to address to me together with your printed letter. I thank you for what both contain of obliging towards me, and I share your opinion on the substance of the question. You have brought together, in a small space, facts and arguments to which it does not seem to me that one can resist.
+    </quote>
+  </p>
+
+  <p>
+    <quote>
+      You have probably read only one of the earlier editions of my
+      <bibl type="monogr">
+        <title>Treatise on Political Economy</title>
+      </bibl>;
+      for, in the later ones, I have greatly amended what I said of the labour of slaves, even to arriving at nearly the same conclusion as you; but, not being confined to a single question, and not wishing to enlarge the book, I could only touch the subject. I approach still nearer to your opinion in the works I am preparing.
+    </quote>
+  </p>
+
+  <p>
+    <quote>
+      Slavery is incompatible with any industry a little advanced; it is approaching its end among all peoples of European origin; and as the restlessness and intelligence of <placeName ref="#EUR">Europe</placeName> will end by invading the world, one may affirm that some day slavery will have ceased everywhere.
+    </quote>
+  </p>
+
+  <p>
+    Testimonies crowd upon us. We do not say that all who have a heart, but all who have any justness and any reach of mind, are of the same opinion.
+    <quote>The slave-trade</quote>, says <persName>Koster</persName>,
+  </p>
+
+  <note>
+    (1)
+    <bibl type="monogr">
+      <title>Letter to Mr. J.-B. Say on the comparative product of the free labourer and the slave</title>
+    </bibl>
+    , by <persName>Adam Hodgson</persName>, <placeName>Liverpool</placeName>, in-8
+    <ptr target="#"/>
+    <!-- réf de la note?  -->
+    of 60 pages. This pamphlet has had innumerable editions in <placeName ref="#ANG">England</placeName>.
+  </note>
+
+  <pb n="8" facs="v1n7p8"/>
+
+  <p>
+    in his
+    <bibl type="monogr">
+      <title>Voyage to Brazil</title>
+    </bibl>
+    ,
+    <quote>
+      ought to be proscribed, for this reason alone, that a man reduced to slavery cannot be as useful to society as a man who retains the entire liberty of his actions. It is necessary that the possibility of making a fortune should depend upon the individual, and it is only thus that the social state improves and tends towards perfection. This indisputable truth is still clearer to all who have had occasion to see for themselves the manner in which the labour of slaves is performed. The indifference of this class of labourers, their heedlessness, the extreme apathy of their movements, prove in a peremptory manner that they take no interest in their work. I myself had occasion to observe, on the same plantation, two bands of labourers, one of slaves, the other of free men, a mixture sufficiently rare; I was struck by the difference of their labour: the free labourers sang while they worked, their movements were quick and animated; but the poor slaves fulfilled their task in a dull silence, and their movements, seen from a little distance, were scarcely perceptible.
+    </quote>
+  </p>
+
+  <p>
+    Every one knows that in <placeName>Hindustan</placeName> sugar of superior quality is manufactured at less expense than that of the <placeName ref="#ANTE">Antilles</placeName>;
+    <placeName>China</placeName>, <placeName>Bengal</placeName>, the coasts of <placeName>Malabar</placeName> produce great quantities of sugars and spirits; but this kind of production prospers especially at <placeName>Batavia</placeName>. In that latter colony, according to the report of a learned economist, the Dutch proprietor lets his fields to a sort of Chinese metayer, ordinarily of an extent of three hundred <placeName>arpents</placeName>; this metayer has the supervision of all, and under-lets the land, in portions of fifty to sixty <placeName>arpents</placeName>, to free labourers, who pay a certain sum per pecul (153 kil.) of sugar manufactured
+    <ptr/>.
+    All these labourers divide the work among themselves; some cut the canes and carry them to the mill; others boil the syrup; others are charged with the clarification: all these labours are executed by a voluntary distribution. When the season of manufacture is past, the labourers quit the plantation, and apply themselves to various occupations during the rains, and there remain on the spot only the number necessary for the maintenance of the cane-stocks
+    <ptr/>.
+    <quote>
+      After having spent two years in the <placeName>French Antilles</placeName> I established myself in <placeName ref="#IN">India</placeName>
+    </quote>
+    , says <persName>Mr. Botham</persName>,
+    <quote>
+      in 1776, at <placeName>Bencoulen</placeName>, where I organized a free manufacture <pb n="9" facs="v1n7p9"/> of sugar. I then experienced how useful this new kind of labour is to the proprietor; I am even persuaded, from my own personal experience, that if one adopted in our sugar islands the mode of free cultivation used in <placeName ref="#IN">India</placeName>, half the present labourers would suffice to obtain the same production
+      <ptr/>.
+    </quote>
+    <persName>Mr. Marsden</persName>, in his
+    <bibl type="monogr">
+      <title>History of Sumatra</title>
+    </bibl>
+    , speaks in the highest terms of the method of <persName>Mr. Botham</persName>. According to the testimony of <persName>Mr. Marsden</persName>, several rival establishments to that of <persName>Mr. Botham</persName>, at <placeName>Bencoulen</placeName>, were entirely ruined, which he attributes chiefly to the enormous expense of slave cultivation.
+  </p>
+
+  <p>
+    In feudal times, it was the very interest of masters that prepared the way for the enfranchisement of slaves and serfs.
+  </p>
+
+  <p>
+    <persName>Mr. Brougham</persName> has traced, of the course and transformations of slavery, of its successive diminishings, of the social necessities which every day weaken its intensity and press its absolute abolition, a picture full of force and of great truth.
+  </p>
+
+  <p>
+    <quote>In antiquity</quote>, says <persName>Mr. Brougham</persName>,
+    <quote>
+      a great part of the population of each state was found in dependence on the other. These slaves were either captives taken in war, or slaves bought. In the early times of <placeName>Athens</placeName> and of <placeName>Rome</placeName>, when the capital was surrounded by nations with which it was perpetually at war, the <emph>markets of men</emph> were always abundantly supplied. The cruelty of the treatment inflicted on them was in direct proportion to the facility with which they could be procured; and history shows us how pitiable was their condition among those peoples who branded all foreigners with the name of barbarians. As wars became less frequent, and men devoted themselves more to the arts of peace, it was no longer so easy to obtain slaves; and at length, when the colossus of the Roman empire fell under its own weight, it became impossible to carry off slaves. A milder system of domestic government, a little more humanity towards the slaves that were possessed, and a little more care to perpetuate their race, were the necessary consequence of this state of things; for interest obliged the master to treat better slaves whom it was very difficult to replace. The laws ended by giving their sanction to a change which they had not provoked. It was recognized that slaves also had rights, and their emancipation was openly <pb n="10" facs="v1n7p10"/> encouraged; little by little, by imperceptible degrees, slaves were incorporated into the family of their masters, and formed the greater part of that enormous mass of free population with which the northern peoples mingled rather than subdued it.
+    </quote>
+  </p>
+
+  <p>
+    <quote>
+      To the slavery of the ancients succeeded the serfage and the <emph>villainage</emph> of the <placeName>Gothic nations</placeName>; but these two kinds of servitude differ by very marked shades. The slaves of the <placeName ref="#GR">Greeks</placeName> and of the <placeName>Romans</placeName> were an imported merchandise; whereas the slaves of the <placeName>Goths</placeName> were born on the very soil which they occupied, save rare exceptions; in those first wars of conquest, barbarous victors sometimes dragged their prisoners after them. Thus there is no comparison to be made between the rigour of those two species of slavery. To this difference must be attributed the prodigious progress of civilization. The slave was first attached to his master, not as his personal property, but as <emph>forming part of his estate</emph>, according to the expression of feudal times. By degrees, the interests <emph>of the lord and of the serfs</emph> drew nearer and united; and by their mixture they brought about those immense changes from which resulted the formation of the bourgeoisie, which has since entirely renewed the face of Europe. Thus, by what degrees was that great revolution accomplished: first, the <emph>villain</emph> obtained the faculty of cultivating the soil on his own account, subject to a certain due; that great and signal benefit, one of those which have secured the happiness of modern times, was effected after a long series of progressive improvements, the succession of which almost escapes the researches of the historian; and the human race is indebted for it to the discovery made by several possessors of serfs, of the advantage they could derive from the liberation of their slaves, under certain conditions. They believed that the interest of the slaves was identical with their own, and that it was of the highest importance for them to treat better in future those who made them live, and whom it was no longer possible to replace. They convinced themselves that it was far more advantageous to share with their vassals the fruit of an energetic and voluntary labour than to rob them shamefully of the sad product of a forced and servile industry. As soon as the right of property and the tranquil enjoyment of one’s labour were guaranteed to the serf, <pb n="11" facs="v1n7p11"/>civilization took a constant and progressive course. The peasants obtained the right to change their place and dispose of their savings. By degrees, rent was paid in money, and its price was fixed by competition; and those who could not obtain a farm to cultivate sold their labour for a determined wage. Finally, the laws assured to all farmers the liberty of their lease, as they guaranteed to the lord his rights over the leased land.
+    </quote>
+  </p>
+
+  <p>
+    <quote>
+      There is a very singular analogy between the progressive improvement of Negroes in <placeName>South America</placeName>, and the enfranchisement of the <emph>villains</emph> and of the serfs of <placeName ref="#EUR">Europe</placeName> in feudal times. For a long time gold and diamonds have been gathered in <placeName ref="#BR">Brazil</placeName> only by a mode of working altogether like that which feudal nobles had imagined to stimulate the activity of their peasants. The master furnishes the slaves with provisions and tools, and the slave is bound to furnish him a certain quantity of gold or precious stones in exchange. All that the slave can find beyond, belongs to himself. The gold mines of <placeName>Popayan</placeName> and of <placeName>Choco</placeName> have been worked under a similar system. The most productive fine-pearl fisheries of <placeName>America</placeName>, those of <placeName>Panama</placeName>, are worked by slave <emph>freeholders</emph>, if one may so express it. In general, throughout the extent of that vast continent, Negroes were permitted to hire themselves out for labour, on condition of giving a certain sum to their masters.
+    </quote>
+  </p>
+
+  <p>
+    <quote>
+      In these various countries, when a negro has succeeded in acquiring a little property, he seeks to buy his liberty. If the master obstinately insists on making him pay too dear for it, he can bring him before the courts, and often the master finds himself condemned to accept a reasonable price. This beneficent legislation has exercised the happiest influence in that part of <placeName>America</placeName>; the enfranchised blacks are there more numerous, more laborious, and more moral than elsewhere. A multitude of artisans have issued from this latter class, and entire regiments have been seen formed of blacks who had purchased their liberty with their own money. In several parts of South America, blacks are, in certain respects, in the position of the <foreign>coloni partiarii</foreign>, or metayers of feudal times; but their <foreign>reddendo</foreign> is fixed; all the surplus belongs to them, whereas a metayer shares all profits whatever with his master. This gradual softening of servitude, consisting in giving  <pb n="12" facs="v1n7p12"/>the slave the faculty of working on his own account, subject to a due, has been followed by the greatest advantages.
+    </quote>
+  </p>
+
+  <p>
+    Experience has proved that everywhere the emancipation of slaves or serfs increases the value of lands; here is what the traveller Coxe relates on this subject:
+    <quote>
+      Several Polish lords, humane and enlightened, have tried to enfranchise their serfs; the event has shown that this measure, which does honour to their humanity, was of still greater advantage to them, for the enfranchised districts rapidly increased in population and tripled their revenues. The lord who first gave liberty to his serfs was <persName>Jamoiski</persName>, former chancellor of the diet, who enfranchised six villages in the <placeName>palatinate of Masovia</placeName>. In examining the register of births from 1750 to 1760, during the ten years preceding enfranchisement, one finds four hundred and thirty-four births; and in the first ten years of liberty, from 1760 to 1770, five hundred and twenty-eight; and from 1770 to 1777, five hundred and eighty-five; whence it results that the proportional average of births in each year has been as follows:
+      <table>
+        <row>
+          <cell>First period, (slavery)</cell>
+          <cell>43 births</cell>
+        </row>
+        <row>
+          <cell>Second period, (liberty)</cell>
+          <cell>62 births</cell>
+        </row>
+        <row>
+          <cell>Third period, (liberty)</cell>
+          <cell>77 births</cell>
+        </row>
+      </table>
+    </quote>
+  </p>
+
+  <p>
+    It is the interest of masters also, sustained moreover energetically by philanthropic and Christian sentiments, which determined the abolition of slavery in the <placeName ref="#CA">English colonies</placeName>; it is that same interest which will bring about its abolition in <placeName>our colonies</placeName>.
+  </p>
+
+  <p>
+    <placeName ref="#FR">France</placeName> and <placeName ref="#ANG">England</placeName>, in the first rank of the nations of <placeName ref="#EUR">Europe</placeName>, such as the principles of modern civilization have made them, with their admirable industrial organization, their fair democracy of free labourers equal before the law, their factories, their workshops, their comfort in all things, launched with power into the indefinite career of perfectibility, bear high witness and sufficiently tell all what peoples can know and do when enfranchised from all servitude and all serfage, and what is their superiority over slave peoples, especially in the arts of peace.
+  </p>
+
+  <p>
+    Will it be said that such a future is a dream for us; that, whatever we do, it will be, for men of African race, the promised land toward which they will always aspire without ever reaching it?
+    <pb n="13" facs="v1n7p13"/>
+    Is it a culminating point beyond our reach, which will remain inaccessible to all our efforts? Yet how many things that, not fifty years ago, were called dreams and utopias, without possible application to the immense majority of men, are now realized, consented to by all to-day, and have passed into social practice, that is to say into manners no less than into laws!
+  </p>
+
+  <p>
+    Will men seek to argue the intellectual inferiority of the black race? But facts are there to give the lie to that pitiful assertion. The black race is inferior to the white race only because the latter has been admitted for centuries to the great banquet of civilization, where it has multiplied its forces a hundredfold by intelligence, while the other has always been carefully kept at a distance. Yet of itself the black race has known how to carve out a place by force and to create a country for itself where, a few years before, the drivers’ whip and the ignominious gaol were its only portion. But without even speaking of the republic of <placeName ref="#HT">Haiti</placeName>, has not the black race presented numerous and great examples of sociability? The black regiments at <placeName>Halifax</placeName>, the free labourers of <placeName ref="#TRI">Trinidad</placeName>, long before there was even question of the emancipation <foreign>bill</foreign>, the <foreign>west-indian black regiments</foreign>, the black colonies of <placeName ref="#SL">Sierra Leone</placeName>, the blacks of <placeName>Colombia</placeName> enfranchised by <persName>Bolivar</persName>, are not these peremptory and irrefragable answers to those who deny the proofs of the aptitude and intellectual worth of that race so despised by those who stifle its development in the sole interest of their momentary fortune? Facts therefore are here on the side of right and reason; and nothing is to-day more evidently demonstrated than this proposition, admirably supported in a <bibl type="monogr"><title>Memoir on the Sociability of the Black Race</title></bibl>, inserted in volume V, p. 557, of the <bibl type="periodical"><title>Journal of the Society for Christian Morality</title></bibl>, namely:
+    Whenever the despotism of the stronger has been willing to allow the black race to develop itself, it has developed itself as rapidly, in all respects, as the white race.
+  </p>
+
+  <p>
+    If, then, Negro slaves are very bad labourers, it is because it is natural that they should be so; because, debased, despised, beaten, treated worse than beasts of burden, one single thing ought to astonish us on their part, namely, that they submit with so much long-suffering; that they do not more often show, with fire and iron in their hands, as at <placeName ref="#HT">Saint-Domingue</placeName>, the fierce and cruel character <pb n="14" facs="v1n7p14"/> which long-endured oppression naturally stamps upon men; that, deprived of all moral notions and of truly religious instruction, they suffer without vengeance the evils and affronts of every kind with which they are daily overwhelmed.
+  </p>
+
+  <p>
+    Whatever one might say of the immorality, even of the ferocity, of Negro slaves, there is not a true philosopher who would be astonished by it; and if, even in slavery, blacks display, as it is true they do, admirable qualities and remarkable faculties, who can doubt of all they will be capable of once restored to liberty?
+  </p>
+
+  <p>
+    Behold <placeName ref="#HT">Haiti</placeName>, where instruction and the books of <placeName ref="#EUR">Europe</placeName> have fertilized the intelligence and moralized the heart of the multitude. Doubtless it is not yet a republic in all points free and happy; but what nation of <placeName ref="#EUR">Europe</placeName> can pretend to be completely the one and the other? <placeName ref="#HT">Haiti</placeName> is a new nation, still little advanced on certain points, suffering from the unfortunate necessities of its past, but which every day sees some progress accomplished in its bosom, and which walks with a firm and bold step towards the future. <placeName ref="#HT">Haiti</placeName>, such as it is, and despite European prejudices, is still one of the most tranquil and the best governed countries.
+  </p>
+
+  <p>
+    If, then, we were not profoundly penetrated with the truth of that religious principle, so eloquently expressed by the
+    <orgName>British and Foreign Society for the Universal Abolition of Slavery and the Slave-Trade</orgName>,
+    namely, that SLAVERY IS A CRIME BEFORE GOD, AND MUST BE ABOLISHED AS SUCH, we should still pursue its abolition as economists, as friends of humanity, convinced as we are that there is no possible development for industry, commerce, the sciences and the arts, in a word for all that constitutes true civilization, wherever hideous servitude has not completely disappeared.
+  </p>
+
+  <p>
+    The emancipation of slaves is what we shall demand, what we shall urge with all our strength, before all things and above all, as the first and indispensable element of social progress in the colonies.
+  </p>
+</div>
+
+<div xml:id="abus">
+  <pb n="15" facs="v1n7p15"/>
+  <head n="Abus d'autorité de la part des maitres aux colonies">
+    ABUSE OF AUTHORITY ON THE PART OF MASTERS IN THE COLONIES
+  </head>
+
+  <p>
+    Colonial laws are too favourable to planters for them not to abuse the privileges which they attach to their despotism. Let us see how they have used this instrument of arbitrary power, so dangerous in all hands, but especially in those of a private citizen.
+  </p>
+
+  <p>
+    It is notorious, in <placeName ref="#GP">Guadeloupe</placeName>, that a great number of proprietors exceed without measure the punishments fixed by ordinances. Proprietors and managers are far from concealing the executions which they order from time to time, and in which they cause from thirty to a hundred lashes, and even more, to be inflicted. One of these planters, wishing to rid himself of an old negress, had her slashed successively by three drivers, and then left her to end her days in a dungeon.
+  </p>
+
+  <p>
+    Does poison commit ravages upon an estate? Immediately the blacks who appear most suspect are arrested. Instead of delivering them into the hands of justice with the indications of their guilt, the proprietor constitutes at home a sovereign tribunal, causes the suspected negro to be shut up in a cell; sentence is pronounced; he must die there of hunger or under blows. I have been assured that such examples were numerous. We read in the
+    <bibl type="periodical"><title>Gazette des Tribunaux</title></bibl>
+    of 26 October 1831:
+    <quote>
+      A commission of inquiry, of which <persName>Mr. Duquesne</persName> was president, established in March last, in the quarter of <placeName ref="#TRI">La Trinité</placeName> <placeName ref="#MQ">(Martinique)</placeName>, horrible crimes. A slave died after having received two hundred lashes on the loins, after having been exposed for a whole day to the burning sun, and at length after having passed a night fastened to the ground upon a ladder, during which time the belly of that unfortunate man was eaten by crabs… Another slave was shut up in a dungeon with eight others; the only window which gave a little air was stopped up with bricks, and in this state those unhappy wretches remained three days deprived of food and air: when the door was opened, and the woman named <persName>Emilienne</persName> was carried out, she expired immediately. These cruelties were committed by a manager, <pb n="16" facs="v1n7p16"/>against whom, after the inquiry, a prosecution was ordered; but the warrant of arrest remained without execution, because the flight of the guilty man was favoured.
+    </quote>
+  </p>
+
+  <p>
+    What shall one say of those monsters who, in fits of fury, have rushed upon negroes, bruised them all over, and who, carrying delirium and rage to their last point, have themselves torn teeth from their slaves! That will not hinder them, said they with infernal irony, from eating their cod and their cassava flour.
+  </p>
+
+  <p>
+    A proprietor of <placeName>Capesterre</placeName> has been accused twice of having killed with his own hand one of his negroes, with unheard-of atrocity, cutting him up like a piece of game. The attorney-general was informed of it, ordered a visit to the place and an inquiry. I know not what motive could have prevented the prosecution; but the crime was held to be manifest; it was the public rumour. This fact is anterior to the judicial organization.
+  </p>
+
+  <p>
+    Here is the discipline established by a proprietor of <placeName>Capesterre</placeName> to keep his slaves in check.
+  </p>
+
+  <p>
+    The rat-catcher, a negro altogether infirm, is obliged every day to take twelve rats in the sugar-canes. When he has not completed the prescribed number, he receives twelve lashes, if few are wanting; but if half are wanting, he receives from twenty-five to thirty lashes. Other proprietors ordinarily require only seven, and even six rats; often they content themselves with fewer: one may judge then of the number of blows which the poor negro of that monster must receive every day!
+  </p>
+
+  <p>
+    The keepers of his herds are absolutely responsible for them. If a calf, an ox, a lamb, etc., happen to die, the negro charged with it receives three stakes without remission: defect of conformation at birth, accident clearly proved, disease, etc., nothing can mitigate this inexorable sentence; it is an established order; and yet there is no reward, not a sou of gratuity for increase or improvement in the animals.
+  </p>
+
+  <p>
+    Children of eight years are obliged, in his service, to tend the herds, and are subjected to the discipline of the grown negroes; they are cut as the others are, and I have seen upon those little beings, so interesting in their misfortune, marks which left no doubt of the ferocity of their tyrant!
+  </p>
+
+  <pb n="17" facs="v1n7p17"/>
+
+  <p>
+    If he fears that, in consequence of a punishment, one of his negresses will run away, or if she is taken in maroonage, he causes an enormous chain to be put about her neck or on her foot, to which he fastens one of her children. I have seen a little girl of six years drag with difficulty that heavy and painful burden; as if the crime (the crime!!) of the mother could authorize the punishment of that young child in so barbarous a manner! Her body, so feeble at that age, and her delicate flesh, were all bruised by it. Innocent creature, how deeply the sight of thy sufferings moved my heart! How I pitied thee, and how I cursed thy vile executioner! Would that I could place before the eyes of our sensitive Frenchwomen the real picture of such excesses! What powerful auxiliaries I should gain for the holy cause of the enfranchisement of the blacks!
+  </p>
+
+  <p>
+    I found myself one day near the landing-place where this planter was having his sugars loaded into a pirogue; three negroes were rolling a hogshead; the pavement was bad, uneven, and presented many asperities: a hoop broke in a fall of the hogshead.
+    <quote>
+      Driver, cries the barbarian at once, give me this evening thirty well-laid lashes to that scoundrel of a cooper, to teach him to make me such bad hoops; and well laid, do you hear?
+    </quote>
+    Thirty lashes for a hoop broken by an accident of the ground!
+  </p>
+
+  <p>
+    It is a notorious fact that of forty-four newly imported negroes whom he had bought at once out of a cargo, all, within six months, had ceased to live. What horror! what frightful butchery!
+  </p>
+
+  <p>
+    This man is so well known by his ferocious humour that two gangs revolted in order not to be sold to him. When one wishes to frighten a negro with whom one is dissatisfied, he is threatened with being sold to that proprietor; that suffices to correct him.
+  </p>
+
+  <p>
+    The journals have related the crimes of <persName>Sommabert</persName>, that Creole vampire, who, in his transports, made it a sport to mutilate his slaves and tear life from them.
+  </p>
+
+  <p>
+    I have seen three negroes dread so much the torments with which their masters’ wrath threatened them, that, to escape them, they threw themselves into the sea, two from the top of a cliff, and the third cast himself from a pirogue while he was being brought back to the estate.
+  </p>
+
+  <pb n="18" facs="v1n7p18"/>
+
+  <p>
+    A proprietor, on whose personal account I shall be silent, related to me, before several persons, the following trait of his father, famous for his severity and his riches.
+    <quote>
+      My father, being at <placeName ref="#MQ">Martinique</placeName>, where he had properties, was invited to dine by the governor. During the meal, the governor, who was soon to depart for <placeName ref="#FR">France</placeName>, proposed to sell him one of the negroes who served at table, an excellent domestic, whose precious qualities he extolled. My father, turning to that slave, asked him if he wished to serve him. His reputation for severity was so well established that the negro, who dreaded being sold to him, answered him frankly that no, and made a negative gesture. My father feigned not to have understood him, and told the governor that the bargain was concluded and that he would give him the price he desired. He carried the negro with him to <placeName ref="#GP">Guadeloupe</placeName>. You declared that you did not wish to serve me, said he to him; I consent; you shall have nothing to do: here is your hut. By his order, a heavy chain was put upon his foot; then he was shut up in a small grated hovel, a kennel as it were, placed on the terrace adjoining the house. In vain did the wretch ask his pardon with tears in his eyes; in vain did he assure him that he would serve him as a faithful negro; my father was inexorable. That black lived thirty years in that den; and though during that long space my father passed a thousand times a day near that unfortunate man, though foreigners often took pity on his lot and implored the forgetting of his fault, never did he suffer himself to be moved. The slave died in that hard prison.
+    </quote>
+  </p>
+
+  <p>
+    If one had the least doubt of the truth of my narratives, let one go consult the scars which cover the bodies of so many victims: those cicatrices will be eloquent; they breathe an appalling truth. Let one interrogate all those graves which a remnant of shame has clandestinely dug along the ravines that cut through the estates; they conceal numerous corpses whose knowledge men wished to steal from the public, for fear of terrible commentaries.
+  </p>
+
+  <closer>
+    <signed>X. TANC,</signed>
+    <lb/> former magistrate, in Guadeloupe.
+  </closer>
+</div>
+
+<div xml:id="cassation">
+  <pb n="19" facs="v1n7p19"/>
+  <head n="Dernier mot sur le pourvoi en cassation des condamnés de la grand'anse.">
+    LAST WORD ON THE APPEAL IN CASSATION OF THE CONDEMNED OF GRAND'ANSE.
+  </head>
+
+  <p>
+    There are, in public life, seasons of discouragement in which citizens come to despair profoundly of institutions, in which one may see with bitterness how vain are the guarantees of the social contract as it exists to-day in France, even when replaced upon its great base of the pretended national sovereignty. We could show a thousand applications of this painful truth; but we are not here making the inventory of all those human miseries. One single fact must be cited by way of example; an immense fact, from which our philosophical observation issues with a frightful reality.
+    <emph>The appeal of the condemned of Grand'Anse has been rejected!</emph>
+  </p>
+
+  <p>
+    Thus, then, seven colonists of Martinique, united as a criminal tribunal, imbued with caste prejudices, have been able to put to death forty of their compatriots? They might have delivered to the executioner the <emph>one hundred and sixty heads</emph> demanded by the attorney-general <persName ref="#ANog">Nogues</persName>... And the metropolis would have approved all!
+  </p>
+
+  <p>
+    What then is that supreme court placed, like the keystone, at the summit of the judicial order, exercising sovereign power over courts and tribunals? Was it not instituted to quash bad judgments, to bring judges back to law, to reason, to humanity, judges ignorant or prevaricating? Above all those whom vertigos of blood agitate upon their bench, and who have erected into a principle of government human sacrifices, the punishment of a hundred heads, those <emph>hecatombs</emph> which the ancients offered to the gods in cattle, not in men.
+  </p>
+
+  <p>
+    Such indeed is the mission of the supreme court. But that high tribunal, placed outside the storms and passions of men, too often intervenes in their affairs only as a sort of phantom of justice, foreign to the sad realities of this world, unintelligent of the crimes of the earth, inclined to optimism, not readily seeing evil, because man, placed under certain conditions, loves to suppose good. Perhaps, O venerable magistrates! you did not understand so much perversity, so much insensibility to all that is holy and sacred. Perhaps you did not understand
+    <pb n="20" facs="v1n7p20"/>
+    so much Machiavellian cruelty in Frenchmen, in those, in fine, who, like you and beneath you, exercise the priesthood of justice. The Court of Cassation, created in 1790, is a great idea, great like all the ideas of that epoch; but it is perhaps a small institution functioning narrowly within the bonds of a petty and timorous organization. It knows only the <emph>form</emph> and not the <emph>substance</emph> of causes; it judges the judgment, not the trial; it judges, as a work of judicial logic, the intellectual operation of the lower tribunal which consists in applying the law to facts or to men; it does not judge it as a work of justice. There, all is reduced to mathematical exactitude; and if a man is killed <emph>by demonstrative reasoning</emph>, the judgment is good; it is maintained. One must even remark this strange and shocking anomaly, that the influence of the Court of Cassation upon the substance of causes is far greater in civil suits than in criminal suits. For the former, where there are only pecuniary and material interests at stake, it binds the judges of the merits by the power of reason and the authority of its doctrines on controverted questions which are often the whole cause. For the latter, on the contrary, where honour, liberty, the life of citizens are at stake, reduced to verifying the regularity of procedure and the exact application of the penalty, it has censure only for formalities; it has none for the condemnations in themselves, for those which would strike innocent men, for <emph>verdicts</emph> that would be <emph>lies</emph>, for judgments dictated by hatred or by the spirit of persecution, or by politics, that changeful queen of our times, which introduces into judgments all the mobility of passions and of systems.
+  </p>
+
+  <p>
+    Well then! in an island of the <placeName ref="#ANTE">Antilles</placeName>, at <placeName ref="#MQ">Martinique</placeName>, in the midst of a scanty population, for a purely political cause, forty accused have been condemned to capital punishment! Fifty-three others to forced labour, to perpetual deportation, etc.! A hundred families are stricken! An entire commune is depopulated! An entire French colony is terrified by the murderous action of this justice more than prévôtale! What matters it! The metropolis will do justice and make reparation; it will quash the abominable judgment denounced to the Court of Cassation by the condemned. No; let all the heads fall which the judgment has struck! The procès-verbal of the sittings of the assize court attests the minute accomplishment of all formalities. None is omitted, at least in the descriptive drafting of the procès-verbal. That suffices; the supreme court is powerless to revise the trial otherwise, and the appeal must be rejected.
+  </p>
+
+  <pb n="21" facs="v1n7p21"/>
+
+  <p>
+    Thus, before the Court of Cassation, it was necessary to drag the greatest judicial monstrosity that has ever desolated the colonies over nullities of procedure. All, advocates and judges, subtilized upon questions of form; and the hideous gallows erected on the shore of Martinique awaits, with the executioner, the forty heads solicited and obtained by the <roleName>Attorney-General</roleName> <persName ref="#ANog">Nogues</persName>!
+  </p>
+
+  <p>
+    Ô blacks and mulattoes, our compatriots, with what bitterness you must despair of laws and institutions!
+  </p>
+
+  <p>
+    Yet do not despair of men. Your misfortunes have been keenly felt by our fellow-citizens of <placeName ref="#EUR">Europe</placeName>, by the magistrates themselves who rejected your appeal. Good procedure, they have said, but a bad trial; an infamous trial, an execrable trial! And then, recoiling before the omnipotence which perhaps they might have arrogated to themselves amid the acclamations of the whole country, suppliant for the exercise of mercy, they themselves have torn away its hypocritical veil from the work of passion and iniquity hidden under the apparatus of forms. And you, cowardly persecutors, who prepare ovations, know it well: your infamous trial has been cursed by all in France; and while giving it an apparent approbation by rejecting the appeal, men have not known what they ought to detest the more, your thirst for blood or your skill in making judgments of death which the supreme court is obliged to maintain.
+  </p>
+</div>
+<div xml:id="FRANCE">
+  <head n="France."><placeName ref="#FR">FRANCE</placeName>.</head>
+
+  <div xml:id="Pétition">
+    <head n="Pétition relative a l'abolition de l'esclavage, adressée aux deux chambres.">
+      PETITION RELATIVE TO THE ABOLITION OF SLAVERY, ADDRESSED TO THE TWO <orgName>CHAMBERS</orgName>.
+    </head>
+
+    <p>
+      Several citizens, at <placeName ref="#Par">Paris</placeName>, have just addressed to the <orgName>Chambers</orgName> the following petition, which we hasten to welcome into our sheet. We learn that in the departments the question of the abolition of slavery excites the liveliest interest, and that the fine example given by the citizens of <placeName ref="#Par">Paris</placeName> will not be slow to be imitated.
+      <pb n="22" facs="v1n7p22"/>
+    </p>
+
+    <floatingText>
       <body>
-         <div>
-            
-         </div>
+        <div>
+          <head n="Messieurs,">GENTLEMEN,</head>
+
+          <p>
+            Permit us to call your attention to the condition of the slaves of the <placeName>French colonies</placeName>. More than once the Chambers have expressed the compassion which these unhappy beings inspire in them, by referring to <roleName>Mr. the Minister of Marine</roleName> the petitions which have been addressed to them to claim their intervention in favour of the slaves; but nothing, absolutely nothing has been done to alleviate their sufferings; and, it must be said, nothing or almost nothing could be done, if one wished to stop in the path of improvements, and if one did not propose to arrive, by wisely progressive measures, at the cessation of slavery and the enfranchisement of the blacks. The colonists have felt that all is connected in the colonial system; they know that one concession contains the germ of another concession, and it is to avoid being carried along by an irresistible movement towards the great social change which they dread, that they have opposed the most absolute resistance to the efforts attempted by the friends of the blacks. The government has adopted their views, because it shared their fears, and it is on that account that we have seen introduced into the French colonies none of those measures by which the legislators of <placeName ref="#GB">Great Britain</placeName> have prepared a new era for their colonies.
+          </p>
+
+          <p>
+            <placeName ref="#ANG">England</placeName> has for many years favoured all that could increase the well-being of the slave population. In particular, if it has not encouraged, it has at least fully tolerated the religious instruction and the elementary instruction of the blacks; it has by a law obliged proprietors to enfranchise their slaves when these should offer them the amount of their value; finally it has established in its colonies protectors and guardians of the slaves, thus recognizing for them in advance certain rights, because it wished in the end to recognize for them all rights.
+          </p>
+
+          <p>
+            <placeName ref="#FR">France</placeName>, on the contrary, long regarding the emancipation of the blacks as a utopia, although the trial which she herself formerly attempted ought to have taught her that it is possible, has not wished to advance towards an end from which she believed herself separated by insurmountable <pb n="23" facs="v1n7p23"/> obstacles. The relations of the metropolis with the colonies being limited to a small minority, interested moreover in keeping up the fears which the colonists have always sought to spread as to the consequences of enfranchisement, if ever one dared to attempt it, it has resulted that hitherto, among us, there have been only confused and erroneous ideas of their condition. Men have believed in real dangers, whereas there were only difficulties to be feared. The most impatient have thought it necessary to leave to a neighbouring nation, within which this question had had time to become popular, the perils and the glory of a hazardous initiative.
+          </p>
+
+          <p>
+            Well then, Gentlemen, that initiative has been taken. The great social fact which statesmen, belonging to contrary parties, demanded as a measure of wisdom, while Christians of all denominations called for it as an act of justice and humanity, is to-day accomplished in the colonies of <placeName ref="#GB">Great Britain</placeName>. The class of slaves has ceased to exist, because a generous law has given it letters of freedom. To believe the adversaries of enfranchisement, the ships charged to transmit the news of the execution of the parliamentary <foreign>bill</foreign> could not fail to bring also the recital of the most terrible excesses. The <foreign>bill</foreign> would be, it was said, equivalent to a provocation to murder and to incendiarism; but those sinister previsions have not been realized. Far from refusing to work, and giving themselves up to the excesses represented as imminent, the blacks have, in general, given proofs of the desire they have to show themselves worthy of liberty by their activity and their spirit of subordination. In most of the colonies, they wished publicly to consecrate the day of their enfranchisement by prayers and thanksgivings. Each day consolidates the transformation which has been effected without resistance and without shock, and <placeName ref="#ANG">England</placeName> prepares for herself, in place of a wretched caste, within which servitude maintained a continual irritation, an intelligent and peaceful population.
+          </p>
+
+          <p>
+            After having left to others the care of making an experiment so happy in its results, would it be permitted to <placeName ref="#FR">France</placeName> not to profit by it? No, Gentlemen; what was lately called an impossibility, a utopia, appears to-day as a necessity <pb n="24" facs="v1n7p24"/>near at hand. It cannot be, in fact, when there are no longer slaves in the <placeName ref="#CA">English colonies</placeName>, that there should remain slaves long still in <placeName>our islands</placeName>, situated in the same seas. In presence of the new order of things established in the <placeName>British Antilles</placeName>, the danger for us is no longer in abolition, it is in the maintenance of slavery. Besides, civilized nations touch too closely for great thoughts and generous ideas not to be rapidly communicated from one to another. What <placeName ref="#ANG">England</placeName> has willed and has been able to do, will not <placeName ref="#FR">France</placeName> will it, will she not be able to do it? We love rather to believe that it is the will of the nation which will constitute above all the necessity we foresee; for how suppose that it will consent to tolerate in its codes the shameful page which another people has torn from the book of its laws? And to whom would it belong with more just title than to you, Gentlemen, to be the organs of the nation? Consent, then, to signalize the first session of the French Chambers held after the emancipation of the slaves of the English colonies by a solemn vote, which, in testifying that they are penetrated with the thought of a great duty, may serve as a guarantee for a great benefit!
+          </p>
+
+          <p>
+            We do not come to ask you, Gentlemen, to recommend to the government this measure rather than that; we do not say that those adopted successively by <placeName ref="#ANG">England</placeName> are the best, nor the only ones which it would be fitting to adopt; we do not pretend, in a word, to trace a plan for the enfranchisement of the blacks. What we desire only is that the Chambers, that the government, should avow the principle which we invoke; that they should recognize from this moment that it is necessary, no matter for the present by what road, to attain, in a time as short as possible, the great end of the complete abolition of slavery. If this project is avowed, the greatest advantages will result from that avowal itself. The colonists will labour, by facilitating the instruction of the slaves, to diminish the dangers which appear to them inseparable from emancipation, and they will prepare themselves from this moment, with a wise foresight, for the new order of things which shall have been announced to them. Legislators, instead of advancing upon shifting ground and being forced to make laws that partake of their uncertainties, will reconcile beforehand their legislative measures with that one which they will know must crown them all. The whole people, accustoming itself to attach thoughts of hope and glory to the realization of a plan which justice and humanity demand, will associate itself with it by its sympathies. The national conscience at last will be able to bear witness to itself that <placeName ref="#FR">France</placeName> does not recoil before a duty, the evidence of which is demonstrated to her, but that she wills to accomplish it as soon as she has recognized its accomplishment possible.
+            <pb n="25" facs="v1n7p25"/>
+          </p>
+
+          <p>
+            We have the honour to be, etc.
+          </p>
+
+          <p>
+            Paris, 17 December 1831.
+          </p>
+
+          <closer>(Here follow the signatures.)</closer>
+        </div>
       </body>
-   </text>
+    </floatingText>
+
+    <p>
+      We shall keep our readers informed of the discussions which this petition may raise within the two Chambers.
+    </p>
+  </div>
+</div>
+<div xml:id="coursBlanqui">
+  <head n="Cours d'économie industrielle au conservatoire des arts et métiers , par m. blanqui aine aîné .">
+    COURSE OF INDUSTRIAL ECONOMY AT THE <orgName>CONSERVATORY OF ARTS AND TRADES</orgName>, BY MR. <persName>BLANQUI</persName>, THE ELDER.
+  </head>
+
+  <p>
+    There are few public courses attended with as much favour, and drawing a greater number of hearers, than that which we are to notice to-day. A lively interest attaches to the questions of political economy, which must at least be elucidated, if the time for their immediate solution has not yet arrived; we shall not therefore speak of the professor’s remarkable talent, known by the services which, young as he still is, he has already rendered to science and to liberty, whether as a public writer, or as the head of the fine establishment which he directs, or, lastly, in his lectures at the Conservatory, where he fills the chair of his illustrious master, <persName>J. B. Say</persName>.
+  </p>
+
+  <p>
+    Mr. <persName>BLANQUI</persName> is an ardent antagonist of the prohibitive system; the war which he wages against commercial and industrial privileges was bound to lead him to the examination of our colonial régime, which he attacked in his lecture of the 26th of December with an indignation and a force of logic of which we could give only a faint idea.
+  </p>
+
+  <p>
+    The legislation of sugars was first analysed by the professor, in all its phases since the Restoration of <date>1815</date>; he followed it step by step, date by date, figure by figure, the <bibl type="periodical"><title ref="#MU">Moniteur</title></bibl> in hand, explaining the double duty and its effects upon home consumption, unfolding the infamous abuses to which the import premium gave birth, from the law of the 17th of May <date>1826</date>, the date of the law, down to 1833. The scandals of that premium are well known, and the unanimous outcry of reprobation which it raised when Mr. <persName>Gauthier</persName> came to reveal from the tribune both the palpable dishonesty of the yield-calculations at the time when the law was voted, and the intolerable burdens which that premium imposed upon <placeName ref="#FR">France</placeName>, compelled to pay the most iniquitous brigandage; since, as Mr. <persName>Blanqui</persName> has said, it is proved now that waggons loaded with sugar went out of the territory, then re-entered by another point of the frontier, to go out again and receive a new tribute.
+    <pb n="26" facs="v1n7p26"/>
+  </p>
+
+  <p>
+    Never have the disastrous effects of the protective system been more visible than in the efforts attempted in favour of our colonies; far from re-establishing their affairs, protection has accelerated their decay; it stimulates the manufacture of native sugar, which, from day to day, assumes a threatening extension. The sugar estates in the colonies are encumbered; the interest paid by the planters is at an excessive rate: at <placeName ref="#BrB">Bourbon</placeName> money is not lent under twelve per cent; at the <placeName ref="#GP">Guadeloupe</placeName>, at the <placeName ref="#MQ">Martinique</placeName>, at <placeName ref="#Cay">Cayenne</placeName>, usury is truly frightful. The means of transport are excessively costly: from the plantation to the shore it often costs a sum equivalent to the freight from the colony to the metropolis.
+  </p>
+
+  <p>
+    The illicit profits afforded by the export premium on refined sugars forced the colonies to produce at any price; this fever of production made men think far more of the quantity than of the economical means of manufacture. Unable to satisfy the demands of the refiners of the metropolis, the colonists secretly brought in sugars from <placeName ref="#CUB">Cuba</placeName>, and shipped them to us without taking the trouble to disguise the form of the packages. <placeName ref="#CUB">Cuba</placeName> supplies, at twenty centimes, and <placeName ref="#BR">Brazil</placeName> and <placeName ref="#IN">India</placeName> at fifteen centimes, sugars of a superior quality; and the improved processes of labour perfected throughout the <placeName ref="#ANTE">Antilles</placeName> cannot penetrate into our islands, because we lack the capital indispensable for the first expenses which they require; and, to crown this distress, behold a political law, into which at last humane principles against the slave-trade have entered, comes to paralyze the fiscal law, already radically powerless. The one would fain encourage and protect the manufacture of sugar in our islands; the other deprives them of the instruments of labour without which they declare they cannot do. The most infamous of contrabands, that which is carried on in the sale of unhappy creatures made in the image of God, incessantly raises the price of negroes, who sell for 1,800 fr. to 2,000 fr. (1). Mortality makes terrible ravages among these unhappy beings; their number decreases so sensibly, and in such a proportion, that before thirty years all will be over. In 1825, on an estate of <placeName ref="#BrB">Bourbon</placeName>, whose slaves are called the king’s negroes, 925 blacks gave birth to 37 children, and were struck by 65 deaths; in 1826, there were counted 2,475 deaths at the <placeName ref="#MQ">Martinique</placeName>, against 1,499 births; the <placeName ref="#GP">Guadeloupe</placeName> refused to give its figures; it hid its dead! What a situation! what a system! what a future!
+    <pb n="27" facs="v1n7p27"/>
+  </p>
+
+  <p>
+    And with all this, the most intolerable pride, the most intractable hatred against every manifestation of truth; categories calculated upon the shades of the skin; odious persecutions, brands of infamy for pretended crimes, committed by persons so honourable that in France there is no one who would not think it an honour to receive them into his family. On this side of the Atlantic they cannot scourge us, but they disguise us as agitators, as tribunes, if we raise our voice in favour of truth; the most authentic facts are but vain declamations; the most incontestable principles are absurd theories; men attribute to us hateful sentiments which we have not, motives which we cannot have. The evil is prolonged to the great damage even of the colonists themselves; and the final result is, that in war time we have no longer colonies, and in peace time the dearness of their produce renders them burdensome beyond measure.
+  </p>
+
+  <p>
+    We shall end this too imperfect analysis of a fine lecture by the literal quotation of two very remarkable passages read by Mr. <persName>BLANQUI</persName> in support of his economic calculations and his exposition of colonial facts; the one belongs to Mr. <persName>Ch. Comte</persName>, the other to the illustrious and unfortunate traveller <persName>Victor Jacquemont</persName>.
+  </p>
+
+  <p>
+    <quote>
+      To obtain the labour of a slave, says the learned jurist, a master pays him one small part in provisions or in clothing, and the other part in blows of the whip. We cannot consider
+    </quote>
+  </p>
+
+  <note>
+    (1) There is an error in the figure; at the Martinique one can hardly find to-day 1000 fr. for a slave. (Editor’s note.)
+  </note>
+
+  <pb n="28" facs="v1n7p28"/>
+
+  <p>
+    <quote>
+      what is acquired with this last kind of money otherwise than we consider the profits made by the individuals who go to rob travellers upon the high-roads. Thus, when we grant a monopoly to the commodities sold by owners of men, to the prejudice of proprietors who sell the same commodities, but who cause their lands to be cultivated only by free persons, we are in the same case as a man who should refuse to buy merchandise from those who have produced it, and who would buy only stolen merchandise. Such a traffic on the part of an dishonest man would be natural, if the stolen goods were delivered at a much lower price than the current price of commerce; but if thieves, considering the dangers of their profession, demanded a higher price, what should we think of him who gave them the preference? We should think that such a man carries dishonesty even to extravagance. (1)
+    </quote>
+  </p>
+
+  <p>
+    On the 12th of January 1829, Jacquemont wrote to his friend Mr. de Tracy, member of the Chamber of Deputies:
+    <quote>
+      I have seen at close hand, at <placeName>Rio</placeName>, this horrible traffic carried on there upon an immense scale. I have retained from the sight of these human miseries a feeling of horror which is effaced with difficulty from my terrified mind. Yet he who wills the end wills the means. Say plainly that the slavery of the blacks is the <foreign>sine qua non</foreign> of the existence of <placeName ref="#BR">Brazil</placeName>, as of European domination in all the lands of <placeName>America</placeName> situated between the tropics, without being very much elevated above the level of the sea.
+    </quote>
+  </p>
+
+  <p>
+    <quote>
+      For us in particular, if <placeName ref="#Cay">Cayenne</placeName> and <placeName ref="#BrB">Bourbon</placeName> have experienced for some years a movement of prosperity, it is due only to the fact that the connivance of the administrators of these colonies, not to say their open protection, has allowed more cargoes of slaves to be landed there... Say then that the general cry of opinion accuses the colonial administration of a criminal connivance in the trade. Say that you are convinced that they cannot prosper except by the trade, that they cannot even maintain themselves except by continual importations of
+    </quote>
+  </p>
+
+  <note>
+    (1) <persName>Ch. Comte</persName>, <bibl type="monogr"><title>Traité de législation</title></bibl>, book 5, chap. xix.
+  </note>
+
+  <pb n="29" facs="v1n7p29"/>
+
+  <p>
+    <quote>
+      blacks, and that their present prosperity is the highest condemnation of their administration.» (1)
+    </quote>
+  </p>
+
+  <p>
+    Mr. <persName>Blanqui</persName> thinks that there exist means of reconciling, as far as possible, the principles of property, which colonial disorder must not cause to be lost from view, with the question of home consumption, and with that of humanity, higher, more sacred. He announces that he will occupy himself with it on Friday the 9th of January in an approaching lecture.
+  </p>
+
+  <p>
+    In its next number, the <bibl type="periodical"><title>Revue des colonies</title></bibl> will give the faithful analysis of that lecture.
+  </p>
+</div>
+
+<div xml:id="USA">
+  <head n="États-unis."><placeName>UNITED STATES</placeName>.</head>
+
+  <div xml:id="SocUSesclavage">
+    <head n="Société américaine contre l'esclavage."><orgName>AMERICAN ANTI-SLAVERY SOCIETY</orgName>.</head>
+
+    <p>
+      We have before us the first annual report of the <orgName>American Anti-Slavery Society</orgName>, and the speeches delivered at the anniversary meeting, at <placeName>Chatham Street Chapel</placeName>, in the city of <placeName>New-York</placeName>, as well as the official papers attesting the labours of the <orgName>Society</orgName> in its various meetings.
+    </p>
+
+    <p>
+      This <orgName>Society</orgName>, which was constituted at <placeName>Philadelphia</placeName>, on the 4th of December 1833, in an assembly composed of sixty-three delegates, representing the various societies of the States of <placeName>Maine</placeName>, <placeName>Vermont</placeName>, <placeName>New Hampshire</placeName>, <placeName>Massachusetts</placeName>, <placeName>Rhode-Island</placeName>, <placeName>Connecticut</placeName>, <placeName>New-York</placeName>, <placeName>New-Jersey</placeName>, <placeName>Pennsylvania</placeName>, <placeName>Ohio</placeName>, <placeName>Maryland</placeName>, <placeName>Delaware</placeName>, in the <placeName>District of Columbia</placeName> and the <placeName>Territory of Michigan</placeName>, published, after a solemn deliberation which lasted three days, a declaration of principles in which breathe the highest spirit of religion and of philosophy.
+    </p>
+
+    <p>
+      At the anniversary sitting held in 1834, a numerous and distinguished audience was present. Many persons of great talent delivered there very remarkable speeches.
+    </p>
+
+    <p>
+      The committee is composed of: MM.
+      <list>
+        <item><persName>ARTHUR TAPPAN</persName>, president.</item>
+        <item><persName>JOHN RANKIN</persName>, vice-president.</item>
+      </list>
+    </p>
+
+    <note>(1) Correspondence, p. 51.</note>
+
+    <pb n="30" facs="v1n7p30"/>
+
+    <p>
+      <list>
+        <item><persName>SAMUEL H. COX</persName>, secretary for foreign correspondence.</item>
+        <item><persName>SAMUEL E. CORNISH</persName>.</item>
+        <item><persName>JOSHUA LEAVITT</persName>.</item>
+        <item><persName>WILLIAM GREEN</persName>, treasurer.</item>
+        <item><persName>PETER WILLIAMS</persName> (man of colour).</item>
+        <item><persName>THEODORE WRIGHT</persName>.</item>
+        <item><persName>LEWIS TAPPAN</persName>.</item>
+        <item><persName>WILLIAM GOODELL</persName>.</item>
+        <item><persName>ABRAHAM S. COX</persName>, secretary-reporter.</item>
+        <item><persName>ELIZAR WRIGHT, JUN.</persName>, secretary for domestic correspondence.</item>
+      </list>
+    </p>
+
+    <p>
+      In our next deliveries we shall make known the labours of this honourable society.
+    </p>
+  </div>
+</div>
+<div xml:id="ColFr">
+  <head n="Colonies françaises."><placeName>FRENCH COLONIES.</placeName></head>
+
+  <div xml:id="Martinique.">
+    <head n="Martinique."><placeName ref="#MQ">MARTINIQUE</placeName>.</head>
+
+    <p>
+      Our correspondent at Saint-Pierre writes to us, dated the 2d of October:
+    </p>
+
+    <p>
+      <quote>
+        «The <orgName>colonial government</orgName> has publicly carried on a traffic of a new kind, on the 10th of last September. The schooner <emph>the Charte</emph>, <roleName>captain</roleName> <persName>Coulin</persName>, <roleName>owner</roleName> <persName>T. P. Ferry</persName>, received on board eight slaves of both sexes, to be conveyed to <placeName>Porto Rico</placeName>, on account of an inhabitant of that colony who had purchased them. The boat which brought them on board the schooner the Charte was under the guard of two <roleName>royal gendarmes</roleName>, and a <roleName>chasseur of the mountains</roleName>, whom I recognised as the <roleName>orderly</roleName> of <persName>Mr. Rosily</persName>, <roleName>director-general of the interior</roleName>. The Charte remained two days in the roadstead after the embarkation of the said slaves; and during that time the two gendarmes were stationed on board her. The fact is notorious: every one has seen it here; and people ask for whose benefit this commercial operation has been effected.»
+      </quote>
+    </p>
+
+    <pb n="31" facs="v1n7p31"/>
+
+    <p>
+      Another letter, dated the 3d of November, expresses itself thus:
+    </p>
+
+    <p>
+      <quote>
+        Since the colonial government, in contempt of the laws, sold to <persName>a certain Mr. Maréchal</persName> slaves who were embarked on the schooner the Charte, as I have already written to you, this infamous traffic is carried on in a frightful manner by private persons who purchase properties in <placeName>Porto Rico</placeName>. So soon as a slave displeases, the master has no other means of getting rid of him than to sell him to these new traffickers in human flesh, who carry them to <placeName>Porto Rico</placeName> in coasting boats which no one takes the trouble to watch. It is reckoned here, within a month, more than twenty slaves who have gone to recruit the gangs of <placeName>Bigue</placeName> and <placeName>Mayagônes</placeName>. Three days ago a boat was to take ten, who were already shut up in the dungeons of an estate at <placeName>Rivière-Blanche</placeName>; the manoeuvres of this coaster having roused the vigilance of a customs schooner, the boat could receive only three. Another was about to be embarked, who was found handcuffed in a pirogue, accompanied by his master; but, at sight of the vessel which was to tear him for ever from his native soil, cries of despair broke from him; a struggle ensues between master and slave; the frail pirogue, ill-ballasted, cannot withstand the shock, capsizes, and drags the unhappy handcuffed slave into the depths of the sea. Some maintain that they succeeded in saving him and putting him on board the vessel; others assure us that he was drowned. If I cannot, to-day, give you fuller information on this fact, it is because this wretched master, in concert with those who trafficked with him, has contrived to wrap his actions in a mysterious veil, which I may perhaps succeed in lifting.
+      </quote>
+    </p>
+
+    <p>
+      <quote>
+        There is tumult and discord in the <orgName>colonial council</orgName>, assembled since the 15th of October. The councillors will not admit the heads of administration to their deliberations, and these pretend, wrongly, to be called to them of right; while the former persist in recognising that prerogative only when they are the bearers of projects of decrees from the <orgName>government</orgName>. The <roleName>governor</roleName>, having taken the side of his high agents, the <orgName>colonial council</orgName>, rather than suffer itself to be dissolved, has preferred to yield, but under constraint, and with the fixed intention of recording that constraint in its minutes. Two <roleName>councillors</roleName> have resigned, Messrs. <persName>Maillet</persName> and <persName>Vergeron</persName>.
+      </quote>
+    </p>
+
+    <pb n="32" facs="v1n7p32"/>
+  </div>
+
+  <div xml:id="Alger">
+    <head n="Alger."><placeName>ALGIERS</placeName>.</head>
+
+    <p>
+      An ordinance of the <roleName>lieutenant-general</roleName>, <persName>Count d’Erlon</persName>, <roleName>governor-general</roleName> of the <placeName>French possessions in the north of Africa</placeName>, decrees that the <orgName>municipal council</orgName> of the city of <placeName>Algiers</placeName> shall be composed of the <roleName>mayor</roleName> and nineteen members belonging to the French, Mussulman, and Jewish populations, in the following proportion:
+      <list>
+        <item>French ..... 10</item>
+        <item>Mussulmans ......6</item>
+        <item>Jews ..........3</item>
+      </list>
+    </p>
+
+    <p>
+      There are appointed members of the said council, Messrs. Alphandery, merchant; <persName>Bonneville</persName>, president of the <orgName>Colonization Society</orgName>; Bournichon, merchant; Carantène, merchant; Conput, merchant; Duchassaing, proprietor; <persName>Girot</persName>, president of the <orgName>Chamber of Commerce</orgName>; Martin, notary; Vialard, proprietor; Urtis, advocate; Achmed-abou-Darla, Ali-ben-Elbahhar, Mohammed-Madani, Kadji-ben-Otsman-Khodja, Ibrahim-ben-Moustapha-Pacha, Joseph-Bacri, proprietor; Léon Durant, merchant; Moise and David Narboni, merchants.
+    </p>
+
+    <p>
+      The members of this council are appointed for one year, and may re-enter upon their functions at the expiration of that term.
+    </p>
+  </div>
+</div>
+
+<div xml:id="ColÉtr">
+  <head n="Colonies étrangères.">FOREIGN COLONIES.</head>
+
+  <div xml:id="Antigue">
+    <head n="Antigue."><placeName>ANTIGUA.</placeName></head>
+
+    <p>
+      We read in the journal of <placeName>Antigua</placeName>:
+    </p>
+
+    <p>
+      <quote>
+        «The intelligence which reaches us daily from all quarters confirms the admirable conduct of the newly emancipated. We should be happy to have nothing but praise to bestow; yet it would be unjust not to avow that the patience of a great number of these emancipated persons has been put to a very severe trial, a trial which they have hitherto borne with admirable resignation. Many traits little honourable to certain colonist planters have been related; we shall cite only a small number of these inhuman and ungenerous acts, which do no honour to the conduct of those colonists.
+      </quote>
+    </p>
+
+    <pb n="33" facs="v1n7p33"/>
+
+    <p>
+      <quote>
+        On one estate, the <roleName>driver</roleName> has caused to be locked up all the provisions raised in the corners of land cultivated by the emancipated blacks.
+      </quote>
+    </p>
+
+    <p>
+      <quote>
+        «On other properties, subsistence which the law secures to old men has been refused them. A proprietor caused a poor man to be arrested as a vagabond, and shut up in the house of detention, because he had passed the night in the dwelling of his wife attached to the said plantation. This same proprietor, though a magistrate, ordered his keeper to arrest, should he appear upon the estate, a black whom he had driven away because he refused to hire himself out, not being able to handle the hoe. And yet this unhappy man had all he possessed shut up in his hut.
+      </quote>
+    </p>
+
+    <p>
+      <quote>
+        «It would be far too unjust to let the reproaches we have just addressed to a few rest upon all colonists who were former owners of slaves; and it is with very lively pleasure that we render homage to the kindness and conciliatory manners with which a great number of proprietors have treated their labourers.
+      </quote>
+    </p>
+
+    <p>
+      <quote>
+        «After speaking of these vexatious proceedings of the planters, which proceed only from a violent regret at having lost a power without bounds, and from a malevolent intention of driving the unhappy blacks to revolt, we shall point out the necessity of effecting a complete change in the magistracy; or rather, of interposing between the masters and the emancipated blacks new men who are not accustomed to the management of estates and slaves.»
+      </quote>
+    </p>
+  </div>
+
+  <div xml:id="Saint-Christophe">
+    <head n="Saint-christophe"><placeName>ST. CHRISTOPHER</placeName></head>
+
+    <p>
+      The journal of <placeName>Antigua</placeName> relates in the following terms what took place at <placeName>St. Christopher</placeName>, on the occasion of the abolition of slavery:
+    </p>
+
+    <p>
+      <quote>
+        «The blacks, undeceived as to their hopes of entire freedom, and having learned that their brethren of <placeName>Antigua</placeName> were, on the first of August, to enjoy all the rights of citizens, formed the resolution to work only as men truly free; that is to say, for wages, and with the power of choosing those who were to employ them. They persevered in this disposition notwithstanding two proclamations which the <roleName>governor</roleName> <persName>Mac-Grégor</persName> published to
+      </quote>
+      <pb n="34" facs="v1n7p34"/>
+      <quote>
+        recall them to order and enlighten them as to the consequences of their disobedience to the law. It must be avowed, however, in favour of the blacks, that, in the midst of their delusion, they committed no act of violence or revolt, except in one single instance, when the <roleName>lieutenant-governor</roleName> was insulted by a small number; but as it was to be feared that this obstinacy and idleness, if prolonged, might pass into open revolt, the <roleName>governor-general</roleName> substituted for the slow forms of civil justice the prompt and energetic action of military law. Scarcely was it known that the militia was under arms and the troops ready to march, when the return of a crowd of apprentices to their labour was announced, and the gradual submission of the whole body of the emancipated. The governor, seeing order re-established among the working population, judged it proper to relieve the country from the burdensome restraints of martial law. The proclamation which he then published contained counsels for masters and servants.
+      </quote>
+    </p>
+
+    <p>
+      <quote>
+        «After announcing the submission of the rebels, the <roleName>governor</roleName> exhorted the masters to forget the faults of these misguided men; he granted, in the name of <roleName>his sovereign</roleName>, an amnesty to all those who are not in the hands of justice. He hopes, says he, that the apprentices will show themselves grateful for this clemency by obeying the <roleName>lieutenant-general</roleName> and the authorities of the colony; and that moreover the proprietors and the first class of society will set the example of submission to the laws, in their own interest, and as an obligation imposed upon all the subjects of <roleName>H. M.</roleName>
+      </quote>
+    </p>
+
+    <p>
+      <quote>
+        «One of the causes which have most contributed to irritate the apprentices of <placeName>St. Christopher</placeName> is, doubtless, the generosity of five proprietors: Lords <persName>Combermère</persName> and <persName>Rodney</persName>, <persName>Mrs. Biscon</persName>, and two other persons who have not required apprenticeship from their labourers, and have given them wages; while their companions, free men, groan in the bonds of slavery, ennobled with a new and false title.
+      </quote>
+    </p>
+
+    <p>
+      <quote>
+        «In these passing troubles, five of the newly emancipated have been transported to the establishment of correction, at the <orgName>Bernardines</orgName>; and we deplore the death of three of these unfortunate men, killed in the night for not having answered the calls of the sentinels.
+      </quote>
+    </p>
+
+    <p>
+      <quote>
+        «The blacks of <placeName>St. Christopher</placeName> do not regard the present <roleName>governor</roleName> as they did his predecessors; they imagine that the king has
+      </quote>
+      <pb n="35" facs="v1n7p35"/>
+      <quote>
+        sent him not only to govern the colony, but, in particular, to protect them; and he has, in some sort, confirmed them in that belief by the generous care he has taken to recommend to all a proper conduct towards this population, and by his readiness to listen to their grievances. We are convinced that this simple display of force, and the energetic measures ordered by him whom they regard as their friend, have impressed a far more salutary fear upon the apprentices of <placeName>St. Christopher</placeName> than would the slaughter of some hundreds by one who would not bear the same character in their eyes.
+      </quote>
+    </p>
+
+    <p>
+      <quote>
+        «The <roleName>governor</roleName> has caused several of the judgments pronounced against some of these unhappy persons to be revised; the penalties appeared to him far too severe; and it would seem that, in consequence of the firm resolution manifested by him not to tolerate any excessive severity, the amount of punishments inflicted has been very greatly reduced. Some of the most exalted partisans of slavery have manifested their displeasure; but the opinion of such men merits no attention.»
+      </quote>
+    </p>
+
+    <p>
+      The journal concludes thus:
+    </p>
+
+    <p>
+      <quote>
+        «Although we are persuaded that we shall displease many colonists of <placeName>St. Christopher</placeName> in publishing what precedes, we ought not to fail in our duty, while regretting that the occasion should have presented itself. It has not been our intention to insinuate that our neighbours are more unjust than ourselves, or than the inhabitants of the other colonies: no, certainly; but we believe that they are still under the yoke of those absurd and barbarous prejudices, and that they act under the influence of that spirit of hatred and pride engendered by the system of slavery. One shudders at the mere idea of a tribunal composed of men under the empire of passions wholly Creole; of whom the greater number are interested parties, judging those who lately were their slaves.
+      </quote>
+    </p>
+
+    <p>
+      <quote>
+        «It is asserted that two persons who have lately arrived from <placeName>St. Christopher</placeName> at <placeName>Antigua</placeName> are charged, in the interest of their fellow-citizens, to study our system of full and entire freedom. It is of good augury, and we sincerely desire that their report may cause apprenticeship to be replaced by entire liberty.»
+      </quote>
+    </p>
+  </div>
+
+  <pb n="36" facs="v1n7p36"/>
+
+  <div xml:id="Maurice">
+    <head n="Maurice."><placeName>MAURITIUS</placeName>.</head>
+
+    <p>
+      We have a letter from <placeName>Port-Louis</placeName>, dated the 12th of September:
+    </p>
+
+    <p>
+      <quote>
+        «The order recalling <persName>Mr. Jérémie</persName>, <roleName>attorney-general</roleName>, arrived on the 27th of August, and was notified to him on the 29th. The <roleName>governor</roleName>, charged with making provisional appointments, offered the place of prosecutor and <roleName>advocate-general</roleName> to Mr. <persName>Prosper d’Epinay</persName>, who accepted only that of advocate-general; but it is the advocate-general who, for the moment, sits on the <orgName>Legislative Council of the colony</orgName> and on the <orgName>commission charged with settling the indemnity for the slaves</orgName>. Mr. <persName>d’Epinay</persName> has refused to accept the functions of <roleName>attorney-general</roleName> before knowing whether a magistrate will not be sent from <placeName ref="#ANG">England</placeName>. This case excepted, it is he who will be named to that place, which Mr. <persName>Williams</persName>, substitute of Mr. <persName>Jérémie</persName>, occupies provisionally.
+      </quote>
+    </p>
+
+    <p>
+      <quote>
+        «Mr. <persName>Jérémie</persName>, who had at once taken his resolution and secured his passage in a vessel bound for <placeName>London</placeName>, has decided to remain, in order to await the effect of his letters of justification. He is at this moment occupied in circulating an address to the <roleName>king</roleName>, to request that he be reinstated in his functions, as the only man in the colony capable of fulfilling them.»
+      </quote>
+    </p>
+  </div>
+
+  <div xml:id="Sainte-Lucie">
+    <head n="Sainte-lucie."><placeName>ST. LUCIA</placeName>.</head>
+
+    <p>
+      We have a letter from <placeName>Castries</placeName>, dated the 1st of November:
+    </p>
+
+    <p>
+      <quote>
+        «In the first months which followed the emancipation of the slaves, the apprentices seemed disposed to neglect their labour, seeing in it the image of their former condition; but to-day they have returned from their error, and labour prospers. The gangs are in good order; all here is in the greatest tranquillity; the proprietors are satisfied, and I do not despair that the colony will yield more revenue than it has ever yielded.»
+      </quote>
+    </p>
+  </div>
+
+  <div xml:id="Jamaïque">
+    <head n="Jamaïque."><placeName>JAMAICA</placeName>.</head>
+
+    <p>
+      We read in the <bibl type="periodical"><title>Watchman</title></bibl>, a journal printed in <placeName>Jamaica</placeName>, the following passage on the effect produced in that colony by the great measure for the abolition of slavery:
+    </p>
+
+    <pb n="37" facs="v1n7p37"/>
+
+    <p>
+      <quote>
+        «We are happy to announce that the newly emancipated apprentices quietly apply themselves to their ordinary labour throughout all the parishes of the colony.»
+      </quote>
+    </p>
+  </div>
+</div>
+<div xml:id="NvellesDiverses">
+  <head n="Nouvelles diverses.">MISCELLANEOUS NEWS.</head>
+
+  <p>
+    The ministry in England is now definitively constituted. The members of this new cabinet have been chosen from among the most determined opponents of every species of reform. It is the very extreme of retrogression in the old English aristocracy. These are the names:
+    <list>
+      <item>
+        <persName>Sir Robert Peel</persName>, <roleName>First Lord of the Treasury</roleName> and <roleName>Chancellor of the Exchequer</roleName>.
+      </item>
+      <item>
+        The <persName>Duke of Wellington</persName>, <roleName>Secretary of State for Foreign Affairs</roleName>.
+      </item>
+      <item>
+        <persName>Mr. Goulburn</persName>, <roleName>Secretary of State for the Home Department</roleName>.
+      </item>
+      <item><persName>Lord Warncliffe</persName>, <roleName>Lord Privy Seal</roleName>.</item>
+      <item>
+        <persName>Mr. Alex. Baring</persName>, president of the <orgName>Board of Trade</orgName>.
+      </item>
+      <item>
+        <persName>The Earl of Rosslyn</persName>, president of the <orgName>Council</orgName>.
+      </item>
+      <item>
+        <persName>Sir George Murray</persName>, <roleName>Master-General of the Ordnance</roleName>.
+      </item>
+      <item>
+        <persName>Sir Edward Knatchbull</persName>, <roleName>Paymaster-General of the Forces</roleName>.
+      </item>
+      <item>
+        <persName>Lord Ellenborough</persName>, president of the <orgName>Board of Control</orgName>.
+      </item>
+      <item>
+        <persName>Mr. Herries</persName>, <roleName>Secretary at War</roleName>.
+      </item>
+      <item>
+        <persName>Lord Lyndhurst</persName>, <roleName>Lord Chancellor</roleName>.
+      </item>
+      <item>
+        <persName>Sir James Scarlett</persName>, <roleName>Chief Baron of the Exchequer</roleName>.
+      </item>
+      <item>
+        <persName>Sir Edward Sugdon</persName>, <roleName>Lord Chancellor of Ireland</roleName>.
+      </item>
+      <item>
+        <persName>Sir Henry Hardinge</persName>, first secretary to the Lord Lieutenant.
+      </item>
+      <item>
+        <persName>The Earl of Aberdeen</persName>, <roleName>Secretary of State for the Colonies</roleName>.
+      </item>
+    </list>
+  </p>
+
+  <p>
+    — We read in the <bibl type="periodical"><title>Abolitionist</title></bibl> the following extract from a report of the English commissioners to their government:
+  </p>
+
+  <p>
+    <quote>
+      «It is with great regret that we have again to announce the continuance, upon a large scale, of the slave-trade at <placeName>the Gallinas</placeName>. <persName>Jozé de Inza</persName>, captain of the <emph>Segunda Socorro</emph>, a slaver lately captured, confessed to the registrar, Mr. Lewis, who questioned him upon the traffic, that three Spanish slavers had taken negroes at the same place, and that a fourth, of the same na-
+    </quote>
+  </p>
+
+  <pb n="38" facs="v1n7p38"/>
+
+  <p>
+    <quote>
+      tion, was to sail with her full cargo shortly after the departure of the <emph>Segunda Socorro</emph>.
+    </quote>
+  </p>
+
+  <p>
+    <quote>
+      «These are the names of the first three vessels:
+      <list>
+        <item>
+          The brig <emph>el Temerario</emph> carried off…………….600 negroes.
+        </item>
+        <item>
+          The brig <emph>la Imperice</emph>......………………………….450
+        </item>
+        <item>
+          The schooner <emph>Segunda Socorro</emph> ……………....507
+        </item>
+        <item>A three-masted vessel, unknown ………….....450</item>
+        <item>Total…….807</item>
+      </list>
+    </quote>
+  </p>
+
+  <p>
+    <quote>
+      «Inza did not hesitate to confess that he had long been engaged in the slave-trade; that he had already made fourteen voyages, the last four to <placeName>the Gallinas</placeName>; and that this was the first time he had been captured.
+    </quote>
+  </p>
+
+  <p>
+    <quote>
+      «The number of slavers taken in the course of the year 1833, and carried into <placeName>Havana</placeName>, is four, all Spanish. They had on board, at the moment of capture, 1,519 negroes; 63 died; the remaining 1,456 were emancipated and restored to liberty.»
+    </quote>
+  </p>
+
+  <p>
+    —— In order to show with what activity the slave-trade is still carried on at <placeName>Havana</placeName>, the commissioners deputed to that port state, in their report, that in the year 1831 thirty slavers landed their cargoes there; that in 1832 twenty-seven slavers, of which two were <placeName>Portuguese</placeName>, likewise accomplished their voyages; and that a little before the month of October, the date of their last despatch, slavers were continually departing and arriving, which the <placeName>Spanish</placeName> authorities protected clandestinely. In a communication addressed by them to the <orgName>English government</orgName> in 1833, they pointed out the schooner <emph>Printa</emph>, Captain Capo, and the brig <emph>Plinio</emph>, Captain Ignacio-Calbert, as habitually engaged in the slave-trade. The latter vessel entered the port of <placeName>Santiago de Cuba</placeName> after having landed cargo negroes upon the coast. The brig <emph>Ninsa</emph>, Captain José-Salval, had landed more than 600.
+  </p>
+
+  <p>
+    In a despatch of the 12th of September 1834, after announcing that 760 negroes had been landed fourteen leagues from the city of <placeName>Havana</placeName>, they add that the declaration of the <orgName>Spanish government</orgName>, touching the traffic in negroes, has been made in so imperfect a manner, and that the precautions of surveillance are so insufficient, that slavers are openly dispatched for the
+  </p>
+
+  <pb n="39" facs="v1n7p39"/>
+
+  <p>
+    ports of <placeName>Africa</placeName>, where it is well known they can carry on no legitimate commerce. They indicate several points of the island, and even in the neighbourhood of the <placeName>capital</placeName>, where sheds are constructed for the use of newly landed negroes.
+  </p>
+
+  <p>
+    —— The <roleName>correspondent</roleName> at <placeName>Hamburg</placeName> publishes a letter from <placeName>Copenhagen</placeName>, announcing that the <roleName>King of Denmark</roleName> has issued an ordinance expressly recommending the most perfect equality in regard to the free population of the Danish colonies. All distinctions between whites and men of colour are for ever abolished by this ordinance. All men of colour who shall produce proofs of irreproachable conduct during three successive years shall be restored to freedom, and called to enjoy the same civil and political rights as the white population. This last provision applies likewise to men of colour born out of the colonies.
+  </p>
+
+  <p>
+    —— The <bibl type="periodical"><title ref="#MU">Moniteur</title></bibl> publishes the return of manumissions of slaves, of which official notice has reached the <orgName>Department of the Navy</orgName> since the 13th of August 1834. The number of new manumissions granted in the four colonies, <placeName ref="#MQ">Martinique</placeName>, <placeName ref="#GP">Guadeloupe</placeName>, <placeName>French Guiana</placeName>, and <placeName ref="#BrB">Bourbon</placeName>, amounts to 2,051. And the total number since the end of 1850 amounts to:
+    <list>
+      <item>14,919, for <placeName ref="#MQ">Martinique</placeName>.</item>
+      <item>6,251, for <placeName ref="#GP">Guadeloupe</placeName>.</item>
+      <item>957, for <placeName>French Guiana</placeName>.</item>
+      <item>1,144, for <placeName ref="#BrB">Bourbon</placeName>.</item>
+      <item>TOTAL....... 25,268, for the four colonies.</item>
+    </list>
+  </p>
+
+  <p>
+    —— One of the noblest characters of the opposition, <persName>Mr. Eusèbe Salverte</persName>, the man pre-eminently upright, the devoted friend of every good cause, whom the Paris electors, in a moment of monarchic vertigo, preferred to <persName>Mr. Thiers</persName> last June, has just been elected deputy, in spite of ministerial intrigues, by a very large majority, in the <orgName>electoral college</orgName> of the fifth arrondissement of Paris. The cause of the blacks and of the mulattoes, thanks to progress, may reckon upon one zealous defender more in the <orgName>Chamber</orgName>.
+  </p>
+</div>
+
+<pb n="40" facs="v1n7p40"/>
+
+<div xml:id="Variétés">
+  <head n="Variétés.">VARIETIES.</head>
+
+  <div xml:id="chapeau-Halgan">
+    <head n="De m. le gouverneur halgan et de son chapeau, l'un portant l'autre.">
+      OF MR. GOVERNOR HALGAN AND OF HIS HAT, THE ONE SUPPORTING THE OTHER.
+    </head>
+
+    <epigraph>
+      <!-- je ne sais pas comment encoder des répliques de théâtre-->
+    </epigraph>
+
+    <p>
+      All the world knows that <persName>Mr. Halgan</persName> is <roleName>governor</roleName> of <placeName ref="#MQ">Martinique</placeName>; but what the world does not yet know is that <persName>Mr. Halgan</persName> has profoundly reflected upon the representative system, and in particular upon the use of the hat as an instrument of government. Happily there exists in <placeName ref="#MQ">Martinique</placeName> a veritable
+      <bibl type="periodical"><title ref="#MU">Moniteur</title></bibl>
+      which possesses all the grace and exactness of that of <emph>Madame Agasse, widow</emph>. Happily, too, we have read that journal, which is not a common thing, and we have borrowed from it the interesting particulars which follow:
+    </p>
+
+    <p>
+      OPENING OF THE COLONIAL COUNCIL.
+    </p>
+
+    <p>
+      <quote>
+        «Conformably to the proclamation of the 1st of October 1834, the members of the colonial council, present in the colony, were assembled a little before noon, in the hall appointed for the sittings...... etc.
+      </quote>
+    </p>
+
+    <p>
+      <quote>
+        Mr. the <roleName>governor</roleName>, after having invited the <roleName>councillors</roleName> to take their seats, pronounced, seated and covered, the opening speech.»
+      </quote>
+    </p>
+
+    <p>
+      We had hitherto known only constitutional kings who deemed it decent and becoming to come and communicate to the representatives of the nation their petty wills, their tender sentiments, their personal joys and satisfactions, their wants of money, and their vows for the prosperity of the country; and to deliver the monarchic rosary at their ease in a comfortable arm-chair, the hands resting on the thigh and an enormous hat upon the head. And what has not been said of that hat? Some maintained it was old and threadbare; others that his majesty wore it awry: these said it was a plumed hat, those a three-cornered hat, a two-cornered hat..... and so on. Such is the lot of the world. For our part, we shall not make so many reflections upon <persName>Mr. Halgan</persName>'s hat; we shall simply say that the only thing which appeared to us worthy of remark in the hat was, that <persName>Mr. Halgan</persName> wore it upon his head.
+    </p>
+
+    <pb n="41" facs="v1n7p41"/>
+
+    <p>
+      One cannot too much admire here the power of great examples. <persName>Mr. Halgan</persName> said to himself: The politeness of kings consists in speaking with the hat on the head; I am here a little sovereign; therefore, when I go to communicate to the <roleName>colonial councillors</roleName> the ideas which I am supposed to have conceived for the public happiness, I must uncover my heart and cover my head. It seems to me that, if I had had the honour to be a colonial councillor, I should have said to <persName>Mr. Halgan</persName> what <emph>Sganarelle</emph> says to <emph>Géronte</emph> in the <emph>Médecin malgré lui</emph>:
+      <quote>
+        «Hippocrates says, Mr. <roleName>Governor</roleName>, that we should both keep our hats on.»
+      </quote>
+      And if <persName>Mr. Halgan</persName> had made the slightest observation, I should very quickly have referred him to the chapter on hats; but no: the colonial aristocracy is not so susceptible, at least as to things that come from above; it accepts the superiority of the chief on condition that it may itself make felt its own upon those whom the most miserable prejudice keeps as its inferiors. This pact of servitude makes up, more or less, the whole morality of society; and this is what we have seen admirably characterized in an old English caricature which represents the <roleName>King</roleName> of <placeName ref="#ANG">England</placeName> giving a kick to his <roleName>prime minister</roleName>, who passes it on to a member of the <orgName>Commons</orgName>, who passes it on to <persName>John Bull</persName>, who, for his part, passes it on to no one. We believe, therefore, that the <orgName>colonial council</orgName> consoled itself for the kick, we mean for the hat-blow of Mr. the <roleName>Governor</roleName>, by thinking it might very well return it to others.
+    </p>
+
+    <p>
+      <persName>Mr. Halgan</persName> and his hat delivered a discourse in which we admired this passage:
+      <q>
+        «Tranquillity reigns in all parts of the <placeName>colony</placeName>: I shall devote my care to maintaining order there; the fidelity of the gangs, in difficult circumstances, their attachment to their masters, will be to-day, especially for the metropolis, guarantees of the system of moderation by which they are governed.»
+      </q>
+      The fidelity of the gangs... Oh! oh! oh! there are no more slaves in <placeName ref="#MQ">Martinique</placeName>. There are only workmen, such as we see every day, who labour in workshops! Admirable! What a revolution!
+    </p>
+
+    <pb n="42" facs="v1n7p42"/>
+
+    <p>
+      Long live the <bibl type="legal"><title>Charter</title></bibl>! Long live humanity! Our hearts as citizens have expanded at the sound of this official language. There were even some who were tempted already to envy the lot of those workmen who labour in the workshops of <placeName ref="#MQ">Martinique</placeName>. Unhappily the <bibl type="legal"><title><emph>Official Journal</emph></title></bibl> contains a certain number of petitions for <emph>manumission</emph>; and after having read and re-read the discourse, and compared together the first and second page of the journal, we became convinced that the pretended <emph>workmen</emph> might very well be <emph>slaves</emph>; or rather, according to the word now agreed upon, <emph>persons not free</emph>. However, as one must always admire something, we admired the delicacy of language of civilized races and the governmental modesty of <persName>Mr. Halgan</persName>.
+    </p>
+
+    <p>
+      What is no less curious is the dialogue established between the <roleName>governor</roleName>, in his opening speech, and the <roleName>colonial councillors</roleName>, in the address in reply to the said speech. You will see that these latter stand less upon ceremony.
+      <q>
+        «The losses of commerce (<emph>of commerce!</emph>) will be easily repaired, if the <emph>fidelity of the gangs</emph> (again) <emph>is no longer shaken by the contagion of fatal doctrines, the bait of an illusory liberty</emph> (this is too much, even for colonists) and the disappointments of an organized hiring-out, which is still favoured by the absence of any penal provision.»
+      </q>
+      No: since languages have existed, there has never been so extraordinary a use made of words. <emph>Slaves shaken by the contagion of fatal doctrines which push them toward an illusory liberty..... and the disappointments of an organized hiring-out, which strike at their fidelity....</emph> This may give an idea of the confusion that reigned at the <emph>Tower of Babel</emph>. The ancients who established slavery at least had logic: they relied upon the law of the stronger, and they applied it without mercy to those who revolted; but they did not complain of revolt. They never constructed syllogisms for slaves, to prove to them that, in breaking their irons, they were running after an illusory liberty. There are people who pretend that these gentle turns of phrase, used to express abuses so melancholy, announce a great improvement. We wish it with all our heart; but for ourselves, we see in it only the desire to preserve, under names less strange, a power of which no one ever strips himself voluntarily, and not the shame of still exercising it.
+    </p>
+
+    <pb n="43" facs="v1n7p43"/>
+
+    <p>
+      If you would know what <persName>Mr. Halgan</persName> replied to this harsh contradiction of the <orgName>colonial council</orgName>, he said:
+      <q>
+        «I am grateful, and I thank you for the sentiments you express toward me.»
+      </q>
+      There is really no need: Mr. the <roleName>Governor</roleName> is not hard to please. And, in the end, in spite of his formidable cocked hat, <persName>Mr. Halgan</persName> is at bottom a worthy man, who knows how to take things as they should be taken. We should not even be astonished if, at the close of his thanks, he rose from his arm-chair and put his hand to his hat, to salute the gentlemen councillors.
+    </p>
+  </div>
+</div>
+<div xml:id="Chronique">
+  <head n="Chronique.">CHRONICLE.</head>
+
+  <div xml:id="politique-euro">
+    <head n="Politique européenne.—situation.">EUROPEAN POLITICS.—THE SITUATION.</head>
+
+    <p>
+      Mr. <roleName>Director</roleName> of the
+      <bibl type="periodical"><title>Revue des Colonies</title></bibl>.
+    </p>
+
+    <p>
+      <quote>
+        «Peoples advance slowly, it is true; but still they advance, said <persName>d'Alembert</persName>, and sooner or later they arrive.»
+      </quote>
+      — Do what they may, we shall arrive.
+    </p>
+
+    <p>
+      The most striking symptom of our time, even amid the confusion of doctrines and principles, is that, willingly or unwillingly, nations desire to govern themselves. There lies the culminating point toward which all their efforts tend to-day; and every thing assures us that they will know how to reach it.
+    </p>
+
+    <p>
+      Certain appearances may, here and there, seem vainly to indicate the contrary. The retrograde movement appears, in some quarters, to triumph. Be it as it may, the elements of social progress are so numerous, they act on every side with so much power, the press is so formidable an auxiliary of the future, that there is nothing to fear from the counter-revolutionary efforts which are about to be seriously renewed.
+    </p>
+
+    <p>
+      For you, my friend, the affairs of <placeName ref="#EUR">Europe</placeName> have a double interest: you live among us; you have our concerns at heart because you are enlightened and generous, and because, all things considered, they are yours to-day; but also, in the first place, because you know that every fortunate step accomplished here in favour of our liberty profits <pb n="44" facs="v1n7p44"/>, in the end, universal liberty,—humanity itself,—one of whose dearest branches for you is the race of colour, oppressed in all its shades. Hence, above all, your solicitude; hence the high interest with which you regard the party which, in <placeName ref="#EUR">Europe</placeName>, is for liberty and the common right against every kind of privilege, and which is called the party of movement, in opposition to the party of the <emph>statu quo</emph>, which at any price would maintain what exists, because what exists is its profit.
+    </p>
+
+    <p>
+      You know it: my policy is very simple. I see in our Europe, as in your dear colonies, only slaves and masters, oppressors and oppressed. To put an end to this state of things everywhere,—such is the labour of the movement; to maintain it,—such is that of resistance. In presence of these two great principles disputing the world, I confess it, I am for the stronger,—that is to say, not for him who triumphs to-day almost everywhere, but for him who will triumph inevitably and definitively to-morrow. Our cause is the holy cause of majorities; and if we wished to translate our thought into a maxim that should sum it up, we should willingly formulate it thus:
+    </p>
+
+    <p>
+      <emph>
+        In politics, that which profits the greatest number possible is good; that which profits only a few, to the detriment of the greatest number, whatever name may be given to it, is evil.
+      </emph>
+    </p>
+
+    <p>
+      I have allowed myself, my friend, to speak to you of principles when I had promised you nothing but history: it is because it is well not to walk at hazard, and to show clearly why, and by what motives, one goes in one direction rather than in another.
+    </p>
+
+    <p>
+      We are, decidedly, revolutionists. Let us not be frightened at words. Let us remember that <persName>Jesus Christ</persName> also was called a revolutionist when he brought to the world his doctrine of liberty and equality, and, moreover, was crucified as such (1). The interest of false
+    </p>
+
+    <note>
+      <p>
+        (1) He chose his disciples from the vilest populace; he prefers the slave to the master, the poor man to the rich, the leper to the man in health; all that weeps, all that has wounds, all that is abandoned by the world, is his delight: power, fortune, and happiness are, on the contrary, eternally threatened by him; he overturns all the common notions of morality; he establishes new relations among men, a new law of nations, a new public faith.
+      </p>
+      <p>
+        <persName>CHATEAUBRIAND</persName>,
+        <bibl type="monogr"><title>Génie du christianisme</title></bibl>.
+      </p>
+    </note>
+
+    <pb n="45" facs="v1n7p45"/>
+
+    <p>
+      gods was but a pretext under which the Roman rulers covered their own interest. They would not have crucified <persName>the Galilean</persName> had he preached only novelties without consequence; but he was crucified because he said to the master before the slave, <emph>All flesh is vile</emph>, and to the slave before the master, <emph>All spirit is divine</emph>, abasing the one by the flesh and raising the other by the spirit; which he completed by these words: <emph>All men are the children of God; they are all equal before Him.</emph> To which the Man of peace added: <emph>Love one another; that is the law.</emph> All this appeared monstrous to the tamers of men, to the Roman aristocrats, who lived gloriously on the blood and sweat of others. Men were moved. There were men who thought then what has been said in our own day, that nothing was more dangerous than an eloquent proletary. They crucified <persName>Jesus</persName>, the proletary. In truth, I tell you, <persName>Jesus</persName> was, at bottom, more revolutionary than <persName>Spartacus</persName> himself.
+    </p>
+
+    <p>
+      Therefore, as revolutionists, we have reason to rejoice at more than one happy symptom in the general affairs of the world.
+    </p>
+
+    <p>
+      In <placeName ref="#ANG">England</placeName> reform establishes itself slowly; the work goes on beneath the surface. Among this patient, laborious people much remains, no doubt, to be done, especially for equality; but they are in the right road; and with the liberty of the press, <placeName ref="#ANG">England</placeName> will know how to conquer also what she lacks,—that is to say, social equality, equality of manners, the first element of democratic societies.
+    </p>
+
+    <p>
+      The <persName>Wellington</persName> ministry will be able to do nothing against progress; it must follow and second the movement, or be vanquished by it. Such is the constant march of things. When it is written that an improvement shall be accomplished, the men most opposed to change are led by Providence to lend their hands to it. Once already <persName>Wellington</persName> was the instrument of the spirit of justice: it was under his ministry that the emancipation of the Catholics of <placeName>Irland</placeName> was obtained and promulgated,—that great reinstatement of an entire population deprived of its political rights because it had a faith of its own. It may happen, perhaps, as then, with regard to reform; and it matters little to the people whether it comes to them from <persName>Wellington</persName> or from <persName>Grey</persName>, provided they obtain it full and entire. The struggle, besides, will be rude; and the old <orgName>tory</orgName> spirit, which yields only through selfishness, will show itself refractory to concessions until it
+      <pb n="46" facs="v1n7p46"/>
+      is compelled by force; but we trust <persName>John Bull</persName> to compel it.
+    </p>
+
+    <p>
+      As for the official policy of <placeName ref="#FR">France</placeName>, I have nothing to tell you: you have seen what a singular ministerial comedy has lately been played; you have seen at work that party of political eunuchs which knows neither how to control power nor how to exercise it. Victory has remained with the doctrinaires. They have the present; but it is the national and patriotic party, which every day acquires new strength, to whom the future belongs; and the <placeName>French colonies</placeName> have the highest interest in its success; for it is by that party alone that the dearest of your wishes and of mine will be accomplished,—the complete and unreserved abolition of slavery,—and the organization of labour upon new bases in our various establishments beyond the seas.
+    </p>
+
+    <p>
+      <placeName>Spain</placeName>, one of the most backward countries of <placeName ref="#EUR">Europe</placeName>, has just entered upon her revolutionary era. The <emph><bibl type="legal"><title>Estatuto real</title></bibl></emph>, wrested by the necessities of the time from the <roleName>Queen Christina</roleName>, has awakened the new spirit; on every side the provinces have sent to <placeName>Madrid</placeName> deputies of the movement; and the Spanish <orgName>Cortes</orgName>, forming two chambers under the denomination of the <emph><orgName>chambers of procuradores</orgName></emph> and of the <emph><orgName>proceres</orgName></emph>, apply themselves to the radical reorganization of the country. The reform of minds is accomplished in <placeName>Spain</placeName>; it remains to carry it into the laws and into the institutions. The presence of <persName>Don Carlos</persName>, who plays the king in <placeName>Navarre</placeName>, pursued and held in check by <persName>Mina</persName>, serves only to give more strength—not, we will not say to the party of the <roleName>Queen</roleName>, but to the <orgName>national party</orgName>, which is now against legitimacy.
+    </p>
+
+    <p>
+      This poor legitimacy falls almost everywhere before the reason and the will of the age. In <placeName>Portugal</placeName>, however, it has triumphed by the efforts of <persName>Don Pedro</persName>, in the person of his daughter, the young queen <persName>Dona Maria</persName>. <persName>Miguel</persName> has been definitively driven from the country, and the most rigorous measures have been taken by <orgName>the chambers</orgName> to prevent his return for ever.
+    </p>
+
+    <p>
+      The ex-<roleName>king</roleName> now travels like so many others; and all <placeName>Italy</placeName>, where he plays the legitimate prince and the fop, is full of the noise of his bad tone and his matador manners. At <placeName>Genoa</placeName> he has committed pranks and pasquinades in the streets which indicate, on his part, a cerebral lesion.
+    </p>
+
+    <pb n="47" facs="v1n7p47"/>
+
+    <p>
+      Whatever may have been the personal sentiments of <persName>Don Pedro</persName>, having been obliged to lean upon the liberals in order to overcome the absolutist obstinacy of his brother, he was necessarily constrained to favour enlightenment, and <placeName>Portugal</placeName> has gained much by it. Were it only the advantage of having passed from the tyranny of <persName>Don Miguel</persName> under the power of <persName>Dona Maria</persName>, it would already be much. What matters, after that, what <persName>Don Pedro</persName> really was? Thus goes the world. The least sincere friends of liberty are sometimes forced, by their position, to become its defenders in their own interest; and when they have conquered, and would turn against it—against that which has made them what they are—liberty has taken its place, for good or ill, beside them, and they can no longer drive it wholly away.
+    </p>
+
+    <p>
+      And <placeName ref="#FR">France</placeName>, in spite of the ill-will of her governors, presides over the movement which carries the world toward liberty! It is because such is the will of the immense majority of the population. It is because <placeName ref="#FR">France</placeName> is the first democracy in the world, and because the principle of equality and liberty is more or less in the mind, if not in the heart, of all. The press, besides, by its thousand organs, incessantly subjects every thing to the spirit of examination; prejudices are effaced by its action, and public control is exercised over all powers and all acts, to the great advantage of the country.
+    </p>
+
+    <p>
+      The press relentlessly breaches every thing that tends to thwart the march of the century, and prepares for the world its new destinies. See, too, how it is treated! But persecutions will avail nothing. The press is to-day necessary to social transactions no less than to those of politics; it forms an integral part of our institutions; it is itself an institution,—the most vital of all. Journalism, above all, in spite of the rigours to which it is subjected, pursues its salutary and ascending course. It is not you to whom one must depict the marvellous effects of these intellectual communications, which in a few days carry the same facts to the knowledge of an entire country, and make, at the same moment, upon the same object, thousands of minds think,—minds that tend toward one another in spite of distance, and end by uniting, after mature examination, in a community of just ideas and noble sentiments. Admirable creation of modern times, which renders for ever impossible the return of barbarism, and secures—extending them
+      <pb n="48" facs="v1n7p48"/>
+      every day more and more—the conquests of civilization, of which we are still so far, in spite of our pride, from having reached the last possible term. Let the press and liberty alone, and you will see all the miracles they can bring forth!
+    </p>
+
+    <p>
+      What shall I tell you also of the <placeName>North</placeName>, that you do not know? On that side there are many crowned heads who are uneasy at seeing us free, and who would like far better to see us hanged.
+    </p>
+
+    <p>
+      To speak frankly, nothing appears to us ended. Hence, in all our hearts, we have I know not what of inquietude; each feels it: it is like a vague dread, a foreboding of conflict that dominates us. Order reigns, it is true; it is still, as in times past, and still everywhere in <placeName ref="#EUR">Europe</placeName>, the twentieth part of the populations that lives at the expense of the rest; for that is what is called order. But it is precisely because this order reigns and cannot endure, that men live in perpetual apprehension of the great revolutionary day which will put an end to it.
+    </p>
+
+    <p>
+      Between <placeName ref="#FR">France</placeName>, <placeName ref="#ANG">England</placeName>, and all countries of liberty, or even of half-liberty, the alliance is formed; it is secretly seconded by all the peoples who suffer: it remains, then, to know whether the peoples or their oppressors will prevail, and whether the field of the world will remain to the French revolution or to crowned heads. <persName>Nicholas of Russia</persName>, <persName>William of Prussia</persName>, <persName>Charles-Jean</persName>, the former French Jacobin who bears traced, with powder, on his left arm, this legend: Long live the republic! The wretched renegade dares to be a king! <persName>Francis of Austria</persName>, and I know not what others who are not worth the honour of being named, flatter themselves that they will conquer the French revolution, the great natural ally of peoples: we take the wager against them; there is little merit in it, besides; it is to wager a hundred thousand against one.
+    </p>
+
+    <p>
+      If now you put to me this question: <emph>What will be the future of the world?</emph> I should answer you, no doubt, a little time longer of struggle and the necessary combats; then order with equality, and the universal reconciliation of men within a few years.
+                            </p>
+                            <p>
+                                C.B.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </body>
+    </text>
 </TEI>

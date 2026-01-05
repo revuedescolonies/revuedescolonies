@@ -1,5 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n8-fr">
-   <teiHeader>
+<?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n8-fr"><teiHeader>
       <fileDesc>
          <titleStmt>
             <title>REVUE DES COLONIES.</title>
@@ -38,7 +37,7 @@
       <body>
          <div>
             <pb n="3" facs="v1n8p3"/>
-            <head n="Revuedes colonies"><seg>REVUE</seg><lb/>DES <lb/><seg>COLONIES</seg></head>
+            <head n="Revue des colonies"><seg>REVUE</seg><lb/>DES <lb/><seg>COLONIES</seg></head>
             <div xml:id="presse-aux-colonies"><head n="De la presse aux colonies">DE LA PRESSE AUX COLONIES</head>
                <p>
                   Partout où la liberté de la presse n'est pas chose pratique, on peut dire hardiment qu'il y a quelque vice radical dans l'organisation de l'état. Partout où le droit commun est méconnu, où la société est fondée sur des exceptions et des priviléges, des distinctions de races ou de castes, où le vingtième de la population vit aux dépens du reste, il n'y a pas, il ne peut y avoir de liberté de la presse. II faut là des lois restrictives de l'usage même de l'imprimerie, sous la surveillance permanente de l'autorité. Car il ne faut pas qu'on y puisse le moins du monde appeler les esclaves et les opprimés à ce que les maîtres et les oppresseurs appellent, dans leur étrange langage, les bienfaits d'une liberté illusoire: sans quoi tout serait perdu; sans quoi les vices de cet état de choses profitable et sacré à ceux qui en vivent, étant mis à nu, il pourrait se trouver des gens qui voudraient y changer quelque chose, et alors adieu l'ordre, adieu nos doux priviléges et notre opulence, adieu la fortune et la domination, adieu toutes ces belles et heureuses prérogatives dont le hasard de la naissance nous a investis!
@@ -846,7 +845,7 @@
                       pour Le temps n’est plus où l’on discutait sérieusement la légitimité | homn de l’esclavage. Ce n’est pas en vain que la civilisation a marché. • les v A mesure que ses bienfaits se sont répandus', de nouvelles et plus hors vives lumières sont venues épurer et fortifier les notions de justice nion et de morale sur lesquelles se fondent les opinions humaines, et pour l’esclavage n’apparaît plus aujourd’hui, aux yeux des sociétés les Da plus éclairées de l’Europe, que comme une violation flagrante des ment préceptes de la charité chrétienne et un attentat aux droits les haut moins contestables de l'humanité- vérit 
                   </p>
                   <p>
-                     Mais, de quelque réprobation qu’une institution soit frappée, d'un quelque visibles qu’en soient devenues les iniquités, le vœu public path
+                     Mais, de quelque réprobation qu’une institution soit frappée, d'un quelque visibles qu’en soient devenues les iniquités, le vœu public
                      <pb n="31" facs="v1n8p31"/>
                      ne suffit pas pour la renverser ; et si des intérêts privés lui prêtent leur appui, elle ne succombe d’ordinaire que lorsque des hommes, unis par l’amour du bien, s’entendent et se concertent pour en provoquer la réforme. 
                   </p>
@@ -979,7 +978,7 @@
                   Lorsqu’on 1787 commencèrent les attaques sérieuses dans le 
                </p>
                <note>
-                  (I) Le professeur est interrompu pendant quelques minutes par le mouvement que produisent sur l’auditoire ces beles et puissantes paroles dites avec l’accent qne dut y metire le célèbre orateur anglais.
+                  (I) Le professeur est interrompu pendant quelques minutes par le mouvement que produisent sur l’auditoire ces belles et puissantes paroles dites avec l’accent que dut y mettre le célèbre orateur anglais.
                </note>
                <pb n="38" facs="v1n8p38"/>
                <p>

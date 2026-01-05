@@ -1,8 +1,9 @@
 <?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/revuedescolonies/revuedescolonies-data/main/odd/tei_revue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="RdCv1n8-en">
-   <teiHeader>
+<teiHeader>
       <fileDesc>
          <titleStmt>
             <title>REVUE DES COLONIES.</title>
+            <editor>Noëlle Romney</editor>
          </titleStmt>
          <!-- <xi:include href="shared/editionStmt.xml"/> -->
          <publicationStmt>
@@ -14,9 +15,1205 @@
       </fileDesc>
    </teiHeader>
    <text>
+      <front>
+         <pb n="1" facs="v1n8p1"/>
+         <titlePage>
+            <titlePart type="main">
+                  <seg>REVUE</seg><lb/>DES<lb/><seg>COLONIES,</seg>
+            </titlePart>
+            <titlePart type="sub">
+        MONTHLY COLLECTION<ptr target="#n13FA"/><lb/>OF
+        POLITICS, ADMINISTRATION, JUSTICE,<lb/>EDUCATION, AND COLONIAL MORES,
+      </titlePart>
+            <byline>DIRIGÉE PAR <persName ref="#CB">C.-A. BISSETTE</persName>.</byline>
+            <docEdition>N°8<lb/>February.</docEdition>
+            <docImprint>
+               <pubPlace><settlement>PARIS</settlement>,<lb/> AU BUREAU DE LA REVUE DES COLONIES, <lb/>46, RUE NEUVE-SAINT-EUSTACHE</pubPlace><lb/><date>1835</date>.
+            </docImprint>
+         </titlePage>
+         <pb n="2" facs="v1n8p2"/>
+         <docImprint>
+            Paris.—Imprimerie de Poussielgue, rue du Croissant-Montmartre, 12.
+         </docImprint>
+      </front>
       <body>
          <div>
-            
+            <pb n="3" facs="v1n8p3"/>
+         </div>
+            <head n="Revue des colonies"><seg>REVUE</seg><lb/>DES <lb/><seg>COLONIES</seg></head>  
+<div xml:id="presse-aux-colonies">
+  <head n="De la presse aux colonies">ON THE PRESS IN THE COLONIES</head>
+
+  <p>
+    Wherever the liberty of the press is not a practical reality, one may boldly say that there is some radical vice in the organisation of the state. Wherever the common law is disowned; wherever society rests upon exceptions and privileges, upon distinctions of race or caste; wherever the twentieth part of the population lives at the expense of the rest,—there is no liberty of the press, there can be none. There, the very use of printing must be restrained by law, under the permanent surveillance of authority. For it must not be possible, even in the slightest degree, to call upon slaves and the oppressed to claim what masters and oppressors, in their strange language, term the benefits of an illusory freedom: otherwise all would be lost; otherwise the vices of that order of things—profitable and sacred to those who live by it—once laid bare, there might be found men disposed to change something in it; and then farewell order, farewell our gentle privileges and our opulence, farewell fortune and dominion, farewell all those fine and happy prerogatives with which the hazard of birth has invested us!
+  </p>
+
+  <p>
+    In such a country, criminal and fit for the gallows, go rather and ask Messrs.
+    <persName ref="#Lcy">Lucy</persName>
+    and
+    <persName ref="#ANog">Arsène Nogues</persName>,
+    knights or officers—I know not which—of the Legion of Honour: criminal and fit for the gallows, beyond contradiction, is he who makes the air resound with words of revolution and progress; rope and hangman for those men who would disturb the
+    <emph>established order</emph>,
+    who speak of right and reason, as though there existed any other right or any other reason than those by virtue of which we possess and enjoy! We are white,—there is our right; we have the whip and the
+    <emph>four stakes</emph>,—there is our reason; the reason of the stronger: it is the best; it has been, hitherto, ours. The long-suffering of those upon whom we exercise it gives us no ground to foresee that it is likely soon to cease. Besides, like that famous
+    <orgName ref="SdJ">society of the Jesuits</orgName>,
+    which it was so hard to destroy, we shall say:
+  </p>
+
+  <pb n="4" facs="v1n8p4"/>
+
+  <p>
+    We will be as we are, or we will not be.
+    <foreign>Simus ut sumus, aut non sumus</foreign>.
+  </p>
+
+  <p>
+    With the abuses that prevail in the
+    <placeName ref="COLs">colonies</placeName>,
+    and that men are determined to maintain there, it is plain enough that the press cannot be free; and indeed measures have been taken more than sufficiently to prevent it from being so—or rather, there is no press in the colonies.
+  </p>
+
+  <p>
+    In all times, moreover, light has been dreaded there. Those men have felt that their prerogatives of lèse-humanity,—their pretended right to possess the blood and the flesh, the reason and the will, of men like themselves, differing only in colour,—were so illusory, so little founded upon the principles of justice and of modern sociability, that they could not endure for a year the broad day of publicity; that examination would be fatal to them. And they have done every thing to fetter the press, to stifle intelligence. They have regarded as a misfortune and a danger every manifestation of mind and reason on the part of those whom they would keep in servitude. It is much if
+    <emph>the ability to read</emph>
+    has not been declared an offence or a crime, and if a penal code has not been framed against the intellectual emancipation of slaves, and against those who provoke it by whatever means. But if, from some remaining regard for appearances, it has been impossible to think of drawing up such a code, men have none the less acted as though such a code had been promulgated. Hence the persecutions that have always been endured at the hands of the colonists, not only by those who have published, read, or caused to be read the opposition pamphlets against colonial abuses, but even by those who have tried to teach slaves to read: it was logical, besides. We said it in one of our last numbers:
+    <quote>
+      <p>One does not instruct him whom one would keep a slave.</p>
+      <p>The alphabet is deadly to absolute powers,</p>
+      <p>And man claims his rights as soon as he has read them.</p>
+    </quote>
+  </p>
+
+  <p>
+    From that to liberty—to the practical use of the press—the distance is still great; but among a population that can read, the need of newspapers is soon felt; and it is that need which the privileged dread above all.
+  </p>
+
+  <p>
+    Supported in this by the government, which would keep a strong hand everywhere it can, they are still sheltered from the incessant <pb n="5" facs="v1n8p5"/>investigations of the press; and thus it is that they are not yet called to answer before that daily examining magistrate, that powerful intervention of journals in the affairs of a country which, in the long run, establishes within it order and equality.
+  </p>
+
+  <p>
+    The omnipotence of
+    <roleName>governors</roleName>
+    and
+    <roleName>attorneys-general</roleName>
+    in matters of publicity is without bounds in the
+    <placeName>colonies</placeName>.
+  </p>
+
+  <p>
+    The
+    <roleName>governor</roleName>,
+    in each colony, is in this respect at once censor and dictator without appeal,
+  </p>
+
+  <p>
+    <quote>
+      He watches over the use of the press, commissions printers, grants authorisations to publish newspapers, and revokes them in case of abuse. No writing, other than the
+      <choice><orig>judgements</orig><reg>judgments</reg></choice>,
+      decrees, and acts published by authority of justice, can be printed in the colony without his permission.
+    </quote>
+  </p>
+
+  <p>
+    Such are the very terms of the
+    <bibl type="legal"><title ref="#OPC">ordinance</title></bibl>
+    which confers upon a single man the sovereign monopoly of publicity.
+  </p>
+
+  <p>
+    That the governor should
+    <emph>watch over the use of the press</emph>,
+    might be conceived, if there existed a repressive legislation; but none such exists in the colonies. This
+    <emph>surveillance</emph>
+    with which the governor is invested is therefore a true absolute power.
+  </p>
+
+  <p>
+    To give him the
+    <emph>right to commission printers</emph>,
+    to authorise or revoke the publication of newspapers, is to leave to one man the power to strike at the sacred right of property and of industrial freedom. I admit that in the colonies, as in France, special laws have been required for printing and journals; but I deny that the caprice of a public functionary can take the place of law in such a matter. The faculty of obtaining a printer’s licence ought to be granted under certain conditions imposed upon the tradesman—as, for example, capacity, moral character, and the right to carry on trade; the number of printers might be fixed: that is conceding much to the restrictive system; but the grant of a licence cannot, in any case, be left to the will of a governor; for he would exploit a monopoly by creating a competition beyond the needs of the population, or he would ruin existing undertakings. The withdrawal of these licences is a true confiscation, and therefore an abuse.
+  </p>
+
+  <p>
+    What I have just said of printers applies also to newspapers. The laws of the metropolis on this subject give the government sufficient repressive means; if, however, it were judged
+    <pb n="6" facs="v1n8p6"/>
+    that the colonies are not yet sufficiently civilised, nor sufficiently practised in the use of the liberty of the periodical press, one might, without wholly injuring this industry, and while conforming to article 7 of the Charter of 1830 on the abolition of censorship, reconcile both the guarantees of colonial power and the rights acquired by citizens.
+  </p>
+
+  <p>
+    In the present state of our colonies, can one conceive that an accused person or an advocate cannot have printed a memorandum or a defence without the consent of the governor, who may sometimes find himself, in one manner or another, an interested party in the suit?
+  </p>
+
+  <p>
+    In
+    <placeName ref="#MQ">Martinique</placeName>,
+    if there were liberty of the press, the exclusive privilege of having articles inserted in the newspapers of the colony would not remain solely in the hands of the authorities, and their articles would not go unanswered. See what has occurred in the debates in
+    <rs type="event">the Grand’Anse affair</rs>:
+    plainly,
+    <persName>M. Arsène Nogues</persName>,
+    <roleName>attorney-general</roleName>,
+    who regulated the reports, and who was forced to discontinue them at the invitation of one of the counsel for the accused, would have found opponents; but where the attorney-general is censor, one easily conceives that he can have no opponent.
+  </p>
+
+  <p>
+    Nor is it only the class directly oppressed that complains of the monstrosity of this exorbitant power. In the
+    <placeName ref="#BrB">island of Bourbon</placeName>
+    the aristocracy itself protests, in its own interest, against the abuse that results from it; so intolerable and so abusive is this power of the governors for all. In that colony, the need of publicity is felt so keenly that, to elude the vigilance of the authorities and escape censorship, certain privileged colonists have established a clandestine press in the mountains of the island, where they print the journal
+    <bibl type="periodical"><title ref="#Slz">the Salazien</title></bibl>.
+  </p>
+
+  <p>
+    There will therefore soon be urgency and necessity that all these provisions of discretionary power left to the governor be annulled or modified in a broad and liberal manner.
+  </p>
+
+  <p>
+    No doubt it will be said that they shall be; that there is an
+    <bibl type="legal"><title ref="#LOC">organic law</title></bibl>
+    where one reads a provision on this subject. But to whom does that derisive law—made against right, and thereby stripped of the true character of
+    <emph>law</emph>,
+    which alone makes it respectable—to whom does that strange law, called the organic law of the colonies, confer the right to legislate upon the press in our possessions beyond the seas, and to regulate its <pb n="7" facs="v1n8p7"/>police? To the royal power. It will therefore be by a ministerial ordinance,
+    <emph>drawn up</emph>
+    by
+    <persName ref="#StH">Mr. St.-Hilaire</persName>
+    and his associates, that our colonies will have an institution of the press; and one knows what may be expected from Mr. St.-Hilaire and his associates.
+  </p>
+
+  <p>
+    Every thing, then, must be remade and reformed in what concerns the colonies. The laws and ordinances which govern them bear so strong a mark of exception and arbitrariness that they are even beneath revision; one must proceed, with regard to colonial legislation, to a complete and radical reform which shall secure to all their rights, to a political and social reorganisation according to the new spirit; and, in fact and in law, the press must take its place there largely, as it has done everywhere that civilisation is in progress.
+  </p>
+</div>
+
+<div xml:id="lois-autorité-des-maîtres-aux-colonies">
+  <head n="Des lois et réglemens qui établissent l'autorité des maitres aux colonies.">ON THE LAWS AND REGULATIONS WHICH ESTABLISH THE AUTHORITY OF MASTERS IN THE COLONIES.</head>
+
+  <p>
+    The whole history of the sufferings of slaves lies in the laws that have established this fatal authority,—the source of so many pains and of such monstrous outrages against humanity. Let us recall only a few of those atrocious, sanguinary provisions which are contained in the
+    <bibl type="legal"><title>Code Noir</title></bibl>.
+    We shall see there that it is under the
+    <choice><orig>safeguard</orig><reg>safeguard</reg></choice>
+    of the laws that men have been tormented and massacred for more than three centuries,—a class of human beings worthy of a better lot.
+  </p>
+
+  <p>
+    If this baneful partiality of the laws is still increased by that of the magistrates charged with enforcing them; if these magistrates favour the oppressor at the expense of the oppressed, what must the condition of the latter be! For it must be said: the best intentions of magistrates sent from
+    <placeName>Europe</placeName>
+    are always paralysed by the influence of the Creoles who occupy the highest places in the magistracy. Now, with their caste prejudices, their interests, and their family connections, how can one hope that Creoles will seek to soften, for blacks, the rigorous penal severity of the laws?
+  </p>
+
+  <p>
+    Let us now cite. Frenchmen, read and shudder; I shall spare myself commentary.
+  </p>
+
+  <pb n="8" facs="v1n8p8"/>
+
+  <p>
+    Code Noir. Article 28 declares that negro slaves can possess nothing that does not belong to their masters; their
+    <choice><orig>children</orig><reg>children</reg></choice>
+    and
+    <choice><orig>parents</orig><reg>parents</reg></choice>,
+    whether free or enslaved, can claim nothing by succession, disposition, &amp;c.
+  </p>
+
+  <p>
+    Slaves cannot, according to article 35, be parties—either in civil proceedings, whether as plaintiffs or defendants—nor can they be civil parties in criminal matters.
+  </p>
+
+  <floatingText>
+    <body>
+ ```xml
+<div>
+  <p>
+    Arts. 33 and 34.—Any slave who strikes his master, his mistress, or their
+    <choice><orig>children</orig><reg>children</reg></choice>,
+    drawing blood or striking the face, shall be punished with death; and as for excesses and assaults committed by slaves against free persons,
+    <roleName>His Majesty</roleName>
+    intends that they be punished with severity, even by death, should the case so require.
+  </p>
+
+  <p>
+    Arts. 42 and 43.—Masters are permitted to chain and flog with rods those slaves who are
+    <emph>at fault</emph>,
+    but they are forbidden to mutilate them or to put them to death—under penalties that are not specified.
+  </p>
+
+  <p>
+    Arts. 38 and 39.—A runaway slave who has remained absent for a month, reckoned from the day on which his master has reported him to the courts, shall have
+    <emph>his ears cut off</emph>
+    and be branded with a hot iron on one shoulder; if he offends again, he shall have
+    <emph>his hamstring cut</emph>
+    and be branded on the other shoulder; and the third time
+    <emph>he shall be put to death</emph>.
+  </p>
+</div>
+</body>
+</floatingText>
+
+<p>
+  These lines sweat blood. No—no savage horde of
+  <placeName>Africa</placeName>
+  or
+  <placeName>America</placeName>
+  would have decreed, for offences so slight, punishments so barbarous. Frenchmen, speak now of the gentleness of your manners, of your elegant and polished civilisation, of your enthusiasm for liberty. What a shocking contrast! What! so liberal in
+  <placeName>France</placeName>,
+  and such tyrants on
+  <placeName>American soil</placeName>!
+</p>
+
+<p>
+  I am willing to grant that the influence of the
+  <rs type="event">French Revolution</rs>
+  and the
+  <choice><orig>changes</orig><reg>changes</reg></choice>
+  wrought in customs have allowed the cruellest of these provisions to fall into disuse; yet the
+  <bibl type="legal">
+    <choice><orig>regulation</orig><reg>regulation</reg></choice>
+    now in force in
+    <placeName>Guadeloupe</placeName>
+  </bibl>,
+  a sad legacy of the
+  <rs type="event">English domination of that island</rs>,
+  the
+  <choice><orig>regulation</orig><reg>regulation</reg></choice>
+  by which slaves are judged today, still enshrines most of them. I have thought it necessary to extract a few articles, which will give a fair idea of the rest.
+</p>
+
+<floatingText>
+  <body>
+    <div>
+      <p>
+        Art. 15.—Any slave who strikes a white man or a free person shall be corporally punished; if the person struck is his master, his mistress, or their
+        <choice><orig>children</orig><reg>children</reg></choice>,
+        and the blow leaves bruising or draws blood, he shall be punished with death, without reprieve.
+      </p>
+
+      <pb n="9" facs="v1n8p9"/>
+
+      <p>
+        Art. 16.—Masters may, whenever they believe their slaves to have deserved it, have them chained and whipped with rods or cords, provided they do not exceed the number of blows; no punishment may go
+        <choice><orig>beyond</orig><reg>beyond</reg></choice>
+        twenty-nine lashes of the whip. They are forbidden, however, to mutilate their limbs or to subject them to torture, on pain of confiscation of the slaves and of extraordinary proceedings against the masters—saving the right to deliver the said slaves over to justice in cases that deserve a punishment more severe than the whip.
+      </p>
+
+      <p>
+        Art. 21.—Any slave who is caught seizing, or having seized, a vessel in order to escape, or to facilitate the escape of any white or black person, shall be deemed to have committed aggravated theft, and, as such, shall be sentenced to a penalty to be fixed according to the circumstances.
+      </p>
+
+      <p>
+        Art. 22.—All masters are forbidden to allow their slaves to roam, or to send them outside their homes without a written pass stating the slave’s name.
+      </p>
+
+      <p>
+        Any slave found, whether in towns and villages or in the countryside, without such a pass may be arrested. Town slaves may be given passes valid for a fortnight, with the exception of hired workers, who may be given passes for a month.
+      </p>
+
+      <p>
+        Art. 23.—Masters are likewise forbidden to allow their slaves to keep separate houses under the pretext of a trade, commerce, or otherwise, on pain of confiscation of the slave and of the goods found in his possession—one half to the informant, the other half to the police—this to take effect one month after the publication of the present regulation.
+      </p>
+
+      <p>
+        Art. 28.—All
+        <choice><orig>inhabitants</orig><reg>inhabitants</reg></choice>
+        are permitted to seize whatever they find slaves carrying in the countryside when the slaves have no pass from their masters; and upon denunciation, one half shall be awarded to the denouncer and the other half to the police.
+      </p>
+
+      <p>
+        Art. 33.—Any slave found on another plantation without the master’s permission shall be punished with fifteen lashes and driven out by the domestic police.
+      </p>
+
+      <p>
+        Art. 34.—All innkeepers, tavern-keepers, and free persons in town are forbidden to give lodging or refuge to a slave, whether from town or country, except travelling slaves bearing orders from their masters, on pain of a fine of five hundred livres.
+      </p>
+
+      <pb n="10" facs="v1n8p10"/>
+
+      <p>
+        Art. 36.—Any slave found carrying a gun, powder, shot, or bullets without his master’s permission shall be arrested, taken to prison, and punished—upon mere verification—by the collar and the whip; and if the weapon is not stamped, he may be prosecuted for carrying arms if the offence is his own; and if it is due to his master, the weapon shall be confiscated and the master condemned to a fine of one hundred livres.
+      </p>
+
+      <p>
+        Art. 37.—No slave is permitted to keep any weapon in his hut, under any pretext whatsoever; and if weapons are found during searches, the slave shall be seized and fastened to the collar, and the master condemned to a fine of one hundred livres for having failed to prevent it.
+      </p>
+
+      <p>
+        Art. 38.—Any slave arrested without a pass shall be taken to prison; the bounty for the arrest and the fine shall be paid as in cases of marronage, according to the place where he was arrested. If it is in town and the slave has a domicile, he shall be punished only with the whip, and the master fined nine livres for the benefit of the police officers who made the arrest.
+      </p>
+
+      <p>
+        Art. 39.—It is most expressly forbidden to any slave, without a pass from his master, to carry on roads or in streets any offensive weapon—such as a gun, sword, cutlass, straight knife, or Flemish knife—except so-called “jambette” knives without springs or ferrules, on pain of being fastened to the collar for four hours the first time, and of being whipped by the executioner in case of repetition. Merchants, shopkeepers, and hawkers are likewise forbidden, under a fine of one hundred livres, to sell or offer any of the said weapons to slaves without a written pass from their masters authorising the purchase.
+      </p>
+
+      <p>
+        Art. 40.—All negro slaves belonging to
+        <choice><orig>different</orig><reg>different</reg></choice>
+        masters are forbidden to assemble on plantations, at the entrances of towns, on main roads, or in remote places, on pain of corporal punishment, which shall not be less than the whip and branding, and even death in aggravated circumstances; in which case the masters who have tolerated it shall forfeit the value of their slaves, and the owner of the plantation on which the disorder occurred, and who likewise tolerated it, shall be condemned to a fine of five hundred livres, one half to the public treasury and the other half to the police officers who arrested the said slaves.
+      </p>
+
+      <pb n="11" facs="v1n8p11"/>
+
+      <p>
+        Art. 41.—Masters or others convicted of having permitted or tolerated in their homes assemblies of slaves of whatever kind; of having lent or let their houses to said slaves without permission of the
+        <roleName>King’s Attorney</roleName>
+        (which may occur only rarely), shall be condemned as follows: masters who permitted such assemblies, to a fine of one hundred livres; and those who lent or let their houses, to a fine of five hundred livres, for the benefit of the public treasury.
+      </p>
+
+      <p>
+        Art. 42.—Such gatherings of male and female slaves are likewise forbidden when they take as their pretext masses and blessed bread, as are all displays of luxury or extraordinary dress in funeral processions. The
+        <roleName>ministers of religion</roleName>
+        are enjoined to use all their influence to bring slaves back to the true meaning and sole object of those religious ceremonies, to check the course of those superstitious practices and demonstrations which offend religion and foster ideas of disorder.
+      </p>
+
+      <p>
+        Art. 43.—Slaves are forbidden at all times, but especially at provisioning hours morning and evening,
+        <emph>to gamble or to stage cockfights</emph>,
+        or to gather on the seashore or elsewhere, on pain of corporal punishment. Any person is permitted to seize and arrest them in the act and have them imprisoned in order that they may be prosecuted by the
+        <roleName>King’s Attorney</roleName>.
+      </p>
+
+      <p>
+        Art. 44.—Any slave working in his garden who sets fire to it without his master’s consent shall be whipped by the executioner and fastened to the collar for three consecutive days.
+      </p>
+
+      <p>
+        Art. 46.—All owners of slaves, their
+        <choice><orig>managers</orig><reg>managers</reg></choice>,
+        stewards, or
+        <choice><orig>representatives</orig><reg>representatives</reg></choice>
+        throughout the colony are enjoined to put an end, at nine o’clock in the evening, whether on plantations or in towns, to every kind of dance and to the sound of drums or other
+        <choice><orig>noisy</orig><reg>noisy</reg></choice>
+        instruments that accompany the pounding of manioc, on pain of a fine of one hundred livres against the offender.
+      </p>
+
+      <pb n="12" facs="v1n8p12"/>
+
+      <p>
+        Art. 48.—In all cases of infringement of the present regulation for which no penalty is specified in the preceding articles, the punishment shall be determined, according to the gravity of the acts, by
+        <roleName>the King’s Attorneys</roleName>,
+        subject to our approval.
+      </p>
+    </div>
+  </body>
+</floatingText>
+
+<p>
+  Such are the benefits of our civilisation, the progress of our
+  <choice><orig>Enlightenment</orig><reg>Enlightenment</reg></choice>!
+  Such is the charter we have granted to the negroes of our colonies! If one no longer finds in this regulation, as in the
+  <bibl type="legal">Code Noir</bibl>,
+  red-hot iron cages, stakes and pyres, or hamstrings cut, are not the penal sanctions still prescribed for the slightest faults—lashes of whip or cord, the collar, irons, and death? What penalty, indeed, can be prescribed for slaves? Imprisonment? they are in fact imprisoned for life. Fines? they are stripped of every thing. The deprivation of civil or political rights? one denies them the quality of men. It is their blood that is demanded—blood, and always blood—for they possess nothing else.
+</p>
+
+<p>
+  Set against this appalling severity with which the legislator has armed himself against blacks, place the complete absence of penal provisions against the crimes of whites towards slaves, and you will see that impunity is consecrated in favour of the most shameful and revolting despotism. Those sorts of crimes committed by whites are priced and set by tariff. With gold they can imitate that Roman who went through the streets dealing slaps to
+  <choice><orig>passers-by</orig><reg>passers-by</reg></choice>,
+  while a slave who followed him counted out the number of denarii fixed by law for that kind of offence.
+</p>
+
+<p>
+  If such rigours are indispensable to keep slaves in check, then slavery cannot be tolerated. Laws must not consecrate massacres, mutilations, or juridical assassinations; and the nation in whose name so many atrocities are committed heaps up against itself an eternal ignominy.
+</p>
+
+<p>
+  <persName>X. TANC</persName>, former
+  <roleName>magistrate</roleName>
+  in
+  <placeName>Guadeloupe</placeName>.
+</p>
+<div xml:id="justice-criminelle">
+  <head n="De la justice criminelle.(premier article.)"><seg>CRIMINAL JUSTICE.</seg> (First article.)<seg/></head>
+
+  <p>
+    <q>
+      The criminal laws that govern us were made under the inspiration and for the benefit of absolute monarchy. We are the sociable nation par excellence, and legislation treats us like
+      <pb n="13" facs="v1n8p13"/>
+      <q>a multitude in permanent revolt</q>.
+    </q>
+    The illustrious <persName>Foy</persName> thus stigmatized our penal legislation, the one that still governs us and that
+    <bibl type="legal">was applied in 1828 to the colonies</bibl>
+    with modifications that are not mitigations.
+  </p>
+
+  <p>
+    In <placeName>France</placeName>, at least, a protective institution, the jury, has been able to temper the repressive energy of the
+    <bibl type="legal">Napoleonic Code</bibl>.
+    But in the colonies there is no jury. There, no institution protects, and every law oppresses, because the laws, or what are called such, are made and applied in a certain interest (we know well enough which), and against every other interest. In the colonies penal legislation is harsher, more deadly, than in the metropole, I mean with regard to free people. As for the unfortunate slaves, punishments are purely arbitrary: between these two extremes, equally terrifying, the whip and the gallows, <emph>death if need be</emph>, as the
+    <bibl type="legal">Code Noir</bibl>
+    puts it. Now what procedure is followed in criminal judgments that lead to such an end?
+  </p>
+
+  <p>
+    When in 1828 the <orgName>navy offices</orgName> produced an
+    <bibl type="legal">edition of the codes, purged and corrected for the colonies</bibl>,
+    some philanthropist <emph>of the Garde-Meuble</emph> no doubt wished to let our compatriots overseas enjoy the institution of the jury, much as, in <placeName>Martinique</placeName>, the best provided-for, in the great distribution of punishments inflicted on the unfortunate victims of
+    <rs type="event">Grand’Anse</rs>, <emph>were made to enjoy</emph> banishment for life. The <emph>assessors</emph> were invented: a kind of bastard jury, disfigured, a parody or caricature of the metropolitan institution, if one may speak thus on a subject as grave as that of this article.
+  </p>
+
+  <p>
+    The <emph>assessors</emph>, we must say plainly what they are, for in <placeName>France</placeName> this administrative and judicial discovery is scarcely known. The assessors are four citizens who join the <orgName>assize court</orgName>, composed of three judges, to decide the fate of the accused in each session. At the end they are given a silver medal bearing the effigy of the <roleName>king</roleName> with this legend: <emph><placeName>French colonies</placeName>, assize court</emph>. (Art. 185 of the
+    <bibl type="legal">ordinance of 24 September 1828</bibl>.)
+    Inhabitants of these colonies, this is what represents to you <emph>trial by jurors, or by your peers, the country’s judgment</emph>.
+  </p>
+
+  <p>
+    Let us understand this system of criminal justice well. The assessors are drawn from a <emph>college</emph> of thirty members attached to each assize court. It is the <roleName>governor</roleName> who composes this college as he pleases; he
+    <pb n="14" facs="v1n8p14"/>
+    draws up the list, without that list being open to any challenge, as in <placeName>France</placeName> the jury list is, by the right recognized for any person listed to request the removal or the addition of someone else. Finally, and this must above all be noted, in countries where the black and white races are unfortunately divided by the profound and almost instinctive enmity of the white colonist toward the man of African origin or of mixed blood, the college of assessors must be recruited exclusively, according to the
+    <bibl type="legal">ordinance</bibl>,
+    from among those <roleName>eligible for the <orgName>colony’s general council</orgName></roleName>, among government officials or employees, and lastly among a few <emph>men of competence</emph>, lawyers, physicians, professors; for the men of competence who, in France, are still kept at the door of the electoral colleges, have found favor before the colonial legislator; he knew they are rare in our overseas possessions, where ignorance is maintained with such care.
+  </p>
+
+  <p>
+    To complete our acquaintance with the assessors, we must look at the drawing of lots, the challenges, and finally the functions of these adulterated jurors.
+  </p>
+
+  <p>
+    First, do not believe that each accused has the right to demand a separate drawing for his own case and to exercise freely and personally a sufficient number of challenges so that, after rejecting the judges he suspects, he may seem to have chosen himself those who remain designated by lot, according to the fine thought of <persName>Montesquieu</persName>. This practice is good in <placeName>France</placeName>; in the <placeName>colonies</placeName> it would be worth nothing. The four assessors are drawn for the whole session, for all the cases brought before it, for all the accused to be judged there, however numerous they may be. There may be twenty, thirty defendants charged with different crimes, this one with theft, that one with poisoning or murder; or again there may be one hundred sixty, two hundred, included in a single indictment for conspiracy and attempt, like the victims of
+    <rs type="event">Grand’Anse</rs>.
+    Well then, for all these accused, <emph>four challenges</emph>. Let them agree among themselves, if they can, in order to use them. The four assessors who emerge from this ordeal will be judges of all, both of the one who defends his head and of the one who contests only a few years of his liberty with the <roleName>prosecutor general</roleName>. That is little. It may happen, as in the affair of the Grand’Anse, that all the assessors successively designated by lot, recoiling in disgust before certain trials or fearing
+    <pb n="15" facs="v1n8p15"/>
+    only the fatigue of the hearings, have themselves excused, and that there remains <emph>only a single name in the urn</emph> to continue the operation of drawing <emph>by lot</emph>. What does it matter. That name will <emph>fall</emph>; the accused will not challenge it, for they would thus make the formation of the panel impossible, the case would be postponed to another session, and the dungeons would close again, awaiting <emph>another day of justice</emph>. Well then, that name drawn from the urn, which could hardly fail to be drawn, that assessor is still a judge freely chosen by the accused.
+  </p>
+
+  <p>
+    At the hearing, how will the four assessors thus added to the <orgName>assize court</orgName> function?
+  </p>
+
+  <p>
+    These <emph>jurors</emph>, by the strangest anomaly, by the most inconceivable falsehood one could introduce into the institution, are at the same time <emph>judges</emph>. They rule on the facts and on the law, on guilt and on punishment. Only, they do not share with the court the direction of the procedure; they must refrain from taking cognizance of the incidents that may arise in the course of the debates; but otherwise they decide together with the judges <emph>on the framing of the questions of fact, on the resolution of those questions, and finally on the application of the penalty</emph>. (Art. 77 of the
+    <bibl type="legal">ordinance</bibl>
+    already cited.)
+  </p>
+
+  <p>
+    This is an unprecedented confusion of all judicial ideas. In such a system, the assessors have nothing left of the jury, whose purpose and essential rule is to separate the determination of fact from the application of law. The assessors, in the end, are criminal judges added to other judges, and nothing more. The only difference between the one and the other is that the <roleName>counsellors</roleName> are appointed by the <roleName>king</roleName> and the <roleName>assessors</roleName> by the <roleName>governor</roleName>. The <orgName>assize courts</orgName> of the <placeName>colonies</placeName> thus find themselves composed of seven judges instead of the three they have in France; and these seven judges, this tribunal in which the assessors, always colonists, necessarily form the majority, even if there should be some metropolitan counsellors among the court’s judges, this tribunal holds the power of life and death over the inhabitants of the colonies. It is it that dispenses criminal justice, that tries the slaves in
+    <rs type="event">the trial of 1831</rs>
+    and sends <emph>twenty-six</emph> of them to the gallows at a stroke; that tries the free people of color in the
+    <rs type="event">Grand’Anse trial</rs>
+    and condemns <emph>eighty-seven</emph> of them at a stroke to perish on the scaffold, in the penal colonies, or in perpetual exile. This tribunal can pronounce a capital sentence by the simple majority of <emph>five votes</emph>, whereas in France, to inflict that terrible punishment, it
+    <pb n="16" facs="v1n8p16"/>
+    takes at least <emph>eight votes</emph>, eight votes of jurors worthy of the name; and in <placeName>England</placeName>, unanimity.
+  </p>
+
+  <p>
+    The matter is grave. The confusion, in the same hands, of the power to decide on fact and on law leads to nothing less than the very frequent condemnation of an accused who nevertheless has <emph>the real majority of his judges’ votes</emph> on his side. This is what the celebrated <persName>Duport</persName> of the <orgName>Constituent Assembly</orgName> lucidly demonstrated; we shall return to it in a next article. After having shown here what the institution of assessors is, we shall point out this sore, the greatest of all, and we shall make all the more felt the indispensable necessity of finally establishing the jury in the colonies.
+  </p>
+
+  <p>
+    <persName>Ad. GATINE</persName>, <roleName>lawyer</roleName> at the <orgName>Court of Cassation</orgName>.
+  </p>
+</div>
+
+<div xml:id="quatorze-janvier-vingt-quatre">
+  <head n="Le 14 janvier 1824 ! laissez passer la justice des colons!.. (i)">
+    <seg>14 JANUARY 1824!</seg>
+    <seg>Let the colonists’ justice pass!.. (I)</seg>
+  </head>
+
+  <p>
+    There is something worse than bad laws; it is bad magistrates. There is something more dreadful than a law of death; it is a bloodthirsty judge. There is something more hideous than the executioner; it is the man who sets him to work unlawfully. It is a great misfortune that laws have never been anything but pure fictions; that they are clothed, in the name of universal consent, with a majesty and a truth that are not theirs; that they are reputed just and conservative, when they are made by a single man
+  </p>
+
+  <note>
+    (I)
+    <cit>
+      <quote>
+        <foreign xml:lang="la">
+          Pone emeem servo... — Meruit quo crimine servus Supplicium? Quis testis adest ? quis detulit?... Audi : Nulla unquam de morte hominis cunctatio longa est : O demens! ita servus homo est? Nil fecerit, este. Sic volo, sic jrLleo; sit pro ratione voluntas.
+        </foreign>
+      </quote>
+      <bibl type="monogr">(JUVÉNAL, sat. vi.) </bibl>
+    </cit>
+    <cit>
+      <quote>
+        Drag that slave to punishment. — To punishment! Has he deserved it? Who denounces him? Where are the witnesses? Wait: when it is a matter of condemning a man one can never delay too long. — Madman that you are! Is a slave a man? Innocent or guilty, he shall die: I will it, I command it; my will is sufficient.
+      </quote>
+      <bibl type="monogr">(Translation by DUSSAULX.)</bibl>
+    </cit>
+  </note>
+
+  <pb n="17" facs="v1n8p17"/>
+
+  <p>
+    or by several men who dispose of the fate of an immense majority, and who preserve only privileges; that they are deemed known, when, to apply them, one must draw them out of the dust of chanceries, and when the life and death of men depend on chance or on the skill of an inquisitor of criminal texts. These are, no doubt, great evils against which progressive minds have long struggled; but what has no name in any language is this: that, after applying an atrocious law, one violates it in its humane provisions, thus accumulating, in a single act, all that inhumanity has of the most abject and tyranny of the most insolent. It is a new crime to add to that long succession of judicial catastrophes that have marked every reform of society. From the great principles of religion and philosophy to the most harmless innovations, there is not, in truth, a single new idea that has not been struck by an indictment. It is not enough, then, to record, in the sad annals of justice, the errors or the crimes of a magistrate; those memories must be recalled, revived. The generality of men is only too inclined to fall asleep; minds are weak and routinized: they need the sight of punishments to attach themselves to a just cause; whoever says reform says persecution. Since, then, that torpor, that selfishness of the world, awakens only when all begin to tremble for all, it is moral, it is humane, to consecrate the anniversaries of days of oppression.
+  </p>
+
+  <p>
+    Let us remember well that, from the earliest times of history, from heroic times to the reign of civilisation, from shepherd-kings to monarchs disguised under more or less ridiculous names, all powers that have held force in their hands have been composed only of a handful of men, enriched by the general misery, governing not by unanimous suffrage but by universal silence. Let no one believe it can be dangerous to immortalise, in some sense, the crimes of those who have governed society. Certainly it is a terrible punishment for a few individuals; but there is profit and morality for the mass. And those who, in the name of the law and despite the law, have delivered good citizens into the infamous hands of the executioner, must submit, without complaint, to the pillory of public opinion to which we are about to fasten them.
+    <pb n="18" facs="v1n8p18"/>
+    It is in these sentiments of mourning, in this deep respect for the rights of humanity, that we may be permitted to devote a few words to a painful anniversary: that of 14 January 1824, in Martinique.
+  </p>
+
+  <p>
+    Two days earlier, a judgment had just been rendered by the Sovereign Court sitting in the town of Fort-Royal. (However painful it is for us to use the ordinary words, judge, judgment, public prosecutor, we are compelled to have recourse to them, since no others have yet been invented for the facts that follow.) That judgment, produced in a few days and pronounced in secret, had disposed of the fate of three men accused of having distributed a pamphlet that called for certain improvements in the regulations and usages of the colonies. This small piece, in the form of a petition to the King then reigning in France, who, I believe, was Louis XVIII, had stirred a great outcry among the colonial aristocracy. To calm that ferment, the magistrates of the Royal Court exhumed an ordinance of 1757 that punished with death the authors, printers, and distributors of seditious writings. The writing was seditious, since the author, with the greatest moderation, requested a mitigation of usages that oppressed the numerous class of free people of colour. The ordinance of 1757 was applicable, since it had never been promulgated in the colonies. The three accused, belonging to that class, and shown, by their own testimony, to have read the work to their friends, were condemned, by the court’s infinite clemency, to hard labour for life, public exposure, and branding. This took place on 12 January.
+  </p>
+
+  <p>
+    The day after next was the day appointed for the solemnity of that execution; and here is in what condition the public and the condemned were called to take their part in it. The National Guard had just been disarmed; and from the morning of the 14th, all the avenues of the town were carefully guarded by regular troops; detachments of gendarmerie and dragoons were stationed in every street. These measures were well taken; they do honour to the logic of power; they are also the eternal honour of the population of Fort-Royal, among whom an abominable judgment had met the liveliest opposition. Yet, amid the general silence, one could see arriving from different points of the town, and as if by concert, a certain number of white faces whose features, expanded and dilated, seemed to announce in advance the performance of some lugubrious judicial drama: rope, gibbet, wheel, hot irons, things that have, in all times, formed part of aristocratic pleasures. For that class of spectators, it was evident that the magistrates’ decision was no secret.
+    <pb n="19" facs="v1n8p19"/>
+  </p>
+
+  <p>
+    The condemned did not know their fate; but the forethought of a person, near kinsman of the Prosecutor-General, had sought charitably to give them an advance taste of the punishment. By that man’s orders, a few wretches, dressed, no doubt, as French soldiers, had for several days been coming to sing vile songs, insulting to the prisoners, while the executioner took care to prepare and grease ropes beneath the grilles of their windows. And lest that apologue of death should not be significant enough, Councillor Dessalles, visiting the prisons, took care, in the presence of the condemned, to strike the shoulder of the executioner of high works, pronouncing before the persons of his retinue these memorable words: “This fellow is a brave man, an honest man; take good care of him; we shall have need of him very soon.” Whoever you are, reader, do not yet abandon yourself to the full extent of your indignation, and have the courage to listen to the end to the account of these nauseating immoralities.
+  </p>
+
+  <p>
+    On 14 January, at nine o’clock in the morning, a clerk appears and reads to the accused the judgment rendered on the 12th, and notifies them that it is to be carried out at once. With one voice the accused declare that they will petition for cassation. — The clerk refuses to receive their petition. — “In the name of the law,” says one of them, “you are forbidden to proceed.” — “The law, here, is the will of the Prosecutor-General; his orders admit no delay of any kind; I can only lead you to the scaffold in the name of RICHARD-LUCY.” — It is very difficult for me to say with what feeling I write the name of that fatal magistrate. RICHARD-LUCY! Your name is destined, make no doubt, to the execration of posterity; not by a voice stronger and more imperious than mine, but by the voice of humanity; by that universal sentiment of reprobation that clings to juridical assassinations and immortalises them; by that very spirit of justice which has consigned to history’s infamy the memory of Jefferies and of Laubardemont.
+  </p>
+
+  <p>
+    A captain of gendarmerie gives the order to depart. — “One moment!” they cry; “they have just written to Governor Donzelot.” — “To the Governor! It is by his express order, received this instant, that any reprieve, of an hour, of a minute, is refused.” — and the procession set out…
+    <pb n="20" facs="v1n8p20"/>
+  </p>
+
+  <p>
+    I will not go farther… no; I shall not follow to the end that immense violation of all divine and human justice. I am not learned enough in the art of tortures to analyse all the enjoyments of those spectators who seemed to thirst for this one. (i)
+  </p>
+
+  <p>
+    Besides, those soldiers guarding the accused, those whites who come along their path with smiles on their lips, those convicts who escort them to the market-place, the executioner and his servants who heat the iron, all these horrors are contained in a single man, RICHARD-LUCY! a name that I pronounce again, and without hatred, without desire for vengeance, but as a salutary example to all who dispose of the life and honour of men, and without fear of being disowned by the opinion of all times.
+  </p>
+
+  <p>
+    The 14th of January thus stands out among all the ill-omened days of colonial justice. It is not merely Calas dying innocent on the wheel; it is not La Barre, Sirven, Montbailh, condemned to various punishments for facts raised into crimes by their judges; it is not Jean Hus and Jerome of Prague whose pure and independent voice is sought to be stifled in flames; it is that, and it is something more than all of that: it is the application of a law that did not exist for the accused, a law created expressly for them; and then the refusal of the protective provisions of cassation, barbarous accumulation, monstrous assemblage of iniquities, by which one has found the art of being illegal in illegality itself.
+  </p>
+
+  <p>
+    Injustice, in the end, produces independence!
+  </p>
+
+  <p>
+    Do not be astonished, then, that from that day, when three upright and energetic men were insulted, paraded as a spectacle, branded, and sent to the galleys for having read and had read a pamphlet, colonial reform was born. All the improvements obtained, and all those to come, will bear the same date: 14 January 1824!
+  </p>
+
+  <note>
+    (1) Among them one noticed, at the windows of a house near the place of execution, one of the counsellors who signed the judgment, M. Bourk. One must not grant these men mercy; one must name them.
+  </note>
+</div>
+
+<pb n="21" facs="v1n8p21"/>
+
+<div xml:id="commutation-peines-procès-grand-anse">
+  <head n="Reflexions sur la commutation des peines dans le procès de la grand’anse.">
+    REFLECTIONS ON THE COMMUTATION OF SENTENCES IN THE
+    <rs type="event">GRAND’ANSE TRIAL</rs>.
+  </head>
+
+  <p>
+    When we published, in our January issue, the article entitled “Last word on the petition for cassation of the condemned of Grand’Anse,” we still cherished the hope that, this time at least, blood would not redden the scaffold so often raised in Martinique in the sole interest of a caste and of the prejudices of skin. We regretted, it is true, that the Court of Cassation, compelled to confine itself to forms, could not reach the substance of the case in the appalling affair of Grand’Anse; our regret was all the more keen because that court allowed one to glimpse the idea that the trial itself was a new iniquity. But it had to recognize, just as the public did in its turn, that the lessons its learning and humanity can give to the judges of our Antilles profit only their skill, without in any way changing their principles or enlightening their prejudices. Already that high magistracy of the metropole had had occasion to annul the form in order to correct the substance in a famous colonial cause, and thus to obtain a new judgment more consonant with equity and impartial justice. Nevertheless, that decision, which nearly ten years ago made so great an impression in France and in the colonies, has not been lost on the Royal Court of Martinique. We see, indeed, from the Grand’Anse judgment that Messrs. Judges Perrinelle, Lucy, and Duclary did not wish to furnish the Court of Cassation with a new occasion to reform their sanguinary sentence, and that, this time, they showed themselves, not more humane, but more expert in the observance of legal forms. If, bringing, as in the affair of 1824, an impatience to deliver the victims to the executioner, they had scarcely left time for the court clerk to enter in the minutes the formalities prescribed by the Code of Criminal Instruction, their judgment of 50 June 1854 [sic] would not have been confirmed; but it is because they were less hurried than then that they attained their end. As to formalities, their learning has improved; as to <pb n="22" facs="v1n8p22"/>humanity and justice, their heart has remained the same; and so long as our colonies remain withdrawn from the common law that governs Frenchmen of the metropole, it will always be thus.
+  </p>
+
+  <p>
+    Faced with so imperious a necessity, with so distressing a result, there remained the royal prerogative, which can reconcile at once the rigidity of legal forms and the rights of humanity; thus our hope of seeing a sanguinary judgment modified by royal clemency, a judgment that the Court of Cassation had been obliged to respect as to form, was all the greater because a high official of the colonial administration had assured us that infamy would not be attached to the sentences the condemned may have incurred. Our confidence in these words was strengthened by our personal knowledge of that official, who, having passed through several revolutions and counting among his former chiefs the prisoners of Ham, and among his present chiefs the victors of July, knew better than anyone that, in politics, there is no crime expiated at the bagne; no success that does not make sport of the law’s forecasts.
+  </p>
+
+  <p>
+    What was our feeling, we shall not say astonishment, but sincere affliction, to see that, in contempt of that sort of personal undertaking and of political reason, the drafter of the report requesting mercy had limited himself to begging His Majesty the King of the French to send to the bagnes of France, for the rest of their lives, men who until then had lived in the burning climate of the Antilles! Let it be said plainly: the drafter of that report joined the forgetfulness of all humanity to the cold calculation of a reflected barbarity. Indeed, the crime of the forty men condemned to death in Martinique, abstracting from the circumstances that led to the judgment and from the men who pronounced it, is a crime that springs from the heart and not from the head; a crime born of generous sentiments, no doubt pushed to excess, and which would not have come to light had the head possessed more maturity. For such a crime, death would have been little; but the galleys are far too much.
+  </p>
+
+  <p>
+    If we wished here to return to an appreciation of the facts and of the moral meaning of this trial, we might perhaps find some analogy between the insurrection of Grand’Anse and the provocations of which Colonel Caron and General Berton, under the Restoration, fell victim; but we wish only to indicate what <pb n="23" facs="v1n8p23"/>inconsistency there is in commuting, after the July Revolution, into the penalty of the galleys, virtually for life, the capital sentence pronounced by judges already tried in such matters, and recognized as exorbitant by the supreme court; a sentence whose aim is only to reach or punish a political offence or crime. Besides, in the different examples we could draw from the history of the last forty years, society, in deploring the loss of the victims of those different epochs, has no need to brand the hypocritical pity that might instead have sent them to expire slowly at Brest or at Toulon.
+  </p>
+
+  <p>
+    We conclude by asking M. Saint-Hilaire what is the ordinary commutation granted to a murderer or poisoner who has enough credit to escape the scaffold to which he has been consigned, not by a special tribunal, but by a jury composed of his equals.
+  </p>
+</div>
+<div>
+  <head n="France">FRANCE</head>
+
+  <div xml:id="convention-danemark-abolition-traite">
+    <head n="Convention du gouvernement danois avec la france et l'angleteere pour l’abolition de la traite des noirs.">
+      CONVENTION OF THE DANISH GOVERNMENT WITH FRANCE AND ENGLAND FOR THE ABOLITION OF THE SLAVE TRADE.
+    </head>
+
+    <p>
+      The convention concluded at Copenhagen on 26 July 1834, by which Denmark accedes to the treaty between France and England for the abolition of the slave trade, was drafted as follows by M. Napoléon Lannes, Duke of Montebello, representing France, M. Huns de Krabbe Carisius, representing Denmark, and Sir Henri Walkins, William Wynn, representing England.
+    </p>
+
+    <floatingText>
+      <body>
+        <div>
+          <p>
+            Art. 1. H. M. the King of Denmark accedes to the conventions concluded and signed on 50 November 1831 and 22 March 1833, between H. M. the King of the French and H. M. the King of the United Kingdom of Great Britain and Ireland, relating to the slave trade, as well as to their annex, subject to the reservations and modifications set out in Arts. 2, 3, and 4 below, which shall be considered as additional to the said conventions and to their annex, and subject to the dif-
+            <pb n="24" facs="v1n8p24"/>
+            ference that necessarily results from the position of H. M. of Denmark as an acceding party to these treaties after their conclusion.
+          </p>
+          <p>
+            H. M. the King of the French and H. M. the King of the United Kingdom of Great Britain and Ireland accept the said accession; consequently, all the articles of these two conventions and all the provisions of their annex shall be deemed to have been agreed, concluded, and signed directly between H. M. the King of the French, H. M. the King of Denmark, and H. M. the King of the United Kingdom of Great Britain and Ireland.
+          </p>
+          <p>
+            Their said Majesties undertake and mutually promise to execute faithfully all the clauses, conditions, and obligations thereof, subject to the reservations and modifications stipulated below; and, in order to prevent any uncertainty, it has been agreed that the said conventions, with the annex containing the instructions for the cruisers, shall be inserted here word for word, as follows:
+          </p>
+        </div>
+      </body>
+    </floatingText>
+
+    <p>
+      (What follows are the convention and supplementary convention concluded between France and Great Britain, on 50 November 1831 and 22 March 1833, relating to the repression of the crime of the slave trade; which convention and supplementary convention were published on 23 July 1833 and inserted in the Bulletin des Lois (2nd part, Are section, no. 4928).
+    </p>
+
+    <floatingText>
+      <body>
+        <div>
+          <p>
+            2. It has been agreed, with regard to Art. 3 of the convention of 50 November 1851 transcribed above, that H. M. the King of Denmark shall determine, as he sees fit, the number of Danish cruisers to be employed in the service mentioned in the said article, and the stations in which they shall cruise.
+          </p>
+          <p>
+            3. The government of H. M. the King of Denmark shall make known to the governments of France and Great Britain, in conformity with Art. 4 of the convention of 30 November 1831, the Danish warships that are to be employed in the repression of the slave trade, in order to obtain for their commanders the necessary warrants.
+          </p>
+          <p>
+            The warrants that Denmark is to issue shall be dispatched as soon as notification of the number of French and bri-
+            tannic cruisers intended to be employed has been made to the Danish government.
+          </p>
+          <p>
+            4. It is agreed, in what relates to Art. 5 of the instructions
+            <pb n="25" facs="v1n8p25"/>
+            annexed to the supplementary convention of 22 March 1833, that all Danish vessels which, pursuant to the conventions transcribed above, might be detained by the cruisers of H. M. the King of the French or of H. M. the King of the United Kingdom of Great Britain and Ireland, employed in the American station, shall be taken and delivered to the Danish authorities at Saint Croix.
+          </p>
+          <p>
+            That all Danish vessels detained by the French or British cruisers of the African station shall be delivered to the Danish authorities at Fort Christiansborg on the Gold Coast of Guinea, and that any vessel under Danish flag that might be detained by the French or British cruisers employed in the Madagascar station shall be delivered to the authorities of one or the other of the Danish possessions at Tranquebar, in the East Indies, if circumstances make that latter destination desirable.
+          </p>
+          <p>
+            5. The present treaty shall be ratified, and the ratifications shall be exchanged at Copenhagen within three months, or sooner if possible.
+          </p>
+          <p>
+            In faith whereof, the undersigned plenipotentiaries have signed the present treaty in three originals and have affixed thereto the seal of their arms.
+          </p>
+          <p>
+            Done at Copenhagen, the 20th of July in the year of grace 1834.
+          </p>
+          <p>
+            (L. S.) NAP. LANNES, DUC DE MONTEBELLO.(L.S.) HANS KRABBE CARISIUS.(L. S.) H. W. W. WILLIAMS, WINN.
+          </p>
+        </div>
+      </body>
+    </floatingText>
+  </div>
+
+  <div xml:id="clémence-royale">
+    <head n="Clémence royale.">ROYAL CLEMENCY.</head>
+
+    <p>
+      In accordance with the report drafted by M. Saint-Hilaire, Director of the Colonies, and presented by the Minister of the Navy, the King has granted the commutation of the following sentences to free men of colour and slaves condemned by judgment of the so-called Court of Assizes of
+      <pb n="26" facs="v1n8p26"/>
+      Martinique, dated 30 June 1834, as having taken part in the Grand’Anse affair.
+    </p>
+
+    <p>
+      The death penalty pronounced against the persons named:
+      <list>
+        <item>Jean-Bart Martine, Barthélemy fils, known as Barthel,</item>
+        <item>Volny Céleste,</item>
+        <item>Elysée Arc-en-Ciel,</item>
+        <item>Williams Richard,</item>
+        <item>Jean-Baptiste-Agricole,</item>
+        <item>Jean-Philippe Gyriaque,</item>
+        <item>Nicolas Robin,</item>
+        <item>Raphaël Galliot,</item>
+        <item>Donatien known as Petit-Frère,</item>
+        <item>Léandre Lucette,</item>
+      </list>
+      is commuted to twenty years of hard labour.
+    </p>
+
+    <p>
+      The death penalty pronounced against the persons named:
+      <list>
+        <item>Pascal Denis,</item>
+        <item>Monlouis,</item>
+        <item>Samuel,</item>
+        <item>Jean Jolle,</item>
+      </list>
+      slaves.
+      is commuted to fifteen years of hard labour.
+    </p>
+
+    <p>
+      The sentence of hard labour for life, pronounced against the persons named:
+      <list>
+        <item>Sainte-Catherine Jérémie,</item>
+        <item>Simon, known as Jacob,</item>
+        <item>Damas,</item>
+        <item>Symphor Labranche,</item>
+        <item>Paul-Joachim, known as Popole,</item>
+        <item>Salomon, known as Laboulique,</item>
+      </list>
+      is commuted to ten years of hard labour.
+    </p>
+
+    <p>
+      The sentence of five years of hard labour, pronounced against the persons named:
+      <list>
+        <item>Jérémie,</item>
+        <item>Stanislas, known as Tata,</item>
+        <item>Joseph, known as Zo,</item>
+      </list>
+      slaves.
+      is commuted to five years of imprisonment.
+    </p>
+
+    <pb n="27" facs="v1n8p27"/>
+
+    <p>
+      Remission is granted of the branding (1) as well as of the iron collar (with the exception of public exposure) to all the condemned persons against whom these penalties were pronounced.
+    </p>
+  </div>
+
+  <div>
+    <head n="Opinion des journaux sur la commutation des peines, accordée aux condamnés dans l'affaire de la grand'anse">
+      OPINION OF THE NEWSPAPERS ON THE COMMUTATION OF SENTENCES GRANTED TO THOSE CONDEMNED IN THE GRAND’ANSE AFFAIR
+    </head>
+
+    <div xml:id="courrier-français">
+      <head n="Le courrier français.">LE COURRIER FRANÇAIS.</head>
+
+      <p>
+        Some people believed that the belated and incomplete ordinance issued in favour of the twenty-nine detainees of Mont-Saint-Michel was a means devised by the ministry to show that the government could, if need be, decide to grant mercy, and did not harbour an irrevocable antipathy toward amnesty; we did not have the good fortune to share that conviction. The harsh and dry style of M. Persil, the parsimony displayed in the number of remissions of sentence, the omission of a considerable number of prisoners who, like their companions in misfortune, had courageously exposed their lives to halt the progress of the fire, an omission which, in similar circumstances, may be regarded as a denial of justice, the publication of that ordinance on the very eve of the day when one was to uphold from the tribune the impossibility of amnesty; all these reasons, and others besides, had led us to view the ordinance of 27 December as proof of persistence in an pitiless policy, and of a firmly settled resolution to yield to necessity only what it would be impossible to dispute. If some people could have been mistaken as to the value of that ordinance, no one, at least, will be mistaken as to the character of the one that appears in today’s Moniteur. The judgment of the Court of Assizes of Martinique, which pronounced no fewer than fifteen capital sentences and nine sentences of infaman
+        [texte tronqué]
+      </p>
+
+      <note>
+        (i) The penalty of branding was abolished in France by the law of 28 April 1832. It was abolished in the colonies, for slaves, by ordinance of 30 April 1832; public opinion would revolt even in the colonies if it were applied today. It is therefore a mockery to say that remission is granted of the branding.
+      </note>
+
+      <pb n="28" facs="v1n8p28"/>
+
+      <p>
+        It had produced in Paris a feeling of horror and dread that has not allowed the public to forget it. It was with surprise and sorrow that one had seen the Court of Cassation reject the condemned persons’ petition; but one recourse remained, and it was counted upon. How could one believe, indeed, that those unfortunate men who, assembled and armed, had, at the first summons, laid down their weapons without thinking of making use of them, would not find access to royal clemency? They did find it, in fact, but the mercy is almost as terrible as the judgment. Eleven of the condemned, almost all young men, escape death only to undergo twenty years of hard labour; four others will undergo fifteen years; the best treated in this dreadful commutation cannot escape an infamous penalty and the stain of public exposure. Moving mercy! Infamy as grace for people whose conduct, however harshly one may view it, cannot be imputed to a base or infamous sentiment! So this is clemency as it is understood today! After that, hope that eloquence and reason will make the cause of humanity triumph from the tribune!
+      </p>
+    </div>
+
+    <div xml:id="national">
+      <head n="Le national">LE NATIONAL</head>
+
+      <p>
+        One has not forgotten the judgment of the Court of Assizes of Martinique in the Grand’Anse affair: fifteen of the accused had been sentenced to death; the petition was rejected by the Court of Cassation, and the crown, making use of the right of pardon it possesses, commuted the death penalty into sentences of twenty, fifteen, and ten years in the galleys.
+      </p>
+
+      <p>
+        The Revue des colonies, of which we receive today the seventh issue, was able to say, before knowing of the royal amnesty:
+        <q>
+          In an island of the Antilles, in Martinique, amid a small population, for a purely political cause, forty accused have been sentenced to the capital penalty! fifty-three others to hard labour, to perpetual deportation, etc. One hundred families are struck! An entire commune is depopulated! An entire French colony is terrified by the murderous action of this justice more than provost-marshal!
+        </q>
+      </p>
+
+      <p>
+        Well then, what was said before the ordinance can be said again after it. This amnesty is only an imperfect reparation. The Grand’Anse affair was very little; passions have been exploited <pb n="29" facs="v1n8p29"/>in the colonies and have produced terrible reprisals; but those passions should not have found an echo or support in the mother country. Thus the present amnesty can be regarded only as a step toward a complete remission of frightfully exaggerated punishments.
+      </p>
+    </div>
+
+    <div xml:id="journal-de-la-marine">
+      <head n="Le journal de la marine.">LE JOURNAL DE LA MARINE.</head>
+
+      <p>
+        We shall make only one observation on the ordinance that commutes, into fifteen and twenty years of hard labour, the death penalty pronounced against those condemned in the Grand’Anse affair: no deportee from the Antilles survives more than 12 or 15 months in the bagnes. The Duke Decazes himself acknowledged this fact when he inspected the prisons of France. The mercy therefore consists in having prolonged the punishment and substituted a long and cruel agony for a more rapid execution.
+      </p>
+
+      <p>
+        Let us add that, in upholding the judgment of the Court of Assizes because the forms had been perfectly observed, the Court of Cassation nonetheless recognized that the judgment was liable to be quashed on the merits. We know that several of the counsellors, and the President Bastard de Lestang among them, made pressing efforts to obtain full and complete pardon for the condemned.
+      </p>
+    </div>
+
+  </div>
+</div>
+<div xml:id="société-fr-pour-abolition-esclavage">
+  <head n="Société francaise pour l'abolition de l'esclavage.">FRENCH SOCIETY FOR THE ABOLITION OF SLAVERY.</head>
+
+  <p>
+    Whatever the distance that separates the metropole from its colonies, and although, in the present state of affairs, they are to it more a burden than an advantage, France nonetheless feels a genuine sympathy for these portions of itself; it concerns itself with their interests and is moved by the ills that afflict them; it would like to see them in every respect worthy of it, and, despite everything, it fully justifies that name of mother country which belongs to it for so many reasons. With its noble instincts of humanity, with that broad and powerful philosophical and social spirit that characterizes it, France had to take up the great question of slavery, which disgraces its overseas possessions. Thus, before eloquent <pb n="30" facs="v1n8p30"/>voices pleaded for this holy cause before French chambers, elevated minds, generous hearts, in a word men of distinction, without distinction of party, came together to call forth this great measure of reparation.
+  </p>
+
+  <p>
+    We were the first to announce, in the month of August, the forthcoming formation of the society that has taken up this fine mission, and which is today definitively constituted; and we are happy and proud to see it presided over, as we had expressed the wish, by the grandson-in-law of M. Necker, who on this occasion, as at the time of the debate on the abolition of the slave trade, has shown himself as we have always known him, in the foremost rank of the faithful and enlightened friends of the Blacks.
+  </p>
+
+  <p>
+    We reproduce, with an inexpressible feeling of confidence in the future and of gratitude toward the honorable philanthropists, founders of the French Society for the Abolition of Slavery, the prospectus they have just published in the name of this society; a lucid and complete statement of the motives of humanity, logic, and honor that make the abolition of slavery one of the political necessities of our time.
+  </p>
+
+  <div xml:id="prospectus">
+    <head n="Prospectus">PROSPECTUS</head>
+
+    <p>
+      At the moment of founding a society for the abolition of slavery, it is important that our motives be clearly understood, our aims plainly explained, our intentions sheltered from any erroneous or malevolent interpretation.
+    </p>
+
+    <p>
+      The time is past when the legitimacy of slavery was seriously debated. Civilization has not advanced in vain. As its benefits have spread, new and more vivid light has come to refine and strengthen the notions of justice and morality upon which human opinions rest, and slavery now appears, in the eyes of the most enlightened societies of Europe, only as a flagrant violation of the precepts of Christian charity and an attack on the least contestable rights of humanity.
+    </p>
+
+    <p>
+      But however much an institution may be reprobated, however visible its iniquities may have become, public <pb n="31" facs="v1n8p31"/>opinion is not enough to overthrow it; and if private interests lend it their support, it ordinarily falls only when men, united by the love of the good, agree and concert their efforts to bring about its reform.
+    </p>
+
+    <p>
+      This is attested by the history of the resistance encountered, in a neighboring country, by the abolition of the slave trade and the progressive emancipation of the Blacks.
+    </p>
+
+    <p>
+      From the middle of the eighteenth century, the best minds in Europe saw in slavery only a remnant of barbarism whose suppression the honor of civilization demanded. Montesquieu did not hesitate to denounce its principle openly; and yet, when in 1776 some Quakers of London came to petition the English Parliament for mitigations to the rigors of colonial servitude, their petition aroused only a long and disdainful astonishment.
+    </p>
+
+    <p>
+      It was in the name of the duties of human fraternity that the petitioners spoke. Full of faith in the truth of the principles that had guided them, they did not lose heart. For eleven successive years they renewed fruitless entreaties, and it was only in 1787 that a glimmer of hope appeared. They had confined themselves to denouncing the horrors of the slave trade, and this time it was thought possible to listen to them. A committee of inquiry was established; the information it gathered, over more than three years, fully bore out the equity of the petition; and although an immense majority refused to grant it, the most important step was taken. The attention of the country had been awakened to a question of the highest interest for all friends of humanity; within Parliament, men of deserved influence announced that each session would see renewed the proposal to abolish the slave trade; outside, a society was formed to support them and to provide public opinion, still undecided, with the light it needed in order to decide.
+    </p>
+
+    <p>
+      From that point, the outcome of the debate could be foreseen. Once there existed, in a country where the press was free, and where from the national tribune all truths could be proclaimed, an association firmly resolved to pursue the success of a cause that needed only to be explained in order to secure the sympathies of disinterested men, that cause had to end by <pb n="32" facs="v1n8p32"/>triumphing. It quickly gained ground. With each publication, with each new discussion, some of the sophisms by which the slave trade was defended fell; from session to session the number of opponents grew in both chambers; and, on 23 March 1807, a law, sanctioned by imposing majorities, proclaimed its abolition.
+    </p>
+
+    <p>
+      It was not only in England that the struggle undertaken against the trade in Blacks bore fruit; other nations drew light from it. As early as 1799 the Danish government believed itself sufficiently enlightened to forbid its subjects to continue the trade as of 1 January 1804. Five years later, the Congress of the United States of America set its term at 51 December 1807, and one knows what commitments were subscribed, at the time of the treaties of 1814 and the arrangements of 1815, by the maritime powers of Europe.
+    </p>
+
+    <p>
+      It was much to have stopped the stream that incessantly carried new victims to the colonies; but the work was not at its end. Slavery remained, with its hideous train of miseries and sufferings; and men who had studied all its details, who knew all its vices to the core, who understood how mistaken were those who believed its maintenance indispensable to their own security, could not cease to press for its reform. Hence new debates, from which emerged first the parliamentary resolutions of 13 May 1825; then finally the bill of 15 August 1855, which, while subjecting the slaves to transitional conditions of apprenticeship, fixed 1 August 1854 for the abolition of the odious regime under which they have lived until now, and 1 August 1840 as the great day of their complete and definitive liberation.
+    </p>
+
+    <p>
+      Thus, in England, advanced a work which, over nearly half a century, set the friends and enemies of slavery against one another. On both sides, all the arguments, all the considerations capable of making an impression on minds, were successively exhausted; and if victory remained with those who maintained that Providence did not destine man to be the property of his fellow, and that no true social interest can ever command contempt for the rights of humanity, it is because on their side were justice and reason.
+    </p>
+
+    <p>
+      Why is it that France, to whom a minister, M. Necker, had,<pb n="33" facs="v1n8p33"/> as early as 1789, made such explicit wishes in favor of the Blacks, has remained so long a mere spectator of the efforts made in England for their emancipation? Why, for nearly twenty years since it recovered its colonies, has it limited its efforts to the belated abolition of the slave trade and to the improvement of the condition of free people of color, without doing anything to prepare better destinies for the unfortunate people whose servitude remains there the sad and disastrous inheritance? No doubt there was a discouraging memory, that of the disasters of Saint-Domingue, where so many imprudences and errors, born of the rivalries of the free castes, had called the Blacks to arms before decrees of liberty, suddenly issuing from the storms of the French Revolution, launched upon that burning soil new ferments of hatred and discord; perhaps also there was, in the period and in the other stipulations of the treaties in execution of which the legislature ended the trade, something that wounded national susceptibilities; but of all the causes of an inertia so regrettable, the most powerful was surely the lack of a special society composed of men who, making the progressive emancipation of slaves the exclusive and constant goal of their work, would have made use of every occasion to enlighten the public conscience, and to obtain from the authorities improvements whose urgency and possibility they would have demonstrated.
+    </p>
+
+    <p>
+      Such is the reason that leads us today to found a society for the abolition of slavery. Never were circumstances more opportune; for it is no longer only a work of humanity that must be accomplished, but also a work of prudence.
+    </p>
+
+    <p>
+      See, indeed, what a change has begun in the situation of the colonies. Slavery could subsist there so long as it was the universal form, so long as no metropole had legally acknowledged its illegitimacy and proclaimed its abolition; but England has just given this great example, and soon there will remain in its numerous possessions no trace of the former servitude.
+    </p>
+
+    <p>
+      Well then, as this revolution is accomplished in the English colonies, will it not extend a decisive influence in ours? Is it when the cries of liberty, coming from neighboring shores, resound in our islands that it will be permissible to maintain there a regime already exposed to so many angers and perils? Will we have, in order to perpetuate it, to aggravate the rigor of the laws and multiply punishments? Will new squadrons and more numerous soldiers be demanded of us to keep <pb n="34" facs="v1n8p34"/>under a hated yoke a population all the more impatient to break it as it will know that elsewhere it has ceased to be the lot of the African race? And amid the agitation that will not fail to arise, what will become of labor? Let those concerned reflect and answer.
+    </p>
+
+    <p>
+      In vain, moreover, do we seek the reasons that could prevent France from in its turn casting a look of compassion upon the populations it holds in servitude. England, given the number and importance of its colonies, had to think twice before acting. If, as the price of its generous resolutions, it had met rebellions, perhaps it would have had to employ force in twenty islands at once, and resign itself to long and costly struggles. But has France anything similar to fear? Where is the one of its colonies that has enough extent and population for a serious and grave insurrection to break out? It has not a single one where the presence of a few hundred more men would not suffice to ensure the accomplishment of all the improvements it might choose to require.
+    </p>
+
+    <p>
+      Far be it from us, however, to think that the isolation and weakness of our colonies could authorize hazardous experiments there. The difficulties presented by the abolition of slavery are known to us; and although England’s example has shown that they are not as insurmountable as people have been pleased to say, we will be no less attentive to consult all advice, to weigh carefully all objections, in a word, to devise and to propose only measures of sure application and conforming to all interests.
+    </p>
+
+    <p>
+      We do not need to affirm that it would be wrong to seek, in the motives that guide us, anything that smacks of the calculations and arrangements sometimes engendered by party quarrels. What is at stake here is one of those questions of high morality on which truly enlightened men, whatever divergences may still exist in their views on other points, are no longer divided. In England, Pitt and Fox, Burke and Wilberforce, Canning and
+      <pb n="35" facs="v1n8p35"/>
+      Brougham have always agreed in calling for the extinction of the slave trade and for laws that would prepare slaves for the benefits of freedom. It will be the same in our country. We have sufficient confidence in its enlightenment to call to our aid all those who, under whatever political banner they are ranged, have faith in human dignity and want it henceforth preserved from all stain. Let them unite their efforts with ours; let them lend us their support in a cause in which so many interests of the highest order are engaged, and soon slavery will have disappeared from all places where the flags of France fly.
+    </p>
+
+    <p>
+      <list>
+        <item>President, the Duke of BROGLIE, Peer of France.</item>
+        <item>
+          Vice-Presidents,
+          <list>
+            <item>MM. Passy, Deputy for Eure.</item>
+            <item>Odillon-Barrot, Deputy for Aisne</item>
+          </list>
+        </item>
+        <item>
+          Secretaries
+          <list>
+            <item>A. de la Borde, Deputy for Seine-et-Oise</item>
+            <item>Isambert, Deputy for Vendée.</item>
+          </list>
+        </item>
+        <item>
+          FOUNDING MEMBERS.
+          <list>
+            <item>Bérenger, Deputy for Drôme.</item>
+            <item>Berville, Advocate-General in Paris.</item>
+            <item>De GÉRANDO, Councillor of State.</item>
+            <item>DESJOBERT, Deputy for Seine-Inférieure.</item>
+            <item>De Golber y, Deputy for Haut-Rhin.</item>
+            <item>Détrôné, Councillor at the Royal Court of Amiens.</item>
+            <item>G. LAFAYETTE, Deputy for Seine-et-Marne.</item>
+            <item>Lamartine, Deputy for Nord.</item>
+            <item>Lainé de VILLEVÊQUE, former deputy.</item>
+            <item>La ROCHEFOUCAULT-LIANCOURT, Deputy for Cher.</item>
+            <item>LACROSSE, Deputy for Finistère.</item>
+            <item>Lutteroth. Marquis de Mornay, Deputy for Oise.</item>
+            <item>Montrol.</item>
+            <item>RÉMUSAT, Deputy for Garonne.</item>
+            <item>Roger, Deputy for Loiret.</item>
+            <item>De Sade, Deputy for Aisne.</item>
+            <item>Salverte, associate member of the Institut, and Deputy for Paris.</item>
+            <item>De SAINTE-CROIX.</item>
+            <item>De Tracy, Deputy for Allier.</item>
+            <item>Vice-Admiral VERRUEL, Peer of France.</item>
+            <item>H. Carnot.</item>
+          </list>
+        </item>
+      </list>
+    </p>
+  </div>
+</div>
+
+<pb n="36" facs="v1n8p36"/>
+
+<div xml:id="cours-économie-industrielle-arts-et-métiers-Blanqui">
+  <head n="Cours d’economie industrielle au conservatoire des arts et métiers, par m. blanqui aîné.">
+    COURSE IN INDUSTRIAL ECONOMY AT THE CONSERVATOIRE DES ARTS ET MÉTIERS, BY M. BLANQUI THE ELDER.
+  </head>
+
+  <p>
+    We promised our readers to bring together the continuation of M. Blanqui’s studies on the colonies, studies suspended for a few days of rest, and resumed on 9 January.
+  </p>
+
+  <p>
+    The professor had paused at this assertion, or rather at this prophecy long pronounced by the most far-sighted statesmen, that the colonies are condemned to perish; but one must understand this properly and see that it is the colonial regime that is struck by this threat: for what is at issue is not violent destruction, nor a wish comparable to that which Lord Stanhope voiced in the English Parliament regarding unhappy Ireland, when he declared that it would be a happy event for England if Ireland were submerged by the ocean for twenty-four hours.
+  </p>
+
+  <p>
+    The colonial system will therefore perish by the inevitable effect of the contradiction that exists between the abolition of the slave trade and the frivolous protection granted to colonial sugars, a protection eluded by domestic sugar and, on the other hand, hampered by the growing progress of the refining industry.
+  </p>
+
+  <p>
+    The government would like to spare all interests, but there is no human force that can succeed; people have spoken of a tax on the 18 or 20 million of beet sugar manufactured in France; people have spoken of an excise, a mode of collection so opposed to our customs: that would be the signal for the collapse of our factories, which one will never decide to ruin in this way. It is moreover proven that an arpent of beets produces a quantity of sugar equal to that given by an arpent of cane in the colonies. Will the representatives of agricultural interest ever consent to the consumption of this sacrifice? Ah! once one enters the fatal system of protections, what terrible embarrassments, what inextricable difficulties are sown for the future!
+  </p>
+
+  <p>
+    If there is a means of salvation for the colonies, it can be sought only in a more skillful, more economical production, in the transformation of forced labor into free labor. The emancipation of the Blacks is therefore the first step to take.
+  </p>
+
+  <p>
+    A great and solemn example comes in support of this doctrine,<pb n="37" facs="v1n8p37"/> and will be the eternal honor of our era and of a nation that is our ally: on 28 August 1855, the English Parliament proclaimed the abolition of slavery in the colonies of Great Britain. After reforming the political condition of the whites, it was not long before one turned to reforming that of the Blacks. The discussion was admirable; the opposition of the planters was raised, one feared they would not wish to obey. Canning himself, in 1824, denounced the hostile dispositions of the planters of Jamaica: The government would have recourse to force, he cried, to the force that would reduce to powder “the rebellious planters; but the proposed measure will not obtain the “glory of a quarrel; I do not want to admit the opponents to “the honor of the struggle. An insurrection for the freedom of the whip! “for the maintenance of an abuse! By not striking them, “but by granting the oppressed full and frank justice, the “planters will abandon this haughty language and fall back into the “bondage of reason.” (Applause.) “After all, the metropole “would only have to withdraw the hand that protects them and recall its “troops; but then, be sure of it, the last planter would have left before the last soldier.” (I)
+  </p>
+
+  <p>
+    This terrible quos ego imposed silence indeed, and the slave-act was voted; but its very energy measures the obstacles that had to be overcome.
+  </p>
+
+  <p>
+    M. Blanqui translates the considerations of the bill, so remarkable for their simplicity; he sets out the most important stipulations, their prudence, the infinite precautions taken to prevent feared inconveniences, and above all he brings out the skillful reconciliation of so many opposing interests; the concessions that the bill still makes to certain condemnable prejudices of the planters; the principle of property, respected by philanthropic zeal even in the most dreadful property, etc., etc. Commissioners were sent everywhere to ascertain the number and the value of the slaves: it was a true forced expropriation whose indemnity amounted to 500 million.
+  </p>
+
+  <p>
+    When in 1787 the serious attacks began in </p>
+    <note>
+  (I) The professor is interrupted for a few minutes by the reaction these beautiful and powerful words, spoken with the emphasis the famous English orator must have given them, produce in the audience.
+</note>
+ <pb n="38" facs="v1n8p38"/>
+ <p>Parliament against the slave trade; when in 1807 the abolition of slavery was decided in principle; when, in the subsequent years and at the Congress of Vienna, one saw the English pursue the realization of this great and noble system and have it successively adopted by all the European nations, the sincerity of the British government was violently impugned: the habit was to suspect it of perfidy; and if it is incontestable that, in the end, the abolition of slavery in England’s colonies must be profitable to its well understood interests, it was absurd to suppose that it wanted to deprive itself of colonies like its own in order to deprive us of colonies like ours. Its last act has magnificently answered its detractors.
+  </p>
+
+  <p>
+    There, then, is free labor substituted for slave labor! Is this thought to be a new and hazardous trial? Economists had prepared the great measure of emancipation by their studies, and even by their quarrels. J.-B. Say first thought that the labor of the enslaved Black was the most economical; but Hodgson demonstrated the contrary to him by facts and the most conclusive calculations: J.-B. Say nobly declared that he had been mistaken. Don Ramon de la Sagra published the most precious documents in favor of free labor, and paid tribute to the Catholics, who have always softened the rigors of slavery; they at least allowed the Black to come and pray with his master in the same temple. Havana, where free labor expands day by day, has better and more lucrative products; Cuba gives alms to its metropole, it sends it frigates and millions.
+  </p>
+
+  <p>
+    How would a French minister be received, coming to the tribune to ask 60 million to bring about the liberation of slaves in our colonies? Yet one will have to come to that solution; the present state of affairs will soon be untenable in the face of the revolution accomplished in the English Antilles, in the face of the thirty million that our Antilles cost us annually.
+  </p>
+
+  <p>
+    We regret that our specialty does not allow us to follow M. Blanqui in the researches he undertakes on the deplorable effects of the protective system in general: clear and precise facts, pointed revelations, give the end of this lesson an interest repeatedly manifested by the audience. Let it suffice that we have set out how he views a question that, for our part,<pb n="39" facs="v1n8p39"/> we devote ourselves to clarifying, and let it be permitted us also to congratulate ourselves on finding the consecration of our doctrines in those of a publicist so distinguished, of a professor loved by the public, of an economist who fights with so much talent and courage to propagate truth and bring about the reign of reason.
+  </p>
+</div>
+
+<div xml:id="colonies-françaises">
+  <head n="Colonies françaises.">FRENCH COLONIES.</head>
+
+  <div xml:id="guadeloupe">
+    <head n="Guadeloupe.">GUADELOUPE.</head>
+
+    <p>
+      One of our correspondents in Pointe-à-Pitre writes to us under the date of 15 November:
+    </p>
+
+    <floatingText>
+      <body>
+        <div>
+          <p>
+            Something quite curious has just happened here; we have had an aristocrats’ riot, the very flower of the place, all that is privileged in the colony, against.... a woman, a woman of wit, a Frenchwoman, the wife of one of the most industrious employees of the navy. You see that these gentlemen of the high class of the country do not take roundabout paths. I forgot to tell you the crime of this woman: Madame Letellier, that is her name, having made a health trip to France in 1832, published there a short story, I am told, in the Journal des Femmes, in which the prejudice of color was not exalted as the soundest and most social opinion one could imagine: inde irae. Madame Letellier having returned these days to the colony with her husband, the gentlemen of the white aristocracy spontaneously resolved to take vengeance for the abominable opinions expressed in France by Madame Letellier, without the permission of these gentlemen, a grave omission, a crime worthy, certainly, of punishment. Consequently, here is in what amiable manner these young men have shown her their displeasure on this subject. They found nothing better than to go in a body to the door of the house occupied by this lady, and there the gentlemen of the aristocracy proceeded bravely to make a nocturnal uproar, shouting the most disgusting insults against a woman! And shame did not seize them! and the red did not rise to their faces! and the authorities, so jealous of having order respected according to their view, tolerated, if they did not encourage, this scandalous disorder! and the governor, instead of having a <pb n="40" facs="v1n8p40"/>compliment of condolence conveyed to M. Letellier, in some manner sent him into exile to Saint-Martin, thus changing, by his private authority, the posting of a civil servant sent from France to the colonies by the government; and all this takes place in the nineteenth century, and in a French colony!
+          </p>
+
+          <p>
+            In their effervescence the disturbers went to the home of a woman of color, Mademoiselle Reine Ledoux, where they supposed that Madame Letellier had taken refuge (since the house she occupies on rue d’Arbaud was entirely closed). They summoned Mademoiselle Reine Ledoux to hand over Madame Letellier, and when she replied that the latter was not in her home, they overwhelmed her with outrages and insults in the presence of the police commissioner who tolerated it, and they went, it is said, as far as threatening to set the house on fire.
+          </p>
+
+          <p>
+            The watchword was given everywhere, for the same scenes were repeated in Basse-Terre, during the trip that M. Letellier made to that town, to inform the governor of what had just occurred in Pointe-à-Pitre.
+          </p>
+
+          <p>
+            M. Letellier has written, we are assured, to M. Saint-Hilaire to ask him for justice regarding his dismissal; we shall see what M. the Director of the Colonies will do.
+          </p>
+
+          <p>
+            Another grievance brought against M. Letellier by the leaders of the aristocracy is, they say, that he returns to the colony as agent of the society for the abolition of slavery.
+          </p>
+
+          <p>
+            The short story published at the time by Madame Letellier being little known here, you might perhaps do no wrong, if you can obtain it, to reproduce it in the Revue des Colonies. It would be a just punishment inflicted on these young savages, to deliver to a new publicity the writing that so strongly irritated their coarse bile.
+          </p>
+        </div>
+      </body>
+    </floatingText>
+  </div>
+<div xml:id="martinique">
+  <head n="Martinique.">MARTINIQUE.</head>
+  <p>
+    Our correspondent from Saint-Pierre writes to us under the date of 19 November.
+  </p>
+  <floatingText>
+    <body>
+      <div>
+        <p>
+          By the letter I wrote you a few days ago, I informed you of the infamous traffic that is now carried on in Martinique, fa- yorisé by the authorities, and I gave you an account of a sad episode that vait taken place at the embarkation of the last traffi- jués slaves. As I am anxious that your articles should not be exposed to the réfutations Nogues, I hasten to give you, as an established fact, the drowning of the slave named Marius, belonging to one Fabre, who had sold him on condition of exile as a bad character. The body of this unfortunate man has not been found; one must believe that it has been the prey of voracious sharks so common in the waters off Pointe-Lamarre, where this slave was drowned.
+          <pb n="41" facs="v1n8p41"/>
+        </p>
+      </div>
+    </body>
+  </floatingText>
+</div>
+
+<div xml:id="colonies-etrangeres">
+  <head n="Colonies étrangères.">FOREIGN COLONIES.</head>
+  <div xml:id="jamaïque">
+    <head n="Jamaïque.">JAMAICA.</head>
+
+    <p>
+      As our readers will be eager to know what may be hoped from the system that has been adopted, and as the important question that has just been resolved here and in the other British colonies is of the highest interest to our compatriots in Europe, we do not think we can employ a better means of satisfying both parties than to place before their eyes the analysis of the letters that reach us from every point of the island; they will easily prove that, with the exception of the parish of Saint-Anne, and of a slight stubbornness shown on a few properties in the parish of Saint-Thomas, in the vale, the colony enjoys perfect tranquility; the apprentices conduct themselves as well as possible, and even much better than one had any right to hope. We have said very often that we were convinced the change would be made without shock, and that the days already elapsed would pass without all the horrors that many people interested in maintaining slavery took pleasure in predicting; thus it is not astonishment, but satisfaction, that we feel at all the news that reaches us, and which we communicate to the public with a feeling of joy, as a proof of the justness of our expectations on this subject. We will repeat again the opinion of a person whose authority is great: « Everything depends on the masters or on those who are charged with the apprentices; if they wish to unite gentleness with firmness, not to encroach on the rights of their subordinates while having their own respected; in a word, if they wish to follow this divine law, to do to others only what they would be glad to have done to them, we will have not the slightest fear for the future. »
+      <pb n="42" facs="v1n8p42"/>
+    </p>
+
+    <p>
+      Although we are not partisans of the apprenticeship system, nevertheless, since it must be maintained, we would like to be able to make the masters feel the necessity of being good to their apprentices, of rewarding their merits and punishing their vices: if they adopt this line of conduct, the period of trial will pass in a manner advantageous for them and for the workers under their authority.
+    </p>
+
+    <p>
+      The reports from the different communes, from Saint-Catherine, Clarendon, Saint-George, Saint-Thomas (in the west), Trelawney, Saint-Joseph, Hanover, Saint Mary, Manchester, Saint Elizabeth, Westmoreland, all agree in representing the situation of the country as perfectly happy.
+    </p>
+  </div>
+</div>
+
+<div xml:id="nouvelles-diverses">
+  <head n="Nouvelles diverses">MISCELLANEOUS NEWS</head>
+
+  <p>
+    M. Perrinelle-Dumay, president of the royal court of Martinique, has resigned. We are assured that the former procureur-general of 1824, Richard Lucy, presently in Paris, is one of the candidates for this chief colonial magistracy. In return for a bribe of 10,000 francs, a lady of Paris, who exerts great influence over M. the Director of the Colonies, has undertaken to secure the appointment of whichever candidate she protects. — M. Saint-Hilaire, Director of the Colonies, told a deputy well known for the keen interest he takes in Blacks and mulattoes that it is to the demands and démarches of M. Amédée Cools-Desnoyers, delegate of the aristocracy of Martinique, that the unfortunate political convicts in the affair of the Grand’Anse owe the strange grace that has just been granted to them.
+  </p>
+
+  <p>
+    — M. Saint-Hilaire also assured the director of the Revue des Colonies that it is to M. the Keeper of the Seals, Minister of Justice, that one owes the severity of the commutation made for the convicts in the affair of the Grand’Anse, and that he, M. Saint-Hilaire, had requested for these convicts a commutation less harsh and free of the infamy of the galleys.
+    <pb n="43" facs="v1n8p43"/>
+  </p>
+
+  <p>
+    — The director of the Revue des Colonies has obtained information about the commutation granted to his compatriots convicted in the affair of the Grand’Anse; he has acquired proof beyond reply that the report which solicits the penalty of the galleys as a grace was drafted by M. Saint-Hilaire, under the avowed influence of M. Amédée Cools-Desnoyers, and that M. the Keeper of the Seals is not responsible in this matter, nor is the pardons office at the Chancery, as M. Saint-Hilaire had assured.
+  </p>
+
+  <p>
+    — It is said that the executioner who carried out the sentence of the royal court of Martinique of 12 January 1824, presently in Paris, in order to complete his mission, contributed strongly, through his démarches with M. Saint-Hilaire, to bringing about the sad outcome of the affair of the Grand’Anse, which sends so many victims to the galleys. There is also talk of another influence that the privileged planters have set in motion and which, it is said, has great power over the administrative decisions of M. the Director of the Colonies.
+  </p>
+
+  <p>
+    — A bill on the judicial organization of the colonies, drawn up by M. Admiral Duperré, Minister of the Navy, is to be presented to the chambers in this session. As we already have, in the colonies, lieutenants-judges, it is thought that the admiral will complete the ranks of this small naval army with ensigns and trainee judges.
+  </p>
+
+  <p>
+    — It is said that M. Royer-Dubuisson, lieutenant judge at the tribunal of Fort-Royal, is called to replace M. Arsène Nogues in the functions of procureur-general at the royal court of Martinique.
+  </p>
+
+  <p>
+    — MM. Aubert-Armand, prosecutor of the king at Saint-Pierre, and Robillard, prosecutor of the king at Fort-Royal, are appointed councillors at the royal court of Martinique.
+  </p>
+
+  <pb n="44" facs="v1n8p44"/>
+
+  <p>
+    — M. Reboul, former magistrate at Pondicherry, is appointed councillor at the royal court of Guadeloupe.
+  </p>
+
+  <p>
+    — M. Foignet, former delegate of the planters of Guadeloupe, presented to the French Society for the Abolition of Slavery a protest against the existence of that society. We are assured that the reading of this factum provoked much hilarity among the members of the said society.
+  </p>
+</div>
+
+<div xml:id="polémique">
+  <head n="Polémique.">POLEMIC.</head>
+
+  <p>
+    One thing has always astonished us: that where the social edifice rests on the executioner, where the executioner is the keystone of society, without which everything would collapse and fall into misfortune, one has not granted the executioner honors and rewards proportionate to the social importance he has. In certain of our colonies especially, this eminent functionary, this right arm of the executive power, this indispensable auxiliary of justice as it is understood there, this pillar of civil order, ought to be surrounded with homage and respect; in truth, properly considered, he is the first magistrate of the country.
+  </p>
+
+  <p>
+    And that must be. In all countries, says a Chinese philosopher, where the axe, the saber, and the noose are the principal means of government and are the essence of legislation, then he who puts to work the axe, the saber, and the noose must naturally, O mandarins, be regarded there as one of the foremost and most useful citizens. »
+  </p>
+
+  <p>
+    Better still: there, the executioner must arouse a universal joy; his sight must be sweet to the heart of honest people, like that of a permanent savior, and all classes of the population must applaud the just punishments he inflicts!
+  </p>
+
+  <p>
+    We recently read in the Moniteur a sort of reply to an article in the Revue des Colonies in which we reproached M. the procureur-general of Martinique for having had a death sentence carried out on two slaves despite their appeal in cassation. The Moniteur first informs us that these two slaves were condemned for a crime duly established. « The question of a stay, according to a report of M. the governor of Martinique cited by the Moniteur, having been resolved negatively in the privy council, the execution took place on 2 September, and all classes of the population applauded the just punishment that was inflicted for an atrocious crime. » All classes of the population applauded! This is what M. the governor shows himself satisfied with in the highest degree. If all classes of the population had carried the executioner in triumph, M. the governor would not have found expressions strong enough to convey his satisfaction and to have it shared by the government.
+      <pb n="45" facs="v1n8p45"/>
+  </p>
+
+  <p>
+    In truth, we do not understand that at a time when all that is wise and philosophical pursues the abolition of the death penalty, when eloquent voices protest on all sides against the scaffold, there should be found a high official lacking in modesty to the point of saying that all classes of a population applauded the application of the ultimate punishment, whoever the condemned might be. We understand still less that such expressions, which betray in those who utter them the most regrettable preoccupations of mind, can thus be given to the public, in the government’s official journal, among a people as advanced in civilization as the French people, where now the execution of a death sentence is no more than a general subject of affliction and mourning.
+  </p>
+
+  <p>
+    M. the governor’s expression is moreover, we have no doubt, a calumny against all classes of the population of Martinique, save for a small number of individuals. There is none so foreign to sentiments of humanity as to applaud a strangulation by the hand of the executioner, however necessary one may believe it, and even if one judged it the most just in the world; there, as elsewhere, one grieves at the putting to death of a man, whatever his condition may be. Everyone there wishes, as in France, that the axe, the saber, and the noose cease to be the principal means of government and the essence of legislation. One leaves to the party of oligarchy alone, with which M. the governor seems to make common cause, to show itself inconsistent and ungrateful, by not honoring the executioner who renders it such valuable services as one of the foremost and most useful citizens, as the Chinese philosopher we cited above has said. There is, we repeat, ingratitude and inconsistency in that party.
+  </p>
+
+  <pb n="46" facs="v1n8p46"/>
+
+  <p>
+    Given the course things are taking, we would not be surprised if, when the public exposure takes place of our unfortunate compatriots convicted in the affair of the Grand’Anse, and over which the executioner will preside, the Martinican oligarchy were to ask M. the Director of the Colonies for the cross of honor for this indispensable magistrate who alone ensures public order in Saint-Pierre, in Fort-Royal, in La Trinité, in Le Lamentin, and elsewhere. Besides, the démarche of the Martinican oligarchy, we can assure it, would not be in vain with M. the Director of the Colonies. We know M. Saint-Hilaire too well to doubt for an instant that, as a just appraiser of merit and of services rendered to order and the laws, he would not hasten to adorn the buttonhole of the executioner of high works with the same ribbon that makes so fine a figure on that of MM. Richard-Lucy and Arsène Nogues.
+  </p>
+</div>
+
+<div xml:id="bibliographie">
+  <head n="Bibliographie.">BIBLIOGRAPHY.</head>
+
+  <div xml:id="émancipation-marquis-de-sainte-croix">
+    <head n="Émancipation des esclaves aux colonies françaises, mémoire présenté au gouvernement par m. le marquis de sainte-croix. brochure in-8. avec cette épigraphe : l’homme est né libre, l’esclavage est l’exception. wilberforce.">
+      EMANCIPATION OF SLAVES IN THE FRENCH COLONIES, memorandum presented to the government by M. the Marquis de Sainte-Croix. Octavo pamphlet. With this epigraph: man is born free; slavery is the exception. WILBERFORCE.
+    </head>
+
+    <p>
+      Here is a singular phenomenon; here is a planter, or at least an owner of plantations and of Blacks, who pleads for the emancipation of slaves and holds the old colonial system to be worn out and absurd; he goes so far as to call courageous the writers who have drawn the government’s attention to these important questions, and even to claim that these writers have been exposed to persecutions and clamors. What a scandal in the French Antilles! Free people of color and enslaved Blacks who live down there, be on your guard! And if the whip, the brand, etc., etc., inspire in you any repugnance, do not read the incendiary pamphlet of M. de Sainte-Croix! Yet, in order to flee danger, one must know it: I will therefore tell you something about it, I who, on this side of the Atlantic, have no need to fear the rods of the planters.
+    </p>
+
+    <p>
+      M. de Sainte-Croix is an honest man whose heart has not been hardened by the habit of seeing poor Blacks suffer; their degradation moves him; their labors afflict him; their food composed of two and a half pots of manioc flour and three pounds of salt cod per week (and often, he dares to say, they have only the three pounds of leathery fish without the flour); their insufficient clothing; their hut furnished with a plank to sleep on, open to all the bad weather of the rainy season; the ill-treatment of which they are victims; the invalids given to them when, grown old, they hole up and vegetate in a hut to watch a banana grove or a field of cane; their feelings as husbands, fathers, sons, stifled: all this irritates M. de Sainte-Croix and inspires in him complaints that in our mouth or under our pen would be treated as declamations and horrible lies. For, you see, it is agreed: for the Black everything is for the best in the best of possible colonies; it is an Eden for him, and we are nothing but a pack of instigators to insurrection.
+      <pb n="47" facs="v1n8p47"/>
+    </p>
+
+    <p>
+      M. de Sainte-Croix assures that, in the planters’ view, slavery is a state preferable to that of cultivators in France, enjoying full freedom of action, to be sure, but subject to the inconveniences of poverty and to the variation of harsh seasons. We had already heard of this singular opinion; but it is valuable to find it so plainly formulated by a man who has no interest in distorting things; and, to know exactly what to think about the preference to be granted to blessed slavery, let one consult a little the poorest of French peasants: we doubt he would be very sensitive to the seductions of dry cod, of the whip, of the sale of his children, of the prostitution of his daughters, and even to the comforts of the hut among banana groves. The peasant, if you will, is the wolf of that profound philosopher called La Fontaine. The dog says to him:
+      <q>
+        Leave the woods, you will do well: Your kind there are wretched, Scrapers, beggars, and poor devils, Whose condition is to die of hunger. For what? nothing is assured! no frank meal! {Not even dry cod.) Always at the point of the sword! Follow me, you will have a far better destiny.
+      </q>
+    </p>
+
+    <pb n="48" facs="v1n8p48"/>
+
+    <p>
+      The wolf is already forging for himself a happiness That makes him weep with tenderness. As they went along he saw the dog’s neck rubbed bare:
+    </p>
+
+    <p>
+      What is that? he said to him. — Nothing. — What, nothing! — Little. — But still? — The collar by which I am attached May perhaps be the cause of what you see. Attached!… said the wolf: so you do not run Where you wish? — Not always, but what does it matter? — It matters so much that, of all your meals (cod.) I want none at all, And would not even at that price have a treasure. Having said that, Master Wolf fled and runs still.
+    </p>
+
+    <p>
+      The planters truly wish too much good to French peasants. The latter do quite well without the assured existence and happiness of these gentlemen’s slaves.
+    </p>
+
+    <p>
+      The pamphlet of M. de Sainte-Croix has as its object the state in which our colonies find themselves, in the face of the immense revolution accomplished in the English colonies by the bill of August 1853; this state is no longer tenable indeed: whoever has sense and logic understands it sufficiently, and whoever has foresight calls for a prompt and radical change in our system. M. de Sainte-Croix proposes to imitate the conduct of the English government while modifying it, for the bill seems to him to contain serious imperfections, which he studies too rapidly, and which required a longer work to be properly discussed. I refer to the pamphlet itself for an appraisal of the plan proposed by the author: this plan would certainly offer matter for critique, especially with regard to corporal punishments whose retention he does not disapprove. Whether the executioner is commanded by the planter shaded by a straw hat, or by the magistrate dressed in his robe, reason and humanity want his intervention only in the cases foreseen by the penal code, and even then under the control of new authorities sent to the colonies for the emancipation of slaves, although M. de Sainte-Croix regards these new authorities as useless, because they would be exposed to an infinity of local vexations. What does it matter? if they could not silence the vexations, they would disregard them. This pamphlet is very valuable, not precisely because of the emancipation plan it presents, but because the character and social position of its author make it a strong justification for the complaints that have for so long resounded against slavery and the colonial system.
+                  </p>
+               </div>
+            </div>
+         </div>
+         
          </div>
       </body>
    </text>
