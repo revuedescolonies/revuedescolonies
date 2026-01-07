@@ -36,6 +36,27 @@
     }
   },
   {
+    "teiBasePath": "RdCv1n6",
+    "title": {
+      "en": "Volume 1, Issue 6",
+      "fr": "Volume 1, numéro 6"
+    }
+  },
+  {
+    "teiBasePath": "RdCv1n7",
+    "title": {
+      "en": "Volume 1, Issue 7",
+      "fr": "Volume 1, numéro 7"
+    }
+  },
+  {
+    "teiBasePath": "RdCv1n8",
+    "title": {
+      "en": "Volume 1, Issue 8",
+      "fr": "Volume 1, numéro 8"
+    }
+  },
+  {
     "teiBasePath": "RdCv2n1",
     "title": {
       "en": "Selections of Volume 2, Issue 1",
