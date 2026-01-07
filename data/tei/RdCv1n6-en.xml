@@ -394,5 +394,8 @@ CARLILE, REV. JAMES, Belfast. Moonson (Richard), esq., Whit by.
 </div></div>
 
       </body>
+      <back>
+         <xi:include href="shared/entities.xml"/>
+      </back>
    </text>
 </TEI>

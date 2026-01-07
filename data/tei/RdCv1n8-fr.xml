@@ -15,7 +15,7 @@
    </teiHeader>
    <text>
       <front>
-         <pb n="1" facs="v1n8p1"/>
+         <pb n="1" facs="v1n8f1"/>
          <titlePage>
             <titlePart type="main">
                   <seg>REVUE</seg><lb/>DES<lb/><seg>COLONIES,</seg>
@@ -29,14 +29,14 @@
                <pubPlace><settlement>PARIS</settlement>,<lb/> AU BUREAU DE LA REVUE DES COLONIES, <lb/>46, RUE NEUVE-SAINT-EUSTACHE</pubPlace><lb/><date>1835</date>.
             </docImprint>
          </titlePage>
-         <pb n="2" facs="v1n8p2"/>
+         <pb n="2" facs="v1n8f2"/>
          <docImprint>
             Paris.—Imprimerie de Poussielgue, rue du Croissant-Montmartre, 12.
          </docImprint>
       </front>
       <body>
          <div>
-            <pb n="3" facs="v1n8p3"/>
+            <pb n="3" facs="v1n8f3"/>
             <head n="Revue des colonies"><seg>REVUE</seg><lb/>DES <lb/><seg>COLONIES</seg></head>
             <div xml:id="presse-aux-colonies"><head n="De la presse aux colonies">DE LA PRESSE AUX COLONIES</head>
                <p>
@@ -55,7 +55,7 @@
                   <orgName ref="SdJ">société des jésuites</orgName> 
                   qu'on a eu tant de peine à détruire, nous dirons:
                </p>
-               <pb n="4" facs="v1n8p4"/>
+               <pb n="4" facs="v1n8f4"/>
                <p>
                   Nous voulons étre comme nous sommes, ou ne pas être. 
                   <foreign>Simus ut sumus, aut non sumus</foreign>.
@@ -80,7 +80,7 @@
                </p>
                <p>
                   Secondés en cela par le gouvernement qui veut garder la haute main partout où il le peut, ils sont encore à l'abri des investigations
-                  <pb n="5" facs="v1n8p5"/>
+                  <pb n="5" facs="v1n8f5"/>
                   incessantes de la presse, et c'est ce qui fait qu'ils n'ont pas à répon dre encore à ce juge d'instruction de tous les jours, à cette puissante intervention des journaux dans les affaires d'un pays qui, à la longue, y établit l'ordre et l'égalité. 
                </p>
                <p>
@@ -126,7 +126,7 @@
                </p>
                <p>
                   Ce que je viens de dire sur les imprimeurs s'applique aussi aux journaux. Les lois de la métropole sur cette matière donnent au gouvernement assez de moyens répressifs; si cependant on jugeait
-                  <pb n="6" facs="v1n8p6"/>
+                  <pb n="6" facs="v1n8f6"/>
                   que les colonies ne sont pas encore assez civilisées, ni assez anciennes dans l'usage de la liberté de la presse périodique, on pourrait, sans nuire entièrement à cette industrie, et en se conformant à l'article 7 de la charte de 1830 sur l'abolition de la censure, concilier et les garanties du pouvoir colonial et les droits acquis aux citoyens.
                </p>
                <p>
@@ -165,7 +165,7 @@
                      <title ref="#LOC">loi organique</title>
                   </bibl>  
                   où se lit une disposition à ce sujet. Mais à qui cette loi dérisoire rendue contre le droit, et par là même dépouillée du caractère véritable de la <emph>loi</emph>, qui seul la rend respectable, à qui cette étrange loi, dite organique des colonies, confère-t-elle le droit de statuer sur la presse dans nos possessions d'outre-mer et d'en régler la
-                  <pb n="7" facs="v1n8p7"/>
+                  <pb n="7" facs="v1n8f7"/>
                   police? Au pouvoir royal. Ce sera donc par ordonnance ministérielle <emph>rédigée</emph> par 
                   <persName ref="#StH">M. St.-Hilaire</persName>
                   et consorts que nos colonies auront une institution sur la presse, et l’on sait ce qu’on peut attendre de M. St-Hilaire et consorts. 
@@ -202,7 +202,7 @@
                </p>
                <p>
                   Code noir. L’art. 28 déclare que les nègres esclaves ne peuvent
-                  <pb n="8" facs="v1n8p8"/>
+                  <pb n="8" facs="v1n8f8"/>
                   rien posséder qui ne soit à leurs maîtres ; leurs 
                   <choice>
                      <orig>enfans</orig>
@@ -287,7 +287,7 @@
                            </choice>
                            , et avec contusion ou effusion de sang, il sera puni de mort sans rémission.
                         </p>
-                        <pb n="9" facs="v1n8p9"/>
+                        <pb n="9" facs="v1n8f9"/>
                         <p>
                            Art. 16. — Pourront les maîtres, lorsqu’ils croiront que leurs esclaves l’auront mérité, les faire enchaîner et battre de verges et de cordes, sans néanmoins les excéder de coups; chaque châtiment ne pouvant aller 
                            <choice>
@@ -321,7 +321,7 @@
                         </p>
                         <p>
                            Art. 34. — Défendons à tous aubergistes, cabaretiers ou gens libres de la ville de donner gîte ou retraite à un esclave des villes
-                           <pb n="10" facs="v1n8p10"/>
+                           <pb n="10" facs="v1n8f10"/>
                            des campagnes, à l’exception des voyageurs, porteurs d’ordres de leurs maîtres, à peine de 500 livres d’amende. 
                         </p>
                         <p>
@@ -343,7 +343,7 @@
                               <reg>différents</reg>
                            </choice> 
                            maîtres de s’assembler sur les habitations, à l’entrée des bourgs, sur les grands chemins et lieux écartés, sous peine de punition corporelle , qui ne pourra être moindre que le fouet et la marque , et même de mort en cas de circonstances aggravantes; auquel cas les maîtres qui l’auront souffert perdront le prix de leurs esclaves, et celui sur l’habitation duquel se sera passé le dés-
-                           <pb n="11" facs="v1n8p11"/>
+                           <pb n="11" facs="v1n8f11"/>
                            ordre, et qui l’aura également souffert, sera condamné à 500 livres d’amende , applicables, moitié au profit de la caisse publique, l’autre moitié au profit des officiers de police qui auront arrêté lesdits esclaves. 
                         </p>
                         <p>
@@ -389,7 +389,7 @@
                         </p>
                         <p>
                            Art. 48. — Dans tous les cas d’infraction au présent règlement, 
-                           <pb n="12" facs="v1n8p12"/>
+                           <pb n="12" facs="v1n8f12"/>
                            sur lesquels il n’est point spécialisé de peine dans les articles précédons la punition sera déterminée d’après la gravité des faits par 
                            <roleName>MM. les procureurs du roi</roleName>
                            , sous notre approbation. 
@@ -426,7 +426,7 @@
                <p>
                   <q>
                      Les lois criminelles qui nous régissent ont été faites sous I inspiration et au profit de la monarchie absolue. Nous sommes la nation sociable par excellence, et la législation nous traite comme
-                     <pb n="13" facs="v1n8p13"/>
+                     <pb n="13" facs="v1n8f13"/>
                      <q>une multitude en révolte permanente</q>
                   </q>
                   L’illustre <persName>Foy</persName> stigmatisait ainsi notre législation pénale, celle qui nous gouverne encore et qui 
@@ -492,7 +492,7 @@
                      </choice>
                   </emph> 
                   de trente membres, attaché à chaque cour d’assises ; c’est le <roleName>gouverneur</roleName> qui compose ce collège à son gré; il
-                  <pb n="14" facs="v1n8p14"/>
+                  <pb n="14" facs="v1n8f14"/>
                   en dresse la liste, sans que cette liste puisse être aucunement critiquée comme en <placeName>France</placeName> celle du jury, par le droit reconnu à toute personne inscrite de demander la radiation ou l’inscription de telle autre. Enfin, et ce qui doit être principalement, remarqué, dans des pays où les races noire et blanche sont malheureusement divisées par l’inimitié profonde et presque instinctive du colon blanc envers l’homme d’origine africaine ou de sang mêlé, le 
                   <choice>
                      <orig>collége</orig>
@@ -528,7 +528,7 @@
                      <reg>Qu'ils</reg>
                   </choice> 
                   s’entendent, s’ils peuvent pour les exercer. Les quatre assesseurs sortis de cette épreuve seront juges de tous, et de celui qui défend sa tête, et de celui qui dispute seulement au <roleName>procureur général</roleName> quelques années de sa liberté. C’est peu ; il arrivera peut-être, comme dans l’affaire de la Grand’Anse, que tous les assesseurs successivement désignés par le sort reculant de dégoût devant certains procès, ou craignant
-                  <pb n="15" facs="v1n8p15"/>
+                  <pb n="15" facs="v1n8f15"/>
                   seulement la fatigue des audiences, se fassent excuser et qu’il ne reste plus <emph>qu’un seul nom dans l’urne</emph> pour continuer l’opération du tirage <emph>au sort</emph>. Qu’importe ! ce nom <emph>tombera</emph> ; les accusés ne le récuseront pas, car ils rendraient ainsi la formation du tableau impossible, l’affaire serait renvoyée à une autre session, et les cachots se fermeraient, en attendant <emph>un autre jour de la justice</emph>. Eh bien, ce nom sorti de l’urne, qui n’avait garde de n’en pas sortir, cet assesseur est encore un juge librement choisi par les accusés. 
                </p>
                <p>
@@ -555,7 +555,7 @@
                   et qui en envoie d’un coup <emph>vingt-six</emph> à la potence, qui fait aux hommes de couleur le 
                   <rs type="event">procès de la Grand'Anse</rs> 
                   et qui en condamne <emph>quatre-vingt-sept</emph> d’un coup à périr sur l’échafaud, dans les bagnes, ou dans l’exil perpétuel ! Ce tribunal peut prononcer une condamnation capitale à la simple majorité de <emph>cinq voix</emph>, tandis qu’en France, pour infliger cette terrible peine, il
-                  <pb n="16" facs="v1n8p16"/>
+                  <pb n="16" facs="v1n8f16"/>
                   faut au moins <emph>huit voix</emph>, huit voix de jurés auxquels on peut donner ce nom ; et en <placeName>Angleterre</placeName> l’unanimité ! 
                </p>
                <p>
@@ -586,13 +586,13 @@
                      <bibl type="monogr">(Traduction de DUSSAULX.)</bibl>
                   </cit>
                </note>
-               <pb n="17" facs="v1n8p17"/>
+               <pb n="17" facs="v1n8f17"/>
                <p>
                   ou par plusieurs qui disposent du sort d’une’immense majorité, et qu’elles ne conservent que les privilèges ; quelles soient censées connues, lorsque pour les appliquer il faut les faire sortir de la poudre des chancelleries, et que la vie et la mort des hommes dépendent du hasard ou de l’habileté d’un inquisiteur de textes criminels. Ce sont là sans doute de grands maux contre lesquels luttent depuis long-temps les esprits progressifs ; mais ce qui n’a de nom dans aucune langue, c’est qu'après avoir appliqué une loi atroce on la viole dans ses dispositions humaines, accumulant ainsi dans un seul acte tout ce que l’inhumanité a de plus abject et la tyrannie de plus insolent. C’est un crime nouveau à ajouter à celte longue suite de catastrophes judiciaires qui ont marqué toutes les réformes de la société. Depuis les grands principes de religion et de philosophie jusqu’aux innovations les plus inoffensives il n’est pas en effet une idée nouvelle qui n’ait été frappée d’un réquisitoire. Il ne suffit donc pas d'enregistrer dans les tristes annales de la j uslice les erreurs ou les crimes d'un magistrat; il faut rappeler ces souvenirs, les raviver. La généralité des hommes n’est que trop portée à s’endormir; les esprits sont faibles et routiniers: ils ont besoin de la vue des supplices pour s’attacher à une cause juste : qui dit réforme dit persécution. Puisque donc cet engourdissement, cet égoïsme du monde ne le portent à se réveiller que lorsque tous commencent à trembler pour tous, il est moral, il est humain de consacrer les anniversaires des jours d’oppression. 
                </p>
                <p>
                   Souvenons-nous bien que depuis les premiers temps de l’histoire, depuis les temps héroïques jusqu’au règne de la civilisation, depuis les rois pasteurs jusqu’aux monarques déguisés sous des noms plus ou moins ridicules, tous les pouvoirs qui ont eu la force en main n’ont été composés que d’une poignée d’hommes, riches de la misère générale, et gouvernant, non par le suffrage unanime, mais par le silence universel. Qu’on ne croie pas qu’il peut être dangereux d’immortaliser en quelque sorte les crimes de ceux qui ont gouverné la société. Certes c’est une punition terrible pour quelques individus : mais il y a profit et moralité pour la masse. Et ceux qui, au nom de la loi et malgré la loi, ont livré de bons citoyens aux mains infâmes du bourreau, doivent subir sans se plaindre le carcan de l’opinion publique auquel nous allons les attacher.
-                  <pb n="18" facs="v1n8p18"/>
+                  <pb n="18" facs="v1n8f18"/>
                   C’est dans ces sentimens de deuil, dans ce profond respect pour les droits de l’humanité qu’il nous sera permis de consacrer quelques mots à un douloureux anniversaire, celui du 14 janvier 1824, à la Martinique. 
                </p>
                <p>
@@ -600,7 +600,7 @@
                </p>
                <p>
                   Le surlendemain était le jour destiné à la solennité de cette exécution, et voici dans quelle disposition le public elles condamnés furent appelés à y prendre leur part. La garde nationale venait d’être désarmée, et dès le 14 au matin toutes les avenues de la ville étaient soigneusement gardées par les troupes de ligne ; des piquets de gendarmerie et de dragons stationnaient dans chaque rue. Ces mesures étaient bien prises ; elles font honneur à la logique du pouvoir; elles sont aussi l’éternel honneur de la population de Fort-Royal, en qui un arrêt abominable avait trouvé la plus vive opposition. Seulement, au milieu du silence général, vous eussiez vu arriver de différens points de file, et comme de concert, un cer- tain nombre de figures blanches dont les traits épanouis et dilatés
-                  <pb n="19" facs="v1n8p19"/>
+                  <pb n="19" facs="v1n8f19"/>
                   semblaient annoncer d’avance la représentation de quelque lugubre drame judiciaire, la corde, le gibet, la roue, les fers chauds, toutes choses ayant fait dans tous les temps partie des jouissances aristocratiques. Pour cette classe de spectateurs il était évident que la décision des magistrats n’était pas un secret. 
                </p>
                <p>
@@ -611,7 +611,7 @@
                </p>
                <p>
                   Un capitaine de gendarmerie intime l’ordre de partir :— t Un moment, s’écrie-t-on; on vient d’écrire au gouverneur Donzelot.—Au
-                  <pb n="20" facs="v1n8p20"/>
+                  <pb n="20" facs="v1n8f20"/>
                   gouverneur ! c’est par son ordre exprès, reçu à l’instant, que tout sursis d’une heure , d’une minute est rejeté.— » et le cortège se mit en marche….. 
                </p>
                <p>
@@ -633,7 +633,7 @@
                   (1) Parmi ceux-là on remarquait, aux fenêtres d’une maison voisine du lieu de l’exécution, un des conseillers signataires de l'arrêt, M. Bourk. Il ne faut pas faire grâce à ces hommes, il faut les nommer.
                </note>
             </div>
-            <pb n="21" facs="v1n8p21"/>
+            <pb n="21" facs="v1n8f21"/>
             <div xml:id="commutation-peines-procès-grand-anse">
                <head n="Reflexions sur la commutation des peines dans le procès de la grand’anse.">
                   REFLEXIONS SUR LA COMMUTATION DES PEINES DANS LE 
@@ -641,7 +641,7 @@
                </head>
                <p>
                   Lorsque nous avons publié dans notre livraison du mois de janvier l’article intitulé : Dernier mot sur le pourvoi des condamnés de la Grand’Anse, nous entretenions l'espoir que, celle fois du moins, le sang ne rougirait pas l’échafaud tant de fois dressé à la Martinique, dans l’unique intérêt d’une caste et des préjugés de la peau; nous regrettions, il est vrai, que la Cour de cassation, forcée de se renfermer dans les formes, n’ait pu aborder le fond du procès dans l'épouvantable affaire de la Grand’Anse ; notre regret était d’autant plus vif que cette cour a laissé percer l’idée que ce procès en lui- même était une nouvelle iniquité. Mais elle a dû, ainsi que le public l’a fait de son côté, reconnaître que les leçons que son savoir et son humanité peuvent donner aux juges de nos Antilles ne profitent qu’à leur habileté, sans, en aucune manière, changer leurs principes ni éclairer leurs préjugés. Déjà cette haute magistrature de la métropole avait eu l’occasion d’annuler la forme pour réformer le fond, dans une cause célèbre des colonies, et d’obtenir ainsi un nouvel arrêt plus conforme à un esprit d’équité et de justice impartiale. Toutefois cette décision de sa part, qui, il y a bientôt dix ans, fit tant d’impression en France et aux colonies, n’a pas été perdue pour la Cour royale de la Martinique. Nous voyons en effet, par l’arrêt de la Grand’Anse, que messieurs les juges Perrinelle, Lucy et Duclary n’ont pas voulu fournir à la Cour de cassation une nouvelle occasion de réformer leur sentence sanguinaire, et que, cette fois, ils se sont montrés, non pas plus humains, mais plus experts dans l’observation des formes juridiques. Si, apportant comme dans l’affaire de 1824 une impatience de livrer les victimes au bourreau, ils eussent à peine laissé le temps au greffier de la cour de transcrire sur le plumitif de l’audience les formalités prescrites par le code d’instruction criminelle, leur arrêt du 50 juin 1854 n’eût pas été confirmé ; mais c’est parce qu’ils se sont moins hâtés qu’alors qu’ils ont atteint leur but. Sous le rapport des formalités, leur savoir s’est perfectionné ; sous celui de
-                  <pb n="22" facs="v1n8p22"/>
+                  <pb n="22" facs="v1n8f22"/>
                   l’humanité et de la justice, leur cœur est resté le même ; et tant que nos colonies seront soustraites au droit commun qui régit les Français de la métropole, il en sera toujours ainsi.
                </p>
                <p>
@@ -652,7 +652,7 @@
                </p>
                <p>
                   Si nous voulions ici rentrer dans l’appréciation des faits et de la moralité de ce procès, peut-être trouverions-nous quelque analogie entre l’insurrection de la Grand’Anse et les provocations dont le colonel Caron et le général Ber ton, sous la restauration , sont tombés victimes; mais nous ne voulons qu’indiquer ici ce qu’il y a 
-                  <pb n="23" facs="v1n8p23"/>
+                  <pb n="23" facs="v1n8f23"/>
                   d’inconséquence à commuer après la révolution de juillet en la peine des galères, pour ainsi dire à vie, la peine capitale prononcée par des juges éprouvés déjà en pareille matière, et reconnue exorbitante par la cour suprême; peine surtout qui n’a pour but que d’atteindre ou de punir un délit ou crime politique. Au surplus, dans les différons exemples que nous pourrions puiser parmi tous ceux que nous offre l’histoire des quarante dernières années, la société, en déplorant la perte des victimes de ces diverses époques, n’a pas à flétrir l’hypocrite pitié qui eût pu aussi les envoyer expirer à petit feu à Brest ou à Toulon. 
                </p>
                <p>
@@ -670,7 +670,7 @@
                      <div>
                         <p>
                            Art. 1 er . S. M. le roi de Danemarck accède aux conventions conclues et signées le 50 novembre 1831 et le 22 mars 1833, entre S. M. le roi des Français et S. M. le roi du royaume-uni de la Grande-Bretagne et d’Irlande, relativement à la traite des noirs, ainsi qu’à leur annexe, sauf les réserves et les modifications exprimées dans les art. 2, 3 et 4 ci-après, qui seront considérés comme additionels aux dites conventions et à leur annexe , et sauf la dif-
-                           <pb n="24" facs="v1n8p24"/>
+                           <pb n="24" facs="v1n8f24"/>
                            férence qui résulte nécessairement delà situation de S.M. danoise, comme partie accédante à ces traités après leur conclusion. 
                         </p>
                         <p>
@@ -699,7 +699,7 @@
                         </p>
                         <p>
                            4. Il est convenu, en ce qui se rapporte à l’art. 5 des instructions
-                           <pb n="25" facs="v1n8p25"/>
+                           <pb n="25" facs="v1n8f25"/>
                            annexées à la convention supplémentaire du 22 mars 1833, que tous les navires danois qui, par suite des conventions ci-dessus transcrites , seraient arrêtés par les croiseurs de S. M. le roi des Français ou de S. M. le roi du royaume-uni de la Grande-Bretagne et d’Irlande, employés dans la station d’Amérique , seront conduits et remis aux autorités danoises à Sainte-Croix. 
                         </p>
                         <p>
@@ -724,7 +724,7 @@
             <div xml:id="clémence-royale"><head n="Clémence royale.">CLÉMENCE ROYALE.</head>
                <p>
                   Conformément au rapport rédigé par M. Saint-Hilaire, directeur des colonies, et présenté par le ministre de la marine, le roi a accordé la commutation des peines suivantes aux hommes de couleur libres et esclaves condamnés par arrêt de la cour dite d’assises de
-                  <pb n="26" facs="v1n8p26"/>
+                  <pb n="26" facs="v1n8f26"/>
                   la Martinique, en date du 30 juin 1834, comme ayant pris part à l’affaire de la Grand’Anse. 
                </p>
                <p>
@@ -776,7 +776,7 @@
                   esclaves.
                   est commuée en celle de cinq années de réclusion.
                </p>
-               <pb n="27" facs="v1n8p27"/>
+               <pb n="27" facs="v1n8f27"/>
                <p>
                   Remise est faite de la marque (1) ainsi que du carcan (à la réserve de l’exposition) à tous les condamnés contre lesquels ces peines ont été prononcées.
                </p>
@@ -792,7 +792,7 @@
                   <note>
                      (i) La peine delà marque est abolie en France par la loi du 28 avril 1832. Elle a été abolie aux colonies, pour les esclaves, par ordonnance du 3o avril 1832; l’opinion publique se révolterait même aux colonies si elle était appliquée aujourd’hui. C’est donc une dérision de dire que remise est faite de la marque.
                   </note>
-                  <pb n="28" facs="v1n8p28"/>
+                  <pb n="28" facs="v1n8f28"/>
                   <p>
                      tes, avait produit à Paris un sentiment d’horreur et d'effroi, qui n’a pas permis au public de l’oublier. C’est avec surprise et douleur qu’on avait vu la Cour de cassation rejeter le pourvoi des condamnés; mais un recours restait et on y comptait. Comment croire en effet que ces infortunés qui, réunis et armés, avaient à la première sommation déposé leurs armes sans songer à en faire usage, ne trouveraient pas accès devant la clémence royale ! Ils l’ont trouvé en effet, mais la grâce est presque aussi terrible que l’arrêt. Onze des condamnés, presque tous jeunes gens , n’échappent à la mort que pour subir vingt ans de travaux forcés; quatre autres en subiront quinze années ; les mieux traités dans cette redoutable commutation ne peuvent échapper à une peine infamante et à la flétrissure de l’exposition. Touchante miséricorde! L’infamie comme grâce à des gens dont la conduite, avec quelque rigueur qu’on l’envisage, ne peut être imputée à un sentiment bas ni infâme! Voilà donc la clémence comme on la comprend aujourd’hui! Espérez après cela que l’éloquence et la raison feront triompher à la tribune la cause de l'humanité ! 
                   </p>
@@ -809,7 +809,7 @@
                   </p>
                   <p>
                      Eh bien! ce qui se disait avant l’ordonnance on peut le dire encore après. Cette amnistie n’est qu’une imparfaite réparation. L’affaire de la Grand’Anse était fort peu de chose; les passions font exploi-
-                     <pb n="29" facs="v1n8p29"/>
+                     <pb n="29" facs="v1n8f29"/>
                      tée aux colonies et en ont fait sortir de terribles représailles ; mais ces passions-là ne devaient pas trouver d’écho ni d’appui dans la mère-patrie. Aussi ne peut-on considérer l’amnistie présente que comme un acheminement à une remise complète de supplices affreusement exagérés. 
                   </p>
                </div>
@@ -825,7 +825,7 @@
             <div xml:id="société-fr-pour-abolition-esclavage"><head n="Société francaise pour l'abolition de l'esclavage.">SOCIÉTÉ FRANCAISE POUR L'ABOLITION DE L'ESCLAVAGE. </head>   
                <p>
                   Quelle que soit la distance qui sépare la métropole de ses colonies, et bien qu’elles lui soient plutôt, dans l’état actuel des choses, une charge qu’un avantage, la France n’en éprouve pas moins une sympathie réelle pour ces portions d'elle-mème ; elle se préoccupe et s’émeut de leurs intérêts et des maux qui les affligent ; elle les voudrait voir en tout dignes d’elle, et justifie bien, malgré tout, ce nom de mère-patrie qui lui appartient à tant de titres. Avec ses nobles instincts d’humanité, avec ce large et puissant esprit philosophique et social qui la caractérise, la France devait prendre en considération la grande question de l’esclavage , qui déshonore ses possessions d'outre-mer. Aussi, avant que des voix éloquentes plai
-                  <pb n="30" facs="v1n8p30"/>
+                  <pb n="30" facs="v1n8f30"/>
                   dent pour cette sainte cause devant des chambres françaises, des es- | ne suffit prils élevés, des cœurs généreux, des hommes d’élite en un mot, । leur a PP sans distinction de partis, se sont réunis pour provoquer cette unis par grande mesure de réparation. voquerl 
                </p>
                <p>
@@ -846,7 +846,7 @@
                   </p>
                   <p>
                      Mais, de quelque réprobation qu’une institution soit frappée, d'un quelque visibles qu’en soient devenues les iniquités, le vœu public
-                     <pb n="31" facs="v1n8p31"/>
+                     <pb n="31" facs="v1n8f31"/>
                      ne suffit pas pour la renverser ; et si des intérêts privés lui prêtent leur appui, elle ne succombe d’ordinaire que lorsque des hommes, unis par l’amour du bien, s’entendent et se concertent pour en provoquer la réforme. 
                   </p>
                   <p>
@@ -860,7 +860,7 @@
                   </p>
                   <p>
                      Dès lors on put prévoir quelle serait l’issue du débat. Du moment qu’il existait dans un pays où la presse était libre, et où du haut de la tribune nationale pouvaient être pro clamées toutes les vérités, une association fermement résolue à poursuivre le succès d’une cause qu’il ne fallait qu’expliquer pour lui assurer les sympathies des hommes désintéresses, cette cause devait finir par
-                     <pb n="32" facs="v1n8p32"/>
+                     <pb n="32" facs="v1n8f32"/>
                      triompher. Aussi gagna-t-elle rapidement du terrain. A chaque publication , à chaque discussion nouvelle tombèrent quelques-uns des sophismes à l’aide desquels on défendait la traite ; de session en session s’accrut dans les deux chambres le nombre des adversaires ; et, le23 mars 1807, une loi sanctionnée par d’imposantes majorités en proclama l’abolition. 
                   </p>
                   <p>
@@ -874,7 +874,7 @@
                   </p>
                   <p>
                      D’où vient que la France, à qui un ministre, M. Necker, avait,
-                     <pb n="33" facs="v1n8p33"/>
+                     <pb n="33" facs="v1n8f33"/>
                      dès 1789, fait entendre des vœux si expressifs en faveur des noirs, est restée si long-temps simple spectatrice des efforts faits en Angleterre pour leur émancipation ? Pourquoi, depuis près de vingt ans quelle a recouvré ses colonies, a-t-elle borné ses efforts à l’abolition tardive de la traite et à l’amélioration du sort des hommes de couleur, sans rien faire pour préparer de meilleures destinées aux malheureux dont la servitude y est encore le triste et funeste héritage? Sans doute c’était un souvenir décourageant que celui des désastres de Saint-Domingue, où tant d’imprudences et d’erreurs, nées des rivalités des castes libres, avaient appelé les noirs aux armes avant que les décrets de liberté, sortis tout à coup des orages de la révolution française, vinssent lancer sur ce sol brûlant de nouveauxfermens de haine et de discorde; peut être aussi s’était- il rencontré dans l’époque et les autres stipulations des traités en exécution desquels la législature a fait cesser la traite quelque chose qui avait blessé les susceptibilités nationales; mais de toutes les causes d’une inertie si regrettable à coup sûr la plus puissante fut le manque d’une société spéciale composée d’hommes qui, faisant de l’affranchissement progressif des esclaves le but exclusif et constant de leurs travaux, eussent mis à profit toutes les occasions d’éclairer la conscience publique, et d’obtenir du pouvoir des améliorations dont ils eussent démontré l’urgence et la possibilité. 
                   </p>
                   <p>
@@ -885,7 +885,7 @@
                   </p>
                   <p>
                      Eh bien ! à mesure que cette révolution s’accomplira dans les colonies anglaises, n’étendra-t-elle pas dans les nôtres une influence décisive? Est-ce quand les cris de liberté, partis des rivages voisins, retentiront dans nos îles qu’il sera permis d’y maintenir un régime déjà en butte à tant de colères et de périls? Nous faudra-t-il, pour 
-                     <pb n="34" facs="v1n8p34"/>
+                     <pb n="34" facs="v1n8f34"/>
                      l'y perpétuer, aggraver la rigueur des lois et multiplier les supplices? Nous demandera-t-on de nouvelles escadres et des soldats plus nombreux pour contenir sous un joug abhorré une population d’autant plus impatiente de le briser qu’elle saura qu’ail- leurs il a cessé d’être le partage de la race africaine? Et au milieu des agitations qui ne manqueront pas de surgir , que deviendra le travail ? Que les intéressés y réfléchissent et qu’ils répondent. 
                   </p>
                   <p>
@@ -896,7 +896,7 @@
                   </p>
                   <p>
                      Nous n’avons pas besoin d’affirmer que ce serait à tort qu’on chercherait dans les motifs qui nous guident rien qui se ressente des calculs et des arrangemens qu’enfantent parfois les querelles des partis. Il s’agit ici d’une de ces questions de haute morale sur lesquelles les hommes véritablement éclairés, quelle que soit encore sur d’autres points la divergence de leurs vues, ne sont plus divisés. En Angleterre, Pitt et Fox, Burke et Wilberforce , Canning et
-                     <pb n="35" facs="v1n8p35"/>
+                     <pb n="35" facs="v1n8f35"/>
                      Brougham ont toujours été d’accord pour réclamer l’extinction de la traite, et des lois qui préparassent les esclaves aux bienfaits de la liberté. Il en sera de même dans notre pays. Nous augurons assez bien de ses lumières pour appeler à notre aide tous ceux qui, sous quelque bannière politique qu’ils soient rangés, ont foi dans la dignité humaine et veulent qu’elle soit désormais préservée de toute flétrissure. Qu’ils unissent leurs efforts aux nôtres ; qu’ils nous prêtent leurs concours dans une cause où sont engagés tant d'intérêts de l’ordre le plus élevé, et bientôt l’esclavage aura disparu de tous les lieux où flottent les drapeaux de la France.
                   </p>
                   <p>
@@ -946,7 +946,7 @@
                   </p>
                </div>
             </div>
-            <pb n="36" facs="v1n8p36"/>
+            <pb n="36" facs="v1n8f36"/>
             <div xml:id="cours-économie-industrielle-arts-et-métiers-Blanqui"><head n="Cours d’economie industrielle au conservatoire des arts et métiers, par m. blanqui aîné.">COURS D’ECONOMIE INDUSTRIELLE AU CONSERVATOIRE des arts et MÉTIERS, par M. Blanqui aîné.</head>
                <p>
                   Nous avons promis à nos lecteurs de réunir la suite des études de M. Blanqui sur les colonies, éludes suspendues par quelques jours de repos, et reprises le 9 janvier. 
@@ -965,7 +965,7 @@
                </p>
                <p>
                   Un grand et solennel exemple vient à l’appui de cette doctrine, 
-                  <pb n="37" facs="v1n8p37"/>
+                  <pb n="37" facs="v1n8f37"/>
                   et sera l’éternel honneur de notre époque et d’une nation qui est notre alliée: le 28 août 1855, le parlement anglaisa proclamé l’abolition de l’esclavage dans les colonies de la Grande-Bretagne. Après avoir réformé la condition politique des blancs, on ne tarda pas à penser à la réforme des noirs. La discussion fut admirable; on objectait l’opposition des colons, on craignait qu’ils ne voulussent pas obéir. Canning lui-même, en 1824, dénonça les dispositions hostiles des colons de la Jamaïque : Le gouvernement aurait recours à la force , s’écria-t-il, à la force qui réduirait en poudre « les colons rebelles; mais la mesure proposée n’obtiendra pas la « gloire d’une querelle ; je ne veux point admettre les opposans à » l’honneur de la lutte. Une insurrection pour la liberté du fouet ! « pour le maintien d’un abus! En ne sévissant pas contre eux, « mais en accordant aux opprimés bonne et franche justice, les « colons quitteront ce langage hautain et retomberont dans l'es- « clavage de la raison. (Applaudissemens.) Après tout, la métro- « pôle n’aurait qu’à retirer la main qui les protège et rappeler ses « troupes; mais alors, soyez-en sûrs, le dernier colon serait parti avant le dernier soldat. » (I) 
                </p>
                <p>
@@ -980,7 +980,7 @@
                <note>
                   (I) Le professeur est interrompu pendant quelques minutes par le mouvement que produisent sur l’auditoire ces belles et puissantes paroles dites avec l’accent que dut y mettre le célèbre orateur anglais.
                </note>
-               <pb n="38" facs="v1n8p38"/>
+               <pb n="38" facs="v1n8f38"/>
                <p>
                   parlement contre la traite des nègres; lorsqu’on 1807, l’abolition de l’esclavage fut arrêtée en principe; lorsque dans les années postérieures, et au congrès de Vienne, on vit les Anglais poursuivre la réalisation de ce grand et noble système, et le faire successivement adopter par toutes les nations européennes, la sincérité du gouvernement britannique fut violemment inculpée: l’usage était de le soupçonner de perfidie ; et s’il est incontestable qu’en définitive l’abolition de l’esclavage dans les colonies de l’Angleterre doive être profitable à ses intérêts bien entendus, il était absurde de supposer qu’elle voulûtse priver de colonies comme les siennes pour nous priver de colonies comme les nôtres. Son dernier acte a magnifiquement répondu aux détracteurs. 
                </p>
@@ -992,7 +992,7 @@
                </p>
                <p>
                   Nous regrettons que notre spécialité ne nous permette pas de suivre M. Blanqui dans les recherches auxquelles il se livre sur les effets déplorables du système protecteur en général : des faits nets et précis, des révélations piquantes donnent à la fin de celle leçon un intérêt plusieurs fois manifesté par l'auditoire. Qu’il nous suffise d’avoir exposé comment il envisage une question que, de notre côté,
-                  <pb n="39" facs="v1n8p39"/>
+                  <pb n="39" facs="v1n8f39"/>
                   nous nous vouons à éclaircir, et qu’il nous soit permis aussi de nous féliciter de trouver la consécration de nos doctrines dans celles d’un publiciste aussi distinguée, d’un professeur aimé du public, d’un économiste qui lutte avec tant de talent et de courage pour propager la vérité et amener le règne de la raison. 
                </p>  
             </div>
@@ -1007,7 +1007,7 @@
                         <div>
                            <p>
                               Il vient de se passer ici une chose fort curieuse ; nous avons eu une émeute d’aristocrates , la fine fleur de file, tout ce qu’il y a de privilégiés dans la colonie, contre.... une femme, une femme d’esprit, une Française, épouse d’un des employés de la marine les plus laborieux. Vous voyez que ces messieurs de la haute classe du pays n’y vont pas par quatre chemins. J’oubliais de vous dire le crime de cette femme: madame Letellier, c’est son nom, ayant fait un voyage de santé en France en 1832 , y publia une nouvelle, m’a-t-on dit, dans \cJournal des Femmes, où le préjugé de la peau n’était pas exalté comme l’opinion la plus saine et la plus sociale qu’il se puisse imaginer: inde iroe. Madame Letellier étant revenue ces jours-ci dans la colonie avec son mari, MM. de l’aristocratie blanche résolurent spontanément de tirer vengeance des abominables opinions émises en France par madame Letellier, sans la permission de ces messieurs, oubli grave , crime digne certes de punition. En conséquence, voici de quelle aimable façon ces jeunes hommes lui ont témoigné leur mécontentement à ce sujet. Ils n'ont trouvé rien de mieux que de se porter en masse à la porte de la maison habitée par celte dame, et là, MM. de l’aristocratie ont procédé bravement à un tapage nocturne, en vociférant les injures les plus dégoûtantes contre une femme ! El la honte ne les a pas saisis ! et le rouge ne leur est pas monté au visage ! et les autorités,. si jalouses de faire respecter l’ordre selon leur vue, ont toléré, sinon encouragé, ce scandaleux désordre ! et le gouverneur, aulieu de faire faire
-                              <pb n="40" facs="v1n8p40"/>
+                              <pb n="40" facs="v1n8f40"/>
                               un compliment de condoléance à M. Letellier , l’a en quelque sorte envoyé en exil à Saint-Martin, changeant ainsi de son autorité privée, la destination d’un fonctionnaire envoyé de France dans les colonies par le gouvernement; et tout cela se passe au dix-neuvième siècle, et dans une colonie française ! 
                            </p>
                            <p>
@@ -1038,7 +1038,7 @@
                         <div>
                            <p>
                               Par la lettre que je vous écrivais il y a quelques jours, je vous mandais l’infâme trafic qui se fait maintenant à la Martinique, fa- yorisé par l’autorité, et vous rendais compte d’un triste épisode qui vait eu lieu lors de l’embarquement des derniers esclaves trafi- jués. Comme je tiens à ce que vos articles ne soient pas en butte aux
-                              <pb n="41" facs="v1n8p41"/>
+                              <pb n="41" facs="v1n8f41"/>
                               réfutations Nogues, je m’empresse de vous donner comme positif le fait de la noyade de l’esclave nommé Marius, appartenant au sieur Fabre, qui l’avait vendu sous condition d’exil comme mauvais sujet. Le cadavre de cet infortuné n’est pas retrouvé; il faut croire qu’il a été la pâture de requins voraces si fréquens dans les parages de la Pointe-Lamarre, où cet esclave a été noyé. 
                            </p>
                         </div>
@@ -1051,7 +1051,7 @@
                <div xml:id="jamaïque"><head n="Jamaïque.">JAMAÏQUE.</head>
                   <p>
                      Comme nos lecteurs seront désireux de savoir ce qu’on doit espérer du système adopté, et que la question importante qui vient d’être résolue ici et dans les autres colonies britanniques intéresse au plus haut point nos compatriotes d’Europe, nous ne croyons pas pouvoir employer un meilleur moyen de contenter les deux parties que de mettre sous leurs yeux l’analyse des lettres qui nous parviennent de tous les points del’ile; elles prouveront aisément qu’à l’exception de la paroisse de Sainte-Anne, et d’un léger entêtement manifesté sur quelques propriétés, dans la paroisse de Saint-Thomas, in the vale , la colonie jouit d'une parfaite tranquillité; les apprentis se conduisent aussi bien que possible, et même beaucoup mieux qu’on n’était en droit de l’espérer. Nous avons dit bien souvent que nous étions convaincus que le changement se ferait sans secousse, et que les jours déjà écoulés se passeraient sans toutes les horreurs que beaucoup de gens intéressés au maintien de l'esclavage se plaisaient à prédire; aussi n’est-ce pas de l’étonnement, mais bien de la satisfaction que nous éprouvons à toutes les nouvelles qui nous parviennent, et que nous communiquons au public avec un sentiment d’allégresse, comme une preuve de la justesse de nos prévisions à ce sujet. Nous répéterons encore l’opinion d’un personnage dont l’autorité est grande : « Que « tout dépend des maîtres ou de ceux qui sont chargés desappren- a lis ; s’ils veulent allier la douceur à la fermeté, ne pas empiéter « sur les droits de leurs subordonnés, tout en faisant respecter les « leurs; en un mot s’ils veulent suivre cette loi divine, de ne faire
-                     <pb n="42" facs="v1n8p42"/>
+                     <pb n="42" facs="v1n8f42"/>
                      « à autrui que ce qu’ils seraient bien aise qu’on leur fit, nous « n’aurons pas la plus légère crainte de l’avenir. » 
                   </p>
                   <p>
@@ -1069,7 +1069,7 @@
                </p>
                <p>
                   —M. Saint-Hilaire a assuré aussi au directeur de la Revue des
-                  <pb n="43" facs="v1n8p43"/>
+                  <pb n="43" facs="v1n8f43"/>
                   Colonies que c’est à M. le garde-des-sceaux, ministre de la justice, que l’on doilla sévérité de la commutation faite aux condamnés dans l’affaire de la Grand’Anse,^que lui, M. Saint-Hilaire, avait sollicité pour ces condamnés une commutation de peine moins forte, et dégagée de l’infamie des galères. 
                </p>
                <p>
@@ -1087,7 +1087,7 @@
                <p>
                   — MM. Aubert-Armand, procureur du roi à Saint-Pierre, et Ro- billard, procureur du roi au Fort-Royal, sont nommés conseillers à la cour royale de la Martinique.
                </p>
-               <pb n="44" facs="v1n8p44"/>
+               <pb n="44" facs="v1n8f44"/>
                <p>
                   — M. Reboul, ancien magistrat à Pondichéry, est nommé conseiller à la cour royale de la Guadeloupe. 
                </p>
@@ -1107,7 +1107,7 @@
                </p>
                <p>
                   Nous lisions dernièrement dans le Moniteur une sorte de réponse à un article de la Revue des Colonies dans lequel nous reprochions à M.le procureur-général de la Martinique d’avoir faitexécuter un arrêt de mort sur deux esclaves, malgré leur pourvoi en cassation. Le Moniteur nous apprend d’abord que ces deux esclaves ont été condamnés pour crime dûment avéré. « La question de sursis, selon un
-                  <pb n="45" facs="v1n8p45"/>
+                  <pb n="45" facs="v1n8f45"/>
                   rapport de M. le gouverneur de la Martinique cité par le Moniteur, ayant été résolue négativement en conseil privé , l’exécution a eu lieu le 2 septembre, et toutes les classes de la population ont applaudi au juste châtiment qui a été infligé à un crime atroce. » Toute» les classes de la population ont applaudi! Voilà de quoi M. le gouverneur se montre on ne peut plus satisfait. Que si toutes les classes de la population eussent porté l’exécuteur en triomphe, M. le gouverneur n’eût point trouvé d’expressions assez fortes pour rendre sa satisfaction et la faire partager au gouvernement. 
                </p>
                <p>
@@ -1116,7 +1116,7 @@
                <p>
                   L’expression de M. le gouverneur est d’ailleurs, nous n'enfesons aucun doute, une calomnie pour toutes les classes de la population de la Martinique, hors pour un petit nombre d’individus. Il n’en est aucune assez étrangère aux sentimens d'humanité pour applaudir à une strangulation par la main du bourreau, quelque nécessaire qu’on la croie , et la jugeât-on la plus juste du monde; on gémit là comme ailleurs de la mise à mort d’un homme, de quelque condition qu’il puisse être. Toutlemondey souhaite comme en France, que la hache, le sabre et le nœud coulant cessent d’être les principaux moyens de gouvernement, et l’essence de la législation. On y laisse au parti seul de l’oligarchie , avec lequel semble faire cause commune M. le gouverneur, à se montrer inconséquent et ingrat, en n’honorant pas le bourreau qui lui rend de si précieux services, comme l’un des premiers et des plus utiles citoyens , ainsi que l’a dit le philosophe chinois que nous avons cité plus haut. Il y a à ce parti, répétons-le, ingratitude et inconséquence.
                </p>
-               <pb n="46" facs="v1n8p46"/>
+               <pb n="46" facs="v1n8f46"/>
                <p>
                   Du train dont marchent les choses, nous ne serions pas surpris que, lorsqu’aura lieu l’exposition en place publique de nos malheureux compatriotes condamnés dans l’affaire de la Grand’Anse, et à laquelle présidera le bourreau, l’oligarchie martiniquaise demandât à M. le directeur des colonies la croix d’honneur pour cet indispensable magistrat qui seul assure l’ordre public à Saint-Pierre , au Fort-Royal, à la Trinité, au Lamentin et autres lieux. Du reste la démarche de l’oligarchie martiniquaise, nous pouvons l’en assurer, ne serait pas vaine auprès de M. le directeur des colonies. Nous connaissons trop M. Saint-Hilaire pour douter un instant que, juste appréciateur du mérite et des services rendus à l’ordre et aux lois, il ne s’empressât d’orner la boutonnière de l'exécuteur des hautes œuvres du même ruban qui fait si bien figure à celle de MM. Richard-Lucy et Arsène Nogues. 
                </p>
@@ -1129,7 +1129,7 @@
                   </p>
                   <p>
                      M. de Sainte-Croix est un honnête homme dont le cœur ne s’est point ossifié par l’habitude de voir souffrir les pauvres noirs ; leur dégradation l’émeut; leurs fatigues l’affligent; leur nourriture
-                     <pb n="47" facs="v1n8p47"/>
+                     <pb n="47" facs="v1n8f47"/>
                      composée de deux pots et demi de farine de manioc et de trois livres de morue par semaine (et souvent, ose-t-il dire, ils n’ont que les trois livres du poisson coriace sans la farine) ; leurs vêtemens insuffisans; leur case meublée d’une planche pour dormir, ouverte à toutes les intempéries de l’hivernage ; les mauvais traite- mens dont ils sont victimes ; les invalides qu’on leur donne lorsque devenus vieux ils se nichent et végètent dans un ajoupa pour garder une bananière ou un champ de cannes; leurs sentimens d’époux, de pères, de fils, étouffés, tout cela irrite M. de Sainte- Croix et lui inspire des plaintes que dans notre bouche ou sous notre plume on traiterait de déclamations et d’horribles mensonges. Car, voyez-vous, c’est chose convenue , pour le noir tout est au mieux dans les meilleures des colonies possibles ; c’est un Éden pour lui, et, nous autres, nous ne sommes qu’un tas de provocateurs à l’insurrection. 
                   </p>
                   <p>
@@ -1141,7 +1141,7 @@
                   <p>
                      Le loup déjà se forge une félicité Qui le fait pleurer de tendresse. Chemin faisant il vit le cou du chien pelé :
                   </p>
-                  <pb n="48" facs="v1n8p48"/>
+                  <pb n="48" facs="v1n8f48"/>
                   <p>
                      Qu’est-ce là? lui dit-il. — Rien. —• Quoi rien ! —• Peu de chose. — Mais encor? —Le collier dont je suis attaché De ce que vous voyez est peut-être la cause. Attaché !... dit le loup : vous ne courez donc pas Où vous voulez? — Pas toujours, mais qu'importe? — Il importe si bien que de tous vos repas (morue.) Je ne veux en aucune sorte , Et ne voudrais pas même à ce prix un trésor. Cela dit, maître loup s’enfuit et court encor.
                   </p>
@@ -1157,5 +1157,8 @@
          
          </div>
       </body>
+      <back>
+         <xi:include href="shared/entities.xml"/>
+      </back>
    </text>
 </TEI>
