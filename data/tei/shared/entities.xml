@@ -7,6 +7,197 @@
 -->
 <div xmlns="http://www.tei-c.org/ns/1.0" xml:id="entities">
     <listPerson>
+        <person xml:id="CBe">
+            <persName xml:lang="en">Belair, Charles</persName>
+            <persName xml:lang="fr">Belair, Charles</persName>
+            <birth>1760</birth>
+            <death>1802</death>
+            <note xml:lang="en" type="Person" resp="#chelsea">
+                <p>Charles Bélair was Toussaint Louverture’s nephew and a general in the revolutionary army. He was among the Chausseurs volontaires de Saint Domingue recruited to fight in the 1779 Siege of Savannah during the American Revolutionary War. During the Haitian Revolution, he served first as a lieutenant and then aide de camp for Louverture; he was promoted to colonel and then, as part of the expedition to take the eastern side of the island, was named brigadier general and commander of the district of Santo Domingo. After Louverture’s unlawful arrest and deportation in June 1802, Bélair raised the banner of revolt against the French expeditionary forces. Leclerc’s forces arrested his wife and mother, forcing Bélair out of hiding and leading ot his capture. He was executed on October 15, 1802. To the history of Charles Bélair must be added that of his wife, Sanite Bélair, a warrior in her own right who fought beside the insurgents. She was executed alongside her husband. </p>
+                <bibl>Dayan, Colin,  <title>Haiti, History, and the Gods</title>  . University of California Press, 1995.</bibl>
+                <bibl>Pascal-Trouillot, Ertha and Trouillot, Ernst, eds.,  <title>Encyclopédie biographique d'Haïti</title>  , vol. 1. Éditions SEMIS, 2001.</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#chelsea">
+                <p>Charles Bélair est le neveu de Toussaint Louverture et un général de l’armée révolutionnaire. Il fait partie des Chasseurs volontaires de Saint-Domingue recrutés pour combattre lors du siège de Savannah (Géorgie) en 1779, pendant la guerre d’indépendance américaine. Au cours de la Révolution haïtienne, il sert d’abord comme lieutenant, puis comme aide de camp de Louverture. Promu colonel, il est ensuite nommé général de brigade et commandant du district de Santo Domingo dans le cadre de l’expédition visant à prendre la partie orientale de l’île.  </p>
+                <p>Après l’arrestation arbitraire et la déportation de Louverture en juin 1802, Bélair prend la tête de l’insurrection contre les forces expéditionnaires françaises. Pour le contraindre à se rendre, l’armée de Leclerc arrête sa femme et sa mère, ce qui entraîne son arrestation. Il est exécuté le 15 octobre 1802. L’histoire de Charles Bélair est indissociable de celle de son épouse, Sanité Bélair, elle-même combattante aux côtés des insurgés. Elle est exécutée le même jour que lui.</p>
+                <bibl>Dayan, Colin,  <title>Haiti, History, and the Gods</title>  . University of California Press, 1995.</bibl>
+                <bibl>Pascal-Trouillot, Ertha et Trouillot, Ernst, eds.,  <title>Encyclopédie biographique d'Haïti</title>  , vol. 1. Éditions SEMIS, 2001.</bibl>
+            </note>
+        </person>
+        <person xml:id="ADA">
+            <persName xml:lang="en">Adams, John</persName>
+            <persName xml:lang="fr">Adams, John</persName>
+            <birth>1735</birth>
+            <death>1826</death>
+            <note xml:lang="en" type="Person" resp="#masha #michaël">
+                <p>John Adams stands out among the first American presidents as a northerner who was never an enslaver. In the immediate aftermath of the American Revolution, he opposed efforts to implement large-scale emancipation in his home state of Massachusetts, but, as primary author of the state’s constitution, which included a Declaration of Rights (written after Adams served as Envoy to France), Adams has long been associated with the state’s de facto abolition in 1780. It was only after the 1781 cases of Mum Bett and Quok Walker, enslaved people who cited the language of the constitution in suing for their freedom, that the document, which does not explicitly prohibit slavery, took on this accepted meaning. </p>
+                <p>John Adams’s presidency is notably marked by the establishment of trade relations with Haiti, which was then in conflict with France.  These political positions, in combination with an 1801 letter in which he expresses “abhorrence” to the institution of slavery, claiming to have always employed free men at significant personal expense, have contributed to Adams’ enduring legacy as a committed abolitionist. Recently, historians have called attention to the ways in which his positions were more in line with contemporaries, noting both that, with regard to Haiti, agreement to continue commerce is hardly a statement of ideological sympathy, and that any actual belief in the principle of equality was never public or explicit.</p>
+                <p>
+                </p>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#masha #michaël">
+                <p>John Adams est originaire du Nord des États-Unis et n’a jamais possédé d’esclaves, ce qui le distingue des premiers présidents américains. Bien qu’opposé à l’émancipation générale des esclaves dans son État natal du Massachusetts après la Révolution, il rédige pour le jeune État une constitution qui comprend une Déclaration des droits (il rentre alors d’une mission diplomatique en France) et œuvre de fait à la disparition progressive de l’esclavage dans le Massachusetts. Dans les années qui suivent l’adoption de la constitution en 1780, des personnes esclavisées telles que Mum Bett et Quok Walker n'hésitent pas à invoquer ce document pour poursuivre leur maître et réclamer leur liberté devant les tribunaux.</p>
+                <p>Le mandat de John Adams est notamment marqué par l’établissement de relations commerciales avec Haïti, alors en conflit avec la France. Ses prises de position politiques, ainsi qu’une lettre de 1801 dans laquelle il exprime sa « détestation » de l’esclavage et affirme avoir toujours employé des hommes libres, même lorsque le coût de leur travail était élevé, ont largement contribué à forger sa réputation d’abolitionniste engagé.</p>
+                <p>Cette image a toutefois été nuancée par l’historiographie récente, qui souligne la proximité d’Adams avec ses contemporains sur la question de l’esclavage. Le maintien des échanges avec Haïti, par exemple, ne traduit pas nécessairement une sympathie à l’égard de l’indépendance haïtienne, et Adams ne s’est jamais publiquement ni explicitement exprimé en faveur de l’égalité raciale.</p>
+                <p>
+                </p>
+            </note>
+        </person>
+        <person xml:id="CB">
+            <persName xml:lang="en">Bissette, Cyrille Charles Auguste</persName>
+            <persName xml:lang="fr">Bissette, Cyrille Charles Auguste </persName>
+            <birth>1795</birth>
+            <death>1858</death>
+            <note xml:lang="en" type="Person" resp="#masha">
+                <figure>
+                    <graphic url="portrait_Bissette_b827ac99f2.jpg"/>
+                    <figDesc>Portrait de Cyrille Bissette. Courtesy of the Schomburg Center for Research in Black Culture</figDesc>
+                </figure>
+                <p>Born in Fort-Royal (now Fort-de-France, Martinique) on July 9, 1795, Cyrille Charles Auguste Bissette was the founder and editor-in-chief of the Revue des Colonies, the first French press outlet to advocate for immediate and total abolition. His parents, Charles Borromée Bissette and Elizabeth Mélanie Bellaine, were free people of color, and his mother was the illegitimate daughter of Joseph-Gaspard de Tascher de La Pagerie, making Bissette a nephew of Empress Joséphine de Beauharnais.</p>
+                <p>In 1816, Bissette married Augustine Séverin, a free woman of color, with whom he had four children. During these early years in Fort-Royal, Bissette was not engaged in abolitionist activities, and was in fact himself a slaveowner, taking part, in 1822, in the suppression of a slave revolt in the village of Le Carbet. The following year, however, he was arrested, along with six other free men of color — Montlouis Thébia, Joseph Richer, Joseph Millet, Laborde, Louis Fabien, <title>fils</title> and Jean-Baptiste Volny — for possession and alleged distribution of a seditious pamphlet printed in Paris, entitled <title>De la situation des hommes de color libre aux Antilles françaises </title>(which Bissette was alleged to have written).</p>
+                <p>Accused as architects of a plot to overthrow the segregationist organization of Martinican society, Bissette, Fabien, <title>fils</title> and Volny were branded and sentenced to the galleys for life. In 1827, with the help of attorney François Isambert, Bissette’s sentence was reduced to ten years’ banishment and the legal costs of the proceedings, which would remain a substantial burden. Garnering significant media coverage, the so-called <title>Affaire Bissette </title>catalyzed his political career.</p>
+                <p>In Paris, Bissette participated in the <title>Trois Glorieuses </title>(“the three glorious days” of riots that led to the end of the reign of Charles X and the restored Bourbon dynasty), which earned him the decoration of the July Cross, frequented Republican circles such as the <title>Free Association for the Education of the People</title>, joined a Masonic lodge, published several emancipatory petitions, and founded the <title>Revue des Colonies, </title>a press organ for the cause of the total and immediate abolition of slavery. This radical position would put him at odds with the majority of the French abolitionist community, including Victor Schoelcher, the eventual author of the 1848 decree. The distance between these two abolitionists develops into a rivalry after the publication of Schoelcher’s <title>Des Colonies Françaises</title>, which Bissette harshly criticizes for its stigmatizing, indeed, uninhibitedly racist, characterization of the free population of color of the Antilles. Overshadowed by the cult of Schoelcher in the assimilationist intellectual bourgeoisie, Bissette is deliberately written out of abolitionist history for his later reconciliationist platform and his strategic alliance with a white planter in the legislative elections of 1849.</p>
+                <bibl>Bongie, Chris. “1835, ou ‘Le troisième cycle’: The Creole Afterlives of Cyrille-Charles Auguste Bissette, Louis de Maynard de Queilhe, and Victor Schoelcher.” In  <title>Islands and Exiles: The Creole Identities of Post/Colonial Literature</title> . Stanford: Stanford University Press, 1998. 264-287, 323-340.</bibl>
+                <bibl>Bongie, Chris. “A Street Named Bissette: Assimilating the Cent-cinquantenaire of the Abolition of Slavery in Martinique (1848–1998).” In  <title>Friends and Enemies, </title> vol.3. Liverpool: Liverpool University Press. 2008. 185‑220.</bibl>
+                <bibl>Jennings, Lawrence C. “Cyrille Bissette, Radical Black French Abolitionist.” French History 9.1 (1995): p. 48-66</bibl>
+                <bibl>Jennings, Lawrence C.  <title>French Anti-Slavery: The Movement for the Abolition of Slavery in France, 1802-1848</title> . Cambridge: Cambridge University Press, 2000. 29-37, 49-50, 71-73, 266-69.</bibl>
+                <bibl>Mesnard, Eric. “Les Mouvements de Résistance dans les colonies franchisées : L'affaire Bissette (1823-1827).” In  <title>The Abolitions of Slavery : From Leger Felicite Sonthonax to Victor Schoelcher, 1793, 1794, 1848</title> , edited by Marcel Dorigny. Paris: UNESCO, 2003. 293-97.</bibl>
+                <bibl>Pâme, Stella.  <title>Cyrille Bissette: un martyr de la liberté</title> . Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#masha">
+                <figure>
+                    <graphic url="portrait_Bissette_b827ac99f2.jpg"/>
+                    <figDesc>Portrait de Cyrille Bissette. Courtesy of the Schomburg Center for Research in Black Culture</figDesc>
+                </figure>
+                <p>Né à Fort-Royal (Martinique) le 9 juillet 1795, Cyrille Charles Auguste Bissette est le fondateur et rédacteur en chef de la <title>Revue des Colonies</title>, premier organe de presse à plaider publiquement pour une abolition immédiate.</p>
+                <p>Ses parents Charles Borromée Bissette et Elizabeth Mélanie Bellaine, étaient libres de couleur. Par sa mère, la fille naturelle de Joseph-Gaspard de Tascher de La Pagerie, Cyrille Bissette est un neveu de Joséphine de Beauharnais.</p>
+                <p>En 1816, Bissette épouse Augustine Séverin, une femme de couleur libre, avec qui il a quatre enfants. Négociant et propriétaire d’esclaves, il n’est pas encore engagé dans le mouvement antiesclavagiste, participant, en 1822, à la répression de la révolte du Carbet. Quelque mois plus tard, cependant, il est arrêté, ainsi que six autres hommes de couleur libres — Montlouis Thébia, Joseph Richer, Joseph Millet, Laborde, Louis Fabien, fils et Jean-Baptiste Volny — pour détention et distribution présumées d’un pamphlet séditieux imprimé à Paris, <title>De la situation des homme de couleur libre aux Antilles françaises </title>(que Bissette aurait écrit).</p>
+                <p>Jugés comme meneurs présumés d’un complot visant à renverser l’organisation ségrégationniste de la société martiniquaise, Bissette, Fabien <title>fils </title>et Volny sont marqués au fer rouge et condamnés aux galères à perpétuité. En 1827, avec l’aide de l’avocat François Isambert, Bissette voit sa peine réduite à dix ans de bannissement et les frais juridiques de la procédure, qui demeureront un fardeau important. Bénéficiant d’une importante couverture médiatique, la dénommée « Affaire Bissette » donne l’impulsion à sa carrière politique.</p>
+                <p>A Paris, Bissette participe aux Trois Glorieuses ce qui lui vaudra d’être décoré de la Croix de Juillet, fréquente les cercles républicains comme l’<title>Association libre pour l'éducation du peuple</title>, rejoint une loge maçonnique, publie plusieurs pétitions à visée émancipatrice, et fonde la <title>Revue des Colonies, </title>organe de presse pour ses plaidoyers pour une abolition totale et immédiate de l'esclavage. Cette position radicale le met en porte-à-faux avec la majorité de la communauté abolitionniste française,dont Victor Schoelcher. \</p>
+                <p>La distance entre les deux abolitionnistes tourne au conflit après la publication <title>Des Colonies Françaises </title>de Schoelcher, que Bissette critique sévèrement pour sa caractérisation stigmatisante - allant jusqu’au racisme décomplexé - de la population de couleur libre des Antilles. Occulté par le culte de Schoelcher dans la bourgeoisie intellectuelle assimilationniste, Cyrille Bissette est rejeté de la mémoire collective pour sa plateforme réconciliationniste et son alliance stratégique avec un planteur blanc aux élections législatives de 1849.</p>
+                <bibl>Bongie, Chris. “1835, ou ‘Le troisième cycle’: The Creole Afterlives of Cyrille-Charles Auguste Bissette, Louis de Maynard de Queilhe, and Victor Schoelcher.” In  <title>Islands and Exiles: The Creole Identities of Post/Colonial Literature</title> . Stanford: Stanford University Press, 1998. 264-287, 323-340.</bibl>
+                <bibl>Bongie, Chris. “A Street Named Bissette: Assimilating the Cent-cinquantenaire of the Abolition of Slavery in Martinique (1848–1998).” In  <title>Friends and Enemies, </title> vol.3. Liverpool: Liverpool University Press. 2008. 185‑220.</bibl>
+                <bibl>Jennings, Lawrence C. “Cyrille Bissette, Radical Black French Abolitionist.” French History 9.1 (1995): p. 48-66</bibl>
+                <bibl>Jennings, Lawrence C.  <title>French Anti-Slavery: The Movement for the Abolition of Slavery in France, 1802-1848</title> . Cambridge: Cambridge University Press, 2000. 29-37, 49-50, 71-73, 266-69.</bibl>
+                <bibl>Mesnard, Eric. “Les Mouvements de Résistance dans les colonies franchisées : L'affaire Bissette (1823-1827).” In  <title>The Abolitions of Slavery : From Leger Felicite Sonthonax to Victor Schoelcher, 1793, 1794, 1848</title> , edited by Marcel Dorigny. Paris: UNESCO, 2003. 293-97.</bibl>
+                <bibl>Pâme, Stella.  <title>Cyrille Bissette: un martyr de la liberté</title> . Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
+            </note>
+        </person>
+        <person xml:id="AHav">
+            <persName xml:lang="en">Auguste Eugénie, known as "Havre"</persName>
+            <persName xml:lang="fr">Auguste Eugénie, dit « Havre »</persName>
+            <note xml:lang="en" type="Person" resp="#jessica">
+                <p>Auguste Eugénie, known as "Havre," was one of the key figures in the revolt of the colored militia in Grand'Anse, Martinique, in December 1833. His freedom was officially recognized on May 20, 1831, for his services in the militia. Two years later, he was married and owned the 30,000 francs in land and slaves required to qualify as a voter. As a non-commissioned officer, the governor considered promoting him to the rank of officer. During the revolt, Auguste Havre is reported to have shouted to the enslaved people at the Montferrier plantation: "We are fighting for you. Long live universal freedom!"</p>
+                <bibl>Hrodej, Philippe (ed),  <emph>L'esclave et les plantations, </emph> Presses universitaires de Rennes, Rennes, 2009.</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#jessica">
+                <p>Auguste Eugénie, dit « Havre », est l'un des protagonistes de la révolte de la milice de couleur de la Grand'Anse, en Martinique, en décembre 1833. Sa liberté est reconnue le 20 mai 1831 pour ses services accomplis dans la milice. Deux ans plus tard, il est marié et possède les 30 000 F en biens-fonds et esclaves exigés pour être électeur. Sous-officier, le gouverneur envisage de le promouvoir officier. Lors de la révolte, Auguste Havre aurait crié aux esclaves de l'habitation Montferrier : « C'est pour vous que nous combattons. Vive la liberté universelle ! ».  </p>
+                <bibl>Hrodej, Philippe (ed),  <emph>L'esclave et les plantations, </emph> Presses universitaires de Rennes, Rennes, 2009.</bibl>
+            </note>
+        </person>
+        <person xml:id="JEF">
+            <persName xml:lang="en">Jefferson, Thomas</persName>
+            <persName xml:lang="fr">Jefferson, Thomas </persName>
+            <birth>1743</birth>
+            <death>1826</death>
+            <note xml:lang="en" type="Person" resp="#michaël #masha">
+                <p>For the period of his life encompassing his time as president, the value of Thomas Jefferson’s personal estate primarily lay in the hundreds of enslaved people laboring at his plantation and mansion, Monticello. Deeply in debt through the end of his life, Jefferson manumitted very few people despite expressing abhorrence to the institution on numerous occasions.</p>
+                <p>His public comments on slavery, whether in the colonial context of <emph>A Summary View of the Rights of British America</emph> (1774) or in the early republic, as in <emph>Notes on the State of Virginia</emph> (1785), his most well-known commentary on the subject, stress the risks and complications of any potential abolition while stopping short of defending the practice outright. In an early draft of the Declaration of Independence, Jefferson blames George III for forcefully maintaining the slave trade in North America, though this condemnation is less a matter of moral outrage than fear of organized rebellion. Jefferson received a copy of <emph>De la littérature des Nègres</emph> (1808), a work excerpted in numerous issues of the Revue des Colonies, directly from Abbé Grégoire. His response actually criticizes the work, whose arguments for equal humanity depend on the intellectual accomplishments of Black people, for implying that rights should be bound to talent. For his own part, Jefferson was notably dismissive of the intellectual talents of Benjamin Banneker, the free-born Black polymath who wrote to him in 1791 demanding (unsuccessfully) that he act according to his professed principles and Phillis Wheatley, the enslaved poet whose work was widely circulated on both sides of the Atlantic.</p>
+                <p>In <emph>Notes</emph>, published in France (while Jefferson was serving as minister to the court of Louis XVI) as a response to questions posed to the Continental Congress by delegate François Barbé-Marbois, Jefferson argues that any large-scale emancipation project would destabilize the young state by plunging it into violent racial conflict. As an alternative, he takes up the nascent cause of colonization, a position roundly criticized by later American abolitionists, most notably David Walker in his <emph>Appeal</emph> (1829). At this time, Jefferson was living with Sally Hemings, an enslaved woman of mixed race and his deceased wife’s half-sister. This sexual relationship, to which Hemings would have had no meaningful way of consenting, was believed to have lasted four decades, producing several children. Hemings experienced the conditions of legal freedom for the first time while in France and returned to Virginia only on the condition that Jefferson would emancipate their children upon their reaching adulthood.</p>
+                <bibl>Finkelman, Paul.  <emph>Slavery and the Founders : Race and Liberty in the Age of Jefferson</emph> . New York: M.E. Sharpe, 1994. <p> </p></bibl>
+                <bibl>Gordon-Reed, Annette. <title>The Hemingses of Monticello : an American family</title>  . New York: W.W. Norton &amp; Co, 2008.</bibl>
+                <bibl>Rossignol, Marie-Jeanne and Michaël Roy, with Marlene L. Daut and Cécile Roudeau, eds.  <title>Anthologie de la pensée noire. États-Unis et Haïti (xviiie-xixe siècles)</title>  . Marseille: Hors d’atteinte, 2023.</bibl>
+                <bibl>Scherr, Arthur.  <emph>John Adams, Slavery, and Race: Ideas, Politics, and Diplomacy in an Age of Crisis</emph> . Santa Barbara: Praeger, 2018. <p> </p></bibl>
+                <bibl>Stanton, Lucia.  <title>“Those who labor for my happiness” : slavery at Thomas Jefferson’s Monticello</title>  . Charlottesville: University of Virginia Press, 2012.</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#michaël #masha">
+                <p>Durant la période de sa vie correspondant à son mandat présidentiel, le patrimoine de Thomas Jefferson est essentiellement constitué des centaines d’esclaves qui travaillent pour lui dans sa plantation et sa résidence de Monticello. Lourdement endetté, Jefferson émancipe très peu de personnes au cours de sa vie, et ce alors même qu’il exprime à de nombreuses reprises des positions critiques sur l’esclavage.</p>
+                <p>Jefferson évoque la question de l’esclavage dans plusieurs de ses écrits, en particulier <emph>A Summary View of the Rights of British America</emph> (1774) et <emph>Notes on the State of Virginia</emph> (1785), son texte le plus connu. S’il ne défend pas l’institution esclavagiste, il insiste cependant sur les risques et les difficultés de son abolition éventuelle. Dans une première version de la Déclaration d’indépendance, Jefferson reproche à George III d’avoir maintenu la traite en Amérique du Nord, ce qui traduit moins une indignation morale que la crainte de voir les esclaves se soulever. Lorsque l’abbé Grégoire publie <emph>De la littérature des nègres</emph> en 1808, dont de nombreux extraits sont reproduits dans la Revue des Colonies, il fait parvenir un exemplaire à Jefferson. Dans sa réponse à Grégoire, Jefferson critique l’ouvrage, qui, en s’appuyant sur les accomplissements intellectuels des personnes noires pour défendre l’égalité humaine, suggère que les droits humains devraient être conditionnés au talent.</p>
+                <p>En outre, Jefferson fait preuve de condescendance envers Benjamin Banneker, mathématicien noir né libre, qui lui adresse une lettre en 1791 l’exhortant (sans succès) à agir en cohérence avec ses principes égalitaires, ainsi qu’envers Phillis Wheatley, poétesse esclavisée dont les œuvres sont largement diffusées des deux côtés de l’Atlantique.</p>
+                <p>Dans <emph>Notes on the State of Virginia</emph>, publié en réponse aux questions posées au Congrès continental par François Barbé-Marbois alors que Jefferson occupe le poste de ministre plénipotentiaire des États-Unis à la cour de Louis XVI, il soutient qu’un projet d’émancipation à grande échelle risquerait de déstabiliser la nation naissante en provoquant des conflits raciaux violents. Jefferson choisit plutôt d’adhérer à la cause dite de la colonisation – c’est-à-dire l’expatriation des plus ou moins contrainte des Africains-Américains libres –, un projet que les abolitionnistes américains critiqueront fermement par la suite, à l’instar de David Walker dans <emph>Appeal to the Colored Citizens of the World</emph> (1829).</p>
+                <p>À la fin des années 1780, Jefferson vit en concubinage avec Sally Hemings, femme de couleur esclavisée et demi-sœur de sa défunte épouse. Cette relation, à laquelle Hemings ne pouvait consentir, aurait duré près de quarante ans et a généré une descendance. Hemings fait pour la première fois l’expérience de la liberté lorsqu’elle est en France et n’accepte de retourner en Virginie qu’à la condition que Jefferson s’engage à affranchir leurs enfants à leur majorité.</p>
+                <p>
+                </p>
+                <bibl>Finkelman, Paul.  <emph>Slavery and the Founders : Race and Liberty in the Age of Jefferson</emph> . New York: M.E. Sharpe, 1994. <p> </p></bibl>
+                <bibl>Gordon-Reed, Annette. <title>The Hemingses of Monticello : an American family</title>  . New York: W.W. Norton &amp; Co, 2008. <p> </p></bibl>
+                <bibl>Rossignol, Marie-Jeanne et Michaël Roy, avec Marlene L. Daut and Cécile Roudeau, eds.  <title>Anthologie de la pensée noire. États-Unis et Haïti (xviiie-xixe siècles)</title>  . Marseille: Hors d’atteinte, 2023. <p> </p></bibl>
+                <bibl>Scherr, Arthur.  <emph>John Adams, Slavery, and Race: Ideas, Politics, and Diplomacy in an Age of Crisis</emph> . Santa Barbara: Praeger, 2018. <p> </p></bibl>
+                <bibl>Stanton, Lucia.  <title>“Those who labor for my happiness” : slavery at Thomas Jefferson’s Monticello</title>  . Charlottesville: University of Virginia Press, 2012. <p> </p></bibl>
+            </note>
+        </person>
+        <person xml:id="MOR">
+            <persName xml:lang="en">George Howard, Viscount Morpeth</persName>
+            <persName xml:lang="fr">George Howard, vicomte Morpeth</persName>
+            <birth>1802</birth>
+            <death>1864</death>
+            <note xml:lang="en" type="Person" resp="#masha">
+                <p>The title Viscount Morpeth here refers to George Howard, 7th Earl of Carlisle. Howard seconded Henry Brougham's petition for the abolition of slavery in July of 1830 and, as a member of parliament for Yorkshire, presented many of his own petitions in the following year. He was also a defender of press freedom amid efforts to impose stricter censorship codes. </p>
+                <bibl>"HOWARD, George William Frederick, Visct. Morpeth (1802-1864), of Howthorpe Manor, Yorks."  <title>The History of Parliament: the House of Commons 1820-1832</title>  , ed. D.R. Fisher. Cambridge, Cambridge University Press, 2009.</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#masha">
+                <p>Le titre de vicomte Morpeth fait ici référence à George Howard, septième comte de Carlisle. Howard soutient la pétition d'Henry Brougham pour l'abolition de l'esclavage en juillet 1830 et, en tant que membre du parlement pour le Yorkshire, présente de nombreuses pétitions à titre personnel l'année suivante. Il est également un défenseur de la liberté de la presse face aux efforts visant à imposer des codes de censure plus stricts.</p>
+                <bibl>"HOWARD, George William Frederick, Visct. Morpeth (1802-1864), of Howthorpe Manor, Yorks."  <title>The History of Parliament: the House of Commons 1820-1832</title>  , ed. D.R. Fisher. Cambridge, Cambridge University Press, 2009.</bibl>
+            </note>
+        </person>
+        <person xml:id="LorFrej">
+            <persName xml:lang="en">Lorville and Fréjus</persName>
+            <persName xml:lang="fr">Lorville et Fréjus</persName>
+            <note xml:lang="en" type="Person" resp="#jessica">
+                <p>Lorville and Fréjus were two men of color involved in the Grand’Anse affair. Following an altercation at the end of December between the white settler Louis Hilaire Lasserre and the free man of color Salomon, known as Laboulique, Fréjus and Lorville—friends of Salomon—were tasked with seeking redress from Lasserre for the previous day's insult. Entrusted with "resolving the matter to prevent any unfortunate consequences," Fréjus went to Lasserre’s home. According to Fréjus's complaint and multiple witness statements, Lasserre responded with extreme violence. Both the lawyer Gatine and Cyrille Bissette attributed Fréjus’s death to the injuries he sustained.</p>
+                <p>In the days that followed, tensions escalated in the commune. Lorville, a prominent member of the local free-colored elite, was killed on December 27 during the crackdown at the Bonafon estate, which had become a gathering point for the insurgents.</p>
+                <bibl>Adélaïde-Merlande, Jacques, " Libres et affranchis - réformes et tensions " in  <title>Historial Antillais</title>  , Tome III, Dajani éditions, Pointe-à-Pitre, 1981 pp. 287-307</bibl>
+                <bibl>Fabien, Louis, Bissette, Cyrille, and Gatine, Adolphe,  <title>Affaire de la Grand'Anse, Martinique</title>  , Paris, Imprimerie JS Cordier, 1834</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#jessica">
+                <p>Lorville et Fréjus sont deux hommes de couleur impliqués dans l’affaire de la Grand’Anse. Après l’altercation survenue à la fin du mois de décembre dans le bourg entre le colon Louis Hilaire Lasserre et le libre de couleur Salomon dit Laboulique, Fréjus et Lorville (deux amis de Solomon) sont chargés de demander à Lasserre réparation pour l’outrage survenu la veille. En charge « d’arranger les choses afin qu’elles n’aient aucune suite fâcheuse », Fréjus se rend au domicile de Lasserre qui l’accueille, selon la déposition de plainte de Fréjus et de divers témoins, avec grande violence. L’avocat Gatine, tout comme Bissette, attribue à ces blessures la mort de Fréjus. Dans les jours qui suivent, les tensions montent dans la commune et Lorville, appartenant à l’élite de couleur de la commune, est tué le 27 décembre lors de la répression qui prend place sur l’habitation Bonafon, devenu un point de rassemblement pour les insurgés.</p>
+                <bibl>Adélaïde-Merlande, Jacques, « Libres et affranchis - réformes et tensions » dans  <title>Historial Antillais</title>  , Tome III, Dajani éditions, Pointe-à-Pitre, 1981 pp. 287-307</bibl>
+                <bibl>Fabien, Louis, Bissette, Cyrille, et Gatine, Adolphe,  <title>Affaire de la Grand'Anse, Martinique</title>  , Paris, Imprimerie JS Cordier, 1834</bibl>
+            </note>
+        </person>
+        <person xml:id="WAS">
+            <persName xml:lang="en">Washington, George</persName>
+            <persName xml:lang="fr">Washington, George</persName>
+            <birth>1732</birth>
+            <death>1799</death>
+            <note xml:lang="en" type="Person" resp="#michaël #masha">
+                <p>Unlike fellow architects of the early American republic, George Washington did not spend any time in Europe or read in French, nor, in seeking French support for American independence, did he explicitly draw logical connections between independence and emancipation. During the Revolution, Washington, conceding to the demands of war after initial reluctance, led an integrated Continental Army, including free and enslaved men of color. As President, however, Washington carefully avoided maintaining consistent residence in Philadelphia, the nation’s first capital, to avoid being subject to Pennsylvania’s gradual abolition act of 1780.</p>
+                <p>Washington was a third-generation enslaver, who, at the time of his death in 1799, held personal claim to 123 enslaved people, while his Virginia home and plantation, Mount Vernon, benefited from the labor of over 300 in total, the remainder being temporary laborers or enslaved people inherited from the estate of his wife’s first husband. In his will, published widely in U.S. papers, he stipulated emancipation for those in his personal estate upon Martha Washington’s death, suggesting a moral stance while notably deferring financial loss to his inheritors. Meanwhile, through the final years of his life, he continued a relentless pursuit of Ona Judge, a young enslaved woman who had fled Mount Vernon for New Hampshire. In seeking to recover her, he refused her willing return on the condition of being freed after his and Martha’s deaths, and only hesitated to enforce the Fugitive Slave Act of 1793 for fear of drawing negative publicity to the case and galvanizing northern abolitionists.</p>
+                <p>Historians continue to debate Washington’s personal degree of comfort with or distaste for the institution of slavery, and whether he harbored any conviction to endorse gradual abolition.  François Furstenberg has drawn attention to his bound collection of antislavery tracts from American and European sources while noting that several of these works were never opened and his sentiments on the matter were restricted to private correspondence.</p>
+                <p>
+                </p>
+                <bibl>Dunbar, Erica Armstrong.  <title>Never Caught: The Washingtons’ Relentless Pursuit of Their Runaway Slave, Ona Judge</title>  .  New York: 37 Ink/Atria, 2017.</bibl>
+                <bibl>Rossignol, Marie-Jeanne and Michaël Roy, with Marlene L. Daut and Cécile Roudeau, eds.  <title>Anthologie de la pensée noire. États-Unis et Haïti (xviiie-xixe siècles)</title>  . Marseille: Hors d’atteinte, 2023.</bibl>
+                <bibl>Wiencek, Henry.  <title>An Imperfect God: George Washington, His Slaves, and the Creation of America</title>  . New York: Farrar, Straus and Giroux, 2003.</bibl>
+                <bibl>Furstenberg, François. "Atlantic Slavery, Atlantic Freedom: George Washington, Slavery, and Transatlantic Abolitionist Networks".  <emph>The William and Mary Quarterly</emph>  68.2 (2011).</bibl>
+                <bibl>Thompson, Mary V.  <title>The Only Unavoidable Subject of Regret: George Washington, Slavery, and the Enslaved Community at Mount Vernon</title>  . Charlottesville, Virginia: University of Virginia Press, 2019.</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#michaël #masha">
+                <p>Contrairement à d'autres figures fondatrices de la jeune République américaine, George Washington n’a jamais séjourné en France ni entretenu de relations directes avec les grands penseurs français de la fin du XVIIIe siècle. Dans sa quête de soutien français pour l’indépendance américaine, il ne lie pas explicitement cette cause à celle de l’émancipation. Pendant la Révolution, Washington, contraint par les impératifs de la guerre,dirige une armée non ségréguée, qui inclut des hommes de couleur libres et asservis. En tant que président, Washington s’est toutefois soigneusement abstenu de résider de manière prolongée à Philadelphie, première capitale du pays, afin d’éviter d’être soumis à la loi d’abolition graduelle de l’esclavage adoptée par la Pennsylvanie en 1780.</p>
+                <p>Issu d’une famille d’esclavagistes vieille de trois générations, Washington possède à sa mort, en 1799, quelque 123 personnes esclavisées. En tout, plus de 300 personnes travaillent dans sa plantation de Mount Vernon, en Virginie, parmi lesquelles des travailleurs temporaires et des esclaves hérités du premier mariage de sa femme, Martha. Dans son testament, largement diffusé dans la presse américaine, Washington prévoit que ses esclaves seront émancipés à la mort de son épouse, ce qui lui permet d’afficher une posture morale tout en reportant les pertes financières sur ses héritiers. Parallèlement, durant les dernières années de sa vie, il poursuit sans relâche Ona Judge, une jeune femme asservie qui s’est enfuie de Mount Vernon et a gagné le New Hampshire. Lorsque celle-ci propose de revenir à la condition que sa liberté lui soit accordée après la mort de George et Martha, Washington refuse ; de même, il hésite à se saisir de la loi sur les esclaves fugitifs de 1793, craignant que cela n’attire l’attention et ne galvanise les abolitionnistes du Nord.</p>
+                <p>Les historiens continuent de débattre de la position plus ou moins critique de Washington sur l’esclavage et de son degré d’adhésion au projet d’une abolition graduelle de l’institution. François Furstenberg s’est notamment intéressé à sa collection de livres, qui comprend plusieurs brochures abolitionnistes publiées en Europe et en Amérique du Nord. Il note cependant que certains de ces volumes n’ont jamais été ouverts, et que les réflexions de Washington sur la question restent cantonnées à sa correspondance privée.</p>
+                <p>
+                </p>
+                <bibl>Dunbar, Erica Armstrong.  <title><emph>Never Caught: The Washingtons’ Relentless Pursuit of Their Runaway Slave, Ona Judge</emph></title> .  New York: 37 Ink/Atria, 2017.</bibl>
+                <bibl>Rossignol, Marie-Jeanne et Michaël Roy, avec Marlene L. Daut and Cécile Roudeau, eds.  <title>Anthologie de la pensée noire. États-Unis et Haïti (xviiie-xixe siècles)</title>  . Marseille: Hors d’atteinte, 2023. <p> </p></bibl>
+                <bibl>Wiencek, Henry.  <title>An Imperfect God: George Washington, His Slaves, and the Creation of America</title>  . New York: Farrar, Straus and Giroux, 2003. <p> </p></bibl>
+                <bibl>Furstenberg, François. "Atlantic Slavery, Atlantic Freedom: George Washington, Slavery, and Transatlantic Abolitionist Networks".  <emph>The William and Mary Quarterly</emph>  68.2 (2011).</bibl>
+                <bibl>Thompson, Mary V.  <title>The Only Unavoidable Subject of Regret: George Washington, Slavery, and the Enslaved Community at Mount Vernon</title>  . Charlottesville, Virginia: University of Virginia Press, 2019. <p> </p></bibl>
+            </note>
+        </person>
+        <person xml:id="Gatine">
+            <persName xml:lang="en">Gatine, Adolphe Ambroise Alexandre</persName>
+            <persName xml:lang="fr">Gatine, Adolphe Ambroise Alexandre</persName>
+            <birth>1805</birth>
+            <death>1864</death>
+            <note xml:lang="en" type="Person" resp="#jessica">
+                <p>Mr. Adolphe Ambroise Alexandre Gatine (1805–1864) was a lawyer at the Council of State and the Court of Cassation and a French abolitionist. From the 1830s, he distinguished himself by defending free people of color (e.g., the Louisy and Léonarde cases, the Grande-Anse case, and the Virginie case) as well as advocating for the rights of enslaved individuals claiming their freedom. In 1848, he was appointed General Commissioner of Guadeloupe, where he arrived on June 5th carrying the abolition decree dated April 27, 1848. However, abolition had already been proclaimed locally on May 27th.</p>
+                <bibl>Gatine, Adolphe,  <emph>Abolition de l'esclavage à la Guadeloupe : quatre mois de gouvernement dans cette colonie, </emph> Paris, Chez France, 1849</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#jessica">
+                <p>Adolphe Ambroise Alexandre Gatine (1805-1864), est un avocat du Conseil d'État et de la Cour de cassation et un abolitionniste français. Il s’illustre, dès les années 1830, dans la défense des libres de couleur (Affaires Louisy et Léonarde, affaire de la Grande-Anse, affaire Virginie) mais également dans la défense des intérêts des esclaves revendiquant leur liberté. En 1848, il est désigné commissaire général de la Guadeloupe où il débarque le 5 juin avec le décret d'abolition du 27 avril 1848. L'abolition avait néanmoins déjà été proclamée depuis le 27 mai.</p>
+                <bibl>Gatine, Adolphe,  <emph>Abolition de l'esclavage à la Guadeloupe : quatre mois de gouvernement dans cette colonie, </emph> Paris, Chez France, 1849</bibl>
+            </note>
+        </person>
         <person xml:id="MEL">
             <persName xml:lang="en">William Lamb, 2nd Viscount Melbourne</persName>
             <persName xml:lang="fr">William Lamb, deuxième vicomte de Melbourne</persName>
@@ -63,6 +254,28 @@
             </note>
             <note xml:lang="fr" type="Person" resp="#abel">
                 <p>Fils du notaire blanc créole guadeloupéen, Ambroise Cicéron et de Marie Victoire Artaud, Louis Marie Ambroise Dieudonné Cicéron est né à Saint-Pierre le 25 septembre 1797 et meurt le 11 avril 1870 en la même ville. Il est qualifié de praticien en 1821, étudiant en droit bachelier ès lettres (1822), avocat et propriétaire (1825), avocat avoué près la cour royale de la Martinique et le tribunal de 1ère instance de Saint-Pierre (1827), conseiller colonial, membre du conseil municipal de Saint-Pierre et propriétaire en cette ville (1843-1844). Partisan du maintien du système esclavagiste, Louis Cicéron est opposé à Cyrille Bissette durant les années 1830-1840. Il se bat d’ailleurs en duel en octobre 1834 avec Bissette au bois de Vincennes. Leur inimitié politique est perceptible dans plusieurs articles de Cicéron publiés au journal du Havre en 1831, repris largement dans sa “Pétition au Roi, à la nation et aux chambres” (datée du 1er janvier 1832). Bissette lui répond dans une lettre du 15 mai 1833 ensuite. En 1844, Cicéron, présent à Paris, se fait le rapporteur des “Observations d’une commission spéciale du Conseil colonial de la Martinique sur le projet de loi présenté le 14 mai dernier à la Chambre des Pairs. Paris : Impr. de Bruneau, 1844”. Ces “observations, signées de Le Pelletier-Duclary, président du Conseil colonial, portaient sur le projet de loi du 14 mai 1844, visant à l’abolition de l’esclavage dans les colonies françaises, et le réfutant article après article...”. Le retournement de veste de Bissette vis-à-vis des colons esclavagistes après l’abolition de l’esclavage en mai 1848, son association avec le colon Pécoul en vue des élections législatives de 1849, le fit se rapprocher de Cicéron qu’il visita dès son arrivée en Martinique le 20 mars 1849.</p>
+            </note>
+        </person>
+        <person xml:id="ANog">
+            <persName xml:lang="en">Nogues, Arsène</persName>
+            <persName xml:lang="fr">Nogues, Arsène</persName>
+            <birth>1798</birth>
+            <death>1869</death>
+            <note xml:lang="en" type="Person" resp="#abel">
+                <p>Born in Redon on June 12, 1798, Arsene Nogues held various positions in Brest and Nancy and was also attorney general in Guadeloupe then in Martinique during the 1830s. Later, he was advisor to the royal court of Rouen in 1845. Married to the daughter of a coffee merchant and planter of Guadeloupean origin, Jean Joseph Albert Chaviteau, who settled in Cuba at the beginning of the 19th century, Nogues had strong ties to the planter community. Nogues represented the public prosecutor as attorney general during the Grande Anse affair in December 1833. The indictment prepared by Nogues in June 1834, recovered by the historian Armand Nicolas describes the events thusly: “It is an armed insurrection, prepared for a long time... by almost the entire colored population of a district of the colony, with whom conspirators from another district and even from several others had colluded to carry out the pillage, devastation and burning of the colony, to massacre all the whites there in order to seize their property.” The members of the Assize Court of Saint-Pierre, presided over by de Perinelle and composed of advisors Richard de Lucy, Le Pelletier, and Duclary, the same ones who condemned Bissette and his comrades, were all white Creoles. They sentenced 141 individuals of color to various punishments.</p>
+                <p>
+                </p>
+                <bibl>Nicolas, Armand,  <emph>Histoire de la Martinique, Des Arawaks à 1848</emph> , Paris, L’Harmattan, 1996</bibl>
+                <bibl>"Arsène Nogues,"  <emph>Man8rove.</emph>  https://man8rove.com/fr/profile/a1r52vc3-arsene-nogues</bibl>
+                <bibl>"CHAUVITEAU Jean Joseph Albert (1775-1823),"  <emph>Cimetière du Père-Lachaise</emph> , 3 septembre 2023, https://www.appl-lachaise.net/chauviteau-jean-joseph-albert-1775-1823/</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#abel">
+                <p>Né à Redon le 12 juin 1798, il occupe divers postes à Brest et à Nancy et est aussi procureur général en Guadeloupe puis en Martinique durant les années 1830. Puis, il est ensuite conseiller à la cour royale de Rouen en 1845. Marié à la fille d’un négociant et planteur de café d’origine guadeloupéenne, Jean Joseph Albert Chaviteau, qui se fixa à Cuba au début du XIXe siècle, il est donc lié fortement au milieu des colons. Arsène Nogues, est celui qui représente le ministère public en tant que procureur général lors de l’affaire de la Grande Anse (commune du Lorrain aujourd’hui) en décembre 1833. L’historien Armand Nicolas cite ainsi l’acte d’accusation en juin 1834 que Arsène Nogues dresse en notifiant que : “C’est une insurrection à main armée, préparée depuis longtemps... par la presque totalité de la population de couleur d’un quartier de la colonie, avec laquelle des conspirateurs d’un autre quartier et même de plusieurs autres s’étaient entendus pour porter le pillage, la dévastation et l’incendie de la colonie, pour y massacrer tous les Blancs afin de s’emparer de leurs biens”. Au nombre des membres de la Cour d’Assises de Saint-Pierre présidée par de Perinelle et composée de conseillers (Richard de Lucy, Le Pelletier Duclary), tous blancs créoles, les mêmes qui ont condamné Bissette et ses camarades, se trouve donc des hommes imbus de leurs pouvoirs discrétionnaires. Ils vont condamner 141 individus de couleur à diverses peines.</p>
+                <p>
+                </p>
+                <bibl>Nicolas, Armand,  <emph>Histoire de la Martinique, Des Arawaks à 1848</emph> , Paris, L’Harmattan, 1996</bibl>
+                <bibl>"Arsène Nogues,"  <emph>Man8rove.</emph>  https://man8rove.com/fr/profile/a1r52vc3-arsene-nogues</bibl>
+                <bibl>"CHAUVITEAU Jean Joseph Albert (1775-1823),"  <emph>Cimetière du Père-Lachaise</emph> , 3 septembre 2023, https://www.appl-lachaise.net/chauviteau-jean-joseph-albert-1775-1823/</bibl>
             </note>
         </person>
         <person xml:id="LePell">
@@ -153,104 +366,6 @@
                 <p>Constantine Phipps, premier marquis de Normanby, également vicomte de Normanby et comte de Mulgrave, est une figure politique majeure du parti <emph>Whig</emph>. De 1832 à 1834, il exerce les fonctions de gouverneur de la Jamaïque, avant de devenir Lord Lieutenant d'Irlande de 1835 à 1839, puis secrétaire d'État à l'Intérieur de 1839 à 1841.</p>
             </note>
         </person>
-        <person xml:id="ANog">
-            <persName xml:lang="en">Nogues, Arsène</persName>
-            <persName xml:lang="fr">Nogues, Arsène</persName>
-            <birth>1798</birth>
-            <death>1869</death>
-            <note xml:lang="en" type="Person" resp="#abel">
-                <p>Born in Redon on June 12, 1798, Arsene Nogues held various positions in Brest and Nancy and was also attorney general in Guadeloupe then in Martinique during the 1830s. Later, he was advisor to the royal court of Rouen in 1845. Married to the daughter of a coffee merchant and planter of Guadeloupean origin, Jean Joseph Albert Chaviteau, who settled in Cuba at the beginning of the 19th century, Nogues had strong ties to the planter community. Nogues represented the public prosecutor as attorney general during the Grande Anse affair in December 1833. The indictment prepared by Nogues in June 1834, recovered by the historian Armand Nicolas describes the events thusly: “It is an armed insurrection, prepared for a long time... by almost the entire colored population of a district of the colony, with whom conspirators from another district and even from several others had colluded to carry out the pillage, devastation and burning of the colony, to massacre all the whites there in order to seize their property.” The members of the Assize Court of Saint-Pierre, presided over by de Perinelle and composed of advisors Richard de Lucy, Le Pelletier, and Duclary, the same ones who condemned Bissette and his comrades, were all white Creoles. They sentenced 141 individuals of color to various punishments.</p>
-                <p>
-                </p>
-                <bibl>Nicolas, Armand,  <emph>Histoire de la Martinique, Des Arawaks à 1848</emph> , Paris, L’Harmattan, 1996</bibl>
-                <bibl>"Arsène Nogues,"  <emph>Man8rove.</emph>  https://man8rove.com/fr/profile/a1r52vc3-arsene-nogues</bibl>
-                <bibl>"CHAUVITEAU Jean Joseph Albert (1775-1823),"  <emph>Cimetière du Père-Lachaise</emph> , 3 septembre 2023, https://www.appl-lachaise.net/chauviteau-jean-joseph-albert-1775-1823/</bibl>
-            </note>
-            <note xml:lang="fr" type="Person" resp="#abel">
-                <p>Né à Redon le 12 juin 1798, il occupe divers postes à Brest et à Nancy et est aussi procureur général en Guadeloupe puis en Martinique durant les années 1830. Puis, il est ensuite conseiller à la cour royale de Rouen en 1845. Marié à la fille d’un négociant et planteur de café d’origine guadeloupéenne, Jean Joseph Albert Chaviteau, qui se fixa à Cuba au début du XIXe siècle, il est donc lié fortement au milieu des colons. Arsène Nogues, est celui qui représente le ministère public en tant que procureur général lors de l’affaire de la Grande Anse (commune du Lorrain aujourd’hui) en décembre 1833. L’historien Armand Nicolas cite ainsi l’acte d’accusation en juin 1834 que Arsène Nogues dresse en notifiant que : “C’est une insurrection à main armée, préparée depuis longtemps... par la presque totalité de la population de couleur d’un quartier de la colonie, avec laquelle des conspirateurs d’un autre quartier et même de plusieurs autres s’étaient entendus pour porter le pillage, la dévastation et l’incendie de la colonie, pour y massacrer tous les Blancs afin de s’emparer de leurs biens”. Au nombre des membres de la Cour d’Assises de Saint-Pierre présidée par de Perinelle et composée de conseillers (Richard de Lucy, Le Pelletier Duclary), tous blancs créoles, les mêmes qui ont condamné Bissette et ses camarades, se trouve donc des hommes imbus de leurs pouvoirs discrétionnaires. Ils vont condamner 141 individus de couleur à diverses peines.</p>
-                <p>
-                </p>
-                <bibl>Nicolas, Armand,  <emph>Histoire de la Martinique, Des Arawaks à 1848</emph> , Paris, L’Harmattan, 1996</bibl>
-                <bibl>"Arsène Nogues,"  <emph>Man8rove.</emph>  https://man8rove.com/fr/profile/a1r52vc3-arsene-nogues</bibl>
-                <bibl>"CHAUVITEAU Jean Joseph Albert (1775-1823),"  <emph>Cimetière du Père-Lachaise</emph> , 3 septembre 2023, https://www.appl-lachaise.net/chauviteau-jean-joseph-albert-1775-1823/</bibl>
-            </note>
-        </person>
-        <person xml:id="CBe">
-            <persName xml:lang="en">Belair, Charles</persName>
-            <persName xml:lang="fr">Belair, Charles</persName>
-            <birth>1760</birth>
-            <death>1802</death>
-            <note xml:lang="en" type="Person" resp="#chelsea">
-                <p>Charles Bélair was Toussaint Louverture’s nephew and a general in the revolutionary army. He was among the Chausseurs volontaires de Saint Domingue recruited to fight in the 1779 Siege of Savannah during the American Revolutionary War. During the Haitian Revolution, he served first as a lieutenant and then aide de camp for Louverture; he was promoted to colonel and then, as part of the expedition to take the eastern side of the island, was named brigadier general and commander of the district of Santo Domingo. After Louverture’s unlawful arrest and deportation in June 1802, Bélair raised the banner of revolt against the French expeditionary forces. Leclerc’s forces arrested his wife and mother, forcing Bélair out of hiding and leading ot his capture. He was executed on October 15, 1802. To the history of Charles Bélair must be added that of his wife, Sanite Bélair, a warrior in her own right who fought beside the insurgents. She was executed alongside her husband. </p>
-                <bibl>Dayan, Colin,  <title>Haiti, History, and the Gods</title>  . University of California Press, 1995.</bibl>
-                <bibl>Pascal-Trouillot, Ertha and Trouillot, Ernst, eds.,  <title>Encyclopédie biographique d'Haïti</title>  , vol. 1. Éditions SEMIS, 2001.</bibl>
-            </note>
-            <note xml:lang="fr" type="Person" resp="#chelsea">
-                <p>Charles Bélair est le neveu de Toussaint Louverture et un général de l’armée révolutionnaire. Il fait partie des Chasseurs volontaires de Saint-Domingue recrutés pour combattre lors du siège de Savannah (Géorgie) en 1779, pendant la guerre d’indépendance américaine. Au cours de la Révolution haïtienne, il sert d’abord comme lieutenant, puis comme aide de camp de Louverture. Promu colonel, il est ensuite nommé général de brigade et commandant du district de Santo Domingo dans le cadre de l’expédition visant à prendre la partie orientale de l’île.  </p>
-                <p>Après l’arrestation arbitraire et la déportation de Louverture en juin 1802, Bélair prend la tête de l’insurrection contre les forces expéditionnaires françaises. Pour le contraindre à se rendre, l’armée de Leclerc arrête sa femme et sa mère, ce qui entraîne son arrestation. Il est exécuté le 15 octobre 1802. L’histoire de Charles Bélair est indissociable de celle de son épouse, Sanité Bélair, elle-même combattante aux côtés des insurgés. Elle est exécutée le même jour que lui.</p>
-                <bibl>Dayan, Colin,  <title>Haiti, History, and the Gods</title>  . University of California Press, 1995.</bibl>
-                <bibl>Pascal-Trouillot, Ertha et Trouillot, Ernst, eds.,  <title>Encyclopédie biographique d'Haïti</title>  , vol. 1. Éditions SEMIS, 2001.</bibl>
-            </note>
-        </person>
-        <person xml:id="ADA">
-            <persName xml:lang="en">Adams, John</persName>
-            <persName xml:lang="fr">Adams, John</persName>
-            <birth>1735</birth>
-            <death>1826</death>
-            <note xml:lang="en" type="Person" resp="#masha #michaël">
-                <p>John Adams stands out among the first American presidents as a northerner who was never an enslaver. In the immediate aftermath of the American Revolution, he opposed efforts to implement large-scale emancipation in his home state of Massachusetts, but, as primary author of the state’s constitution, which included a Declaration of Rights (written after Adams served as Envoy to France), Adams has long been associated with the state’s de facto abolition in 1780. It was only after the 1781 cases of Mum Bett and Quok Walker, enslaved people who cited the language of the constitution in suing for their freedom, that the document, which does not explicitly prohibit slavery, took on this accepted meaning. </p>
-                <p>John Adams’s presidency is notably marked by the establishment of trade relations with Haiti, which was then in conflict with France.  These political positions, in combination with an 1801 letter in which he expresses “abhorrence” to the institution of slavery, claiming to have always employed free men at significant personal expense, have contributed to Adams’ enduring legacy as a committed abolitionist. Recently, historians have called attention to the ways in which his positions were more in line with contemporaries, noting both that, with regard to Haiti, agreement to continue commerce is hardly a statement of ideological sympathy, and that any actual belief in the principle of equality was never public or explicit.</p>
-                <p>
-                </p>
-            </note>
-            <note xml:lang="fr" type="Person" resp="#masha #michaël">
-                <p>John Adams est originaire du Nord des États-Unis et n’a jamais possédé d’esclaves, ce qui le distingue des premiers présidents américains. Bien qu’opposé à l’émancipation générale des esclaves dans son État natal du Massachusetts après la Révolution, il rédige pour le jeune État une constitution qui comprend une Déclaration des droits (il rentre alors d’une mission diplomatique en France) et œuvre de fait à la disparition progressive de l’esclavage dans le Massachusetts. Dans les années qui suivent l’adoption de la constitution en 1780, des personnes esclavisées telles que Mum Bett et Quok Walker n'hésitent pas à invoquer ce document pour poursuivre leur maître et réclamer leur liberté devant les tribunaux.</p>
-                <p>Le mandat de John Adams est notamment marqué par l’établissement de relations commerciales avec Haïti, alors en conflit avec la France. Ses prises de position politiques, ainsi qu’une lettre de 1801 dans laquelle il exprime sa « détestation » de l’esclavage et affirme avoir toujours employé des hommes libres, même lorsque le coût de leur travail était élevé, ont largement contribué à forger sa réputation d’abolitionniste engagé.</p>
-                <p>Cette image a toutefois été nuancée par l’historiographie récente, qui souligne la proximité d’Adams avec ses contemporains sur la question de l’esclavage. Le maintien des échanges avec Haïti, par exemple, ne traduit pas nécessairement une sympathie à l’égard de l’indépendance haïtienne, et Adams ne s’est jamais publiquement ni explicitement exprimé en faveur de l’égalité raciale.</p>
-                <p>
-                </p>
-            </note>
-        </person>
-        <person xml:id="CB">
-            <persName xml:lang="en">Bissette, Cyrille Charles Auguste</persName>
-            <persName xml:lang="fr">Bissette, Cyrille Charles Auguste </persName>
-            <birth>1795</birth>
-            <death>1858</death>
-            <note xml:lang="en" type="Person" resp="#masha">
-                <figure>
-                    <graphic url="portrait_Bissette_b827ac99f2.jpg"/>
-                    <figDesc>Portrait de Cyrille Bissette. Courtesy of the Schomburg Center for Research in Black Culture</figDesc>
-                </figure>
-                <p>Born in Fort-Royal (now Fort-de-France, Martinique) on July 9, 1795, Cyrille Charles Auguste Bissette was the founder and editor-in-chief of the Revue des Colonies, the first French press outlet to advocate for immediate and total abolition. His parents, Charles Borromée Bissette and Elizabeth Mélanie Bellaine, were free people of color, and his mother was the illegitimate daughter of Joseph-Gaspard de Tascher de La Pagerie, making Bissette a nephew of Empress Joséphine de Beauharnais.</p>
-                <p>In 1816, Bissette married Augustine Séverin, a free woman of color, with whom he had four children. During these early years in Fort-Royal, Bissette was not engaged in abolitionist activities, and was in fact himself a slaveowner, taking part, in 1822, in the suppression of a slave revolt in the village of Le Carbet. The following year, however, he was arrested, along with six other free men of color — Montlouis Thébia, Joseph Richer, Joseph Millet, Laborde, Louis Fabien, <title>fils</title> and Jean-Baptiste Volny — for possession and alleged distribution of a seditious pamphlet printed in Paris, entitled <title>De la situation des hommes de color libre aux Antilles françaises </title>(which Bissette was alleged to have written).</p>
-                <p>Accused as architects of a plot to overthrow the segregationist organization of Martinican society, Bissette, Fabien, <title>fils</title> and Volny were branded and sentenced to the galleys for life. In 1827, with the help of attorney François Isambert, Bissette’s sentence was reduced to ten years’ banishment and the legal costs of the proceedings, which would remain a substantial burden. Garnering significant media coverage, the so-called <title>Affaire Bissette </title>catalyzed his political career.</p>
-                <p>In Paris, Bissette participated in the <title>Trois Glorieuses </title>(“the three glorious days” of riots that led to the end of the reign of Charles X and the restored Bourbon dynasty), which earned him the decoration of the July Cross, frequented Republican circles such as the <title>Free Association for the Education of the People</title>, joined a Masonic lodge, published several emancipatory petitions, and founded the <title>Revue des Colonies, </title>a press organ for the cause of the total and immediate abolition of slavery. This radical position would put him at odds with the majority of the French abolitionist community, including Victor Schoelcher, the eventual author of the 1848 decree. The distance between these two abolitionists develops into a rivalry after the publication of Schoelcher’s <title>Des Colonies Françaises</title>, which Bissette harshly criticizes for its stigmatizing, indeed, uninhibitedly racist, characterization of the free population of color of the Antilles. Overshadowed by the cult of Schoelcher in the assimilationist intellectual bourgeoisie, Bissette is deliberately written out of abolitionist history for his later reconciliationist platform and his strategic alliance with a white planter in the legislative elections of 1849.</p>
-                <bibl>Bongie, Chris. “1835, ou ‘Le troisième cycle’: The Creole Afterlives of Cyrille-Charles Auguste Bissette, Louis de Maynard de Queilhe, and Victor Schoelcher.” In  <title>Islands and Exiles: The Creole Identities of Post/Colonial Literature</title> . Stanford: Stanford University Press, 1998. 264-287, 323-340.</bibl>
-                <bibl>Bongie, Chris. “A Street Named Bissette: Assimilating the Cent-cinquantenaire of the Abolition of Slavery in Martinique (1848–1998).” In  <title>Friends and Enemies, </title> vol.3. Liverpool: Liverpool University Press. 2008. 185‑220.</bibl>
-                <bibl>Jennings, Lawrence C. “Cyrille Bissette, Radical Black French Abolitionist.” French History 9.1 (1995): p. 48-66</bibl>
-                <bibl>Jennings, Lawrence C.  <title>French Anti-Slavery: The Movement for the Abolition of Slavery in France, 1802-1848</title> . Cambridge: Cambridge University Press, 2000. 29-37, 49-50, 71-73, 266-69.</bibl>
-                <bibl>Mesnard, Eric. “Les Mouvements de Résistance dans les colonies franchisées : L'affaire Bissette (1823-1827).” In  <title>The Abolitions of Slavery : From Leger Felicite Sonthonax to Victor Schoelcher, 1793, 1794, 1848</title> , edited by Marcel Dorigny. Paris: UNESCO, 2003. 293-97.</bibl>
-                <bibl>Pâme, Stella.  <title>Cyrille Bissette: un martyr de la liberté</title> . Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
-            </note>
-            <note xml:lang="fr" type="Person" resp="#masha">
-                <figure>
-                    <graphic url="portrait_Bissette_b827ac99f2.jpg"/>
-                    <figDesc>Portrait de Cyrille Bissette. Courtesy of the Schomburg Center for Research in Black Culture</figDesc>
-                </figure>
-                <p>Né à Fort-Royal (Martinique) le 9 juillet 1795, Cyrille Charles Auguste Bissette est le fondateur et rédacteur en chef de la <title>Revue des Colonies</title>, premier organe de presse à plaider publiquement pour une abolition immédiate.</p>
-                <p>Ses parents Charles Borromée Bissette et Elizabeth Mélanie Bellaine, étaient libres de couleur. Par sa mère, la fille naturelle de Joseph-Gaspard de Tascher de La Pagerie, Cyrille Bissette est un neveu de Joséphine de Beauharnais.</p>
-                <p>En 1816, Bissette épouse Augustine Séverin, une femme de couleur libre, avec qui il a quatre enfants. Négociant et propriétaire d’esclaves, il n’est pas encore engagé dans le mouvement antiesclavagiste, participant, en 1822, à la répression de la révolte du Carbet. Quelque mois plus tard, cependant, il est arrêté, ainsi que six autres hommes de couleur libres — Montlouis Thébia, Joseph Richer, Joseph Millet, Laborde, Louis Fabien, fils et Jean-Baptiste Volny — pour détention et distribution présumées d’un pamphlet séditieux imprimé à Paris, <title>De la situation des homme de couleur libre aux Antilles françaises </title>(que Bissette aurait écrit).</p>
-                <p>Jugés comme meneurs présumés d’un complot visant à renverser l’organisation ségrégationniste de la société martiniquaise, Bissette, Fabien <title>fils </title>et Volny sont marqués au fer rouge et condamnés aux galères à perpétuité. En 1827, avec l’aide de l’avocat François Isambert, Bissette voit sa peine réduite à dix ans de bannissement et les frais juridiques de la procédure, qui demeureront un fardeau important. Bénéficiant d’une importante couverture médiatique, la dénommée « Affaire Bissette » donne l’impulsion à sa carrière politique.</p>
-                <p>A Paris, Bissette participe aux Trois Glorieuses ce qui lui vaudra d’être décoré de la Croix de Juillet, fréquente les cercles républicains comme l’<title>Association libre pour l'éducation du peuple</title>, rejoint une loge maçonnique, publie plusieurs pétitions à visée émancipatrice, et fonde la <title>Revue des Colonies, </title>organe de presse pour ses plaidoyers pour une abolition totale et immédiate de l'esclavage. Cette position radicale le met en porte-à-faux avec la majorité de la communauté abolitionniste française,dont Victor Schoelcher. \</p>
-                <p>La distance entre les deux abolitionnistes tourne au conflit après la publication <title>Des Colonies Françaises </title>de Schoelcher, que Bissette critique sévèrement pour sa caractérisation stigmatisante - allant jusqu’au racisme décomplexé - de la population de couleur libre des Antilles. Occulté par le culte de Schoelcher dans la bourgeoisie intellectuelle assimilationniste, Cyrille Bissette est rejeté de la mémoire collective pour sa plateforme réconciliationniste et son alliance stratégique avec un planteur blanc aux élections législatives de 1849.</p>
-                <bibl>Bongie, Chris. “1835, ou ‘Le troisième cycle’: The Creole Afterlives of Cyrille-Charles Auguste Bissette, Louis de Maynard de Queilhe, and Victor Schoelcher.” In  <title>Islands and Exiles: The Creole Identities of Post/Colonial Literature</title> . Stanford: Stanford University Press, 1998. 264-287, 323-340.</bibl>
-                <bibl>Bongie, Chris. “A Street Named Bissette: Assimilating the Cent-cinquantenaire of the Abolition of Slavery in Martinique (1848–1998).” In  <title>Friends and Enemies, </title> vol.3. Liverpool: Liverpool University Press. 2008. 185‑220.</bibl>
-                <bibl>Jennings, Lawrence C. “Cyrille Bissette, Radical Black French Abolitionist.” French History 9.1 (1995): p. 48-66</bibl>
-                <bibl>Jennings, Lawrence C.  <title>French Anti-Slavery: The Movement for the Abolition of Slavery in France, 1802-1848</title> . Cambridge: Cambridge University Press, 2000. 29-37, 49-50, 71-73, 266-69.</bibl>
-                <bibl>Mesnard, Eric. “Les Mouvements de Résistance dans les colonies franchisées : L'affaire Bissette (1823-1827).” In  <title>The Abolitions of Slavery : From Leger Felicite Sonthonax to Victor Schoelcher, 1793, 1794, 1848</title> , edited by Marcel Dorigny. Paris: UNESCO, 2003. 293-97.</bibl>
-                <bibl>Pâme, Stella.  <title>Cyrille Bissette: un martyr de la liberté</title> . Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
-            </note>
-        </person>
         <person xml:id="FXD">
             <persName xml:lang="en">Donzelot, François-Xavier</persName>
             <persName xml:lang="fr">Donzelot, François-Xavier</persName>
@@ -275,121 +390,6 @@
                 <p>L’affaire Bissette (1823-1824) scelle définitivement son alignement sur les intérêts des planteurs esclavagistes. Sous sa gouvernance, plus de deux cents personnes sont déportées sans procès. En 1826, son souhait de retourner en Métropole est exaucé. Il se retire à Mamirolle avant de s’établir à Neuilly-sur-Marne, où il meurt le 11 juillet 1843.</p>
                 <bibl>Schloss, Rebecca Hartkopf.  <title>Sweet Liberty: The Final Days of Slavery in Martinique</title>  . Philadelphia, Pennsylvania: University of Pennsylvania Press, 2009.</bibl>
                 <bibl>Kaufmann, William W.  <title>British Policy and the Independence of Latin America, 1804-1828.</title>  Vol. 52. New Haven, Connecticut: Yale University Press, 1951.</bibl>
-            </note>
-        </person>
-        <person xml:id="LorFrej">
-            <persName xml:lang="en">Lorville and Fréjus</persName>
-            <persName xml:lang="fr">Lorville et Fréjus</persName>
-            <note xml:lang="en" type="Person" resp="#jessica">
-                <p>Lorville and Fréjus were two men of color involved in the Grand’Anse affair. Following an altercation at the end of December between the white settler Louis Hilaire Lasserre and the free man of color Salomon, known as Laboulique, Fréjus and Lorville—friends of Salomon—were tasked with seeking redress from Lasserre for the previous day's insult. Entrusted with "resolving the matter to prevent any unfortunate consequences," Fréjus went to Lasserre’s home. According to Fréjus's complaint and multiple witness statements, Lasserre responded with extreme violence. Both the lawyer Gatine and Cyrille Bissette attributed Fréjus’s death to the injuries he sustained.</p>
-                <p>In the days that followed, tensions escalated in the commune. Lorville, a prominent member of the local free-colored elite, was killed on December 27 during the crackdown at the Bonafon estate, which had become a gathering point for the insurgents.</p>
-                <bibl>Adélaïde-Merlande, Jacques, " Libres et affranchis - réformes et tensions " in  <title>Historial Antillais</title>  , Tome III, Dajani éditions, Pointe-à-Pitre, 1981 pp. 287-307</bibl>
-                <bibl>Fabien, Louis, Bissette, Cyrille, and Gatine, Adolphe,  <title>Affaire de la Grand'Anse, Martinique</title>  , Paris, Imprimerie JS Cordier, 1834</bibl>
-            </note>
-            <note xml:lang="fr" type="Person" resp="#jessica">
-                <p>Lorville et Fréjus sont deux hommes de couleur impliqués dans l’affaire de la Grand’Anse. Après l’altercation survenue à la fin du mois de décembre dans le bourg entre le colon Louis Hilaire Lasserre et le libre de couleur Salomon dit Laboulique, Fréjus et Lorville (deux amis de Solomon) sont chargés de demander à Lasserre réparation pour l’outrage survenu la veille. En charge « d’arranger les choses afin qu’elles n’aient aucune suite fâcheuse », Fréjus se rend au domicile de Lasserre qui l’accueille, selon la déposition de plainte de Fréjus et de divers témoins, avec grande violence. L’avocat Gatine, tout comme Bissette, attribue à ces blessures la mort de Fréjus. Dans les jours qui suivent, les tensions montent dans la commune et Lorville, appartenant à l’élite de couleur de la commune, est tué le 27 décembre lors de la répression qui prend place sur l’habitation Bonafon, devenu un point de rassemblement pour les insurgés.</p>
-                <bibl>Adélaïde-Merlande, Jacques, « Libres et affranchis - réformes et tensions » dans  <title>Historial Antillais</title>  , Tome III, Dajani éditions, Pointe-à-Pitre, 1981 pp. 287-307</bibl>
-                <bibl>Fabien, Louis, Bissette, Cyrille, et Gatine, Adolphe,  <title>Affaire de la Grand'Anse, Martinique</title>  , Paris, Imprimerie JS Cordier, 1834</bibl>
-            </note>
-        </person>
-        <person xml:id="AHav">
-            <persName xml:lang="en">Auguste Eugénie, known as "Havre"</persName>
-            <persName xml:lang="fr">Auguste Eugénie, dit « Havre »</persName>
-            <note xml:lang="en" type="Person" resp="#jessica">
-                <p>Auguste Eugénie, known as "Havre," was one of the key figures in the revolt of the colored militia in Grand'Anse, Martinique, in December 1833. His freedom was officially recognized on May 20, 1831, for his services in the militia. Two years later, he was married and owned the 30,000 francs in land and slaves required to qualify as a voter. As a non-commissioned officer, the governor considered promoting him to the rank of officer. During the revolt, Auguste Havre is reported to have shouted to the enslaved people at the Montferrier plantation: "We are fighting for you. Long live universal freedom!"</p>
-                <bibl>Hrodej, Philippe (ed),  <emph>L'esclave et les plantations, </emph> Presses universitaires de Rennes, Rennes, 2009.</bibl>
-            </note>
-            <note xml:lang="fr" type="Person" resp="#jessica">
-                <p>Auguste Eugénie, dit « Havre », est l'un des protagonistes de la révolte de la milice de couleur de la Grand'Anse, en Martinique, en décembre 1833. Sa liberté est reconnue le 20 mai 1831 pour ses services accomplis dans la milice. Deux ans plus tard, il est marié et possède les 30 000 F en biens-fonds et esclaves exigés pour être électeur. Sous-officier, le gouverneur envisage de le promouvoir officier. Lors de la révolte, Auguste Havre aurait crié aux esclaves de l'habitation Montferrier : « C'est pour vous que nous combattons. Vive la liberté universelle ! ».  </p>
-                <bibl>Hrodej, Philippe (ed),  <emph>L'esclave et les plantations, </emph> Presses universitaires de Rennes, Rennes, 2009.</bibl>
-            </note>
-        </person>
-        <person xml:id="JEF">
-            <persName xml:lang="en">Jefferson, Thomas</persName>
-            <persName xml:lang="fr">Jefferson, Thomas </persName>
-            <birth>1743</birth>
-            <death>1826</death>
-            <note xml:lang="en" type="Person" resp="#michaël #masha">
-                <p>For the period of his life encompassing his time as president, the value of Thomas Jefferson’s personal estate primarily lay in the hundreds of enslaved people laboring at his plantation and mansion, Monticello. Deeply in debt through the end of his life, Jefferson manumitted very few people despite expressing abhorrence to the institution on numerous occasions.</p>
-                <p>His public comments on slavery, whether in the colonial context of <emph>A Summary View of the Rights of British America</emph> (1774) or in the early republic, as in <emph>Notes on the State of Virginia</emph> (1785), his most well-known commentary on the subject, stress the risks and complications of any potential abolition while stopping short of defending the practice outright. In an early draft of the Declaration of Independence, Jefferson blames George III for forcefully maintaining the slave trade in North America, though this condemnation is less a matter of moral outrage than fear of organized rebellion. Jefferson received a copy of <emph>De la littérature des Nègres</emph> (1808), a work excerpted in numerous issues of the Revue des Colonies, directly from Abbé Grégoire. His response actually criticizes the work, whose arguments for equal humanity depend on the intellectual accomplishments of Black people, for implying that rights should be bound to talent. For his own part, Jefferson was notably dismissive of the intellectual talents of Benjamin Banneker, the free-born Black polymath who wrote to him in 1791 demanding (unsuccessfully) that he act according to his professed principles and Phillis Wheatley, the enslaved poet whose work was widely circulated on both sides of the Atlantic.</p>
-                <p>In <emph>Notes</emph>, published in France (while Jefferson was serving as minister to the court of Louis XVI) as a response to questions posed to the Continental Congress by delegate François Barbé-Marbois, Jefferson argues that any large-scale emancipation project would destabilize the young state by plunging it into violent racial conflict. As an alternative, he takes up the nascent cause of colonization, a position roundly criticized by later American abolitionists, most notably David Walker in his <emph>Appeal</emph> (1829). At this time, Jefferson was living with Sally Hemings, an enslaved woman of mixed race and his deceased wife’s half-sister. This sexual relationship, to which Hemings would have had no meaningful way of consenting, was believed to have lasted four decades, producing several children. Hemings experienced the conditions of legal freedom for the first time while in France and returned to Virginia only on the condition that Jefferson would emancipate their children upon their reaching adulthood.</p>
-                <bibl>Finkelman, Paul.  <emph>Slavery and the Founders : Race and Liberty in the Age of Jefferson</emph> . New York: M.E. Sharpe, 1994. <p> </p></bibl>
-                <bibl>Gordon-Reed, Annette. <title>The Hemingses of Monticello : an American family</title>  . New York: W.W. Norton &amp; Co, 2008.</bibl>
-                <bibl>Rossignol, Marie-Jeanne and Michaël Roy, with Marlene L. Daut and Cécile Roudeau, eds.  <title>Anthologie de la pensée noire. États-Unis et Haïti (xviiie-xixe siècles)</title>  . Marseille: Hors d’atteinte, 2023.</bibl>
-                <bibl>Scherr, Arthur.  <emph>John Adams, Slavery, and Race: Ideas, Politics, and Diplomacy in an Age of Crisis</emph> . Santa Barbara: Praeger, 2018. <p> </p></bibl>
-                <bibl>Stanton, Lucia.  <title>“Those who labor for my happiness” : slavery at Thomas Jefferson’s Monticello</title>  . Charlottesville: University of Virginia Press, 2012.</bibl>
-            </note>
-            <note xml:lang="fr" type="Person" resp="#michaël #masha">
-                <p>Durant la période de sa vie correspondant à son mandat présidentiel, le patrimoine de Thomas Jefferson est essentiellement constitué des centaines d’esclaves qui travaillent pour lui dans sa plantation et sa résidence de Monticello. Lourdement endetté, Jefferson émancipe très peu de personnes au cours de sa vie, et ce alors même qu’il exprime à de nombreuses reprises des positions critiques sur l’esclavage.</p>
-                <p>Jefferson évoque la question de l’esclavage dans plusieurs de ses écrits, en particulier <emph>A Summary View of the Rights of British America</emph> (1774) et <emph>Notes on the State of Virginia</emph> (1785), son texte le plus connu. S’il ne défend pas l’institution esclavagiste, il insiste cependant sur les risques et les difficultés de son abolition éventuelle. Dans une première version de la Déclaration d’indépendance, Jefferson reproche à George III d’avoir maintenu la traite en Amérique du Nord, ce qui traduit moins une indignation morale que la crainte de voir les esclaves se soulever. Lorsque l’abbé Grégoire publie <emph>De la littérature des nègres</emph> en 1808, dont de nombreux extraits sont reproduits dans la Revue des Colonies, il fait parvenir un exemplaire à Jefferson. Dans sa réponse à Grégoire, Jefferson critique l’ouvrage, qui, en s’appuyant sur les accomplissements intellectuels des personnes noires pour défendre l’égalité humaine, suggère que les droits humains devraient être conditionnés au talent.</p>
-                <p>En outre, Jefferson fait preuve de condescendance envers Benjamin Banneker, mathématicien noir né libre, qui lui adresse une lettre en 1791 l’exhortant (sans succès) à agir en cohérence avec ses principes égalitaires, ainsi qu’envers Phillis Wheatley, poétesse esclavisée dont les œuvres sont largement diffusées des deux côtés de l’Atlantique.</p>
-                <p>Dans <emph>Notes on the State of Virginia</emph>, publié en réponse aux questions posées au Congrès continental par François Barbé-Marbois alors que Jefferson occupe le poste de ministre plénipotentiaire des États-Unis à la cour de Louis XVI, il soutient qu’un projet d’émancipation à grande échelle risquerait de déstabiliser la nation naissante en provoquant des conflits raciaux violents. Jefferson choisit plutôt d’adhérer à la cause dite de la colonisation – c’est-à-dire l’expatriation des plus ou moins contrainte des Africains-Américains libres –, un projet que les abolitionnistes américains critiqueront fermement par la suite, à l’instar de David Walker dans <emph>Appeal to the Colored Citizens of the World</emph> (1829).</p>
-                <p>À la fin des années 1780, Jefferson vit en concubinage avec Sally Hemings, femme de couleur esclavisée et demi-sœur de sa défunte épouse. Cette relation, à laquelle Hemings ne pouvait consentir, aurait duré près de quarante ans et a généré une descendance. Hemings fait pour la première fois l’expérience de la liberté lorsqu’elle est en France et n’accepte de retourner en Virginie qu’à la condition que Jefferson s’engage à affranchir leurs enfants à leur majorité.</p>
-                <p>
-                </p>
-                <bibl>Finkelman, Paul.  <emph>Slavery and the Founders : Race and Liberty in the Age of Jefferson</emph> . New York: M.E. Sharpe, 1994. <p> </p></bibl>
-                <bibl>Gordon-Reed, Annette. <title>The Hemingses of Monticello : an American family</title>  . New York: W.W. Norton &amp; Co, 2008. <p> </p></bibl>
-                <bibl>Rossignol, Marie-Jeanne et Michaël Roy, avec Marlene L. Daut and Cécile Roudeau, eds.  <title>Anthologie de la pensée noire. États-Unis et Haïti (xviiie-xixe siècles)</title>  . Marseille: Hors d’atteinte, 2023. <p> </p></bibl>
-                <bibl>Scherr, Arthur.  <emph>John Adams, Slavery, and Race: Ideas, Politics, and Diplomacy in an Age of Crisis</emph> . Santa Barbara: Praeger, 2018. <p> </p></bibl>
-                <bibl>Stanton, Lucia.  <title>“Those who labor for my happiness” : slavery at Thomas Jefferson’s Monticello</title>  . Charlottesville: University of Virginia Press, 2012. <p> </p></bibl>
-            </note>
-        </person>
-        <person xml:id="MOR">
-            <persName xml:lang="en">George Howard, Viscount Morpeth</persName>
-            <persName xml:lang="fr">George Howard, vicomte Morpeth</persName>
-            <birth>1802</birth>
-            <death>1864</death>
-            <note xml:lang="en" type="Person" resp="#masha">
-                <p>The title Viscount Morpeth here refers to George Howard, 7th Earl of Carlisle. Howard seconded Henry Brougham's petition for the abolition of slavery in July of 1830 and, as a member of parliament for Yorkshire, presented many of his own petitions in the following year. He was also a defender of press freedom amid efforts to impose stricter censorship codes. </p>
-                <bibl>"HOWARD, George William Frederick, Visct. Morpeth (1802-1864), of Howthorpe Manor, Yorks."  <title>The History of Parliament: the House of Commons 1820-1832</title>  , ed. D.R. Fisher. Cambridge, Cambridge University Press, 2009.</bibl>
-            </note>
-            <note xml:lang="fr" type="Person" resp="#masha">
-                <p>Le titre de vicomte Morpeth fait ici référence à George Howard, septième comte de Carlisle. Howard soutient la pétition d'Henry Brougham pour l'abolition de l'esclavage en juillet 1830 et, en tant que membre du parlement pour le Yorkshire, présente de nombreuses pétitions à titre personnel l'année suivante. Il est également un défenseur de la liberté de la presse face aux efforts visant à imposer des codes de censure plus stricts.</p>
-                <bibl>"HOWARD, George William Frederick, Visct. Morpeth (1802-1864), of Howthorpe Manor, Yorks."  <title>The History of Parliament: the House of Commons 1820-1832</title>  , ed. D.R. Fisher. Cambridge, Cambridge University Press, 2009.</bibl>
-            </note>
-        </person>
-        <person xml:id="Gatine">
-            <persName xml:lang="en">Gatine, Adolphe Ambroise Alexandre</persName>
-            <persName xml:lang="fr">Gatine, Adolphe Ambroise Alexandre</persName>
-            <birth>1805</birth>
-            <death>1864</death>
-            <note xml:lang="en" type="Person" resp="#jessica">
-                <p>Mr. Adolphe Ambroise Alexandre Gatine (1805–1864) was a lawyer at the Council of State and the Court of Cassation and a French abolitionist. From the 1830s, he distinguished himself by defending free people of color (e.g., the Louisy and Léonarde cases, the Grande-Anse case, and the Virginie case) as well as advocating for the rights of enslaved individuals claiming their freedom. In 1848, he was appointed General Commissioner of Guadeloupe, where he arrived on June 5th carrying the abolition decree dated April 27, 1848. However, abolition had already been proclaimed locally on May 27th.</p>
-                <bibl>Gatine, Adolphe,  <emph>Abolition de l'esclavage à la Guadeloupe : quatre mois de gouvernement dans cette colonie, </emph> Paris, Chez France, 1849</bibl>
-            </note>
-            <note xml:lang="fr" type="Person" resp="#jessica">
-                <p>Adolphe Ambroise Alexandre Gatine (1805-1864), est un avocat du Conseil d'État et de la Cour de cassation et un abolitionniste français. Il s’illustre, dès les années 1830, dans la défense des libres de couleur (Affaires Louisy et Léonarde, affaire de la Grande-Anse, affaire Virginie) mais également dans la défense des intérêts des esclaves revendiquant leur liberté. En 1848, il est désigné commissaire général de la Guadeloupe où il débarque le 5 juin avec le décret d'abolition du 27 avril 1848. L'abolition avait néanmoins déjà été proclamée depuis le 27 mai.</p>
-                <bibl>Gatine, Adolphe,  <emph>Abolition de l'esclavage à la Guadeloupe : quatre mois de gouvernement dans cette colonie, </emph> Paris, Chez France, 1849</bibl>
-            </note>
-        </person>
-        <person xml:id="WAS">
-            <persName xml:lang="en">Washington, George</persName>
-            <persName xml:lang="fr">Washington, George</persName>
-            <birth>1732</birth>
-            <death>1799</death>
-            <note xml:lang="en" type="Person" resp="#michaël #masha">
-                <p>Unlike fellow architects of the early American republic, George Washington did not spend any time in Europe or read in French, nor, in seeking French support for American independence, did he explicitly draw logical connections between independence and emancipation. During the Revolution, Washington, conceding to the demands of war after initial reluctance, led an integrated Continental Army, including free and enslaved men of color. As President, however, Washington carefully avoided maintaining consistent residence in Philadelphia, the nation’s first capital, to avoid being subject to Pennsylvania’s gradual abolition act of 1780.</p>
-                <p>Washington was a third-generation enslaver, who, at the time of his death in 1799, held personal claim to 123 enslaved people, while his Virginia home and plantation, Mount Vernon, benefited from the labor of over 300 in total, the remainder being temporary laborers or enslaved people inherited from the estate of his wife’s first husband. In his will, published widely in U.S. papers, he stipulated emancipation for those in his personal estate upon Martha Washington’s death, suggesting a moral stance while notably deferring financial loss to his inheritors. Meanwhile, through the final years of his life, he continued a relentless pursuit of Ona Judge, a young enslaved woman who had fled Mount Vernon for New Hampshire. In seeking to recover her, he refused her willing return on the condition of being freed after his and Martha’s deaths, and only hesitated to enforce the Fugitive Slave Act of 1793 for fear of drawing negative publicity to the case and galvanizing northern abolitionists.</p>
-                <p>Historians continue to debate Washington’s personal degree of comfort with or distaste for the institution of slavery, and whether he harbored any conviction to endorse gradual abolition.  François Furstenberg has drawn attention to his bound collection of antislavery tracts from American and European sources while noting that several of these works were never opened and his sentiments on the matter were restricted to private correspondence.</p>
-                <p>
-                </p>
-                <bibl>Dunbar, Erica Armstrong.  <title>Never Caught: The Washingtons’ Relentless Pursuit of Their Runaway Slave, Ona Judge</title>  .  New York: 37 Ink/Atria, 2017.</bibl>
-                <bibl>Rossignol, Marie-Jeanne and Michaël Roy, with Marlene L. Daut and Cécile Roudeau, eds.  <title>Anthologie de la pensée noire. États-Unis et Haïti (xviiie-xixe siècles)</title>  . Marseille: Hors d’atteinte, 2023.</bibl>
-                <bibl>Wiencek, Henry.  <title>An Imperfect God: George Washington, His Slaves, and the Creation of America</title>  . New York: Farrar, Straus and Giroux, 2003.</bibl>
-                <bibl>Furstenberg, François. "Atlantic Slavery, Atlantic Freedom: George Washington, Slavery, and Transatlantic Abolitionist Networks".  <emph>The William and Mary Quarterly</emph>  68.2 (2011).</bibl>
-                <bibl>Thompson, Mary V.  <title>The Only Unavoidable Subject of Regret: George Washington, Slavery, and the Enslaved Community at Mount Vernon</title>  . Charlottesville, Virginia: University of Virginia Press, 2019.</bibl>
-            </note>
-            <note xml:lang="fr" type="Person" resp="#michaël #masha">
-                <p>Contrairement à d'autres figures fondatrices de la jeune République américaine, George Washington n’a jamais séjourné en France ni entretenu de relations directes avec les grands penseurs français de la fin du XVIIIe siècle. Dans sa quête de soutien français pour l’indépendance américaine, il ne lie pas explicitement cette cause à celle de l’émancipation. Pendant la Révolution, Washington, contraint par les impératifs de la guerre,dirige une armée non ségréguée, qui inclut des hommes de couleur libres et asservis. En tant que président, Washington s’est toutefois soigneusement abstenu de résider de manière prolongée à Philadelphie, première capitale du pays, afin d’éviter d’être soumis à la loi d’abolition graduelle de l’esclavage adoptée par la Pennsylvanie en 1780.</p>
-                <p>Issu d’une famille d’esclavagistes vieille de trois générations, Washington possède à sa mort, en 1799, quelque 123 personnes esclavisées. En tout, plus de 300 personnes travaillent dans sa plantation de Mount Vernon, en Virginie, parmi lesquelles des travailleurs temporaires et des esclaves hérités du premier mariage de sa femme, Martha. Dans son testament, largement diffusé dans la presse américaine, Washington prévoit que ses esclaves seront émancipés à la mort de son épouse, ce qui lui permet d’afficher une posture morale tout en reportant les pertes financières sur ses héritiers. Parallèlement, durant les dernières années de sa vie, il poursuit sans relâche Ona Judge, une jeune femme asservie qui s’est enfuie de Mount Vernon et a gagné le New Hampshire. Lorsque celle-ci propose de revenir à la condition que sa liberté lui soit accordée après la mort de George et Martha, Washington refuse ; de même, il hésite à se saisir de la loi sur les esclaves fugitifs de 1793, craignant que cela n’attire l’attention et ne galvanise les abolitionnistes du Nord.</p>
-                <p>Les historiens continuent de débattre de la position plus ou moins critique de Washington sur l’esclavage et de son degré d’adhésion au projet d’une abolition graduelle de l’institution. François Furstenberg s’est notamment intéressé à sa collection de livres, qui comprend plusieurs brochures abolitionnistes publiées en Europe et en Amérique du Nord. Il note cependant que certains de ces volumes n’ont jamais été ouverts, et que les réflexions de Washington sur la question restent cantonnées à sa correspondance privée.</p>
-                <p>
-                </p>
-                <bibl>Dunbar, Erica Armstrong.  <title><emph>Never Caught: The Washingtons’ Relentless Pursuit of Their Runaway Slave, Ona Judge</emph></title> .  New York: 37 Ink/Atria, 2017.</bibl>
-                <bibl>Rossignol, Marie-Jeanne et Michaël Roy, avec Marlene L. Daut and Cécile Roudeau, eds.  <title>Anthologie de la pensée noire. États-Unis et Haïti (xviiie-xixe siècles)</title>  . Marseille: Hors d’atteinte, 2023. <p> </p></bibl>
-                <bibl>Wiencek, Henry.  <title>An Imperfect God: George Washington, His Slaves, and the Creation of America</title>  . New York: Farrar, Straus and Giroux, 2003. <p> </p></bibl>
-                <bibl>Furstenberg, François. "Atlantic Slavery, Atlantic Freedom: George Washington, Slavery, and Transatlantic Abolitionist Networks".  <emph>The William and Mary Quarterly</emph>  68.2 (2011).</bibl>
-                <bibl>Thompson, Mary V.  <title>The Only Unavoidable Subject of Regret: George Washington, Slavery, and the Enslaved Community at Mount Vernon</title>  . Charlottesville, Virginia: University of Virginia Press, 2019. <p> </p></bibl>
             </note>
         </person>
         <person xml:id="ADp">
@@ -473,24 +473,6 @@
                 <bibl>Oudin Bastide, Caroline,  <title>Des nègres et des juges : La scandaleuse affaire Spoutourne (1831-1834)</title>   <emph>, </emph> Paris, Editions Complexe, 2008</bibl>
             </note>
         </person>
-        <person xml:id="AuA">
-            <persName xml:lang="en">Aubert-Armand, Pierre Daniel</persName>
-            <persName xml:lang="fr">Aubert-Armand, Pierre Daniel</persName>
-            <birth>1795</birth>
-            <death>1854</death>
-            <note xml:lang="en" type="Person" resp="#abel">
-                <p>Employed in the management of the King's buildings, Aubert-Armand became counselor to the royal court of Martinique, succeeding Durand-Molard in the compilation of the <emph>Code de la Martinique</emph>, containing the legislative acts relating to the colony in the 19th century.</p>
-                <p>
-                </p>
-                <bibl>"Pierre, Daniel AUBERT-ARMAND."  <emph>Geneanet</emph> , https://gw.geneanet.org/pfouchard2?lang=en&amp;n=aubert+armand&amp;p=pierre+daniel</bibl>
-            </note>
-            <note xml:lang="fr" type="Person" resp="#abel">
-                <p>Employé à l’intendance des bâtiments du Roi, il est ensuite conseiller la cour royale de la Martinique. C’est à ce titre sans doute qu’il est le continuateur du Code de la Martinique après Durand-Molard, contenant les actes législatifs portant sur cette colonie au XIXe siècle.</p>
-                <p>
-                </p>
-                <bibl>"Pierre, Daniel AUBERT-ARMAND."  <emph>Geneanet</emph> , https://gw.geneanet.org/pfouchard2?lang=en&amp;n=aubert+armand&amp;p=pierre+daniel</bibl>
-            </note>
-        </person>
         <person xml:id="Lass">
             <persName xml:lang="en">Lasserre, Louis Hilaire</persName>
             <persName xml:lang="fr">Lasserre, Louis Hilaire</persName>
@@ -503,18 +485,6 @@
                 <p>Louis Hilaire Lasserre est un colon blanc créole de la Martinique. Il est l’un des acteurs principaux de l’affaire de la Grande Anse survenue en décembre 1833 et évoquée dans la Revue des colonies. Elle oppose les blancs aux libres de couleur. Un conflit foncier semble à l’origine de l’inimitié entre deux d’entre eux. Lasserre se voit attribuer, par décision de justice, une habitation - la Pirogue - possédée autrefois par les parents de Rosemond, un libre de couleur. Cette décision, vécue comme une injustice par ce dernier, participe à l’animosité entre les groupes racialisés de la commune.</p>
                 <bibl>Maurice, Nicolas,  <title>L’affaire de la Grand’Anse : Chronique des années 30</title>   <emph>, </emph> Fort-de-France : Presses de Théodore Marchand, 1960</bibl>
                 <bibl>Adélaïde-Merlande, Jacques, « Libres et affranchis - réformes et tensions » dans  <title>Historial Antillais</title>  , Tome III, Dajani éditions, Pointe-à-Pitre, 1981 pp. 287-307</bibl>
-            </note>
-        </person>
-        <person xml:id="Ces">
-            <persName xml:lang="en">Césaire</persName>
-            <persName xml:lang="fr">Césaire</persName>
-            <note xml:lang="en" type="Person" resp="#abel">
-                <p>Césaire was a free man of color from the Grande Anse on the northern side of Martinique. He became involved in a dispute between the white Creole Louis Lasserre and the free man of color, Faustin Rosemond, whose home was sold, by judicial decision, to Lasserre. Rosemond is said to have shot Lasserre's horse while the latter was on his property in August 1833. He was charged with attempted assassination for being present at the scene where Rosemond and his brother-in-law committed the act. The Assize Court of Saint-Pierre, meeting on December 21, 1833, was expeditious and condemned Césaire for “complicity in an attempted assassination on the person of Lasserre, with premeditation and ambush”. On the island, the announcement of the conviction had an immediate and powerful effect, catalyzing the uprising of the free men of color of Grande Anse (December 24) within a few days. In the Revue des Colonies, Bissette would become Césaire’s most vocal defender. On April 4, 1834, lawyer Gatine presented the “means of cassation”. The Court of Cassation ruled on the following September 13 and overturned Césaire's judgment. He was retried on February 16 and 17, 1835 and was acquitted. Bissette declared himself satisfied with the outcome. </p>
-                <bibl>Pâme, Stella.  <title>Cyrille Bissette: un martyr de la liberté</title> . Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
-            </note>
-            <note xml:lang="fr" type="Person" resp="#abel">
-                <p>Césaire, homme de couleur libre de la Grande Anse, quartier, paroisse et commune du nord atlantique de la Martinique. Il est impliqué dans une affaire opposant le blanc créole Louis Lasserre à l’homme de couleur libre, Faustin Rosemond, dépossédé, par décision judiciaire d’une habitation lui appartenant et rachetée par Lasserre. Il aurait tiré sur le cheval de Lasserre alors que celui-ci se rend sur sa propriété en août 1833. Inculpé de tentative d’assassinat sur la personne de Lasserre parce qu’il se trouve sur les lieux alors que Rosemond et son beau-frère sont les vrais responsables du guet-apens. La cour d’assises de Saint-Pierre, réunie le 21 décembre 1833, est expéditive et condamne Césaire pour “complicité dans une tentative d’assassinat sur la personne de Lasserre, avec préméditation et guet-apens”. Dans l’ile, l’annonce de la condamnation fait l’effet d’un coup de tonnerre et précède le soulèvement des hommes de couleur libres de la Grande Anse (le 24 décembre) de quelques jours. Bissette se fait un artisan défenseur de Césaire en Métropole dans la Revue des Colonies. Le 4 avril 1834, l’avocat Gatine présente les “moyens de cassation”. La cour de cassation se prononce le 13 septembre suivant et casse le jugement de Césaire. Il est rejugé les 16 et 17 février 1835 et cette fois il est acquitté. Bissette se déclare satisfait du dénouement. </p>
-                <bibl>Pâme, Stella.  <title>Cyrille Bissette: un martyr de la liberté</title> . Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
             </note>
         </person>
         <person xml:id="CT">
@@ -537,6 +507,18 @@
                 <bibl>Mauvois, Georges B.,  <emph>Un complot d’esclaves. Martinique</emph> , 1831, [s.l.], Éditions Les Pluriels de Psyché, 1998</bibl>
                 <bibl>Nicolas, Armand,  <emph>Histoire de la Martinique, Des Arawaks à 1848</emph> , Paris, L’Harmattan, 1996</bibl>
                 <bibl>"Charles Héléne Victor TÉLÈPHE,"  <emph>Geneanet</emph> , https://gw.geneanet.org/sgendrot?lang=en&amp;p=charles+helene+victor&amp;n=telephe</bibl>
+            </note>
+        </person>
+        <person xml:id="Ces">
+            <persName xml:lang="en">Césaire</persName>
+            <persName xml:lang="fr">Césaire</persName>
+            <note xml:lang="en" type="Person" resp="#abel">
+                <p>Césaire was a free man of color from the Grande Anse on the northern side of Martinique. He became involved in a dispute between the white Creole Louis Lasserre and the free man of color, Faustin Rosemond, whose home was sold, by judicial decision, to Lasserre. Rosemond is said to have shot Lasserre's horse while the latter was on his property in August 1833. He was charged with attempted assassination for being present at the scene where Rosemond and his brother-in-law committed the act. The Assize Court of Saint-Pierre, meeting on December 21, 1833, was expeditious and condemned Césaire for “complicity in an attempted assassination on the person of Lasserre, with premeditation and ambush”. On the island, the announcement of the conviction had an immediate and powerful effect, catalyzing the uprising of the free men of color of Grande Anse (December 24) within a few days. In the Revue des Colonies, Bissette would become Césaire’s most vocal defender. On April 4, 1834, lawyer Gatine presented the “means of cassation”. The Court of Cassation ruled on the following September 13 and overturned Césaire's judgment. He was retried on February 16 and 17, 1835 and was acquitted. Bissette declared himself satisfied with the outcome. </p>
+                <bibl>Pâme, Stella.  <title>Cyrille Bissette: un martyr de la liberté</title> . Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#abel">
+                <p>Césaire, homme de couleur libre de la Grande Anse, quartier, paroisse et commune du nord atlantique de la Martinique. Il est impliqué dans une affaire opposant le blanc créole Louis Lasserre à l’homme de couleur libre, Faustin Rosemond, dépossédé, par décision judiciaire d’une habitation lui appartenant et rachetée par Lasserre. Il aurait tiré sur le cheval de Lasserre alors que celui-ci se rend sur sa propriété en août 1833. Inculpé de tentative d’assassinat sur la personne de Lasserre parce qu’il se trouve sur les lieux alors que Rosemond et son beau-frère sont les vrais responsables du guet-apens. La cour d’assises de Saint-Pierre, réunie le 21 décembre 1833, est expéditive et condamne Césaire pour “complicité dans une tentative d’assassinat sur la personne de Lasserre, avec préméditation et guet-apens”. Dans l’ile, l’annonce de la condamnation fait l’effet d’un coup de tonnerre et précède le soulèvement des hommes de couleur libres de la Grande Anse (le 24 décembre) de quelques jours. Bissette se fait un artisan défenseur de Césaire en Métropole dans la Revue des Colonies. Le 4 avril 1834, l’avocat Gatine présente les “moyens de cassation”. La cour de cassation se prononce le 13 septembre suivant et casse le jugement de Césaire. Il est rejugé les 16 et 17 février 1835 et cette fois il est acquitté. Bissette se déclare satisfait du dénouement. </p>
+                <bibl>Pâme, Stella.  <title>Cyrille Bissette: un martyr de la liberté</title> . Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
             </note>
         </person>
         <person xml:id="JosA">
@@ -883,8 +865,128 @@
                 <bibl>Delaporte Arnal, Patrick, "Louis FABIEN."  <emph>Geneanet</emph> , https://gw.geneanet.org/softloft?lang=fr&amp;n=fabien&amp;p=louis</bibl>
             </note>
         </person>
+        <person xml:id="AuA">
+            <persName xml:lang="en">Aubert-Armand, Pierre Daniel</persName>
+            <persName xml:lang="fr">Aubert-Armand, Pierre Daniel</persName>
+            <birth>1795</birth>
+            <death>1854</death>
+            <note xml:lang="en" type="Person" resp="#abel">
+                <p>Employed in the management of the King's buildings, Aubert-Armand became counselor to the royal court of Martinique, succeeding Durand-Molard in the compilation of the <emph>Code de la Martinique</emph>, containing the legislative acts relating to the colony in the 19th century.</p>
+                <p>
+                </p>
+                <bibl>"Pierre, Daniel AUBERT-ARMAND."  <emph>Geneanet</emph> , https://gw.geneanet.org/pfouchard2?lang=en&amp;n=aubert+armand&amp;p=pierre+daniel</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#abel">
+                <p>Employé à l’intendance des bâtiments du Roi, il est ensuite conseiller la cour royale de la Martinique. C’est à ce titre sans doute qu’il est le continuateur du Code de la Martinique après Durand-Molard, contenant les actes législatifs portant sur cette colonie au XIXe siècle.</p>
+                <p>
+                </p>
+                <bibl>"Pierre, Daniel AUBERT-ARMAND."  <emph>Geneanet</emph> , https://gw.geneanet.org/pfouchard2?lang=en&amp;n=aubert+armand&amp;p=pierre+daniel</bibl>
+            </note>
+        </person>
     </listPerson>
     <listPlace>
+        <place xml:id="ANG">
+            <placeName xml:lang="en">Angleterre </placeName>
+            <placeName xml:lang="fr">Angleterre </placeName>
+            <location>
+                <geo decls="#geojson">{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6817424120375506,
+          52.460224137182934
+        ]
+      },
+      "properties": {}
+    }
+  ]
+}</geo>
+            </location>
+            <note xml:lang="en" type="Place" resp="#masha">
+                <p>As both France’s primary military and colonial rival and a model for the French abolitionist movement, England is a particularly interesting topic of coverage within the <title>Revue.</title></p>
+                <p>France’s adversary through the Revolution and Napoleonic wars, British forces repeatedly seized and returned various French colonial possessions.</p>
+                <p>Though hampered in the 1790s by panic over the French and Haitian Revolutions, the British abolitionist movement successfully campaigned for the end of the slave trade in 1807, gaining popular support by emphasizing, simultaneously, the immorality of maintaining slavery and the possible economic advantages of its abolition. In 1833, British Parliament proclaimed the abolition of slavery, to be enacted in 1834, culminating in the effective emancipation of all enslaved people in the British colonies by 1838, after a period of “apprenticeship.” The process of British abolition, which occurred in parallel to the first years of publication of the <title>Revue</title>, signaled the inevitability of abolition in France, shifting the debate to the question of immediate or gradualist emancipation.</p>
+                <p>Like other French abolitionists, Bissette received confirmed support from the <title>British and Foreign Anti-Slavery Society </title>(BFASS), at least for the publication of his short-lived <title>Revue Abolioniste </title>in 1847.</p>
+                <bibl>Jennings, Lawrence C. “Slavery and the Venality of the July Monarchy Press.”  <title>French Historical Studies</title>  17.4 (1992): 957–78.</bibl>
+                <bibl>Walvin, James. "British Abolitionism, 1787-1838." In  <title>The Abolitions of Slavery: From the LF Sonthonax to Victor Schoelcher, 1793, 1794, 1848</title> ,edited by Marcel Dorigny (New York: Bergham Books, 2003), 71-78</bibl>
+            </note>
+            <note xml:lang="fr" type="Place" resp="#masha">
+                <p>À la fois puissance militaire et coloniale rivale de la France et modèle du mouvement abolitionniste français, l’Angleterre bénéficie, au sein de la <title>Revue, </title>d’une couverture médiatique particulièrement intéressante.</p>
+                <p>Adversaire de la France pendant la période révolutionnaire et napoléonienne, la Grande-Bretagne saisit et restitue à plusieurs reprises diverses possessions coloniales françaises.</p>
+                <p>Quelque peu freiné, dans les années 1790, par les craintes que suscitent les Révolution française et haïtienne, le mouvement abolitionniste britannique se popularise à partir de 1807, sous la double perspective de l’immoralité du maintien de l’esclavage et l’intérêt économique de son abolition. En 1833, le Parlement britannique proclame l’abolition de l’esclavage, devant entrer en vigueur en 1834 et culminerait avec l’émancipation effective de tous les esclaves dans les colonies britanniques en 1838 après une période d ’«apprentissage». Le processus d’abolition britannique, qui se déroule parallèlement aux premières années de publication de la <title>Revue</title>, signale le caractère inévitable de l’abolition en France, déplaçant le débat vers la question de l’émancipation immédiate ou gradualiste.</p>
+                <p>Comme d’autres abolitionnistes français, Bissette a reçu un soutien avéré de la <title>British and Foreign Anti-Slavery Society</title> (BFASS), au moins pour la publication de son éphémère <title>Revue Abolioniste </title>en 1847.</p>
+                <bibl>Jennings, Lawrence C. “Slavery and the Venality of the July Monarchy Press.”  <title>French Historical Studies</title>  17.4 (1992): 957–78.</bibl>
+                <bibl>Walvin, James. "British Abolitionism, 1787-1838." In  <title>The Abolitions of Slavery: From the LF Sonthonax to Victor Schoelcher, 1793, 1794, 1848</title> ,edited by Marcel Dorigny (New York: Bergham Books, 2003), 71-78</bibl>
+            </note>
+        </place>
+        <place xml:id="Cay">
+            <placeName xml:lang="en">Cayenne </placeName>
+            <placeName xml:lang="fr">Cayenne </placeName>
+            <location>
+                <geo decls="#geojson">{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.331830799934636,
+          4.939701649234749
+        ]
+      },
+      "properties": {}
+    }
+  ]
+}</geo>
+            </location>
+            <note xml:lang="en" type="Place" resp="#masha">
+                <p>The island of Cayenne, in the estuary of the river of the same name, is also the location of the city of Cayenne, the capital of French Guiana. According to the 1788 census, Cayenne’s enslaved population represented just over 80% of the total population. During the Revolution, Cayenne received multiple convoys of exiles from metropolitan France, beginning its eventual transformation into a penal colony in the nineteenth century. The 1794 abolition decree was never meaningfully enforced there. Victor Hugues, the commissioner in charge of enforcing the decree in Guadeloupe, was named governor of Guiana in 1799, replacing slavery with a system of conscripted labor until the official restoration of slavery in 1802 by the decree of First Consul Napoleon Bonaparte. This regression to pre-Revolutionary conditions led to high frequencies of marronage. Conquered by Portuguese forces in 1809, the colony was returned to France in 1817, following the Treaty of Paris. From its inaugural issue, the <title>Revue des Colonie</title> features regular reports from a correspondent in Cayenne, including detailed electoral data.</p>
+                <bibl>Mam Lam Fouck, Serge.  <title>La Guyane française au temps de l'esclavage, de l'or et de la francisation (1802-1946)</title> . Matoury, French Guiana: Ibis Rouge Editions, 1999.</bibl>
+                <bibl>Schmidt, Nelly.  <title>La France a-t-elle aboli l'esclavage ? Guadeloupe, Martinique, Guyane, 1830-1935</title> . Paris: Perrin, 2009.</bibl>
+            </note>
+            <note xml:lang="fr" type="Place" resp="#masha">
+                <p>Situé sur l’île de Cayenne, dans l’estuaire de la rivière du même nom, Cayenne est le chef-lieu de la Guyane française. Issue du premier empire colonial français, voisine du Brésil et du Suriname, cette colonie fondée sur l’économie de plantation devient un lieu de déportation lors de la Révolution française, accueillant plusieurs convois de proscrits. D’après le recensement de 1788, la population esclavisée y représente un peu plus de 80% de la population. L’abolition de l’esclavage, en application du décret de la Convention, y est proclamée le 14 juin 1794. En 1802, Victor Hugues, le commissaire chargé de faire appliquer le décret d’abolition de l’esclavage en Guadeloupe, y impose le rétablissement de l’esclavage promulgué en 1802 par Napoléon Bonaparte, Premier Consul, et instaure un régime de conscription locale. Cette régression aux dispositions antérieures à la Révolution entraîne d’importants mouvements de marronnage. Conquise par les forces portugaises en 1809, la colonie est restituée à la France en 1817, à l’issue du traité de Paris. La <title>Revue des Colonies </title>dispose d’un correspondant à Cayenne qui rend compte des nouvelles, notamment électorales, de Guyane dès la première livraison.</p>
+                <bibl>Mam Lam Fouck, Serge.  <title>La Guyane française au temps de l'esclavage, de l'or et de la francisation (1802-1946)</title> . Matoury, French Guiana: Ibis Rouge Editions, 1999.</bibl>
+                <bibl>Schmidt, Nelly.  <title>La France a-t-elle aboli l'esclavage ? Guadeloupe, Martinique, Guyane, 1830-1935</title> . Paris: Perrin, 2009.</bibl>
+            </note>
+        </place>
+        <place xml:id="FJ">
+            <placeName xml:lang="en">Fort de Joux</placeName>
+            <placeName xml:lang="fr">Fort de Joux</placeName>
+            <location>
+                <geo decls="#geojson">{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.373882658072375,
+          46.871886427709796
+        ]
+      },
+      "properties": {}
+    }
+  ]
+}</geo>
+            </location>
+            <note xml:lang="en" type="Place" resp="#chelsea">
+                <p>Located in what is today the Doubs department in Bourgogne-France-Comté region, the Fort de Joux is situated high in the Jura Mountains on the border with Switzerland. It was originally built as a 12<hi rend="superscript">th</hi>-century castle. From 1678–1815, it was used by various regimes as a state prison. It was here that Toussaint Louverture was imprisoned after his unlawful arrest and deportation from Saint-Domingue. Many other deportees from the Antilles were held in the fort during the French Revolution. </p>
+                <p>
+                </p>
+                <p>
+                </p>
+            </note>
+            <note xml:lang="fr" type="Place" resp="#chelsea">
+                <p>Situé dans l’actuel département du Doubs, en région Bourgogne-Franche-Comté, le Fort de Joux domine les montagnes du Jura, à la frontière suisse. À l’origine, il s’agit d’un château du XIIe siècle. De 1678 à 1815, plusieurs régimes l’utilisent comme prison d’État. C’est dans ce fort que Toussaint Louverture est détenu après son arrestation arbitraire et sa déportation depuis Saint-Domingue. Durant la Révolution française, de nombreux autres déportés venus des Antilles y sont également emprisonnés.</p>
+            </note>
+        </place>
         <place xml:id="HT">
             <placeName xml:lang="en">Haiti/République d'Haïti</placeName>
             <placeName xml:lang="fr">Haiti/République d'Haïti</placeName>
@@ -910,20 +1012,6 @@
                 <bibl>Stieber, Chelsea.  <title>Haiti’s Paper War: Post-Independence Writing, Civil War, and the Making of the Republic, 1804-1954</title> . New York: New York University Press, 2020.</bibl>
             </note>
         </place>
-        <place xml:id="FJ">
-            <placeName xml:lang="en">Fort de Joux</placeName>
-            <placeName xml:lang="fr">Fort de Joux</placeName>
-            <note xml:lang="en" type="Place" resp="#chelsea">
-                <p>Located in what is today the Doubs department in Bourgogne-France-Comté region, the Fort de Joux is situated high in the Jura Mountains on the border with Switzerland. It was originally built as a 12<hi rend="superscript">th</hi>-century castle. From 1678–1815, it was used by various regimes as a state prison. It was here that Toussaint Louverture was imprisoned after his unlawful arrest and deportation from Saint-Domingue. Many other deportees from the Antilles were held in the fort during the French Revolution. </p>
-                <p>
-                </p>
-                <p>
-                </p>
-            </note>
-            <note xml:lang="fr" type="Place" resp="#chelsea">
-                <p>Situé dans l’actuel département du Doubs, en région Bourgogne-Franche-Comté, le Fort de Joux domine les montagnes du Jura, à la frontière suisse. À l’origine, il s’agit d’un château du XIIe siècle. De 1678 à 1815, plusieurs régimes l’utilisent comme prison d’État. C’est dans ce fort que Toussaint Louverture est détenu après son arrestation arbitraire et sa déportation depuis Saint-Domingue. Durant la Révolution française, de nombreux autres déportés venus des Antilles y sont également emprisonnés.</p>
-            </note>
-        </place>
         <place xml:id="PtP">
             <placeName xml:lang="en"> Port-au-Prince</placeName>
             <placeName xml:lang="fr"> Port-au-Prince</placeName>
@@ -937,6 +1025,38 @@
                 <p>Dessalines lui-même n’y installe pas le siège du pouvoir, lui préférant Marchand-Dessalines, une ville située plus au nord, dans la vallée de l’Artibonite. Alexandre Pétion ramène la capitale à Port-au-Prince durant la guerre civile contre le royaume d’Henri Christophe dans le nord. Après la mort de Christophe en 1820, Jean-Pierre Boyer unifie les deux régions sous une seule république, avec Port-au-Prince pour capitale. Tout au long du XIXe siècle, des régimes séparatistes et plusieurs présidences contestent cependant cette centralité.</p>
                 <bibl>Corvington, Georges,  <title>Port-au-Prince au cours des ans</title>  , vols. 1–3. Impr. H. Deschamps, 1972. </bibl>
                 <bibl>Anglade, Georges,  <title>Atlas critique d’Haïti</title>  . ERCE et CRC, 1982. </bibl>
+            </note>
+        </place>
+        <place xml:id="Alg">
+            <placeName xml:lang="en">Alger</placeName>
+            <placeName xml:lang="fr">Alger</placeName>
+            <location>
+                <geo decls="#geojson">{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0570861863501477,
+          36.77849021580727
+        ]
+      },
+      "properties": {}
+    }
+  ]
+}</geo>
+            </location>
+            <note xml:lang="en" type="Place" resp="#masha">
+                <p>French forces first entered the city of Algiers in July, 1830, in the closing days of the reign of Charles X, with formal military annexation beginning in 1834. At the time of the <title>Revue</title>’s initial publication, Algiers was metonymic of all the conquests carried out during the “pacification” operations, constituting a territory too restricted to be perceived distinctly from the city. It was in 1847, when the conquest took a definitive turn with the surrender of Abd el-Kader, that the territory of colonial Algeria began to expand in a precipitous manner. Although it generally opposes the violence of the occupying forces, the <title>Revue </title>is never explicitly critical of the colonization of Algeria.</p>
+                <bibl>Bouchène, Abderrahmane, Jean-Pierre Peyroulou, Ouanassa Siari Tengour, Sylvie Thénault, eds.  <title>Histoire de l’Algérie à la période coloniale, 1830-1962. </title> Paris: La Découverte, 2014.</bibl>
+                <bibl>Sessions, Jennifer E.  <title>By Sword and Plow: France and the Conquest of Algeria</title> . Ithaca: Cornell University Press, 2014.</bibl>
+            </note>
+            <note xml:lang="fr" type="Place" resp="#masha">
+                <p>Les forces françaises entrent pour la première fois dans la ville d’Alger en juillet 1830, dans les derniers jours du règne de Charles X, avec une annexion militaire formelle commençant en 1834. Au moment de la première livraison de la <title>Revue</title>, Alger est métonymique de l’ensemble des conquêtes effectuées au cours des opérations de « pacification », constituant un territoire trop restreint pour être perçu différemment de la ville. C’est en 1847, lorsque la conquête amorce un tournant définitif avec la reddition d’Abd el-Kader, que le territoire de l’Algérie coloniale commence à s’étendre de manière précipitée. Bien qu’elle soit généralement opposée à la violence des forces d’occupation, la <title>Revue </title>ne se montre jamais explicitement hostile à la colonisation de l’Algérie.</p>
+                <bibl>Bouchène, Abderrahmane, Jean-Pierre Peyroulou, Ouanassa Siari Tengour, Sylvie Thénault, eds.  <title>Histoire de l’Algérie à la période coloniale, 1830-1962. </title> Paris: La Découverte, 2014.</bibl>
+                <bibl>Sessions, Jennifer E.  <title>By Sword and Plow: France and the Conquest of Algeria</title> . Ithaca: Cornell University Press, 2014.</bibl>
             </note>
         </place>
         <place xml:id="TRI">
@@ -967,42 +1087,68 @@
                 <p>Les populations de Saint-Louis et de Gorée comprennent une très petite communauté de Français métropolitains (fonctionnaires, commerçants, représentants de maisons de commerce, missionnaires, et autres), des Africains libres travaillant comme commerçants, pêcheurs, marins, artisans ou journaliers, des métis (nés de femmes africaines ou métisses connues sous le nom de signares et de pères français, ainsi que leurs descendants), et – jusqu’en 1848 – une importante population d’Africains réduits en esclavage. Malgré les efforts de développement agricole, le commerce domine l’économie, avec la gomme arabique comme principal produit d’exportation dans la période suivant immédiatement l’abolition par la France de la traite transatlantique (1815). Plus tard au XIXe siècle, les arachides deviennent le principal produit d’exportation du Sénégal.</p>
             </note>
         </place>
+        <place xml:id="BrB">
+            <placeName xml:lang="en">Bourbon</placeName>
+            <placeName xml:lang="fr">Bourbon</placeName>
+            <location>
+                <geo decls="#geojson">{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.53536170065826,
+          -21.116341122371267
+        ]
+      },
+      "properties": {}
+    }
+  ]
+}</geo>
+            </location>
+            <note xml:lang="en" type="Place" resp="#masha">
+                <p>Located in the Indian Ocean to the east of Madagascar, the island of Bourbon has been under French control since the seventeenth century. Renamed Réunion during the Revolution, then Bonaparte Island under the Empire, it was occupied by the British between 1810 and 1814, before definitively returning to France in the Treaty of Paris. First used as a stopover for the ships of the French East India Company, the island adopted a slave plantation economy in the first half of the eighteenth century. According to the 1788 census, approximately 80% of the island’s population, originating in Africa, Madagascar or India, was enslaved. The abolition decreed by the Convention on February 4, 1794 was never actually applied and acts of resistance, notably <title>marronage</title>, were common.</p>
+                <p>As is in other colonial territories, the <title>Revue des Colonies</title> maintained a distributor and a correspondent there responsible for reporting on the island’s current events. However, the circulation of the <title>Revue</title> was hampered by the local administration, who considered the publication seditious. Thus, in a letter dated May 1836, Louis-Timagène Houat, himself imprisoned, along with other men of color, for incitement to insurrection, offered to take over from the previous correspondent, who had been the victim of such intimidation.</p>
+                <bibl>Ève, Prosper.  <title>Naître et mourir à l’île Bourbon à l’époque de l’esclavage</title> . Paris &amp; Saint-Denis: L’Harmattan, 1999.</bibl>
+                <bibl>Little, Roger et Pratima Prasad (eds.).  <title>Esclaves marrons à Bourbon Une anthologie littéraire (1831-1848)</title> . 2005. vol.64.</bibl>
+                <bibl>Prasad, Pratima. « Colour and Conflict in Nineteenth-Century Île Bourbon: the Case of the Affaire Houat », Dix-Neuf. 2 janvier 2020, vol.24 no 1. p. 1‑16.</bibl>
+            </note>
+            <note xml:lang="fr" type="Place" resp="#masha">
+                <p>Située dans l’océan Indien à l’est de Madagascar, l’île de Bourbon est sous contrôle français depuis le 17e siècle. Devenue Réunion à la Révolution, puis île Bonaparte sous l’Empire, elle est occupée par les Britanniques entre 1810 et 1814, avant d’être définitivement rendue à la France dans le cadre du traité de Paris. D’abord employée comme escale pour les navires de la Compagnie française des Indes orientales, l’île intègre, dans la première moitié du 18e siècle, le modèle de la société de plantation esclavagiste. D’après le recensement de 1788, environ 80% de la population de l’île, d’origine africaine, malgache, ou indienne, est esclavisée. L’esclavagisme bourbonnais repose, par ailleurs, sur une politique de division éthnique d’africains, de malgaches et d’indiens dans le but d’éviter la constitution d’un groupe majoritaire menaçant pour l’ordre colonial. L’abolition décrétée par la Convention le 4 février 1794, n’y est jamais appliquée et les actes de résistance, notamment le marronnage, sont répandus.</p>
+                <p>Comme c’est le cas dans d’autres territoires coloniaux, la <title>Revue des Colonies </title>y dispose d’un distributeur et d’un correspondant chargé de rendre compte de l’actualité de l’île. Cependant, la circulation de la <title>Revue</title>, estimée dangereuse pour l’ordre colonial, y est entravée par l’administration locale. Ainsi, dans une lettre datée de mai 1836, Louis-Timagène Houat, lui-même incarcéré, avec d’autres hommes de couleur, pour incitation à l’insurrection, propose de prendre la relève du correspondant précédent, victime d’intimidations.</p>
+                <bibl>Ève, Prosper.  <title>Naître et mourir à l’île Bourbon à l’époque de l’esclavage</title> . Paris &amp; Saint-Denis: L’Harmattan, 1999.</bibl>
+                <bibl>Little, Roger et Pratima Prasad (eds.).  <title>Esclaves marrons à Bourbon Une anthologie littéraire (1831-1848)</title> . 2005. vol.64.</bibl>
+                <bibl>Prasad, Pratima. « Colour and Conflict in Nineteenth-Century Île Bourbon: the Case of the Affaire Houat », Dix-Neuf. 2 janvier 2020, vol.24 no 1. p. 1‑16.</bibl>
+            </note>
+        </place>
         <place xml:id="DOM">
             <placeName xml:lang="en">Dominique</placeName>
             <placeName xml:lang="fr">Dominique</placeName>
+            <location>
+                <geo decls="#geojson">{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.35632214667507,
+          15.438232226612541
+        ]
+      },
+      "properties": {}
+    }
+  ]
+}</geo>
+            </location>
             <note xml:lang="en" type="Place" resp="#masha">
                 <p>Dominica, located directly between Guadeloupe and Martinique, was first settled by French settlers from these islands in the late seventeenth century, who soon brought in African slaves. Like Martinique and Guadeloupe, Dominica was taken by British forces during the Seven Years' War. Unlike those islands, however, it remained under British control. After a French re-invasion in 1775, the colony was formally returned to the British in 1783 and remained under British control until its independence in 1978.</p>
             </note>
             <note xml:lang="fr" type="Place" resp="#masha">
-                <p>La Dominique, située directement entre la Guadeloupe et la Martinique, a d’abord été colonisée par des colons français de ces îles à la fin du XVIIe siècle, qui ont rapidement amené des esclaves africains. Comme la Martinique et la Guadeloupe, la Dominique a été prise par les forces britanniques pendant la guerre de Sept Ans. Contrairement à ces îles, cependant, elle est restée sous contrôle britannique. Après une ré-invasion française en 1775, la colonie est formellement rendue aux Britanniques en 1783 et resta sous contrôle britannique jusqu’à son indépendance en 1978. </p>
-            </note>
-        </place>
-        <place xml:id="Alg">
-            <placeName xml:lang="en">Alger</placeName>
-            <placeName xml:lang="fr">Alger</placeName>
-            <note xml:lang="en" type="Place" resp="#masha">
-                <p>French forces first entered the city of Algiers in July, 1830, in the closing days of the reign of Charles X, with formal military annexation beginning in 1834. At the time of the <title>Revue</title>’s initial publication, Algiers was metonymic of all the conquests carried out during the “pacification” operations, constituting a territory too restricted to be perceived distinctly from the city. It was in 1847, when the conquest took a definitive turn with the surrender of Abd el-Kader, that the territory of colonial Algeria began to expand in a precipitous manner. Although it generally opposes the violence of the occupying forces, the <title>Revue </title>is never explicitly critical of the colonization of Algeria.</p>
-                <bibl>Bouchène, Abderrahmane, Jean-Pierre Peyroulou, Ouanassa Siari Tengour, Sylvie Thénault, eds.  <title>Histoire de l’Algérie à la période coloniale, 1830-1962. </title> Paris: La Découverte, 2014.</bibl>
-                <bibl>Sessions, Jennifer E.  <title>By Sword and Plow: France and the Conquest of Algeria</title> . Ithaca: Cornell University Press, 2014.</bibl>
-            </note>
-            <note xml:lang="fr" type="Place" resp="#masha">
-                <p>Les forces françaises entrent pour la première fois dans la ville d’Alger en juillet 1830, dans les derniers jours du règne de Charles X, avec une annexion militaire formelle commençant en 1834. Au moment de la première livraison de la <title>Revue</title>, Alger est métonymique de l’ensemble des conquêtes effectuées au cours des opérations de « pacification », constituant un territoire trop restreint pour être perçu différemment de la ville. C’est en 1847, lorsque la conquête amorce un tournant définitif avec la reddition d’Abd el-Kader, que le territoire de l’Algérie coloniale commence à s’étendre de manière précipitée. Bien qu’elle soit généralement opposée à la violence des forces d’occupation, la <title>Revue </title>ne se montre jamais explicitement hostile à la colonisation de l’Algérie.</p>
-                <bibl>Bouchène, Abderrahmane, Jean-Pierre Peyroulou, Ouanassa Siari Tengour, Sylvie Thénault, eds.  <title>Histoire de l’Algérie à la période coloniale, 1830-1962. </title> Paris: La Découverte, 2014.</bibl>
-                <bibl>Sessions, Jennifer E.  <title>By Sword and Plow: France and the Conquest of Algeria</title> . Ithaca: Cornell University Press, 2014.</bibl>
-            </note>
-        </place>
-        <place xml:id="Cay">
-            <placeName xml:lang="en">Cayenne </placeName>
-            <placeName xml:lang="fr">Cayenne </placeName>
-            <note xml:lang="en" type="Place" resp="#masha">
-                <p>The island of Cayenne, in the estuary of the river of the same name, is also the location of the city of Cayenne, the capital of French Guiana. According to the 1788 census, Cayenne’s enslaved population represented just over 80% of the total population. During the Revolution, Cayenne received multiple convoys of exiles from metropolitan France, beginning its eventual transformation into a penal colony in the nineteenth century. The 1794 abolition decree was never meaningfully enforced there. Victor Hugues, the commissioner in charge of enforcing the decree in Guadeloupe, was named governor of Guiana in 1799, replacing slavery with a system of conscripted labor until the official restoration of slavery in 1802 by the decree of First Consul Napoleon Bonaparte. This regression to pre-Revolutionary conditions led to high frequencies of marronage. Conquered by Portuguese forces in 1809, the colony was returned to France in 1817, following the Treaty of Paris. From its inaugural issue, the <title>Revue des Colonie</title> features regular reports from a correspondent in Cayenne, including detailed electoral data.</p>
-                <bibl>Mam Lam Fouck, Serge.  <title>La Guyane française au temps de l'esclavage, de l'or et de la francisation (1802-1946)</title> . Matoury, French Guiana: Ibis Rouge Editions, 1999.</bibl>
-                <bibl>Schmidt, Nelly.  <title>La France a-t-elle aboli l'esclavage ? Guadeloupe, Martinique, Guyane, 1830-1935</title> . Paris: Perrin, 2009.</bibl>
-            </note>
-            <note xml:lang="fr" type="Place" resp="#masha">
-                <p>Situé sur l’île de Cayenne, dans l’estuaire de la rivière du même nom, Cayenne est le chef-lieu de la Guyane française. Issue du premier empire colonial français, voisine du Brésil et du Suriname, cette colonie fondée sur l’économie de plantation devient un lieu de déportation lors de la Révolution française, accueillant plusieurs convois de proscrits. D’après le recensement de 1788, la population esclavisée y représente un peu plus de 80% de la population. L’abolition de l’esclavage, en application du décret de la Convention, y est proclamée le 14 juin 1794. En 1802, Victor Hugues, le commissaire chargé de faire appliquer le décret d’abolition de l’esclavage en Guadeloupe, y impose le rétablissement de l’esclavage promulgué en 1802 par Napoléon Bonaparte, Premier Consul, et instaure un régime de conscription locale. Cette régression aux dispositions antérieures à la Révolution entraîne d’importants mouvements de marronnage. Conquise par les forces portugaises en 1809, la colonie est restituée à la France en 1817, à l’issue du traité de Paris. La <title>Revue des Colonies </title>dispose d’un correspondant à Cayenne qui rend compte des nouvelles, notamment électorales, de Guyane dès la première livraison.</p>
-                <bibl>Mam Lam Fouck, Serge.  <title>La Guyane française au temps de l'esclavage, de l'or et de la francisation (1802-1946)</title> . Matoury, French Guiana: Ibis Rouge Editions, 1999.</bibl>
-                <bibl>Schmidt, Nelly.  <title>La France a-t-elle aboli l'esclavage ? Guadeloupe, Martinique, Guyane, 1830-1935</title> . Paris: Perrin, 2009.</bibl>
+                <p>La Dominique, située directement entre la Guadeloupe et la Martinique, a d’abord été colonisée par des colons français de ces îles à la fin du XVIIe siècle, qui ont rapidement amené des esclaves africains. Comme la Martinique et la Guadeloupe, la Dominique a été prise par les forces britanniques pendant la guerre de Sept Ans. Contrairement à ces îles, cependant, elle est restée sous contrôle britannique. Après une ré-invasion française en 1775, la colonie est formellement rendue aux Britanniques en 1783 et resta sous contrôle britannique jusqu’à son indépendance en 1978.</p>
             </note>
         </place>
         <place xml:id="Esk">
@@ -1015,26 +1161,6 @@
             <note xml:lang="fr" type="Place" resp="#masha">
                 <p>The place of birth of Oladuah Equiano, according to his autobiography <title>The Interesting Narrative of the Life of Olaudah Equiano, Or Gustavus Vassa, The African</title>. This work, which is the source for the chapter on Equiano in Abbé Grégoire’s <title>De la littérature des nègres</title> reprinted in the <title>Revue</title>, contains the only known reference to “Essaka” with this spelling. The actual place of Equiano’s birth has been the subject of some debate, with some claiming that Essaka refers to Issieke, in Igboland, present day Nigeria. Other scholars have pointed out that Equiano’s baptismal records (whose information would have been provided by the family of his master), and other documents from his naval career, list his place of birth as South Carolina.</p>
                 <bibl>Lovejoy, Paul E. "Olaudah Equiano or Gustavus Vassa, What's in a Name?"  <title>Atlantic Studies</title>  9.2 (2012), 165-84.</bibl>
-            </note>
-        </place>
-        <place xml:id="ANG">
-            <placeName xml:lang="en">Angleterre </placeName>
-            <placeName xml:lang="fr">Angleterre </placeName>
-            <note xml:lang="en" type="Place" resp="#masha">
-                <p>As both France’s primary military and colonial rival and a model for the French abolitionist movement, England is a particularly interesting topic of coverage within the <title>Revue.</title></p>
-                <p>France’s adversary through the Revolution and Napoleonic wars, British forces repeatedly seized and returned various French colonial possessions.</p>
-                <p>Though hampered in the 1790s by panic over the French and Haitian Revolutions, the British abolitionist movement successfully campaigned for the end of the slave trade in 1807, gaining popular support by emphasizing, simultaneously, the immorality of maintaining slavery and the possible economic advantages of its abolition. In 1833, British Parliament proclaimed the abolition of slavery, to be enacted in 1834, culminating in the effective emancipation of all enslaved people in the British colonies by 1838, after a period of “apprenticeship.” The process of British abolition, which occurred in parallel to the first years of publication of the <title>Revue</title>, signaled the inevitability of abolition in France, shifting the debate to the question of immediate or gradualist emancipation.</p>
-                <p>Like other French abolitionists, Bissette received confirmed support from the <title>British and Foreign Anti-Slavery Society </title>(BFASS), at least for the publication of his short-lived <title>Revue Abolioniste </title>in 1847.</p>
-                <bibl>Jennings, Lawrence C. “Slavery and the Venality of the July Monarchy Press.”  <title>French Historical Studies</title>  17.4 (1992): 957–78.</bibl>
-                <bibl>Walvin, James. "British Abolitionism, 1787-1838." In  <title>The Abolitions of Slavery: From the LF Sonthonax to Victor Schoelcher, 1793, 1794, 1848</title> ,edited by Marcel Dorigny (New York: Bergham Books, 2003), 71-78</bibl>
-            </note>
-            <note xml:lang="fr" type="Place" resp="#masha">
-                <p>À la fois puissance militaire et coloniale rivale de la France et modèle du mouvement abolitionniste français, l’Angleterre bénéficie, au sein de la <title>Revue, </title>d’une couverture médiatique particulièrement intéressante.</p>
-                <p>Adversaire de la France pendant la période révolutionnaire et napoléonienne, la Grande-Bretagne saisit et restitue à plusieurs reprises diverses possessions coloniales françaises.</p>
-                <p>Quelque peu freiné, dans les années 1790, par les craintes que suscitent les Révolution française et haïtienne, le mouvement abolitionniste britannique se popularise à partir de 1807, sous la double perspective de l’immoralité du maintien de l’esclavage et l’intérêt économique de son abolition. En 1833, le Parlement britannique proclame l’abolition de l’esclavage, devant entrer en vigueur en 1834 et culminerait avec l’émancipation effective de tous les esclaves dans les colonies britanniques en 1838 après une période d ’«apprentissage». Le processus d’abolition britannique, qui se déroule parallèlement aux premières années de publication de la <title>Revue</title>, signale le caractère inévitable de l’abolition en France, déplaçant le débat vers la question de l’émancipation immédiate ou gradualiste.</p>
-                <p>Comme d’autres abolitionnistes français, Bissette a reçu un soutien avéré de la <title>British and Foreign Anti-Slavery Society</title> (BFASS), au moins pour la publication de son éphémère <title>Revue Abolioniste </title>en 1847.</p>
-                <bibl>Jennings, Lawrence C. “Slavery and the Venality of the July Monarchy Press.”  <title>French Historical Studies</title>  17.4 (1992): 957–78.</bibl>
-                <bibl>Walvin, James. "British Abolitionism, 1787-1838." In  <title>The Abolitions of Slavery: From the LF Sonthonax to Victor Schoelcher, 1793, 1794, 1848</title> ,edited by Marcel Dorigny (New York: Bergham Books, 2003), 71-78</bibl>
             </note>
         </place>
         <place xml:id="MQ">
@@ -1057,24 +1183,6 @@
                 <bibl>Kováts Beaudoux, Édith, <title> Les Blancs créoles de la Martinique : une minorité dominante</title> , préface de Michel Giraud, Paris, France, L’Harmattan, 2003.</bibl>
                 <bibl>Larcher, Silyane.  <title>L’autre citoyen: L’idéal républicain et les Antilles après l’esclavage</title> . Paris: Armand Colin, 2014. 109-125.</bibl>
                 <bibl>Régent, Frédéric. « Préjugé de couleur, esclavage et citoyennetés dans les colonies françaises (1789-1848) »,  <title>La Révolution française</title> . 17 novembre 2015 n <hi rend="superscript">o</hi>  9. En ligne :  <ref target="">http://journals.openedition.org/lrf/1403</ref>  [consulté le 13 novembre 2021].</bibl>
-            </note>
-        </place>
-        <place xml:id="BrB">
-            <placeName xml:lang="en">Bourbon</placeName>
-            <placeName xml:lang="fr">Bourbon</placeName>
-            <note xml:lang="en" type="Place" resp="#masha">
-                <p>Located in the Indian Ocean to the east of Madagascar, the island of Bourbon has been under French control since the seventeenth century. Renamed Réunion during the Revolution, then Bonaparte Island under the Empire, it was occupied by the British between 1810 and 1814, before definitively returning to France in the Treaty of Paris. First used as a stopover for the ships of the French East India Company, the island adopted a slave plantation economy in the first half of the eighteenth century. According to the 1788 census, approximately 80% of the island’s population, originating in Africa, Madagascar or India, was enslaved. The abolition decreed by the Convention on February 4, 1794 was never actually applied and acts of resistance, notably <title>marronage</title>, were common.</p>
-                <p>As is in other colonial territories, the <title>Revue des Colonies</title> maintained a distributor and a correspondent there responsible for reporting on the island’s current events. However, the circulation of the <title>Revue</title> was hampered by the local administration, who considered the publication seditious. Thus, in a letter dated May 1836, Louis-Timagène Houat, himself imprisoned, along with other men of color, for incitement to insurrection, offered to take over from the previous correspondent, who had been the victim of such intimidation.</p>
-                <bibl>Ève, Prosper.  <title>Naître et mourir à l’île Bourbon à l’époque de l’esclavage</title> . Paris &amp; Saint-Denis: L’Harmattan, 1999.</bibl>
-                <bibl>Little, Roger et Pratima Prasad (eds.).  <title>Esclaves marrons à Bourbon Une anthologie littéraire (1831-1848)</title> . 2005. vol.64.</bibl>
-                <bibl>Prasad, Pratima. « Colour and Conflict in Nineteenth-Century Île Bourbon: the Case of the Affaire Houat », Dix-Neuf. 2 janvier 2020, vol.24 no 1. p. 1‑16.</bibl>
-            </note>
-            <note xml:lang="fr" type="Place" resp="#masha">
-                <p>Située dans l’océan Indien à l’est de Madagascar, l’île de Bourbon est sous contrôle français depuis le 17e siècle. Devenue Réunion à la Révolution, puis île Bonaparte sous l’Empire, elle est occupée par les Britanniques entre 1810 et 1814, avant d’être définitivement rendue à la France dans le cadre du traité de Paris. D’abord employée comme escale pour les navires de la Compagnie française des Indes orientales, l’île intègre, dans la première moitié du 18e siècle, le modèle de la société de plantation esclavagiste. D’après le recensement de 1788, environ 80% de la population de l’île, d’origine africaine, malgache, ou indienne, est esclavisée. L’esclavagisme bourbonnais repose, par ailleurs, sur une politique de division éthnique d’africains, de malgaches et d’indiens dans le but d’éviter la constitution d’un groupe majoritaire menaçant pour l’ordre colonial. L’abolition décrétée par la Convention le 4 février 1794, n’y est jamais appliquée et les actes de résistance, notamment le marronnage, sont répandus.</p>
-                <p>Comme c’est le cas dans d’autres territoires coloniaux, la <title>Revue des Colonies </title>y dispose d’un distributeur et d’un correspondant chargé de rendre compte de l’actualité de l’île. Cependant, la circulation de la <title>Revue</title>, estimée dangereuse pour l’ordre colonial, y est entravée par l’administration locale. Ainsi, dans une lettre datée de mai 1836, Louis-Timagène Houat, lui-même incarcéré, avec d’autres hommes de couleur, pour incitation à l’insurrection, propose de prendre la relève du correspondant précédent, victime d’intimidations.</p>
-                <bibl>Ève, Prosper.  <title>Naître et mourir à l’île Bourbon à l’époque de l’esclavage</title> . Paris &amp; Saint-Denis: L’Harmattan, 1999.</bibl>
-                <bibl>Little, Roger et Pratima Prasad (eds.).  <title>Esclaves marrons à Bourbon Une anthologie littéraire (1831-1848)</title> . 2005. vol.64.</bibl>
-                <bibl>Prasad, Pratima. « Colour and Conflict in Nineteenth-Century Île Bourbon: the Case of the Affaire Houat », Dix-Neuf. 2 janvier 2020, vol.24 no 1. p. 1‑16.</bibl>
             </note>
         </place>
         <place xml:id="GP">
