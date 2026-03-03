@@ -361,6 +361,10 @@ const captureInitialState = () => {
         .attr("height", buttonHeight)
         .attr("rx", 10)
         .attr("ry", 10).raise()
+        .attr("role", "button")
+        .attr("tabindex", "0")
+        // Translatable aria-label for accessibility
+        .attr("aria-label", language === "fr" ? "Réinitialiser la vue" : "Reset view")
         .on("click", () => {
           // Reset rotation and scale
           projection.rotate([30, -30])
@@ -377,7 +381,25 @@ const captureInitialState = () => {
           // Raise buttons to keep them clickable
           svg.selectAll(".zoom-button").raise();
           svg.selectAll(".zoom-button-text").raise();
-        }).raise();
+        })
+        // Keyboard accessibility for reset button
+        .on("keydown", (event:any) => {
+          if (event.key === "Enter" || event.key === " ") {
+            // Reset rotation and scale
+            projection.rotate([30, -30])
+              .scale(initialScale);
+            
+            // Update all elements
+            svg.selectAll("path").attr("d", (d: any) => path(d));
+            svg.select(".globe").attr("r", initialScale);
+            updatePins();
+            
+            // Resume rotation
+            isRotationStopped = false;
+            
+            // Raise buttons to keep them clickable
+            svg.selectAll(".zoom-button")
+          }}).raise();
     
       // Reset icon (↻)
       svg.append("text")
@@ -386,6 +408,7 @@ const captureInitialState = () => {
         .attr("y", height - 3 * buttonHeight - 3 * margin + buttonHeight/2 + (isScreenSmall ? 12 : 7))
         .attr("text-anchor", "middle")
         .attr("font-size", isScreenSmall ? "24px" : "16px")
+        .attr("aria-hidden", "true")
         .text("↻").raise();
     
       // Zoom In Button
@@ -397,6 +420,10 @@ const captureInitialState = () => {
         .attr("height", buttonHeight)
         .attr("rx", 10)
         .attr("ry", 10)
+        .attr("role", "button") 
+        .attr("tabindex", "0")
+        // Translatable aria-label for accessibility
+        .attr("aria-label", language === "fr" ? "Zoomer avant" : "Zoom in")
         .on("click", (e) => {
           const currentScale = projection.scale();
           const newScale = Math.min(currentScale * 1.2, width);
@@ -407,6 +434,20 @@ const captureInitialState = () => {
           updatePins();
           svg.selectAll(".zoom-button").raise();
           svg.selectAll(".zoom-button-text").raise();
+        })
+        .on("keydown", (event:any) => {
+          // Keyboard accessibility for zoom in button
+          if (event.key === "Enter" || event.key === " ") {
+            const currentScale = projection.scale();
+            const newScale = Math.min(currentScale * 1.2, width);
+            
+            projection.scale(newScale);
+            svg.selectAll("path").attr("d", (d: any) => path(d));
+            svg.select(".globe").attr("r", newScale);
+            updatePins();
+            svg.selectAll(".zoom-button").raise();
+            svg.selectAll(".zoom-button-text").raise();
+          }
         });
     
       svg.append("text")
@@ -415,6 +456,7 @@ const captureInitialState = () => {
         .attr("y", height - 2 * buttonHeight - 2 * margin + buttonHeight/2 + (isScreenSmall ? 12 : 7))
         .attr("text-anchor", "middle")
         .attr("font-size", isScreenSmall ? "24px" : "16px")
+        .attr("aria-hidden", "true")
         .text("+");
     
       // Zoom Out Button
@@ -426,6 +468,10 @@ const captureInitialState = () => {
         .attr("height", buttonHeight)
         .attr("rx", 10)
         .attr("ry", 10)
+        .attr("role", "button")
+        .attr("tabindex", "0")
+        // Translatable aria-label for accessibility
+        .attr("aria-label", language === "fr" ? "Zoomer arrière" : "Zoom out")
         .on("click", () => {
           const currentScale = projection.scale();
           const newScale = Math.max(currentScale / 1.2, initialScale * minZoom);
@@ -436,6 +482,20 @@ const captureInitialState = () => {
           updatePins();
           svg.selectAll("rect").raise();
           svg.selectAll("text").raise();
+        })
+        .on("keydown", (event:any) => {
+          // Keyboard accessibility for zoom out button
+          if (event.key === "Enter" || event.key === " ") {
+            const currentScale = projection.scale();
+            const newScale = Math.max(currentScale / 1.2, initialScale * minZoom);
+            
+            projection.scale(newScale);
+            svg.selectAll("path").attr("d", (d: any) => path(d));
+            svg.select(".globe").attr("r", newScale);
+            updatePins();
+            svg.selectAll("rect").raise();
+            svg.selectAll("text").raise();
+          }
         });
     
       svg.append("text")
@@ -444,8 +504,8 @@ const captureInitialState = () => {
         .attr("y", height - buttonHeight - margin + buttonHeight/2 + (isScreenSmall ? 12 : 7))
         .attr("text-anchor", "middle")
         .attr("font-size", isScreenSmall ? "24px" : "16px")
+        .attr("aria-hidden", "true")
         .text("-");
-
     };
   
     
