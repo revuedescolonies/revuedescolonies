@@ -37,23 +37,28 @@ const Ptr: TBehavior = (props: TEIProps) => {
       n: parseInt(n)
     }
 
-    const handleDialog = (e: React.KeyboardEvent | React.MouseEvent) => {
-      if (e.type !== 'keydown' || e.type === 'keydown' && (e as React.KeyboardEvent).key === 'Enter') {
-        setEntity(null)
-        setNote(noteData)
-      }
-    }
-
     return (
       <Behavior node={props.teiNode} key={n}>
         <sup>
-          <Box component="a" onClick={handleDialog} onKeyDown={handleDialog} sx={{
+          <Box component="button" type="button" onClick={() => {
+            setEntity(null)
+            setNote(noteData)
+          }} aria-label={`Open note ${n}`} aria-haspopup="dialog" sx={{
             color: typeColor,
             fontSize: "80%",
             cursor: "pointer",
             wordBreak: "normal",
+            background: "none",
+            border: 0,
+            padding: 0,
+            lineHeight: 1,
+            font: "inherit",
             "&:hover, &:active": {
               color: typeColor,
+            },
+            "&:focus-visible": {
+              outline: `2px solid ${typeColor}`,
+              outlineOffset: "2px"
             }
           }}>[{n}]</Box>
         </sup>

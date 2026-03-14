@@ -67,7 +67,7 @@ const Note: NoteBehavior = (props: TEIProps) => {
   if (note) {
     if (note.id === noteId) {
       let content: JSX.Element | undefined = undefined
-      const closeNote = (<IconButton aria-label="close person info" onClick={() => setNote(null)}>
+      const closeNote = (<IconButton aria-label="Close note" onClick={() => setNote(null)}>
         <CloseIcon />
       </IconButton>)
 
@@ -97,7 +97,7 @@ const Note: NoteBehavior = (props: TEIProps) => {
               <Typography variant="h6">Note {note.n}<br/>
                 <Chip size="small" label={type} />
               </Typography>              
-              <IconButton aria-label="close person info" onClick={() => setNote(null)}>
+              <IconButton aria-label="Close note" onClick={() => setNote(null)}>
                 <CloseIcon />
               </IconButton>
             </DialogTitle>

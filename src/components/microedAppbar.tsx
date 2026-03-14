@@ -8,7 +8,7 @@ import useScrollTrigger from '@mui/material/useScrollTrigger'
 import { navigate } from "gatsby-link"
 import DisplayOptionsMenu from "./displayOptionsMenu"
 import { DisplayContext } from "../gatsby-theme-ceteicean/components/Context"
-import { Box, Divider, FormControlLabel, FormGroup, MenuItem, Radio, RadioGroup, Switch, Typography } from "@mui/material"
+import { Box, Button, Divider, FormControlLabel, FormGroup, MenuItem, Switch, Typography } from "@mui/material"
 
 const styles = {
   appbarContent: {
@@ -23,6 +23,16 @@ const styles = {
   },
   menuLabel: {
     padding: '6px 16px'
+  },
+  srOnly: {
+    border: 0,
+    clip: "rect(0 0 0 0)",
+    height: 1,
+    margin: -1,
+    overflow: "hidden",
+    padding: 0,
+    position: "absolute",
+    width: 1
   }
 }
 
@@ -47,6 +57,7 @@ export default function MicroedAppBar({location, toc}: Props) {
   // const isScreenSmall = useMediaQuery(theme.breakpoints.down('md'))
   const { contextOpts, setContextOpts } = React.useContext(DisplayContext)
   const lang = location.replace(/\w+-/, '')
+  const [draftAnnosLang, setDraftAnnosLang] = React.useState((contextOpts.annosLang as string) || "en")
 
   const tocs: {[key: string]: any} = {
     "RdCv1n1-fr": [
@@ -193,18 +204,17 @@ export default function MicroedAppBar({location, toc}: Props) {
     </MenuItem>
   }
 
-  const handleAnnosLangChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const target = event.target as HTMLInputElement
-    const opts = Object.assign({}, contextOpts)
-    opts.annosLang = target.value
-    setContextOpts(opts)
+  React.useEffect(() => {
+    setDraftAnnosLang((contextOpts.annosLang as string) || "en")
+  }, [contextOpts.annosLang])
 
-    // Switch page if textLang is changed
-    if (target.name == 'textLang') {
-      const dest = location.replace(/\w{2}$/, target.value)
-      navigate(`/${dest}`)
-    }
+  const applyAnnosLang = (value: string) => {
+    const opts = Object.assign({}, contextOpts)
+    opts.annosLang = value
+    setContextOpts(opts)
   }
+
+  const handleAnnosLangSelect = (value: string) => setDraftAnnosLang(value)
 
   const handleSpelling = () => {
     const opts = Object.assign({}, contextOpts)
@@ -224,11 +234,46 @@ export default function MicroedAppBar({location, toc}: Props) {
     <DisplayOptionsMenu label={lang === "fr" ? "Options d'affichage" : "Display options"}>
       <Box sx={{padding: ".5em 1em 0 1em"}}>
         {spelling}
-        <Typography variant="body2">Annotations</Typography>
-        <RadioGroup row name="annosLang" value={contextOpts.annosLang} onChange={handleAnnosLangChange}>
-          <FormControlLabel value="fr" control={<Radio />} label="Français" />
-          <FormControlLabel value="en" control={<Radio />} label="English" />
-        </RadioGroup>
+        <Typography id="annos-language-label" variant="body2">Annotations</Typography>
+        <Typography id="annos-language-options" component="span" sx={styles.srOnly}>
+          {lang === "fr" ? "Options: Français et English" : "Options: French and English"}
+        </Typography>
+        <Box
+          role="radiogroup"
+          aria-labelledby="annos-language-label"
+          aria-describedby="annos-language-options"
+          sx={{ display: "flex", gap: 1, mt: 0.5 }}
+        >
+          <Button
+            role="radio"
+            size="small"
+            variant={draftAnnosLang === "fr" ? "contained" : "outlined"}
+            aria-checked={draftAnnosLang === "fr"}
+            aria-label={lang === "fr" ? "Langue d'annotation français" : "Annotation language French"}
+            onClick={() => handleAnnosLangSelect("fr")}
+          >
+            Français
+          </Button>
+          <Button
+            role="radio"
+            size="small"
+            variant={draftAnnosLang === "en" ? "contained" : "outlined"}
+            aria-checked={draftAnnosLang === "en"}
+            aria-label={lang === "fr" ? "Langue d'annotation anglais" : "Annotation language English"}
+            onClick={() => handleAnnosLangSelect("en")}
+          >
+            English
+          </Button>
+        </Box>
+        <Button
+          size="small"
+          variant="outlined"
+          onClick={() => applyAnnosLang(draftAnnosLang)}
+          disabled={draftAnnosLang === contextOpts.annosLang}
+          sx={{ mt: 1 }}
+        >
+          {lang === "fr" ? "Appliquer" : "Apply"}
+        </Button>
       </Box>
     </DisplayOptionsMenu>
   </>)

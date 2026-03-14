@@ -41,13 +41,8 @@ export default function DisplayOptionsMenu({children, label, forceLabel = false,
     setOpen(false)
   }
 
-  const handleListKeyDown = (event: React.KeyboardEvent) => {
-    if (event.key === 'Tab') {
-      event.preventDefault()
-      setOpen(false)
-    }
-  }
 
+  
   const handleClick = () => {
     if (closeOnClick) {
       setOpen(false)
@@ -82,7 +77,7 @@ export default function DisplayOptionsMenu({children, label, forceLabel = false,
         >
           <Paper>
             <ClickAwayListener onClickAway={handleClose}>
-              <MenuList autoFocusItem={open} id="menu-list-grow" onKeyDown={handleListKeyDown} onClick={handleClick}>
+              <MenuList autoFocusItem={open} id="menu-list-grow" onClick={handleClick}>
                 {children}
               </MenuList>
             </ClickAwayListener>
