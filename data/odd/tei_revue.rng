@@ -5,9 +5,9 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2026-02-16T15:33:15Z. . 
-TEI Edition: P5 Version 4.10.2. Last updated on 4th September 2025, revision bcfa98f42 
-TEI Edition Location: https://www.tei-c.org/Vault/P5/4.10.2/ 
+Schema generated from ODD source 2026-03-18T13:09:27Z. . 
+TEI Edition: P5 Version 4.11.0. Last updated on 18th February 2026, revision 358d2e48e 
+TEI Edition Location: https://www.tei-c.org/Vault/P5/4.11.0/ 
   
 --><!--This material is dual-licensed.
 [http://creativecommons.org/licenses/by-sa/3.0/] Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported License [http://www.opensource.org/licenses/BSD-2-Clause] Copyright 2013 TEI Consortium. All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. This software is provided by the copyright holders and contributors "as is" and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the copyright holder or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage. TEI material can be licensed differently depending on the use you intend to make of it. Hence it is made available under both the CC+BY and BSD-2 licences. The CC+BY licence is generally appropriate for usages which treat TEI content as data or documentation. The BSD-2 licence is generally appropriate for usage of TEI content in a software environment. For further information or clarification, please contact the  TEI Consortium  .-->
@@ -801,16 +801,6 @@ Suggested values include: 1] m (metre); 2] kg (kilogram); 3] s (second); 4] Hz (
          </attribute>
       </optional>
    </define>
-   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="tei_revue-att.measurement-att-measurement-unitRef-constraint-rule-6">
-      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:xi="http://www.w3.org/2001/XInclude"
-                context="tei:*[@unitRef]">
-         <sch:report role="info" test="@unit">The @unit attribute may be unnecessary when @unitRef is present.</sch:report>
-      </sch:rule>
-   </pattern>
    <define name="tei_att.notated.attributes">
       <ref name="tei_att.notated.attribute.notation"/>
    </define>
@@ -891,7 +881,7 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="tei_revue-att.pointing-targetLang-targetLang-constraint-rule-7">
+            id="tei_revue-att.pointing-targetLang-targetLang-constraint-rule-6">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -1043,7 +1033,7 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="tei_revue-att.spanning-spanTo-spanTo-points-to-following-constraint-rule-8">
+            id="tei_revue-att.spanning-spanTo-spanTo-points-to-following-constraint-rule-7">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -1079,7 +1069,7 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="tei_revue-att.typed-subtypeTyped-constraint-rule-9">
+            id="tei_revue-att.typed-subtypeTyped-constraint-rule-8">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -1238,6 +1228,8 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
             <choice>
                <value>composite</value>
                <a:documentation>no claim is made about the sequence in which the immediate contents of this division are to be processed, or their inter-relationships.</a:documentation>
+               <value>parallel</value>
+               <a:documentation>the contents of this element are intended to represent simultaneous or side-by-side delivery.</a:documentation>
                <value>uniform</value>
                <a:documentation>the immediate contents of this element are regarded as forming a logical unit, to be processed in sequence.</a:documentation>
             </choice>
@@ -3230,6 +3222,7 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
    <define name="tei_model.divTopPart">
       <choice>
          <ref name="tei_model.headLike"/>
+         <ref name="tei_address"/>
          <ref name="tei_opener"/>
          <ref name="tei_signed"/>
       </choice>
@@ -3260,6 +3253,7 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
    </define>
    <define name="tei_model.divBottomPart">
       <choice>
+         <ref name="tei_address"/>
          <ref name="tei_trailer"/>
          <ref name="tei_closer"/>
          <ref name="tei_signed"/>
@@ -3741,7 +3735,7 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="tei_revue-att.calendarSystem-calendar-calendar_attr_on_empty_element-constraint-rule-10">
+            id="tei_revue-att.calendarSystem-calendar-calendar_attr_on_empty_element-constraint-rule-9">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -3796,11 +3790,11 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
    </define>
    <define name="tei_p">
       <element name="p">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(paragraph) marks paragraphs in prose. [3.1. Paragraphs 7.2.5. Speech Contents]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(paragraph) marks paragraphs in prose. [3.1. Paragraphs 7.2.6. Speech Contents]</a:documentation>
          <ref name="tei_macro.paraContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="tei_revue-p-abstractModel-structure-p-in-ab-or-p-constraint-rule-11">
+                  id="tei_revue-p-abstractModel-structure-p-in-ab-or-p-constraint-rule-10">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:p">
@@ -3811,7 +3805,7 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="tei_revue-p-abstractModel-structure-p-in-l-constraint-rule-12">
+                  id="tei_revue-p-abstractModel-structure-p-in-l-constraint-rule-11">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:l//tei:p">
@@ -4028,7 +4022,7 @@ Suggested values include: 1] spoken (spoken); 2] thought (thought); 3] written (
          <ref name="tei_macro.limitedContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="tei_revue-desc-deprecationInfo-only-in-deprecated-constraint-rule-13">
+                  id="tei_revue-desc-deprecationInfo-only-in-deprecated-constraint-rule-12">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:desc[ @type eq 'deprecationInfo']">
@@ -4127,7 +4121,7 @@ Suggested values include: 1] deprecationInfo (deprecation information)</a:docume
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="tei_revue-rt-target-rt-target-not-span-constraint-rule-14">
+                  id="tei_revue-rt-target-rt-target-not-span-constraint-rule-13">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:rt/@target">
@@ -4144,7 +4138,7 @@ Suggested values include: 1] deprecationInfo (deprecation information)</a:docume
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="tei_revue-rt-from-rt-from-constraint-rule-15">
+                  id="tei_revue-rt-from-rt-from-constraint-rule-14">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:rt/@from">
@@ -4161,7 +4155,7 @@ Suggested values include: 1] deprecationInfo (deprecation information)</a:docume
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="tei_revue-rt-to-rt-to-constraint-rule-16">
+                  id="tei_revue-rt-to-rt-to-constraint-rule-15">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:rt/@to">
@@ -4447,7 +4441,43 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
             </oneOrMore>
          </group>
          <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.canonical.attributes"/>
          <ref name="tei_att.cmc.attributes"/>
+         <ref name="tei_att.typed.attribute.subtype"/>
+         <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the address in some sense, using any convenient classification scheme or typology.
+Suggested values include: 1] billing; 2] delivery; 3] mailing; 4] military; 5] physical</a:documentation>
+               <choice>
+                  <value>billing</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the address to which a bill for goods or services should be sent.</a:documentation>
+                  <value>delivery</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the address to which packages should be sent via a private delivery service.</a:documentation>
+                  <value>mailing</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the address to which mail should be sent via a public postal service.</a:documentation>
+                  <value>military</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the address to which mail to deployed military personnel should be sent.</a:documentation>
+                  <value>physical</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the address of a building irrespective of where mail to its occupants should be sent (for example, for the fire department).</a:documentation>
+                  <data type="token">
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  </data>
+               </choice>
+            </attribute>
+         </optional>
+         <optional>
+            <attribute name="role">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies further information about the purpose of the address.
+Sample values include: 1] sender; 2] return; 3] recipient ; 4] work; 5] home; 6] start; 7] finish; 8] pickup; 9] dropOff</a:documentation>
+               <list>
+                  <oneOrMore>
+                     <data type="token">
+                        <param name="pattern">[^\p{C}\p{Z}]+</param>
+                     </data>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>
@@ -4655,7 +4685,7 @@ Sample values include: 1] suspension (suspension); 2] contraction (contraction);
          <empty/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="tei_revue-ptr-ptrAtts-constraint-rule-17">
+                  id="tei_revue-ptr-ptrAtts-constraint-rule-16">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:ptr">
@@ -4678,7 +4708,7 @@ Sample values include: 1] suspension (suspension); 2] contraction (contraction);
          <ref name="tei_macro.paraContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="tei_revue-ref-refAtts-constraint-rule-18">
+                  id="tei_revue-ref-refAtts-constraint-rule-17">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:ref">
@@ -4743,7 +4773,7 @@ Sample values include: 1] suspension (suspension); 2] contraction (contraction);
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="tei_revue-list-gloss-list-must-have-labels-constraint-rule-19">
+                  id="tei_revue-list-gloss-list-must-have-labels-constraint-rule-18">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:list[@type='gloss']">
@@ -5012,7 +5042,7 @@ Elements]</a:documentation>
    <define name="tei_lb">
       <element name="lb">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(line beginning) marks the beginning of a topographic line in some edition or version of a text. [3.11.3. Milestone
-Elements 7.2.5. Speech Contents]</a:documentation>
+Elements 7.2.6. Speech Contents]</a:documentation>
          <empty/>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.breaking.attributes"/>
@@ -5516,7 +5546,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="tei_revue-relatedItem-targetorcontent1-constraint-rule-20">
+                  id="tei_revue-relatedItem-targetorcontent1-constraint-rule-19">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:relatedItem">
@@ -5539,7 +5569,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
    </define>
    <define name="tei_l">
       <element name="l">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(verse line) contains a single, possibly incomplete, line of verse. [3.13.1. Core Tags for Verse 3.13. Passages of Verse or Drama 7.2.5. Speech Contents]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(verse line) contains a single, possibly incomplete, line of verse. [3.13.1. Core Tags for Verse 3.13. Passages of Verse or Drama 7.2.6. Speech Contents]</a:documentation>
          <zeroOrMore>
             <choice>
                <text/>
@@ -5551,7 +5581,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="tei_revue-l-abstractModel-structure-l-in-l-constraint-rule-21">
+                  id="tei_revue-l-abstractModel-structure-l-in-l-constraint-rule-20">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:l">
@@ -5566,7 +5596,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
    </define>
    <define name="tei_lg">
       <element name="lg">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(line group) contains one or more verse lines functioning as a formal unit, e.g. a stanza, refrain, verse paragraph, etc. [3.13.1. Core Tags for Verse 3.13. Passages of Verse or Drama 7.2.5. Speech Contents]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(line group) contains one or more verse lines functioning as a formal unit, e.g. a stanza, refrain, verse paragraph, etc. [3.13.1. Core Tags for Verse 3.13. Passages of Verse or Drama 7.2.6. Speech Contents]</a:documentation>
          <group>
             <zeroOrMore>
                <choice>
@@ -5600,7 +5630,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="tei_revue-lg-atleast1oflggapl-constraint-rule-22">
+                  id="tei_revue-lg-atleast1oflggapl-constraint-rule-21">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:lg">
@@ -5609,7 +5639,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="tei_revue-lg-abstractModel-structure-lg-in-l-constraint-rule-23">
+                  id="tei_revue-lg-abstractModel-structure-lg-in-l-constraint-rule-22">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:lg">
@@ -5627,68 +5657,19 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
    <define name="tei_sp">
       <element name="sp">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(speech) contains an individual speech in a performance text, or a passage presented as such in a prose or verse text. [3.13.2. Core Tags for Drama 3.13. Passages of Verse or Drama 7.2.2. Speeches and Speakers]</a:documentation>
-         <group>
-            <zeroOrMore>
-               <ref name="tei_model.global"/>
-            </zeroOrMore>
-            <zeroOrMore>
-               <ref name="tei_model.stageLike"/>
-               <zeroOrMore>
-                  <ref name="tei_model.global"/>
-               </zeroOrMore>
-            </zeroOrMore>
+         <zeroOrMore>
             <choice>
-               <group>
-                  <group>
-                     <ref name="tei_speaker"/>
-                     <zeroOrMore>
-                        <ref name="tei_model.global"/>
-                     </zeroOrMore>
-                  </group>
-                  <group>
-                     <choice>
-                        <ref name="tei_lg"/>
-                        <ref name="tei_model.lLike"/>
-                        <ref name="tei_model.pLike"/>
-                        <ref name="tei_model.listLike"/>
-                        <ref name="tei_model.attributable"/>
-                        <ref name="tei_q"/>
-                        <ref name="tei_model.stageLike"/>
-                     </choice>
-                     <zeroOrMore>
-                        <ref name="tei_model.global"/>
-                     </zeroOrMore>
-                  </group>
-               </group>
-               <group>
-                  <choice>
-                     <ref name="tei_lg"/>
-                     <ref name="tei_model.lLike"/>
-                     <ref name="tei_model.pLike"/>
-                     <ref name="tei_model.listLike"/>
-                     <ref name="tei_model.attributable"/>
-                     <ref name="tei_q"/>
-                  </choice>
-                  <zeroOrMore>
-                     <ref name="tei_model.global"/>
-                  </zeroOrMore>
-               </group>
+               <ref name="tei_model.stageLike"/>
+               <ref name="tei_model.global"/>
+               <ref name="tei_model.lLike"/>
+               <ref name="tei_model.pLike"/>
+               <ref name="tei_model.listLike"/>
+               <ref name="tei_model.attributable"/>
+               <ref name="tei_speaker"/>
+               <ref name="tei_lg"/>
+               <ref name="tei_q"/>
             </choice>
-            <zeroOrMore>
-               <choice>
-                  <ref name="tei_lg"/>
-                  <ref name="tei_model.lLike"/>
-                  <ref name="tei_model.pLike"/>
-                  <ref name="tei_model.listLike"/>
-                  <ref name="tei_model.attributable"/>
-                  <ref name="tei_q"/>
-                  <ref name="tei_model.stageLike"/>
-               </choice>
-               <zeroOrMore>
-                  <ref name="tei_model.global"/>
-               </zeroOrMore>
-            </zeroOrMore>
-         </group>
+         </zeroOrMore>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.ascribed.directed.attributes"/>
          <ref name="tei_att.placement.attributes"/>
@@ -5708,7 +5689,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
    </define>
    <define name="tei_stage">
       <element name="stage">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(stage direction) contains any kind of stage direction within a dramatic text or fragment. [3.13.2. Core Tags for Drama 3.13. Passages of Verse or Drama 7.2.4. Stage Directions]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(stage direction) contains any kind of stage direction within a dramatic text or fragment. [3.13.2. Core Tags for Drama 3.13. Passages of Verse or Drama 7.2.5. Stage Directions]</a:documentation>
          <ref name="tei_macro.specialPara"/>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.ascribed.directed.attributes"/>
@@ -5720,7 +5701,7 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the kind of stage direction.
 Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] novelistic; 6] delivery; 7] modifier; 8] location; 9] mixed</a:documentation>
                <list>
-                  <zeroOrMore>
+                  <oneOrMore>
                      <choice>
                         <value>setting</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes a setting.</a:documentation>
@@ -5744,7 +5725,7 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
                            <param name="pattern">[^\p{C}\p{Z}]+</param>
                         </data>
                      </choice>
-                  </zeroOrMore>
+                  </oneOrMore>
                </list>
             </attribute>
          </optional>
@@ -6140,12 +6121,6 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
                <list>
                   <oneOrMore>
                      <choice>
-                        <value>#assises</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#CGC</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#AConst</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#Un</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#Soc</value>
@@ -6161,6 +6136,12 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
                         <value>#SdJ</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#marine</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#assises</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#CGC</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#AConst</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#AN</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -6236,12 +6217,6 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
                <list>
                   <oneOrMore>
                      <choice>
-                        <value>#CBe</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#ADA</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#CB</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#SteC</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#AP</value>
@@ -6380,7 +6355,11 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#HF</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#LSR</value>
+                        <value>#CBe</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#ADA</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#CB</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#MtC</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -6513,6 +6492,8 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
                         <value>#JHD</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#ZM</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#LSR</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#RO</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -6947,13 +6928,7 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
                      <choice>
                         <value>#ANT</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#BAR</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#ANG</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#Ar</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#B-T</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#Ba</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -6989,25 +6964,15 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#Cay</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#CSR</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#Cha</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#CHER</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#Che</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#ETA</value>
+                        <value>#CSR</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#B-T</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#USA</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#ex</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#FdF</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#Col</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#CRC</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#CUB</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -7015,23 +6980,45 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#DAN</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#Ami</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#FJ</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#BAS</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#Dar</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#DOU</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#Ec</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#Ed</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#GdM</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#Ami</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#BAS</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#ETA</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#GEO</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#GdM</value>
+                        <value>#Eco</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#Dar</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#Col</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#FdF</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#DOU</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#CRC</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#GdA</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#Ar</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#Cha</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#DE</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#ex</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#ALL</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#AM</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -7053,8 +7040,6 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#Nil</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#Eco</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#RLS</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#BdV</value>
@@ -7063,15 +7048,11 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#HT</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#BAR</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#PtP</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#Alg</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#RE</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#CBO</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#IAC</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#MAS</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -7091,13 +7072,13 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#TRI</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#CU</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#CdS</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#Lvp</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#Lam</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#CU</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#GUY</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -7110,6 +7091,8 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
                         <value>#Phd</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#StMa</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#OR</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#SEN</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -7139,13 +7122,9 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#CGR</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#Bor</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#GB</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#GF</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#ALL</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#StT</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -7197,8 +7176,6 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#CBE</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#Hav</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#InO</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#Lo</value>
@@ -7213,19 +7190,19 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#MO</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#BOUG</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#CHAN</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#CON</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#DE</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#FR</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#EUR</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#GdA</value>
+                        <value>#BOUG</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#Hav</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#CON</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#Bor</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#NP</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -7275,11 +7252,15 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#Nou</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>#OR</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#TOU</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#MELL</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#RE</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#CBO</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                        <value>#IAC</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>#BrB</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -8399,7 +8380,7 @@ Sample values include: 1] e (e); 2] he (he); 3] she (she); 4] they (they)</a:doc
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="tei_revue-relation-ref-or-key-or-name-constraint-rule-24">
+                  id="tei_revue-relation-ref-or-key-or-name-constraint-rule-23">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -8409,7 +8390,7 @@ Sample values include: 1] e (e); 2] he (he); 3] she (she); 4] they (they)</a:doc
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="tei_revue-relation-active-mutual-constraint-rule-25">
+                  id="tei_revue-relation-active-mutual-constraint-rule-24">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -8419,7 +8400,7 @@ Sample values include: 1] e (e); 2] he (he); 3] she (she); 4] they (they)</a:doc
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="tei_revue-relation-active-passive-constraint-rule-26">
+                  id="tei_revue-relation-active-passive-constraint-rule-25">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -9240,7 +9221,7 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="tei_revue-div-abstractModel-structure-div-in-l-constraint-rule-27">
+                  id="tei_revue-div-abstractModel-structure-div-in-l-constraint-rule-26">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:l//tei:div">
@@ -9251,7 +9232,7 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="tei_revue-div-abstractModel-structure-div-in-ab-or-p-constraint-rule-28">
+                  id="tei_revue-div-abstractModel-structure-div-in-ab-or-p-constraint-rule-27">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:div">
@@ -9806,7 +9787,7 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
    </define>
    <define name="tei_seg">
       <element name="seg">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(arbitrary segment) represents any segmentation of text below the chunk level. [17.3. Blocks, Segments, and Anchors 6.2. Components of the Verse Line 7.2.5. Speech Contents]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(arbitrary segment) represents any segmentation of text below the chunk level. [17.3. Blocks, Segments, and Anchors 6.2. Components of the Verse Line 7.2.6. Speech Contents]</a:documentation>
          <ref name="tei_macro.paraContent"/>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.cmc.attributes"/>
@@ -9823,19 +9804,6 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
          <oneOrMore>
             <ref name="tei_model.standOffPart"/>
          </oneOrMore>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  id="tei_revue-standOff-nested_standOff_should_be_typed-constraint-rule-29">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:xi="http://www.w3.org/2001/XInclude"
-                      context="tei:standOff">
-               <sch:assert test="@type or not(ancestor::tei:standOff)">This
-        <sch:name/> element must have a @type attribute, since it is
-        nested inside a <sch:name/>
-               </sch:assert>
-            </sch:rule>
-         </pattern>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.declaring.attributes"/>
          <ref name="tei_att.typed.attributes"/>

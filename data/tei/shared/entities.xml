@@ -7,82 +7,6 @@
 -->
 <div xmlns="http://www.tei-c.org/ns/1.0" xml:id="entities">
     <listPerson>
-        <person xml:id="CBe">
-            <persName xml:lang="en">Belair, Charles</persName>
-            <persName xml:lang="fr">Belair, Charles</persName>
-            <birth>1760</birth>
-            <death>1802</death>
-            <note xml:lang="en" type="Person" resp="#chelsea">
-                <p>Charles Bélair was Toussaint Louverture’s nephew and a general in the revolutionary army. He was among the Chausseurs volontaires de Saint Domingue recruited to fight in the 1779 Siege of Savannah during the American Revolutionary War. During the Haitian Revolution, he served first as a lieutenant and then aide de camp for Louverture; he was promoted to colonel and then, as part of the expedition to take the eastern side of the island, was named brigadier general and commander of the district of Santo Domingo. After Louverture’s unlawful arrest and deportation in June 1802, Bélair raised the banner of revolt against the French expeditionary forces. Leclerc’s forces arrested his wife and mother, forcing Bélair out of hiding and leading ot his capture. He was executed on October 15, 1802. To the history of Charles Bélair must be added that of his wife, Sanite Bélair, a warrior in her own right who fought beside the insurgents. She was executed alongside her husband. </p>
-                <bibl>Dayan, Colin,  <title>Haiti, History, and the Gods</title>  . University of California Press, 1995.</bibl>
-                <bibl>Pascal-Trouillot, Ertha and Trouillot, Ernst, eds.,  <title>Encyclopédie biographique d'Haïti</title>  , vol. 1. Éditions SEMIS, 2001.</bibl>
-            </note>
-            <note xml:lang="fr" type="Person" resp="#chelsea">
-                <p>Charles Bélair est le neveu de Toussaint Louverture et un général de l’armée révolutionnaire. Il fait partie des Chasseurs volontaires de Saint-Domingue recrutés pour combattre lors du siège de Savannah (Géorgie) en 1779, pendant la guerre d’indépendance américaine. Au cours de la Révolution haïtienne, il sert d’abord comme lieutenant, puis comme aide de camp de Louverture. Promu colonel, il est ensuite nommé général de brigade et commandant du district de Santo Domingo dans le cadre de l’expédition visant à prendre la partie orientale de l’île.  </p>
-                <p>Après l’arrestation arbitraire et la déportation de Louverture en juin 1802, Bélair prend la tête de l’insurrection contre les forces expéditionnaires françaises. Pour le contraindre à se rendre, l’armée de Leclerc arrête sa femme et sa mère, ce qui entraîne son arrestation. Il est exécuté le 15 octobre 1802. L’histoire de Charles Bélair est indissociable de celle de son épouse, Sanité Bélair, elle-même combattante aux côtés des insurgés. Elle est exécutée le même jour que lui.</p>
-                <bibl>Dayan, Colin,  <title>Haiti, History, and the Gods</title>  . University of California Press, 1995.</bibl>
-                <bibl>Pascal-Trouillot, Ertha et Trouillot, Ernst, eds.,  <title>Encyclopédie biographique d'Haïti</title>  , vol. 1. Éditions SEMIS, 2001.</bibl>
-            </note>
-        </person>
-        <person xml:id="ADA">
-            <persName xml:lang="en">Adams, John</persName>
-            <persName xml:lang="fr">Adams, John</persName>
-            <birth>1735</birth>
-            <death>1826</death>
-            <note xml:lang="en" type="Person" resp="#masha #michaël">
-                <p>John Adams stands out among the first American presidents as a northerner who was never an enslaver. In the immediate aftermath of the American Revolution, he opposed efforts to implement large-scale emancipation in his home state of Massachusetts, but, as primary author of the state’s constitution, which included a Declaration of Rights (written after Adams served as Envoy to France), Adams has long been associated with the state’s de facto abolition in 1780. It was only after the 1781 cases of Mum Bett and Quok Walker, enslaved people who cited the language of the constitution in suing for their freedom, that the document, which does not explicitly prohibit slavery, took on this accepted meaning. </p>
-                <p>John Adams’s presidency is notably marked by the establishment of trade relations with Haiti, which was then in conflict with France.  These political positions, in combination with an 1801 letter in which he expresses “abhorrence” to the institution of slavery, claiming to have always employed free men at significant personal expense, have contributed to Adams’ enduring legacy as a committed abolitionist. Recently, historians have called attention to the ways in which his positions were more in line with contemporaries, noting both that, with regard to Haiti, agreement to continue commerce is hardly a statement of ideological sympathy, and that any actual belief in the principle of equality was never public or explicit.</p>
-                <p>
-                </p>
-            </note>
-            <note xml:lang="fr" type="Person" resp="#masha #michaël">
-                <p>John Adams est originaire du Nord des États-Unis et n’a jamais possédé d’esclaves, ce qui le distingue des premiers présidents américains. Bien qu’opposé à l’émancipation générale des esclaves dans son État natal du Massachusetts après la Révolution, il rédige pour le jeune État une constitution qui comprend une Déclaration des droits (il rentre alors d’une mission diplomatique en France) et œuvre de fait à la disparition progressive de l’esclavage dans le Massachusetts. Dans les années qui suivent l’adoption de la constitution en 1780, des personnes esclavisées telles que Mum Bett et Quok Walker n'hésitent pas à invoquer ce document pour poursuivre leur maître et réclamer leur liberté devant les tribunaux.</p>
-                <p>Le mandat de John Adams est notamment marqué par l’établissement de relations commerciales avec Haïti, alors en conflit avec la France. Ses prises de position politiques, ainsi qu’une lettre de 1801 dans laquelle il exprime sa « détestation » de l’esclavage et affirme avoir toujours employé des hommes libres, même lorsque le coût de leur travail était élevé, ont largement contribué à forger sa réputation d’abolitionniste engagé.</p>
-                <p>Cette image a toutefois été nuancée par l’historiographie récente, qui souligne la proximité d’Adams avec ses contemporains sur la question de l’esclavage. Le maintien des échanges avec Haïti, par exemple, ne traduit pas nécessairement une sympathie à l’égard de l’indépendance haïtienne, et Adams ne s’est jamais publiquement ni explicitement exprimé en faveur de l’égalité raciale.</p>
-                <p>
-                </p>
-            </note>
-        </person>
-        <person xml:id="CB">
-            <persName xml:lang="en">Bissette, Cyrille Charles Auguste</persName>
-            <persName xml:lang="fr">Bissette, Cyrille Charles Auguste </persName>
-            <birth>1795</birth>
-            <death>1858</death>
-            <note xml:lang="en" type="Person" resp="#masha">
-                <figure>
-                    <graphic url="portrait_Bissette_b827ac99f2.jpg"/>
-                    <figDesc>Portrait de Cyrille Bissette. Courtesy of the Schomburg Center for Research in Black Culture</figDesc>
-                </figure>
-                <p>Born in Fort-Royal (now Fort-de-France, Martinique) on July 9, 1795, Cyrille Charles Auguste Bissette was the founder and editor-in-chief of the Revue des Colonies, the first French press outlet to advocate for immediate and total abolition. His parents, Charles Borromée Bissette and Elizabeth Mélanie Bellaine, were free people of color, and his mother was the illegitimate daughter of Joseph-Gaspard de Tascher de La Pagerie, making Bissette a nephew of Empress Joséphine de Beauharnais.</p>
-                <p>In 1816, Bissette married Augustine Séverin, a free woman of color, with whom he had four children. During these early years in Fort-Royal, Bissette was not engaged in abolitionist activities, and was in fact himself a slaveowner, taking part, in 1822, in the suppression of a slave revolt in the village of Le Carbet. The following year, however, he was arrested, along with six other free men of color — Montlouis Thébia, Joseph Richer, Joseph Millet, Laborde, Louis Fabien, <title>fils</title> and Jean-Baptiste Volny — for possession and alleged distribution of a seditious pamphlet printed in Paris, entitled <title>De la situation des hommes de color libre aux Antilles françaises </title>(which Bissette was alleged to have written).</p>
-                <p>Accused as architects of a plot to overthrow the segregationist organization of Martinican society, Bissette, Fabien, <title>fils</title> and Volny were branded and sentenced to the galleys for life. In 1827, with the help of attorney François Isambert, Bissette’s sentence was reduced to ten years’ banishment and the legal costs of the proceedings, which would remain a substantial burden. Garnering significant media coverage, the so-called <title>Affaire Bissette </title>catalyzed his political career.</p>
-                <p>In Paris, Bissette participated in the <title>Trois Glorieuses </title>(“the three glorious days” of riots that led to the end of the reign of Charles X and the restored Bourbon dynasty), which earned him the decoration of the July Cross, frequented Republican circles such as the <title>Free Association for the Education of the People</title>, joined a Masonic lodge, published several emancipatory petitions, and founded the <title>Revue des Colonies, </title>a press organ for the cause of the total and immediate abolition of slavery. This radical position would put him at odds with the majority of the French abolitionist community, including Victor Schoelcher, the eventual author of the 1848 decree. The distance between these two abolitionists develops into a rivalry after the publication of Schoelcher’s <title>Des Colonies Françaises</title>, which Bissette harshly criticizes for its stigmatizing, indeed, uninhibitedly racist, characterization of the free population of color of the Antilles. Overshadowed by the cult of Schoelcher in the assimilationist intellectual bourgeoisie, Bissette is deliberately written out of abolitionist history for his later reconciliationist platform and his strategic alliance with a white planter in the legislative elections of 1849.</p>
-                <bibl>Bongie, Chris. “1835, ou ‘Le troisième cycle’: The Creole Afterlives of Cyrille-Charles Auguste Bissette, Louis de Maynard de Queilhe, and Victor Schoelcher.” In  <title>Islands and Exiles: The Creole Identities of Post/Colonial Literature</title> . Stanford: Stanford University Press, 1998. 264-287, 323-340.</bibl>
-                <bibl>Bongie, Chris. “A Street Named Bissette: Assimilating the Cent-cinquantenaire of the Abolition of Slavery in Martinique (1848–1998).” In  <title>Friends and Enemies, </title> vol.3. Liverpool: Liverpool University Press. 2008. 185‑220.</bibl>
-                <bibl>Jennings, Lawrence C. “Cyrille Bissette, Radical Black French Abolitionist.” French History 9.1 (1995): p. 48-66</bibl>
-                <bibl>Jennings, Lawrence C.  <title>French Anti-Slavery: The Movement for the Abolition of Slavery in France, 1802-1848</title> . Cambridge: Cambridge University Press, 2000. 29-37, 49-50, 71-73, 266-69.</bibl>
-                <bibl>Mesnard, Eric. “Les Mouvements de Résistance dans les colonies franchisées : L'affaire Bissette (1823-1827).” In  <title>The Abolitions of Slavery : From Leger Felicite Sonthonax to Victor Schoelcher, 1793, 1794, 1848</title> , edited by Marcel Dorigny. Paris: UNESCO, 2003. 293-97.</bibl>
-                <bibl>Pâme, Stella.  <title>Cyrille Bissette: un martyr de la liberté</title> . Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
-            </note>
-            <note xml:lang="fr" type="Person" resp="#masha">
-                <figure>
-                    <graphic url="portrait_Bissette_b827ac99f2.jpg"/>
-                    <figDesc>Portrait de Cyrille Bissette. Courtesy of the Schomburg Center for Research in Black Culture</figDesc>
-                </figure>
-                <p>Né à Fort-Royal (Martinique) le 9 juillet 1795, Cyrille Charles Auguste Bissette est le fondateur et rédacteur en chef de la <title>Revue des Colonies</title>, premier organe de presse à plaider publiquement pour une abolition immédiate.</p>
-                <p>Ses parents Charles Borromée Bissette et Elizabeth Mélanie Bellaine, étaient libres de couleur. Par sa mère, la fille naturelle de Joseph-Gaspard de Tascher de La Pagerie, Cyrille Bissette est un neveu de Joséphine de Beauharnais.</p>
-                <p>En 1816, Bissette épouse Augustine Séverin, une femme de couleur libre, avec qui il a quatre enfants. Négociant et propriétaire d’esclaves, il n’est pas encore engagé dans le mouvement antiesclavagiste, participant, en 1822, à la répression de la révolte du Carbet. Quelque mois plus tard, cependant, il est arrêté, ainsi que six autres hommes de couleur libres — Montlouis Thébia, Joseph Richer, Joseph Millet, Laborde, Louis Fabien, fils et Jean-Baptiste Volny — pour détention et distribution présumées d’un pamphlet séditieux imprimé à Paris, <title>De la situation des homme de couleur libre aux Antilles françaises </title>(que Bissette aurait écrit).</p>
-                <p>Jugés comme meneurs présumés d’un complot visant à renverser l’organisation ségrégationniste de la société martiniquaise, Bissette, Fabien <title>fils </title>et Volny sont marqués au fer rouge et condamnés aux galères à perpétuité. En 1827, avec l’aide de l’avocat François Isambert, Bissette voit sa peine réduite à dix ans de bannissement et les frais juridiques de la procédure, qui demeureront un fardeau important. Bénéficiant d’une importante couverture médiatique, la dénommée « Affaire Bissette » donne l’impulsion à sa carrière politique.</p>
-                <p>A Paris, Bissette participe aux Trois Glorieuses ce qui lui vaudra d’être décoré de la Croix de Juillet, fréquente les cercles républicains comme l’<title>Association libre pour l'éducation du peuple</title>, rejoint une loge maçonnique, publie plusieurs pétitions à visée émancipatrice, et fonde la <title>Revue des Colonies, </title>organe de presse pour ses plaidoyers pour une abolition totale et immédiate de l'esclavage. Cette position radicale le met en porte-à-faux avec la majorité de la communauté abolitionniste française,dont Victor Schoelcher. \</p>
-                <p>La distance entre les deux abolitionnistes tourne au conflit après la publication <title>Des Colonies Françaises </title>de Schoelcher, que Bissette critique sévèrement pour sa caractérisation stigmatisante - allant jusqu’au racisme décomplexé - de la population de couleur libre des Antilles. Occulté par le culte de Schoelcher dans la bourgeoisie intellectuelle assimilationniste, Cyrille Bissette est rejeté de la mémoire collective pour sa plateforme réconciliationniste et son alliance stratégique avec un planteur blanc aux élections législatives de 1849.</p>
-                <bibl>Bongie, Chris. “1835, ou ‘Le troisième cycle’: The Creole Afterlives of Cyrille-Charles Auguste Bissette, Louis de Maynard de Queilhe, and Victor Schoelcher.” In  <title>Islands and Exiles: The Creole Identities of Post/Colonial Literature</title> . Stanford: Stanford University Press, 1998. 264-287, 323-340.</bibl>
-                <bibl>Bongie, Chris. “A Street Named Bissette: Assimilating the Cent-cinquantenaire of the Abolition of Slavery in Martinique (1848–1998).” In  <title>Friends and Enemies, </title> vol.3. Liverpool: Liverpool University Press. 2008. 185‑220.</bibl>
-                <bibl>Jennings, Lawrence C. “Cyrille Bissette, Radical Black French Abolitionist.” French History 9.1 (1995): p. 48-66</bibl>
-                <bibl>Jennings, Lawrence C.  <title>French Anti-Slavery: The Movement for the Abolition of Slavery in France, 1802-1848</title> . Cambridge: Cambridge University Press, 2000. 29-37, 49-50, 71-73, 266-69.</bibl>
-                <bibl>Mesnard, Eric. “Les Mouvements de Résistance dans les colonies franchisées : L'affaire Bissette (1823-1827).” In  <title>The Abolitions of Slavery : From Leger Felicite Sonthonax to Victor Schoelcher, 1793, 1794, 1848</title> , edited by Marcel Dorigny. Paris: UNESCO, 2003. 293-97.</bibl>
-                <bibl>Pâme, Stella.  <title>Cyrille Bissette: un martyr de la liberté</title> . Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
-            </note>
-        </person>
         <person xml:id="AHav">
             <persName xml:lang="en">Auguste Eugénie, known as "Havre"</persName>
             <persName xml:lang="fr">Auguste Eugénie, dit « Havre »</persName>
@@ -364,6 +288,82 @@
             </note>
             <note xml:lang="fr" type="Person" resp="#masha">
                 <p>Constantine Phipps, premier marquis de Normanby, également vicomte de Normanby et comte de Mulgrave, est une figure politique majeure du parti <emph>Whig</emph>. De 1832 à 1834, il exerce les fonctions de gouverneur de la Jamaïque, avant de devenir Lord Lieutenant d'Irlande de 1835 à 1839, puis secrétaire d'État à l'Intérieur de 1839 à 1841.</p>
+            </note>
+        </person>
+        <person xml:id="CBe">
+            <persName xml:lang="en">Belair, Charles</persName>
+            <persName xml:lang="fr">Belair, Charles</persName>
+            <birth>1760</birth>
+            <death>1802</death>
+            <note xml:lang="en" type="Person" resp="#chelsea">
+                <p>Charles Bélair was Toussaint Louverture’s nephew and a general in the revolutionary army. He was among the Chausseurs volontaires de Saint Domingue recruited to fight in the 1779 Siege of Savannah during the American Revolutionary War. During the Haitian Revolution, he served first as a lieutenant and then aide de camp for Louverture; he was promoted to colonel and then, as part of the expedition to take the eastern side of the island, was named brigadier general and commander of the district of Santo Domingo. After Louverture’s unlawful arrest and deportation in June 1802, Bélair raised the banner of revolt against the French expeditionary forces. Leclerc’s forces arrested his wife and mother, forcing Bélair out of hiding and leading ot his capture. He was executed on October 15, 1802. To the history of Charles Bélair must be added that of his wife, Sanite Bélair, a warrior in her own right who fought beside the insurgents. She was executed alongside her husband. </p>
+                <bibl>Dayan, Colin,  <title>Haiti, History, and the Gods</title>  . University of California Press, 1995.</bibl>
+                <bibl>Pascal-Trouillot, Ertha and Trouillot, Ernst, eds.,  <title>Encyclopédie biographique d'Haïti</title>  , vol. 1. Éditions SEMIS, 2001.</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#chelsea">
+                <p>Charles Bélair est le neveu de Toussaint Louverture et un général de l’armée révolutionnaire. Il fait partie des Chasseurs volontaires de Saint-Domingue recrutés pour combattre lors du siège de Savannah (Géorgie) en 1779, pendant la guerre d’indépendance américaine. Au cours de la Révolution haïtienne, il sert d’abord comme lieutenant, puis comme aide de camp de Louverture. Promu colonel, il est ensuite nommé général de brigade et commandant du district de Santo Domingo dans le cadre de l’expédition visant à prendre la partie orientale de l’île.  </p>
+                <p>Après l’arrestation arbitraire et la déportation de Louverture en juin 1802, Bélair prend la tête de l’insurrection contre les forces expéditionnaires françaises. Pour le contraindre à se rendre, l’armée de Leclerc arrête sa femme et sa mère, ce qui entraîne son arrestation. Il est exécuté le 15 octobre 1802. L’histoire de Charles Bélair est indissociable de celle de son épouse, Sanité Bélair, elle-même combattante aux côtés des insurgés. Elle est exécutée le même jour que lui.</p>
+                <bibl>Dayan, Colin,  <title>Haiti, History, and the Gods</title>  . University of California Press, 1995.</bibl>
+                <bibl>Pascal-Trouillot, Ertha et Trouillot, Ernst, eds.,  <title>Encyclopédie biographique d'Haïti</title>  , vol. 1. Éditions SEMIS, 2001.</bibl>
+            </note>
+        </person>
+        <person xml:id="ADA">
+            <persName xml:lang="en">Adams, John</persName>
+            <persName xml:lang="fr">Adams, John</persName>
+            <birth>1735</birth>
+            <death>1826</death>
+            <note xml:lang="en" type="Person" resp="#masha #michaël">
+                <p>John Adams stands out among the first American presidents as a northerner who was never an enslaver. In the immediate aftermath of the American Revolution, he opposed efforts to implement large-scale emancipation in his home state of Massachusetts, but, as primary author of the state’s constitution, which included a Declaration of Rights (written after Adams served as Envoy to France), Adams has long been associated with the state’s de facto abolition in 1780. It was only after the 1781 cases of Mum Bett and Quok Walker, enslaved people who cited the language of the constitution in suing for their freedom, that the document, which does not explicitly prohibit slavery, took on this accepted meaning. </p>
+                <p>John Adams’s presidency is notably marked by the establishment of trade relations with Haiti, which was then in conflict with France.  These political positions, in combination with an 1801 letter in which he expresses “abhorrence” to the institution of slavery, claiming to have always employed free men at significant personal expense, have contributed to Adams’ enduring legacy as a committed abolitionist. Recently, historians have called attention to the ways in which his positions were more in line with contemporaries, noting both that, with regard to Haiti, agreement to continue commerce is hardly a statement of ideological sympathy, and that any actual belief in the principle of equality was never public or explicit.</p>
+                <p>
+                </p>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#masha #michaël">
+                <p>John Adams est originaire du Nord des États-Unis et n’a jamais possédé d’esclaves, ce qui le distingue des premiers présidents américains. Bien qu’opposé à l’émancipation générale des esclaves dans son État natal du Massachusetts après la Révolution, il rédige pour le jeune État une constitution qui comprend une Déclaration des droits (il rentre alors d’une mission diplomatique en France) et œuvre de fait à la disparition progressive de l’esclavage dans le Massachusetts. Dans les années qui suivent l’adoption de la constitution en 1780, des personnes esclavisées telles que Mum Bett et Quok Walker n'hésitent pas à invoquer ce document pour poursuivre leur maître et réclamer leur liberté devant les tribunaux.</p>
+                <p>Le mandat de John Adams est notamment marqué par l’établissement de relations commerciales avec Haïti, alors en conflit avec la France. Ses prises de position politiques, ainsi qu’une lettre de 1801 dans laquelle il exprime sa « détestation » de l’esclavage et affirme avoir toujours employé des hommes libres, même lorsque le coût de leur travail était élevé, ont largement contribué à forger sa réputation d’abolitionniste engagé.</p>
+                <p>Cette image a toutefois été nuancée par l’historiographie récente, qui souligne la proximité d’Adams avec ses contemporains sur la question de l’esclavage. Le maintien des échanges avec Haïti, par exemple, ne traduit pas nécessairement une sympathie à l’égard de l’indépendance haïtienne, et Adams ne s’est jamais publiquement ni explicitement exprimé en faveur de l’égalité raciale.</p>
+                <p>
+                </p>
+            </note>
+        </person>
+        <person xml:id="CB">
+            <persName xml:lang="en">Bissette, Cyrille Charles Auguste</persName>
+            <persName xml:lang="fr">Bissette, Cyrille Charles Auguste </persName>
+            <birth>1795</birth>
+            <death>1858</death>
+            <note xml:lang="en" type="Person" resp="#masha">
+                <figure>
+                    <graphic url="portrait_Bissette_b827ac99f2.jpg"/>
+                    <figDesc>Portrait de Cyrille Bissette. Courtesy of the Schomburg Center for Research in Black Culture</figDesc>
+                </figure>
+                <p>Born in Fort-Royal (now Fort-de-France, Martinique) on July 9, 1795, Cyrille Charles Auguste Bissette was the founder and editor-in-chief of the Revue des Colonies, the first French press outlet to advocate for immediate and total abolition. His parents, Charles Borromée Bissette and Elizabeth Mélanie Bellaine, were free people of color, and his mother was the illegitimate daughter of Joseph-Gaspard de Tascher de La Pagerie, making Bissette a nephew of Empress Joséphine de Beauharnais.</p>
+                <p>In 1816, Bissette married Augustine Séverin, a free woman of color, with whom he had four children. During these early years in Fort-Royal, Bissette was not engaged in abolitionist activities, and was in fact himself a slaveowner, taking part, in 1822, in the suppression of a slave revolt in the village of Le Carbet. The following year, however, he was arrested, along with six other free men of color — Montlouis Thébia, Joseph Richer, Joseph Millet, Laborde, Louis Fabien, <title>fils</title> and Jean-Baptiste Volny — for possession and alleged distribution of a seditious pamphlet printed in Paris, entitled <title>De la situation des hommes de color libre aux Antilles françaises </title>(which Bissette was alleged to have written).</p>
+                <p>Accused as architects of a plot to overthrow the segregationist organization of Martinican society, Bissette, Fabien, <title>fils</title> and Volny were branded and sentenced to the galleys for life. In 1827, with the help of attorney François Isambert, Bissette’s sentence was reduced to ten years’ banishment and the legal costs of the proceedings, which would remain a substantial burden. Garnering significant media coverage, the so-called <title>Affaire Bissette </title>catalyzed his political career.</p>
+                <p>In Paris, Bissette participated in the <title>Trois Glorieuses </title>(“the three glorious days” of riots that led to the end of the reign of Charles X and the restored Bourbon dynasty), which earned him the decoration of the July Cross, frequented Republican circles such as the <title>Free Association for the Education of the People</title>, joined a Masonic lodge, published several emancipatory petitions, and founded the <title>Revue des Colonies, </title>a press organ for the cause of the total and immediate abolition of slavery. This radical position would put him at odds with the majority of the French abolitionist community, including Victor Schoelcher, the eventual author of the 1848 decree. The distance between these two abolitionists develops into a rivalry after the publication of Schoelcher’s <title>Des Colonies Françaises</title>, which Bissette harshly criticizes for its stigmatizing, indeed, uninhibitedly racist, characterization of the free population of color of the Antilles. Overshadowed by the cult of Schoelcher in the assimilationist intellectual bourgeoisie, Bissette is deliberately written out of abolitionist history for his later reconciliationist platform and his strategic alliance with a white planter in the legislative elections of 1849.</p>
+                <bibl>Bongie, Chris. “1835, ou ‘Le troisième cycle’: The Creole Afterlives of Cyrille-Charles Auguste Bissette, Louis de Maynard de Queilhe, and Victor Schoelcher.” In  <title>Islands and Exiles: The Creole Identities of Post/Colonial Literature</title> . Stanford: Stanford University Press, 1998. 264-287, 323-340.</bibl>
+                <bibl>Bongie, Chris. “A Street Named Bissette: Assimilating the Cent-cinquantenaire of the Abolition of Slavery in Martinique (1848–1998).” In  <title>Friends and Enemies, </title> vol.3. Liverpool: Liverpool University Press. 2008. 185‑220.</bibl>
+                <bibl>Jennings, Lawrence C. “Cyrille Bissette, Radical Black French Abolitionist.” French History 9.1 (1995): p. 48-66</bibl>
+                <bibl>Jennings, Lawrence C.  <title>French Anti-Slavery: The Movement for the Abolition of Slavery in France, 1802-1848</title> . Cambridge: Cambridge University Press, 2000. 29-37, 49-50, 71-73, 266-69.</bibl>
+                <bibl>Mesnard, Eric. “Les Mouvements de Résistance dans les colonies franchisées : L'affaire Bissette (1823-1827).” In  <title>The Abolitions of Slavery : From Leger Felicite Sonthonax to Victor Schoelcher, 1793, 1794, 1848</title> , edited by Marcel Dorigny. Paris: UNESCO, 2003. 293-97.</bibl>
+                <bibl>Pâme, Stella.  <title>Cyrille Bissette: un martyr de la liberté</title> . Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
+            </note>
+            <note xml:lang="fr" type="Person" resp="#masha">
+                <figure>
+                    <graphic url="portrait_Bissette_b827ac99f2.jpg"/>
+                    <figDesc>Portrait de Cyrille Bissette. Courtesy of the Schomburg Center for Research in Black Culture</figDesc>
+                </figure>
+                <p>Né à Fort-Royal (Martinique) le 9 juillet 1795, Cyrille Charles Auguste Bissette est le fondateur et rédacteur en chef de la <title>Revue des Colonies</title>, premier organe de presse à plaider publiquement pour une abolition immédiate.</p>
+                <p>Ses parents Charles Borromée Bissette et Elizabeth Mélanie Bellaine, étaient libres de couleur. Par sa mère, la fille naturelle de Joseph-Gaspard de Tascher de La Pagerie, Cyrille Bissette est un neveu de Joséphine de Beauharnais.</p>
+                <p>En 1816, Bissette épouse Augustine Séverin, une femme de couleur libre, avec qui il a quatre enfants. Négociant et propriétaire d’esclaves, il n’est pas encore engagé dans le mouvement antiesclavagiste, participant, en 1822, à la répression de la révolte du Carbet. Quelque mois plus tard, cependant, il est arrêté, ainsi que six autres hommes de couleur libres — Montlouis Thébia, Joseph Richer, Joseph Millet, Laborde, Louis Fabien, fils et Jean-Baptiste Volny — pour détention et distribution présumées d’un pamphlet séditieux imprimé à Paris, <title>De la situation des homme de couleur libre aux Antilles françaises </title>(que Bissette aurait écrit).</p>
+                <p>Jugés comme meneurs présumés d’un complot visant à renverser l’organisation ségrégationniste de la société martiniquaise, Bissette, Fabien <title>fils </title>et Volny sont marqués au fer rouge et condamnés aux galères à perpétuité. En 1827, avec l’aide de l’avocat François Isambert, Bissette voit sa peine réduite à dix ans de bannissement et les frais juridiques de la procédure, qui demeureront un fardeau important. Bénéficiant d’une importante couverture médiatique, la dénommée « Affaire Bissette » donne l’impulsion à sa carrière politique.</p>
+                <p>A Paris, Bissette participe aux Trois Glorieuses ce qui lui vaudra d’être décoré de la Croix de Juillet, fréquente les cercles républicains comme l’<title>Association libre pour l'éducation du peuple</title>, rejoint une loge maçonnique, publie plusieurs pétitions à visée émancipatrice, et fonde la <title>Revue des Colonies, </title>organe de presse pour ses plaidoyers pour une abolition totale et immédiate de l'esclavage. Cette position radicale le met en porte-à-faux avec la majorité de la communauté abolitionniste française,dont Victor Schoelcher. \</p>
+                <p>La distance entre les deux abolitionnistes tourne au conflit après la publication <title>Des Colonies Françaises </title>de Schoelcher, que Bissette critique sévèrement pour sa caractérisation stigmatisante - allant jusqu’au racisme décomplexé - de la population de couleur libre des Antilles. Occulté par le culte de Schoelcher dans la bourgeoisie intellectuelle assimilationniste, Cyrille Bissette est rejeté de la mémoire collective pour sa plateforme réconciliationniste et son alliance stratégique avec un planteur blanc aux élections législatives de 1849.</p>
+                <bibl>Bongie, Chris. “1835, ou ‘Le troisième cycle’: The Creole Afterlives of Cyrille-Charles Auguste Bissette, Louis de Maynard de Queilhe, and Victor Schoelcher.” In  <title>Islands and Exiles: The Creole Identities of Post/Colonial Literature</title> . Stanford: Stanford University Press, 1998. 264-287, 323-340.</bibl>
+                <bibl>Bongie, Chris. “A Street Named Bissette: Assimilating the Cent-cinquantenaire of the Abolition of Slavery in Martinique (1848–1998).” In  <title>Friends and Enemies, </title> vol.3. Liverpool: Liverpool University Press. 2008. 185‑220.</bibl>
+                <bibl>Jennings, Lawrence C. “Cyrille Bissette, Radical Black French Abolitionist.” French History 9.1 (1995): p. 48-66</bibl>
+                <bibl>Jennings, Lawrence C.  <title>French Anti-Slavery: The Movement for the Abolition of Slavery in France, 1802-1848</title> . Cambridge: Cambridge University Press, 2000. 29-37, 49-50, 71-73, 266-69.</bibl>
+                <bibl>Mesnard, Eric. “Les Mouvements de Résistance dans les colonies franchisées : L'affaire Bissette (1823-1827).” In  <title>The Abolitions of Slavery : From Leger Felicite Sonthonax to Victor Schoelcher, 1793, 1794, 1848</title> , edited by Marcel Dorigny. Paris: UNESCO, 2003. 293-97.</bibl>
+                <bibl>Pâme, Stella.  <title>Cyrille Bissette: un martyr de la liberté</title> . Fort-de-France, Martinique: Editions Désormeaux, 1999.</bibl>
             </note>
         </person>
         <person xml:id="FXD">
@@ -885,6 +885,339 @@
         </person>
     </listPerson>
     <listPlace>
+        <place xml:id="ANT">
+            <placeName xml:lang="en">Antigua</placeName>
+            <placeName xml:lang="fr">Antigues</placeName>
+            <location>
+                <geo decls="#geojson">{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ],
+            [
+              -61.84591884345521,
+              17.072842617952134
+            ]
+          ]
+        ]
+      },
+      "properties": {}
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -61.896555963042715,
+              17.113624849838544
+            ],
+            [
+              -61.8896011961709,
+              17.029098825527953
+            ],
+            [
+              -61.75251343396434,
+              17.00442046813656
+            ],
+            [
+              -61.6760302622709,
+              17.05476211489092
+            ],
+            [
+              -61.781312740089064,
+              17.14020981421396
+            ],
+            [
+              -61.83396831783962,
+              17.168684989383706
+            ],
+            [
+              -61.896555963042715,
+              17.113624849838544
+            ]
+          ]
+        ]
+      },
+      "properties": {}
+    }
+  ]
+}</geo>
+            </location>
+            <note xml:lang="en" type="Place" resp="#other">
+                <p>Island colony in the eastern Caribbean, incorporated into the British Empire since the seventeenth century, Antigua occupied a significant place in debates on emancipation during the years 1834 - 1842, corresponding to the publication of the <emph>Revue des Colonies</emph>. As part of the British Leeward Islands, Antigua was structured around a sugar plantation economy dependent on enslaved African labor until the passage of the Slavery Abolition Act (1833).</p>
+                <p>Antigua assumed particular importance in 1834 because it became one of the few British colonies to implement immediate emancipation without adopting the apprenticeship system applied elsewhere in the British Caribbean (1834 - 1838). Under pressure from local circumstances, including demographic realities and planter calculation, the island transitioned directly from slavery to wage labor. This exceptional trajectory attracted considerable attention among reformers and colonial observers in Europe.</p>
+                <p>For French commentators during the July Monarchy, Antigua functioned as an experimental case within the broader British emancipation framework. Reports on labor productivity, social stability, and the economic viability of free labor circulated in metropolitan debates, especially as French policymakers confronted growing pressure to address slavery in Martinique and Guadeloupe. Within the discursive field of the <emph>Revue des Colonies</emph>, Antigua likely served as a comparative reference point in discussions of gradual versus immediate emancipation, plantation discipline, and the reorganization of colonial labor systems.</p>
+                <p>Between 1834 and 1842, Antigua thus represented a laboratory of post-slavery transition. Its direct emancipation policy positioned it at the center of transatlantic arguments about whether plantation societies could sustain production without coercive labor, making the island a salient example in reflections on reform, empire, and economic modernization.</p>
+            </note>
+            <note xml:lang="fr" type="Place" resp="#other">
+                <p>Île des Caraïbes orientales intégrée à l’Empire britannique depuis le XVIIᵉ siècle, Antigua occupe une place notable dans les débats sur l’émancipation entre 1834 et 1842, période correspondant à la publication de la <emph>Revue des Colonies</emph>. Membre des îles Sous-le-Vent britanniques, l’île repose jusqu’en 1833 sur une économie sucrière de plantation fondée sur le travail servile.</p>
+                <p>Antigua acquiert une importance particulière en 1834 en devenant l’une des rares colonies britanniques à appliquer immédiatement l’émancipation, sans recourir au système d’apprentissage mis en œuvre ailleurs dans les Caraïbes britanniques (1834 - 1838). Sous l’effet de circonstances locales, notamment démographiques et économiques, les autorités coloniales optent pour une transition directe du travail servile au travail salarié. Cette singularité suscite un intérêt marqué parmi les réformateurs et observateurs coloniaux européens.</p>
+                <p>Pour les publicistes français sous la monarchie de Juillet, Antigua constitue un cas d’expérimentation au sein du dispositif britannique d’émancipation. Les informations relatives à la productivité du travail, à la stabilité sociale et à la viabilité économique du travail libre alimentent les débats métropolitains, alors que la question de l’esclavage dans les Antilles françaises se fait plus pressante. Dans le champ discursif de la <emph>Revue des Colonies</emph>, Antigua sert vraisemblablement de point de comparaison dans les discussions sur l’émancipation immédiate ou graduelle, la discipline plantationnaire et la réorganisation des systèmes de travail coloniaux.</p>
+                <p>Entre 1834 et 1842, Antigua apparaît ainsi comme un laboratoire de transition post-esclavagiste. Sa politique d’émancipation directe la place au cœur des arguments transatlantiques sur la capacité des sociétés de plantation à maintenir la production sans contrainte servile, en faisant un exemple saillant dans les réflexions sur réforme, empire et modernisation économique.</p>
+            </note>
+        </place>
         <place xml:id="ANG">
             <placeName xml:lang="en">Angleterre </placeName>
             <placeName xml:lang="fr">Angleterre </placeName>
@@ -955,6 +1288,40 @@
                 <bibl>Schmidt, Nelly.  <title>La France a-t-elle aboli l'esclavage ? Guadeloupe, Martinique, Guyane, 1830-1935</title> . Paris: Perrin, 2009.</bibl>
             </note>
         </place>
+        <place xml:id="B-T">
+            <placeName xml:lang="en">Basse-Terre</placeName>
+            <placeName xml:lang="fr">Basse-Terre</placeName>
+            <location>
+                <geo decls="#geojson">{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.73103618671898,
+          15.994557204750336
+        ]
+      },
+      "properties": {}
+    }
+  ]
+}</geo>
+            </location>
+            <note xml:lang="en" type="Place" resp="#other">
+                <p>Administrative capital of Guadeloupe, Basse-Terre occupied a central place in French Caribbean governance during the years 1834 - 1842, corresponding to the publication of the <emph>Revue des Colonies</emph>. Located on the western coast of the island of Guadeloupe (itself commonly divided between Basse-Terre and Grande-Terre), the town functioned as the seat of colonial administration, housing the governor and principal judicial institutions.</p>
+                <p>In the 1830s, Guadeloupe remained a plantation colony structured around sugar production and enslaved labor. Although the British Slavery Abolition Act (1833) had initiated emancipation in neighboring British colonies, slavery persisted in the French Antilles until 1848. The years 1834 - 1842 were therefore marked by intensified metropolitan debate over gradual reform, labor discipline, and the comparative experience of British emancipation. Basse-Terre, as administrative center, became a locus for implementing ordinances concerning policing, labor regulation, and the legal status of free people of color.</p>
+                <p>For contributors to the <emph>Revue des Colonies</emph>, Basse-Terre would have signified not merely a geographic locality but an institutional node within the French imperial system. It represented the operational interface between metropolitan directives and plantation society. Political tensions between colonial authorities, white planters, free people of color, and enslaved populations were negotiated through administrative channels centered in Basse-Terre. Reports, decrees, and statistical data emanating from the colony frequently circulated in metropolitan print culture, informing discussions in Paris about the future of slavery and colonial reform.</p>
+                <p>Between 1834 and 1842, Basse-Terre thus embodied both continuity and instability: continuity in the maintenance of a slave-based sugar economy, and instability in the face of growing abolitionist pressure and comparative scrutiny. Within the discursive horizon of the <emph>Revue</emph>, it stood as a key site through which the contradictions of French colonial governance in the Caribbean were articulated.</p>
+            </note>
+            <note xml:lang="fr" type="Place" resp="#other">
+                <p>Chef-lieu administratif de Guadeloupe, Basse-Terre occupe une place centrale dans le gouvernement colonial des Antilles françaises entre 1834 et 1842, période correspondant à la publication de la <emph>Revue des Colonies</emph>. Située sur la côte occidentale de l’île de Guadeloupe (souvent distinguée entre Basse-Terre et Grande-Terre), la ville constitue le siège du pouvoir colonial, abritant le gouverneur et les principales institutions judiciaires.</p>
+                <p>Dans les années 1830, la Guadeloupe demeure une colonie de plantation fondée sur la production sucrière et le travail servile. Alors que l’abolition britannique (1833) inaugure l’émancipation dans les colonies voisines, l’esclavage persiste dans les Antilles françaises jusqu’en 1848. La période 1834 - 1842 est ainsi marquée par une intensification des débats métropolitains sur la réforme graduelle, la discipline du travail et l’expérience comparative de l’émancipation britannique. En tant que centre administratif, Basse-Terre devient un lieu d’application des ordonnances relatives à la police coloniale, à l’organisation du travail et au statut juridique des libres de couleur.</p>
+                <p>Pour les rédacteurs de la <emph>Revue des Colonies</emph>, Basse-Terre ne renvoie pas seulement à une localisation géographique, mais à un nœud institutionnel du système impérial français. Elle incarne l’interface opérationnelle entre directives métropolitaines et société plantationnaire. Les tensions politiques entre autorités coloniales, planteurs blancs, libres de couleur et populations esclavisées se cristallisent autour des instances administratives établies dans la ville. Les rapports, décrets et données statistiques issus de la colonie circulent dans la presse métropolitaine et nourrissent les discussions parisiennes sur l’avenir de l’esclavage et la réforme coloniale.</p>
+                <p>Entre 1834 et 1842, Basse-Terre apparaît ainsi comme un espace à la fois de continuité, par le maintien d’une économie sucrière esclavagiste, et d’instabilité, sous la pression croissante de l’abolitionnisme et de la comparaison internationale. Dans l’horizon discursif de la <emph>Revue</emph>, elle constitue un site clé d’articulation des contradictions du gouvernement colonial français aux Antilles.</p>
+            </note>
+        </place>
         <place xml:id="FJ">
             <placeName xml:lang="en">Fort de Joux</placeName>
             <placeName xml:lang="fr">Fort de Joux</placeName>
@@ -987,6 +1354,231 @@
                 <p>Situé dans l’actuel département du Doubs, en région Bourgogne-Franche-Comté, le Fort de Joux domine les montagnes du Jura, à la frontière suisse. À l’origine, il s’agit d’un château du XIIe siècle. De 1678 à 1815, plusieurs régimes l’utilisent comme prison d’État. C’est dans ce fort que Toussaint Louverture est détenu après son arrestation arbitraire et sa déportation depuis Saint-Domingue. Durant la Révolution française, de nombreux autres déportés venus des Antilles y sont également emprisonnés.</p>
             </note>
         </place>
+        <place xml:id="Ami">
+            <placeName xml:lang="en">Amiens</placeName>
+            <placeName xml:lang="fr">Amiens</placeName>
+            <location>
+                <geo decls="#geojson">{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2957,
+          49.8941
+        ]
+      },
+      "properties": {
+        "name": "Amiens",
+        "period": "1834–1842",
+        "source": "Revue des Colonies",
+        "country": "France",
+        "wikidata": "Q1236",
+        "department": "Somme",
+        "place_type": "city"
+      }
+    }
+  ]
+}</geo>
+            </location>
+            <note xml:lang="en" type="Place" resp="#other #other">
+                <p>During the period of the <emph>Revue des Colonies</emph> (1834-1842), Amiens was a provincial French city whose significance lay less in direct colonial involvement than in its position within metropolitan political, intellectual, and administrative networks. Capital of the département of the Somme, Amiens was integrated into the circuits of print culture, education, and reform that sustained debates on slavery, colonization, and abolition in France. In the <emph>Revue</emph>, references to Amiens generally function metonymically, designating the metropolitan interior as a space of opinion formation rather than imperial action. Such mentions evoke the diffusion of colonial questions beyond Paris, underscoring how provincial cities participated in the circulation of abolitionist ideas, petitions, and moral discourse. Amiens thus appears not as a colonial site but as part of the metropolitan infrastructure through which colonial issues were debated, framed, and legitimized during the July Monarchy.</p>
+            </note>
+            <note xml:lang="fr" type="Place" resp="#other #other">
+                <p>Durant la période de publication de la <emph>Revue des Colonies</emph> (1834-1842), Amiens est une ville de province dont l’importance tient moins à une implication coloniale directe qu’à sa place au sein des réseaux politiques, intellectuels et administratifs de la métropole. Préfecture du département de la Somme, Amiens s’inscrit dans les circuits de la culture imprimée, de l’enseignement et des réformes qui alimentent en France les débats sur l’esclavage, la colonisation et l’abolition. Dans la <emph>Revue</emph>, les mentions d’Amiens relèvent le plus souvent d’un usage métonymique, désignant l’espace de l’intérieur métropolitain comme lieu de formation de l’opinion plutôt que comme théâtre de l’action impériale. Elles signalent la diffusion des enjeux coloniaux au-delà de Paris et rappellent le rôle des villes provinciales dans la circulation des idées abolitionnistes, des pétitions et des discours moraux. Amiens apparaît ainsi non comme un espace colonial, mais comme un élément de l’infrastructure métropolitaine à travers laquelle les questions coloniales sont débattues, mises en forme et légitimées sous la monarchie de Juillet.</p>
+            </note>
+        </place>
+        <place xml:id="BAS">
+            <placeName xml:lang="en">Bastia</placeName>
+            <placeName xml:lang="fr">Bastia</placeName>
+            <location>
+                <geo decls="#geojson">{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4509,
+          42.6976
+        ]
+      },
+      "properties": {
+        "name": "Bastia",
+        "period": "1834–1842",
+        "region": "Corsica",
+        "source": "Revue des Colonies",
+        "country": "France",
+        "wikidata": "Q1479",
+        "department": "Haute-Corse",
+        "place_type": "city"
+      }
+    }
+  ]
+}</geo>
+            </location>
+            <note xml:lang="en" type="Place" resp="#other">
+                <p>During the period of the <emph>Revue des Colonies</emph> (1834-1842), Bastia was a port city whose significance derived from its position at the margins of the French metropolitan territory and its historical relationship to imperial administration and maritime circulation. Located on the northeastern coast of Corsica, Bastia had served as the island’s principal administrative center under Genoese and early French rule, and it remained a key node linking Corsica to Mediterranean commercial and military routes. In the <emph>Revue</emph>, Bastia appears less as a colonial site than as a peripheral metropolitan space, emblematic of regions incorporated into the French state yet often perceived as culturally and politically distinct. References to Bastia evoke questions of integration, governance, and internal difference within France itself, implicitly situating Corsica in a continuum between the metropole and the colonies. While the journal does not frame Bastia through the language of overseas colonization, its inclusion reflects broader nineteenth-century debates about territorial incorporation, state authority, and the uneven application of republican and liberal principles within the French nation.</p>
+            </note>
+            <note xml:lang="fr" type="Place" resp="#other">
+                <p>Au cours de la période de publication de la <emph>Revue des Colonies</emph> (1834-1842), Bastia est une ville portuaire dont l’importance tient à sa situation en marge du territoire métropolitain français et à son histoire liée à l’administration impériale et aux circulations maritimes. Située sur la côte nord-est de la Corse, Bastia a longtemps été le principal centre administratif de l’île sous la domination génoise puis française, et demeure un nœud essentiel reliant la Corse aux routes commerciales et militaires de la Méditerranée. Dans la <emph>Revue</emph>, Bastia apparaît moins comme un espace colonial que comme une périphérie métropolitaine, emblématique de territoires intégrés à l’État français tout en étant perçus comme culturellement et politiquement distincts. Les mentions de Bastia renvoient ainsi aux enjeux de l’intégration, de la gouvernance et de la différence interne à la France, inscrivant implicitement la Corse dans un continuum entre métropole et colonies. Si la revue ne mobilise pas explicitement le vocabulaire de la colonisation outre-mer pour évoquer Bastia, sa présence fait écho aux débats du XIXᵉ siècle sur l’incorporation territoriale, l’autorité de l’État et l’application inégale des principes libéraux au sein de la nation française.</p>
+            </note>
+        </place>
+        <place xml:id="DOU">
+            <placeName xml:lang="en">Douéra</placeName>
+            <placeName xml:lang="fr">Douéra</placeName>
+            <location>
+                <geo decls="#geojson">{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.941440481127046,
+          36.669600254765825
+        ]
+      },
+      "properties": {}
+    }
+  ]
+}</geo>
+            </location>
+            <note xml:lang="en" type="Place" resp="#other">
+                <p>Located southwest of Algiers in the Mitidja plain, Douéra occupied both a military and a colonial role in the early years of the French conquest. During the 1830s, when the <emph>Revue des Colonies</emph> was being published, it developed as a fortified post and a center of colonial settlement.</p>
+                <p>The Mitidja was then a priority zone of conquest, shaped by so-called “pacification” campaigns, land expropriation, and agricultural colonization projects. Because of its proximity to Algiers, Douéra also formed part of the capital’s defensive perimeter, in a context marked by resistance to French occupation.</p>
+                <p>Between 1834 and 1842, Douéra thus appears as a still unstable space of consolidation, at the intersection of military conquest, settler colonization, and imperial uncertainty. In the horizon of the <emph>Revue des Colonies</emph>, it points to the experimental and conflict-ridden character of early colonial Algeria.</p>
+            </note>
+            <note xml:lang="fr" type="Place" resp="#other">
+                <p>Située au sud-ouest d’Alger, dans la plaine de la Mitidja, Douéra occupe, dans les premières années de la conquête française, une position à la fois militaire et coloniale. Au cours des années 1830, au moment où paraît la <emph>Revue des Colonies</emph>, la localité se développe comme poste fortifié et centre d’implantation coloniale.</p>
+                <p>La Mitidja constitue alors une zone prioritaire de la conquête, où se combinent opérations de « pacification », expropriations foncières et projets de colonisation agricole. En raison de sa proximité avec Alger, Douéra s’inscrit aussi dans le dispositif défensif de la capitale, dans un contexte marqué par les résistances à l’occupation française.</p>
+                <p>Entre 1834 et 1842, Douéra apparaît ainsi comme un espace de consolidation encore incertain, au croisement de la conquête militaire, de la colonisation de peuplement et de l’instabilité impériale. Dans l’horizon de la <emph>Revue des Colonies</emph>, elle renvoie au caractère expérimental et conflictuel de la première Algérie coloniale.</p>
+            </note>
+        </place>
+        <place xml:id="CRC">
+            <placeName xml:lang="en">Corsica</placeName>
+            <placeName xml:lang="fr">Corse</placeName>
+            <location>
+                <geo decls="#geojson">{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.735739037923338,
+          41.93934865085646
+        ]
+      },
+      "properties": {}
+    }
+  ]
+}</geo>
+            </location>
+            <note xml:lang="en" type="Place" resp="#yasmine">
+                <p>Mediterranean island annexed by France from the Republic of Genoa in 1768 and incorporated as a French département in 1796 following a brief period as an Anglo-Corsican kingdom, Corsica occupied an ambiguous position within the French political imaginary of the July Monarchy. The island was simultaneously the birthplace of Napoleon Bonaparte and a territory whose integration into metropolitan France remained incomplete, marked by persistent traditions of autonomous governance, the vendetta, clan politics, and distance from the administrative norms of the continental departments.</p>
+                <p>In the <emph>Revue</emph>, Corsica represents the question of internal colonial difference within France itself : a territory “integrated” into the metropolitan body politic yet governed as a periphery, and whose experience of political subordination offered a counterpoint to the more distant but structurally analogous situation of the colonised subjects of Martinique and Guadeloupe.</p>
+                <p>
+                </p>
+            </note>
+            <note xml:lang="fr" type="Place" resp="#yasmine">
+                <p>Île méditerranéenne annexée par la France à la République de Gênes en 1768 et incorporée comme département français en 1796, après une brève période durant laquelle elle forma un royaume anglo-corse, la Corse occupe une position ambiguë dans l’imaginaire politique français sous la monarchie de Juillet. L’île est à la fois la terre natale de Napoléon Bonaparte et un territoire dont l’intégration à la France métropolitaine demeure inachevée, marquée par la persistance de traditions d’autonomie locale, par la vendetta, par des logiques claniques et par une relative distance à l’égard des normes administratives qui régissent les départements continentaux.</p>
+                <p>Dans la <emph>Revue</emph>, la Corse incarne ainsi la question d’une différence coloniale interne à la France elle-même : un territoire « intégré » au corps politique métropolitain tout en étant administré comme une périphérie, et dont l’expérience de subordination politique offre un contrepoint à la situation, plus éloignée géographiquement mais structurellement analogue, des sujets colonisés de la Martinique et de la Guadeloupe.</p>
+            </note>
+        </place>
+        <place xml:id="Ar">
+            <placeName xml:lang="en">Aragua</placeName>
+            <placeName xml:lang="fr">Aragua</placeName>
+            <location>
+                <geo decls="#geojson">{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.59133099558606,
+          10.243831053862351
+        ]
+      },
+      "properties": {}
+    }
+  ]
+}</geo>
+            </location>
+            <note xml:lang="en" type="Place" resp="#emilie">
+                <p>Province (later a state) in north-central Venezuela, situated between the Caribbean coast and the inland valleys surrounding Lake Valencia, Aragua formed part of the Republic of Venezuela during the years 1834 - 1842, corresponding to the publication of the <emph>Revue des Colonies</emph>. Following the dissolution of Gran Colombia in 1830, Venezuela emerged as an independent republic confronting the institutional and fiscal challenges characteristic of post-independence Spanish America.</p>
+                <p>In the 1830s, the region of Aragua was agriculturally productive, particularly in cacao and increasingly in coffee cultivation, commodities that tied Venezuela to Atlantic commercial circuits. Although no longer a European colony, the former Captaincy General of Venezuela remained integrated into global trade networks that connected Caribbean ports, European markets, and neighboring republics. Political life during this period was marked by tensions between regional caudillos and central authorities, reflecting broader instability within the young Venezuelan state.</p>
+                <p>For French observers under the July Monarchy, regions such as Aragua exemplified the reconfigured political geography of the Caribbean basin after the collapse of the Spanish Empire. The emergence of sovereign republics did not remove these territories from imperial calculation; rather, they became arenas of commercial competition, diplomatic engagement, and speculative investment. Within the discursive horizon of the <emph>Revue des Colonies</emph>, Aragua would likely have appeared in connection with trade prospects, agricultural production, and the broader question of European influence in post-colonial Spanish America.</p>
+                <p>Thus, between 1834 and 1842, Aragua represented neither a colony nor a peripheral abstraction, but part of a transformed Atlantic order in which former imperial territories operated as independent yet economically interdependent republics. Its significance lay in its agricultural export economy and its position within the shifting balance of power in the circum-Caribbean world.</p>
+            </note>
+            <note xml:lang="fr" type="Place" resp="#emilie">
+                <p>Province (puis État) du centre-nord du Venezuela, située entre la côte caraïbe et les vallées intérieures autour du lac de Valencia, Aragua fait partie de la République du Venezuela durant la période 1834 - 1842, correspondant à la publication de la <emph>Revue des Colonies</emph>. Après la dissolution de la Grande Colombie en 1830, le Venezuela devient une république indépendante confrontée aux défis institutionnels et financiers propres aux États hispano-américains post-indépendance.</p>
+                <p>Dans les années 1830, la région d’Aragua se distingue par une production agricole importante, notamment le cacao et, de manière croissante, le café, produits insérant le pays dans les circuits commerciaux atlantiques. Bien qu’elle ne soit plus une colonie européenne, l’ancienne capitainerie générale du Venezuela demeure intégrée aux réseaux d’échanges reliant ports caraïbes, marchés européens et républiques voisines. La vie politique est marquée par des tensions entre autorités centrales et chefs régionaux (caudillos), reflétant l’instabilité plus large du jeune État vénézuélien.</p>
+                <p>Pour les observateurs français sous la monarchie de Juillet, des régions comme Aragua illustrent la recomposition de la géographie politique du bassin caraïbe après l’effondrement de l’Empire espagnol. L’émergence de républiques souveraines n’exclut pas ces territoires des calculs impériaux; elles deviennent au contraire des espaces de concurrence commerciale, d’engagement diplomatique et d’investissement. Dans l’horizon discursif de la <emph>Revue des Colonies</emph>, Aragua s’inscrit vraisemblablement dans des réflexions relatives aux perspectives commerciales, à la production agricole et à l’influence européenne dans l’Amérique hispanique post-coloniale.</p>
+                <p>Entre 1834 et 1842, Aragua apparaît ainsi comme un élément d’un ordre atlantique recomposé: territoire indépendant mais économiquement interdépendant, dont l’importance tient à son économie d’exportation et à sa position dans l’équilibre changeant des puissances autour de la Caraïbe.</p>
+            </note>
+        </place>
+        <place xml:id="Cha">
+            <placeName xml:lang="en">Charleston</placeName>
+            <placeName xml:lang="fr">Charleston</placeName>
+            <location>
+                <geo decls="#geojson">{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.93990665599557,
+          32.78857242650996
+        ]
+      },
+      "properties": {}
+    }
+  ]
+}</geo>
+            </location>
+            <note xml:lang="en" type="Place" resp="#other">
+                <p>Principal port city of South Carolina, Charleston occupied a central position in the slaveholding Atlantic world during the years 1834 - 1842, corresponding to the publication of the <emph>Revue des Colonies</emph>. As a major commercial hub of the American South, the city was deeply embedded in plantation capitalism, exporting rice, cotton, and other commodities produced by enslaved labor. Its social and political order was structured by a rigid racial hierarchy and a powerful planter elite.</p>
+                <p>In the 1830s, Charleston stood at the forefront of pro-slavery ideology in the United States. The aftermath of the 1822 Denmark Vesey conspiracy intensified white anxieties and reinforced systems of surveillance and repression. Simultaneously, South Carolina played a decisive role in the Nullification Crisis (1832 - 1833), asserting states’ rights in opposition to federal authority. These developments shaped broader debates about sovereignty, slavery, and republican governance, issues closely observed in Europe.</p>
+                <p>For French readers under the July Monarchy, Charleston thus represented both economic dynamism and ideological entrenchment: a city emblematic of the persistence of slavery within a modern commercial republic.</p>
+            </note>
+            <note xml:lang="fr" type="Place" resp="#other">
+                <p>Principal port de l’État de South Carolina, Charleston occupe une place centrale dans le monde atlantique esclavagiste entre 1834 et 1842, période correspondant à la publication de la <emph>Revue des Colonies</emph>. Important centre commercial du Sud des États-Unis, la ville est profondément intégrée au capitalisme plantationnaire, exportant riz, coton et autres produits issus du travail servile. Son ordre social et politique repose sur une hiérarchie raciale rigide et sur l’influence d’une élite de planteurs.</p>
+                <p>Dans les années 1830, Charleston se situe à l’avant-garde de l’idéologie pro-esclavagiste américaine. Les conséquences de la conspiration de Denmark Vesey (1822) renforcent les dispositifs de surveillance et de répression, alimentant les craintes des autorités blanches. Parallèlement, la Caroline du Sud joue un rôle déterminant dans la crise de la nullification (1832 - 1833), affirmant les droits des États face au pouvoir fédéral. Ces événements nourrissent des débats plus larges sur la souveraineté, l’esclavage et le gouvernement républicain, suivis avec attention en Europe.</p>
+                <p>Pour les observateurs français sous la monarchie de Juillet, Charleston apparaît ainsi comme un symbole à la fois de dynamisme économique et d’enracinement idéologique de l’esclavage.</p>
+            </note>
+        </place>
+        <place xml:id="DE">
+            <placeName xml:lang="en">Demerara</placeName>
+            <placeName xml:lang="fr">Démérari</placeName>
+            <location>
+                <geo decls="#geojson">{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.001989678700454,
+          6.779067127908391
+        ]
+      },
+      "properties": {}
+    }
+  ]
+}</geo>
+            </location>
+        </place>
         <place xml:id="HT">
             <placeName xml:lang="en">Haiti/République d'Haïti</placeName>
             <placeName xml:lang="fr">Haiti/République d'Haïti</placeName>
@@ -1010,6 +1602,40 @@
                 <bibl>Dubois, Laurent.  <title>Avengers of the New World: The Story of the Haitian Revolution</title> .  (Cambridge, Mass: Belknap Press of Harvard University Press, 2004).</bibl>
                 <bibl>Pierrot, Grégory.  <title>The Black Avenger in Atlantic Culture</title> . Athens: The University of Georgia Press, 2019.</bibl>
                 <bibl>Stieber, Chelsea.  <title>Haiti’s Paper War: Post-Independence Writing, Civil War, and the Making of the Republic, 1804-1954</title> . New York: New York University Press, 2020.</bibl>
+            </note>
+        </place>
+        <place xml:id="BAR">
+            <placeName xml:lang="en">Barbados </placeName>
+            <placeName xml:lang="fr">Barbade</placeName>
+            <location>
+                <geo decls="#geojson">{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.5432,
+          13.1939
+        ]
+      },
+      "properties": {
+        "name": "Barbados",
+        "period": "1834–1842",
+        "place_type": "island"
+      }
+    }
+  ]
+}</geo>
+            </location>
+            <note xml:lang="en" type="Place" resp="#other">
+                <p>A British colony since the seventeenth century, Barbados occupied a distinctive position in Atlantic colonial discourse during the publication of the <emph>Revue des Colonies </emph>(1834 - 1842). Barbados had no recent experience of revolutionary rupture from the colonial system and was often cited as a paradigmatic “old colony,” characterized by long-established plantation slavery and a powerful white planter elite. The abolition of slavery in the British Empire in 1834, followed by the apprenticeship system until 1838, made Barbados a crucial point of reference in French debates on emancipation. In the <emph>Revue</emph>, Barbados functioned less as a concrete territory than as an experimental counterpoint: a site through which contributors evaluated the social, economic, and moral consequences of abolition without revolution. While the journal frequently mobilized Barbados to argue against planter claims that emancipation would result in economic collapse or social disorder, it tended to abstract the colony into a case study, rarely engaging in sustained analysis of local Black political agency or post-emancipation coercive labor regimes.</p>
+            </note>
+            <note xml:lang="fr" type="Place" resp="#other">
+                <p>Colonie britannique depuis le XVIIᵉ siècle, la Barbade occupait, au moment de la publication de la <emph>Revue des Colonies</emph> (1834-1842), une position singulière dans les discours coloniaux atlantiques. N’ayant pas connu de rupture révolutionnaire récente avec l’ordre colonial, elle était volontiers érigée en paradigme de la « vieille colonie », caractérisée par l’ancienneté du système plantationnaire esclavagiste et par la puissance d’une élite blanche de planteurs solidement implantée.</p>
+                <p>L’abolition de l’esclavage dans l’Empire britannique en 1834, suivie de l’instauration du système d’apprentissage jusqu’en 1838, fit de la Barbade un point d’appui essentiel dans les débats français relatifs à l’émancipation. Dans les pages de la <emph>Revue</emph>, la colonie apparaît moins comme un espace historique et socialement situé que comme un contrepoint expérimental : un lieu d’observation à partir duquel les contributeurs examinent les effets sociaux, économiques et moraux d’une abolition accomplie sans révolution.</p>
+                <p>Si la revue mobilise fréquemment l’exemple barbadien pour réfuter les arguments des planteurs, qui annonçaient l’effondrement économique ou le désordre social consécutifs à l’émancipation, elle tend néanmoins à en faire un cas d’école relativement abstrait. Rares sont les analyses approfondies des formes d’agentivité politique des populations noires locales ou des régimes de travail coercitifs mis en place dans l’après-abolition.</p>
             </note>
         </place>
         <place xml:id="PtP">
@@ -1074,6 +1700,30 @@
                 <bibl>« Tableaux de population, de culture, de commerce et de navigation » dans  <title>Notice statistique sur les colonies françaises</title>  , Paris, Imprimerie Nationale, 1837, p.42.  Bibliothèque nationale de France,  gallica.bnf.fr/ </bibl>
             </note>
         </place>
+        <place xml:id="OR">
+            <placeName xml:lang="en">Oran</placeName>
+            <placeName xml:lang="fr">Oran</placeName>
+            <note xml:lang="en" type="Place" resp="#other #yasmine">
+                <p>Located on the northwestern coast of Algeria, Oran was one of the first major cities to fall under French military occupation following the invasion of 1830. French forces entered the city in January 1831, ousting the Ottoman-appointed Hasan Bey and establishing a garrison that would become the anchor of the province of western Algeria. From this coastal base, French authority initially extended only a short distance inland, as the surrounding territory remained under the effective control of tribal confederations and, increasingly, of the resistance led by Emir Abdelkader.</p>
+                <p>Oran served as both a military headquarters and a diplomatic flashpoint. In 1834, General Desmichels signed a treaty with Abdelkader that recognized the emir’s authority over the interior of Oran province—a de facto acknowledgement that French dominion was far from consolidated. Renewed hostilities followed: the French suffered a significant defeat at the Battle of Macta in 1835, before General Bugeaud restored their position at the Battle of Sikkak in 1836. The Treaty of Tafna, negotiated by Bugeaud at Oran in May 1837, temporarily froze the conflict by granting Abdelkader control over much of the Algerian interior, while France retained its coastal ports.</p>
+                <p>
+                </p>
+                <bibl>Ageron, Charles-Robert.  <title>Histoire de l’Algérie contemporaine, t. I : De l’insurrection de 1871 au déclenchement de la guerre de libération (1954)</title>  . Paris: Presses universitaires de France, 1964.</bibl>
+                <bibl>Danziger, Raphael.  <title><emph>Abd al-Qadir and the Algerians: Resistance to the French and Internal Consolidation</emph></title> . New York: Holmes &amp; Meier, 1977. <p> </p></bibl>
+                <bibl>Lorcin, Patricia M. E.  <title>Imperial Identities: Stereotyping, Prejudice and Race in Colonial Algeria.</title>   London: I.B. Tauris, 1995. <p> </p></bibl>
+                <bibl>Temimi, Abdeljelil. “La Régence d’Alger face à l’expansion française, 1830–1837.”  <emph>Revue d’histoire maghrébine</emph>  4 (1975): 5–22. <p> </p></bibl>
+            </note>
+            <note xml:lang="fr" type="Place" resp="#other #yasmine">
+                <p>Située sur la côte nord-ouest de l’Algérie, Oran est l’une des premières grandes villes à tomber sous occupation militaire française à la suite de l’invasion de 1830. Les troupes françaises y entrent en janvier 1831, évincçant le bey ottoman Hasan Bey et y installant une garnison qui devient le pivot de la province de l’Algérie occidentale. À partir de cette tête de pont côtière, l’autorité française ne s’étend d’abord que sur un périmètre restreint, le territoire environnant restant sous le contrôle effectif de confédérations tribales et, de plus en plus, de la résistance menée par l’émir Abdelkader.</p>
+                <p>Oran fait office à la fois de quartier général militaire et de foyer de tensions diplomatiques. En 1834, le général Desmichels signe avec Abdelkader un traité qui reconnaît l’autorité de l’émir sur l’intérieur de la province d’Oran—reconnaissance de fait que la domination française est loin d’être consolidée. De nouveaux affrontements s’ensuivent : les Français subissent une défaite significative à la bataille de la Macta en 1835, avant que le général Bugeaud ne retourne la situation à la bataille de Sikkak en 1836. Le traité de la Tafna, négocié par Bugeaud à Oran en mai 1837, fige provisoirement le conflit en accordant à Abdelkader le contrôle de l’essentiel de l’intérieur algérien, tandis que la France conserve ses ports côtiers.</p>
+                <p>
+                </p>
+                <bibl>Ageron, Charles-Robert.  <title>Histoire de l’Algérie contemporaine, t. I : De l’insurrection de 1871 au déclenchement de la guerre de libération (1954)</title>  . Paris : Presses universitaires de France, 1964.</bibl>
+                <bibl>Danziger, Raphael.  <title><emph>Abd al-Qadir and the Algerians: Resistance to the French and Internal Consolidation</emph></title> . New York : Holmes &amp; Meier, 1977. <p> </p></bibl>
+                <bibl>Lorcin, Patricia M. E.  <title>Imperial Identities: Stereotyping, Prejudice and Race in Colonial Algeria.</title>   London : I.B. Tauris, 1995. <p> </p></bibl>
+                <bibl>Temimi, Abdeljelil. “La Régence d’Alger face à l’expansion française, 1830–1837.”  <emph>Revue d’histoire maghrébine</emph>  4 (1975) : 5–22. <p> </p></bibl>
+            </note>
+        </place>
         <place xml:id="SEN">
             <placeName xml:lang="en">Senegal</placeName>
             <placeName xml:lang="fr">Sénégal</placeName>
@@ -1085,6 +1735,130 @@
                 <p>À l’époque de la <emph>Revue</emph>, la colonie française du Sénégal se limite aux villes marchandes insulaires de Saint-Louis et Gorée, ainsi qu’à quelques avant-postes, certains fortifiés, le long du fleuve Sénégal et au sud de Gorée. La présence française dans la région remonte au début du XVIIe siècle, bien que les guerres en Europe entraînent l’occupation et le contrôle de Saint-Louis par les Britanniques de 1759 à 1779 et de 1807 à 1817, et de Gorée de 1758 à 1763, de 1779 à 1783, et de 1800 à 1817. Les négociations avec les Britanniques à la fin des guerres napoléoniennes permettent à la France de reprendre le contrôle du Sénégal en 1817.</p>
                 <p>Après 1817, les autorités françaises élargissent leurs ambitions au-delà du commerce maritime, en s’engageant dans une gamme d’activités plus variées. Cela se manifeste notamment par la création des premières écoles publiques françaises et d’un hôpital au Sénégal, souvent avec l’aide des ordres missionnaires catholiques, dans les années 1810 et 1820. Ces efforts sont particulièrement visibles dans les projets de colonisation agricole. En signant un traité avec le souverain du royaume du Waalo en 1819, le gouverneur Julien Schmaltz obtient des droits d’usage foncier sur une parcelle le long du fleuve Sénégal ainsi que le droit de construire un fort à Dagana. Sous le mandat du baron Jacques-François Roger, gouverneur de 1822 à 1827, le projet agricole sur cette parcelle, connue sous le nom de Richard Toll, reçoit une attention particulière. Bien que le ministère de la Marine et l’administration française au Sénégal admettent dès le début des années 1830 l’échec de Richard Toll, ce projet marque un intérêt croissant et continu pour les affaires le long du fleuve Sénégal, qui se poursuit dans les années 1830 et 1840 et trouve écho dans les pages de la publication de Bissette. Ce dernier inclut également des articles critiques sur la décision du gouverneur Germain d’impliquer les troupes françaises dans une guerre au Waalo entre 1833 et 1835, visant à empêcher le Waalo de conclure une alliance avec les Maures Trarzas au nord, ainsi que des articles sur les conséquences de ce conflit.</p>
                 <p>Les populations de Saint-Louis et de Gorée comprennent une très petite communauté de Français métropolitains (fonctionnaires, commerçants, représentants de maisons de commerce, missionnaires, et autres), des Africains libres travaillant comme commerçants, pêcheurs, marins, artisans ou journaliers, des métis (nés de femmes africaines ou métisses connues sous le nom de signares et de pères français, ainsi que leurs descendants), et – jusqu’en 1848 – une importante population d’Africains réduits en esclavage. Malgré les efforts de développement agricole, le commerce domine l’économie, avec la gomme arabique comme principal produit d’exportation dans la période suivant immédiatement l’abolition par la France de la traite transatlantique (1815). Plus tard au XIXe siècle, les arachides deviennent le principal produit d’exportation du Sénégal.</p>
+            </note>
+        </place>
+        <place xml:id="Hav">
+            <placeName xml:lang="en">Le Havre</placeName>
+            <placeName xml:lang="fr">Le Havre</placeName>
+            <note xml:lang="en" type="Place" resp="#yasmine #null">
+                <p>France’s principal Atlantic port in the 1830s, Le Havre occupied a structurally ambiguous position at the time of the Revue des Colonies. On one hand, it was France’s second largest slave-trading port after Nantes, responsible for approximately 520 expeditions and the deportation of some 90,000 enslaved Africans to the plantations of Martinique, Guadeloupe, and Saint-Domingue. The fortunes of its principal merchant families had been built, at least in part, on this traffic. In the 1830s, the city’s warehouses continued to receive the colonial produce—sugar, coffee, cotton—grown by enslaved workers in the French Antilles, whose legal emancipation would not come until 1848.</p>
+                <p>On the other hand, Le Havre was also the main European departure point for transatlantic emigration, particularly of Swiss, Alsatian, and German settlers bound for the United States. This double function—as both entrepôt for colonial commodities produced by enslaved labour and gateway for European emigrants seeking freedom in the New World—concentrated in a single port city the contradictions that the Revue des Colonies sought to expose. The same Atlantic circuits that carried enslaved persons’ produce also transmitted abolitionist ideas; the same ships that returned with Antillean sugar departed with emigrants whose passage was financed by colonial profits.</p>
+                <p>From the perspective of the Revue, Le Havre represents the metropolitan infrastructure of colonial slavery: a site where the material dependency of French prosperity on enslaved labour was most visibly inscribed in the landscape of commerce, and where the gap between the egalitarian ideals of the July Monarchy and the colonial reality was most acutely felt.</p>
+                <p>
+                </p>
+                <bibl>Clément, Jean-Louis.  <emph>Le Havre au XIXe siècle: croissance urbaine et mutations sociales.</emph>  Le Havre: Société havraise d’études diverses, 1994.</bibl>
+                <bibl>Michon, Bernard. "Les ports français et le développement de l'économie de plantation et de la traite."  <emph>Manifest</emph> , December 13, 2022. https://www.projectmanifest.eu/les-ports-francais/</bibl>
+                <bibl>Jennings, Lawrence C. “Slavery and the Venality of the July Monarchy Press.”  <title>French Historical Studies</title>  17.4 (1992): 957–78.</bibl>
+                <bibl>Méttas, Jean.  <emph>Répertoire des expéditions négrières françaises au XVIIIe sièc</emph> le, 2 vols. Paris: Société française d’histoire d’outre-mer, 1978–1984.</bibl>
+            </note>
+            <note xml:lang="fr" type="Place" resp="#yasmine #null">
+                <p>Premier port atlantique de France dans les années 1830, Le Havre occupe une position structurellement ambiguë à l’époque de la Revue des Colonies. D’un côté, il s'agit du deuxième port français de la traite négrière transatlantique après Nantes, responsable d'environ 520 expéditions et de la déportation de plus de 90 000 Africains réduits en esclavage vers les plantations de la Martinique, de la Guadeloupe et de Saint-Domingue. Les fortunes des principales familles marchandes de la ville ont été construites, en partie, sur ce trafic. Dans les années 1830, les entrepôts de la ville continuent de recevoir les denrées coloniales—sucre, café, coton—produites par des travailleurs réduits en esclavage dans les Antilles françaises, dont l’émancipation légale ne viendra qu’en 1848.</p>
+                <p>Le Havre est aussi le principal point de départ européen de l’émigration transatlantique, notamment de colons suisses, alsaciens et allemands à destination des États-Unis. Cette double fonction—à la fois entrepôt des denrées coloniales issues du travail esclave et porte d’entrée des émigrants européens en quête de liberté dans le Nouveau Monde—concentre en un seul port les contradictions que la Revue des Colonies s’emploie à dénoncer. Les mêmes circuits atlantiques qui transportent les produits du travail des esclavisés véhiculent aussi les idées abolitionnistes ; les mêmes navires qui rentrent chargés de sucre antillais repartent avec des émigrants dont le passage est financé par les profits coloniaux.</p>
+                <p>Dans la perspective de la Revue, Le Havre représente l’infrastructure métropolitaine de l’esclavage colonial : un lieu où la dépendance matérielle de la prospérité française à l’égard du travail esclave s’inscrit le plus visiblement dans le paysage commercial, et où le fossé entre les idéaux égalitaires de la monarchie de Juillet et la réalité coloniale se ressent avec le plus d’acuité.</p>
+                <p>
+                </p>
+                <bibl>Clément, Jean-Louis.  <emph>Le Havre au XIXe siècle : croissance urbaine et mutations sociales.</emph>  Le Havre : Société havraise d’études diverses, 1994. <p> </p></bibl>
+                <bibl>Michon, Bernard. "Les ports français et le développement de l'économie de plantation et de la traite."  <emph>Manifest</emph> , December 13, 2022. https://www.projectmanifest.eu/les-ports-francais/</bibl>
+                <bibl>Jennings, Lawrence C. “Slavery and the Venality of the July Monarchy Press.”  <title>French Historical Studies</title>  17.4 (1992): 957–78.</bibl>
+                <bibl>Méttas, Jean.  <emph>Répertoire des expéditions négrières françaises au XVIIIe sièc</emph> le, 2 vols. Paris : Société française d’histoire d’outre-mer, 1978–1984. <p> </p></bibl>
+            </note>
+        </place>
+        <place xml:id="CON">
+            <placeName xml:lang="en">Constantine</placeName>
+            <placeName xml:lang="fr">Constantine</placeName>
+            <location>
+                <geo decls="#geojson">{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.608184497814619,
+          36.36455184507736
+        ]
+      },
+      "properties": {}
+    }
+  ]
+}</geo>
+            </location>
+            <note xml:lang="en" type="Place" resp="#other">
+                <p>Constantine, the principal urban center of eastern Algeria, played a key role in the first phase of the French conquest, which coincided with the publication of the <emph>Revue des Colonies</emph>. Governed by Ahmed Bey after 1830, the city remained one of the main centers of resistance to French expansion.</p>
+                <p>The failure of the 1836 expedition, followed by the capture of Constantine in 1837 by the forces of General Valée, marked a decisive turning point: conquest was no longer confined to the coast but extended inland. Between 1837 and 1842, the city thus became a major military and administrative center in eastern Algeria.</p>
+                <p>From the perspective of the <emph>Revue</emph>, Constantine embodied the intensification of conquest and the establishment of durable territorial domination.</p>
+            </note>
+            <note xml:lang="fr" type="Place" resp="#other">
+                <p>
+                    <article class="text-token-text-primary w-full focus:outline-none [--shadow-height:45px] has-data-writing-block:pointer-events-none has-data-writing-block:-mt-(--shadow-height) has-data-writing-block:pt-(--shadow-height) [&amp;:has([data-writing-block])&gt;*]:pointer-events-auto scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]" dir="auto" tabindex="-1" data-turn-id="request-69ac55e5-2384-838b-a8b8-2ff2ba0349ac-27" data-testid="conversation-turn-18" data-scroll-anchor="true" data-turn="assistant">
+                        <div class="text-base my-auto mx-auto pb-10 [--thread-content-margin:var(--thread-content-margin-xs,calc(var(--spacing)*4))] @w-sm/main:[--thread-content-margin:var(--thread-content-margin-sm,calc(var(--spacing)*6))] @w-lg/main:[--thread-content-margin:var(--thread-content-margin-lg,calc(var(--spacing)*16))] px-(--thread-content-margin)">
+                            <div class="[--thread-content-max-width:40rem] @w-lg/main:[--thread-content-max-width:48rem] mx-auto max-w-(--thread-content-max-width) flex-1 group/turn-messages focus-visible:outline-hidden relative flex w-full min-w-0 flex-col agent-turn" tabindex="-1">
+                                <div class="flex max-w-full flex-col gap-4 grow">
+                                    <div class="min-h-8 text-message relative flex w-full flex-col items-end gap-2 text-start break-words whitespace-normal [.text-message+&amp;]:mt-1" dir="auto" data-message-author-role="assistant" data-message-id="a6bea700-829a-4f27-8231-f5fdd1686cd8" data-message-model-slug="gpt-5-4-thinking">
+                                        <div class="flex w-full flex-col gap-1 empty:hidden">
+                                            <div class="markdown prose dark:prose-invert w-full wrap-break-word light markdown-new-styling">
+                                                <p data-start="45" data-end="354">Constantine, principal centre urbain de l’est algérien, joue un rôle clé dans la première phase de la conquête française, contemporaine de la parution de la <emph>Revue des Colonies</emph>. Gouvernée par Ahmed Bey après 1830, la ville demeure l’un des principaux foyers de résistance à l’expansion française.</p>
+                                                <p data-start="356" data-end="675">L’échec de l’expédition de 1836, puis la prise de Constantine en 1837 par les troupes du général Valée, marquent un tournant décisif : la conquête ne se limite plus au littoral, mais s’étend vers l’intérieur. Entre 1837 et 1842, la ville devient ainsi un centre militaire et administratif majeur de l’Algérie orientale.</p>
+                                                <p data-start="677" data-end="834" data-is-last-node="" data-is-only-node="">Dans la perspective de la <emph>Revue</emph>, Constantine incarne l’intensification de la conquête et l’installation d’une domination territoriale durable.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="z-0 flex min-h-[46px] justify-start">
+                                </div>
+                                <div class="mt-3 w-full empty:hidden">
+                                    <div class="text-center">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </p>
+                <p>
+                </p>
+            </note>
+        </place>
+        <place xml:id="Bor">
+            <placeName xml:lang="en">Bordeaux</placeName>
+            <placeName xml:lang="fr">Bordeaux</placeName>
+            <location>
+                <geo decls="#geojson">{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5824121808223595,
+          44.84522129784554
+        ]
+      },
+      "properties": {}
+    }
+  ]
+}</geo>
+            </location>
+            <note xml:lang="en" type="Place" resp="#yasmine">
+                <p>Bordeaux in the 1830s was the city whose colonial entanglements most directly shadowed the intellectual world of the Revue des Colonies. As one of France's principal colonial ports on the eve of the Revolution of 1789, and the foremost in terms of the value of its trade with Saint-Domingue — the world's most productive plantation colony before the Haitian Revolution of 1791–1804 — Bordeaux had dispatched approximately 480 slave-trading expeditions. The collapse of the Saint-Domingue trade forced its merchant class into a major structural reorientation, the long-term consequences of which were still unfolding in the 1830s. Bordeaux continued to receive Antillean sugar, coffee, and cocoa, and its commercial networks remained deeply embedded in the plantation economy of Martinique and Guadeloupe.</p>
+                <p>Against this backdrop, the British Slavery Abolition Act of 1833—which came into effect in August 1834, the month of the Revue des Colonies’ first issue—was followed with anxious attention by Bordeaux’s commercial class, many of whom feared the economic consequences of any comparable French measure.</p>
+                <p>From the perspective of the Revue, Bordeaux embodies the accumulated wealth of the colonial slave economy and its seamless transformation into metropolitan social respectability: the city where slavery’s profits had most thoroughly financed the built environment, the merchant culture, and the very landscape of French bourgeois civilization that surrounded and marginalized the abolitionist voice.</p>
+                <bibl>Butel, Paul.  <emph>Histoire de la Chambre de commerce et d’industrie de Bordeaux des origines à nos jours, 1705–1985</emph> . Bordeaux: Chambre de commerce et d’industrie de Bordeaux, 1988. <p> </p></bibl>
+                <bibl>Cadé, Michel. “Bordeaux et la traite négrière au XVIIIe siècle.”  <emph>Bulletin du Centre d’histoire des espaces atlantiques</emph>  4 (1988): 33–58. <p> </p></bibl>
+                <bibl>Piquionne, Nelly. “Les Négociants bordelais et l’esclavage au début du XIXe siècle.”  <emph>Outre-mers: Revue d’histoire </emph> 90, nos 340–341 (2003): 51–69. <p> </p></bibl>
+                <bibl>Pouliquen, Alexis.  <title>Bordeaux et Saint-Domingue: négoce, esclavage et révolution</title>  . Bordeaux: Presses universitaires de Bordeaux, 2017.</bibl>
+                <bibl>Tarrade, Jean.  <emph>Le Commerce colonial de la France à la fin de l’Ancien Régime: l’évolution du régime de l’exclusif de 1763 à 1789</emph> , 2 vols. Paris: Presses universitaires de France, 1972.</bibl>
+            </note>
+            <note xml:lang="fr" type="Place" resp="#yasmine">
+                <p>Bordeaux des années 1830 est la ville dont les imbrications coloniales se projettent le plus directement sur l’univers intellectuel de la Revue des Colonies. En tant que l'un des principaux ports coloniaux français à la veille de la Révolution de 1789, et le premier par la valeur de son commerce avec Saint-Domingue, Bordeaux a armé quelque 480 expéditions négrières et, à l’apogée du trafic, équipé plus de navires négriers que tout autre port français. Sa prospérité reposait presque entièrement sur le commerce avec Saint-Domingue, la colonie de plantation la plus productive du monde avant la révolution haïtienne de 1791–1804. La destruction de ce commerce avait contraint la classe marchande bordelaise à une reconversion structurelle majeure, réorientant le capital accumulé par la traite et le commerce colonial vers l’industrie du vin fin qui allait définir l’identité mondiale de la ville au XIXe siècle.</p>
+                <p>Dans les années 1830, cette transition est encore en cours. Bordeaux continue de recevoir le sucre, le café et le cacao antillais, et ses réseaux commerciaux restent profondément encastrés dans l’économie de plantation de la Martinique et de la Guadeloupe. Dans ce contexte, l’Abolition Act britannique de 1833—entré en vigueur en août 1834, le mois du premier numéro de la Revue des Colonies—est suivi avec une anxieuse attention par la classe commerciale bordelaise, dont beaucoup redoutent les conséquences économiques d’une mesure française comparable.</p>
+                <p>Dans la perspective de la Revue, Bordeaux incarne la richesse accumulée de l’économie esclavagiste coloniale et sa transformation sans rupture en respectabilité sociale métropolitaine: la ville où les profits de l’esclavage ont le plus entièrement financé  la culture marchande et le paysage même de la civilisation bourgeoise française qui entourait et marginalisait la voix abolitionniste.</p>
+                <bibl>Butel, Paul.  <emph>Histoire de la Chambre de commerce et d’industrie de Bordeaux des origines à nos jours, 1705–1985</emph> . Bordeaux : Chambre de commerce et d’industrie de Bordeaux, 1988. <p> </p></bibl>
+                <bibl>Cadé, Michel. “Bordeaux et la traite négrière au XVIIIe siècle.”  <emph>Bulletin du Centre d’histoire des espaces atlantiques</emph>  4 (1988) : 33–58. <p> </p></bibl>
+                <bibl>Piquionne, Nelly. “Les Négociants bordelais et l’esclavage au début du XIXe siècle.”  <emph>Outre-mers: Revue d’histoire </emph> 90, nos 340–341 (2003) : 51–69. <p> </p></bibl>
+                <bibl>Pouliquen, Alexis.  <title>Bordeaux et Saint-Domingue : négoce, esclavage et révolution</title>  . Bordeaux : Presses universitaires de Bordeaux, 2017. <p> </p></bibl>
+                <bibl>Tarrade, Jean.  <emph>Le Commerce colonial de la France à la fin de l’Ancien Régime : l’évolution du régime de l’exclusif de 1763 à 1789</emph> , 2 vols. Paris : Presses universitaires de France, 1972.</bibl>
             </note>
         </place>
         <place xml:id="BrB">
