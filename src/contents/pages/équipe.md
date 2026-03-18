@@ -22,12 +22,15 @@ Michaël Roy, Professeur d’histoire des États-Unis, Université Paris Cité
 Chelsea Stieber, Associate Professor of French and Francophone Studies, Catholic University
 
 #### Équipe technique
-Joyce Gao, étudiante, University of Maryland
+
 Emilie Hautemont, doctorante, Tulane University  
 Charlotte Joublot Ferré, doctorante, University of Maryland  
 Apolline Lagarde, doctorante, University of Maryland  
 Yasmine Najm, doctorante, Universität Leipzig 
 Noëlle Romney, doctorante, Université Sorbonne Nouvelle
+
+
+Joyce Gao, étudiante, University of Maryland
 Krishnan Tholkappian, étudiant, University of Maryland
 
 #### Coordinatrice des manifestations culturelles
