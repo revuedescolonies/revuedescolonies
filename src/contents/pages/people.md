@@ -29,8 +29,9 @@ Apolline Lagarde, University of Maryland
 Yasmine Najm, doctorante, Universität Leipzig  
 Noëlle Romney, Sorbonne Nouvelle University
 
-#### Programmeurs (stagiaires du MITH)
-Joyce Gao, student, University of Maryland
+#### Programmers (interns at MITH)
+
+Joyce Gao, student, University of Maryland  
 Krishnan Tholkappian, student, University of Maryland
 
 #### Cultural Events Coordinator
