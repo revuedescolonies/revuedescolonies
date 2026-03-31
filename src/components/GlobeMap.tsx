@@ -201,7 +201,7 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
         const polygons = geojson.features.filter((d: any) => d.geometry.type === "Polygon");
         const points = geojson.features.filter((d: any) => d.geometry.type === "Point");
 
-// Store initial viewBox for reset purposes
+/**  Store initial viewBox for reset purposes
 let initialViewBox = null;
 let zoomLevel = 1; // Initial zoom level
 
@@ -210,7 +210,7 @@ const captureInitialState = () => {
   const svgElement = svgRef.current;
   if (!svgElement) return;
   initialViewBox = svgElement.getAttribute('viewBox');
-};
+}; */
 
     // Add pins with keyboard accessibility
     svg.selectAll("image.point-pin")
@@ -255,14 +255,36 @@ const captureInitialState = () => {
             };
           });
 
-      setEntity({ id: d.properties.id });
+      setEntity({ id: d.properties.id, fromRelation: false });
       
       // stopping rotation of the overall globe map
       isRotationStopped = true;
       })
-      .on("keydown", (event, d) => {
+      
+      .on("focus", (_event, d: any) => {
+        // When tabbing to a pin, rotate the globe to center it at the current zoom level
+        const pinCoords = d.geometry.coordinates;
+        const currentRotation = projection.rotate();
+        const targetRotation: [number, number] = [-pinCoords[0], -pinCoords[1]];
+        const zoomLevel = 7;
+        isRotationStopped = true;
+        d3.transition()
+          .duration(1000)
+          .tween("rotate", () => {
+            const r = d3.interpolate(currentRotation, targetRotation);
+            const s = d3.interpolate(currentScale, initialScale * zoomLevel);
+            return (t) => {
+              projection.rotate(r(t)).scale(s(t));
+              svg.selectAll("path").attr("d", (d: any) => path(d));
+              svg.select(".globe").attr("r", projection.scale());
+              updatePins();
+            };
+          });
+      })
+      .on("keydown", (event, d: any) => {
         if (event.key === "Enter" || event.key === " ") {
-          setEntity({ id: d.properties.id });
+          isRotationStopped = true;
+          setEntity({ id: d.properties.id, fromRelation: false });
         }
       })
       .raise();        
@@ -331,21 +353,73 @@ const captureInitialState = () => {
             };
           });
         
-        setEntity({ id: d.properties.id });
+        setEntity({ id: d.properties.id, fromRelation: false });
         
         // stopping rotation of the overall globe map
         isRotationStopped = true;
       })
+      .on("focus", (_event, d: any) => {
+        // calculting the center of the polygon
+        const centroid = d3.polygonCentroid(d.geometry.coordinates[0]); // [x, y] — projected 2D coords
+
+        // getting current rotation state, zoom scale
+        const currentRotation = projection.rotate();
+        const currentScale = projection.scale();
+        
+        // getting the bounds of the polygon to help calculate the zoom factor
+        // depending on the size of the polygon
+        const bounds = d3.geoBounds(d)
+        // longitudinal and latitudinal span and finding max to get idea
+        // of zoom size
+        const lonSpan = Math.abs(bounds[1][0] - bounds[0][0]);
+        const latSpan = Math.abs(bounds[1][1] - bounds[0][1]);
+        const maxSpan = Math.max(lonSpan, latSpan);
+
+        // computing the zoom level based on the polygon size
+        const computeZoomLevel = (span: number) => {
+          const maxGlobeSpan = 180; // globe size
+          const baseZoom = 7;  // set up max zoom   
+          const minZoom = 1.2; // set up min zoom 
+        
+          // calculating the zoom using a formula
+          const zoom = baseZoom * (span / maxGlobeSpan) 
+          return Math.max(minZoom, zoom);
+        };
+        // setting computed zoom level
+        const zoomLevel = computeZoomLevel(maxSpan);
+
+        // setting new rotation state that places center of polygon in view
+        const targetRotation = [-centroid[0], -centroid[1]];
+        
+        // add smooth transition from current view to zoomed-in pin view
+        // duration of the transition, adding new zoomed-in rotation view,
+        // updating pin locations
+        d3.transition()
+          .duration(1000)
+          .tween("rotate", () => {
+            const r = d3.interpolate(currentRotation, targetRotation);
+            const s = d3.interpolate(currentScale, initialScale * zoomLevel);
+            return (t) => {
+              projection.rotate(r(t)).scale(s(t));
+              svg.selectAll("path").attr("d", (d: any) => path(d));
+              svg.select(".globe").attr("r", projection.scale());
+              updatePins();
+            };
+          });
+        
+        setEntity({ id: d.properties.id, fromRelation: false });
+      })
       .on("keydown", (event, d) => {
         if (event.key === "Enter" || event.key === " ") {
-          setEntity({ id: d.properties.id });
+          isRotationStopped = true;
+          setEntity({ id: d.properties.id, fromRelation: false });
         }
       }).raise(); 
   }
   };
     
     // Add zoom buttons rendering after renderPins()
-    
+    // These only work when over the ocean. They will be hidden when hovering over land. FIX
     const renderZoomButtons = () => {
       // Determine button size based on screen width
       const buttonWidth = isScreenSmall ? 70 : 40;
