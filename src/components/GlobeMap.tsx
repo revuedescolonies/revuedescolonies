@@ -255,27 +255,19 @@ const captureInitialState = () => {
             };
           });
 
-      setEntity({ id: d.properties.id });
+      setEntity({ id: d.properties.id, fromRelation: false });
       
       // stopping rotation of the overall globe map
       isRotationStopped = true;
       })
       
-      .on("keydown", (event, d) => {
-        /** This code could work... let me fix it a bit more. 
-        // identifying coordinates, current rotaton state, scale for zoom, 
-        // and zoom-in factor when a pin is clicked
-        const pinCoords = d.geometry.coordinates; // [longitude, latitude]
+      .on("focus", (_event, d: any) => {
+        // When tabbing to a pin, rotate the globe to center it at the current zoom level
+        const pinCoords = d.geometry.coordinates;
         const currentRotation = projection.rotate();
-        const currentScale = projection.scale();
-        const zoomLevel = 7; 
-
-        // move current rotation to center pin in view for the user
-        const targetRotation = [-pinCoords[0], -pinCoords[1]];
-        
-        // add smooth transition from current view to zoomed-in pin view
-        // duration of the transition, adding new zoomed-in rotation view,
-        // updating pin locations
+        const targetRotation: [number, number] = [-pinCoords[0], -pinCoords[1]];
+        const zoomLevel = 7;
+        isRotationStopped = true;
         d3.transition()
           .duration(1000)
           .tween("rotate", () => {
@@ -288,11 +280,11 @@ const captureInitialState = () => {
               updatePins();
             };
           });
-      */
-      // stopping rotation of the overall globe map
-      isRotationStopped = true;
+      })
+      .on("keydown", (event, d: any) => {
         if (event.key === "Enter" || event.key === " ") {
-          setEntity({ id: d.properties.id });
+          isRotationStopped = true;
+          setEntity({ id: d.properties.id, fromRelation: false });
         }
       })
       .raise();        
@@ -361,13 +353,12 @@ const captureInitialState = () => {
             };
           });
         
-        setEntity({ id: d.properties.id });
+        setEntity({ id: d.properties.id, fromRelation: false });
         
         // stopping rotation of the overall globe map
         isRotationStopped = true;
       })
-      .on("keydown", (event, d) => {
-        /** This code could work... let me fix it a bit more.
+      .on("focus", (_event, d: any) => {
         // calculting the center of the polygon
         const centroid = d3.polygonCentroid(d.geometry.coordinates[0]); // [x, y] — projected 2D coords
 
@@ -416,10 +407,12 @@ const captureInitialState = () => {
             };
           });
         
-        // stopping rotation of the overall globe map
-        isRotationStopped = true; */
+        setEntity({ id: d.properties.id, fromRelation: false });
+      })
+      .on("keydown", (event, d) => {
         if (event.key === "Enter" || event.key === " ") {
-          setEntity({ id: d.properties.id });
+          isRotationStopped = true;
+          setEntity({ id: d.properties.id, fromRelation: false });
         }
       }).raise(); 
   }
