@@ -227,7 +227,7 @@ const captureInitialState = () => {
       .attr("role", "button")
       .attr("tabindex", "0")
       .attr("aria-label", (d: any) => `Location: ${d.properties.id || "Unknown"}`) 
-      .on("click", (e, d) => {
+      .on("click", (_event, d: any) => {
         
         // identifying coordinates, current rotaton state, scale for zoom, 
         // and zoom-in factor when a pin is clicked
@@ -265,6 +265,7 @@ const captureInitialState = () => {
         // When tabbing to a pin, rotate the globe to center it at the current zoom level
         const pinCoords = d.geometry.coordinates;
         const currentRotation = projection.rotate();
+        const currentScale = projection.scale();
         const targetRotation: [number, number] = [-pinCoords[0], -pinCoords[1]];
         const zoomLevel = 7;
         isRotationStopped = true;
@@ -287,7 +288,7 @@ const captureInitialState = () => {
           setEntity({ id: d.properties.id, fromRelation: false });
         }
       })
-      .raise();        
+      .raise();
     // polygons
     svg.selectAll("image.polygon-pin")
       .data(polygons)
@@ -304,7 +305,7 @@ const captureInitialState = () => {
       .attr("role", "button")
       .attr("tabindex", "0")
       .attr("aria-label", (d: any) => `Location: ${d.properties.id || "Unknown"}`)
-      .on("click", (event, d) => {
+      .on("click", (_event, d: any) => {
         // calculting the center of the polygon
         const centroid = d3.polygonCentroid(d.geometry.coordinates[0]); // [x, y] — projected 2D coords
 
@@ -360,11 +361,11 @@ const captureInitialState = () => {
       })
       .on("focus", (_event, d: any) => {
         // calculting the center of the polygon
-        const centroid = d3.polygonCentroid(d.geometry.coordinates[0]); // [x, y] — projected 2D coords
-
+        const centroid = d3.polygonCentroid(d.geometry.coordinates[0]); // [x, y] — projected 2D coords8
         // getting current rotation state, zoom scale
         const currentRotation = projection.rotate();
         const currentScale = projection.scale();
+        isRotationStopped = true;
         
         // getting the bounds of the polygon to help calculate the zoom factor
         // depending on the size of the polygon
@@ -407,9 +408,8 @@ const captureInitialState = () => {
             };
           });
         
-        setEntity({ id: d.properties.id, fromRelation: false });
       })
-      .on("keydown", (event, d) => {
+      .on("keydown", (event, d: any) => {
         if (event.key === "Enter" || event.key === " ") {
           isRotationStopped = true;
           setEntity({ id: d.properties.id, fromRelation: false });
@@ -590,13 +590,15 @@ const captureInitialState = () => {
     
     
     const updatePins = () => {
+      const prevActive = document.activeElement as SVGElement | null;
+
       svg.selectAll("image.point-pin")
         .attr("transform", (d: any) => {
           const coords = projection(d.geometry.coordinates);
-          
+
           // Hide pins on the far side of the globe
           const visible = d3.geoDistance(projection.invert([width / 2, height / 2]), d.geometry.coordinates) < Math.PI / 2;
-          
+
           if (visible && coords) {
             // If visible, show the pin and place it correctly
             return `translate(${coords[0] - pinWidth / 2}, ${coords[1] - pinHeight})`;
@@ -609,10 +611,10 @@ const captureInitialState = () => {
         svg.selectAll("image.polygon-pin")
         .attr("transform", (d: any) => {
           const coords = projection(d3.polygonCentroid(d.geometry.coordinates[0]));
-          
+
           // Hide pins on the far side of the globe
           const visible = d3.geoDistance(projection.invert([width / 2, height / 2]), d3.polygonCentroid(d.geometry.coordinates[0])) < Math.PI / 2;
-          
+
           if (visible && coords) {
             // If visible, show the pin and place it correctly
             return `translate(${coords[0] - pinWidth / 2}, ${coords[1] - pinHeight})`;
@@ -621,6 +623,11 @@ const captureInitialState = () => {
             return `translate(-9999, -9999)`;
           }
         }).raise();
+
+      // .raise() moves DOM nodes, which drops keyboard focus — restore it
+      if (prevActive && prevActive !== document.activeElement) {
+        prevActive.focus({ preventScroll: true });
+      }
     };
     
     // Optional rotation function
