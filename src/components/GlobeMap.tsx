@@ -281,6 +281,7 @@ const captureInitialState = () => {
               updatePins();
             };
           });
+        setEntity({ id: d.properties.id, fromRelation: false });
       })
       .on("keydown", (event, d: any) => {
         if (event.key === "Enter" || event.key === " ") {
@@ -288,7 +289,7 @@ const captureInitialState = () => {
           setEntity({ id: d.properties.id, fromRelation: false });
         }
       })
-      .raise();
+      .raise();        
     // polygons
     svg.selectAll("image.polygon-pin")
       .data(polygons)
@@ -407,14 +408,15 @@ const captureInitialState = () => {
               updatePins();
             };
           });
-        
+
+        setEntity({ id: d.properties.id, fromRelation: false });
       })
       .on("keydown", (event, d: any) => {
         if (event.key === "Enter" || event.key === " ") {
           isRotationStopped = true;
           setEntity({ id: d.properties.id, fromRelation: false });
         }
-      }).raise(); 
+      }).raise();
   }
   };
     
@@ -589,45 +591,35 @@ const captureInitialState = () => {
     renderZoomButtons();
     
     
-    const updatePins = () => {
-      const prevActive = document.activeElement as SVGElement | null;
-
+    const updatePinPositions = () => {
       svg.selectAll("image.point-pin")
         .attr("transform", (d: any) => {
           const coords = projection(d.geometry.coordinates);
-
-          // Hide pins on the far side of the globe
           const visible = d3.geoDistance(projection.invert([width / 2, height / 2]), d.geometry.coordinates) < Math.PI / 2;
-
           if (visible && coords) {
-            // If visible, show the pin and place it correctly
             return `translate(${coords[0] - pinWidth / 2}, ${coords[1] - pinHeight})`;
           } else {
-            // Hide the pin by translating it far off-screen
             return `translate(-9999, -9999)`;
           }
-        }).raise();
+        });
 
-        svg.selectAll("image.polygon-pin")
+      svg.selectAll("image.polygon-pin")
         .attr("transform", (d: any) => {
           const coords = projection(d3.polygonCentroid(d.geometry.coordinates[0]));
-
-          // Hide pins on the far side of the globe
-          const visible = d3.geoDistance(projection.invert([width / 2, height / 2]), d3.polygonCentroid(d.geometry.coordinates[0])) < Math.PI / 2;
-
+          const center = projection.invert?.([width / 2, height / 2]);
+          const visible = center ? d3.geoDistance(center, d3.polygonCentroid(d.geometry.coordinates[0])) < Math.PI / 2 : false;
           if (visible && coords) {
-            // If visible, show the pin and place it correctly
             return `translate(${coords[0] - pinWidth / 2}, ${coords[1] - pinHeight})`;
           } else {
-            // Hide the pin by translating it far off-screen
             return `translate(-9999, -9999)`;
           }
-        }).raise();
+        });
+    };
 
-      // .raise() moves DOM nodes, which drops keyboard focus — restore it
-      if (prevActive && prevActive !== document.activeElement) {
-        prevActive.focus({ preventScroll: true });
-      }
+    const updatePins = () => {
+      updatePinPositions();
+      svg.selectAll("image.point-pin").raise();
+      svg.selectAll("image.polygon-pin").raise();
     };
     
     // Optional rotation function
