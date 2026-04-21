@@ -281,7 +281,6 @@ const captureInitialState = () => {
               updatePins();
             };
           });
-        setEntity({ id: d.properties.id, fromRelation: false });
       })
       .on("keydown", (event, d: any) => {
         if (event.key === "Enter" || event.key === " ") {
@@ -289,7 +288,7 @@ const captureInitialState = () => {
           setEntity({ id: d.properties.id, fromRelation: false });
         }
       })
-      .raise();        
+      .raise();
     // polygons
     svg.selectAll("image.polygon-pin")
       .data(polygons)
@@ -408,8 +407,6 @@ const captureInitialState = () => {
               updatePins();
             };
           });
-
-        setEntity({ id: d.properties.id, fromRelation: false });
       })
       .on("keydown", (event, d: any) => {
         if (event.key === "Enter" || event.key === " ") {
