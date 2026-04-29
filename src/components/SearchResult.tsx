@@ -1,6 +1,6 @@
 import React from "react"
 import { Box, Chip, Typography } from "@mui/material"
-import { navigate } from "gatsby"
+import { Link } from "gatsby"
 
 interface SearchResultProps {
   results: {
@@ -67,6 +67,7 @@ const SearchResult: React.FC<SearchResultProps> = ({
 
           // Join all snippets together
           const highlightedContent = snippets.join("");
+      
 
           return (
             <Box
@@ -104,22 +105,14 @@ const SearchResult: React.FC<SearchResultProps> = ({
                   size="small"
                 />
               </Box>
-              <Typography
-                fontSize={"18px"}
-                component="div"
-                sx={{
-                  fontWeight: 600,
-                  textDecoration: "underline",
-                  cursor: "pointer",
-                  marginBottom: -2.5
-                }}
-                onClick={() => {
-                  if (result.path !== `entities`) {
-                    navigate(`/${result.path}`)
-                  }
-                }}
-              >
-                {result.title}
+              <Typography component = "div" fontSize={"18px"} sx={{ marginBottom: -2.5 }}>
+                <Link
+                  to={result.path ? `/${result.path}` : "/"}
+                  style={{ fontWeight: 600, 
+                  textDecoration: "underline" }}
+                >
+                  {result.title}
+                </Link>
               </Typography>
               <Typography
                 variant="body2"

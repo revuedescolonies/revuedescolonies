@@ -192,7 +192,7 @@ export default function PageTemplate({ pageContext }: Props) {
       <Container component="main" maxWidth="md">
         <Box sx={{ display: "flex", flexDirection: "column", gap: 2, marginTop: 4 }}>
           <Box sx={{ display: "flex", justifyContent: "center" }}>
-            <SearchBar query={query} onSearch={handleSearch} />
+            <SearchBar query={query} onSearch={handleSearch} language={curLang} />
           </Box>
           <Box sx={{ display: "grid", gridTemplateColumns: "1fr 3fr", gridGap: 8 }}>
             <Box sx={{ display: "flex", flexDirection: "column" }}>
@@ -237,4 +237,3 @@ export default function PageTemplate({ pageContext }: Props) {
     </Layout>
   )
 }
-

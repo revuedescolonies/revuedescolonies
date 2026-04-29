@@ -10,6 +10,15 @@ interface FilterProps {
 }
 
 const Filter: React.FC<FilterProps> = ({ title, items, selectedItems, onItemChange, categoryTranslation }) => {
+  const handleKeyToggle = (item: string) => (event: React.KeyboardEvent<HTMLInputElement>) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault()
+      onItemChange({
+        target: { value: item },
+      } as React.ChangeEvent<HTMLInputElement>)
+    }
+  }
+
   return (
     <Box
       sx={{
@@ -45,7 +54,12 @@ const Filter: React.FC<FilterProps> = ({ title, items, selectedItems, onItemChan
             control={<Checkbox
               value={item}
               checked={selectedItems.includes(item)}
-              onChange={onItemChange} />}
+              onChange={onItemChange}
+              onKeyDown={handleKeyToggle(item)}
+              inputProps={{
+                "aria-label": categoryTranslation ? categoryTranslation[item] : item,
+              }}
+            />}
               slotProps={{
                 typography:{
                   whiteSpace: "nowrap",
