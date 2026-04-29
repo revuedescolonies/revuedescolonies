@@ -14,7 +14,7 @@ import theme from "../theme"
 import { PropTypes } from "@mui/material"
 
 interface Props {
-  children?: JSX.Element
+  children?: React.ReactNode
   label: string
   closeOnClick?: boolean
   forceLabel?: boolean

@@ -8,6 +8,7 @@ import { NoteContext, TNote, EntityContext } from "./Context"
 
 import { Colors, IColors } from '../../displayOptions'
 import { Box } from "@mui/system"
+import { focusPanelFromTrigger } from "./focusUtils"
 
 
 type TEIProps = {
@@ -32,18 +33,30 @@ const Ptr: TBehavior = (props: TEIProps) => {
   const typeColor = Colors[type as keyof IColors]
 
   if (n && target) {
+    const triggerId = `note-trigger-${id}-${n}`
+    const panelId = `note-panel-${id}`
     const noteData: TNote = {
       id,
-      n: parseInt(n)
+      n: parseInt(n),
+      triggerId
     }
 
     return (
       <Behavior node={props.teiNode} key={n}>
         <sup>
-          <Box component="button" type="button" onClick={() => {
-            setEntity(null)
-            setNote(noteData)
-          }} aria-label={`Open note ${n}`} aria-haspopup="dialog" sx={{
+          <Box
+            component="button"
+            id={triggerId}
+            type="button"
+            onClick={() => {
+              setEntity(null)
+              setNote(noteData)
+            }}
+            onKeyDown={(event) => focusPanelFromTrigger(event, panelId)}
+            aria-label={`Open note ${n}`}
+            aria-haspopup="dialog"
+            aria-controls={panelId}
+            sx={{
             color: typeColor,
             fontSize: "80%",
             cursor: "pointer",

@@ -3,12 +3,20 @@ import React from "react"
 import Container from "@mui/material/Container"
 import AppBar from "@mui/material/AppBar"
 import Toolbar from "@mui/material/Toolbar"
+import FormControl from "@mui/material/FormControl"
+import FormControlLabel from "@mui/material/FormControlLabel"
+import FormGroup from "@mui/material/FormGroup"
+import FormLabel from "@mui/material/FormLabel"
+import Radio from "@mui/material/Radio"
+import RadioGroup from "@mui/material/RadioGroup"
+import Switch from "@mui/material/Switch"
+import Typography from "@mui/material/Typography"
 import useScrollTrigger from '@mui/material/useScrollTrigger'
 
 import { navigate } from "gatsby-link"
 import DisplayOptionsMenu from "./displayOptionsMenu"
 import { DisplayContext } from "../gatsby-theme-ceteicean/components/Context"
-import { Box, Button, Divider, FormControlLabel, FormGroup, MenuItem, Switch, Typography } from "@mui/material"
+import { Box, Button, Divider, MenuItem } from "@mui/material"
 
 const styles = {
   appbarContent: {
@@ -214,7 +222,21 @@ export default function MicroedAppBar({location, toc}: Props) {
     setContextOpts(opts)
   }
 
-  const handleAnnosLangSelect = (value: string) => setDraftAnnosLang(value)
+  const handleAnnosLangSelect = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setDraftAnnosLang(event.target.value)
+  }
+
+  const handleAnnosLangKeyDown = (event: React.KeyboardEvent<HTMLDivElement>) => {
+    if (event.key !== "Enter") {
+      return
+    }
+
+    event.preventDefault()
+
+    if (draftAnnosLang !== contextOpts.annosLang) {
+      applyAnnosLang(draftAnnosLang)
+    }
+  }
 
   const handleSpelling = () => {
     const opts = Object.assign({}, contextOpts)
@@ -234,46 +256,38 @@ export default function MicroedAppBar({location, toc}: Props) {
     <DisplayOptionsMenu label={lang === "fr" ? "Options d'affichage" : "Display options"}>
       <Box sx={{padding: ".5em 1em 0 1em"}}>
         {spelling}
-        <Typography id="annos-language-label" variant="body2">Annotations</Typography>
         <Typography id="annos-language-options" component="span" sx={styles.srOnly}>
-          {lang === "fr" ? "Options: Français et English" : "Options: French and English"}
+          {lang === "fr"
+            ? "Utilisez les flèches pour changer d'option puis appuyez sur Entrée pour appliquer la langue d'annotation."
+            : "Use the arrow keys to change options, then press Enter to apply the annotation language."
+          }
         </Typography>
-        <Box
-          role="radiogroup"
-          aria-labelledby="annos-language-label"
-          aria-describedby="annos-language-options"
-          sx={{ display: "flex", gap: 1, mt: 0.5 }}
+        <FormControl component="fieldset" variant="standard" sx={{ mt: 0.5 }}
         >
-          <Button
-            role="radio"
-            size="small"
-            variant={draftAnnosLang === "fr" ? "contained" : "outlined"}
-            aria-checked={draftAnnosLang === "fr"}
-            aria-label={lang === "fr" ? "Langue d'annotation français" : "Annotation language French"}
-            onClick={() => handleAnnosLangSelect("fr")}
+          <FormLabel id="annos-language-label">
+            {lang === "fr" ? "Annotations" : "Annotations"}
+          </FormLabel>
+          <RadioGroup
+            row
+            aria-labelledby="annos-language-label"
+            aria-describedby="annos-language-options"
+            name="annotation-language-options"
+            value={draftAnnosLang}
+            onChange={handleAnnosLangSelect}
+            onKeyDown={handleAnnosLangKeyDown}
           >
-            Français
-          </Button>
-          <Button
-            role="radio"
-            size="small"
-            variant={draftAnnosLang === "en" ? "contained" : "outlined"}
-            aria-checked={draftAnnosLang === "en"}
-            aria-label={lang === "fr" ? "Langue d'annotation anglais" : "Annotation language English"}
-            onClick={() => handleAnnosLangSelect("en")}
-          >
-            English
-          </Button>
-        </Box>
-        <Button
-          size="small"
-          variant="outlined"
-          onClick={() => applyAnnosLang(draftAnnosLang)}
-          disabled={draftAnnosLang === contextOpts.annosLang}
-          sx={{ mt: 1 }}
-        >
-          {lang === "fr" ? "Appliquer" : "Apply"}
-        </Button>
+            <FormControlLabel
+              value="fr"
+              control={<Radio inputProps={{ "aria-label": lang === "fr" ? "Langue d'annotation : francais" : "Annotation language: French" }} />}
+              label="Français"
+            />
+            <FormControlLabel
+              value="en"
+              control={<Radio inputProps={{ "aria-label": lang === "fr" ? "Langue d'annotation : anglais" : "Annotation language: English" }} />}
+              label="English"
+            />
+          </RadioGroup>
+        </FormControl>
       </Box>
     </DisplayOptionsMenu>
   </>)
