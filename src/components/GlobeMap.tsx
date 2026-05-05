@@ -212,7 +212,7 @@ const captureInitialState = () => {
   initialViewBox = svgElement.getAttribute('viewBox');
 }; */
 
-    // Add pins with keyboard accessibility
+    // Add pins with keyboard accessibility -- demo code starts here
     svg.selectAll("image.point-pin")
       .data(points)
       .enter()
@@ -239,9 +239,7 @@ const captureInitialState = () => {
         // move current rotation to center pin in view for the user
         const targetRotation = [-pinCoords[0], -pinCoords[1]];
         
-        // add smooth transition from current view to zoomed-in pin view
-        // duration of the transition, adding new zoomed-in rotation view,
-        // updating pin locations
+        // add smooth transition from current view to zoomed-in pin view & updating pin locations
         d3.transition()
           .duration(1000)
           .tween("rotate", () => {
@@ -253,16 +251,15 @@ const captureInitialState = () => {
               svg.select(".globe").attr("r", projection.scale());
               updatePins();
             };
-          });
+          }); // demo code ends here
 
       setEntity({ id: d.properties.id, fromRelation: false });
       
       // stopping rotation of the overall globe map
       isRotationStopped = true;
-      })
-      
+      }) 
+
       .on("focus", (_event, d: any) => {
-        // When tabbing to a pin, rotate the globe to center it at the current zoom level
         const pinCoords = d.geometry.coordinates;
         const currentRotation = projection.rotate();
         const currentScale = projection.scale();
@@ -281,10 +278,29 @@ const captureInitialState = () => {
               updatePins();
             };
           });
+        setEntity({ id: d.properties.id, fromRelation: false });
       })
+
       .on("keydown", (event, d: any) => {
-        if (event.key === "Enter" || event.key === " ") {
+        if (event.key === "Enter") {
+          const pinCoords = d.geometry.coordinates;
+          const currentRotation = projection.rotate();
+          const currentScale = projection.scale();
+          const targetRotation: [number, number] = [-pinCoords[0], -pinCoords[1]];
+          const zoomLevel = 7;
           isRotationStopped = true;
+          d3.transition()
+            .duration(1000)
+            .tween("rotate", () => {
+              const r = d3.interpolate(currentRotation, targetRotation);
+              const s = d3.interpolate(currentScale, initialScale * zoomLevel);
+              return (t) => {
+                projection.rotate(r(t)).scale(s(t));
+                svg.selectAll("path").attr("d", (d: any) => path(d));
+                svg.select(".globe").attr("r", projection.scale());
+                updatePins();
+              };
+            });
           setEntity({ id: d.properties.id, fromRelation: false });
         }
       })
@@ -359,42 +375,19 @@ const captureInitialState = () => {
         // stopping rotation of the overall globe map
         isRotationStopped = true;
       })
+
       .on("focus", (_event, d: any) => {
-        // calculting the center of the polygon
-        const centroid = d3.polygonCentroid(d.geometry.coordinates[0]); // [x, y] — projected 2D coords8
-        // getting current rotation state, zoom scale
+        const centroid = d3.polygonCentroid(d.geometry.coordinates[0]);
         const currentRotation = projection.rotate();
         const currentScale = projection.scale();
+        const bounds = d3.geoBounds(d);
+        const maxSpan = Math.max(
+          Math.abs(bounds[1][0] - bounds[0][0]),
+          Math.abs(bounds[1][1] - bounds[0][1])
+        );
+        const zoomLevel = Math.max(1.2, 7 * (maxSpan / 180));
+        const targetRotation: [number, number] = [-centroid[0], -centroid[1]];
         isRotationStopped = true;
-        
-        // getting the bounds of the polygon to help calculate the zoom factor
-        // depending on the size of the polygon
-        const bounds = d3.geoBounds(d)
-        // longitudinal and latitudinal span and finding max to get idea
-        // of zoom size
-        const lonSpan = Math.abs(bounds[1][0] - bounds[0][0]);
-        const latSpan = Math.abs(bounds[1][1] - bounds[0][1]);
-        const maxSpan = Math.max(lonSpan, latSpan);
-
-        // computing the zoom level based on the polygon size
-        const computeZoomLevel = (span: number) => {
-          const maxGlobeSpan = 180; // globe size
-          const baseZoom = 7;  // set up max zoom   
-          const minZoom = 1.2; // set up min zoom 
-        
-          // calculating the zoom using a formula
-          const zoom = baseZoom * (span / maxGlobeSpan) 
-          return Math.max(minZoom, zoom);
-        };
-        // setting computed zoom level
-        const zoomLevel = computeZoomLevel(maxSpan);
-
-        // setting new rotation state that places center of polygon in view
-        const targetRotation = [-centroid[0], -centroid[1]];
-        
-        // add smooth transition from current view to zoomed-in pin view
-        // duration of the transition, adding new zoomed-in rotation view,
-        // updating pin locations
         d3.transition()
           .duration(1000)
           .tween("rotate", () => {
@@ -407,10 +400,37 @@ const captureInitialState = () => {
               updatePins();
             };
           });
+        setEntity({ id: d.properties.id, fromRelation: false });
       })
+
       .on("keydown", (event, d: any) => {
-        if (event.key === "Enter" || event.key === " ") {
+        if (event.key === "Enter") {
+          const centroid = d3.polygonCentroid(d.geometry.coordinates[0]);
+          const currentRotation = projection.rotate();
+          const currentScale = projection.scale();
+          const bounds = d3.geoBounds(d);
+          const lonSpan = Math.abs(bounds[1][0] - bounds[0][0]);
+          const latSpan = Math.abs(bounds[1][1] - bounds[0][1]);
+          const maxSpan = Math.max(lonSpan, latSpan);
+          const computeZoomLevel = (span: number) => {
+            const zoom = 7 * (span / 180);
+            return Math.max(1.2, zoom);
+          };
+          const zoomLevel = computeZoomLevel(maxSpan);
+          const targetRotation = [-centroid[0], -centroid[1]];
           isRotationStopped = true;
+          d3.transition()
+            .duration(1000)
+            .tween("rotate", () => {
+              const r = d3.interpolate(currentRotation, targetRotation);
+              const s = d3.interpolate(currentScale, initialScale * zoomLevel);
+              return (t) => {
+                projection.rotate(r(t)).scale(s(t));
+                svg.selectAll("path").attr("d", (d: any) => path(d));
+                svg.select(".globe").attr("r", projection.scale());
+                updatePins();
+              };
+            });
           setEntity({ id: d.properties.id, fromRelation: false });
         }
       }).raise();
@@ -684,13 +704,13 @@ const captureInitialState = () => {
       return el.parentElement?.getAttribute("type") === "periodical" ? <Title {...props}/>
       : <SafeUnchangedNode {...props}/>
     },
-    // "tei-note": (props) => {
-    //   const el = props.teiNode as Element
-    //   if (el.getAttribute("xml:lang") === language) {
-    //     return <SafeUnchangedNode {...props}/>
-    //   }
-    //   return null
-    // },
+     "tei-note": (props) => {
+      const el = props.teiNode as Element
+     if (el.getAttribute("xml:lang") === language) {
+         return <SafeUnchangedNode {...props}/>
+      }
+       return null
+     },
     "tei-place": (props) => <EntitySimple isSynoptic={false} entityType={"tei-placeName"} {...props} />,
   }
 
