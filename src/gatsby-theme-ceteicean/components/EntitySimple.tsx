@@ -22,8 +22,8 @@ import CardContent from "@mui/material/CardContent"
 import TranslateIcon from '@mui/icons-material/Translate';
 import Button from "@mui/material/Button"
 import Chip from "@mui/material/Chip"
-import { SafeUnchangedNode } from "gatsby-theme-ceteicean/src/components/DefaultBehaviors"
 import { Box } from "@mui/material"
+import { focusElementById, focusNextAfterTrigger } from "./focusUtils"
 
 type TEIProps = {
   teiNode: Node,
@@ -71,13 +71,20 @@ const EntitySimple: EntityBehavior = (props: TEIProps) => {
   if (entity) {
     if (entity.id === entityId) {
       let content: JSX.Element | undefined = undefined
-      const closeNote = (<IconButton aria-label="close person info" onClick={() => setEntity(null)}>
+      const handleClose = () => {
+        setEntity(null)
+        window.requestAnimationFrame(() => focusElementById(entity.triggerId))
+      }
+      const closeNote = (<IconButton aria-label="close person info" onClick={handleClose}>
         <CloseIcon />
       </IconButton>)
 
       const entityContent = el.querySelector(`tei-note[lang=${cardLang}]`)
 
       if (!entityContent) return null;
+      const panelId = `entity-panel-${entity.id}`
+      const panelTitleId = `${panelId}-title`
+      const panelDescriptionId = `${panelId}-description`
        
       const resp = entityContent.getAttribute("resp")
       let author: JSX.Element | undefined = undefined 
@@ -93,26 +100,27 @@ const EntitySimple: EntityBehavior = (props: TEIProps) => {
       if (isScreenSmall || props.isSynoptic) {
         content = (
           <Dialog
+            id={panelId}
             open={entity.hasOwnProperty('id')}
             scroll="body"
             TransitionComponent={Transition}
             keepMounted
-            onClose={() => setEntity(null)}
-            aria-labelledby="alert-dialog-slide-title"
-            aria-describedby="alert-dialog-slide-description"
+            onClose={handleClose}
+            aria-labelledby={panelTitleId}
+            aria-describedby={panelDescriptionId}
           >
-            <DialogTitle id="alert-dialog-slide-title" sx={{display: "flex",
+            <DialogTitle id={panelTitleId} sx={{display: "flex",
       justifyContent: "space-between",
       alignItems: "center"}}>
               <Typography variant="h6">{title}
                 {chip}
               </Typography>              
-              <IconButton aria-label="close person info" onClick={() => setEntity(null)}>
+              <IconButton aria-label="close person info" onClick={handleClose}>
                 <CloseIcon />
               </IconButton>
             </DialogTitle>
             <DialogContent>
-              <DialogContentText component="div" id="alert-dialog-slide-description">
+              <DialogContentText component="div" id={panelDescriptionId}>
               <Button size="small" onClick={() => {setCardLang(cardLang === 'en' ? 'fr' : 'en')}}>{makeLangLabel()}</Button>
                 <TEINodes 
                   teiNodes={[entityContent]}
@@ -128,17 +136,45 @@ const EntitySimple: EntityBehavior = (props: TEIProps) => {
             maxWidth: "300px",
             position: "absolute",
             marginLeft: "1.5rem"
-            }}>
+            }}
+            id={panelId}
+            role="region"
+            tabIndex={0}
+            aria-labelledby={panelTitleId}
+            aria-describedby={panelDescriptionId}
+            onKeyDown={(event) => {
+              if (event.key === "Tab" && event.shiftKey && event.currentTarget === event.target) {
+                event.preventDefault()
+                focusElementById(entity.triggerId)
+              }
+            }}
+          >
             <CardHeader
               action={closeNote}
-              title={<>{title}{chip}</>}
+              title={<span id={panelTitleId}>{title}{chip}</span>}
             />
-            <CardContent>
+            <CardContent id={panelDescriptionId}>
               <Button size="small" onClick={() => {setCardLang(cardLang === 'en' ? 'fr' : 'en')}}>{makeLangLabel()}</Button>
               <TEINodes 
                 teiNodes={[entityContent]}
                 {...props}/>
               {author}
+              <span
+                tabIndex={0}
+                aria-label="Continue reading"
+                onFocus={() => focusNextAfterTrigger(entity.triggerId)}
+                style={{
+                  position: "absolute",
+                  width: 1,
+                  height: 1,
+                  padding: 0,
+                  margin: -1,
+                  overflow: "hidden",
+                  clip: "rect(0 0 0 0)",
+                  whiteSpace: "nowrap",
+                  border: 0,
+                }}
+              />
             </CardContent>
           </Card>
         )

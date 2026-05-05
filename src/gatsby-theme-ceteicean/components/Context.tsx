@@ -15,6 +15,7 @@ export const DisplayContext = React.createContext<ContextType>({
 export type TNote = {
   id: string
   n: number
+  triggerId?: string
 }
 
 type NoteContextType = {
@@ -29,6 +30,7 @@ export const NoteContext = React.createContext<NoteContextType>({
 
 export type TEntity = {
   id: string
+  triggerId?: string
   position?: {
     top: number
     left: number 

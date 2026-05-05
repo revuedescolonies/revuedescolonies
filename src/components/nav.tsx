@@ -3,14 +3,16 @@ import { navigate } from "gatsby"
 import Grid from "@mui/material/Grid"
 import Container from "@mui/material/Container"
 import Button from "@mui/material/Button"
+import FormControl from "@mui/material/FormControl"
+import FormControlLabel from "@mui/material/FormControlLabel"
+import FormLabel from "@mui/material/FormLabel"
+import Radio from "@mui/material/Radio"
+import RadioGroup from "@mui/material/RadioGroup"
+import Typography from "@mui/material/Typography"
 import DisplayOptionsMenu from "./displayOptionsMenu"
 
 import theme from "../theme"
-import useMediaQuery from "@mui/material/useMediaQuery"
 import Box from "@mui/material/Box"
-import RadioGroup from "@mui/material/RadioGroup"
-import FormControlLabel from "@mui/material/FormControlLabel"
-import Radio from "@mui/material/Radio"
 import type {Link} from './header'
 
 interface Props {
@@ -37,6 +39,16 @@ const styles = {
       borderBottomColor: theme.palette.primary.main,
     },
   },
+  srOnly: {
+    border: 0,
+    clip: "rect(0 0 0 0)",
+    height: 1,
+    margin: -1,
+    overflow: "hidden",
+    padding: 0,
+    position: "absolute",
+    width: 1
+  }
 }
 
 const Nav = ({ location, menuLinks }: Props) => {
@@ -48,12 +60,15 @@ const Nav = ({ location, menuLinks }: Props) => {
    curLang = location.substring(1, 3) as Lang
   }
 
-  const isScreenSmall = useMediaQuery(theme.breakpoints.down('md'))
+  const [draftLang, setDraftLang] = React.useState<Lang>(curLang)
 
-  const handleTextLangChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const chosenLang = event.target.value as Lang
+  React.useEffect(() => {
+    setDraftLang(curLang)
+  }, [curLang])
+
+  const applyTextLangChange = (chosenLang: Lang) => {
     if (isEdition) {
-      const dest = loc.replace(/\w{2}$/, event.target.value)
+      const dest = loc.replace(/\w{2}$/, chosenLang)
       navigate(`/${dest}`)
     } else if (isNews) {
       // Special case to go from any post to the news toc in the other lang
@@ -67,14 +82,58 @@ const Nav = ({ location, menuLinks }: Props) => {
       }
     }
   }
+
+  const handleTextLangSelect = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setDraftLang(event.target.value as Lang)
+  }
+
+  const handleTextLangKeyDown = (event: React.KeyboardEvent<HTMLDivElement>) => {
+    if (event.key !== "Enter") {
+      return
+    }
+
+    event.preventDefault()
+
+    if (draftLang !== curLang) {
+      applyTextLangChange(draftLang)
+    }
+  }
+
   const options = (<>
     <Box sx={{flex: '1 1 auto'}}/>
     <DisplayOptionsMenu label={`${curLang === "fr" ? "Langues" : "Language"} (${curLang})`} color="default">
-      <Box sx={{padding: ".5em 1em 0 1em"}}> 
-        <RadioGroup row name="textLang" value={curLang} onChange={handleTextLangChange}>
-          <FormControlLabel value="fr" control={<Radio />} label="Français" />
-          <FormControlLabel value="en" control={<Radio />} label="English" />
-        </RadioGroup>
+      <Box sx={{padding: ".5em 1em 0 1em"}}>
+        <Typography id="site-language-label" component="span" sx={styles.srOnly}>
+          {curLang === "fr" ? "Langue du site" : "Site language"}
+        </Typography>
+        <Typography id="site-language-help" component="span" sx={styles.srOnly}>
+          {curLang === "fr"
+            ? "Utilisez les flèches pour choisir une langue puis appuyez sur Entrée pour changer de langue."
+            : "Use the arrow keys to choose a language, then press Enter to change the language."
+          }
+        </Typography>
+        <FormControl component="fieldset" variant="standard">
+          <RadioGroup
+            row
+            aria-labelledby="site-language-label"
+            aria-describedby="site-language-help"
+            name="textLang"
+            value={draftLang}
+            onChange={handleTextLangSelect}
+            onKeyDown={handleTextLangKeyDown}
+          >
+            <FormControlLabel
+              value="fr"
+              control={<Radio inputProps={{ "aria-label": curLang === "fr" ? "Langue du site : francais" : "Site language: French" }} />}
+              label="Français"
+            />
+            <FormControlLabel
+              value="en"
+              control={<Radio inputProps={{ "aria-label": curLang === "fr" ? "Langue du site : anglais" : "Site language: English" }} />}
+              label="English"
+            />
+          </RadioGroup>
+        </FormControl>
       </Box>
     </DisplayOptionsMenu>
   </>)

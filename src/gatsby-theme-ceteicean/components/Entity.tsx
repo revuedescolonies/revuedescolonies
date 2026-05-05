@@ -14,10 +14,12 @@ import Typography from "@mui/material/Typography"
 import DialogContent from "@mui/material/DialogContent"
 import DialogContentText from "@mui/material/DialogContentText"
 import Button from "@mui/material/Button"
+import ButtonBase from "@mui/material/ButtonBase"
 import Chip from "@mui/material/Chip"
 import { SafeUnchangedNode } from "gatsby-theme-ceteicean/src/components/DefaultBehaviors"
 import { Box, Card, CardContent, CardHeader } from "@mui/material"
 import TranslateIcon from '@mui/icons-material/Translate'
+import { focusElementById, focusNextAfterTrigger } from "./focusUtils"
 
 /*************
  * 
@@ -56,10 +58,8 @@ const Entity: EntityBehavior = (props: TEIProps) => {
   const [cardLang, setCardLang] = useState(contextOpts.annosLang)
   const [boxOpen, setBoxOpen] = useState(false)
   const [dialogOpen, setDialogOpen] = useState(false)
-  const [tabIndex, setTabIndex] = useState(10)
 
-  const boxRef = useRef<HTMLDivElement>(null)
-  const closeButtonRef = useRef(null)
+  const boxRef = useRef<HTMLButtonElement>(null)
   const [boxDimensions, setBoxDimensions] = useState({ width: 0, height: 0 })
   const isScreenSmall = useMediaQuery(theme.breakpoints.down('lg'))
 
@@ -141,39 +141,30 @@ const Entity: EntityBehavior = (props: TEIProps) => {
 
   const handleDialogClose = () => {
     setDialogOpen(false)
-
+    window.requestAnimationFrame(() => focusElementById(entity?.triggerId))
   }
 
-  const handleBoxClose = () => setBoxOpen(false)
+  const handleBoxClose = () => {
+    setBoxOpen(false)
+    window.requestAnimationFrame(() => focusElementById(entity?.triggerId))
+  }
 
   const handleRelatedClick = (newEntityID: string) => {
     setEntity({
       id: newEntityID,
+      triggerId: entity?.triggerId,
       position: entity?.position,
       fromRelation: true
     })
   }
 
-  const handleKeyDown = (e: React.KeyboardEvent, action: Function) => {
-    if (e.key === 'Enter') {
-      action()
-    }
-    if(e.key === 'Tab'){
-      if(document.activeElement === closeButtonRef.current){
-        boxRef.current?.focus()
-      }
-    }
-  }
-  
-
   if (entity && entity.id === entityId) {
     const entityContent = el.querySelector(`tei-note[lang=${cardLang}]`)
     if (!entityContent) return null
+    const panelId = `entity-panel-${entity.id}`
+    const panelTitleId = `${panelId}-title`
+    const panelDescriptionId = `${panelId}-description`
     let content: JSX.Element | undefined = undefined
-    const closeNote = (<IconButton aria-label="close person info" onClick={() => handleDialogClose}>
-        <CloseIcon />
-      </IconButton>)
-
     const resp = entityContent?.getAttribute("resp")
     const authors = resp?.split(" ") || []
     const authorsData = authors.reduce<string[]>((acc, a) => {
@@ -195,12 +186,9 @@ const Entity: EntityBehavior = (props: TEIProps) => {
           {boxOpen && (
             <>
               <Box
+                component={ButtonBase}
                 ref={boxRef}
                 onClick={handleBoxClick}
-                onKeyDown={(e) => handleKeyDown(e, () => {
-                  setDialogOpen(true)
-                  setBoxOpen(false)
-                })}
                 sx={{
                   position: 'absolute',
                   top: entity.position?.bottom,
@@ -215,17 +203,13 @@ const Entity: EntityBehavior = (props: TEIProps) => {
                     cursor: 'pointer'
                   },
                 }}
-                tabIndex={9}
               >
                 {title}
               </Box>
               <IconButton
-                ref={closeButtonRef}
                 onClick={handleBoxClose}
-                onKeyDown={(e) => handleKeyDown(e, handleBoxClose)}
                 sx={{ position: 'absolute', top: (entity.position?.top || 0) - boxDimensions.height / 2, left: (entity.position?.left || 0) + boxDimensions.width / 2 - 15, color: "white", backgroundColor: "#0C3769" }}
                 size="small"
-                tabIndex={10 + relatedIDs.length}
               >
                 <CloseIcon/>
               </IconButton>
@@ -267,8 +251,8 @@ const Entity: EntityBehavior = (props: TEIProps) => {
                       />
                     )}
                     <Box
+                      component={ButtonBase}
                       onClick={() => handleRelatedClick(relatedIDs[index])}
-                      onKeyDown={(e) => handleKeyDown(e, () => handleRelatedClick(relatedIDs[index]))}
                       sx={{
                         position: 'absolute',
                         top: relatedTitleY,
@@ -292,7 +276,6 @@ const Entity: EntityBehavior = (props: TEIProps) => {
                         overflow: 'hidden',
                         textOverflow: 'ellipsis',
                       }}
-                      tabIndex={tabIndex + 1}
                     >
                       {relatedTitle}
                     </Box>
@@ -304,22 +287,23 @@ const Entity: EntityBehavior = (props: TEIProps) => {
             </>
           )}
         </><Dialog
+          id={panelId}
           open={dialogOpen}
           scroll="body"
           TransitionComponent={Transition}
           keepMounted
           onClose={handleDialogClose}
-          aria-labelledby="alert-dialog-slide-title"
-          aria-describedby="alert-dialog-slide-description"
+          aria-labelledby={panelTitleId}
+          aria-describedby={panelDescriptionId}
         >
-            <DialogTitle id="alert-dialog-slide-title" sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+            <DialogTitle id={panelTitleId} sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
               <Typography variant="h6">{title}{chip}</Typography>
-              <IconButton aria-label="close dialog" onClick={handleDialogClose} onKeyDown={(e) => handleKeyDown(e, handleBoxClose)}>
+              <IconButton aria-label="close dialog" onClick={handleDialogClose}>
                 <CloseIcon />
               </IconButton>
             </DialogTitle>
             <DialogContent>
-              <DialogContentText component="div" id="alert-dialog-slide-description">
+              <DialogContentText component="div" id={panelDescriptionId}>
                 <Button size="small" onClick={() => setCardLang(cardLang === 'en' ? 'fr' : 'en')}>{makeLangLabel()}</Button>
                 <TEINodes teiNodes={[entityContent]} {...props} />
                 {author}
@@ -334,12 +318,9 @@ const Entity: EntityBehavior = (props: TEIProps) => {
           {boxOpen && (
             <>
               <Box
+                component={ButtonBase}
                 ref={boxRef}
                 onClick={handleBoxClick}
-                onKeyDown={(e) => handleKeyDown(e, () => {
-                  setDialogOpen(true)
-                  setBoxOpen(false)
-                })}
                 sx={{
                   position: 'absolute',
                   top: entity.position?.bottom,
@@ -354,17 +335,13 @@ const Entity: EntityBehavior = (props: TEIProps) => {
                     cursor: 'pointer'
                   },
                 }}
-                tabIndex={100 }
               >
                 {title}
               </Box>
               <IconButton
-                ref={closeButtonRef}
                 onClick={handleBoxClose}
-                onKeyDown={(e) => handleKeyDown(e, handleBoxClose)}
                 sx={{ position: 'absolute', top: (entity.position?.top || 0) - boxDimensions.height / 2, left: (entity.position?.left || 0) + boxDimensions.width / 2 - 15, color: "white", backgroundColor: "#0C3769" }}
                 size="small"
-                tabIndex={10+relatedIDs.length}
               >
                 <CloseIcon />
               </IconButton>
@@ -379,9 +356,9 @@ const Entity: EntityBehavior = (props: TEIProps) => {
                 return (
                   <>
                     <Box
+                      component={ButtonBase}
                       key={index}
                       onClick={() => handleRelatedClick(relatedIDs[index])}
-                      onKeyDown={(e) => handleKeyDown(e, () => handleRelatedClick(relatedIDs[index]))}
                       sx={{
                         position: 'absolute',
                         top: relatedTitleY,
@@ -405,7 +382,6 @@ const Entity: EntityBehavior = (props: TEIProps) => {
                         overflow: 'hidden',
                         textOverflow: 'ellipsis',
                       }}
-                      tabIndex={tabIndex+1}
                     >
                       {relatedTitle}
                     </Box>
@@ -426,21 +402,48 @@ const Entity: EntityBehavior = (props: TEIProps) => {
               position: "absolute",
               marginLeft: "1.5rem"
             }}
+            id={panelId}
+            role="region"
+            tabIndex={0}
+            aria-labelledby={panelTitleId}
+            aria-describedby={panelDescriptionId}
+            onKeyDown={(event) => {
+              if (event.key === "Tab" && event.shiftKey && event.currentTarget === event.target) {
+                event.preventDefault()
+                focusElementById(entity.triggerId)
+              }
+            }}
           >
             <CardHeader
-              title={title}
+              title={<span id={panelTitleId}>{title}</span>}
               action={
                 <IconButton onClick={handleDialogClose}>
                   <CloseIcon />
                 </IconButton>
               }
             />
-            <CardContent>
+            <CardContent id={panelDescriptionId}>
               <Button size="small" onClick={() => {setCardLang(cardLang === 'en' ? 'fr' : 'en')}}>{makeLangLabel()}</Button>
               <TEINodes 
                 teiNodes={[entityContent]}
                 {...props}/>
               {author}
+              <span
+                tabIndex={0}
+                aria-label="Continue reading"
+                onFocus={() => focusNextAfterTrigger(entity.triggerId)}
+                style={{
+                  position: "absolute",
+                  width: 1,
+                  height: 1,
+                  padding: 0,
+                  margin: -1,
+                  overflow: "hidden",
+                  clip: "rect(0 0 0 0)",
+                  whiteSpace: "nowrap",
+                  border: 0,
+                }}
+              />
             </CardContent>
           </Card>
         )}

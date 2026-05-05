@@ -4,14 +4,17 @@ import { TextField, Box } from "@mui/material"
 interface SearchBarProps {
   query: string
   onSearch: (event: React.ChangeEvent<HTMLInputElement>) => void
+  language: Lang
 }
 
-const SearchBar: React.FC<SearchBarProps> = ({ query, onSearch }) => {
+const SearchBar: React.FC<SearchBarProps> = ({ query, onSearch, language }) => {
+  const placeholder = language === "fr" ? "Rechercher..." : "Search..."
+
   return (
     <Box sx={{ width: "100%" }}>
       <TextField
         variant="outlined"
-        placeholder="Search..."
+        placeholder={placeholder}
         value={query}
         onChange={onSearch}
         fullWidth
