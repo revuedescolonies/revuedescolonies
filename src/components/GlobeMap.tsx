@@ -201,7 +201,7 @@ const GlobeMap: React.FC<GlobeMapProps> = ({ geojson, elements, prefixed, langua
         const polygons = geojson.features.filter((d: any) => d.geometry.type === "Polygon");
         const points = geojson.features.filter((d: any) => d.geometry.type === "Point");
 
-// Store initial viewBox for reset purposes
+/**  Store initial viewBox for reset purposes
 let initialViewBox = null;
 let zoomLevel = 1; // Initial zoom level
 
@@ -210,9 +210,9 @@ const captureInitialState = () => {
   const svgElement = svgRef.current;
   if (!svgElement) return;
   initialViewBox = svgElement.getAttribute('viewBox');
-};
+}; */
 
-    // Add pins with keyboard accessibility
+    // Add pins with keyboard accessibility -- demo code starts here
     svg.selectAll("image.point-pin")
       .data(points)
       .enter()
@@ -227,7 +227,7 @@ const captureInitialState = () => {
       .attr("role", "button")
       .attr("tabindex", "0")
       .attr("aria-label", (d: any) => `Location: ${d.properties.id || "Unknown"}`) 
-      .on("click", (e, d) => {
+      .on("click", (_event, d: any) => {
         
         // identifying coordinates, current rotaton state, scale for zoom, 
         // and zoom-in factor when a pin is clicked
@@ -239,9 +239,33 @@ const captureInitialState = () => {
         // move current rotation to center pin in view for the user
         const targetRotation = [-pinCoords[0], -pinCoords[1]];
         
-        // add smooth transition from current view to zoomed-in pin view
-        // duration of the transition, adding new zoomed-in rotation view,
-        // updating pin locations
+        // add smooth transition from current view to zoomed-in pin view & updating pin locations
+        d3.transition()
+          .duration(1000)
+          .tween("rotate", () => {
+            const r = d3.interpolate(currentRotation, targetRotation);
+            const s = d3.interpolate(currentScale, initialScale * zoomLevel);
+            return (t) => {
+              projection.rotate(r(t)).scale(s(t));
+              svg.selectAll("path").attr("d", (d: any) => path(d));
+              svg.select(".globe").attr("r", projection.scale());
+              updatePins();
+            };
+          }); // demo code ends here
+
+      setEntity({ id: d.properties.id, fromRelation: false });
+      
+      // stopping rotation of the overall globe map
+      isRotationStopped = true;
+      }) 
+
+      .on("focus", (_event, d: any) => {
+        const pinCoords = d.geometry.coordinates;
+        const currentRotation = projection.rotate();
+        const currentScale = projection.scale();
+        const targetRotation: [number, number] = [-pinCoords[0], -pinCoords[1]];
+        const zoomLevel = 7;
+        isRotationStopped = true;
         d3.transition()
           .duration(1000)
           .tween("rotate", () => {
@@ -254,18 +278,33 @@ const captureInitialState = () => {
               updatePins();
             };
           });
-
-      setEntity({ id: d.properties.id });
-      
-      // stopping rotation of the overall globe map
-      isRotationStopped = true;
+        setEntity({ id: d.properties.id, fromRelation: false });
       })
-      .on("keydown", (event, d) => {
-        if (event.key === "Enter" || event.key === " ") {
-          setEntity({ id: d.properties.id });
+
+      .on("keydown", (event, d: any) => {
+        if (event.key === "Enter") {
+          const pinCoords = d.geometry.coordinates;
+          const currentRotation = projection.rotate();
+          const currentScale = projection.scale();
+          const targetRotation: [number, number] = [-pinCoords[0], -pinCoords[1]];
+          const zoomLevel = 7;
+          isRotationStopped = true;
+          d3.transition()
+            .duration(1000)
+            .tween("rotate", () => {
+              const r = d3.interpolate(currentRotation, targetRotation);
+              const s = d3.interpolate(currentScale, initialScale * zoomLevel);
+              return (t) => {
+                projection.rotate(r(t)).scale(s(t));
+                svg.selectAll("path").attr("d", (d: any) => path(d));
+                svg.select(".globe").attr("r", projection.scale());
+                updatePins();
+              };
+            });
+          setEntity({ id: d.properties.id, fromRelation: false });
         }
       })
-      .raise();        
+      .raise();
     // polygons
     svg.selectAll("image.polygon-pin")
       .data(polygons)
@@ -282,7 +321,7 @@ const captureInitialState = () => {
       .attr("role", "button")
       .attr("tabindex", "0")
       .attr("aria-label", (d: any) => `Location: ${d.properties.id || "Unknown"}`)
-      .on("click", (event, d) => {
+      .on("click", (_event, d: any) => {
         // calculting the center of the polygon
         const centroid = d3.polygonCentroid(d.geometry.coordinates[0]); // [x, y] — projected 2D coords
 
@@ -331,21 +370,75 @@ const captureInitialState = () => {
             };
           });
         
-        setEntity({ id: d.properties.id });
+        setEntity({ id: d.properties.id, fromRelation: false });
         
         // stopping rotation of the overall globe map
         isRotationStopped = true;
       })
-      .on("keydown", (event, d) => {
-        if (event.key === "Enter" || event.key === " ") {
-          setEntity({ id: d.properties.id });
+
+      .on("focus", (_event, d: any) => {
+        const centroid = d3.polygonCentroid(d.geometry.coordinates[0]);
+        const currentRotation = projection.rotate();
+        const currentScale = projection.scale();
+        const bounds = d3.geoBounds(d);
+        const maxSpan = Math.max(
+          Math.abs(bounds[1][0] - bounds[0][0]),
+          Math.abs(bounds[1][1] - bounds[0][1])
+        );
+        const zoomLevel = Math.max(1.2, 7 * (maxSpan / 180));
+        const targetRotation: [number, number] = [-centroid[0], -centroid[1]];
+        isRotationStopped = true;
+        d3.transition()
+          .duration(1000)
+          .tween("rotate", () => {
+            const r = d3.interpolate(currentRotation, targetRotation);
+            const s = d3.interpolate(currentScale, initialScale * zoomLevel);
+            return (t) => {
+              projection.rotate(r(t)).scale(s(t));
+              svg.selectAll("path").attr("d", (d: any) => path(d));
+              svg.select(".globe").attr("r", projection.scale());
+              updatePins();
+            };
+          });
+        setEntity({ id: d.properties.id, fromRelation: false });
+      })
+
+      .on("keydown", (event, d: any) => {
+        if (event.key === "Enter") {
+          const centroid = d3.polygonCentroid(d.geometry.coordinates[0]);
+          const currentRotation = projection.rotate();
+          const currentScale = projection.scale();
+          const bounds = d3.geoBounds(d);
+          const lonSpan = Math.abs(bounds[1][0] - bounds[0][0]);
+          const latSpan = Math.abs(bounds[1][1] - bounds[0][1]);
+          const maxSpan = Math.max(lonSpan, latSpan);
+          const computeZoomLevel = (span: number) => {
+            const zoom = 7 * (span / 180);
+            return Math.max(1.2, zoom);
+          };
+          const zoomLevel = computeZoomLevel(maxSpan);
+          const targetRotation = [-centroid[0], -centroid[1]];
+          isRotationStopped = true;
+          d3.transition()
+            .duration(1000)
+            .tween("rotate", () => {
+              const r = d3.interpolate(currentRotation, targetRotation);
+              const s = d3.interpolate(currentScale, initialScale * zoomLevel);
+              return (t) => {
+                projection.rotate(r(t)).scale(s(t));
+                svg.selectAll("path").attr("d", (d: any) => path(d));
+                svg.select(".globe").attr("r", projection.scale());
+                updatePins();
+              };
+            });
+          setEntity({ id: d.properties.id, fromRelation: false });
         }
-      }).raise(); 
+      }).raise();
   }
   };
     
     // Add zoom buttons rendering after renderPins()
-    
+    // These only work when over the ocean. They will be hidden when hovering over land. FIX
     const renderZoomButtons = () => {
       // Determine button size based on screen width
       const buttonWidth = isScreenSmall ? 70 : 40;
@@ -361,6 +454,10 @@ const captureInitialState = () => {
         .attr("height", buttonHeight)
         .attr("rx", 10)
         .attr("ry", 10).raise()
+        .attr("role", "button")
+        .attr("tabindex", "0")
+        // Translatable aria-label for accessibility
+        .attr("aria-label", language === "fr" ? "Réinitialiser la vue" : "Reset view")
         .on("click", () => {
           // Reset rotation and scale
           projection.rotate([30, -30])
@@ -377,7 +474,25 @@ const captureInitialState = () => {
           // Raise buttons to keep them clickable
           svg.selectAll(".zoom-button").raise();
           svg.selectAll(".zoom-button-text").raise();
-        }).raise();
+        })
+        // Keyboard accessibility for reset button
+        .on("keydown", (event:any) => {
+          if (event.key === "Enter" || event.key === " ") {
+            // Reset rotation and scale
+            projection.rotate([30, -30])
+              .scale(initialScale);
+            
+            // Update all elements
+            svg.selectAll("path").attr("d", (d: any) => path(d));
+            svg.select(".globe").attr("r", initialScale);
+            updatePins();
+            
+            // Resume rotation
+            isRotationStopped = false;
+            
+            // Raise buttons to keep them clickable
+            svg.selectAll(".zoom-button")
+          }}).raise();
     
       // Reset icon (↻)
       svg.append("text")
@@ -386,6 +501,7 @@ const captureInitialState = () => {
         .attr("y", height - 3 * buttonHeight - 3 * margin + buttonHeight/2 + (isScreenSmall ? 12 : 7))
         .attr("text-anchor", "middle")
         .attr("font-size", isScreenSmall ? "24px" : "16px")
+        .attr("aria-hidden", "true")
         .text("↻").raise();
     
       // Zoom In Button
@@ -397,6 +513,10 @@ const captureInitialState = () => {
         .attr("height", buttonHeight)
         .attr("rx", 10)
         .attr("ry", 10)
+        .attr("role", "button") 
+        .attr("tabindex", "0")
+        // Translatable aria-label for accessibility
+        .attr("aria-label", language === "fr" ? "Zoomer avant" : "Zoom in")
         .on("click", (e) => {
           const currentScale = projection.scale();
           const newScale = Math.min(currentScale * 1.2, width);
@@ -407,6 +527,20 @@ const captureInitialState = () => {
           updatePins();
           svg.selectAll(".zoom-button").raise();
           svg.selectAll(".zoom-button-text").raise();
+        })
+        .on("keydown", (event:any) => {
+          // Keyboard accessibility for zoom in button
+          if (event.key === "Enter" || event.key === " ") {
+            const currentScale = projection.scale();
+            const newScale = Math.min(currentScale * 1.2, width);
+            
+            projection.scale(newScale);
+            svg.selectAll("path").attr("d", (d: any) => path(d));
+            svg.select(".globe").attr("r", newScale);
+            updatePins();
+            svg.selectAll(".zoom-button").raise();
+            svg.selectAll(".zoom-button-text").raise();
+          }
         });
     
       svg.append("text")
@@ -415,6 +549,7 @@ const captureInitialState = () => {
         .attr("y", height - 2 * buttonHeight - 2 * margin + buttonHeight/2 + (isScreenSmall ? 12 : 7))
         .attr("text-anchor", "middle")
         .attr("font-size", isScreenSmall ? "24px" : "16px")
+        .attr("aria-hidden", "true")
         .text("+");
     
       // Zoom Out Button
@@ -426,6 +561,10 @@ const captureInitialState = () => {
         .attr("height", buttonHeight)
         .attr("rx", 10)
         .attr("ry", 10)
+        .attr("role", "button")
+        .attr("tabindex", "0")
+        // Translatable aria-label for accessibility
+        .attr("aria-label", language === "fr" ? "Zoomer arrière" : "Zoom out")
         .on("click", () => {
           const currentScale = projection.scale();
           const newScale = Math.max(currentScale / 1.2, initialScale * minZoom);
@@ -436,6 +575,20 @@ const captureInitialState = () => {
           updatePins();
           svg.selectAll("rect").raise();
           svg.selectAll("text").raise();
+        })
+        .on("keydown", (event:any) => {
+          // Keyboard accessibility for zoom out button
+          if (event.key === "Enter" || event.key === " ") {
+            const currentScale = projection.scale();
+            const newScale = Math.max(currentScale / 1.2, initialScale * minZoom);
+            
+            projection.scale(newScale);
+            svg.selectAll("path").attr("d", (d: any) => path(d));
+            svg.select(".globe").attr("r", newScale);
+            updatePins();
+            svg.selectAll("rect").raise();
+            svg.selectAll("text").raise();
+          }
         });
     
       svg.append("text")
@@ -444,8 +597,8 @@ const captureInitialState = () => {
         .attr("y", height - buttonHeight - margin + buttonHeight/2 + (isScreenSmall ? 12 : 7))
         .attr("text-anchor", "middle")
         .attr("font-size", isScreenSmall ? "24px" : "16px")
+        .attr("aria-hidden", "true")
         .text("-");
-
     };
   
     
@@ -455,38 +608,35 @@ const captureInitialState = () => {
     renderZoomButtons();
     
     
-    const updatePins = () => {
+    const updatePinPositions = () => {
       svg.selectAll("image.point-pin")
         .attr("transform", (d: any) => {
           const coords = projection(d.geometry.coordinates);
-          
-          // Hide pins on the far side of the globe
           const visible = d3.geoDistance(projection.invert([width / 2, height / 2]), d.geometry.coordinates) < Math.PI / 2;
-          
           if (visible && coords) {
-            // If visible, show the pin and place it correctly
             return `translate(${coords[0] - pinWidth / 2}, ${coords[1] - pinHeight})`;
           } else {
-            // Hide the pin by translating it far off-screen
             return `translate(-9999, -9999)`;
           }
-        }).raise();
+        });
 
-        svg.selectAll("image.polygon-pin")
+      svg.selectAll("image.polygon-pin")
         .attr("transform", (d: any) => {
           const coords = projection(d3.polygonCentroid(d.geometry.coordinates[0]));
-          
-          // Hide pins on the far side of the globe
-          const visible = d3.geoDistance(projection.invert([width / 2, height / 2]), d3.polygonCentroid(d.geometry.coordinates[0])) < Math.PI / 2;
-          
+          const center = projection.invert?.([width / 2, height / 2]);
+          const visible = center ? d3.geoDistance(center, d3.polygonCentroid(d.geometry.coordinates[0])) < Math.PI / 2 : false;
           if (visible && coords) {
-            // If visible, show the pin and place it correctly
             return `translate(${coords[0] - pinWidth / 2}, ${coords[1] - pinHeight})`;
           } else {
-            // Hide the pin by translating it far off-screen
             return `translate(-9999, -9999)`;
           }
-        }).raise();
+        });
+    };
+
+    const updatePins = () => {
+      updatePinPositions();
+      svg.selectAll("image.point-pin").raise();
+      svg.selectAll("image.polygon-pin").raise();
     };
     
     // Optional rotation function
@@ -554,13 +704,13 @@ const captureInitialState = () => {
       return el.parentElement?.getAttribute("type") === "periodical" ? <Title {...props}/>
       : <SafeUnchangedNode {...props}/>
     },
-    // "tei-note": (props) => {
-    //   const el = props.teiNode as Element
-    //   if (el.getAttribute("xml:lang") === language) {
-    //     return <SafeUnchangedNode {...props}/>
-    //   }
-    //   return null
-    // },
+     "tei-note": (props) => {
+      const el = props.teiNode as Element
+     if (el.getAttribute("xml:lang") === language) {
+         return <SafeUnchangedNode {...props}/>
+      }
+       return null
+     },
     "tei-place": (props) => <EntitySimple isSynoptic={false} entityType={"tei-placeName"} {...props} />,
   }
 

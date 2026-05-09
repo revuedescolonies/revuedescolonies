@@ -1,13 +1,13 @@
-import React, { useEffect, useRef, useState } from "react"
+import React from "react"
 import { TBehavior, SafeUnchangedNode } from "gatsby-theme-ceteicean/src/components/DefaultBehaviors"
 import { Behavior } from "gatsby-theme-ceteicean/src/components/Behavior"
 import { EntityContext, NoteContext, DisplayContext } from "./Context"
-import type { TEntity } from "./Context"
 import { Button } from "@mui/material"
 import { styled } from '@mui/material/styles'
 import type {ButtonProps} from "@mui/material"
 import Popup from "./Popup"
 import { EntityColors, IColors } from "../../displayOptions"
+import { focusPanelFromTrigger } from "./focusUtils"
 
 type TEIProps = {
   teiNode: Node,
@@ -38,17 +38,20 @@ const EntityButton = styled(Button)<EntityButtonProps>(({ theme, entityType, ava
 
 const EntityLink: TBehavior = (props: TEIProps) => {
 
-  const { setEntity } = React.useContext(EntityContext)
+  const { entity, setEntity } = React.useContext(EntityContext)
   const { setNote } = React.useContext(NoteContext)
   const { contextOpts } = React.useContext(DisplayContext)
 
   const el = props.teiNode as Element
   const target = el.getAttribute('ref')
   const id = target?.replace('#', '') || ''
+  const reactId = React.useId().replace(/:/g, "")
 
   if (target) {
     const entityType: keyof IColors = el.tagName.toLowerCase().replace("tei-", "")
     const commentaryExists = Boolean(el.ownerDocument.getElementById(id))
+    const triggerId = `entity-trigger-${id}-${reactId}`
+    const panelId = `entity-panel-${id}`
 
     const handleClick = (event: React.MouseEvent) => {
       if (commentaryExists) {
@@ -64,7 +67,7 @@ const EntityLink: TBehavior = (props: TEIProps) => {
         };
         const fromRelation = false
         setNote(null)
-        setEntity({id, position, fromRelation})
+        setEntity({id, triggerId, position, fromRelation})
       }
     }
     
@@ -76,7 +79,11 @@ const EntityLink: TBehavior = (props: TEIProps) => {
 
     const content = <EntityButton component="a" entityType={entityType} color="default" variant="text"
       available={commentaryExists}
-      disableElevation size="small" onClick={handleClick} sx={highlight}>
+      id={triggerId}
+      aria-haspopup="dialog"
+      aria-controls={commentaryExists ? panelId : undefined}
+      aria-expanded={entity?.id === id ? true : undefined}
+      disableElevation size="small" onClick={handleClick} onKeyDown={(event) => focusPanelFromTrigger(event, panelId)} sx={highlight}>
       <SafeUnchangedNode {...props} />
     </EntityButton>
 
